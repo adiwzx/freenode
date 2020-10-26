@@ -5,988 +5,204 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇰🇷 adi|1024-T-韩国3, server: trotro.ml, port: 443, type: trojan, password: f6efe9df-195d-4202-b535-34d717bf9c4e, sni: trotro.ml}
-  - {name: 🇰🇷 adi|1024-A-韩国, server: eslenglish.ml, port: 443, type: vmess, uuid: e594a86e-1297-11eb-b7c0-560003060984, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /xhupv01a/, ws-headers: {Host: eslenglish.ml}}
-  - {name: 🇰🇷 adi|1024-A-韩国 2, server: bigsur.ml, port: 443, type: vmess, uuid: cb37e628-1294-11eb-b9d5-5600030607ce, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /cTVMZ58x/, ws-headers: {Host: bigsur.ml}}
-  - {name: 🇰🇷 adi|1024-A-韩国7, server: bigsur.cf, port: 443, type: vmess, uuid: b005bebc-1293-11eb-999a-560003060776, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /QTt0dJ4n/, ws-headers: {Host: bigsur.cf}}
-  - {name: 🇰🇷 adi|1024-T-韩国8, server: bigsur.tk, port: 443, type: trojan, password: 1d2664a6-5b59-4cb5-856b-0aa89bf76f95, sni: bigsur.tk}
-  - {name: 🇰🇷 adi|1024-A-韩国 3, server: littlesur.ml, port: 443, type: vmess, uuid: 968eb25e-129d-11eb-a405-560003060cc7, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /6XPyxBtz/, ws-headers: {Host: littlesur.ml}}
-  - {name: 🇰🇷 adi|1024-A-韩国 4, server: littlesur.tk, port: 443, type: vmess, uuid: 8cf40232-12a0-11eb-99d6-560003060edc, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /CbfgQY0A/, ws-headers: {Host: littlesur.tk}}
-  - {name: 🇺🇲 adi|1024-A-美国, server: v2-02.ssrsub.one, port: 45688, type: vmess, uuid: 55bb447f-13eb-b495-c766-ebd9c9dae7cb, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇯🇵 adi|1024-A-日本, server: bigsur.ga, port: 443, type: vmess, uuid: 23bae416-127d-11eb-9fb7-56000305f9c7, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /mowyrQIn/, ws-headers: {Host: bigsur.ga}}
-  - {name: 🇯🇵 adi|1024-A-日本 2, server: chinahright.ml, port: 443, type: vmess, uuid: 753746ee-1292-11eb-97ab-5600030606bd, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /xeu0iY6C/, ws-headers: {Host: chinahright.ml}}
-  - {name: 🇺🇲 adi|1024-B-西雅图, server: milkgogo.tk, port: 443, type: vmess, uuid: 6d356b14-1289-11eb-adc9-56000306017f, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /aEMkQbFU/, ws-headers: {Host: milkgogo.tk}}
-  - {name: 🇰🇷 adi|1024-A-韩国 5, server: cnhumanright.ml, port: 443, type: vmess, uuid: 66152a5a-127e-11eb-9125-56000305fa66, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /JiVGyZUu/, ws-headers: {Host: cnhumanright.ml}}
-  - {name: 🇯🇵 adi|1024-A-JP, server: milkgogo.ml, port: 443, type: vmess, uuid: 03d4b91e-128d-11eb-8da0-56000306030e, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /7JRaxOzC/, ws-headers: {Host: milkgogo.ml}}
-  - {name: 🇯🇵 adi|1024-A-JP 2, server: ccpisdevil.tk, port: 443, type: vmess, uuid: 86a0fba4-127f-11eb-9cc7-56000305fb00, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /U5gZcnBE/, ws-headers: {Host: ccpisdevil.tk}}
-  - {name: 🇯🇵 adi|1024-A-JP 3, server: eslenglish.cf, port: 443, type: vmess, uuid: 7fa84150-1297-11eb-aa70-560003060969, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /VjPB6opA/, ws-headers: {Host: eslenglish.cf}}
-  - {name: 🇯🇵 adi|1024-A-JP 4, server: geniusbar.tk, port: 443, type: vmess, uuid: 3d7115e2-129b-11eb-8843-560003060b33, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /SVaLwnBe/, ws-headers: {Host: geniusbar.tk}}
-  - {name: 🇳🇱 adi|1024-A-NL, server: 154.84.1.220, port: 443, type: vmess, uuid: 81e548a6-5203-4230-8c99-34a26f14e779, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.28596077.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 2, server: 154.84.1.137, port: 443, type: vmess, uuid: 01d207e9-c633-4164-a3ce-a5d1061865d7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.49836114.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 3, server: 154.84.1.210, port: 443, type: vmess, uuid: 0101f9da-93ea-4543-ade5-afebfa34aa60, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.57053041.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 4, server: 154.84.1.81, port: 443, type: vmess, uuid: 5c9f4ee0-499e-4524-98b6-2e195630f813, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0656333.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 5, server: 154.84.1.101, port: 443, type: vmess, uuid: ee595b2d-ffc2-4a83-bf74-09c121ffa239, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.1898870.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 6, server: 154.84.1.211, port: 443, type: vmess, uuid: b8c0a334-e5f3-4cb0-931c-6b4dfa39fad3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.46352799.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 7, server: 154.84.1.193, port: 443, type: vmess, uuid: 0101f9da-93ea-4543-ade5-afebfa34aa60, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.57053041.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 8, server: 154.84.1.42, port: 443, type: vmess, uuid: 3a869a5b-5bf0-4276-a1d0-d840c0664bea, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.6460649.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 9, server: 154.84.1.164, port: 443, type: vmess, uuid: ff658ff4-eb4c-4c42-9511-350d26d955e7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.20800980.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 10, server: 154.84.1.197, port: 443, type: vmess, uuid: bb2840dd-c606-4af9-bdd6-23453a026ab8, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.13612617.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 11, server: 154.84.1.66, port: 443, type: vmess, uuid: 26370ac2-4dd9-43ed-a358-7e6ca00fa706, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56726769.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 12, server: 154.84.1.159, port: 443, type: vmess, uuid: 0af5e8af-8fcb-4db3-8794-8148cb50a772, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.80323287.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 13, server: 154.84.1.106, port: 443, type: vmess, uuid: de86841d-02eb-4ca8-9d13-f735c5f3b178, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0921976354.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 14, server: 154.84.1.23, port: 443, type: vmess, uuid: d52eb29f-7149-4401-a1c5-3e3a0db588c2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.9134162.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 15, server: 154.84.1.191, port: 443, type: vmess, uuid: 5ab81ce0-c5f4-4d17-87f2-0b9ee442eae0, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.44985428.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 16, server: 154.84.1.11, port: 443, type: vmess, uuid: a0c5a96b-a0d9-4686-8eb8-b932051c79cd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.5189462.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 17, server: 154.84.1.133, port: 443, type: vmess, uuid: 38059d25-42f8-49af-a234-e3b880256014, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.9142674173.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 18, server: 154.84.1.15, port: 443, type: vmess, uuid: 651ccd49-f4cc-4da4-983e-ed7ba7ee8bcb, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.4212507134.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 19, server: 154.84.1.61, port: 443, type: vmess, uuid: fdbe9497-8585-4c0d-b2c3-cc344f435c47, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.6089793.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 20, server: 154.84.1.142, port: 443, type: vmess, uuid: 7aeba42d-2e90-422b-a345-c1bdc0362c69, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.40983279.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 21, server: 154.84.1.29, port: 443, type: vmess, uuid: b2dc1153-c64b-48ea-af9f-16039048d999, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.ocazuxhi.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 22, server: 154.84.1.194, port: 443, type: vmess, uuid: b8c0a334-e5f3-4cb0-931c-6b4dfa39fad3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.46352799.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL 23, server: 154.84.1.30, port: 443, type: vmess, uuid: b2dc1153-c64b-48ea-af9f-16039048d999, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.ocazuxhi.xyz}}
-  - {name: 🇷🇺 adi|1024-B-RU, server: v2-14.ssrsub.one, port: 45688, type: vmess, uuid: 55bb447f-13eb-b495-c766-ebd9c9dae7cb, alterId: 1, cipher: auto, tls: false}
-  - {name: adi|1024-B-CA, server: v2-03.ssrsub.one, port: 45688, type: vmess, uuid: 55bb447f-13eb-b495-c766-ebd9c9dae7cb, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|1024-A-US, server: littlesur.cf, port: 443, type: vmess, uuid: c9067508-129f-11eb-9228-560003060e1e, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /4UHWyFOw/, ws-headers: {Host: littlesur.cf}}
-  - {name: 🇺🇲 adi|1024-A-US 2, server: 198.2.200.115, port: 443, type: vmess, uuid: 1b5cad17-cbae-4b52-8369-87f902835a7f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.46066948.xyz}}
-  - {name: 🇺🇲 adi|1024-A-US 3, server: 198.2.195.113, port: 443, type: vmess, uuid: a2d4504e-e90a-4ace-a26d-ec57c2d894a5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.22774268.xyz}}
-  - {name: 🇺🇲 adi|1024-A-US 4, server: 173.82.150.26, port: 443, type: vmess, uuid: bca67cda-c298-4343-8ca5-803ce1bee90b, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.01226245.xyz}}
-  - {name: 🇺🇲 adi|1024-A-US 5, server: 23.225.213.245, port: 443, type: vmess, uuid: 5e4064b8-7ac7-4d0d-b1c1-08294e6b053c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.4244750.xyz}}
-  - {name: 🇺🇲 adi|1024-A-US 6, server: 198.2.222.149, port: 443, type: vmess, uuid: a2d4504e-e90a-4ace-a26d-ec57c2d894a5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.22774268.xyz}}
-  - {name: 🇺🇲 adi|1024-A-US 7, server: 23.224.82.171, port: 443, type: vmess, uuid: 5a7aff44-494d-46c4-9313-6378e2f71a13, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0162296.xyz}}
-  - {name: 🇺🇲 adi|1024-A-US 8, server: 23.225.57.202, port: 443, type: vmess, uuid: e2266c08-96aa-4ccb-b918-163db05abffa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.4198659.xyz}}
-  - {name: 🇺🇲 adi|1024-A-US 9, server: 104.233.240.249, port: 443, type: vmess, uuid: 16282caa-f501-45e9-a50e-e8d14f63296b, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0363847.xyz}}
-  - {name: 🇺🇲 adi|1024-A-US 10, server: 23.225.125.82, port: 443, type: vmess, uuid: 3786266d-788b-40b4-b795-f37ffcfdd95a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56626173.xyz}}
-  - {name: 🇺🇲 adi|1024-A-US 11, server: 23.234.230.37, port: 443, type: vmess, uuid: 4c7c65a6-092d-480e-b3b7-54ec337b5c7d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.84564860.xyz}}
-  - {name: 🇦🇺 adi|1024-A-AU_31, server: 1.0.0.1, port: 443, type: vmess, uuid: c2ff297e-03ea-4d43-af32-7953a4fbb63c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /1da41d7/, ws-headers: {Host: w.baidu2b.ml}}
-  - {name: adi|1024-B-CA_57, server: 64.137.189.88, port: 45688, type: vmess, uuid: 55bb447f-13eb-b495-c766-ebd9c9dae7cb, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇩🇪 adi|1024-A-DE_143, server: 89.163.212.34, port: 443, type: vmess, uuid: e5a59c58-d055-428e-b191-95fb5dcb7539, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: good.free9999.net}}
-  - {name: 🇯🇵 adi|1024-A-JP_281, server: 202.182.116.39, port: 443, type: vmess, uuid: a555502c-127a-11eb-816f-56000305f87e, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /Mn7VciRF/, ws-headers: {Host: fivedemands.ml}}
-  - {name: 🇯🇵 adi|1024-A-JP_282, server: 207.148.89.142, port: 443, type: vmess, uuid: f3e35a26-127b-11eb-8ec4-56000305f8fd, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /jp1sqeaS/, ws-headers: {Host: gfwdasb.xyz}}
-  - {name: 🇯🇵 adi|1024-A-JP_283, server: 167.179.109.28, port: 443, type: vmess, uuid: 23bae416-127d-11eb-9fb7-56000305f9c7, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /mowyrQIn/, ws-headers: {Host: bigsur.ga}}
-  - {name: 🇯🇵 adi|1024-A-JP_284, server: 141.164.34.180, port: 443, type: vmess, uuid: 66152a5a-127e-11eb-9125-56000305fa66, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /JiVGyZUu/, ws-headers: {Host: cnhumanright.ml}}
-  - {name: 🇯🇵 adi|1024-A-JP_285, server: 141.164.35.210, port: 443, type: vmess, uuid: 86a0fba4-127f-11eb-9cc7-56000305fb00, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /U5gZcnBE/, ws-headers: {Host: ccpisdevil.tk}}
-  - {name: 🇯🇵 adi|1024-A-JP_286, server: 141.164.43.130, port: 443, type: vmess, uuid: 03d4b91e-128d-11eb-8da0-56000306030e, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /7JRaxOzC/, ws-headers: {Host: milkgogo.ml}}
-  - {name: 🇯🇵 adi|1024-A-JP_287, server: 198.13.63.9, port: 443, type: vmess, uuid: 2ed10d92-128e-11eb-afd8-5600030603b2, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /5fpbQXJR/, ws-headers: {Host: antigfw.cf}}
-  - {name: 🇯🇵 adi|1024-A-JP_288, server: 141.164.41.43, port: 443, type: vmess, uuid: 753746ee-1292-11eb-97ab-5600030606bd, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /xeu0iY6C/, ws-headers: {Host: chinahright.ml}}
-  - {name: 🇯🇵 adi|1024-A-JP_290, server: 141.164.62.146, port: 443, type: vmess, uuid: 7fa84150-1297-11eb-aa70-560003060969, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /VjPB6opA/, ws-headers: {Host: eslenglish.cf}}
-  - {name: 🇯🇵 adi|1024-A-JP_291, server: 141.164.44.175, port: 443, type: vmess, uuid: 274b4e36-12a0-11eb-b658-560003060e7b, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /ObtXVK1J/, ws-headers: {Host: chinahr.cf}}
-  - {name: 🇯🇵 adi|1024-A-JP_292, server: 141.164.52.226, port: 443, type: vmess, uuid: 8cf40232-12a0-11eb-99d6-560003060edc, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /CbfgQY0A/, ws-headers: {Host: littlesur.tk}}
-  - {name: 🇯🇵 adi|1024-A-JP_293, server: 45.77.8.144, port: 443, type: vmess, uuid: 54fde82e-1279-11eb-ae4d-56000305f7e6, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /neVuw2Yg/, ws-headers: {Host: chinahumanr.tk}}
-  - {name: 🇯🇵 adi|1024-A-JP_298, server: 198.13.48.18, port: 443, type: vmess, uuid: 09d16d18-1313-11eb-b65a-560003065d00, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /Y6vq4CTF/, ws-headers: {Host: burgerkinggood.ml}}
-  - {name: 🇳🇱 adi|1024-A-NL_381, server: 154.84.1.84, port: 443, type: vmess, uuid: 8b722ceb-474c-4698-8fb8-c496bb3eb440, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 154.84.1.84}}
-  - {name: 🇳🇱 adi|1024-A-NL_386, server: 154.84.1.7, port: 443, type: vmess, uuid: 9c91b1ce-8b7d-4be1-8fe2-699da69470d0, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0751432.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL_387, server: 154.84.1.113, port: 443, type: vmess, uuid: f6d5a64e-c03e-4312-b395-0de496bae596, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 154.84.1.113}}
-  - {name: 🇳🇱 adi|1024-B-NL_389, server: 154.84.1.143, port: 443, type: vmess, uuid: 01d207e9-c633-4164-a3ce-a5d1061865d7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.49836114.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL_392, server: 154.84.1.196, port: 443, type: vmess, uuid: 5ab81ce0-c5f4-4d17-87f2-0b9ee442eae0, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 154.84.1.196}}
-  - {name: 🇳🇱 adi|1024-A-NL_393, server: 154.84.1.74, port: 443, type: vmess, uuid: ff658ff4-eb4c-4c42-9511-350d26d955e7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 154.84.1.74}}
-  - {name: 🇳🇱 adi|1024-A-NL_395, server: 154.84.1.75, port: 443, type: vmess, uuid: e2be4677-7d78-476c-99e7-bcc06e1bba75, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 154.84.1.75}}
-  - {name: 🇳🇱 adi|1024-A-NL_396, server: 154.84.1.238, port: 443, type: vmess, uuid: 58525ec7-e918-437c-9a14-45875b3e8f6f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.9996013755.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL_397, server: 154.84.1.115, port: 443, type: vmess, uuid: f6d5a64e-c03e-4312-b395-0de496bae596, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 154.84.1.115}}
-  - {name: 🇳🇱 adi|1024-A-NL_399, server: 154.84.1.67, port: 443, type: vmess, uuid: e28ebaf5-b734-4b11-93b4-0eeb7a433de1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 154.84.1.67}}
-  - {name: 🇳🇱 adi|1024-A-NL_401, server: 154.84.1.144, port: 443, type: vmess, uuid: 6c9b1c4b-685c-4a00-91a8-a52ddd90260d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.58613279.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL_403, server: 154.84.1.192, port: 443, type: vmess, uuid: bb2840dd-c606-4af9-bdd6-23453a026ab8, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 154.84.1.192}}
-  - {name: 🇳🇱 adi|1024-A-NL_405, server: 154.84.1.225, port: 443, type: vmess, uuid: 72201ac4-2fcc-4609-a7a8-8ac9e5334d38, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 154.84.1.225}}
-  - {name: 🇳🇱 adi|1024-A-NL_409, server: 154.84.1.72, port: 443, type: vmess, uuid: 03ae2e99-0345-49d0-8a20-a913bc808c97, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 154.84.1.72}}
-  - {name: 🇳🇱 adi|1024-A-NL_416, server: 154.84.1.63, port: 443, type: vmess, uuid: 0af5e8af-8fcb-4db3-8794-8148cb50a772, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 154.84.1.63}}
-  - {name: 🇳🇱 adi|1024-A-NL_417, server: 154.84.1.226, port: 51658, type: vmess, uuid: 784d3c84-e5d5-443b-888f-519553fb9ea9, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 adi|1024-A-NL_420, server: 154.84.1.161, port: 443, type: vmess, uuid: e28ebaf5-b734-4b11-93b4-0eeb7a433de1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.32429678.xyz}}
-  - {name: 🇳🇱 adi|1024-A-NL_424, server: 154.84.1.70, port: 443, type: vmess, uuid: e1b90914-fe82-47e5-b4fc-1454776d8014, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 154.84.1.70}}
-  - {name: 🇷🇺 adi|1024-B-RU_468, server: 45.137.154.131, port: 45688, type: vmess, uuid: 55bb447f-13eb-b495-c766-ebd9c9dae7cb, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|1024-A-US_644, server: 23.224.69.5, port: 443, type: vmess, uuid: 962ca257-7797-4c17-a4ad-7a39d7795253, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7586616.xyz}}
-  - {name: 🇺🇲 adi|1024-A-US_645, server: 209.141.62.129, port: 45688, type: vmess, uuid: 55bb447f-13eb-b495-c766-ebd9c9dae7cb, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|1024-A-US_652, server: 198.2.217.238, port: 443, type: vmess, uuid: 5fcd3add-4c6b-48bd-9de7-3fa9cd0b35ea, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.1497244.xyz}}
-  - {name: 🇺🇲 adi|1024-B-US_656, server: 173.82.76.122, port: 443, type: vmess, uuid: 52d57305-bb22-45bb-b57c-0d947e1487d7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.74195551.xyz}}
-  - {name: 🇺🇲 adi|1024-A-US_659, server: 23.225.125.85, port: 443, type: vmess, uuid: 3786266d-788b-40b4-b795-f37ffcfdd95a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 23.225.125.85}}
-  - {name: 🇺🇲 adi|1024-A-US_663, server: 158.247.205.130, port: 443, type: vmess, uuid: c9067508-129f-11eb-9228-560003060e1e, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /4UHWyFOw/, ws-headers: {Host: littlesur.cf}}
-  - {name: 🇺🇲 adi|1024-B-US_665, server: 172.67.199.187, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
-  - {name: 🇺🇲 adi|1024-A-US_668, server: 142.4.120.9, port: 443, type: vmess, uuid: 7b0f8819-88f1-4a6b-9376-da9d8fb066c9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.48102.xyz}}
-  - {name: 🇺🇲 adi|1024-A-US_672, server: 23.225.9.252, port: 443, type: vmess, uuid: fd95594a-4a04-4f78-94b0-49405b9819aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.5307259.xyz}}
-  - {name: 🇺🇲 adi|1024-B-US_673, server: 142.0.132.147, port: 443, type: vmess, uuid: b5d7413b-d865-4723-962e-651f6c75bd6e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 142.0.132.147}}
-  - {name: 🇺🇲 adi|1024-A-US_680, server: 158.247.199.135, port: 443, type: vmess, uuid: 46714f7e-12a3-11eb-9184-56000306120f, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /k5ijCthP/, ws-headers: {Host: freedomweneed.ml}}
-  - {name: 🇺🇲 adi|1024-A-US_681, server: 158.247.196.164, port: 443, type: vmess, uuid: 968eb25e-129d-11eb-a405-560003060cc7, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /6XPyxBtz/, ws-headers: {Host: littlesur.ml}}
-  - {name: 🇺🇲 adi|1024-A-US_684, server: 158.247.211.157, port: 443, type: vmess, uuid: cb37e628-1294-11eb-b9d5-5600030607ce, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /cTVMZ58x/, ws-headers: {Host: bigsur.ml}}
-  - {name: 🇺🇲 adi|1024-A-US_690, server: 23.224.69.21, port: 443, type: vmess, uuid: 58eaee53-14ff-4911-8442-4b46f68f9766, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 23.224.69.21}}
-  - {name: 🇺🇲 adi|1024-A-US_692, server: 23.224.82.170, port: 443, type: vmess, uuid: 5a7aff44-494d-46c4-9313-6378e2f71a13, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0162296.xyz}}
-  - {name: 🇺🇲 adi|1024-A-US_694, server: 23.225.9.251, port: 443, type: vmess, uuid: fd95594a-4a04-4f78-94b0-49405b9819aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.5307259.xyz}}
+  - {name: adi|1026-T-kr, server: bigsur.tk, port: 443, type: trojan, password: 1d2664a6-5b59-4cb5-856b-0aa89bf76f95, sni: bigsur.tk}
+  - {name: 🇯🇵 adi|1026-T-JP, server: milkgogo.ga, port: 443, type: trojan, password: 8244922f-9937-46ba-b9fa-17708e376220, sni: milkgogo.ga}
+  - {name: 🇯🇵 adi|1026-T-JP 2, server: xibun.gq, port: 443, type: trojan, password: 5f83fa6c-db2d-4cca-ba2b-5464085eb309, sni: xibun.gq}
+  - {name: 🇺🇲 adi|1026-T-US, server: fuckxiaofenhong.tk, port: 443, type: trojan, password: d3640bf1-53b3-454c-90ed-4ecaab754b26, sni: fuckxiaofenhong.tk}
+  - {name: 🇺🇲 adi|1026-T-US 2, server: fuckxiaofenhong.ga, port: 443, type: trojan, password: f797930d-281b-46fb-88c9-29739fb257d7, sni: fuckxiaofenhong.ga}
+  - {name: 🇺🇲 adi|1026-T-US 3, server: fuckxiaofenhong.ml, port: 443, type: trojan, password: ad1ac8fa-5ada-4016-9cfa-97ca2c338929, sni: fuckxiaofenhong.ml}
+  - {name: adi|1024-T-kr, server: trotro.ml, port: 443, type: trojan, password: f6efe9df-195d-4202-b535-34d717bf9c4e, sni: trotro.ml}
+  - {name: adi|1026-A-en, server: 185.44.76.188, port: 34762, type: ss, cipher: aes-256-gcm, password: yxGY7A5MczQYg6UqSFx9u78V}
+  - {name: 🇺🇲 adi|freenode1020-US, server: 76.223.24.33, port: 39728, type: vmess, uuid: e8cb7c3f-4b56-4aa5-b965-6242965213d8, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: http://wap.hb.189.cn}}
+  - {name: 🇺🇲 adi|freenode1020-US 2, server: 13.248.144.184, port: 39728, type: vmess, uuid: e8cb7c3f-4b56-4aa5-b965-6242965213d8, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: http://wap.hb.189.cn}}
+  - {name: 🇺🇲 adi|freenode1020-US 3, server: 13.248.184.113, port: 40201, type: vmess, uuid: a8497551-3407-3c9e-a126-7834101b5f6a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 13.248.184.113}}
+  - {name: 🇺🇲 adi|freenode1020-US 4, server: 104.18.56.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
   - {name: 🇺🇲 adi|1024-A-US_701, server: 158.247.209.122, port: 443, type: vmess, uuid: b005bebc-1293-11eb-999a-560003060776, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /QTt0dJ4n/, ws-headers: {Host: bigsur.cf}}
-  - {name: 🇺🇲 adi|1024-B-US_708, server: 172.247.0.229, port: 443, type: vmess, uuid: 0191058d-c995-4f54-a5b6-ab97871e4b8f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.41171.xyz}}
-  - {name: 🇺🇲 adi|1024-A-US_712, server: 23.224.69.3, port: 443, type: vmess, uuid: 962ca257-7797-4c17-a4ad-7a39d7795253, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7586616.xyz}}
-  - {name: 🇺🇲 adi|1024-B-US_714, server: 107.148.199.234, port: 443, type: vmess, uuid: a9749fe7-2f49-4a9a-84a0-a441368ac378, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.43725518.xyz}}
-  - {name: adi|1024-B-ZZ_756, server: 139.64.245.4, port: 45688, type: vmess, uuid: 55bb447f-13eb-b495-c766-ebd9c9dae7cb, alterId: 1, cipher: auto, tls: false}
-  - {name: adi|1024-B-ZZ_757, server: 139.64.244.246, port: 45688, type: vmess, uuid: 55bb447f-13eb-b495-c766-ebd9c9dae7cb, alterId: 1, cipher: auto, tls: false}
-  - {name: adi|1024-B-ZZ_759, server: 139.64.244.249, port: 45688, type: vmess, uuid: 55bb447f-13eb-b495-c766-ebd9c9dae7cb, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇷🇺 adi|1024-B-俄罗斯, server: v2-12.ssrsub.one, port: 45688, type: vmess, uuid: 55bb447f-13eb-b495-c766-ebd9c9dae7cb, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇰🇷 adi|1024-A-韩国1, server: chinahr.cf, port: 443, type: vmess, uuid: 274b4e36-12a0-11eb-b658-560003060e7b, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /ObtXVK1J/, ws-headers: {Host: chinahr.cf}}
-  - {name: 🇳🇱 adi|1024-A-荷兰, server: 154.84.1.219, port: 443, type: vmess, uuid: 44e08632-8dbf-4b70-a893-1b31ead60ade, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.76043239.xyz}}
-  - {name: 🇳🇱 adi|1024-B-荷兰, server: 154.84.1.80, port: 443, type: vmess, uuid: 81e548a6-5203-4230-8c99-34a26f14e779, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.28596077.xyz}}
-  - {name: 🇳🇱 adi|1024-A-荷兰 2, server: 154.84.1.83, port: 443, type: vmess, uuid: 8b722ceb-474c-4698-8fb8-c496bb3eb440, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.98868925.xyz}}
-  - {name: 🇳🇱 adi|1024-A-荷兰 3, server: 154.84.1.162, port: 443, type: vmess, uuid: e1b90914-fe82-47e5-b4fc-1454776d8014, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.64978360.xyz}}
-  - {name: 🇳🇱 adi|1024-B-荷兰 2, server: 154.84.1.226, port: 51658, type: vmess, uuid: 784d3c84-e5d5-443b-888f-519553fb9ea9, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 adi|1024-B-荷兰 3, server: 154.84.1.212, port: 443, type: vmess, uuid: 72a475f9-6a5c-4acd-8cd2-12609e946a97, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54331899.xyz}}
+  - {name: 🇺🇲 adi|1024-A-US_681, server: 158.247.196.164, port: 443, type: vmess, uuid: 968eb25e-129d-11eb-a405-560003060cc7, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /6XPyxBtz/, ws-headers: {Host: littlesur.ml}}
+  - {name: 🇺🇲 adi|1024-B-US_665, server: 172.67.199.187, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
+  - {name: 🇯🇵 adi|1024-A-JP_288, server: 141.164.41.43, port: 443, type: vmess, uuid: 753746ee-1292-11eb-97ab-5600030606bd, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /xeu0iY6C/, ws-headers: {Host: chinahright.ml}}
+  - {name: 🇦🇺 adi|1024-A-AU_31, server: 1.0.0.1, port: 443, type: vmess, uuid: c2ff297e-03ea-4d43-af32-7953a4fbb63c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /1da41d7/, ws-headers: {Host: w.baidu2b.ml}}
+  - {name: adi|1024-A-jp, server: chinahright.ml, port: 443, type: vmess, uuid: 753746ee-1292-11eb-97ab-5600030606bd, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /xeu0iY6C/, ws-headers: {Host: chinahright.ml}}
+  - {name: adi|1024-A-kr, server: littlesur.ml, port: 443, type: vmess, uuid: 968eb25e-129d-11eb-a405-560003060cc7, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /6XPyxBtz/, ws-headers: {Host: littlesur.ml}}
+  - {name: adi|1024-A-kr 2, server: bigsur.cf, port: 443, type: vmess, uuid: b005bebc-1293-11eb-999a-560003060776, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /QTt0dJ4n/, ws-headers: {Host: bigsur.cf}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇰🇷 adi|1024-T-韩国3
-      - 🇰🇷 adi|1024-A-韩国
-      - 🇰🇷 adi|1024-A-韩国 2
-      - 🇰🇷 adi|1024-A-韩国7
-      - 🇰🇷 adi|1024-T-韩国8
-      - 🇰🇷 adi|1024-A-韩国 3
-      - 🇰🇷 adi|1024-A-韩国 4
-      - 🇺🇲 adi|1024-A-美国
-      - 🇯🇵 adi|1024-A-日本
-      - 🇯🇵 adi|1024-A-日本 2
-      - 🇺🇲 adi|1024-B-西雅图
-      - 🇰🇷 adi|1024-A-韩国 5
-      - 🇯🇵 adi|1024-A-JP
-      - 🇯🇵 adi|1024-A-JP 2
-      - 🇯🇵 adi|1024-A-JP 3
-      - 🇯🇵 adi|1024-A-JP 4
-      - 🇳🇱 adi|1024-A-NL
-      - 🇳🇱 adi|1024-A-NL 2
-      - 🇳🇱 adi|1024-A-NL 3
-      - 🇳🇱 adi|1024-A-NL 4
-      - 🇳🇱 adi|1024-A-NL 5
-      - 🇳🇱 adi|1024-A-NL 6
-      - 🇳🇱 adi|1024-A-NL 7
-      - 🇳🇱 adi|1024-A-NL 8
-      - 🇳🇱 adi|1024-A-NL 9
-      - 🇳🇱 adi|1024-A-NL 10
-      - 🇳🇱 adi|1024-A-NL 11
-      - 🇳🇱 adi|1024-A-NL 12
-      - 🇳🇱 adi|1024-A-NL 13
-      - 🇳🇱 adi|1024-A-NL 14
-      - 🇳🇱 adi|1024-A-NL 15
-      - 🇳🇱 adi|1024-A-NL 16
-      - 🇳🇱 adi|1024-A-NL 17
-      - 🇳🇱 adi|1024-A-NL 18
-      - 🇳🇱 adi|1024-A-NL 19
-      - 🇳🇱 adi|1024-A-NL 20
-      - 🇳🇱 adi|1024-A-NL 21
-      - 🇳🇱 adi|1024-A-NL 22
-      - 🇳🇱 adi|1024-A-NL 23
-      - 🇷🇺 adi|1024-B-RU
-      - adi|1024-B-CA
-      - 🇺🇲 adi|1024-A-US
-      - 🇺🇲 adi|1024-A-US 2
-      - 🇺🇲 adi|1024-A-US 3
-      - 🇺🇲 adi|1024-A-US 4
-      - 🇺🇲 adi|1024-A-US 5
-      - 🇺🇲 adi|1024-A-US 6
-      - 🇺🇲 adi|1024-A-US 7
-      - 🇺🇲 adi|1024-A-US 8
-      - 🇺🇲 adi|1024-A-US 9
-      - 🇺🇲 adi|1024-A-US 10
-      - 🇺🇲 adi|1024-A-US 11
-      - 🇦🇺 adi|1024-A-AU_31
-      - adi|1024-B-CA_57
-      - 🇩🇪 adi|1024-A-DE_143
-      - 🇯🇵 adi|1024-A-JP_281
-      - 🇯🇵 adi|1024-A-JP_282
-      - 🇯🇵 adi|1024-A-JP_283
-      - 🇯🇵 adi|1024-A-JP_284
-      - 🇯🇵 adi|1024-A-JP_285
-      - 🇯🇵 adi|1024-A-JP_286
-      - 🇯🇵 adi|1024-A-JP_287
-      - 🇯🇵 adi|1024-A-JP_288
-      - 🇯🇵 adi|1024-A-JP_290
-      - 🇯🇵 adi|1024-A-JP_291
-      - 🇯🇵 adi|1024-A-JP_292
-      - 🇯🇵 adi|1024-A-JP_293
-      - 🇯🇵 adi|1024-A-JP_298
-      - 🇳🇱 adi|1024-A-NL_381
-      - 🇳🇱 adi|1024-A-NL_386
-      - 🇳🇱 adi|1024-A-NL_387
-      - 🇳🇱 adi|1024-B-NL_389
-      - 🇳🇱 adi|1024-A-NL_392
-      - 🇳🇱 adi|1024-A-NL_393
-      - 🇳🇱 adi|1024-A-NL_395
-      - 🇳🇱 adi|1024-A-NL_396
-      - 🇳🇱 adi|1024-A-NL_397
-      - 🇳🇱 adi|1024-A-NL_399
-      - 🇳🇱 adi|1024-A-NL_401
-      - 🇳🇱 adi|1024-A-NL_403
-      - 🇳🇱 adi|1024-A-NL_405
-      - 🇳🇱 adi|1024-A-NL_409
-      - 🇳🇱 adi|1024-A-NL_416
-      - 🇳🇱 adi|1024-A-NL_417
-      - 🇳🇱 adi|1024-A-NL_420
-      - 🇳🇱 adi|1024-A-NL_424
-      - 🇷🇺 adi|1024-B-RU_468
-      - 🇺🇲 adi|1024-A-US_644
-      - 🇺🇲 adi|1024-A-US_645
-      - 🇺🇲 adi|1024-A-US_652
-      - 🇺🇲 adi|1024-B-US_656
-      - 🇺🇲 adi|1024-A-US_659
-      - 🇺🇲 adi|1024-A-US_663
-      - 🇺🇲 adi|1024-B-US_665
-      - 🇺🇲 adi|1024-A-US_668
-      - 🇺🇲 adi|1024-A-US_672
-      - 🇺🇲 adi|1024-B-US_673
-      - 🇺🇲 adi|1024-A-US_680
-      - 🇺🇲 adi|1024-A-US_681
-      - 🇺🇲 adi|1024-A-US_684
-      - 🇺🇲 adi|1024-A-US_690
-      - 🇺🇲 adi|1024-A-US_692
-      - 🇺🇲 adi|1024-A-US_694
+      - adi|1026-T-kr
+      - 🇯🇵 adi|1026-T-JP
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇺🇲 adi|1026-T-US
+      - 🇺🇲 adi|1026-T-US 2
+      - 🇺🇲 adi|1026-T-US 3
+      - adi|1024-T-kr
+      - adi|1026-A-en
+      - 🇺🇲 adi|freenode1020-US
+      - 🇺🇲 adi|freenode1020-US 2
+      - 🇺🇲 adi|freenode1020-US 3
+      - 🇺🇲 adi|freenode1020-US 4
       - 🇺🇲 adi|1024-A-US_701
-      - 🇺🇲 adi|1024-B-US_708
-      - 🇺🇲 adi|1024-A-US_712
-      - 🇺🇲 adi|1024-B-US_714
-      - adi|1024-B-ZZ_756
-      - adi|1024-B-ZZ_757
-      - adi|1024-B-ZZ_759
-      - 🇷🇺 adi|1024-B-俄罗斯
-      - 🇰🇷 adi|1024-A-韩国1
-      - 🇳🇱 adi|1024-A-荷兰
-      - 🇳🇱 adi|1024-B-荷兰
-      - 🇳🇱 adi|1024-A-荷兰 2
-      - 🇳🇱 adi|1024-A-荷兰 3
-      - 🇳🇱 adi|1024-B-荷兰 2
-      - 🇳🇱 adi|1024-B-荷兰 3
+      - 🇺🇲 adi|1024-A-US_681
+      - 🇺🇲 adi|1024-B-US_665
+      - 🇯🇵 adi|1024-A-JP_288
+      - 🇦🇺 adi|1024-A-AU_31
+      - adi|1024-A-jp
+      - adi|1024-A-kr
+      - adi|1024-A-kr 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇰🇷 adi|1024-T-韩国3
-      - 🇰🇷 adi|1024-A-韩国
-      - 🇰🇷 adi|1024-A-韩国 2
-      - 🇰🇷 adi|1024-A-韩国7
-      - 🇰🇷 adi|1024-T-韩国8
-      - 🇰🇷 adi|1024-A-韩国 3
-      - 🇰🇷 adi|1024-A-韩国 4
-      - 🇺🇲 adi|1024-A-美国
-      - 🇯🇵 adi|1024-A-日本
-      - 🇯🇵 adi|1024-A-日本 2
-      - 🇺🇲 adi|1024-B-西雅图
-      - 🇰🇷 adi|1024-A-韩国 5
-      - 🇯🇵 adi|1024-A-JP
-      - 🇯🇵 adi|1024-A-JP 2
-      - 🇯🇵 adi|1024-A-JP 3
-      - 🇯🇵 adi|1024-A-JP 4
-      - 🇳🇱 adi|1024-A-NL
-      - 🇳🇱 adi|1024-A-NL 2
-      - 🇳🇱 adi|1024-A-NL 3
-      - 🇳🇱 adi|1024-A-NL 4
-      - 🇳🇱 adi|1024-A-NL 5
-      - 🇳🇱 adi|1024-A-NL 6
-      - 🇳🇱 adi|1024-A-NL 7
-      - 🇳🇱 adi|1024-A-NL 8
-      - 🇳🇱 adi|1024-A-NL 9
-      - 🇳🇱 adi|1024-A-NL 10
-      - 🇳🇱 adi|1024-A-NL 11
-      - 🇳🇱 adi|1024-A-NL 12
-      - 🇳🇱 adi|1024-A-NL 13
-      - 🇳🇱 adi|1024-A-NL 14
-      - 🇳🇱 adi|1024-A-NL 15
-      - 🇳🇱 adi|1024-A-NL 16
-      - 🇳🇱 adi|1024-A-NL 17
-      - 🇳🇱 adi|1024-A-NL 18
-      - 🇳🇱 adi|1024-A-NL 19
-      - 🇳🇱 adi|1024-A-NL 20
-      - 🇳🇱 adi|1024-A-NL 21
-      - 🇳🇱 adi|1024-A-NL 22
-      - 🇳🇱 adi|1024-A-NL 23
-      - 🇷🇺 adi|1024-B-RU
-      - adi|1024-B-CA
-      - 🇺🇲 adi|1024-A-US
-      - 🇺🇲 adi|1024-A-US 2
-      - 🇺🇲 adi|1024-A-US 3
-      - 🇺🇲 adi|1024-A-US 4
-      - 🇺🇲 adi|1024-A-US 5
-      - 🇺🇲 adi|1024-A-US 6
-      - 🇺🇲 adi|1024-A-US 7
-      - 🇺🇲 adi|1024-A-US 8
-      - 🇺🇲 adi|1024-A-US 9
-      - 🇺🇲 adi|1024-A-US 10
-      - 🇺🇲 adi|1024-A-US 11
-      - 🇦🇺 adi|1024-A-AU_31
-      - adi|1024-B-CA_57
-      - 🇩🇪 adi|1024-A-DE_143
-      - 🇯🇵 adi|1024-A-JP_281
-      - 🇯🇵 adi|1024-A-JP_282
-      - 🇯🇵 adi|1024-A-JP_283
-      - 🇯🇵 adi|1024-A-JP_284
-      - 🇯🇵 adi|1024-A-JP_285
-      - 🇯🇵 adi|1024-A-JP_286
-      - 🇯🇵 adi|1024-A-JP_287
-      - 🇯🇵 adi|1024-A-JP_288
-      - 🇯🇵 adi|1024-A-JP_290
-      - 🇯🇵 adi|1024-A-JP_291
-      - 🇯🇵 adi|1024-A-JP_292
-      - 🇯🇵 adi|1024-A-JP_293
-      - 🇯🇵 adi|1024-A-JP_298
-      - 🇳🇱 adi|1024-A-NL_381
-      - 🇳🇱 adi|1024-A-NL_386
-      - 🇳🇱 adi|1024-A-NL_387
-      - 🇳🇱 adi|1024-B-NL_389
-      - 🇳🇱 adi|1024-A-NL_392
-      - 🇳🇱 adi|1024-A-NL_393
-      - 🇳🇱 adi|1024-A-NL_395
-      - 🇳🇱 adi|1024-A-NL_396
-      - 🇳🇱 adi|1024-A-NL_397
-      - 🇳🇱 adi|1024-A-NL_399
-      - 🇳🇱 adi|1024-A-NL_401
-      - 🇳🇱 adi|1024-A-NL_403
-      - 🇳🇱 adi|1024-A-NL_405
-      - 🇳🇱 adi|1024-A-NL_409
-      - 🇳🇱 adi|1024-A-NL_416
-      - 🇳🇱 adi|1024-A-NL_417
-      - 🇳🇱 adi|1024-A-NL_420
-      - 🇳🇱 adi|1024-A-NL_424
-      - 🇷🇺 adi|1024-B-RU_468
-      - 🇺🇲 adi|1024-A-US_644
-      - 🇺🇲 adi|1024-A-US_645
-      - 🇺🇲 adi|1024-A-US_652
-      - 🇺🇲 adi|1024-B-US_656
-      - 🇺🇲 adi|1024-A-US_659
-      - 🇺🇲 adi|1024-A-US_663
-      - 🇺🇲 adi|1024-B-US_665
-      - 🇺🇲 adi|1024-A-US_668
-      - 🇺🇲 adi|1024-A-US_672
-      - 🇺🇲 adi|1024-B-US_673
-      - 🇺🇲 adi|1024-A-US_680
-      - 🇺🇲 adi|1024-A-US_681
-      - 🇺🇲 adi|1024-A-US_684
-      - 🇺🇲 adi|1024-A-US_690
-      - 🇺🇲 adi|1024-A-US_692
-      - 🇺🇲 adi|1024-A-US_694
+      - adi|1026-T-kr
+      - 🇯🇵 adi|1026-T-JP
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇺🇲 adi|1026-T-US
+      - 🇺🇲 adi|1026-T-US 2
+      - 🇺🇲 adi|1026-T-US 3
+      - adi|1024-T-kr
+      - adi|1026-A-en
+      - 🇺🇲 adi|freenode1020-US
+      - 🇺🇲 adi|freenode1020-US 2
+      - 🇺🇲 adi|freenode1020-US 3
+      - 🇺🇲 adi|freenode1020-US 4
       - 🇺🇲 adi|1024-A-US_701
-      - 🇺🇲 adi|1024-B-US_708
-      - 🇺🇲 adi|1024-A-US_712
-      - 🇺🇲 adi|1024-B-US_714
-      - adi|1024-B-ZZ_756
-      - adi|1024-B-ZZ_757
-      - adi|1024-B-ZZ_759
-      - 🇷🇺 adi|1024-B-俄罗斯
-      - 🇰🇷 adi|1024-A-韩国1
-      - 🇳🇱 adi|1024-A-荷兰
-      - 🇳🇱 adi|1024-B-荷兰
-      - 🇳🇱 adi|1024-A-荷兰 2
-      - 🇳🇱 adi|1024-A-荷兰 3
-      - 🇳🇱 adi|1024-B-荷兰 2
-      - 🇳🇱 adi|1024-B-荷兰 3
+      - 🇺🇲 adi|1024-A-US_681
+      - 🇺🇲 adi|1024-B-US_665
+      - 🇯🇵 adi|1024-A-JP_288
+      - 🇦🇺 adi|1024-A-AU_31
+      - adi|1024-A-jp
+      - adi|1024-A-kr
+      - adi|1024-A-kr 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 adi|1024-T-韩国3
-      - 🇰🇷 adi|1024-A-韩国
-      - 🇰🇷 adi|1024-A-韩国 2
-      - 🇰🇷 adi|1024-A-韩国7
-      - 🇰🇷 adi|1024-T-韩国8
-      - 🇰🇷 adi|1024-A-韩国 3
-      - 🇰🇷 adi|1024-A-韩国 4
-      - 🇺🇲 adi|1024-A-美国
-      - 🇯🇵 adi|1024-A-日本
-      - 🇯🇵 adi|1024-A-日本 2
-      - 🇺🇲 adi|1024-B-西雅图
-      - 🇰🇷 adi|1024-A-韩国 5
-      - 🇯🇵 adi|1024-A-JP
-      - 🇯🇵 adi|1024-A-JP 2
-      - 🇯🇵 adi|1024-A-JP 3
-      - 🇯🇵 adi|1024-A-JP 4
-      - 🇳🇱 adi|1024-A-NL
-      - 🇳🇱 adi|1024-A-NL 2
-      - 🇳🇱 adi|1024-A-NL 3
-      - 🇳🇱 adi|1024-A-NL 4
-      - 🇳🇱 adi|1024-A-NL 5
-      - 🇳🇱 adi|1024-A-NL 6
-      - 🇳🇱 adi|1024-A-NL 7
-      - 🇳🇱 adi|1024-A-NL 8
-      - 🇳🇱 adi|1024-A-NL 9
-      - 🇳🇱 adi|1024-A-NL 10
-      - 🇳🇱 adi|1024-A-NL 11
-      - 🇳🇱 adi|1024-A-NL 12
-      - 🇳🇱 adi|1024-A-NL 13
-      - 🇳🇱 adi|1024-A-NL 14
-      - 🇳🇱 adi|1024-A-NL 15
-      - 🇳🇱 adi|1024-A-NL 16
-      - 🇳🇱 adi|1024-A-NL 17
-      - 🇳🇱 adi|1024-A-NL 18
-      - 🇳🇱 adi|1024-A-NL 19
-      - 🇳🇱 adi|1024-A-NL 20
-      - 🇳🇱 adi|1024-A-NL 21
-      - 🇳🇱 adi|1024-A-NL 22
-      - 🇳🇱 adi|1024-A-NL 23
-      - 🇷🇺 adi|1024-B-RU
-      - adi|1024-B-CA
-      - 🇺🇲 adi|1024-A-US
-      - 🇺🇲 adi|1024-A-US 2
-      - 🇺🇲 adi|1024-A-US 3
-      - 🇺🇲 adi|1024-A-US 4
-      - 🇺🇲 adi|1024-A-US 5
-      - 🇺🇲 adi|1024-A-US 6
-      - 🇺🇲 adi|1024-A-US 7
-      - 🇺🇲 adi|1024-A-US 8
-      - 🇺🇲 adi|1024-A-US 9
-      - 🇺🇲 adi|1024-A-US 10
-      - 🇺🇲 adi|1024-A-US 11
-      - 🇦🇺 adi|1024-A-AU_31
-      - adi|1024-B-CA_57
-      - 🇩🇪 adi|1024-A-DE_143
-      - 🇯🇵 adi|1024-A-JP_281
-      - 🇯🇵 adi|1024-A-JP_282
-      - 🇯🇵 adi|1024-A-JP_283
-      - 🇯🇵 adi|1024-A-JP_284
-      - 🇯🇵 adi|1024-A-JP_285
-      - 🇯🇵 adi|1024-A-JP_286
-      - 🇯🇵 adi|1024-A-JP_287
-      - 🇯🇵 adi|1024-A-JP_288
-      - 🇯🇵 adi|1024-A-JP_290
-      - 🇯🇵 adi|1024-A-JP_291
-      - 🇯🇵 adi|1024-A-JP_292
-      - 🇯🇵 adi|1024-A-JP_293
-      - 🇯🇵 adi|1024-A-JP_298
-      - 🇳🇱 adi|1024-A-NL_381
-      - 🇳🇱 adi|1024-A-NL_386
-      - 🇳🇱 adi|1024-A-NL_387
-      - 🇳🇱 adi|1024-B-NL_389
-      - 🇳🇱 adi|1024-A-NL_392
-      - 🇳🇱 adi|1024-A-NL_393
-      - 🇳🇱 adi|1024-A-NL_395
-      - 🇳🇱 adi|1024-A-NL_396
-      - 🇳🇱 adi|1024-A-NL_397
-      - 🇳🇱 adi|1024-A-NL_399
-      - 🇳🇱 adi|1024-A-NL_401
-      - 🇳🇱 adi|1024-A-NL_403
-      - 🇳🇱 adi|1024-A-NL_405
-      - 🇳🇱 adi|1024-A-NL_409
-      - 🇳🇱 adi|1024-A-NL_416
-      - 🇳🇱 adi|1024-A-NL_417
-      - 🇳🇱 adi|1024-A-NL_420
-      - 🇳🇱 adi|1024-A-NL_424
-      - 🇷🇺 adi|1024-B-RU_468
-      - 🇺🇲 adi|1024-A-US_644
-      - 🇺🇲 adi|1024-A-US_645
-      - 🇺🇲 adi|1024-A-US_652
-      - 🇺🇲 adi|1024-B-US_656
-      - 🇺🇲 adi|1024-A-US_659
-      - 🇺🇲 adi|1024-A-US_663
-      - 🇺🇲 adi|1024-B-US_665
-      - 🇺🇲 adi|1024-A-US_668
-      - 🇺🇲 adi|1024-A-US_672
-      - 🇺🇲 adi|1024-B-US_673
-      - 🇺🇲 adi|1024-A-US_680
-      - 🇺🇲 adi|1024-A-US_681
-      - 🇺🇲 adi|1024-A-US_684
-      - 🇺🇲 adi|1024-A-US_690
-      - 🇺🇲 adi|1024-A-US_692
-      - 🇺🇲 adi|1024-A-US_694
+      - adi|1026-T-kr
+      - 🇯🇵 adi|1026-T-JP
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇺🇲 adi|1026-T-US
+      - 🇺🇲 adi|1026-T-US 2
+      - 🇺🇲 adi|1026-T-US 3
+      - adi|1024-T-kr
+      - adi|1026-A-en
+      - 🇺🇲 adi|freenode1020-US
+      - 🇺🇲 adi|freenode1020-US 2
+      - 🇺🇲 adi|freenode1020-US 3
+      - 🇺🇲 adi|freenode1020-US 4
       - 🇺🇲 adi|1024-A-US_701
-      - 🇺🇲 adi|1024-B-US_708
-      - 🇺🇲 adi|1024-A-US_712
-      - 🇺🇲 adi|1024-B-US_714
-      - adi|1024-B-ZZ_756
-      - adi|1024-B-ZZ_757
-      - adi|1024-B-ZZ_759
-      - 🇷🇺 adi|1024-B-俄罗斯
-      - 🇰🇷 adi|1024-A-韩国1
-      - 🇳🇱 adi|1024-A-荷兰
-      - 🇳🇱 adi|1024-B-荷兰
-      - 🇳🇱 adi|1024-A-荷兰 2
-      - 🇳🇱 adi|1024-A-荷兰 3
-      - 🇳🇱 adi|1024-B-荷兰 2
-      - 🇳🇱 adi|1024-B-荷兰 3
+      - 🇺🇲 adi|1024-A-US_681
+      - 🇺🇲 adi|1024-B-US_665
+      - 🇯🇵 adi|1024-A-JP_288
+      - 🇦🇺 adi|1024-A-AU_31
+      - adi|1024-A-jp
+      - adi|1024-A-kr
+      - adi|1024-A-kr 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷 adi|1024-T-韩国3
-      - 🇰🇷 adi|1024-A-韩国
-      - 🇰🇷 adi|1024-A-韩国 2
-      - 🇰🇷 adi|1024-A-韩国7
-      - 🇰🇷 adi|1024-T-韩国8
-      - 🇰🇷 adi|1024-A-韩国 3
-      - 🇰🇷 adi|1024-A-韩国 4
-      - 🇺🇲 adi|1024-A-美国
-      - 🇯🇵 adi|1024-A-日本
-      - 🇯🇵 adi|1024-A-日本 2
-      - 🇺🇲 adi|1024-B-西雅图
-      - 🇰🇷 adi|1024-A-韩国 5
-      - 🇯🇵 adi|1024-A-JP
-      - 🇯🇵 adi|1024-A-JP 2
-      - 🇯🇵 adi|1024-A-JP 3
-      - 🇯🇵 adi|1024-A-JP 4
-      - 🇳🇱 adi|1024-A-NL
-      - 🇳🇱 adi|1024-A-NL 2
-      - 🇳🇱 adi|1024-A-NL 3
-      - 🇳🇱 adi|1024-A-NL 4
-      - 🇳🇱 adi|1024-A-NL 5
-      - 🇳🇱 adi|1024-A-NL 6
-      - 🇳🇱 adi|1024-A-NL 7
-      - 🇳🇱 adi|1024-A-NL 8
-      - 🇳🇱 adi|1024-A-NL 9
-      - 🇳🇱 adi|1024-A-NL 10
-      - 🇳🇱 adi|1024-A-NL 11
-      - 🇳🇱 adi|1024-A-NL 12
-      - 🇳🇱 adi|1024-A-NL 13
-      - 🇳🇱 adi|1024-A-NL 14
-      - 🇳🇱 adi|1024-A-NL 15
-      - 🇳🇱 adi|1024-A-NL 16
-      - 🇳🇱 adi|1024-A-NL 17
-      - 🇳🇱 adi|1024-A-NL 18
-      - 🇳🇱 adi|1024-A-NL 19
-      - 🇳🇱 adi|1024-A-NL 20
-      - 🇳🇱 adi|1024-A-NL 21
-      - 🇳🇱 adi|1024-A-NL 22
-      - 🇳🇱 adi|1024-A-NL 23
-      - 🇷🇺 adi|1024-B-RU
-      - adi|1024-B-CA
-      - 🇺🇲 adi|1024-A-US
-      - 🇺🇲 adi|1024-A-US 2
-      - 🇺🇲 adi|1024-A-US 3
-      - 🇺🇲 adi|1024-A-US 4
-      - 🇺🇲 adi|1024-A-US 5
-      - 🇺🇲 adi|1024-A-US 6
-      - 🇺🇲 adi|1024-A-US 7
-      - 🇺🇲 adi|1024-A-US 8
-      - 🇺🇲 adi|1024-A-US 9
-      - 🇺🇲 adi|1024-A-US 10
-      - 🇺🇲 adi|1024-A-US 11
-      - 🇦🇺 adi|1024-A-AU_31
-      - adi|1024-B-CA_57
-      - 🇩🇪 adi|1024-A-DE_143
-      - 🇯🇵 adi|1024-A-JP_281
-      - 🇯🇵 adi|1024-A-JP_282
-      - 🇯🇵 adi|1024-A-JP_283
-      - 🇯🇵 adi|1024-A-JP_284
-      - 🇯🇵 adi|1024-A-JP_285
-      - 🇯🇵 adi|1024-A-JP_286
-      - 🇯🇵 adi|1024-A-JP_287
-      - 🇯🇵 adi|1024-A-JP_288
-      - 🇯🇵 adi|1024-A-JP_290
-      - 🇯🇵 adi|1024-A-JP_291
-      - 🇯🇵 adi|1024-A-JP_292
-      - 🇯🇵 adi|1024-A-JP_293
-      - 🇯🇵 adi|1024-A-JP_298
-      - 🇳🇱 adi|1024-A-NL_381
-      - 🇳🇱 adi|1024-A-NL_386
-      - 🇳🇱 adi|1024-A-NL_387
-      - 🇳🇱 adi|1024-B-NL_389
-      - 🇳🇱 adi|1024-A-NL_392
-      - 🇳🇱 adi|1024-A-NL_393
-      - 🇳🇱 adi|1024-A-NL_395
-      - 🇳🇱 adi|1024-A-NL_396
-      - 🇳🇱 adi|1024-A-NL_397
-      - 🇳🇱 adi|1024-A-NL_399
-      - 🇳🇱 adi|1024-A-NL_401
-      - 🇳🇱 adi|1024-A-NL_403
-      - 🇳🇱 adi|1024-A-NL_405
-      - 🇳🇱 adi|1024-A-NL_409
-      - 🇳🇱 adi|1024-A-NL_416
-      - 🇳🇱 adi|1024-A-NL_417
-      - 🇳🇱 adi|1024-A-NL_420
-      - 🇳🇱 adi|1024-A-NL_424
-      - 🇷🇺 adi|1024-B-RU_468
-      - 🇺🇲 adi|1024-A-US_644
-      - 🇺🇲 adi|1024-A-US_645
-      - 🇺🇲 adi|1024-A-US_652
-      - 🇺🇲 adi|1024-B-US_656
-      - 🇺🇲 adi|1024-A-US_659
-      - 🇺🇲 adi|1024-A-US_663
-      - 🇺🇲 adi|1024-B-US_665
-      - 🇺🇲 adi|1024-A-US_668
-      - 🇺🇲 adi|1024-A-US_672
-      - 🇺🇲 adi|1024-B-US_673
-      - 🇺🇲 adi|1024-A-US_680
-      - 🇺🇲 adi|1024-A-US_681
-      - 🇺🇲 adi|1024-A-US_684
-      - 🇺🇲 adi|1024-A-US_690
-      - 🇺🇲 adi|1024-A-US_692
-      - 🇺🇲 adi|1024-A-US_694
+      - adi|1026-T-kr
+      - 🇯🇵 adi|1026-T-JP
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇺🇲 adi|1026-T-US
+      - 🇺🇲 adi|1026-T-US 2
+      - 🇺🇲 adi|1026-T-US 3
+      - adi|1024-T-kr
+      - adi|1026-A-en
+      - 🇺🇲 adi|freenode1020-US
+      - 🇺🇲 adi|freenode1020-US 2
+      - 🇺🇲 adi|freenode1020-US 3
+      - 🇺🇲 adi|freenode1020-US 4
       - 🇺🇲 adi|1024-A-US_701
-      - 🇺🇲 adi|1024-B-US_708
-      - 🇺🇲 adi|1024-A-US_712
-      - 🇺🇲 adi|1024-B-US_714
-      - adi|1024-B-ZZ_756
-      - adi|1024-B-ZZ_757
-      - adi|1024-B-ZZ_759
-      - 🇷🇺 adi|1024-B-俄罗斯
-      - 🇰🇷 adi|1024-A-韩国1
-      - 🇳🇱 adi|1024-A-荷兰
-      - 🇳🇱 adi|1024-B-荷兰
-      - 🇳🇱 adi|1024-A-荷兰 2
-      - 🇳🇱 adi|1024-A-荷兰 3
-      - 🇳🇱 adi|1024-B-荷兰 2
-      - 🇳🇱 adi|1024-B-荷兰 3
+      - 🇺🇲 adi|1024-A-US_681
+      - 🇺🇲 adi|1024-B-US_665
+      - 🇯🇵 adi|1024-A-JP_288
+      - 🇦🇺 adi|1024-A-AU_31
+      - adi|1024-A-jp
+      - adi|1024-A-kr
+      - adi|1024-A-kr 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇰🇷 adi|1024-T-韩国3
-      - 🇰🇷 adi|1024-A-韩国
-      - 🇰🇷 adi|1024-A-韩国 2
-      - 🇰🇷 adi|1024-A-韩国7
-      - 🇰🇷 adi|1024-T-韩国8
-      - 🇰🇷 adi|1024-A-韩国 3
-      - 🇰🇷 adi|1024-A-韩国 4
-      - 🇺🇲 adi|1024-A-美国
-      - 🇯🇵 adi|1024-A-日本
-      - 🇯🇵 adi|1024-A-日本 2
-      - 🇺🇲 adi|1024-B-西雅图
-      - 🇰🇷 adi|1024-A-韩国 5
-      - 🇯🇵 adi|1024-A-JP
-      - 🇯🇵 adi|1024-A-JP 2
-      - 🇯🇵 adi|1024-A-JP 3
-      - 🇯🇵 adi|1024-A-JP 4
-      - 🇳🇱 adi|1024-A-NL
-      - 🇳🇱 adi|1024-A-NL 2
-      - 🇳🇱 adi|1024-A-NL 3
-      - 🇳🇱 adi|1024-A-NL 4
-      - 🇳🇱 adi|1024-A-NL 5
-      - 🇳🇱 adi|1024-A-NL 6
-      - 🇳🇱 adi|1024-A-NL 7
-      - 🇳🇱 adi|1024-A-NL 8
-      - 🇳🇱 adi|1024-A-NL 9
-      - 🇳🇱 adi|1024-A-NL 10
-      - 🇳🇱 adi|1024-A-NL 11
-      - 🇳🇱 adi|1024-A-NL 12
-      - 🇳🇱 adi|1024-A-NL 13
-      - 🇳🇱 adi|1024-A-NL 14
-      - 🇳🇱 adi|1024-A-NL 15
-      - 🇳🇱 adi|1024-A-NL 16
-      - 🇳🇱 adi|1024-A-NL 17
-      - 🇳🇱 adi|1024-A-NL 18
-      - 🇳🇱 adi|1024-A-NL 19
-      - 🇳🇱 adi|1024-A-NL 20
-      - 🇳🇱 adi|1024-A-NL 21
-      - 🇳🇱 adi|1024-A-NL 22
-      - 🇳🇱 adi|1024-A-NL 23
-      - 🇷🇺 adi|1024-B-RU
-      - adi|1024-B-CA
-      - 🇺🇲 adi|1024-A-US
-      - 🇺🇲 adi|1024-A-US 2
-      - 🇺🇲 adi|1024-A-US 3
-      - 🇺🇲 adi|1024-A-US 4
-      - 🇺🇲 adi|1024-A-US 5
-      - 🇺🇲 adi|1024-A-US 6
-      - 🇺🇲 adi|1024-A-US 7
-      - 🇺🇲 adi|1024-A-US 8
-      - 🇺🇲 adi|1024-A-US 9
-      - 🇺🇲 adi|1024-A-US 10
-      - 🇺🇲 adi|1024-A-US 11
-      - 🇦🇺 adi|1024-A-AU_31
-      - adi|1024-B-CA_57
-      - 🇩🇪 adi|1024-A-DE_143
-      - 🇯🇵 adi|1024-A-JP_281
-      - 🇯🇵 adi|1024-A-JP_282
-      - 🇯🇵 adi|1024-A-JP_283
-      - 🇯🇵 adi|1024-A-JP_284
-      - 🇯🇵 adi|1024-A-JP_285
-      - 🇯🇵 adi|1024-A-JP_286
-      - 🇯🇵 adi|1024-A-JP_287
-      - 🇯🇵 adi|1024-A-JP_288
-      - 🇯🇵 adi|1024-A-JP_290
-      - 🇯🇵 adi|1024-A-JP_291
-      - 🇯🇵 adi|1024-A-JP_292
-      - 🇯🇵 adi|1024-A-JP_293
-      - 🇯🇵 adi|1024-A-JP_298
-      - 🇳🇱 adi|1024-A-NL_381
-      - 🇳🇱 adi|1024-A-NL_386
-      - 🇳🇱 adi|1024-A-NL_387
-      - 🇳🇱 adi|1024-B-NL_389
-      - 🇳🇱 adi|1024-A-NL_392
-      - 🇳🇱 adi|1024-A-NL_393
-      - 🇳🇱 adi|1024-A-NL_395
-      - 🇳🇱 adi|1024-A-NL_396
-      - 🇳🇱 adi|1024-A-NL_397
-      - 🇳🇱 adi|1024-A-NL_399
-      - 🇳🇱 adi|1024-A-NL_401
-      - 🇳🇱 adi|1024-A-NL_403
-      - 🇳🇱 adi|1024-A-NL_405
-      - 🇳🇱 adi|1024-A-NL_409
-      - 🇳🇱 adi|1024-A-NL_416
-      - 🇳🇱 adi|1024-A-NL_417
-      - 🇳🇱 adi|1024-A-NL_420
-      - 🇳🇱 adi|1024-A-NL_424
-      - 🇷🇺 adi|1024-B-RU_468
-      - 🇺🇲 adi|1024-A-US_644
-      - 🇺🇲 adi|1024-A-US_645
-      - 🇺🇲 adi|1024-A-US_652
-      - 🇺🇲 adi|1024-B-US_656
-      - 🇺🇲 adi|1024-A-US_659
-      - 🇺🇲 adi|1024-A-US_663
-      - 🇺🇲 adi|1024-B-US_665
-      - 🇺🇲 adi|1024-A-US_668
-      - 🇺🇲 adi|1024-A-US_672
-      - 🇺🇲 adi|1024-B-US_673
-      - 🇺🇲 adi|1024-A-US_680
-      - 🇺🇲 adi|1024-A-US_681
-      - 🇺🇲 adi|1024-A-US_684
-      - 🇺🇲 adi|1024-A-US_690
-      - 🇺🇲 adi|1024-A-US_692
-      - 🇺🇲 adi|1024-A-US_694
+      - adi|1026-T-kr
+      - 🇯🇵 adi|1026-T-JP
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇺🇲 adi|1026-T-US
+      - 🇺🇲 adi|1026-T-US 2
+      - 🇺🇲 adi|1026-T-US 3
+      - adi|1024-T-kr
+      - adi|1026-A-en
+      - 🇺🇲 adi|freenode1020-US
+      - 🇺🇲 adi|freenode1020-US 2
+      - 🇺🇲 adi|freenode1020-US 3
+      - 🇺🇲 adi|freenode1020-US 4
       - 🇺🇲 adi|1024-A-US_701
-      - 🇺🇲 adi|1024-B-US_708
-      - 🇺🇲 adi|1024-A-US_712
-      - 🇺🇲 adi|1024-B-US_714
-      - adi|1024-B-ZZ_756
-      - adi|1024-B-ZZ_757
-      - adi|1024-B-ZZ_759
-      - 🇷🇺 adi|1024-B-俄罗斯
-      - 🇰🇷 adi|1024-A-韩国1
-      - 🇳🇱 adi|1024-A-荷兰
-      - 🇳🇱 adi|1024-B-荷兰
-      - 🇳🇱 adi|1024-A-荷兰 2
-      - 🇳🇱 adi|1024-A-荷兰 3
-      - 🇳🇱 adi|1024-B-荷兰 2
-      - 🇳🇱 adi|1024-B-荷兰 3
+      - 🇺🇲 adi|1024-A-US_681
+      - 🇺🇲 adi|1024-B-US_665
+      - 🇯🇵 adi|1024-A-JP_288
+      - 🇦🇺 adi|1024-A-AU_31
+      - adi|1024-A-jp
+      - adi|1024-A-kr
+      - adi|1024-A-kr 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷 adi|1024-T-韩国3
-      - 🇰🇷 adi|1024-A-韩国
-      - 🇰🇷 adi|1024-A-韩国 2
-      - 🇰🇷 adi|1024-A-韩国7
-      - 🇰🇷 adi|1024-T-韩国8
-      - 🇰🇷 adi|1024-A-韩国 3
-      - 🇰🇷 adi|1024-A-韩国 4
-      - 🇺🇲 adi|1024-A-美国
-      - 🇯🇵 adi|1024-A-日本
-      - 🇯🇵 adi|1024-A-日本 2
-      - 🇺🇲 adi|1024-B-西雅图
-      - 🇰🇷 adi|1024-A-韩国 5
-      - 🇯🇵 adi|1024-A-JP
-      - 🇯🇵 adi|1024-A-JP 2
-      - 🇯🇵 adi|1024-A-JP 3
-      - 🇯🇵 adi|1024-A-JP 4
-      - 🇳🇱 adi|1024-A-NL
-      - 🇳🇱 adi|1024-A-NL 2
-      - 🇳🇱 adi|1024-A-NL 3
-      - 🇳🇱 adi|1024-A-NL 4
-      - 🇳🇱 adi|1024-A-NL 5
-      - 🇳🇱 adi|1024-A-NL 6
-      - 🇳🇱 adi|1024-A-NL 7
-      - 🇳🇱 adi|1024-A-NL 8
-      - 🇳🇱 adi|1024-A-NL 9
-      - 🇳🇱 adi|1024-A-NL 10
-      - 🇳🇱 adi|1024-A-NL 11
-      - 🇳🇱 adi|1024-A-NL 12
-      - 🇳🇱 adi|1024-A-NL 13
-      - 🇳🇱 adi|1024-A-NL 14
-      - 🇳🇱 adi|1024-A-NL 15
-      - 🇳🇱 adi|1024-A-NL 16
-      - 🇳🇱 adi|1024-A-NL 17
-      - 🇳🇱 adi|1024-A-NL 18
-      - 🇳🇱 adi|1024-A-NL 19
-      - 🇳🇱 adi|1024-A-NL 20
-      - 🇳🇱 adi|1024-A-NL 21
-      - 🇳🇱 adi|1024-A-NL 22
-      - 🇳🇱 adi|1024-A-NL 23
-      - 🇷🇺 adi|1024-B-RU
-      - adi|1024-B-CA
-      - 🇺🇲 adi|1024-A-US
-      - 🇺🇲 adi|1024-A-US 2
-      - 🇺🇲 adi|1024-A-US 3
-      - 🇺🇲 adi|1024-A-US 4
-      - 🇺🇲 adi|1024-A-US 5
-      - 🇺🇲 adi|1024-A-US 6
-      - 🇺🇲 adi|1024-A-US 7
-      - 🇺🇲 adi|1024-A-US 8
-      - 🇺🇲 adi|1024-A-US 9
-      - 🇺🇲 adi|1024-A-US 10
-      - 🇺🇲 adi|1024-A-US 11
-      - 🇦🇺 adi|1024-A-AU_31
-      - adi|1024-B-CA_57
-      - 🇩🇪 adi|1024-A-DE_143
-      - 🇯🇵 adi|1024-A-JP_281
-      - 🇯🇵 adi|1024-A-JP_282
-      - 🇯🇵 adi|1024-A-JP_283
-      - 🇯🇵 adi|1024-A-JP_284
-      - 🇯🇵 adi|1024-A-JP_285
-      - 🇯🇵 adi|1024-A-JP_286
-      - 🇯🇵 adi|1024-A-JP_287
-      - 🇯🇵 adi|1024-A-JP_288
-      - 🇯🇵 adi|1024-A-JP_290
-      - 🇯🇵 adi|1024-A-JP_291
-      - 🇯🇵 adi|1024-A-JP_292
-      - 🇯🇵 adi|1024-A-JP_293
-      - 🇯🇵 adi|1024-A-JP_298
-      - 🇳🇱 adi|1024-A-NL_381
-      - 🇳🇱 adi|1024-A-NL_386
-      - 🇳🇱 adi|1024-A-NL_387
-      - 🇳🇱 adi|1024-B-NL_389
-      - 🇳🇱 adi|1024-A-NL_392
-      - 🇳🇱 adi|1024-A-NL_393
-      - 🇳🇱 adi|1024-A-NL_395
-      - 🇳🇱 adi|1024-A-NL_396
-      - 🇳🇱 adi|1024-A-NL_397
-      - 🇳🇱 adi|1024-A-NL_399
-      - 🇳🇱 adi|1024-A-NL_401
-      - 🇳🇱 adi|1024-A-NL_403
-      - 🇳🇱 adi|1024-A-NL_405
-      - 🇳🇱 adi|1024-A-NL_409
-      - 🇳🇱 adi|1024-A-NL_416
-      - 🇳🇱 adi|1024-A-NL_417
-      - 🇳🇱 adi|1024-A-NL_420
-      - 🇳🇱 adi|1024-A-NL_424
-      - 🇷🇺 adi|1024-B-RU_468
-      - 🇺🇲 adi|1024-A-US_644
-      - 🇺🇲 adi|1024-A-US_645
-      - 🇺🇲 adi|1024-A-US_652
-      - 🇺🇲 adi|1024-B-US_656
-      - 🇺🇲 adi|1024-A-US_659
-      - 🇺🇲 adi|1024-A-US_663
-      - 🇺🇲 adi|1024-B-US_665
-      - 🇺🇲 adi|1024-A-US_668
-      - 🇺🇲 adi|1024-A-US_672
-      - 🇺🇲 adi|1024-B-US_673
-      - 🇺🇲 adi|1024-A-US_680
-      - 🇺🇲 adi|1024-A-US_681
-      - 🇺🇲 adi|1024-A-US_684
-      - 🇺🇲 adi|1024-A-US_690
-      - 🇺🇲 adi|1024-A-US_692
-      - 🇺🇲 adi|1024-A-US_694
+      - adi|1026-T-kr
+      - 🇯🇵 adi|1026-T-JP
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇺🇲 adi|1026-T-US
+      - 🇺🇲 adi|1026-T-US 2
+      - 🇺🇲 adi|1026-T-US 3
+      - adi|1024-T-kr
+      - adi|1026-A-en
+      - 🇺🇲 adi|freenode1020-US
+      - 🇺🇲 adi|freenode1020-US 2
+      - 🇺🇲 adi|freenode1020-US 3
+      - 🇺🇲 adi|freenode1020-US 4
       - 🇺🇲 adi|1024-A-US_701
-      - 🇺🇲 adi|1024-B-US_708
-      - 🇺🇲 adi|1024-A-US_712
-      - 🇺🇲 adi|1024-B-US_714
-      - adi|1024-B-ZZ_756
-      - adi|1024-B-ZZ_757
-      - adi|1024-B-ZZ_759
-      - 🇷🇺 adi|1024-B-俄罗斯
-      - 🇰🇷 adi|1024-A-韩国1
-      - 🇳🇱 adi|1024-A-荷兰
-      - 🇳🇱 adi|1024-B-荷兰
-      - 🇳🇱 adi|1024-A-荷兰 2
-      - 🇳🇱 adi|1024-A-荷兰 3
-      - 🇳🇱 adi|1024-B-荷兰 2
-      - 🇳🇱 adi|1024-B-荷兰 3
+      - 🇺🇲 adi|1024-A-US_681
+      - 🇺🇲 adi|1024-B-US_665
+      - 🇯🇵 adi|1024-A-JP_288
+      - 🇦🇺 adi|1024-A-AU_31
+      - adi|1024-A-jp
+      - adi|1024-A-kr
+      - adi|1024-A-kr 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 adi|1024-T-韩国3
-      - 🇰🇷 adi|1024-A-韩国
-      - 🇰🇷 adi|1024-A-韩国 2
-      - 🇰🇷 adi|1024-A-韩国7
-      - 🇰🇷 adi|1024-T-韩国8
-      - 🇰🇷 adi|1024-A-韩国 3
-      - 🇰🇷 adi|1024-A-韩国 4
-      - 🇺🇲 adi|1024-A-美国
-      - 🇯🇵 adi|1024-A-日本
-      - 🇯🇵 adi|1024-A-日本 2
-      - 🇺🇲 adi|1024-B-西雅图
-      - 🇰🇷 adi|1024-A-韩国 5
-      - 🇯🇵 adi|1024-A-JP
-      - 🇯🇵 adi|1024-A-JP 2
-      - 🇯🇵 adi|1024-A-JP 3
-      - 🇯🇵 adi|1024-A-JP 4
-      - 🇳🇱 adi|1024-A-NL
-      - 🇳🇱 adi|1024-A-NL 2
-      - 🇳🇱 adi|1024-A-NL 3
-      - 🇳🇱 adi|1024-A-NL 4
-      - 🇳🇱 adi|1024-A-NL 5
-      - 🇳🇱 adi|1024-A-NL 6
-      - 🇳🇱 adi|1024-A-NL 7
-      - 🇳🇱 adi|1024-A-NL 8
-      - 🇳🇱 adi|1024-A-NL 9
-      - 🇳🇱 adi|1024-A-NL 10
-      - 🇳🇱 adi|1024-A-NL 11
-      - 🇳🇱 adi|1024-A-NL 12
-      - 🇳🇱 adi|1024-A-NL 13
-      - 🇳🇱 adi|1024-A-NL 14
-      - 🇳🇱 adi|1024-A-NL 15
-      - 🇳🇱 adi|1024-A-NL 16
-      - 🇳🇱 adi|1024-A-NL 17
-      - 🇳🇱 adi|1024-A-NL 18
-      - 🇳🇱 adi|1024-A-NL 19
-      - 🇳🇱 adi|1024-A-NL 20
-      - 🇳🇱 adi|1024-A-NL 21
-      - 🇳🇱 adi|1024-A-NL 22
-      - 🇳🇱 adi|1024-A-NL 23
-      - 🇷🇺 adi|1024-B-RU
-      - adi|1024-B-CA
-      - 🇺🇲 adi|1024-A-US
-      - 🇺🇲 adi|1024-A-US 2
-      - 🇺🇲 adi|1024-A-US 3
-      - 🇺🇲 adi|1024-A-US 4
-      - 🇺🇲 adi|1024-A-US 5
-      - 🇺🇲 adi|1024-A-US 6
-      - 🇺🇲 adi|1024-A-US 7
-      - 🇺🇲 adi|1024-A-US 8
-      - 🇺🇲 adi|1024-A-US 9
-      - 🇺🇲 adi|1024-A-US 10
-      - 🇺🇲 adi|1024-A-US 11
-      - 🇦🇺 adi|1024-A-AU_31
-      - adi|1024-B-CA_57
-      - 🇩🇪 adi|1024-A-DE_143
-      - 🇯🇵 adi|1024-A-JP_281
-      - 🇯🇵 adi|1024-A-JP_282
-      - 🇯🇵 adi|1024-A-JP_283
-      - 🇯🇵 adi|1024-A-JP_284
-      - 🇯🇵 adi|1024-A-JP_285
-      - 🇯🇵 adi|1024-A-JP_286
-      - 🇯🇵 adi|1024-A-JP_287
-      - 🇯🇵 adi|1024-A-JP_288
-      - 🇯🇵 adi|1024-A-JP_290
-      - 🇯🇵 adi|1024-A-JP_291
-      - 🇯🇵 adi|1024-A-JP_292
-      - 🇯🇵 adi|1024-A-JP_293
-      - 🇯🇵 adi|1024-A-JP_298
-      - 🇳🇱 adi|1024-A-NL_381
-      - 🇳🇱 adi|1024-A-NL_386
-      - 🇳🇱 adi|1024-A-NL_387
-      - 🇳🇱 adi|1024-B-NL_389
-      - 🇳🇱 adi|1024-A-NL_392
-      - 🇳🇱 adi|1024-A-NL_393
-      - 🇳🇱 adi|1024-A-NL_395
-      - 🇳🇱 adi|1024-A-NL_396
-      - 🇳🇱 adi|1024-A-NL_397
-      - 🇳🇱 adi|1024-A-NL_399
-      - 🇳🇱 adi|1024-A-NL_401
-      - 🇳🇱 adi|1024-A-NL_403
-      - 🇳🇱 adi|1024-A-NL_405
-      - 🇳🇱 adi|1024-A-NL_409
-      - 🇳🇱 adi|1024-A-NL_416
-      - 🇳🇱 adi|1024-A-NL_417
-      - 🇳🇱 adi|1024-A-NL_420
-      - 🇳🇱 adi|1024-A-NL_424
-      - 🇷🇺 adi|1024-B-RU_468
-      - 🇺🇲 adi|1024-A-US_644
-      - 🇺🇲 adi|1024-A-US_645
-      - 🇺🇲 adi|1024-A-US_652
-      - 🇺🇲 adi|1024-B-US_656
-      - 🇺🇲 adi|1024-A-US_659
-      - 🇺🇲 adi|1024-A-US_663
-      - 🇺🇲 adi|1024-B-US_665
-      - 🇺🇲 adi|1024-A-US_668
-      - 🇺🇲 adi|1024-A-US_672
-      - 🇺🇲 adi|1024-B-US_673
-      - 🇺🇲 adi|1024-A-US_680
-      - 🇺🇲 adi|1024-A-US_681
-      - 🇺🇲 adi|1024-A-US_684
-      - 🇺🇲 adi|1024-A-US_690
-      - 🇺🇲 adi|1024-A-US_692
-      - 🇺🇲 adi|1024-A-US_694
+      - adi|1026-T-kr
+      - 🇯🇵 adi|1026-T-JP
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇺🇲 adi|1026-T-US
+      - 🇺🇲 adi|1026-T-US 2
+      - 🇺🇲 adi|1026-T-US 3
+      - adi|1024-T-kr
+      - adi|1026-A-en
+      - 🇺🇲 adi|freenode1020-US
+      - 🇺🇲 adi|freenode1020-US 2
+      - 🇺🇲 adi|freenode1020-US 3
+      - 🇺🇲 adi|freenode1020-US 4
       - 🇺🇲 adi|1024-A-US_701
-      - 🇺🇲 adi|1024-B-US_708
-      - 🇺🇲 adi|1024-A-US_712
-      - 🇺🇲 adi|1024-B-US_714
-      - adi|1024-B-ZZ_756
-      - adi|1024-B-ZZ_757
-      - adi|1024-B-ZZ_759
-      - 🇷🇺 adi|1024-B-俄罗斯
-      - 🇰🇷 adi|1024-A-韩国1
-      - 🇳🇱 adi|1024-A-荷兰
-      - 🇳🇱 adi|1024-B-荷兰
-      - 🇳🇱 adi|1024-A-荷兰 2
-      - 🇳🇱 adi|1024-A-荷兰 3
-      - 🇳🇱 adi|1024-B-荷兰 2
-      - 🇳🇱 adi|1024-B-荷兰 3
+      - 🇺🇲 adi|1024-A-US_681
+      - 🇺🇲 adi|1024-B-US_665
+      - 🇯🇵 adi|1024-A-JP_288
+      - 🇦🇺 adi|1024-A-AU_31
+      - adi|1024-A-jp
+      - adi|1024-A-kr
+      - adi|1024-A-kr 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1009,124 +225,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 adi|1024-T-韩国3
-      - 🇰🇷 adi|1024-A-韩国
-      - 🇰🇷 adi|1024-A-韩国 2
-      - 🇰🇷 adi|1024-A-韩国7
-      - 🇰🇷 adi|1024-T-韩国8
-      - 🇰🇷 adi|1024-A-韩国 3
-      - 🇰🇷 adi|1024-A-韩国 4
-      - 🇺🇲 adi|1024-A-美国
-      - 🇯🇵 adi|1024-A-日本
-      - 🇯🇵 adi|1024-A-日本 2
-      - 🇺🇲 adi|1024-B-西雅图
-      - 🇰🇷 adi|1024-A-韩国 5
-      - 🇯🇵 adi|1024-A-JP
-      - 🇯🇵 adi|1024-A-JP 2
-      - 🇯🇵 adi|1024-A-JP 3
-      - 🇯🇵 adi|1024-A-JP 4
-      - 🇳🇱 adi|1024-A-NL
-      - 🇳🇱 adi|1024-A-NL 2
-      - 🇳🇱 adi|1024-A-NL 3
-      - 🇳🇱 adi|1024-A-NL 4
-      - 🇳🇱 adi|1024-A-NL 5
-      - 🇳🇱 adi|1024-A-NL 6
-      - 🇳🇱 adi|1024-A-NL 7
-      - 🇳🇱 adi|1024-A-NL 8
-      - 🇳🇱 adi|1024-A-NL 9
-      - 🇳🇱 adi|1024-A-NL 10
-      - 🇳🇱 adi|1024-A-NL 11
-      - 🇳🇱 adi|1024-A-NL 12
-      - 🇳🇱 adi|1024-A-NL 13
-      - 🇳🇱 adi|1024-A-NL 14
-      - 🇳🇱 adi|1024-A-NL 15
-      - 🇳🇱 adi|1024-A-NL 16
-      - 🇳🇱 adi|1024-A-NL 17
-      - 🇳🇱 adi|1024-A-NL 18
-      - 🇳🇱 adi|1024-A-NL 19
-      - 🇳🇱 adi|1024-A-NL 20
-      - 🇳🇱 adi|1024-A-NL 21
-      - 🇳🇱 adi|1024-A-NL 22
-      - 🇳🇱 adi|1024-A-NL 23
-      - 🇷🇺 adi|1024-B-RU
-      - adi|1024-B-CA
-      - 🇺🇲 adi|1024-A-US
-      - 🇺🇲 adi|1024-A-US 2
-      - 🇺🇲 adi|1024-A-US 3
-      - 🇺🇲 adi|1024-A-US 4
-      - 🇺🇲 adi|1024-A-US 5
-      - 🇺🇲 adi|1024-A-US 6
-      - 🇺🇲 adi|1024-A-US 7
-      - 🇺🇲 adi|1024-A-US 8
-      - 🇺🇲 adi|1024-A-US 9
-      - 🇺🇲 adi|1024-A-US 10
-      - 🇺🇲 adi|1024-A-US 11
-      - 🇦🇺 adi|1024-A-AU_31
-      - adi|1024-B-CA_57
-      - 🇩🇪 adi|1024-A-DE_143
-      - 🇯🇵 adi|1024-A-JP_281
-      - 🇯🇵 adi|1024-A-JP_282
-      - 🇯🇵 adi|1024-A-JP_283
-      - 🇯🇵 adi|1024-A-JP_284
-      - 🇯🇵 adi|1024-A-JP_285
-      - 🇯🇵 adi|1024-A-JP_286
-      - 🇯🇵 adi|1024-A-JP_287
-      - 🇯🇵 adi|1024-A-JP_288
-      - 🇯🇵 adi|1024-A-JP_290
-      - 🇯🇵 adi|1024-A-JP_291
-      - 🇯🇵 adi|1024-A-JP_292
-      - 🇯🇵 adi|1024-A-JP_293
-      - 🇯🇵 adi|1024-A-JP_298
-      - 🇳🇱 adi|1024-A-NL_381
-      - 🇳🇱 adi|1024-A-NL_386
-      - 🇳🇱 adi|1024-A-NL_387
-      - 🇳🇱 adi|1024-B-NL_389
-      - 🇳🇱 adi|1024-A-NL_392
-      - 🇳🇱 adi|1024-A-NL_393
-      - 🇳🇱 adi|1024-A-NL_395
-      - 🇳🇱 adi|1024-A-NL_396
-      - 🇳🇱 adi|1024-A-NL_397
-      - 🇳🇱 adi|1024-A-NL_399
-      - 🇳🇱 adi|1024-A-NL_401
-      - 🇳🇱 adi|1024-A-NL_403
-      - 🇳🇱 adi|1024-A-NL_405
-      - 🇳🇱 adi|1024-A-NL_409
-      - 🇳🇱 adi|1024-A-NL_416
-      - 🇳🇱 adi|1024-A-NL_417
-      - 🇳🇱 adi|1024-A-NL_420
-      - 🇳🇱 adi|1024-A-NL_424
-      - 🇷🇺 adi|1024-B-RU_468
-      - 🇺🇲 adi|1024-A-US_644
-      - 🇺🇲 adi|1024-A-US_645
-      - 🇺🇲 adi|1024-A-US_652
-      - 🇺🇲 adi|1024-B-US_656
-      - 🇺🇲 adi|1024-A-US_659
-      - 🇺🇲 adi|1024-A-US_663
-      - 🇺🇲 adi|1024-B-US_665
-      - 🇺🇲 adi|1024-A-US_668
-      - 🇺🇲 adi|1024-A-US_672
-      - 🇺🇲 adi|1024-B-US_673
-      - 🇺🇲 adi|1024-A-US_680
-      - 🇺🇲 adi|1024-A-US_681
-      - 🇺🇲 adi|1024-A-US_684
-      - 🇺🇲 adi|1024-A-US_690
-      - 🇺🇲 adi|1024-A-US_692
-      - 🇺🇲 adi|1024-A-US_694
+      - adi|1026-T-kr
+      - 🇯🇵 adi|1026-T-JP
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇺🇲 adi|1026-T-US
+      - 🇺🇲 adi|1026-T-US 2
+      - 🇺🇲 adi|1026-T-US 3
+      - adi|1024-T-kr
+      - adi|1026-A-en
+      - 🇺🇲 adi|freenode1020-US
+      - 🇺🇲 adi|freenode1020-US 2
+      - 🇺🇲 adi|freenode1020-US 3
+      - 🇺🇲 adi|freenode1020-US 4
       - 🇺🇲 adi|1024-A-US_701
-      - 🇺🇲 adi|1024-B-US_708
-      - 🇺🇲 adi|1024-A-US_712
-      - 🇺🇲 adi|1024-B-US_714
-      - adi|1024-B-ZZ_756
-      - adi|1024-B-ZZ_757
-      - adi|1024-B-ZZ_759
-      - 🇷🇺 adi|1024-B-俄罗斯
-      - 🇰🇷 adi|1024-A-韩国1
-      - 🇳🇱 adi|1024-A-荷兰
-      - 🇳🇱 adi|1024-B-荷兰
-      - 🇳🇱 adi|1024-A-荷兰 2
-      - 🇳🇱 adi|1024-A-荷兰 3
-      - 🇳🇱 adi|1024-B-荷兰 2
-      - 🇳🇱 adi|1024-B-荷兰 3
+      - 🇺🇲 adi|1024-A-US_681
+      - 🇺🇲 adi|1024-B-US_665
+      - 🇯🇵 adi|1024-A-JP_288
+      - 🇦🇺 adi|1024-A-AU_31
+      - adi|1024-A-jp
+      - adi|1024-A-kr
+      - adi|1024-A-kr 2
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
