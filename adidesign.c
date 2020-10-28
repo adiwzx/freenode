@@ -5,132 +5,252 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇨🇳 adi|freenode1020-CN, server: 120.232.43.122, port: 1003, type: vmess, uuid: 845cf1f1-5cda-4281-aa8f-ee2dbbfaf8ce, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.232.43.122}}
-  - {name: 🇭🇰 adi|freenode1020-HK, server: 52.175.16.108, port: 63132, type: vmess, uuid: e3b51fd0-f3f5-4c37-a7bd-c8d7d6069ff4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 52.175.16.108}}
-  - {name: 🇯🇵 adi|freenode1020-JP, server: 52.185.164.224, port: 443, type: vmess, uuid: 0303ab78-20be-3639-9cb4-bb01635b5546, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp-5.azure.vip5.v2ray.ikuuu.pro}}
-  - {name: 🇯🇵 adi|freenode1020-JP 2, server: 172.104.105.143, port: 443, type: vmess, uuid: 21102246-caba-3f49-9a68-49f7476d68f0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: v2ray, ws-headers: {Host: els77.mfjx-vip.xyz}}
-  - {name: 🇯🇵 adi|freenode1020-JP 3, server: 13.71.150.173, port: 666, type: vmess, uuid: 0303ab78-20be-3639-9cb4-bb01635b5546, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp-6.azure.vip5.v2ray.backend.ikuuu.pro}}
-  - {name: 🇺🇲 adi|freenode1020-US, server: 172.247.198.126, port: 443, type: vmess, uuid: 55ab7be2-5e6c-4110-9f16-90d00bdd53a8, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.00689323.xyz}}
-  - {name: 🇺🇲 adi|freenode1020-US 2, server: 23.225.125.85, port: 443, type: vmess, uuid: 3786266d-788b-40b4-b795-f37ffcfdd95a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 23.225.125.85}}
-  - {name: 🇺🇲 adi|freenode1020-US 3, server: 23.224.82.170, port: 443, type: vmess, uuid: 5a7aff44-494d-46c4-9313-6378e2f71a13, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0162296.xyz}}
-  - {name: 🇺🇲 adi|freenode1020-US 4, server: 76.223.5.213, port: 10077, type: vmess, uuid: 845cf1f1-5cda-4281-aa8f-ee2dbbfaf8ce, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 76.223.5.213}}
-  - {name: 🇺🇲 adi|freenode1020-US 5, server: 13.248.129.197, port: 8077, type: vmess, uuid: 845cf1f1-5cda-4281-aa8f-ee2dbbfaf8ce, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.248.129.197}}
-  - {name: 🇯🇵 adi|freenode1020-日本, server: jp-6.azure.vip5.v2ray.backend.ikuuu.pro, port: 666, type: vmess, uuid: 0303ab78-20be-3639-9cb4-bb01635b5546, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp-6.azure.vip5.v2ray.backend.ikuuu.pro}}
+  - {name: 🇦🇺 adi|1024-A-AU_31, server: 1.0.0.1, port: 443, type: vmess, uuid: c2ff297e-03ea-4d43-af32-7953a4fbb63c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /1da41d7/, ws-headers: {Host: w.baidu2b.ml}}
+  - {name: 🇺🇲 adi|1024-B-US_665, server: 172.67.199.187, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
+  - {name: adi|1026-A-en, server: 185.44.76.188, port: 34762, type: ss, cipher: aes-256-gcm, password: yxGY7A5MczQYg6UqSFx9u78V}
+  - {name: 🇯🇵 adi|1026-T-JP, server: milkgogo.ga, port: 443, type: trojan, password: 8244922f-9937-46ba-b9fa-17708e376220, sni: milkgogo.ga}
+  - {name: 🇯🇵 adi|1026-T-JP 2, server: xibun.gq, port: 443, type: trojan, password: 5f83fa6c-db2d-4cca-ba2b-5464085eb309, sni: xibun.gq}
+  - {name: 🇺🇲 adi|1026-T-US, server: fuckxiaofenhong.ga, port: 443, type: trojan, password: f797930d-281b-46fb-88c9-29739fb257d7, sni: fuckxiaofenhong.ga}
+  - {name: 🇺🇲 adi|1026-T-US 2, server: fuckxiaofenhong.ml, port: 443, type: trojan, password: ad1ac8fa-5ada-4016-9cfa-97ca2c338929, sni: fuckxiaofenhong.ml}
+  - {name: 🇺🇲 adi|1026-T-US 3, server: fuckxiaofenhong.tk, port: 443, type: trojan, password: d3640bf1-53b3-454c-90ed-4ecaab754b26, sni: fuckxiaofenhong.tk}
+  - {name: 🇯🇵 adi|1026-T-JP 3, server: fuckxiaofenhong.cf, port: 443, type: trojan, password: 48819dcc-4d07-4419-8ac8-c2e226b2420f, sni: fuckxiaofenhong.cf}
+  - {name: 🇯🇵 adi|1026-T-JP 4, server: fuckxiaofenhong.gq, port: 443, type: trojan, password: ccf4262c-945c-426b-ba47-056195860d18, sni: fuckxiaofenhong.gq}
+  - {name: 🇰🇷 韩国 - adi|1028, server: fuckxijinping.cf, port: 443, type: trojan, password: 03035b64-f675-4da6-b16c-f7c6ee9896c2, sni: fuckxijinping.cf}
+  - {name: 🇰🇷 韩国 - adi|1028 2, server: fuckxijinping.ga, port: 443, type: trojan, password: 66756f3a-170d-11eb-a96a-56000308ae9a, sni: fuckxijinping.ga}
+  - {name: 🇭🇰 香港- adi|1028, server: 18.162.147.210, port: 40086, type: vmess, uuid: 8f47a763-f2d4-44cd-f67f-2f6beda5c902, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 18.162.147.210}}
+  - {name: 🇸🇬 新加坡- adi|1028, server: 13.212.158.108, port: 20134, type: vmess, uuid: d7e823c3-837c-4177-c7f5-14a37cd575bb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 13.212.158.108}}
+  - {name: 🇭🇰 香港 - adi|1028, server: 75.2.18.94, port: 40201, type: vmess, uuid: a8497551-3407-3c9e-a126-7834101b5f6a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 75.2.18.94}}
+  - {name: 🇭🇰 香港 - adi|1028 2, server: 76.223.57.161, port: 40203, type: vmess, uuid: a8497551-3407-3c9e-a126-7834101b5f6a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /honda, ws-headers: {Host: 76.223.57.161}}
+  - {name: 🇭🇰 香港 - adi|1028 3, server: 99.83.236.128, port: 40202, type: vmess, uuid: a8497551-3407-3c9e-a126-7834101b5f6a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 99.83.236.128}}
+  - {name: 🇭🇰 香港 - adi|1028 4, server: 13.248.179.113, port: 40204, type: vmess, uuid: a8497551-3407-3c9e-a126-7834101b5f6a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 13.248.179.113}}
+  - {name: 欧洲 - adi|1028, server: 185.195.79.3, port: 34762, type: ss, cipher: aes-256-gcm, password: yxGY7A5MczQYg6UqSFx9u78V}
+  - {name: 欧洲 - adi|1028 2, server: 185.195.79.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 美国 - adi|1028, server: 207.244.67.147, port: 34762, type: ss, cipher: aes-256-gcm, password: yxGY7A5MczQYg6UqSFx9u78V}
+  - {name: 🇺🇲 美国 - adi|1028 2, server: 207.244.67.147, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇯🇵 日本 - adi|1028, server: a.newword.site, port: 443, type: trojan, password: eZoYEwAI, sni: a.newword.site}
+  - {name: 🇯🇵 日本 - adi|1028B, server: vless.kailun.tk, port: 443, type: trojan, password: allenfreetrojan, sni: vless.kailun.tk}
+  - {name: 🇬🇧 英国 - adi|1028, server: kailun.tk, port: 443, type: trojan, password: 25ba1e73, sni: kailun.tk}
+  - {name: 🇺🇲 US_261 - adi|1028B, server: 173.82.114.185, port: 8081, type: vmess, uuid: 07426f31-2631-4aab-ac00-1c360287b2f0, alterId: 16, cipher: auto, tls: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 adi|freenode1020-CN
-      - 🇭🇰 adi|freenode1020-HK
-      - 🇯🇵 adi|freenode1020-JP
-      - 🇯🇵 adi|freenode1020-JP 2
-      - 🇯🇵 adi|freenode1020-JP 3
-      - 🇺🇲 adi|freenode1020-US
-      - 🇺🇲 adi|freenode1020-US 2
-      - 🇺🇲 adi|freenode1020-US 3
-      - 🇺🇲 adi|freenode1020-US 4
-      - 🇺🇲 adi|freenode1020-US 5
-      - 🇯🇵 adi|freenode1020-日本
+      - 🇦🇺 adi|1024-A-AU_31
+      - 🇺🇲 adi|1024-B-US_665
+      - adi|1026-A-en
+      - 🇯🇵 adi|1026-T-JP
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇺🇲 adi|1026-T-US
+      - 🇺🇲 adi|1026-T-US 2
+      - 🇺🇲 adi|1026-T-US 3
+      - 🇯🇵 adi|1026-T-JP 3
+      - 🇯🇵 adi|1026-T-JP 4
+      - 🇰🇷 韩国 - adi|1028
+      - 🇰🇷 韩国 - adi|1028 2
+      - 🇭🇰 香港- adi|1028
+      - 🇸🇬 新加坡- adi|1028
+      - 🇭🇰 香港 - adi|1028
+      - 🇭🇰 香港 - adi|1028 2
+      - 🇭🇰 香港 - adi|1028 3
+      - 🇭🇰 香港 - adi|1028 4
+      - 欧洲 - adi|1028
+      - 欧洲 - adi|1028 2
+      - 🇺🇲 美国 - adi|1028
+      - 🇺🇲 美国 - adi|1028 2
+      - 🇯🇵 日本 - adi|1028
+      - 🇯🇵 日本 - adi|1028B
+      - 🇬🇧 英国 - adi|1028
+      - 🇺🇲 US_261 - adi|1028B
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 adi|freenode1020-CN
-      - 🇭🇰 adi|freenode1020-HK
-      - 🇯🇵 adi|freenode1020-JP
-      - 🇯🇵 adi|freenode1020-JP 2
-      - 🇯🇵 adi|freenode1020-JP 3
-      - 🇺🇲 adi|freenode1020-US
-      - 🇺🇲 adi|freenode1020-US 2
-      - 🇺🇲 adi|freenode1020-US 3
-      - 🇺🇲 adi|freenode1020-US 4
-      - 🇺🇲 adi|freenode1020-US 5
-      - 🇯🇵 adi|freenode1020-日本
+      - 🇦🇺 adi|1024-A-AU_31
+      - 🇺🇲 adi|1024-B-US_665
+      - adi|1026-A-en
+      - 🇯🇵 adi|1026-T-JP
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇺🇲 adi|1026-T-US
+      - 🇺🇲 adi|1026-T-US 2
+      - 🇺🇲 adi|1026-T-US 3
+      - 🇯🇵 adi|1026-T-JP 3
+      - 🇯🇵 adi|1026-T-JP 4
+      - 🇰🇷 韩国 - adi|1028
+      - 🇰🇷 韩国 - adi|1028 2
+      - 🇭🇰 香港- adi|1028
+      - 🇸🇬 新加坡- adi|1028
+      - 🇭🇰 香港 - adi|1028
+      - 🇭🇰 香港 - adi|1028 2
+      - 🇭🇰 香港 - adi|1028 3
+      - 🇭🇰 香港 - adi|1028 4
+      - 欧洲 - adi|1028
+      - 欧洲 - adi|1028 2
+      - 🇺🇲 美国 - adi|1028
+      - 🇺🇲 美国 - adi|1028 2
+      - 🇯🇵 日本 - adi|1028
+      - 🇯🇵 日本 - adi|1028B
+      - 🇬🇧 英国 - adi|1028
+      - 🇺🇲 US_261 - adi|1028B
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 adi|freenode1020-CN
-      - 🇭🇰 adi|freenode1020-HK
-      - 🇯🇵 adi|freenode1020-JP
-      - 🇯🇵 adi|freenode1020-JP 2
-      - 🇯🇵 adi|freenode1020-JP 3
-      - 🇺🇲 adi|freenode1020-US
-      - 🇺🇲 adi|freenode1020-US 2
-      - 🇺🇲 adi|freenode1020-US 3
-      - 🇺🇲 adi|freenode1020-US 4
-      - 🇺🇲 adi|freenode1020-US 5
-      - 🇯🇵 adi|freenode1020-日本
+      - 🇦🇺 adi|1024-A-AU_31
+      - 🇺🇲 adi|1024-B-US_665
+      - adi|1026-A-en
+      - 🇯🇵 adi|1026-T-JP
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇺🇲 adi|1026-T-US
+      - 🇺🇲 adi|1026-T-US 2
+      - 🇺🇲 adi|1026-T-US 3
+      - 🇯🇵 adi|1026-T-JP 3
+      - 🇯🇵 adi|1026-T-JP 4
+      - 🇰🇷 韩国 - adi|1028
+      - 🇰🇷 韩国 - adi|1028 2
+      - 🇭🇰 香港- adi|1028
+      - 🇸🇬 新加坡- adi|1028
+      - 🇭🇰 香港 - adi|1028
+      - 🇭🇰 香港 - adi|1028 2
+      - 🇭🇰 香港 - adi|1028 3
+      - 🇭🇰 香港 - adi|1028 4
+      - 欧洲 - adi|1028
+      - 欧洲 - adi|1028 2
+      - 🇺🇲 美国 - adi|1028
+      - 🇺🇲 美国 - adi|1028 2
+      - 🇯🇵 日本 - adi|1028
+      - 🇯🇵 日本 - adi|1028B
+      - 🇬🇧 英国 - adi|1028
+      - 🇺🇲 US_261 - adi|1028B
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 adi|freenode1020-CN
-      - 🇭🇰 adi|freenode1020-HK
-      - 🇯🇵 adi|freenode1020-JP
-      - 🇯🇵 adi|freenode1020-JP 2
-      - 🇯🇵 adi|freenode1020-JP 3
-      - 🇺🇲 adi|freenode1020-US
-      - 🇺🇲 adi|freenode1020-US 2
-      - 🇺🇲 adi|freenode1020-US 3
-      - 🇺🇲 adi|freenode1020-US 4
-      - 🇺🇲 adi|freenode1020-US 5
-      - 🇯🇵 adi|freenode1020-日本
+      - 🇦🇺 adi|1024-A-AU_31
+      - 🇺🇲 adi|1024-B-US_665
+      - adi|1026-A-en
+      - 🇯🇵 adi|1026-T-JP
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇺🇲 adi|1026-T-US
+      - 🇺🇲 adi|1026-T-US 2
+      - 🇺🇲 adi|1026-T-US 3
+      - 🇯🇵 adi|1026-T-JP 3
+      - 🇯🇵 adi|1026-T-JP 4
+      - 🇰🇷 韩国 - adi|1028
+      - 🇰🇷 韩国 - adi|1028 2
+      - 🇭🇰 香港- adi|1028
+      - 🇸🇬 新加坡- adi|1028
+      - 🇭🇰 香港 - adi|1028
+      - 🇭🇰 香港 - adi|1028 2
+      - 🇭🇰 香港 - adi|1028 3
+      - 🇭🇰 香港 - adi|1028 4
+      - 欧洲 - adi|1028
+      - 欧洲 - adi|1028 2
+      - 🇺🇲 美国 - adi|1028
+      - 🇺🇲 美国 - adi|1028 2
+      - 🇯🇵 日本 - adi|1028
+      - 🇯🇵 日本 - adi|1028B
+      - 🇬🇧 英国 - adi|1028
+      - 🇺🇲 US_261 - adi|1028B
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 adi|freenode1020-CN
-      - 🇭🇰 adi|freenode1020-HK
-      - 🇯🇵 adi|freenode1020-JP
-      - 🇯🇵 adi|freenode1020-JP 2
-      - 🇯🇵 adi|freenode1020-JP 3
-      - 🇺🇲 adi|freenode1020-US
-      - 🇺🇲 adi|freenode1020-US 2
-      - 🇺🇲 adi|freenode1020-US 3
-      - 🇺🇲 adi|freenode1020-US 4
-      - 🇺🇲 adi|freenode1020-US 5
-      - 🇯🇵 adi|freenode1020-日本
+      - 🇦🇺 adi|1024-A-AU_31
+      - 🇺🇲 adi|1024-B-US_665
+      - adi|1026-A-en
+      - 🇯🇵 adi|1026-T-JP
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇺🇲 adi|1026-T-US
+      - 🇺🇲 adi|1026-T-US 2
+      - 🇺🇲 adi|1026-T-US 3
+      - 🇯🇵 adi|1026-T-JP 3
+      - 🇯🇵 adi|1026-T-JP 4
+      - 🇰🇷 韩国 - adi|1028
+      - 🇰🇷 韩国 - adi|1028 2
+      - 🇭🇰 香港- adi|1028
+      - 🇸🇬 新加坡- adi|1028
+      - 🇭🇰 香港 - adi|1028
+      - 🇭🇰 香港 - adi|1028 2
+      - 🇭🇰 香港 - adi|1028 3
+      - 🇭🇰 香港 - adi|1028 4
+      - 欧洲 - adi|1028
+      - 欧洲 - adi|1028 2
+      - 🇺🇲 美国 - adi|1028
+      - 🇺🇲 美国 - adi|1028 2
+      - 🇯🇵 日本 - adi|1028
+      - 🇯🇵 日本 - adi|1028B
+      - 🇬🇧 英国 - adi|1028
+      - 🇺🇲 US_261 - adi|1028B
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 adi|freenode1020-CN
-      - 🇭🇰 adi|freenode1020-HK
-      - 🇯🇵 adi|freenode1020-JP
-      - 🇯🇵 adi|freenode1020-JP 2
-      - 🇯🇵 adi|freenode1020-JP 3
-      - 🇺🇲 adi|freenode1020-US
-      - 🇺🇲 adi|freenode1020-US 2
-      - 🇺🇲 adi|freenode1020-US 3
-      - 🇺🇲 adi|freenode1020-US 4
-      - 🇺🇲 adi|freenode1020-US 5
-      - 🇯🇵 adi|freenode1020-日本
+      - 🇦🇺 adi|1024-A-AU_31
+      - 🇺🇲 adi|1024-B-US_665
+      - adi|1026-A-en
+      - 🇯🇵 adi|1026-T-JP
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇺🇲 adi|1026-T-US
+      - 🇺🇲 adi|1026-T-US 2
+      - 🇺🇲 adi|1026-T-US 3
+      - 🇯🇵 adi|1026-T-JP 3
+      - 🇯🇵 adi|1026-T-JP 4
+      - 🇰🇷 韩国 - adi|1028
+      - 🇰🇷 韩国 - adi|1028 2
+      - 🇭🇰 香港- adi|1028
+      - 🇸🇬 新加坡- adi|1028
+      - 🇭🇰 香港 - adi|1028
+      - 🇭🇰 香港 - adi|1028 2
+      - 🇭🇰 香港 - adi|1028 3
+      - 🇭🇰 香港 - adi|1028 4
+      - 欧洲 - adi|1028
+      - 欧洲 - adi|1028 2
+      - 🇺🇲 美国 - adi|1028
+      - 🇺🇲 美国 - adi|1028 2
+      - 🇯🇵 日本 - adi|1028
+      - 🇯🇵 日本 - adi|1028B
+      - 🇬🇧 英国 - adi|1028
+      - 🇺🇲 US_261 - adi|1028B
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 adi|freenode1020-CN
-      - 🇭🇰 adi|freenode1020-HK
-      - 🇯🇵 adi|freenode1020-JP
-      - 🇯🇵 adi|freenode1020-JP 2
-      - 🇯🇵 adi|freenode1020-JP 3
-      - 🇺🇲 adi|freenode1020-US
-      - 🇺🇲 adi|freenode1020-US 2
-      - 🇺🇲 adi|freenode1020-US 3
-      - 🇺🇲 adi|freenode1020-US 4
-      - 🇺🇲 adi|freenode1020-US 5
-      - 🇯🇵 adi|freenode1020-日本
+      - 🇦🇺 adi|1024-A-AU_31
+      - 🇺🇲 adi|1024-B-US_665
+      - adi|1026-A-en
+      - 🇯🇵 adi|1026-T-JP
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇺🇲 adi|1026-T-US
+      - 🇺🇲 adi|1026-T-US 2
+      - 🇺🇲 adi|1026-T-US 3
+      - 🇯🇵 adi|1026-T-JP 3
+      - 🇯🇵 adi|1026-T-JP 4
+      - 🇰🇷 韩国 - adi|1028
+      - 🇰🇷 韩国 - adi|1028 2
+      - 🇭🇰 香港- adi|1028
+      - 🇸🇬 新加坡- adi|1028
+      - 🇭🇰 香港 - adi|1028
+      - 🇭🇰 香港 - adi|1028 2
+      - 🇭🇰 香港 - adi|1028 3
+      - 🇭🇰 香港 - adi|1028 4
+      - 欧洲 - adi|1028
+      - 欧洲 - adi|1028 2
+      - 🇺🇲 美国 - adi|1028
+      - 🇺🇲 美国 - adi|1028 2
+      - 🇯🇵 日本 - adi|1028
+      - 🇯🇵 日本 - adi|1028B
+      - 🇬🇧 英国 - adi|1028
+      - 🇺🇲 US_261 - adi|1028B
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -153,17 +273,32 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 adi|freenode1020-CN
-      - 🇭🇰 adi|freenode1020-HK
-      - 🇯🇵 adi|freenode1020-JP
-      - 🇯🇵 adi|freenode1020-JP 2
-      - 🇯🇵 adi|freenode1020-JP 3
-      - 🇺🇲 adi|freenode1020-US
-      - 🇺🇲 adi|freenode1020-US 2
-      - 🇺🇲 adi|freenode1020-US 3
-      - 🇺🇲 adi|freenode1020-US 4
-      - 🇺🇲 adi|freenode1020-US 5
-      - 🇯🇵 adi|freenode1020-日本
+      - 🇦🇺 adi|1024-A-AU_31
+      - 🇺🇲 adi|1024-B-US_665
+      - adi|1026-A-en
+      - 🇯🇵 adi|1026-T-JP
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇺🇲 adi|1026-T-US
+      - 🇺🇲 adi|1026-T-US 2
+      - 🇺🇲 adi|1026-T-US 3
+      - 🇯🇵 adi|1026-T-JP 3
+      - 🇯🇵 adi|1026-T-JP 4
+      - 🇰🇷 韩国 - adi|1028
+      - 🇰🇷 韩国 - adi|1028 2
+      - 🇭🇰 香港- adi|1028
+      - 🇸🇬 新加坡- adi|1028
+      - 🇭🇰 香港 - adi|1028
+      - 🇭🇰 香港 - adi|1028 2
+      - 🇭🇰 香港 - adi|1028 3
+      - 🇭🇰 香港 - adi|1028 4
+      - 欧洲 - adi|1028
+      - 欧洲 - adi|1028 2
+      - 🇺🇲 美国 - adi|1028
+      - 🇺🇲 美国 - adi|1028 2
+      - 🇯🇵 日本 - adi|1028
+      - 🇯🇵 日本 - adi|1028B
+      - 🇬🇧 英国 - adi|1028
+      - 🇺🇲 US_261 - adi|1028B
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
