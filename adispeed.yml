@@ -7,39 +7,78 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🇦🇺 adi|1024-A-AU_31, server: 1.0.0.1, port: 443, type: vmess, uuid: c2ff297e-03ea-4d43-af32-7953a4fbb63c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /1da41d7/, ws-headers: {Host: w.baidu2b.ml}}
   - {name: 🇺🇲 adi|1024-B-US_665, server: 172.67.199.187, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
-  - {name: adi|1026-A-en, server: 185.44.76.188, port: 34762, type: ss, cipher: aes-256-gcm, password: yxGY7A5MczQYg6UqSFx9u78V}
   - {name: 🇯🇵 adi|1026-T-JP, server: milkgogo.ga, port: 443, type: trojan, password: 8244922f-9937-46ba-b9fa-17708e376220, sni: milkgogo.ga}
-  - {name: 🇯🇵 adi|1026-T-JP 2, server: xibun.gq, port: 443, type: trojan, password: 5f83fa6c-db2d-4cca-ba2b-5464085eb309, sni: xibun.gq}
   - {name: 🇺🇲 adi|1026-T-US, server: fuckxiaofenhong.ga, port: 443, type: trojan, password: f797930d-281b-46fb-88c9-29739fb257d7, sni: fuckxiaofenhong.ga}
   - {name: 🇺🇲 adi|1026-T-US 2, server: fuckxiaofenhong.ml, port: 443, type: trojan, password: ad1ac8fa-5ada-4016-9cfa-97ca2c338929, sni: fuckxiaofenhong.ml}
-  - {name: 🇺🇲 adi|1026-T-US 3, server: fuckxiaofenhong.tk, port: 443, type: trojan, password: d3640bf1-53b3-454c-90ed-4ecaab754b26, sni: fuckxiaofenhong.tk}
-  - {name: 🇯🇵 adi|1026-T-JP 3, server: fuckxiaofenhong.cf, port: 443, type: trojan, password: 48819dcc-4d07-4419-8ac8-c2e226b2420f, sni: fuckxiaofenhong.cf}
-  - {name: 🇯🇵 adi|1026-T-JP 4, server: fuckxiaofenhong.gq, port: 443, type: trojan, password: ccf4262c-945c-426b-ba47-056195860d18, sni: fuckxiaofenhong.gq}
-  - {name: 🇰🇷 韩国 - adi|1028, server: fuckxijinping.cf, port: 443, type: trojan, password: 03035b64-f675-4da6-b16c-f7c6ee9896c2, sni: fuckxijinping.cf}
-  - {name: 🇰🇷 韩国 - adi|1028 2, server: fuckxijinping.ga, port: 443, type: trojan, password: 66756f3a-170d-11eb-a96a-56000308ae9a, sni: fuckxijinping.ga}
-  - {name: 🇭🇰 香港- adi|1028, server: 18.162.147.210, port: 40086, type: vmess, uuid: 8f47a763-f2d4-44cd-f67f-2f6beda5c902, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 18.162.147.210}}
-  - {name: 🇸🇬 新加坡- adi|1028, server: 13.212.158.108, port: 20134, type: vmess, uuid: d7e823c3-837c-4177-c7f5-14a37cd575bb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 13.212.158.108}}
-  - {name: 🇭🇰 香港 - adi|1028, server: 75.2.18.94, port: 40201, type: vmess, uuid: a8497551-3407-3c9e-a126-7834101b5f6a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 75.2.18.94}}
-  - {name: 🇭🇰 香港 - adi|1028 2, server: 76.223.57.161, port: 40203, type: vmess, uuid: a8497551-3407-3c9e-a126-7834101b5f6a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /honda, ws-headers: {Host: 76.223.57.161}}
-  - {name: 🇭🇰 香港 - adi|1028 3, server: 99.83.236.128, port: 40202, type: vmess, uuid: a8497551-3407-3c9e-a126-7834101b5f6a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 99.83.236.128}}
-  - {name: 🇭🇰 香港 - adi|1028 4, server: 13.248.179.113, port: 40204, type: vmess, uuid: a8497551-3407-3c9e-a126-7834101b5f6a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 13.248.179.113}}
-  - {name: 欧洲 - adi|1028, server: 185.195.79.3, port: 34762, type: ss, cipher: aes-256-gcm, password: yxGY7A5MczQYg6UqSFx9u78V}
-  - {name: 欧洲 - adi|1028 2, server: 37.120.218.29, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 欧洲 - adi|1028 3, server: 185.195.79.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 美国 - adi|1028, server: 207.244.67.147, port: 34762, type: ss, cipher: aes-256-gcm, password: yxGY7A5MczQYg6UqSFx9u78V}
-  - {name: 🇺🇲 美国 - adi|1028 2, server: 207.244.67.147, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇯🇵 日本 - adi|1028, server: a.newword.site, port: 443, type: trojan, password: eZoYEwAI, sni: a.newword.site}
-  - {name: 🇯🇵 日本 - adi|1028 2, server: vless.kailun.tk, port: 443, type: trojan, password: allenfreetrojan, sni: vless.kailun.tk}
-  - {name: 🇬🇧 英国 - adi|1028, server: kailun.tk, port: 443, type: trojan, password: 25ba1e73, sni: kailun.tk}
-  - {name: 🇰🇷 韩国 - adi|1028 3, server: 158.247.210.38, port: 80, type: vmess, uuid: 654e7f55-e700-4872-88b8-182f87f6810a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP_113 - adi|1028, server: 124.156.210.208, port: 443, type: vmess, uuid: 547cd405-e072-480d-a918-9d11dd7a8aa3, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /1854d59787/, ws-headers: {Host: jp1.asdzxcqwef.xyz}}
-  - {name: 🇷🇺 RU_173 - adi|1028, server: 194.5.79.211, port: 443, type: vmess, uuid: 9bf0b2a1-f890-3d79-ba0b-0aa35a04d8d5, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /movie, ws-headers: {Host: rua.centos8.cloud}}
-  - {name: 🇺🇲 US_258 - adi|1028, server: 76.223.57.161, port: 40203, type: vmess, uuid: a8497551-3407-3c9e-a126-7834101b5f6a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /honda, ws-headers: {Host: 76.223.57.161}}
-  - {name: 🇺🇲 US_261 - adi|1028, server: 173.82.114.185, port: 8081, type: vmess, uuid: 07426f31-2631-4aab-ac00-1c360287b2f0, alterId: 16, cipher: auto, tls: true}
-  - {name: 🇺🇲 US_262 - adi|1028, server: 13.248.179.113, port: 40204, type: vmess, uuid: a8497551-3407-3c9e-a126-7834101b5f6a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 13.248.179.113}}
-  - {name: 🇺🇲 US_263 - adi|1028, server: 75.2.18.94, port: 40201, type: vmess, uuid: a8497551-3407-3c9e-a126-7834101b5f6a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 75.2.18.94}}
-  - {name: 🇺🇲 US_277 - adi|1028, server: 76.223.24.33, port: 40086, type: vmess, uuid: 8f47a763-f2d4-44cd-f67f-2f6beda5c902, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 76.223.24.33}}
-  - {name: 🇺🇲 US_278 - adi|1028, server: 99.83.236.128, port: 40202, type: vmess, uuid: a8497551-3407-3c9e-a126-7834101b5f6a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 99.83.236.128}}
+  - {name: 🇯🇵 adi|1026-T-JP 2, server: fuckxiaofenhong.cf, port: 443, type: trojan, password: 48819dcc-4d07-4419-8ac8-c2e226b2420f, sni: fuckxiaofenhong.cf}
+  - {name: 🇰🇷 韩国 - adi|1028T, server: fuckxijinping.cf, port: 443, type: trojan, password: 03035b64-f675-4da6-b16c-f7c6ee9896c2, sni: fuckxijinping.cf}
+  - {name: 🇰🇷 韩国 - adi|1028T 2, server: fuckxijinping.ga, port: 443, type: trojan, password: 66756f3a-170d-11eb-a96a-56000308ae9a, sni: fuckxijinping.ga}
+  - {name: 欧洲 - adi|1028, server: 185.195.79.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇯🇵 日本 - adi|1028T, server: vless.kailun.tk, port: 443, type: trojan, password: allenfreetrojan, sni: vless.kailun.tk}
+  - {name: 🇹🇷 adi|1105 -TR_256, server: 141.98.117.242, port: 443, type: vmess, uuid: 5db447ee-e3af-3826-86af-f7fb86108cec, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: tr.tiktok.page}}
+  - {name: 🇺🇲 adi|1105 -US_259, server: 104.18.57.106, port: 443, type: vmess, uuid: 289b1962-6a25-4049-b29c-fe34c86ee148, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /debian, ws-headers: {Host: server3.tmzrmmeh0matamn9.xyz}}
+  - {name: adi|1105 -Unknown, server: v2-06.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-06.ssrsub.one}}
+  - {name: 🇭🇰 香港- adi|1105, server: 183.232.136.231, port: 100, type: ss, cipher: aes-128-gcm, password: Ax90rTgp}
+  - {name: 🇩🇪 德国- adi|1105, server: llajv.rebldp.tech, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
+  - {name: 🇭🇰 香港- adi|1105 2, server: 52.175.16.108, port: 63132, type: vmess, uuid: e3b51fd0-f3f5-4c37-a7bd-c8d7d6069ff4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 52.175.16.108}}
+  - {name: 🇺🇲 美国- adi|1105, server: 45.82.255.18, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt}
+  - {name: 🇺🇲 美国- adi|1105 2, server: 45.82.255.217, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb}
+  - {name: 🇺🇲 美国- adi|1105 3, server: 213.59.119.2, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE}
+  - {name: 🇺🇲 美国- adi|1105 4, server: 45.82.255.18, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM}
+  - {name: 🇯🇵 日本- adi|1105, server: 116.80.41.17, port: 50548, type: vmess, uuid: 39f9a172-f8a0-4819-95e2-8fbbb455fd3c, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 116.80.41.17}}
+  - {name: 🇺🇲 美国- adi|1105 5, server: 213.59.119.2, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
+  - {name: 🇭🇰 香港- adi|1105 3, server: 183.232.136.231, port: 102, type: ss, cipher: aes-128-gcm, password: wVu4fp}
+  - {name: 🇺🇲 美国- adi|1105 6, server: 184.170.243.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇳🇱 荷兰- adi|1105, server: 185.224.250.112, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
+  - {name: 🇳🇱 荷兰- adi|1105 2, server: 185.224.250.106, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
+  - {name: 🇺🇲 美国- adi|1105 7, server: 74.119.146.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇳🇱 荷兰- adi|1105 3, server: 185.224.250.134, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa}
+  - {name: 🇺🇲 美国- adi|1105 8, server: 45.43.14.83, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 欧洲- adi|1105, server: 95.174.65.73, port: 34762, type: ss, cipher: aes-256-gcm, password: yxGY7A5MczQYg6UqSFx9u78V}
+  - {name: 欧洲- adi|1105 2, server: 45.128.153.77, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq}
+  - {name: 欧洲- adi|1105 3, server: 62.216.72.147, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP}
+  - {name: 欧洲- adi|1105 4, server: 45.12.206.89, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE}
+  - {name: 🇨🇦 加拿大- adi|1105, server: 172.98.82.229, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇯🇵 日本- adi|1105 2, server: 40.81.210.59, port: 443, type: vmess, uuid: adbece96-40a8-3d29-a05f-fda5e696f67f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp-5.azure.vip5.v2ray.ikuuu.pro}}
+  - {name: 🇰🇷 adi|1105T -韩国3, server: trotro.ml, port: 443, type: trojan, password: f6efe9df-195d-4202-b535-34d717bf9c4e, sni: trotro.ml}
+  - {name: 🇯🇵 adi|1105T -日本1, server: fuckxiaofenhong.gq, port: 443, type: trojan, password: ccf4262c-945c-426b-ba47-056195860d18, sni: fuckxiaofenhong.gq}
+  - {name: 🇺🇲 adi|1105T -西雅图C, server: xibun.gq, port: 443, type: trojan, password: 5f83fa6c-db2d-4cca-ba2b-5464085eb309, sni: xibun.gq}
+  - {name: 🇰🇷 adi|1105 -韩国9, server: littlesur.ml, port: 443, type: vmess, uuid: 58ff420c-1e7b-11eb-a071-5600030c9ef8, alterId: 45, cipher: auto, tls: true, network: ws, ws-path: /vnFG1ymV/, ws-headers: {Host: littlesur.ml}}
+  - {name: 🇰🇷 adi|1105 -韩国1, server: chinahr.cf, port: 443, type: vmess, uuid: 58a836f6-1e7b-11eb-a235-5600030c9ec0, alterId: 35, cipher: auto, tls: true, network: ws, ws-path: /tbYweGIO/, ws-headers: {Host: chinahr.cf}}
+  - {name: 🇨🇳 adi|1105 -CN_10, server: 58.32.12.59, port: 30009, type: vmess, uuid: a318e304-730d-4edf-b9a1-5930d2d79cd9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 58.32.12.59}}
+  - {name: 🇨🇳 adi|1105 -CN_12, server: 120.240.102.38, port: 332, type: vmess, uuid: 943e6fc9-e1eb-3768-9572-fadc00722933, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls, ws-headers: {Host: 54.250.239.187}}
+  - {name: 🇨🇳 adi|1105 -CN_13, server: 119.188.97.32, port: 80, type: vmess, uuid: 44aeff66-56ab-35f8-81c9-0b04fce385da, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: ru.ruvds-d.tejiong.top}}
+  - {name: 🇯🇵 adi|1105 -JP_55, server: 141.164.44.175, port: 443, type: vmess, uuid: 58a836f6-1e7b-11eb-a235-5600030c9ec0, alterId: 35, cipher: auto, tls: true, network: ws, ws-path: /tbYweGIO/, ws-headers: {Host: chinahr.cf}}
+  - {name: 🇯🇵 adi|1105 -JP_57, server: 40.81.210.59, port: 443, type: vmess, uuid: adbece96-40a8-3d29-a05f-fda5e696f67f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp-5.azure.vip5.v2ray.ikuuu.pro}}
+  - {name: adi|1105 -LT_68, server: 5.181.135.129, port: 443, type: vmess, uuid: 5db447ee-e3af-3826-86af-f7fb86108cec, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: rack.tiktok.page}}
+  - {name: 🇷🇴 adi|1105 -RO_71, server: 62.216.92.39, port: 36752, type: vmess, uuid: e6423812-5509-4865-e8c6-da30e0b03d20, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇴 adi|1105 -RO_72, server: 62.216.92.39, port: 52612, type: vmess, uuid: ff10d8ad-cda0-40b4-880c-3fb441c5a8fd, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇲 adi|1105 -US_156, server: 99.83.232.201, port: 80, type: vmess, uuid: d02e740e-8693-3593-acde-52e7ba1d1a56, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 99.83.232.201}}
+  - {name: 🇺🇲 adi|1105 -US_158, server: 75.2.93.12, port: 80, type: vmess, uuid: d02e740e-8693-3593-acde-52e7ba1d1a56, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 75.2.93.12}}
+  - {name: 🇺🇲 adi|1105 -US_160, server: 157.52.168.12, port: 21568, type: vmess, uuid: 5314aa06-2a03-4e5c-93bb-6a6ae585c7b8, alterId: 59, cipher: auto, tls: false}
+  - {name: 🇺🇲 adi|1105 -US_162, server: 205.185.114.229, port: 443, type: vmess, uuid: 9bf0b2a1-f890-3d79-ba0b-0aa35a04d8d5, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /movie, ws-headers: {Host: mga.centos8.cloud}}
+  - {name: 🇺🇲 adi|1105 -US_164, server: 104.18.57.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
+  - {name: 🇺🇲 adi|1105 -US_165, server: 104.18.56.106, port: 443, type: vmess, uuid: eda86376-75b8-4ede-aa9e-365763cb7d8f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /debian, ws-headers: {Host: server1.tmzrmmeh0matamn9.xyz}}
+  - {name: 🇺🇲 adi|1105 -US_169, server: 104.18.56.106, port: 443, type: vmess, uuid: 14744d6a-5323-484b-af61-a3ff19bdea04, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /debian, ws-headers: {Host: server5.tmzrmmeh0matamn9.xyz}}
+  - {name: 🇺🇲 adi|1105 -US_171, server: 172.67.200.229, port: 443, type: vmess, uuid: 289b1962-6a25-4049-b29c-fe34c86ee148, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /debian, ws-headers: {Host: server3.tmzrmmeh0matamn9.xyz}}
+  - {name: 🇺🇲 adi|1105 -US_173, server: 172.67.200.229, port: 443, type: vmess, uuid: 67bd45d9-383d-4438-9b82-60dcef5621b8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /debian, ws-headers: {Host: server2.tmzrmmeh0matamn9.xyz}}
+  - {name: 🇺🇲 adi|1105 -US_174, server: 172.67.200.229, port: 443, type: vmess, uuid: 14744d6a-5323-484b-af61-a3ff19bdea04, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /debian, ws-headers: {Host: server5.tmzrmmeh0matamn9.xyz}}
+  - {name: 🇺🇲 adi|1105 -US_176, server: 104.18.56.106, port: 443, type: vmess, uuid: 67bd45d9-383d-4438-9b82-60dcef5621b8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /debian, ws-headers: {Host: server2.tmzrmmeh0matamn9.xyz}}
+  - {name: 🇺🇲 adi|1105 -US_180, server: 104.18.56.106, port: 443, type: vmess, uuid: 289b1962-6a25-4049-b29c-fe34c86ee148, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /debian, ws-headers: {Host: server3.tmzrmmeh0matamn9.xyz}}
+  - {name: 🇺🇲 adi|1105 -US_181, server: 158.247.196.164, port: 443, type: vmess, uuid: 58ff420c-1e7b-11eb-a071-5600030c9ef8, alterId: 45, cipher: auto, tls: true, network: ws, ws-path: /vnFG1ymV/, ws-headers: {Host: littlesur.ml}}
+  - {name: 🇷🇺 adi|1105 -Russia, server: v2-14.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-14.ssrsub.one}}
+  - {name: 🇺🇲 adi|1105 -United States, server: 157.52.168.12, port: 21568, type: vmess, uuid: 5314aa06-2a03-4e5c-93bb-6a6ae585c7b8, alterId: 59, cipher: auto, tls: false}
+  - {name: adi|1105 -Unknown 2, server: v2-03.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-03.ssrsub.one}}
+  - {name: adi|1105 -Unknown 3, server: v2-04.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-04.ssrsub.one}}
+  - {name: 🇨🇳 adi|1105 -CN_11, server: 42.236.94.32, port: 80, type: vmess, uuid: 44aeff66-56ab-35f8-81c9-0b04fce385da, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: ru.ruvds-a.tejiong.top}}
+  - {name: 🇷🇺 adi|1105 -RU_87, server: 45.8.159.203, port: 45679, type: vmess, uuid: 8f17edeb-927e-4ad0-a489-64d491bfac69, alterId: 233, cipher: auto, tls: false}
+  - {name: 🇺🇲 adi|1105 -US_177, server: 172.67.200.229, port: 443, type: vmess, uuid: a6b77e86-f6a1-43ce-89d1-88f64135f70f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /debian, ws-headers: {Host: server4.tmzrmmeh0matamn9.xyz}}
+  - {name: adi|1105 -bigsur.cf, server: bigsur.cf, port: 443, type: vmess, uuid: 9c818b78-1e7d-11eb-824a-5600030ca09e, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /v34S1qph/, ws-headers: {Host: bigsur.cf}}
+  - {name: adi|1105 -xibun.cf, server: xibun.cf, port: 443, type: vmess, uuid: 68ec6b14-1e7f-11eb-aba4-5600030ca164, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /SEBQFLfg/, ws-headers: {Host: xibun.cf}}
+  - {name: 🇨🇳 adi|1105 -台湾05, server: tw.free.05.jisumax.xyz, port: 65205, type: vmess, uuid: 9ca5c7bd-8fc0-4ea5-8401-3d930b3abbf2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: tw.free.05.jisumax.xyz}}
+  - {name: 🇭🇰 adi|1105T -香港04, server: hk.free.04.jisumax.xyz, port: 443, type: trojan, password: 9ca5c7bd-8fc0-4ea5-8401-3d930b3abbf2, sni: hk.free.04.jisumax.xyz}
+  - {name: 🇨🇳 adi|1105T -台湾05, server: tw.free.05.jisumax.xyz, port: 443, type: trojan, password: 9ca5c7bd-8fc0-4ea5-8401-3d930b3abbf2, sni: tw.free.05.jisumax.xyz}
+  - {name: 🇯🇵 adi|1105T -日本5, server: fuckxiaofenhong.tk, port: 443, type: trojan, password: d3640bf1-53b3-454c-90ed-4ecaab754b26, sni: fuckxiaofenhong.tk}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -48,39 +87,78 @@ proxy-groups:
       - DIRECT
       - 🇦🇺 adi|1024-A-AU_31
       - 🇺🇲 adi|1024-B-US_665
-      - adi|1026-A-en
       - 🇯🇵 adi|1026-T-JP
-      - 🇯🇵 adi|1026-T-JP 2
       - 🇺🇲 adi|1026-T-US
       - 🇺🇲 adi|1026-T-US 2
-      - 🇺🇲 adi|1026-T-US 3
-      - 🇯🇵 adi|1026-T-JP 3
-      - 🇯🇵 adi|1026-T-JP 4
-      - 🇰🇷 韩国 - adi|1028
-      - 🇰🇷 韩国 - adi|1028 2
-      - 🇭🇰 香港- adi|1028
-      - 🇸🇬 新加坡- adi|1028
-      - 🇭🇰 香港 - adi|1028
-      - 🇭🇰 香港 - adi|1028 2
-      - 🇭🇰 香港 - adi|1028 3
-      - 🇭🇰 香港 - adi|1028 4
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇰🇷 韩国 - adi|1028T
+      - 🇰🇷 韩国 - adi|1028T 2
       - 欧洲 - adi|1028
-      - 欧洲 - adi|1028 2
-      - 欧洲 - adi|1028 3
-      - 🇺🇲 美国 - adi|1028
-      - 🇺🇲 美国 - adi|1028 2
-      - 🇯🇵 日本 - adi|1028
-      - 🇯🇵 日本 - adi|1028 2
-      - 🇬🇧 英国 - adi|1028
-      - 🇰🇷 韩国 - adi|1028 3
-      - 🇯🇵 JP_113 - adi|1028
-      - 🇷🇺 RU_173 - adi|1028
-      - 🇺🇲 US_258 - adi|1028
-      - 🇺🇲 US_261 - adi|1028
-      - 🇺🇲 US_262 - adi|1028
-      - 🇺🇲 US_263 - adi|1028
-      - 🇺🇲 US_277 - adi|1028
-      - 🇺🇲 US_278 - adi|1028
+      - 🇯🇵 日本 - adi|1028T
+      - 🇹🇷 adi|1105 -TR_256
+      - 🇺🇲 adi|1105 -US_259
+      - adi|1105 -Unknown
+      - 🇭🇰 香港- adi|1105
+      - 🇩🇪 德国- adi|1105
+      - 🇭🇰 香港- adi|1105 2
+      - 🇺🇲 美国- adi|1105
+      - 🇺🇲 美国- adi|1105 2
+      - 🇺🇲 美国- adi|1105 3
+      - 🇺🇲 美国- adi|1105 4
+      - 🇯🇵 日本- adi|1105
+      - 🇺🇲 美国- adi|1105 5
+      - 🇭🇰 香港- adi|1105 3
+      - 🇺🇲 美国- adi|1105 6
+      - 🇳🇱 荷兰- adi|1105
+      - 🇳🇱 荷兰- adi|1105 2
+      - 🇺🇲 美国- adi|1105 7
+      - 🇳🇱 荷兰- adi|1105 3
+      - 🇺🇲 美国- adi|1105 8
+      - 欧洲- adi|1105
+      - 欧洲- adi|1105 2
+      - 欧洲- adi|1105 3
+      - 欧洲- adi|1105 4
+      - 🇨🇦 加拿大- adi|1105
+      - 🇯🇵 日本- adi|1105 2
+      - 🇰🇷 adi|1105T -韩国3
+      - 🇯🇵 adi|1105T -日本1
+      - 🇺🇲 adi|1105T -西雅图C
+      - 🇰🇷 adi|1105 -韩国9
+      - 🇰🇷 adi|1105 -韩国1
+      - 🇨🇳 adi|1105 -CN_10
+      - 🇨🇳 adi|1105 -CN_12
+      - 🇨🇳 adi|1105 -CN_13
+      - 🇯🇵 adi|1105 -JP_55
+      - 🇯🇵 adi|1105 -JP_57
+      - adi|1105 -LT_68
+      - 🇷🇴 adi|1105 -RO_71
+      - 🇷🇴 adi|1105 -RO_72
+      - 🇺🇲 adi|1105 -US_156
+      - 🇺🇲 adi|1105 -US_158
+      - 🇺🇲 adi|1105 -US_160
+      - 🇺🇲 adi|1105 -US_162
+      - 🇺🇲 adi|1105 -US_164
+      - 🇺🇲 adi|1105 -US_165
+      - 🇺🇲 adi|1105 -US_169
+      - 🇺🇲 adi|1105 -US_171
+      - 🇺🇲 adi|1105 -US_173
+      - 🇺🇲 adi|1105 -US_174
+      - 🇺🇲 adi|1105 -US_176
+      - 🇺🇲 adi|1105 -US_180
+      - 🇺🇲 adi|1105 -US_181
+      - 🇷🇺 adi|1105 -Russia
+      - 🇺🇲 adi|1105 -United States
+      - adi|1105 -Unknown 2
+      - adi|1105 -Unknown 3
+      - 🇨🇳 adi|1105 -CN_11
+      - 🇷🇺 adi|1105 -RU_87
+      - 🇺🇲 adi|1105 -US_177
+      - adi|1105 -bigsur.cf
+      - adi|1105 -xibun.cf
+      - 🇨🇳 adi|1105 -台湾05
+      - 🇭🇰 adi|1105T -香港04
+      - 🇨🇳 adi|1105T -台湾05
+      - 🇯🇵 adi|1105T -日本5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -88,39 +166,78 @@ proxy-groups:
     proxies:
       - 🇦🇺 adi|1024-A-AU_31
       - 🇺🇲 adi|1024-B-US_665
-      - adi|1026-A-en
       - 🇯🇵 adi|1026-T-JP
-      - 🇯🇵 adi|1026-T-JP 2
       - 🇺🇲 adi|1026-T-US
       - 🇺🇲 adi|1026-T-US 2
-      - 🇺🇲 adi|1026-T-US 3
-      - 🇯🇵 adi|1026-T-JP 3
-      - 🇯🇵 adi|1026-T-JP 4
-      - 🇰🇷 韩国 - adi|1028
-      - 🇰🇷 韩国 - adi|1028 2
-      - 🇭🇰 香港- adi|1028
-      - 🇸🇬 新加坡- adi|1028
-      - 🇭🇰 香港 - adi|1028
-      - 🇭🇰 香港 - adi|1028 2
-      - 🇭🇰 香港 - adi|1028 3
-      - 🇭🇰 香港 - adi|1028 4
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇰🇷 韩国 - adi|1028T
+      - 🇰🇷 韩国 - adi|1028T 2
       - 欧洲 - adi|1028
-      - 欧洲 - adi|1028 2
-      - 欧洲 - adi|1028 3
-      - 🇺🇲 美国 - adi|1028
-      - 🇺🇲 美国 - adi|1028 2
-      - 🇯🇵 日本 - adi|1028
-      - 🇯🇵 日本 - adi|1028 2
-      - 🇬🇧 英国 - adi|1028
-      - 🇰🇷 韩国 - adi|1028 3
-      - 🇯🇵 JP_113 - adi|1028
-      - 🇷🇺 RU_173 - adi|1028
-      - 🇺🇲 US_258 - adi|1028
-      - 🇺🇲 US_261 - adi|1028
-      - 🇺🇲 US_262 - adi|1028
-      - 🇺🇲 US_263 - adi|1028
-      - 🇺🇲 US_277 - adi|1028
-      - 🇺🇲 US_278 - adi|1028
+      - 🇯🇵 日本 - adi|1028T
+      - 🇹🇷 adi|1105 -TR_256
+      - 🇺🇲 adi|1105 -US_259
+      - adi|1105 -Unknown
+      - 🇭🇰 香港- adi|1105
+      - 🇩🇪 德国- adi|1105
+      - 🇭🇰 香港- adi|1105 2
+      - 🇺🇲 美国- adi|1105
+      - 🇺🇲 美国- adi|1105 2
+      - 🇺🇲 美国- adi|1105 3
+      - 🇺🇲 美国- adi|1105 4
+      - 🇯🇵 日本- adi|1105
+      - 🇺🇲 美国- adi|1105 5
+      - 🇭🇰 香港- adi|1105 3
+      - 🇺🇲 美国- adi|1105 6
+      - 🇳🇱 荷兰- adi|1105
+      - 🇳🇱 荷兰- adi|1105 2
+      - 🇺🇲 美国- adi|1105 7
+      - 🇳🇱 荷兰- adi|1105 3
+      - 🇺🇲 美国- adi|1105 8
+      - 欧洲- adi|1105
+      - 欧洲- adi|1105 2
+      - 欧洲- adi|1105 3
+      - 欧洲- adi|1105 4
+      - 🇨🇦 加拿大- adi|1105
+      - 🇯🇵 日本- adi|1105 2
+      - 🇰🇷 adi|1105T -韩国3
+      - 🇯🇵 adi|1105T -日本1
+      - 🇺🇲 adi|1105T -西雅图C
+      - 🇰🇷 adi|1105 -韩国9
+      - 🇰🇷 adi|1105 -韩国1
+      - 🇨🇳 adi|1105 -CN_10
+      - 🇨🇳 adi|1105 -CN_12
+      - 🇨🇳 adi|1105 -CN_13
+      - 🇯🇵 adi|1105 -JP_55
+      - 🇯🇵 adi|1105 -JP_57
+      - adi|1105 -LT_68
+      - 🇷🇴 adi|1105 -RO_71
+      - 🇷🇴 adi|1105 -RO_72
+      - 🇺🇲 adi|1105 -US_156
+      - 🇺🇲 adi|1105 -US_158
+      - 🇺🇲 adi|1105 -US_160
+      - 🇺🇲 adi|1105 -US_162
+      - 🇺🇲 adi|1105 -US_164
+      - 🇺🇲 adi|1105 -US_165
+      - 🇺🇲 adi|1105 -US_169
+      - 🇺🇲 adi|1105 -US_171
+      - 🇺🇲 adi|1105 -US_173
+      - 🇺🇲 adi|1105 -US_174
+      - 🇺🇲 adi|1105 -US_176
+      - 🇺🇲 adi|1105 -US_180
+      - 🇺🇲 adi|1105 -US_181
+      - 🇷🇺 adi|1105 -Russia
+      - 🇺🇲 adi|1105 -United States
+      - adi|1105 -Unknown 2
+      - adi|1105 -Unknown 3
+      - 🇨🇳 adi|1105 -CN_11
+      - 🇷🇺 adi|1105 -RU_87
+      - 🇺🇲 adi|1105 -US_177
+      - adi|1105 -bigsur.cf
+      - adi|1105 -xibun.cf
+      - 🇨🇳 adi|1105 -台湾05
+      - 🇭🇰 adi|1105T -香港04
+      - 🇨🇳 adi|1105T -台湾05
+      - 🇯🇵 adi|1105T -日本5
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -129,39 +246,78 @@ proxy-groups:
       - 🎯 全球直连
       - 🇦🇺 adi|1024-A-AU_31
       - 🇺🇲 adi|1024-B-US_665
-      - adi|1026-A-en
       - 🇯🇵 adi|1026-T-JP
-      - 🇯🇵 adi|1026-T-JP 2
       - 🇺🇲 adi|1026-T-US
       - 🇺🇲 adi|1026-T-US 2
-      - 🇺🇲 adi|1026-T-US 3
-      - 🇯🇵 adi|1026-T-JP 3
-      - 🇯🇵 adi|1026-T-JP 4
-      - 🇰🇷 韩国 - adi|1028
-      - 🇰🇷 韩国 - adi|1028 2
-      - 🇭🇰 香港- adi|1028
-      - 🇸🇬 新加坡- adi|1028
-      - 🇭🇰 香港 - adi|1028
-      - 🇭🇰 香港 - adi|1028 2
-      - 🇭🇰 香港 - adi|1028 3
-      - 🇭🇰 香港 - adi|1028 4
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇰🇷 韩国 - adi|1028T
+      - 🇰🇷 韩国 - adi|1028T 2
       - 欧洲 - adi|1028
-      - 欧洲 - adi|1028 2
-      - 欧洲 - adi|1028 3
-      - 🇺🇲 美国 - adi|1028
-      - 🇺🇲 美国 - adi|1028 2
-      - 🇯🇵 日本 - adi|1028
-      - 🇯🇵 日本 - adi|1028 2
-      - 🇬🇧 英国 - adi|1028
-      - 🇰🇷 韩国 - adi|1028 3
-      - 🇯🇵 JP_113 - adi|1028
-      - 🇷🇺 RU_173 - adi|1028
-      - 🇺🇲 US_258 - adi|1028
-      - 🇺🇲 US_261 - adi|1028
-      - 🇺🇲 US_262 - adi|1028
-      - 🇺🇲 US_263 - adi|1028
-      - 🇺🇲 US_277 - adi|1028
-      - 🇺🇲 US_278 - adi|1028
+      - 🇯🇵 日本 - adi|1028T
+      - 🇹🇷 adi|1105 -TR_256
+      - 🇺🇲 adi|1105 -US_259
+      - adi|1105 -Unknown
+      - 🇭🇰 香港- adi|1105
+      - 🇩🇪 德国- adi|1105
+      - 🇭🇰 香港- adi|1105 2
+      - 🇺🇲 美国- adi|1105
+      - 🇺🇲 美国- adi|1105 2
+      - 🇺🇲 美国- adi|1105 3
+      - 🇺🇲 美国- adi|1105 4
+      - 🇯🇵 日本- adi|1105
+      - 🇺🇲 美国- adi|1105 5
+      - 🇭🇰 香港- adi|1105 3
+      - 🇺🇲 美国- adi|1105 6
+      - 🇳🇱 荷兰- adi|1105
+      - 🇳🇱 荷兰- adi|1105 2
+      - 🇺🇲 美国- adi|1105 7
+      - 🇳🇱 荷兰- adi|1105 3
+      - 🇺🇲 美国- adi|1105 8
+      - 欧洲- adi|1105
+      - 欧洲- adi|1105 2
+      - 欧洲- adi|1105 3
+      - 欧洲- adi|1105 4
+      - 🇨🇦 加拿大- adi|1105
+      - 🇯🇵 日本- adi|1105 2
+      - 🇰🇷 adi|1105T -韩国3
+      - 🇯🇵 adi|1105T -日本1
+      - 🇺🇲 adi|1105T -西雅图C
+      - 🇰🇷 adi|1105 -韩国9
+      - 🇰🇷 adi|1105 -韩国1
+      - 🇨🇳 adi|1105 -CN_10
+      - 🇨🇳 adi|1105 -CN_12
+      - 🇨🇳 adi|1105 -CN_13
+      - 🇯🇵 adi|1105 -JP_55
+      - 🇯🇵 adi|1105 -JP_57
+      - adi|1105 -LT_68
+      - 🇷🇴 adi|1105 -RO_71
+      - 🇷🇴 adi|1105 -RO_72
+      - 🇺🇲 adi|1105 -US_156
+      - 🇺🇲 adi|1105 -US_158
+      - 🇺🇲 adi|1105 -US_160
+      - 🇺🇲 adi|1105 -US_162
+      - 🇺🇲 adi|1105 -US_164
+      - 🇺🇲 adi|1105 -US_165
+      - 🇺🇲 adi|1105 -US_169
+      - 🇺🇲 adi|1105 -US_171
+      - 🇺🇲 adi|1105 -US_173
+      - 🇺🇲 adi|1105 -US_174
+      - 🇺🇲 adi|1105 -US_176
+      - 🇺🇲 adi|1105 -US_180
+      - 🇺🇲 adi|1105 -US_181
+      - 🇷🇺 adi|1105 -Russia
+      - 🇺🇲 adi|1105 -United States
+      - adi|1105 -Unknown 2
+      - adi|1105 -Unknown 3
+      - 🇨🇳 adi|1105 -CN_11
+      - 🇷🇺 adi|1105 -RU_87
+      - 🇺🇲 adi|1105 -US_177
+      - adi|1105 -bigsur.cf
+      - adi|1105 -xibun.cf
+      - 🇨🇳 adi|1105 -台湾05
+      - 🇭🇰 adi|1105T -香港04
+      - 🇨🇳 adi|1105T -台湾05
+      - 🇯🇵 adi|1105T -日本5
   - name: 📲 电报信息
     type: select
     proxies:
@@ -169,39 +325,78 @@ proxy-groups:
       - 🎯 全球直连
       - 🇦🇺 adi|1024-A-AU_31
       - 🇺🇲 adi|1024-B-US_665
-      - adi|1026-A-en
       - 🇯🇵 adi|1026-T-JP
-      - 🇯🇵 adi|1026-T-JP 2
       - 🇺🇲 adi|1026-T-US
       - 🇺🇲 adi|1026-T-US 2
-      - 🇺🇲 adi|1026-T-US 3
-      - 🇯🇵 adi|1026-T-JP 3
-      - 🇯🇵 adi|1026-T-JP 4
-      - 🇰🇷 韩国 - adi|1028
-      - 🇰🇷 韩国 - adi|1028 2
-      - 🇭🇰 香港- adi|1028
-      - 🇸🇬 新加坡- adi|1028
-      - 🇭🇰 香港 - adi|1028
-      - 🇭🇰 香港 - adi|1028 2
-      - 🇭🇰 香港 - adi|1028 3
-      - 🇭🇰 香港 - adi|1028 4
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇰🇷 韩国 - adi|1028T
+      - 🇰🇷 韩国 - adi|1028T 2
       - 欧洲 - adi|1028
-      - 欧洲 - adi|1028 2
-      - 欧洲 - adi|1028 3
-      - 🇺🇲 美国 - adi|1028
-      - 🇺🇲 美国 - adi|1028 2
-      - 🇯🇵 日本 - adi|1028
-      - 🇯🇵 日本 - adi|1028 2
-      - 🇬🇧 英国 - adi|1028
-      - 🇰🇷 韩国 - adi|1028 3
-      - 🇯🇵 JP_113 - adi|1028
-      - 🇷🇺 RU_173 - adi|1028
-      - 🇺🇲 US_258 - adi|1028
-      - 🇺🇲 US_261 - adi|1028
-      - 🇺🇲 US_262 - adi|1028
-      - 🇺🇲 US_263 - adi|1028
-      - 🇺🇲 US_277 - adi|1028
-      - 🇺🇲 US_278 - adi|1028
+      - 🇯🇵 日本 - adi|1028T
+      - 🇹🇷 adi|1105 -TR_256
+      - 🇺🇲 adi|1105 -US_259
+      - adi|1105 -Unknown
+      - 🇭🇰 香港- adi|1105
+      - 🇩🇪 德国- adi|1105
+      - 🇭🇰 香港- adi|1105 2
+      - 🇺🇲 美国- adi|1105
+      - 🇺🇲 美国- adi|1105 2
+      - 🇺🇲 美国- adi|1105 3
+      - 🇺🇲 美国- adi|1105 4
+      - 🇯🇵 日本- adi|1105
+      - 🇺🇲 美国- adi|1105 5
+      - 🇭🇰 香港- adi|1105 3
+      - 🇺🇲 美国- adi|1105 6
+      - 🇳🇱 荷兰- adi|1105
+      - 🇳🇱 荷兰- adi|1105 2
+      - 🇺🇲 美国- adi|1105 7
+      - 🇳🇱 荷兰- adi|1105 3
+      - 🇺🇲 美国- adi|1105 8
+      - 欧洲- adi|1105
+      - 欧洲- adi|1105 2
+      - 欧洲- adi|1105 3
+      - 欧洲- adi|1105 4
+      - 🇨🇦 加拿大- adi|1105
+      - 🇯🇵 日本- adi|1105 2
+      - 🇰🇷 adi|1105T -韩国3
+      - 🇯🇵 adi|1105T -日本1
+      - 🇺🇲 adi|1105T -西雅图C
+      - 🇰🇷 adi|1105 -韩国9
+      - 🇰🇷 adi|1105 -韩国1
+      - 🇨🇳 adi|1105 -CN_10
+      - 🇨🇳 adi|1105 -CN_12
+      - 🇨🇳 adi|1105 -CN_13
+      - 🇯🇵 adi|1105 -JP_55
+      - 🇯🇵 adi|1105 -JP_57
+      - adi|1105 -LT_68
+      - 🇷🇴 adi|1105 -RO_71
+      - 🇷🇴 adi|1105 -RO_72
+      - 🇺🇲 adi|1105 -US_156
+      - 🇺🇲 adi|1105 -US_158
+      - 🇺🇲 adi|1105 -US_160
+      - 🇺🇲 adi|1105 -US_162
+      - 🇺🇲 adi|1105 -US_164
+      - 🇺🇲 adi|1105 -US_165
+      - 🇺🇲 adi|1105 -US_169
+      - 🇺🇲 adi|1105 -US_171
+      - 🇺🇲 adi|1105 -US_173
+      - 🇺🇲 adi|1105 -US_174
+      - 🇺🇲 adi|1105 -US_176
+      - 🇺🇲 adi|1105 -US_180
+      - 🇺🇲 adi|1105 -US_181
+      - 🇷🇺 adi|1105 -Russia
+      - 🇺🇲 adi|1105 -United States
+      - adi|1105 -Unknown 2
+      - adi|1105 -Unknown 3
+      - 🇨🇳 adi|1105 -CN_11
+      - 🇷🇺 adi|1105 -RU_87
+      - 🇺🇲 adi|1105 -US_177
+      - adi|1105 -bigsur.cf
+      - adi|1105 -xibun.cf
+      - 🇨🇳 adi|1105 -台湾05
+      - 🇭🇰 adi|1105T -香港04
+      - 🇨🇳 adi|1105T -台湾05
+      - 🇯🇵 adi|1105T -日本5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -209,39 +404,78 @@ proxy-groups:
       - 🚀 节点选择
       - 🇦🇺 adi|1024-A-AU_31
       - 🇺🇲 adi|1024-B-US_665
-      - adi|1026-A-en
       - 🇯🇵 adi|1026-T-JP
-      - 🇯🇵 adi|1026-T-JP 2
       - 🇺🇲 adi|1026-T-US
       - 🇺🇲 adi|1026-T-US 2
-      - 🇺🇲 adi|1026-T-US 3
-      - 🇯🇵 adi|1026-T-JP 3
-      - 🇯🇵 adi|1026-T-JP 4
-      - 🇰🇷 韩国 - adi|1028
-      - 🇰🇷 韩国 - adi|1028 2
-      - 🇭🇰 香港- adi|1028
-      - 🇸🇬 新加坡- adi|1028
-      - 🇭🇰 香港 - adi|1028
-      - 🇭🇰 香港 - adi|1028 2
-      - 🇭🇰 香港 - adi|1028 3
-      - 🇭🇰 香港 - adi|1028 4
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇰🇷 韩国 - adi|1028T
+      - 🇰🇷 韩国 - adi|1028T 2
       - 欧洲 - adi|1028
-      - 欧洲 - adi|1028 2
-      - 欧洲 - adi|1028 3
-      - 🇺🇲 美国 - adi|1028
-      - 🇺🇲 美国 - adi|1028 2
-      - 🇯🇵 日本 - adi|1028
-      - 🇯🇵 日本 - adi|1028 2
-      - 🇬🇧 英国 - adi|1028
-      - 🇰🇷 韩国 - adi|1028 3
-      - 🇯🇵 JP_113 - adi|1028
-      - 🇷🇺 RU_173 - adi|1028
-      - 🇺🇲 US_258 - adi|1028
-      - 🇺🇲 US_261 - adi|1028
-      - 🇺🇲 US_262 - adi|1028
-      - 🇺🇲 US_263 - adi|1028
-      - 🇺🇲 US_277 - adi|1028
-      - 🇺🇲 US_278 - adi|1028
+      - 🇯🇵 日本 - adi|1028T
+      - 🇹🇷 adi|1105 -TR_256
+      - 🇺🇲 adi|1105 -US_259
+      - adi|1105 -Unknown
+      - 🇭🇰 香港- adi|1105
+      - 🇩🇪 德国- adi|1105
+      - 🇭🇰 香港- adi|1105 2
+      - 🇺🇲 美国- adi|1105
+      - 🇺🇲 美国- adi|1105 2
+      - 🇺🇲 美国- adi|1105 3
+      - 🇺🇲 美国- adi|1105 4
+      - 🇯🇵 日本- adi|1105
+      - 🇺🇲 美国- adi|1105 5
+      - 🇭🇰 香港- adi|1105 3
+      - 🇺🇲 美国- adi|1105 6
+      - 🇳🇱 荷兰- adi|1105
+      - 🇳🇱 荷兰- adi|1105 2
+      - 🇺🇲 美国- adi|1105 7
+      - 🇳🇱 荷兰- adi|1105 3
+      - 🇺🇲 美国- adi|1105 8
+      - 欧洲- adi|1105
+      - 欧洲- adi|1105 2
+      - 欧洲- adi|1105 3
+      - 欧洲- adi|1105 4
+      - 🇨🇦 加拿大- adi|1105
+      - 🇯🇵 日本- adi|1105 2
+      - 🇰🇷 adi|1105T -韩国3
+      - 🇯🇵 adi|1105T -日本1
+      - 🇺🇲 adi|1105T -西雅图C
+      - 🇰🇷 adi|1105 -韩国9
+      - 🇰🇷 adi|1105 -韩国1
+      - 🇨🇳 adi|1105 -CN_10
+      - 🇨🇳 adi|1105 -CN_12
+      - 🇨🇳 adi|1105 -CN_13
+      - 🇯🇵 adi|1105 -JP_55
+      - 🇯🇵 adi|1105 -JP_57
+      - adi|1105 -LT_68
+      - 🇷🇴 adi|1105 -RO_71
+      - 🇷🇴 adi|1105 -RO_72
+      - 🇺🇲 adi|1105 -US_156
+      - 🇺🇲 adi|1105 -US_158
+      - 🇺🇲 adi|1105 -US_160
+      - 🇺🇲 adi|1105 -US_162
+      - 🇺🇲 adi|1105 -US_164
+      - 🇺🇲 adi|1105 -US_165
+      - 🇺🇲 adi|1105 -US_169
+      - 🇺🇲 adi|1105 -US_171
+      - 🇺🇲 adi|1105 -US_173
+      - 🇺🇲 adi|1105 -US_174
+      - 🇺🇲 adi|1105 -US_176
+      - 🇺🇲 adi|1105 -US_180
+      - 🇺🇲 adi|1105 -US_181
+      - 🇷🇺 adi|1105 -Russia
+      - 🇺🇲 adi|1105 -United States
+      - adi|1105 -Unknown 2
+      - adi|1105 -Unknown 3
+      - 🇨🇳 adi|1105 -CN_11
+      - 🇷🇺 adi|1105 -RU_87
+      - 🇺🇲 adi|1105 -US_177
+      - adi|1105 -bigsur.cf
+      - adi|1105 -xibun.cf
+      - 🇨🇳 adi|1105 -台湾05
+      - 🇭🇰 adi|1105T -香港04
+      - 🇨🇳 adi|1105T -台湾05
+      - 🇯🇵 adi|1105T -日本5
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -249,39 +483,78 @@ proxy-groups:
       - 🎯 全球直连
       - 🇦🇺 adi|1024-A-AU_31
       - 🇺🇲 adi|1024-B-US_665
-      - adi|1026-A-en
       - 🇯🇵 adi|1026-T-JP
-      - 🇯🇵 adi|1026-T-JP 2
       - 🇺🇲 adi|1026-T-US
       - 🇺🇲 adi|1026-T-US 2
-      - 🇺🇲 adi|1026-T-US 3
-      - 🇯🇵 adi|1026-T-JP 3
-      - 🇯🇵 adi|1026-T-JP 4
-      - 🇰🇷 韩国 - adi|1028
-      - 🇰🇷 韩国 - adi|1028 2
-      - 🇭🇰 香港- adi|1028
-      - 🇸🇬 新加坡- adi|1028
-      - 🇭🇰 香港 - adi|1028
-      - 🇭🇰 香港 - adi|1028 2
-      - 🇭🇰 香港 - adi|1028 3
-      - 🇭🇰 香港 - adi|1028 4
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇰🇷 韩国 - adi|1028T
+      - 🇰🇷 韩国 - adi|1028T 2
       - 欧洲 - adi|1028
-      - 欧洲 - adi|1028 2
-      - 欧洲 - adi|1028 3
-      - 🇺🇲 美国 - adi|1028
-      - 🇺🇲 美国 - adi|1028 2
-      - 🇯🇵 日本 - adi|1028
-      - 🇯🇵 日本 - adi|1028 2
-      - 🇬🇧 英国 - adi|1028
-      - 🇰🇷 韩国 - adi|1028 3
-      - 🇯🇵 JP_113 - adi|1028
-      - 🇷🇺 RU_173 - adi|1028
-      - 🇺🇲 US_258 - adi|1028
-      - 🇺🇲 US_261 - adi|1028
-      - 🇺🇲 US_262 - adi|1028
-      - 🇺🇲 US_263 - adi|1028
-      - 🇺🇲 US_277 - adi|1028
-      - 🇺🇲 US_278 - adi|1028
+      - 🇯🇵 日本 - adi|1028T
+      - 🇹🇷 adi|1105 -TR_256
+      - 🇺🇲 adi|1105 -US_259
+      - adi|1105 -Unknown
+      - 🇭🇰 香港- adi|1105
+      - 🇩🇪 德国- adi|1105
+      - 🇭🇰 香港- adi|1105 2
+      - 🇺🇲 美国- adi|1105
+      - 🇺🇲 美国- adi|1105 2
+      - 🇺🇲 美国- adi|1105 3
+      - 🇺🇲 美国- adi|1105 4
+      - 🇯🇵 日本- adi|1105
+      - 🇺🇲 美国- adi|1105 5
+      - 🇭🇰 香港- adi|1105 3
+      - 🇺🇲 美国- adi|1105 6
+      - 🇳🇱 荷兰- adi|1105
+      - 🇳🇱 荷兰- adi|1105 2
+      - 🇺🇲 美国- adi|1105 7
+      - 🇳🇱 荷兰- adi|1105 3
+      - 🇺🇲 美国- adi|1105 8
+      - 欧洲- adi|1105
+      - 欧洲- adi|1105 2
+      - 欧洲- adi|1105 3
+      - 欧洲- adi|1105 4
+      - 🇨🇦 加拿大- adi|1105
+      - 🇯🇵 日本- adi|1105 2
+      - 🇰🇷 adi|1105T -韩国3
+      - 🇯🇵 adi|1105T -日本1
+      - 🇺🇲 adi|1105T -西雅图C
+      - 🇰🇷 adi|1105 -韩国9
+      - 🇰🇷 adi|1105 -韩国1
+      - 🇨🇳 adi|1105 -CN_10
+      - 🇨🇳 adi|1105 -CN_12
+      - 🇨🇳 adi|1105 -CN_13
+      - 🇯🇵 adi|1105 -JP_55
+      - 🇯🇵 adi|1105 -JP_57
+      - adi|1105 -LT_68
+      - 🇷🇴 adi|1105 -RO_71
+      - 🇷🇴 adi|1105 -RO_72
+      - 🇺🇲 adi|1105 -US_156
+      - 🇺🇲 adi|1105 -US_158
+      - 🇺🇲 adi|1105 -US_160
+      - 🇺🇲 adi|1105 -US_162
+      - 🇺🇲 adi|1105 -US_164
+      - 🇺🇲 adi|1105 -US_165
+      - 🇺🇲 adi|1105 -US_169
+      - 🇺🇲 adi|1105 -US_171
+      - 🇺🇲 adi|1105 -US_173
+      - 🇺🇲 adi|1105 -US_174
+      - 🇺🇲 adi|1105 -US_176
+      - 🇺🇲 adi|1105 -US_180
+      - 🇺🇲 adi|1105 -US_181
+      - 🇷🇺 adi|1105 -Russia
+      - 🇺🇲 adi|1105 -United States
+      - adi|1105 -Unknown 2
+      - adi|1105 -Unknown 3
+      - 🇨🇳 adi|1105 -CN_11
+      - 🇷🇺 adi|1105 -RU_87
+      - 🇺🇲 adi|1105 -US_177
+      - adi|1105 -bigsur.cf
+      - adi|1105 -xibun.cf
+      - 🇨🇳 adi|1105 -台湾05
+      - 🇭🇰 adi|1105T -香港04
+      - 🇨🇳 adi|1105T -台湾05
+      - 🇯🇵 adi|1105T -日本5
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -290,39 +563,78 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇦🇺 adi|1024-A-AU_31
       - 🇺🇲 adi|1024-B-US_665
-      - adi|1026-A-en
       - 🇯🇵 adi|1026-T-JP
-      - 🇯🇵 adi|1026-T-JP 2
       - 🇺🇲 adi|1026-T-US
       - 🇺🇲 adi|1026-T-US 2
-      - 🇺🇲 adi|1026-T-US 3
-      - 🇯🇵 adi|1026-T-JP 3
-      - 🇯🇵 adi|1026-T-JP 4
-      - 🇰🇷 韩国 - adi|1028
-      - 🇰🇷 韩国 - adi|1028 2
-      - 🇭🇰 香港- adi|1028
-      - 🇸🇬 新加坡- adi|1028
-      - 🇭🇰 香港 - adi|1028
-      - 🇭🇰 香港 - adi|1028 2
-      - 🇭🇰 香港 - adi|1028 3
-      - 🇭🇰 香港 - adi|1028 4
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇰🇷 韩国 - adi|1028T
+      - 🇰🇷 韩国 - adi|1028T 2
       - 欧洲 - adi|1028
-      - 欧洲 - adi|1028 2
-      - 欧洲 - adi|1028 3
-      - 🇺🇲 美国 - adi|1028
-      - 🇺🇲 美国 - adi|1028 2
-      - 🇯🇵 日本 - adi|1028
-      - 🇯🇵 日本 - adi|1028 2
-      - 🇬🇧 英国 - adi|1028
-      - 🇰🇷 韩国 - adi|1028 3
-      - 🇯🇵 JP_113 - adi|1028
-      - 🇷🇺 RU_173 - adi|1028
-      - 🇺🇲 US_258 - adi|1028
-      - 🇺🇲 US_261 - adi|1028
-      - 🇺🇲 US_262 - adi|1028
-      - 🇺🇲 US_263 - adi|1028
-      - 🇺🇲 US_277 - adi|1028
-      - 🇺🇲 US_278 - adi|1028
+      - 🇯🇵 日本 - adi|1028T
+      - 🇹🇷 adi|1105 -TR_256
+      - 🇺🇲 adi|1105 -US_259
+      - adi|1105 -Unknown
+      - 🇭🇰 香港- adi|1105
+      - 🇩🇪 德国- adi|1105
+      - 🇭🇰 香港- adi|1105 2
+      - 🇺🇲 美国- adi|1105
+      - 🇺🇲 美国- adi|1105 2
+      - 🇺🇲 美国- adi|1105 3
+      - 🇺🇲 美国- adi|1105 4
+      - 🇯🇵 日本- adi|1105
+      - 🇺🇲 美国- adi|1105 5
+      - 🇭🇰 香港- adi|1105 3
+      - 🇺🇲 美国- adi|1105 6
+      - 🇳🇱 荷兰- adi|1105
+      - 🇳🇱 荷兰- adi|1105 2
+      - 🇺🇲 美国- adi|1105 7
+      - 🇳🇱 荷兰- adi|1105 3
+      - 🇺🇲 美国- adi|1105 8
+      - 欧洲- adi|1105
+      - 欧洲- adi|1105 2
+      - 欧洲- adi|1105 3
+      - 欧洲- adi|1105 4
+      - 🇨🇦 加拿大- adi|1105
+      - 🇯🇵 日本- adi|1105 2
+      - 🇰🇷 adi|1105T -韩国3
+      - 🇯🇵 adi|1105T -日本1
+      - 🇺🇲 adi|1105T -西雅图C
+      - 🇰🇷 adi|1105 -韩国9
+      - 🇰🇷 adi|1105 -韩国1
+      - 🇨🇳 adi|1105 -CN_10
+      - 🇨🇳 adi|1105 -CN_12
+      - 🇨🇳 adi|1105 -CN_13
+      - 🇯🇵 adi|1105 -JP_55
+      - 🇯🇵 adi|1105 -JP_57
+      - adi|1105 -LT_68
+      - 🇷🇴 adi|1105 -RO_71
+      - 🇷🇴 adi|1105 -RO_72
+      - 🇺🇲 adi|1105 -US_156
+      - 🇺🇲 adi|1105 -US_158
+      - 🇺🇲 adi|1105 -US_160
+      - 🇺🇲 adi|1105 -US_162
+      - 🇺🇲 adi|1105 -US_164
+      - 🇺🇲 adi|1105 -US_165
+      - 🇺🇲 adi|1105 -US_169
+      - 🇺🇲 adi|1105 -US_171
+      - 🇺🇲 adi|1105 -US_173
+      - 🇺🇲 adi|1105 -US_174
+      - 🇺🇲 adi|1105 -US_176
+      - 🇺🇲 adi|1105 -US_180
+      - 🇺🇲 adi|1105 -US_181
+      - 🇷🇺 adi|1105 -Russia
+      - 🇺🇲 adi|1105 -United States
+      - adi|1105 -Unknown 2
+      - adi|1105 -Unknown 3
+      - 🇨🇳 adi|1105 -CN_11
+      - 🇷🇺 adi|1105 -RU_87
+      - 🇺🇲 adi|1105 -US_177
+      - adi|1105 -bigsur.cf
+      - adi|1105 -xibun.cf
+      - 🇨🇳 adi|1105 -台湾05
+      - 🇭🇰 adi|1105T -香港04
+      - 🇨🇳 adi|1105T -台湾05
+      - 🇯🇵 adi|1105T -日本5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -347,39 +659,78 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇦🇺 adi|1024-A-AU_31
       - 🇺🇲 adi|1024-B-US_665
-      - adi|1026-A-en
       - 🇯🇵 adi|1026-T-JP
-      - 🇯🇵 adi|1026-T-JP 2
       - 🇺🇲 adi|1026-T-US
       - 🇺🇲 adi|1026-T-US 2
-      - 🇺🇲 adi|1026-T-US 3
-      - 🇯🇵 adi|1026-T-JP 3
-      - 🇯🇵 adi|1026-T-JP 4
-      - 🇰🇷 韩国 - adi|1028
-      - 🇰🇷 韩国 - adi|1028 2
-      - 🇭🇰 香港- adi|1028
-      - 🇸🇬 新加坡- adi|1028
-      - 🇭🇰 香港 - adi|1028
-      - 🇭🇰 香港 - adi|1028 2
-      - 🇭🇰 香港 - adi|1028 3
-      - 🇭🇰 香港 - adi|1028 4
+      - 🇯🇵 adi|1026-T-JP 2
+      - 🇰🇷 韩国 - adi|1028T
+      - 🇰🇷 韩国 - adi|1028T 2
       - 欧洲 - adi|1028
-      - 欧洲 - adi|1028 2
-      - 欧洲 - adi|1028 3
-      - 🇺🇲 美国 - adi|1028
-      - 🇺🇲 美国 - adi|1028 2
-      - 🇯🇵 日本 - adi|1028
-      - 🇯🇵 日本 - adi|1028 2
-      - 🇬🇧 英国 - adi|1028
-      - 🇰🇷 韩国 - adi|1028 3
-      - 🇯🇵 JP_113 - adi|1028
-      - 🇷🇺 RU_173 - adi|1028
-      - 🇺🇲 US_258 - adi|1028
-      - 🇺🇲 US_261 - adi|1028
-      - 🇺🇲 US_262 - adi|1028
-      - 🇺🇲 US_263 - adi|1028
-      - 🇺🇲 US_277 - adi|1028
-      - 🇺🇲 US_278 - adi|1028
+      - 🇯🇵 日本 - adi|1028T
+      - 🇹🇷 adi|1105 -TR_256
+      - 🇺🇲 adi|1105 -US_259
+      - adi|1105 -Unknown
+      - 🇭🇰 香港- adi|1105
+      - 🇩🇪 德国- adi|1105
+      - 🇭🇰 香港- adi|1105 2
+      - 🇺🇲 美国- adi|1105
+      - 🇺🇲 美国- adi|1105 2
+      - 🇺🇲 美国- adi|1105 3
+      - 🇺🇲 美国- adi|1105 4
+      - 🇯🇵 日本- adi|1105
+      - 🇺🇲 美国- adi|1105 5
+      - 🇭🇰 香港- adi|1105 3
+      - 🇺🇲 美国- adi|1105 6
+      - 🇳🇱 荷兰- adi|1105
+      - 🇳🇱 荷兰- adi|1105 2
+      - 🇺🇲 美国- adi|1105 7
+      - 🇳🇱 荷兰- adi|1105 3
+      - 🇺🇲 美国- adi|1105 8
+      - 欧洲- adi|1105
+      - 欧洲- adi|1105 2
+      - 欧洲- adi|1105 3
+      - 欧洲- adi|1105 4
+      - 🇨🇦 加拿大- adi|1105
+      - 🇯🇵 日本- adi|1105 2
+      - 🇰🇷 adi|1105T -韩国3
+      - 🇯🇵 adi|1105T -日本1
+      - 🇺🇲 adi|1105T -西雅图C
+      - 🇰🇷 adi|1105 -韩国9
+      - 🇰🇷 adi|1105 -韩国1
+      - 🇨🇳 adi|1105 -CN_10
+      - 🇨🇳 adi|1105 -CN_12
+      - 🇨🇳 adi|1105 -CN_13
+      - 🇯🇵 adi|1105 -JP_55
+      - 🇯🇵 adi|1105 -JP_57
+      - adi|1105 -LT_68
+      - 🇷🇴 adi|1105 -RO_71
+      - 🇷🇴 adi|1105 -RO_72
+      - 🇺🇲 adi|1105 -US_156
+      - 🇺🇲 adi|1105 -US_158
+      - 🇺🇲 adi|1105 -US_160
+      - 🇺🇲 adi|1105 -US_162
+      - 🇺🇲 adi|1105 -US_164
+      - 🇺🇲 adi|1105 -US_165
+      - 🇺🇲 adi|1105 -US_169
+      - 🇺🇲 adi|1105 -US_171
+      - 🇺🇲 adi|1105 -US_173
+      - 🇺🇲 adi|1105 -US_174
+      - 🇺🇲 adi|1105 -US_176
+      - 🇺🇲 adi|1105 -US_180
+      - 🇺🇲 adi|1105 -US_181
+      - 🇷🇺 adi|1105 -Russia
+      - 🇺🇲 adi|1105 -United States
+      - adi|1105 -Unknown 2
+      - adi|1105 -Unknown 3
+      - 🇨🇳 adi|1105 -CN_11
+      - 🇷🇺 adi|1105 -RU_87
+      - 🇺🇲 adi|1105 -US_177
+      - adi|1105 -bigsur.cf
+      - adi|1105 -xibun.cf
+      - 🇨🇳 adi|1105 -台湾05
+      - 🇭🇰 adi|1105T -香港04
+      - 🇨🇳 adi|1105T -台湾05
+      - 🇯🇵 adi|1105T -日本5
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2038,7 +2389,6 @@ rules:
  - DOMAIN-SUFFIX,e.nexac.com,🍃 应用净化
  - DOMAIN-SUFFIX,eq.10jqka.com.cn,🍃 应用净化
  - DOMAIN-SUFFIX,exp.17wo.cn,🍃 应用净化
- - DOMAIN-SUFFIX,fund.10jqka.com.cn,🍃 应用净化
  - DOMAIN-SUFFIX,game.51yund.com,🍃 应用净化
  - DOMAIN-SUFFIX,ganjituiguang.ganji.com,🍃 应用净化
  - DOMAIN-SUFFIX,grand.ele.me,🍃 应用净化
@@ -2284,6 +2634,9 @@ rules:
  - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
  - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
  - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
+ - DOMAIN, atv-ps.amazon.com,🌍 国外媒体
+ - DOMAIN, fls-na.amazon.com,🌍 国外媒体
+ - DOMAIN-SUFFIX, media-amazon.com,🌍 国外媒体
  - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
  - DOMAIN-SUFFIX,amazonaws.co.uk,🌍 国外媒体
  - DOMAIN-SUFFIX,amazonaws.com,🌍 国外媒体
@@ -2892,6 +3245,7 @@ rules:
  - DOMAIN-SUFFIX,423down.com,🎯 全球直连
  - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
  - DOMAIN-SUFFIX,chaipip.com,🎯 全球直连
+ - DOMAIN-SUFFIX,chinaplay.store,🎯 全球直连
  - DOMAIN-SUFFIX,hrtsea.com,🎯 全球直连
  - DOMAIN-SUFFIX,kaikeba.com,🎯 全球直连
  - DOMAIN-SUFFIX,laomo.me,🎯 全球直连
