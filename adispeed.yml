@@ -15,6 +15,16 @@ proxies:
   - {name: 🇰🇷 adi|1113B - 韩国 2, server: trotro.ml, port: 443, type: trojan, password: 7efe8b11-58bc-4597-a269-87691a6f1806, sni: trotro.ml}
   - {name: 🇯🇵 adi|1113B - 日本 5, server: milkgogo.ga, port: 443, type: trojan, password: 18fd1888-64dd-4f8c-8287-89b17c1f6e88, sni: milkgogo.ga}
   - {name: 🇺🇲 adi|1113B - 西雅图, server: xibun.gq, port: 443, type: trojan, password: ceb1f4c5-966b-48f5-a36b-7ec134f63764, sni: xibun.gq}
+  - {name: adi|1113 - 欧洲, server: 37.120.194.125, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|1113 - 欧洲 2, server: 37.120.194.125, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: adi|1113 - 欧洲 3, server: 37.120.145.21, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 adi|1113 - US_1457, server: 107.172.101.78, port: 443, type: vmess, uuid: 89472e02-553e-4b9b-a8d5-e10c6728b5e1, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /01923de98d6773c/, ws-headers: {Host: speed.usaxyz.xyz}}
+  - {name: adi|1113 - Unknown, server: 172.104.163.103, port: 14750, type: vmess, uuid: 2d127104-4cad-408e-e94e-733b89ec8ad3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 172.104.163.103}}
+  - {name: 🇸🇬 adi|1113 - 新加坡, server: 172.104.163.103, port: 14750, type: vmess, uuid: 2d127104-4cad-408e-e94e-733b89ec8ad3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 172.104.163.103}}
+  - {name: 🇺🇲 adi|1113 - 美国, server: 128.199.209.118, port: 52167, type: vmess, uuid: 305c4d81-8a56-3905-88d1-3edce628e8ec, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /yu23qgaf, ws-headers: {Host: 128.199.209.118}}
+  - {name: 🇸🇬 adi|1113 - 新加坡 2, server: 139.162.23.119, port: 8077, type: vmess, uuid: 7ecb2214-2305-4f38-ad23-aa5395fcf585, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 139.162.23.119}}
+  - {name: adi|1113 - Unknown 2, server: 139.162.23.119, port: 8077, type: vmess, uuid: 7ecb2214-2305-4f38-ad23-aa5395fcf585, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 139.162.23.119}}
+  - {name: 🇰🇷 adi|1113 - 韩国, server: littlesur.ml, port: 443, type: vmess, uuid: d7eb31dc-2585-11eb-9546-5600030f8df0, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /phse1w78/, ws-headers: {Host: littlesur.ml}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -31,6 +41,16 @@ proxy-groups:
       - 🇰🇷 adi|1113B - 韩国 2
       - 🇯🇵 adi|1113B - 日本 5
       - 🇺🇲 adi|1113B - 西雅图
+      - adi|1113 - 欧洲
+      - adi|1113 - 欧洲 2
+      - adi|1113 - 欧洲 3
+      - 🇺🇲 adi|1113 - US_1457
+      - adi|1113 - Unknown
+      - 🇸🇬 adi|1113 - 新加坡
+      - 🇺🇲 adi|1113 - 美国
+      - 🇸🇬 adi|1113 - 新加坡 2
+      - adi|1113 - Unknown 2
+      - 🇰🇷 adi|1113 - 韩国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -46,6 +66,16 @@ proxy-groups:
       - 🇰🇷 adi|1113B - 韩国 2
       - 🇯🇵 adi|1113B - 日本 5
       - 🇺🇲 adi|1113B - 西雅图
+      - adi|1113 - 欧洲
+      - adi|1113 - 欧洲 2
+      - adi|1113 - 欧洲 3
+      - 🇺🇲 adi|1113 - US_1457
+      - adi|1113 - Unknown
+      - 🇸🇬 adi|1113 - 新加坡
+      - 🇺🇲 adi|1113 - 美国
+      - 🇸🇬 adi|1113 - 新加坡 2
+      - adi|1113 - Unknown 2
+      - 🇰🇷 adi|1113 - 韩国
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -62,6 +92,16 @@ proxy-groups:
       - 🇰🇷 adi|1113B - 韩国 2
       - 🇯🇵 adi|1113B - 日本 5
       - 🇺🇲 adi|1113B - 西雅图
+      - adi|1113 - 欧洲
+      - adi|1113 - 欧洲 2
+      - adi|1113 - 欧洲 3
+      - 🇺🇲 adi|1113 - US_1457
+      - adi|1113 - Unknown
+      - 🇸🇬 adi|1113 - 新加坡
+      - 🇺🇲 adi|1113 - 美国
+      - 🇸🇬 adi|1113 - 新加坡 2
+      - adi|1113 - Unknown 2
+      - 🇰🇷 adi|1113 - 韩国
   - name: 📲 电报信息
     type: select
     proxies:
@@ -77,6 +117,16 @@ proxy-groups:
       - 🇰🇷 adi|1113B - 韩国 2
       - 🇯🇵 adi|1113B - 日本 5
       - 🇺🇲 adi|1113B - 西雅图
+      - adi|1113 - 欧洲
+      - adi|1113 - 欧洲 2
+      - adi|1113 - 欧洲 3
+      - 🇺🇲 adi|1113 - US_1457
+      - adi|1113 - Unknown
+      - 🇸🇬 adi|1113 - 新加坡
+      - 🇺🇲 adi|1113 - 美国
+      - 🇸🇬 adi|1113 - 新加坡 2
+      - adi|1113 - Unknown 2
+      - 🇰🇷 adi|1113 - 韩国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -92,6 +142,16 @@ proxy-groups:
       - 🇰🇷 adi|1113B - 韩国 2
       - 🇯🇵 adi|1113B - 日本 5
       - 🇺🇲 adi|1113B - 西雅图
+      - adi|1113 - 欧洲
+      - adi|1113 - 欧洲 2
+      - adi|1113 - 欧洲 3
+      - 🇺🇲 adi|1113 - US_1457
+      - adi|1113 - Unknown
+      - 🇸🇬 adi|1113 - 新加坡
+      - 🇺🇲 adi|1113 - 美国
+      - 🇸🇬 adi|1113 - 新加坡 2
+      - adi|1113 - Unknown 2
+      - 🇰🇷 adi|1113 - 韩国
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -107,6 +167,16 @@ proxy-groups:
       - 🇰🇷 adi|1113B - 韩国 2
       - 🇯🇵 adi|1113B - 日本 5
       - 🇺🇲 adi|1113B - 西雅图
+      - adi|1113 - 欧洲
+      - adi|1113 - 欧洲 2
+      - adi|1113 - 欧洲 3
+      - 🇺🇲 adi|1113 - US_1457
+      - adi|1113 - Unknown
+      - 🇸🇬 adi|1113 - 新加坡
+      - 🇺🇲 adi|1113 - 美国
+      - 🇸🇬 adi|1113 - 新加坡 2
+      - adi|1113 - Unknown 2
+      - 🇰🇷 adi|1113 - 韩国
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -123,6 +193,16 @@ proxy-groups:
       - 🇰🇷 adi|1113B - 韩国 2
       - 🇯🇵 adi|1113B - 日本 5
       - 🇺🇲 adi|1113B - 西雅图
+      - adi|1113 - 欧洲
+      - adi|1113 - 欧洲 2
+      - adi|1113 - 欧洲 3
+      - 🇺🇲 adi|1113 - US_1457
+      - adi|1113 - Unknown
+      - 🇸🇬 adi|1113 - 新加坡
+      - 🇺🇲 adi|1113 - 美国
+      - 🇸🇬 adi|1113 - 新加坡 2
+      - adi|1113 - Unknown 2
+      - 🇰🇷 adi|1113 - 韩国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -155,6 +235,16 @@ proxy-groups:
       - 🇰🇷 adi|1113B - 韩国 2
       - 🇯🇵 adi|1113B - 日本 5
       - 🇺🇲 adi|1113B - 西雅图
+      - adi|1113 - 欧洲
+      - adi|1113 - 欧洲 2
+      - adi|1113 - 欧洲 3
+      - 🇺🇲 adi|1113 - US_1457
+      - adi|1113 - Unknown
+      - 🇸🇬 adi|1113 - 新加坡
+      - 🇺🇲 adi|1113 - 美国
+      - 🇸🇬 adi|1113 - 新加坡 2
+      - adi|1113 - Unknown 2
+      - 🇰🇷 adi|1113 - 韩国
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
