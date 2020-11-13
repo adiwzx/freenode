@@ -5,532 +5,124 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇰🇷 韩国 - adi|1112, server: fuckxijinping.cf, port: 443, type: trojan, password: ea1ddbb5-8de9-410e-98e4-646e15139d53, sni: fuckxijinping.cf}
-  - {name: 🇰🇷 韩国3 - adi|1112, server: trotro.ml, port: 443, type: trojan, password: 7efe8b11-58bc-4597-a269-87691a6f1806, sni: trotro.ml}
-  - {name: 🇯🇵 款10日本 - adi|1112, server: fuckxiaofenhong.ml, port: 443, type: trojan, password: 35f613d7-6c93-43c4-96bc-c32f0a1e226e, sni: fuckxiaofenhong.ml}
-  - {name: 🇯🇵 日本 - adi|1112, server: fuckxiaofenhong.ga, port: 443, type: trojan, password: 268feb15-2beb-4029-9c53-a8fcb91b5d6e, sni: fuckxiaofenhong.ga}
-  - {name: 🇯🇵 日本10 - adi|1112, server: fuckxiaofenhong.cf, port: 443, type: trojan, password: 9e97f9c1-0b77-4fca-a457-e97f34c20208, sni: fuckxiaofenhong.cf}
-  - {name: 🇯🇵 日本5 - adi|1112, server: fuckxiaofenhong.tk, port: 443, type: trojan, password: 3785af03-328f-4c87-bf82-c5fa609f5a90, sni: fuckxiaofenhong.tk}
-  - {name: 🇺🇲 西雅图C - adi|1112, server: xibun.gq, port: 443, type: trojan, password: ceb1f4c5-966b-48f5-a36b-7ec134f63764, sni: xibun.gq}
-  - {name: adi|1112 - baipiao, server: llajv.rebldp.tech, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
-  - {name: adi|1112 - baipiao 2, server: 172.67.199.187, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
-  - {name: Unknown - adi|1112, server: 52.175.16.108, port: 63132, type: vmess, uuid: e3b51fd0-f3f5-4c37-a7bd-c8d7d6069ff4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 52.175.16.108}}
-  - {name: Unknown - adi|1112 2, server: 52.175.11.153, port: 80, type: vmess, uuid: c2c770c0-fa32-46ee-bad2-536e5707347e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.175.11.153}}
-  - {name: Unknown - adi|1112 3, server: 52.194.248.249, port: 13848, type: vmess, uuid: e3e3150b-ce47-489c-83f9-52a12d952aa5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 52.194.248.249}}
-  - {name: Unknown - adi|1112 4, server: 13.94.56.53, port: 80, type: vmess, uuid: c2c770c0-fa32-46ee-bad2-536e5707347e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.94.56.53}}
-  - {name: Unknown - adi|1112 5, server: 13.75.65.36, port: 80, type: vmess, uuid: c2c770c0-fa32-46ee-bad2-536e5707347e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.75.65.36}}
-  - {name: Unknown - adi|1112 6, server: 13.75.70.210, port: 80, type: vmess, uuid: c2c770c0-fa32-46ee-bad2-536e5707347e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.75.70.210}}
-  - {name: Unknown - adi|1112 7, server: 13.94.34.192, port: 80, type: vmess, uuid: c2c770c0-fa32-46ee-bad2-536e5707347e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.94.34.192}}
-  - {name: Unknown - adi|1112 8, server: 23.225.57.203, port: 443, type: vmess, uuid: 7e3bc49c-7c05-424d-adba-6458c7e1f492, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.4198659.xyz}}
-  - {name: Unknown - adi|1112 9, server: 13.75.72.158, port: 80, type: vmess, uuid: c2c770c0-fa32-46ee-bad2-536e5707347e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.75.72.158}}
-  - {name: Unknown - adi|1112 10, server: 13.75.118.223, port: 80, type: vmess, uuid: c2c770c0-fa32-46ee-bad2-536e5707347e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.75.118.223}}
-  - {name: Unknown - adi|1112 11, server: 137.175.58.43, port: 443, type: vmess, uuid: 14a0f08d-d196-4c74-8736-a6dadaa2b639, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.42693.xyz}}
-  - {name: Unknown - adi|1112 12, server: 06.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: b728591e-a64e-46c8-9118-040ef520dc1e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 06.HKG.ASIA.BIGAIRPORT.NET}}
-  - {name: Unknown - adi|1112 13, server: 62.216.92.39, port: 52612, type: vmess, uuid: ff10d8ad-cda0-40b4-880c-3fb441c5a8fd, alterId: 64, cipher: auto, tls: false}
-  - {name: Unknown - adi|1112 14, server: 23.225.125.86, port: 443, type: vmess, uuid: 8fb921c0-564d-4d5a-9b13-384c01820126, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56626173.xyz}}
-  - {name: Unknown - adi|1112 15, server: 172.247.0.227, port: 443, type: vmess, uuid: 66edfc1f-caee-4a27-8ed6-c4c637550392, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.41171.xyz}}
-  - {name: Unknown - adi|1112 16, server: 104.16.133.229, port: 443, type: vmess, uuid: 56b37d6f-aaa8-eec9-9035-5a2798598b3c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nnpf, ws-headers: {Host: blog.v2ray-agent.com}}
-  - {name: Unknown - adi|1112 17, server: 23.224.69.4, port: 443, type: vmess, uuid: c73ea85e-757d-4596-860c-3d03046fb191, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7586616.xyz}}
-  - {name: Unknown - adi|1112 18, server: 104.16.182.15, port: 443, type: vmess, uuid: 56b37d6f-aaa8-eec9-9035-5a2798598b3c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nnpf, ws-headers: {Host: blog.v2ray-agent.com}}
-  - {name: Unknown - adi|1112 19, server: 23.224.69.22, port: 443, type: vmess, uuid: 588419e6-78a1-46ed-ab79-c73c00fcd8e2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7239884.xyz}}
-  - {name: Unknown - adi|1112 20, server: 172.247.199.245, port: 443, type: vmess, uuid: fa822afc-170c-412b-a876-cd077812a5b3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.01902367.xyz}}
-  - {name: Unknown - adi|1112 21, server: 104.16.148.48, port: 443, type: vmess, uuid: 56b37d6f-aaa8-eec9-9035-5a2798598b3c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nnpf, ws-headers: {Host: blog.v2ray-agent.com}}
-  - {name: Unknown - adi|1112 22, server: 62.216.92.39, port: 36752, type: vmess, uuid: e6423812-5509-4865-e8c6-da30e0b03d20, alterId: 64, cipher: auto, tls: false}
-  - {name: Unknown - adi|1112 23, server: 23.224.69.18, port: 443, type: vmess, uuid: 588419e6-78a1-46ed-ab79-c73c00fcd8e2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7239884.xyz}}
-  - {name: 🇷🇺 俄罗斯 - adi|1112, server: 45.147.200.88, port: 32585, type: vmess, uuid: a692e933-e7e0-4cdf-8f53-e9e2e3f38be7, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 韩国 - adi|1112 2, server: xibun.cf, port: 443, type: vmess, uuid: b18a6a62-23aa-11eb-a956-5600030ecf14, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /oAuRQeUg/, ws-headers: {Host: xibun.cf}}
-  - {name: 🇰🇷 韩国 - adi|1112 3, server: bigsur.cf, port: 443, type: vmess, uuid: 3b4e3f02-23ac-11eb-8318-5600030ecfec, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /uqLHZDfj/, ws-headers: {Host: bigsur.cf}}
-  - {name: 🇺🇲 美国 - adi|1112, server: L1-aws-kr-01.baipiao.de, port: 80, type: vmess, uuid: a4b24b7e-1477-32a2-a373-9f63a34f42f2, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: L1-aws-kr-01.baipiao.de}}
-  - {name: 🇺🇲 美国 - adi|1112 2, server: 54.144.153.54, port: 33881, type: vmess, uuid: 8f6767fd-6fdd-4371-a2ee-a46862f721c4, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 - adi|1112 3, server: 23.225.178.213, port: 443, type: vmess, uuid: 6f467adb-e8d0-418d-8a57-d01731993268, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.43642.xyz}}
-  - {name: 🇺🇲 美国 - adi|1112 4, server: 172.67.223.77, port: 443, type: vmess, uuid: 56b37d6f-aaa8-eec9-9035-5a2798598b3c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nnpf, ws-headers: {Host: blog.v2ray-agent.com}}
-  - {name: 🇯🇵 日本 - adi|1112 2, server: 45.77.181.167, port: 35404, type: vmess, uuid: a216fb5c-8559-43b4-a4f7-82a50b75328c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 - adi|1112 3, server: 45.77.181.167, port: 35404, type: vmess, uuid: a216fb5c-8559-43b4-a4f7-82a50b75328c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 日本 - adi|1112 4, server: gz-yd.mugun.xyz, port: 113, type: vmess, uuid: 0d1e3d14-a889-386a-b199-ca16bc948bfb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: gz-yd.mugun.xyz}}
-  - {name: 🇨🇳 台湾 - adi|1112, server: a4z.invictus.network, port: 12345, type: vmess, uuid: 846a0323-96ed-3847-bf58-e22816b7bdd1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: a4.invictus.network}}
-  - {name: 🇭🇰 香港 - adi|1112, server: 207.46.146.247, port: 8083, type: vmess, uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 207.46.146.247}}
-  - {name: 🇭🇰 香港 - adi|1112 2, server: azhk5.ssrcloud.co, port: 8083, type: vmess, uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk5.ssrcloud.co}}
-  - {name: 🇭🇰 香港 - adi|1112 3, server: 65.52.186.239, port: 8083, type: vmess, uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 65.52.186.239}}
-  - {name: 🇭🇰 香港 - adi|1112 4, server: azhk3.ssrcloud.co, port: 8083, type: vmess, uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk3.ssrcloud.co}}
-  - {name: 🇭🇰 香港 - adi|1112 5, server: 65.52.179.8, port: 8083, type: vmess, uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 65.52.179.8}}
-  - {name: 🇭🇰 香港 - adi|1112 6, server: azhk1.ssrcloud.co, port: 8083, type: vmess, uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk1.ssrcloud.co}}
-  - {name: 🇭🇰 香港 - adi|1112 7, server: L1-aws-hk-06.baipiao.de, port: 80, type: vmess, uuid: 1ae8f74a-d1ee-3c86-94ca-daf840f79ac8, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: L1-aws-hk-06.baipiao.de}}
-  - {name: 🇭🇰 香港 - adi|1112 8, server: L1-aws-hk-05.baipiao.de, port: 80, type: vmess, uuid: 1ae8f74a-d1ee-3c86-94ca-daf840f79ac8, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: L1-aws-hk-05.baipiao.de}}
-  - {name: 🇭🇰 香港 - adi|1112 9, server: azhk5.ssrcloud.co, port: 8083, type: vmess, uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk5.ssrcloud.co}}
-  - {name: 🇸🇬 新加坡 - adi|1112, server: gz-yd.mugun.xyz, port: 111, type: vmess, uuid: 0d1e3d14-a889-386a-b199-ca16bc948bfb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: gz-yd.mugun.xyz}}
-  - {name: 🇺🇲 美国 - adi|1112 5, server: 66.115.147.94, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇨🇳 台湾 - adi|1112 2, server: 2.58.241.4, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇨🇳 台湾 - adi|1112 3, server: 103.98.75.71, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇨🇳 台湾 - adi|1112 4, server: 2.58.241.46, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇨🇳 台湾 - adi|1112 5, server: 2.58.241.29, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇨🇳 台湾 - adi|1112 6, server: 2.58.241.3, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇨🇳 台湾 - adi|1112 7, server: 2.58.241.27, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: 🇭🇰 香港 - adi|1112 10, server: 2.58.241.43, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇯🇵 adi|1113A - 日本, server: fuckxiaofenhong.gq, port: 443, type: trojan, password: 6aae799b-ba61-4029-a565-e2fd1bed85a9, sni: fuckxiaofenhong.gq}
+  - {name: 🇰🇷 adi|1113B - 韩国, server: fuckxijinping.cf, port: 443, type: trojan, password: ea1ddbb5-8de9-410e-98e4-646e15139d53, sni: fuckxijinping.cf}
+  - {name: 🇯🇵 adi|1113B - 日本, server: fuckxiaofenhong.ga, port: 443, type: trojan, password: 268feb15-2beb-4029-9c53-a8fcb91b5d6e, sni: fuckxiaofenhong.ga}
+  - {name: 🇰🇷 adi|1113A - 韩国, server: fuckxijinping.ga, port: 443, type: trojan, password: 1605b14d-87c5-446e-a8e1-8078d42970f3, sni: fuckxijinping.ga}
+  - {name: 🇯🇵 adi|1113B - 日本 2, server: fuckxiaofenhong.tk, port: 443, type: trojan, password: 3785af03-328f-4c87-bf82-c5fa609f5a90, sni: fuckxiaofenhong.tk}
+  - {name: 🇯🇵 adi|1113B - 日本 3, server: fuckxiaofenhong.cf, port: 443, type: trojan, password: 9e97f9c1-0b77-4fca-a457-e97f34c20208, sni: fuckxiaofenhong.cf}
+  - {name: 🇯🇵 adi|1113B - 日本 4, server: fuckxiaofenhong.ml, port: 443, type: trojan, password: 35f613d7-6c93-43c4-96bc-c32f0a1e226e, sni: fuckxiaofenhong.ml}
+  - {name: 🇰🇷 adi|1113B - 韩国 2, server: trotro.ml, port: 443, type: trojan, password: 7efe8b11-58bc-4597-a269-87691a6f1806, sni: trotro.ml}
+  - {name: 🇯🇵 adi|1113B - 日本 5, server: milkgogo.ga, port: 443, type: trojan, password: 18fd1888-64dd-4f8c-8287-89b17c1f6e88, sni: milkgogo.ga}
+  - {name: 🇺🇲 adi|1113B - 西雅图, server: xibun.gq, port: 443, type: trojan, password: ceb1f4c5-966b-48f5-a36b-7ec134f63764, sni: xibun.gq}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇰🇷 韩国 - adi|1112
-      - 🇰🇷 韩国3 - adi|1112
-      - 🇯🇵 款10日本 - adi|1112
-      - 🇯🇵 日本 - adi|1112
-      - 🇯🇵 日本10 - adi|1112
-      - 🇯🇵 日本5 - adi|1112
-      - 🇺🇲 西雅图C - adi|1112
-      - adi|1112 - baipiao
-      - adi|1112 - baipiao 2
-      - Unknown - adi|1112
-      - Unknown - adi|1112 2
-      - Unknown - adi|1112 3
-      - Unknown - adi|1112 4
-      - Unknown - adi|1112 5
-      - Unknown - adi|1112 6
-      - Unknown - adi|1112 7
-      - Unknown - adi|1112 8
-      - Unknown - adi|1112 9
-      - Unknown - adi|1112 10
-      - Unknown - adi|1112 11
-      - Unknown - adi|1112 12
-      - Unknown - adi|1112 13
-      - Unknown - adi|1112 14
-      - Unknown - adi|1112 15
-      - Unknown - adi|1112 16
-      - Unknown - adi|1112 17
-      - Unknown - adi|1112 18
-      - Unknown - adi|1112 19
-      - Unknown - adi|1112 20
-      - Unknown - adi|1112 21
-      - Unknown - adi|1112 22
-      - Unknown - adi|1112 23
-      - 🇷🇺 俄罗斯 - adi|1112
-      - 🇰🇷 韩国 - adi|1112 2
-      - 🇰🇷 韩国 - adi|1112 3
-      - 🇺🇲 美国 - adi|1112
-      - 🇺🇲 美国 - adi|1112 2
-      - 🇺🇲 美国 - adi|1112 3
-      - 🇺🇲 美国 - adi|1112 4
-      - 🇯🇵 日本 - adi|1112 2
-      - 🇯🇵 日本 - adi|1112 3
-      - 🇯🇵 日本 - adi|1112 4
-      - 🇨🇳 台湾 - adi|1112
-      - 🇭🇰 香港 - adi|1112
-      - 🇭🇰 香港 - adi|1112 2
-      - 🇭🇰 香港 - adi|1112 3
-      - 🇭🇰 香港 - adi|1112 4
-      - 🇭🇰 香港 - adi|1112 5
-      - 🇭🇰 香港 - adi|1112 6
-      - 🇭🇰 香港 - adi|1112 7
-      - 🇭🇰 香港 - adi|1112 8
-      - 🇭🇰 香港 - adi|1112 9
-      - 🇸🇬 新加坡 - adi|1112
-      - 🇺🇲 美国 - adi|1112 5
-      - 🇨🇳 台湾 - adi|1112 2
-      - 🇨🇳 台湾 - adi|1112 3
-      - 🇨🇳 台湾 - adi|1112 4
-      - 🇨🇳 台湾 - adi|1112 5
-      - 🇨🇳 台湾 - adi|1112 6
-      - 🇨🇳 台湾 - adi|1112 7
-      - 🇭🇰 香港 - adi|1112 10
+      - 🇯🇵 adi|1113A - 日本
+      - 🇰🇷 adi|1113B - 韩国
+      - 🇯🇵 adi|1113B - 日本
+      - 🇰🇷 adi|1113A - 韩国
+      - 🇯🇵 adi|1113B - 日本 2
+      - 🇯🇵 adi|1113B - 日本 3
+      - 🇯🇵 adi|1113B - 日本 4
+      - 🇰🇷 adi|1113B - 韩国 2
+      - 🇯🇵 adi|1113B - 日本 5
+      - 🇺🇲 adi|1113B - 西雅图
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇰🇷 韩国 - adi|1112
-      - 🇰🇷 韩国3 - adi|1112
-      - 🇯🇵 款10日本 - adi|1112
-      - 🇯🇵 日本 - adi|1112
-      - 🇯🇵 日本10 - adi|1112
-      - 🇯🇵 日本5 - adi|1112
-      - 🇺🇲 西雅图C - adi|1112
-      - adi|1112 - baipiao
-      - adi|1112 - baipiao 2
-      - Unknown - adi|1112
-      - Unknown - adi|1112 2
-      - Unknown - adi|1112 3
-      - Unknown - adi|1112 4
-      - Unknown - adi|1112 5
-      - Unknown - adi|1112 6
-      - Unknown - adi|1112 7
-      - Unknown - adi|1112 8
-      - Unknown - adi|1112 9
-      - Unknown - adi|1112 10
-      - Unknown - adi|1112 11
-      - Unknown - adi|1112 12
-      - Unknown - adi|1112 13
-      - Unknown - adi|1112 14
-      - Unknown - adi|1112 15
-      - Unknown - adi|1112 16
-      - Unknown - adi|1112 17
-      - Unknown - adi|1112 18
-      - Unknown - adi|1112 19
-      - Unknown - adi|1112 20
-      - Unknown - adi|1112 21
-      - Unknown - adi|1112 22
-      - Unknown - adi|1112 23
-      - 🇷🇺 俄罗斯 - adi|1112
-      - 🇰🇷 韩国 - adi|1112 2
-      - 🇰🇷 韩国 - adi|1112 3
-      - 🇺🇲 美国 - adi|1112
-      - 🇺🇲 美国 - adi|1112 2
-      - 🇺🇲 美国 - adi|1112 3
-      - 🇺🇲 美国 - adi|1112 4
-      - 🇯🇵 日本 - adi|1112 2
-      - 🇯🇵 日本 - adi|1112 3
-      - 🇯🇵 日本 - adi|1112 4
-      - 🇨🇳 台湾 - adi|1112
-      - 🇭🇰 香港 - adi|1112
-      - 🇭🇰 香港 - adi|1112 2
-      - 🇭🇰 香港 - adi|1112 3
-      - 🇭🇰 香港 - adi|1112 4
-      - 🇭🇰 香港 - adi|1112 5
-      - 🇭🇰 香港 - adi|1112 6
-      - 🇭🇰 香港 - adi|1112 7
-      - 🇭🇰 香港 - adi|1112 8
-      - 🇭🇰 香港 - adi|1112 9
-      - 🇸🇬 新加坡 - adi|1112
-      - 🇺🇲 美国 - adi|1112 5
-      - 🇨🇳 台湾 - adi|1112 2
-      - 🇨🇳 台湾 - adi|1112 3
-      - 🇨🇳 台湾 - adi|1112 4
-      - 🇨🇳 台湾 - adi|1112 5
-      - 🇨🇳 台湾 - adi|1112 6
-      - 🇨🇳 台湾 - adi|1112 7
-      - 🇭🇰 香港 - adi|1112 10
+      - 🇯🇵 adi|1113A - 日本
+      - 🇰🇷 adi|1113B - 韩国
+      - 🇯🇵 adi|1113B - 日本
+      - 🇰🇷 adi|1113A - 韩国
+      - 🇯🇵 adi|1113B - 日本 2
+      - 🇯🇵 adi|1113B - 日本 3
+      - 🇯🇵 adi|1113B - 日本 4
+      - 🇰🇷 adi|1113B - 韩国 2
+      - 🇯🇵 adi|1113B - 日本 5
+      - 🇺🇲 adi|1113B - 西雅图
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 韩国 - adi|1112
-      - 🇰🇷 韩国3 - adi|1112
-      - 🇯🇵 款10日本 - adi|1112
-      - 🇯🇵 日本 - adi|1112
-      - 🇯🇵 日本10 - adi|1112
-      - 🇯🇵 日本5 - adi|1112
-      - 🇺🇲 西雅图C - adi|1112
-      - adi|1112 - baipiao
-      - adi|1112 - baipiao 2
-      - Unknown - adi|1112
-      - Unknown - adi|1112 2
-      - Unknown - adi|1112 3
-      - Unknown - adi|1112 4
-      - Unknown - adi|1112 5
-      - Unknown - adi|1112 6
-      - Unknown - adi|1112 7
-      - Unknown - adi|1112 8
-      - Unknown - adi|1112 9
-      - Unknown - adi|1112 10
-      - Unknown - adi|1112 11
-      - Unknown - adi|1112 12
-      - Unknown - adi|1112 13
-      - Unknown - adi|1112 14
-      - Unknown - adi|1112 15
-      - Unknown - adi|1112 16
-      - Unknown - adi|1112 17
-      - Unknown - adi|1112 18
-      - Unknown - adi|1112 19
-      - Unknown - adi|1112 20
-      - Unknown - adi|1112 21
-      - Unknown - adi|1112 22
-      - Unknown - adi|1112 23
-      - 🇷🇺 俄罗斯 - adi|1112
-      - 🇰🇷 韩国 - adi|1112 2
-      - 🇰🇷 韩国 - adi|1112 3
-      - 🇺🇲 美国 - adi|1112
-      - 🇺🇲 美国 - adi|1112 2
-      - 🇺🇲 美国 - adi|1112 3
-      - 🇺🇲 美国 - adi|1112 4
-      - 🇯🇵 日本 - adi|1112 2
-      - 🇯🇵 日本 - adi|1112 3
-      - 🇯🇵 日本 - adi|1112 4
-      - 🇨🇳 台湾 - adi|1112
-      - 🇭🇰 香港 - adi|1112
-      - 🇭🇰 香港 - adi|1112 2
-      - 🇭🇰 香港 - adi|1112 3
-      - 🇭🇰 香港 - adi|1112 4
-      - 🇭🇰 香港 - adi|1112 5
-      - 🇭🇰 香港 - adi|1112 6
-      - 🇭🇰 香港 - adi|1112 7
-      - 🇭🇰 香港 - adi|1112 8
-      - 🇭🇰 香港 - adi|1112 9
-      - 🇸🇬 新加坡 - adi|1112
-      - 🇺🇲 美国 - adi|1112 5
-      - 🇨🇳 台湾 - adi|1112 2
-      - 🇨🇳 台湾 - adi|1112 3
-      - 🇨🇳 台湾 - adi|1112 4
-      - 🇨🇳 台湾 - adi|1112 5
-      - 🇨🇳 台湾 - adi|1112 6
-      - 🇨🇳 台湾 - adi|1112 7
-      - 🇭🇰 香港 - adi|1112 10
+      - 🇯🇵 adi|1113A - 日本
+      - 🇰🇷 adi|1113B - 韩国
+      - 🇯🇵 adi|1113B - 日本
+      - 🇰🇷 adi|1113A - 韩国
+      - 🇯🇵 adi|1113B - 日本 2
+      - 🇯🇵 adi|1113B - 日本 3
+      - 🇯🇵 adi|1113B - 日本 4
+      - 🇰🇷 adi|1113B - 韩国 2
+      - 🇯🇵 adi|1113B - 日本 5
+      - 🇺🇲 adi|1113B - 西雅图
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷 韩国 - adi|1112
-      - 🇰🇷 韩国3 - adi|1112
-      - 🇯🇵 款10日本 - adi|1112
-      - 🇯🇵 日本 - adi|1112
-      - 🇯🇵 日本10 - adi|1112
-      - 🇯🇵 日本5 - adi|1112
-      - 🇺🇲 西雅图C - adi|1112
-      - adi|1112 - baipiao
-      - adi|1112 - baipiao 2
-      - Unknown - adi|1112
-      - Unknown - adi|1112 2
-      - Unknown - adi|1112 3
-      - Unknown - adi|1112 4
-      - Unknown - adi|1112 5
-      - Unknown - adi|1112 6
-      - Unknown - adi|1112 7
-      - Unknown - adi|1112 8
-      - Unknown - adi|1112 9
-      - Unknown - adi|1112 10
-      - Unknown - adi|1112 11
-      - Unknown - adi|1112 12
-      - Unknown - adi|1112 13
-      - Unknown - adi|1112 14
-      - Unknown - adi|1112 15
-      - Unknown - adi|1112 16
-      - Unknown - adi|1112 17
-      - Unknown - adi|1112 18
-      - Unknown - adi|1112 19
-      - Unknown - adi|1112 20
-      - Unknown - adi|1112 21
-      - Unknown - adi|1112 22
-      - Unknown - adi|1112 23
-      - 🇷🇺 俄罗斯 - adi|1112
-      - 🇰🇷 韩国 - adi|1112 2
-      - 🇰🇷 韩国 - adi|1112 3
-      - 🇺🇲 美国 - adi|1112
-      - 🇺🇲 美国 - adi|1112 2
-      - 🇺🇲 美国 - adi|1112 3
-      - 🇺🇲 美国 - adi|1112 4
-      - 🇯🇵 日本 - adi|1112 2
-      - 🇯🇵 日本 - adi|1112 3
-      - 🇯🇵 日本 - adi|1112 4
-      - 🇨🇳 台湾 - adi|1112
-      - 🇭🇰 香港 - adi|1112
-      - 🇭🇰 香港 - adi|1112 2
-      - 🇭🇰 香港 - adi|1112 3
-      - 🇭🇰 香港 - adi|1112 4
-      - 🇭🇰 香港 - adi|1112 5
-      - 🇭🇰 香港 - adi|1112 6
-      - 🇭🇰 香港 - adi|1112 7
-      - 🇭🇰 香港 - adi|1112 8
-      - 🇭🇰 香港 - adi|1112 9
-      - 🇸🇬 新加坡 - adi|1112
-      - 🇺🇲 美国 - adi|1112 5
-      - 🇨🇳 台湾 - adi|1112 2
-      - 🇨🇳 台湾 - adi|1112 3
-      - 🇨🇳 台湾 - adi|1112 4
-      - 🇨🇳 台湾 - adi|1112 5
-      - 🇨🇳 台湾 - adi|1112 6
-      - 🇨🇳 台湾 - adi|1112 7
-      - 🇭🇰 香港 - adi|1112 10
+      - 🇯🇵 adi|1113A - 日本
+      - 🇰🇷 adi|1113B - 韩国
+      - 🇯🇵 adi|1113B - 日本
+      - 🇰🇷 adi|1113A - 韩国
+      - 🇯🇵 adi|1113B - 日本 2
+      - 🇯🇵 adi|1113B - 日本 3
+      - 🇯🇵 adi|1113B - 日本 4
+      - 🇰🇷 adi|1113B - 韩国 2
+      - 🇯🇵 adi|1113B - 日本 5
+      - 🇺🇲 adi|1113B - 西雅图
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇰🇷 韩国 - adi|1112
-      - 🇰🇷 韩国3 - adi|1112
-      - 🇯🇵 款10日本 - adi|1112
-      - 🇯🇵 日本 - adi|1112
-      - 🇯🇵 日本10 - adi|1112
-      - 🇯🇵 日本5 - adi|1112
-      - 🇺🇲 西雅图C - adi|1112
-      - adi|1112 - baipiao
-      - adi|1112 - baipiao 2
-      - Unknown - adi|1112
-      - Unknown - adi|1112 2
-      - Unknown - adi|1112 3
-      - Unknown - adi|1112 4
-      - Unknown - adi|1112 5
-      - Unknown - adi|1112 6
-      - Unknown - adi|1112 7
-      - Unknown - adi|1112 8
-      - Unknown - adi|1112 9
-      - Unknown - adi|1112 10
-      - Unknown - adi|1112 11
-      - Unknown - adi|1112 12
-      - Unknown - adi|1112 13
-      - Unknown - adi|1112 14
-      - Unknown - adi|1112 15
-      - Unknown - adi|1112 16
-      - Unknown - adi|1112 17
-      - Unknown - adi|1112 18
-      - Unknown - adi|1112 19
-      - Unknown - adi|1112 20
-      - Unknown - adi|1112 21
-      - Unknown - adi|1112 22
-      - Unknown - adi|1112 23
-      - 🇷🇺 俄罗斯 - adi|1112
-      - 🇰🇷 韩国 - adi|1112 2
-      - 🇰🇷 韩国 - adi|1112 3
-      - 🇺🇲 美国 - adi|1112
-      - 🇺🇲 美国 - adi|1112 2
-      - 🇺🇲 美国 - adi|1112 3
-      - 🇺🇲 美国 - adi|1112 4
-      - 🇯🇵 日本 - adi|1112 2
-      - 🇯🇵 日本 - adi|1112 3
-      - 🇯🇵 日本 - adi|1112 4
-      - 🇨🇳 台湾 - adi|1112
-      - 🇭🇰 香港 - adi|1112
-      - 🇭🇰 香港 - adi|1112 2
-      - 🇭🇰 香港 - adi|1112 3
-      - 🇭🇰 香港 - adi|1112 4
-      - 🇭🇰 香港 - adi|1112 5
-      - 🇭🇰 香港 - adi|1112 6
-      - 🇭🇰 香港 - adi|1112 7
-      - 🇭🇰 香港 - adi|1112 8
-      - 🇭🇰 香港 - adi|1112 9
-      - 🇸🇬 新加坡 - adi|1112
-      - 🇺🇲 美国 - adi|1112 5
-      - 🇨🇳 台湾 - adi|1112 2
-      - 🇨🇳 台湾 - adi|1112 3
-      - 🇨🇳 台湾 - adi|1112 4
-      - 🇨🇳 台湾 - adi|1112 5
-      - 🇨🇳 台湾 - adi|1112 6
-      - 🇨🇳 台湾 - adi|1112 7
-      - 🇭🇰 香港 - adi|1112 10
+      - 🇯🇵 adi|1113A - 日本
+      - 🇰🇷 adi|1113B - 韩国
+      - 🇯🇵 adi|1113B - 日本
+      - 🇰🇷 adi|1113A - 韩国
+      - 🇯🇵 adi|1113B - 日本 2
+      - 🇯🇵 adi|1113B - 日本 3
+      - 🇯🇵 adi|1113B - 日本 4
+      - 🇰🇷 adi|1113B - 韩国 2
+      - 🇯🇵 adi|1113B - 日本 5
+      - 🇺🇲 adi|1113B - 西雅图
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇰🇷 韩国 - adi|1112
-      - 🇰🇷 韩国3 - adi|1112
-      - 🇯🇵 款10日本 - adi|1112
-      - 🇯🇵 日本 - adi|1112
-      - 🇯🇵 日本10 - adi|1112
-      - 🇯🇵 日本5 - adi|1112
-      - 🇺🇲 西雅图C - adi|1112
-      - adi|1112 - baipiao
-      - adi|1112 - baipiao 2
-      - Unknown - adi|1112
-      - Unknown - adi|1112 2
-      - Unknown - adi|1112 3
-      - Unknown - adi|1112 4
-      - Unknown - adi|1112 5
-      - Unknown - adi|1112 6
-      - Unknown - adi|1112 7
-      - Unknown - adi|1112 8
-      - Unknown - adi|1112 9
-      - Unknown - adi|1112 10
-      - Unknown - adi|1112 11
-      - Unknown - adi|1112 12
-      - Unknown - adi|1112 13
-      - Unknown - adi|1112 14
-      - Unknown - adi|1112 15
-      - Unknown - adi|1112 16
-      - Unknown - adi|1112 17
-      - Unknown - adi|1112 18
-      - Unknown - adi|1112 19
-      - Unknown - adi|1112 20
-      - Unknown - adi|1112 21
-      - Unknown - adi|1112 22
-      - Unknown - adi|1112 23
-      - 🇷🇺 俄罗斯 - adi|1112
-      - 🇰🇷 韩国 - adi|1112 2
-      - 🇰🇷 韩国 - adi|1112 3
-      - 🇺🇲 美国 - adi|1112
-      - 🇺🇲 美国 - adi|1112 2
-      - 🇺🇲 美国 - adi|1112 3
-      - 🇺🇲 美国 - adi|1112 4
-      - 🇯🇵 日本 - adi|1112 2
-      - 🇯🇵 日本 - adi|1112 3
-      - 🇯🇵 日本 - adi|1112 4
-      - 🇨🇳 台湾 - adi|1112
-      - 🇭🇰 香港 - adi|1112
-      - 🇭🇰 香港 - adi|1112 2
-      - 🇭🇰 香港 - adi|1112 3
-      - 🇭🇰 香港 - adi|1112 4
-      - 🇭🇰 香港 - adi|1112 5
-      - 🇭🇰 香港 - adi|1112 6
-      - 🇭🇰 香港 - adi|1112 7
-      - 🇭🇰 香港 - adi|1112 8
-      - 🇭🇰 香港 - adi|1112 9
-      - 🇸🇬 新加坡 - adi|1112
-      - 🇺🇲 美国 - adi|1112 5
-      - 🇨🇳 台湾 - adi|1112 2
-      - 🇨🇳 台湾 - adi|1112 3
-      - 🇨🇳 台湾 - adi|1112 4
-      - 🇨🇳 台湾 - adi|1112 5
-      - 🇨🇳 台湾 - adi|1112 6
-      - 🇨🇳 台湾 - adi|1112 7
-      - 🇭🇰 香港 - adi|1112 10
+      - 🇯🇵 adi|1113A - 日本
+      - 🇰🇷 adi|1113B - 韩国
+      - 🇯🇵 adi|1113B - 日本
+      - 🇰🇷 adi|1113A - 韩国
+      - 🇯🇵 adi|1113B - 日本 2
+      - 🇯🇵 adi|1113B - 日本 3
+      - 🇯🇵 adi|1113B - 日本 4
+      - 🇰🇷 adi|1113B - 韩国 2
+      - 🇯🇵 adi|1113B - 日本 5
+      - 🇺🇲 adi|1113B - 西雅图
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 韩国 - adi|1112
-      - 🇰🇷 韩国3 - adi|1112
-      - 🇯🇵 款10日本 - adi|1112
-      - 🇯🇵 日本 - adi|1112
-      - 🇯🇵 日本10 - adi|1112
-      - 🇯🇵 日本5 - adi|1112
-      - 🇺🇲 西雅图C - adi|1112
-      - adi|1112 - baipiao
-      - adi|1112 - baipiao 2
-      - Unknown - adi|1112
-      - Unknown - adi|1112 2
-      - Unknown - adi|1112 3
-      - Unknown - adi|1112 4
-      - Unknown - adi|1112 5
-      - Unknown - adi|1112 6
-      - Unknown - adi|1112 7
-      - Unknown - adi|1112 8
-      - Unknown - adi|1112 9
-      - Unknown - adi|1112 10
-      - Unknown - adi|1112 11
-      - Unknown - adi|1112 12
-      - Unknown - adi|1112 13
-      - Unknown - adi|1112 14
-      - Unknown - adi|1112 15
-      - Unknown - adi|1112 16
-      - Unknown - adi|1112 17
-      - Unknown - adi|1112 18
-      - Unknown - adi|1112 19
-      - Unknown - adi|1112 20
-      - Unknown - adi|1112 21
-      - Unknown - adi|1112 22
-      - Unknown - adi|1112 23
-      - 🇷🇺 俄罗斯 - adi|1112
-      - 🇰🇷 韩国 - adi|1112 2
-      - 🇰🇷 韩国 - adi|1112 3
-      - 🇺🇲 美国 - adi|1112
-      - 🇺🇲 美国 - adi|1112 2
-      - 🇺🇲 美国 - adi|1112 3
-      - 🇺🇲 美国 - adi|1112 4
-      - 🇯🇵 日本 - adi|1112 2
-      - 🇯🇵 日本 - adi|1112 3
-      - 🇯🇵 日本 - adi|1112 4
-      - 🇨🇳 台湾 - adi|1112
-      - 🇭🇰 香港 - adi|1112
-      - 🇭🇰 香港 - adi|1112 2
-      - 🇭🇰 香港 - adi|1112 3
-      - 🇭🇰 香港 - adi|1112 4
-      - 🇭🇰 香港 - adi|1112 5
-      - 🇭🇰 香港 - adi|1112 6
-      - 🇭🇰 香港 - adi|1112 7
-      - 🇭🇰 香港 - adi|1112 8
-      - 🇭🇰 香港 - adi|1112 9
-      - 🇸🇬 新加坡 - adi|1112
-      - 🇺🇲 美国 - adi|1112 5
-      - 🇨🇳 台湾 - adi|1112 2
-      - 🇨🇳 台湾 - adi|1112 3
-      - 🇨🇳 台湾 - adi|1112 4
-      - 🇨🇳 台湾 - adi|1112 5
-      - 🇨🇳 台湾 - adi|1112 6
-      - 🇨🇳 台湾 - adi|1112 7
-      - 🇭🇰 香港 - adi|1112 10
+      - 🇯🇵 adi|1113A - 日本
+      - 🇰🇷 adi|1113B - 韩国
+      - 🇯🇵 adi|1113B - 日本
+      - 🇰🇷 adi|1113A - 韩国
+      - 🇯🇵 adi|1113B - 日本 2
+      - 🇯🇵 adi|1113B - 日本 3
+      - 🇯🇵 adi|1113B - 日本 4
+      - 🇰🇷 adi|1113B - 韩国 2
+      - 🇯🇵 adi|1113B - 日本 5
+      - 🇺🇲 adi|1113B - 西雅图
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -553,67 +145,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 韩国 - adi|1112
-      - 🇰🇷 韩国3 - adi|1112
-      - 🇯🇵 款10日本 - adi|1112
-      - 🇯🇵 日本 - adi|1112
-      - 🇯🇵 日本10 - adi|1112
-      - 🇯🇵 日本5 - adi|1112
-      - 🇺🇲 西雅图C - adi|1112
-      - adi|1112 - baipiao
-      - adi|1112 - baipiao 2
-      - Unknown - adi|1112
-      - Unknown - adi|1112 2
-      - Unknown - adi|1112 3
-      - Unknown - adi|1112 4
-      - Unknown - adi|1112 5
-      - Unknown - adi|1112 6
-      - Unknown - adi|1112 7
-      - Unknown - adi|1112 8
-      - Unknown - adi|1112 9
-      - Unknown - adi|1112 10
-      - Unknown - adi|1112 11
-      - Unknown - adi|1112 12
-      - Unknown - adi|1112 13
-      - Unknown - adi|1112 14
-      - Unknown - adi|1112 15
-      - Unknown - adi|1112 16
-      - Unknown - adi|1112 17
-      - Unknown - adi|1112 18
-      - Unknown - adi|1112 19
-      - Unknown - adi|1112 20
-      - Unknown - adi|1112 21
-      - Unknown - adi|1112 22
-      - Unknown - adi|1112 23
-      - 🇷🇺 俄罗斯 - adi|1112
-      - 🇰🇷 韩国 - adi|1112 2
-      - 🇰🇷 韩国 - adi|1112 3
-      - 🇺🇲 美国 - adi|1112
-      - 🇺🇲 美国 - adi|1112 2
-      - 🇺🇲 美国 - adi|1112 3
-      - 🇺🇲 美国 - adi|1112 4
-      - 🇯🇵 日本 - adi|1112 2
-      - 🇯🇵 日本 - adi|1112 3
-      - 🇯🇵 日本 - adi|1112 4
-      - 🇨🇳 台湾 - adi|1112
-      - 🇭🇰 香港 - adi|1112
-      - 🇭🇰 香港 - adi|1112 2
-      - 🇭🇰 香港 - adi|1112 3
-      - 🇭🇰 香港 - adi|1112 4
-      - 🇭🇰 香港 - adi|1112 5
-      - 🇭🇰 香港 - adi|1112 6
-      - 🇭🇰 香港 - adi|1112 7
-      - 🇭🇰 香港 - adi|1112 8
-      - 🇭🇰 香港 - adi|1112 9
-      - 🇸🇬 新加坡 - adi|1112
-      - 🇺🇲 美国 - adi|1112 5
-      - 🇨🇳 台湾 - adi|1112 2
-      - 🇨🇳 台湾 - adi|1112 3
-      - 🇨🇳 台湾 - adi|1112 4
-      - 🇨🇳 台湾 - adi|1112 5
-      - 🇨🇳 台湾 - adi|1112 6
-      - 🇨🇳 台湾 - adi|1112 7
-      - 🇭🇰 香港 - adi|1112 10
+      - 🇯🇵 adi|1113A - 日本
+      - 🇰🇷 adi|1113B - 韩国
+      - 🇯🇵 adi|1113B - 日本
+      - 🇰🇷 adi|1113A - 韩国
+      - 🇯🇵 adi|1113B - 日本 2
+      - 🇯🇵 adi|1113B - 日本 3
+      - 🇯🇵 adi|1113B - 日本 4
+      - 🇰🇷 adi|1113B - 韩国 2
+      - 🇯🇵 adi|1113B - 日本 5
+      - 🇺🇲 adi|1113B - 西雅图
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
