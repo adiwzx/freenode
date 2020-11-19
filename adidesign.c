@@ -5,19 +5,25 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 adi|1117T - 日本, server: fuckxiaofenhong.cf, port: 443, type: trojan, password: 9e97f9c1-0b77-4fca-a457-e97f34c20208, sni: fuckxiaofenhong.cf}
-  - {name: 🇰🇷 adi|1117T - 韩国, server: trotro.ml, port: 443, type: trojan, password: 7efe8b11-58bc-4597-a269-87691a6f1806, sni: trotro.ml}
-  - {name: 🇯🇵 adi|1117T - 日本 2, server: fuckxiaofenhong.ga, port: 443, type: trojan, password: 268feb15-2beb-4029-9c53-a8fcb91b5d6e, sni: fuckxiaofenhong.ga}
-  - {name: 🇯🇵 adi|1117T - 日本 3, server: fuckxiaofenhong.ml, port: 443, type: trojan, password: 35f613d7-6c93-43c4-96bc-c32f0a1e226e, sni: fuckxiaofenhong.ml}
-  - {name: 🇯🇵 adi|1117T - 日本 4, server: fuckxiaofenhong.tk, port: 443, type: trojan, password: 3785af03-328f-4c87-bf82-c5fa609f5a90, sni: fuckxiaofenhong.tk}
+  - {name: 🇯🇵 adi|1119T - 日本1, server: fuckxiaofenhong.gq, port: 443, type: trojan, password: 6aae799b-ba61-4029-a565-e2fd1bed85a9, sni: fuckxiaofenhong.gq}
+  - {name: 🇺🇲 adi|1119T - 西雅图C, server: xibun.gq, port: 443, type: trojan, password: ceb1f4c5-966b-48f5-a36b-7ec134f63764, sni: xibun.gq}
+  - {name: 🇯🇵 adi|1117T - 日本, server: fuckxiaofenhong.ga, port: 443, type: trojan, password: 268feb15-2beb-4029-9c53-a8fcb91b5d6e, sni: fuckxiaofenhong.ga}
+  - {name: 🇺🇲 adi|1117T - 美国, server: fuckxijinping.ga, port: 443, type: trojan, password: 1605b14d-87c5-446e-a8e1-8078d42970f3, sni: fuckxijinping.ga}
+  - {name: 🇯🇵 adi|1119T - 日本3, server: milkgogo.ga, port: 443, type: trojan, password: 18fd1888-64dd-4f8c-8287-89b17c1f6e88, sni: milkgogo.ga}
+  - {name: 🇯🇵 adi|1117T - 日本 2, server: trotro.ml, port: 443, type: trojan, password: 7efe8b11-58bc-4597-a269-87691a6f1806, sni: trotro.ml}
+  - {name: 🇯🇵 adi|1117T - 日本 3, server: fuckxiaofenhong.tk, port: 443, type: trojan, password: 3785af03-328f-4c87-bf82-c5fa609f5a90, sni: fuckxiaofenhong.tk}
+  - {name: 🇯🇵 adi|1117T - 日本 4, server: fuckxiaofenhong.cf, port: 443, type: trojan, password: 9e97f9c1-0b77-4fca-a457-e97f34c20208, sni: fuckxiaofenhong.cf}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇯🇵 adi|1119T - 日本1
+      - 🇺🇲 adi|1119T - 西雅图C
       - 🇯🇵 adi|1117T - 日本
-      - 🇰🇷 adi|1117T - 韩国
+      - 🇺🇲 adi|1117T - 美国
+      - 🇯🇵 adi|1119T - 日本3
       - 🇯🇵 adi|1117T - 日本 2
       - 🇯🇵 adi|1117T - 日本 3
       - 🇯🇵 adi|1117T - 日本 4
@@ -26,8 +32,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇯🇵 adi|1119T - 日本1
+      - 🇺🇲 adi|1119T - 西雅图C
       - 🇯🇵 adi|1117T - 日本
-      - 🇰🇷 adi|1117T - 韩国
+      - 🇺🇲 adi|1117T - 美国
+      - 🇯🇵 adi|1119T - 日本3
       - 🇯🇵 adi|1117T - 日本 2
       - 🇯🇵 adi|1117T - 日本 3
       - 🇯🇵 adi|1117T - 日本 4
@@ -37,8 +46,11 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇯🇵 adi|1119T - 日本1
+      - 🇺🇲 adi|1119T - 西雅图C
       - 🇯🇵 adi|1117T - 日本
-      - 🇰🇷 adi|1117T - 韩国
+      - 🇺🇲 adi|1117T - 美国
+      - 🇯🇵 adi|1119T - 日本3
       - 🇯🇵 adi|1117T - 日本 2
       - 🇯🇵 adi|1117T - 日本 3
       - 🇯🇵 adi|1117T - 日本 4
@@ -47,8 +59,11 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇯🇵 adi|1119T - 日本1
+      - 🇺🇲 adi|1119T - 西雅图C
       - 🇯🇵 adi|1117T - 日本
-      - 🇰🇷 adi|1117T - 韩国
+      - 🇺🇲 adi|1117T - 美国
+      - 🇯🇵 adi|1119T - 日本3
       - 🇯🇵 adi|1117T - 日本 2
       - 🇯🇵 adi|1117T - 日本 3
       - 🇯🇵 adi|1117T - 日本 4
@@ -57,8 +72,11 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇯🇵 adi|1119T - 日本1
+      - 🇺🇲 adi|1119T - 西雅图C
       - 🇯🇵 adi|1117T - 日本
-      - 🇰🇷 adi|1117T - 韩国
+      - 🇺🇲 adi|1117T - 美国
+      - 🇯🇵 adi|1119T - 日本3
       - 🇯🇵 adi|1117T - 日本 2
       - 🇯🇵 adi|1117T - 日本 3
       - 🇯🇵 adi|1117T - 日本 4
@@ -67,8 +85,11 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇯🇵 adi|1119T - 日本1
+      - 🇺🇲 adi|1119T - 西雅图C
       - 🇯🇵 adi|1117T - 日本
-      - 🇰🇷 adi|1117T - 韩国
+      - 🇺🇲 adi|1117T - 美国
+      - 🇯🇵 adi|1119T - 日本3
       - 🇯🇵 adi|1117T - 日本 2
       - 🇯🇵 adi|1117T - 日本 3
       - 🇯🇵 adi|1117T - 日本 4
@@ -78,8 +99,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇯🇵 adi|1119T - 日本1
+      - 🇺🇲 adi|1119T - 西雅图C
       - 🇯🇵 adi|1117T - 日本
-      - 🇰🇷 adi|1117T - 韩国
+      - 🇺🇲 adi|1117T - 美国
+      - 🇯🇵 adi|1119T - 日本3
       - 🇯🇵 adi|1117T - 日本 2
       - 🇯🇵 adi|1117T - 日本 3
       - 🇯🇵 adi|1117T - 日本 4
@@ -105,8 +129,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇯🇵 adi|1119T - 日本1
+      - 🇺🇲 adi|1119T - 西雅图C
       - 🇯🇵 adi|1117T - 日本
-      - 🇰🇷 adi|1117T - 韩国
+      - 🇺🇲 adi|1117T - 美国
+      - 🇯🇵 adi|1119T - 日本3
       - 🇯🇵 adi|1117T - 日本 2
       - 🇯🇵 adi|1117T - 日本 3
       - 🇯🇵 adi|1117T - 日本 4
