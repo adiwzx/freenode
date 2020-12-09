@@ -5,420 +5,428 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 美国 adi|1207T, server: www.zhanan06.xyz, port: 443, type: trojan, password: 7F7VaqzQvNzH7GDw, sni: www.zhanan06.xyz}
-  - {name: seoul_3 adi|1207T, server: fuckxijinping.cf, port: 443, type: trojan, password: a69c4593-2938-413a-bfde-d163f7d29554, sni: fuckxijinping.cf}
-  - {name: 🇺🇲 西雅图C adi|1207T, server: xibun.gq, port: 443, type: trojan, password: e6a4ccd6-47b0-4d12-8b72-4712e818bc80, sni: xibun.gq}
-  - {name: 善款10 adi|1205T, server: fuckxiaofenhong.ml, port: 443, type: trojan, password: 3015bfd4-24fc-46d3-adc3-5a32adab84b6, sni: fuckxiaofenhong.ml}
-  - {name: seoul_2 adi|1207T, server: fuckxijinping.ga, port: 443, type: trojan, password: ebda4233-581b-4658-9405-d1c38e40ffef, sni: fuckxijinping.ga}
-  - {name: 🇯🇵 日本2 adi|1205T, server: chinahright.ml, port: 443, type: trojan, password: 59b8270c-c4e5-403d-bcf1-4ff13f3a9b1a, sni: chinahright.ml}
   - {name: 🇯🇵 日本8 adi|1205T, server: fuckxibaozi.ga, port: 443, type: trojan, password: 261f1a04-6cdc-4f34-91e2-1f2c4d1ad319, sni: fuckxibaozi.ga}
-  - {name: 🇰🇷 韩国3 adi|1205T, server: trotro.ml, port: 443, type: trojan, password: a37a21b2-2950-4c71-b597-b5fe6dd844ca, sni: trotro.ml}
-  - {name: 🇯🇵 日本3 adi|1207T, server: milkgogo.ga, port: 443, type: trojan, password: 99f65927-6b92-491a-8724-9d4009f4400d, sni: milkgogo.ga}
-  - {name: tokyo_1 adi|1205T, server: fuckxiaofenhong.ga, port: 443, type: trojan, password: 706914ec-d0e7-49ba-b196-28f857a066ed, sni: fuckxiaofenhong.ga}
-  - {name: 🇯🇵 日本10 adi|1205T, server: fuckxiaofenhong.cf, port: 443, type: trojan, password: 8634ea4d-e421-464d-9859-bdd6e0a4f54f, sni: fuckxiaofenhong.cf}
+  - {name: seoul_3 adi|1209T, server: fuckxijinping.cf, port: 443, type: trojan, password: a69c4593-2938-413a-bfde-d163f7d29554, sni: fuckxijinping.cf}
   - {name: 🇭🇰 香港 adi|1207T, server: www.zhanan09.icu, port: 443, type: trojan, password: eBBSZMvMev2kruqI, sni: www.zhanan09.icu}
   - {name: 🇭🇰 香港 adi|1207T 2, server: www.zx11.men, port: 443, type: trojan, password: 72pRXnTfRZBPbfTh, sni: www.zx11.men}
-  - {name: 🇸🇬 新加坡 adi|1207T, server: www.zx04.men, port: 443, type: trojan, password: zPGsdLAujCZC46so, sni: www.zx04.men}
-  - {name: 🇸🇬 新加坡 adi|1207T 2, server: www.zx11.loan, port: 443, type: trojan, password: sXS3Pig5g9Og2cb0, sni: www.zx11.loan}
-  - {name: 🇸🇬 新加坡 adi|1207T 3, server: www.huang4545.space, port: 443, type: trojan, password: Bghf8CaTkRC3Oa75, sni: www.huang4545.space}
-  - {name: 🇯🇵 日本5 adi|1207T, server: fuckxiaofenhong.tk, port: 443, type: trojan, password: 4edaed86-2e14-4770-9ea3-be12c61c419a, sni: fuckxiaofenhong.tk}
-  - {name: 🇯🇵 日本1 adi|1207T, server: fuckxiaofenhong.gq, port: 443, type: trojan, password: 20b08110-e6cb-4fc8-9dbc-5d4dea42f8a5, sni: fuckxiaofenhong.gq}
-  - {name: 🇸🇬 新加坡 adi|1201, server: 89.187.163.200, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 美国 adi|1207, server: 158.247.206.77, port: 44868, type: vmess, uuid: 08946523-7fb4-4836-a3ee-d95f37b38b93, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 KR_929 adi|1207, server: 3.35.137.228, port: 30000, type: vmess, uuid: e58573e2-fdde-4c06-e32f-ef4e2b4f3bad, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 3.35.137.228}}
-  - {name: 🇺🇲 美国 adi|1207 2, server: 75.2.35.52, port: 23302, type: vmess, uuid: 287cd8e7-724e-3284-b079-63d9e8c6dfc3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray/233yun.xyz, ws-headers: {Host: 75.2.35.52}}
-  - {name: 🇸🇬 新加坡 adi|1205, server: 40.65.134.91, port: 233, type: vmess, uuid: 287cd8e7-724e-3284-b079-63d9e8c6dfc3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray/233yun.xyz, ws-headers: {Host: 40.65.134.91}}
-  - {name: 🇺🇲 美国 adi|1207 3, server: 99.83.195.146, port: 23316, type: vmess, uuid: 287cd8e7-724e-3284-b079-63d9e8c6dfc3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray/233yun.xyz, ws-headers: {Host: 99.83.195.146}}
-  - {name: 🇭🇰 香港 adi|1207, server: az2.thessr.site, port: 410, type: vmess, uuid: 5fa6ba1d-3616-3df7-92f1-41f650a1399d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 🇸🇬 新加坡 adi|1205 2, server: 13.76.228.184, port: 233, type: vmess, uuid: 287cd8e7-724e-3284-b079-63d9e8c6dfc3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray/233yun.xyz, ws-headers: {Host: 13.76.228.184}}
-  - {name: 🇺🇲 美国 adi|1207 4, server: aga.ohss.icu, port: 21001, type: vmess, uuid: 5fa6ba1d-3616-3df7-92f1-41f650a1399d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 🇯🇵 JP_911 adi|1207, server: 13.112.204.111, port: 40000, type: vmess, uuid: 01670e65-79c3-40fe-8460-a1ae88b78e1a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 13.112.204.111}}
-  - {name: 🇺🇲 美国 adi|1207 5, server: 99.83.195.146, port: 23301, type: vmess, uuid: 287cd8e7-724e-3284-b079-63d9e8c6dfc3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray/233yun.xyz, ws-headers: {Host: 99.83.195.146}}
+  - {name: 🇸🇬 新加坡 adi|1207T, server: www.zx11.loan, port: 443, type: trojan, password: sXS3Pig5g9Og2cb0, sni: www.zx11.loan}
+  - {name: 🇺🇲 美国 adi|1207T, server: www.zhanan06.xyz, port: 443, type: trojan, password: 7F7VaqzQvNzH7GDw, sni: www.zhanan06.xyz}
+  - {name: 🇸🇬 新加坡 adi|1207T 2, server: www.huang4545.space, port: 443, type: trojan, password: Bghf8CaTkRC3Oa75, sni: www.huang4545.space}
+  - {name: 🇸🇬 新加坡 adi|1207T 3, server: www.zx04.men, port: 443, type: trojan, password: zPGsdLAujCZC46so, sni: www.zx04.men}
+  - {name: seoul_2 adi|1209T, server: fuckxijinping.ga, port: 443, type: trojan, password: ebda4233-581b-4658-9405-d1c38e40ffef, sni: fuckxijinping.ga}
+  - {name: 🇯🇵 日本5 adi|1209T, server: fuckxiaofenhong.tk, port: 443, type: trojan, password: 4edaed86-2e14-4770-9ea3-be12c61c419a, sni: fuckxiaofenhong.tk}
+  - {name: 🇯🇵 日本3 adi|1209T, server: milkgogo.ga, port: 443, type: trojan, password: 99f65927-6b92-491a-8724-9d4009f4400d, sni: milkgogo.ga}
+  - {name: 🇭🇰 HK_702 adi|1209, server: 84.17.57.73, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 TW_1318 adi|1209, server: 2.58.241.27, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇨🇳 TW_1322 adi|1209, server: 2.58.241.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 JP_869 adi|1209, server: 45.87.213.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇯🇵 JP_868 adi|1209, server: 84.17.34.26, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 JP_861 adi|1209, server: 45.87.213.243, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 JP_855 adi|1209, server: 45.87.213.7, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 JP_860 adi|1209, server: 84.17.34.46, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 JP_870 adi|1209, server: 45.87.213.101, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 JP_853 adi|1209, server: 103.208.221.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 JP_854 adi|1209, server: 45.87.213.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: CZ_281 adi|1209, server: 89.187.161.4, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇯🇵 JP_865 adi|1209, server: 45.87.213.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 JP_859 adi|1209, server: 45.87.213.103, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 TW_1314 adi|1209, server: 103.98.75.71, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇯🇵 JP_867 adi|1209, server: 45.87.213.85, port: 36811, type: ss, cipher: aes-256-gcm, password: UhV73M9rmGqDfKh3Xtd4USHp}
+  - {name: 🇨🇳 TW_1324 adi|1209, server: 103.98.75.71, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇨🇳 TW_1323 adi|1209, server: 2.58.242.45, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 🇭🇰 HK adi|1209, server: 13.75.72.103, port: 233, type: vmess, uuid: 4f88683b-871f-4858-80ab-721d373adf52, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.75.72.103}}
+  - {name: 🇺🇲 US_1869 adi|1209, server: 13.248.146.65, port: 21001, type: vmess, uuid: 85517b0e-c88f-3aeb-a6dc-fe00ed8e8464, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇺🇲 美国 adi|1207, server: 99.83.195.146, port: 23316, type: vmess, uuid: 287cd8e7-724e-3284-b079-63d9e8c6dfc3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray/233yun.xyz, ws-headers: {Host: 99.83.195.146}}
+  - {name: 🇺🇲 美国 adi|1207 2, server: 99.83.195.146, port: 23317, type: vmess, uuid: 287cd8e7-724e-3284-b079-63d9e8c6dfc3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray/233yun.xyz, ws-headers: {Host: 99.83.195.146}}
+  - {name: 🇺🇲 美国 adi|1207 3, server: 75.2.35.52, port: 23317, type: vmess, uuid: 287cd8e7-724e-3284-b079-63d9e8c6dfc3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray/233yun.xyz, ws-headers: {Host: 75.2.35.52}}
+  - {name: 🇺🇲 US adi|1209, server: 75.2.112.123, port: 8122, type: vmess, uuid: 45e9eed8-aeb6-433e-a13c-a995a6bf7ac0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 75.2.112.123}}
+  - {name: 🇺🇲 美国 adi|1207 4, server: 75.2.35.52, port: 23302, type: vmess, uuid: 287cd8e7-724e-3284-b079-63d9e8c6dfc3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray/233yun.xyz, ws-headers: {Host: 75.2.35.52}}
+  - {name: 🇭🇰 香港 adi|1207, server: 45.77.21.27, port: 64855, type: vmess, uuid: 383bbb79-caec-4eab-8f39-9dd5890ab21a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 US adi|1209 2, server: 99.83.201.80, port: 8122, type: vmess, uuid: 45e9eed8-aeb6-433e-a13c-a995a6bf7ac0, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 99.83.201.80}}
+  - {name: 🇸🇬 新加坡 adi|1205, server: 13.76.228.184, port: 233, type: vmess, uuid: 287cd8e7-724e-3284-b079-63d9e8c6dfc3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray/233yun.xyz, ws-headers: {Host: 13.76.228.184}}
   - {name: 🇯🇵 日本 adi|1207, server: 45.32.20.226, port: 64758, type: vmess, uuid: ffcada74-e7e4-42bc-bab3-fa6fde3f71fc, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港 adi|1207 2, server: 45.77.21.27, port: 64855, type: vmess, uuid: 383bbb79-caec-4eab-8f39-9dd5890ab21a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 新加坡 adi|1207, server: SG01-1-0JI17.233cloud-node.com, port: 233, type: vmess, uuid: 287cd8e7-724e-3284-b079-63d9e8c6dfc3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray/233yun.xyz, ws-headers: {Host: SG01-1-0JI17.233cloud-node.com}}
-  - {name: 🇭🇰 香港 adi|1207 3, server: azure1.3mcloud.co, port: 410, type: vmess, uuid: 5fa6ba1d-3616-3df7-92f1-41f650a1399d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 🇭🇰 香港 adi|1207 4, server: azure2.3mcloud.co, port: 410, type: vmess, uuid: 5fa6ba1d-3616-3df7-92f1-41f650a1399d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 🇨🇳 TW_1343 adi|1207, server: 210.71.198.211, port: 443, type: vmess, uuid: 71afeb41-7dde-320f-85cc-ca1977d77de7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t1.yt004.xyz}}
-  - {name: 🇺🇲 美国 adi|1207 6, server: 75.2.35.52, port: 23317, type: vmess, uuid: 287cd8e7-724e-3284-b079-63d9e8c6dfc3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray/233yun.xyz, ws-headers: {Host: 75.2.35.52}}
-  - {name: 🇺🇲 US adi|1207, server: 76.223.70.170, port: 1000, type: vmess, uuid: 786d1602-3cc9-405f-87c7-446c84cd92a8, alterId: 2, cipher: auto, tls: true}
-  - {name: 🇭🇰 香港 adi|1207 5, server: centos.fuchau.xyz, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
-  - {name: 🇺🇲 US adi|1207 2, server: 13.248.209.186, port: 1000, type: vmess, uuid: 786d1602-3cc9-405f-87c7-446c84cd92a8, alterId: 2, cipher: auto, tls: true}
-  - {name: 🇸🇬 SG adi|1207, server: 172.104.163.103, port: 14750, type: vmess, uuid: 2d127104-4cad-408e-e94e-733b89ec8ad3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 172.104.163.103}}
-  - {name: 🇰🇷 KR adi|1207, server: 3.34.98.55, port: 80, type: vmess, uuid: f5a8b2fb-f749-3f7e-947a-86e91ffedd08, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 3.34.98.55}}
-  - {name: 🇺🇲 美国 adi|1207 7, server: aga.ohss.icu, port: 21002, type: vmess, uuid: 5fa6ba1d-3616-3df7-92f1-41f650a1399d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 🇸🇬 SG_1293, server: 54.169.121.93, port: 30000, type: vmess, uuid: ce53c7ab-5b4f-444a-ab0e-e827827881a3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 54.169.121.93}}
-  - {name: 🇺🇲 美国 adi|1207 8, server: 99.83.195.146, port: 23317, type: vmess, uuid: 287cd8e7-724e-3284-b079-63d9e8c6dfc3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray/233yun.xyz, ws-headers: {Host: 99.83.195.146}}
-  - {name: 🇺🇲 US adi|1207 3, server: 99.83.168.137, port: 11190, type: vmess, uuid: 8c35bef3-d51f-41ab-ac87-7b053410495b, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 99.83.168.137}}
-  - {name: 🇰🇷 KR_931 adi|1207, server: 3.34.98.55, port: 80, type: vmess, uuid: f5a8b2fb-f749-3f7e-947a-86e91ffedd08, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 3.34.98.55}}
-  - {name: 🇭🇰 HK adi|1207, server: 13.75.72.103, port: 233, type: vmess, uuid: 4f88683b-871f-4858-80ab-721d373adf52, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.75.72.103}}
+  - {name: 🇺🇲 美国 adi|1207 5, server: 99.83.195.146, port: 23301, type: vmess, uuid: 287cd8e7-724e-3284-b079-63d9e8c6dfc3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray/233yun.xyz, ws-headers: {Host: 99.83.195.146}}
+  - {name: 🇺🇲 US_1872 adi|1209, server: 13.248.146.65, port: 21002, type: vmess, uuid: 85517b0e-c88f-3aeb-a6dc-fe00ed8e8464, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇺🇲 US_1870 adi|1209, server: 76.223.18.77, port: 21001, type: vmess, uuid: 85517b0e-c88f-3aeb-a6dc-fe00ed8e8464, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 🇺🇲 US adi|1209 3, server: bigsur.cf, port: 443, type: vmess, uuid: c423d9a4-3667-11eb-801c-560003166d7b, alterId: 12, cipher: auto, tls: true, network: ws, ws-path: /u0weDb9K/, ws-headers: {Host: bigsur.cf}}
+  - {name: 🇺🇲 US adi|1209 4, server: littlesur.ml, port: 443, type: vmess, uuid: 8eedab16-3667-11eb-aaa3-560003166d6f, alterId: 12, cipher: auto, tls: true, network: ws, ws-path: /c9SkNvqH/, ws-headers: {Host: littlesur.ml}}
+  - {name: 🇺🇲 美国 adi|1207 6, server: 158.247.206.77, port: 44868, type: vmess, uuid: 08946523-7fb4-4836-a3ee-d95f37b38b93, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 KR adi|1209, server: 3.34.98.55, port: 80, type: vmess, uuid: f5a8b2fb-f749-3f7e-947a-86e91ffedd08, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 3.34.98.55}}
+  - {name: 🇭🇰 香港 adi|1207 2, server: centos.fuchau.xyz, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 美国 adi|1207T
-      - seoul_3 adi|1207T
-      - 🇺🇲 西雅图C adi|1207T
-      - 善款10 adi|1205T
-      - seoul_2 adi|1207T
-      - 🇯🇵 日本2 adi|1205T
       - 🇯🇵 日本8 adi|1205T
-      - 🇰🇷 韩国3 adi|1205T
-      - 🇯🇵 日本3 adi|1207T
-      - tokyo_1 adi|1205T
-      - 🇯🇵 日本10 adi|1205T
+      - seoul_3 adi|1209T
       - 🇭🇰 香港 adi|1207T
       - 🇭🇰 香港 adi|1207T 2
       - 🇸🇬 新加坡 adi|1207T
+      - 🇺🇲 美国 adi|1207T
       - 🇸🇬 新加坡 adi|1207T 2
       - 🇸🇬 新加坡 adi|1207T 3
-      - 🇯🇵 日本5 adi|1207T
-      - 🇯🇵 日本1 adi|1207T
-      - 🇸🇬 新加坡 adi|1201
+      - seoul_2 adi|1209T
+      - 🇯🇵 日本5 adi|1209T
+      - 🇯🇵 日本3 adi|1209T
+      - 🇭🇰 HK_702 adi|1209
+      - 🇨🇳 TW_1318 adi|1209
+      - 🇨🇳 TW_1322 adi|1209
+      - 🇯🇵 JP_869 adi|1209
+      - 🇯🇵 JP_868 adi|1209
+      - 🇯🇵 JP_861 adi|1209
+      - 🇯🇵 JP_855 adi|1209
+      - 🇯🇵 JP_860 adi|1209
+      - 🇯🇵 JP_870 adi|1209
+      - 🇯🇵 JP_853 adi|1209
+      - 🇯🇵 JP_854 adi|1209
+      - CZ_281 adi|1209
+      - 🇯🇵 JP_865 adi|1209
+      - 🇯🇵 JP_859 adi|1209
+      - 🇨🇳 TW_1314 adi|1209
+      - 🇯🇵 JP_867 adi|1209
+      - 🇨🇳 TW_1324 adi|1209
+      - 🇨🇳 TW_1323 adi|1209
+      - 🇭🇰 HK adi|1209
+      - 🇺🇲 US_1869 adi|1209
       - 🇺🇲 美国 adi|1207
-      - 🇰🇷 KR_929 adi|1207
       - 🇺🇲 美国 adi|1207 2
-      - 🇸🇬 新加坡 adi|1205
       - 🇺🇲 美国 adi|1207 3
-      - 🇭🇰 香港 adi|1207
-      - 🇸🇬 新加坡 adi|1205 2
+      - 🇺🇲 US adi|1209
       - 🇺🇲 美国 adi|1207 4
-      - 🇯🇵 JP_911 adi|1207
-      - 🇺🇲 美国 adi|1207 5
+      - 🇭🇰 香港 adi|1207
+      - 🇺🇲 US adi|1209 2
+      - 🇸🇬 新加坡 adi|1205
       - 🇯🇵 日本 adi|1207
-      - 🇭🇰 香港 adi|1207 2
-      - 🇸🇬 新加坡 adi|1207
-      - 🇭🇰 香港 adi|1207 3
-      - 🇭🇰 香港 adi|1207 4
-      - 🇨🇳 TW_1343 adi|1207
+      - 🇺🇲 美国 adi|1207 5
+      - 🇺🇲 US_1872 adi|1209
+      - 🇺🇲 US_1870 adi|1209
+      - 🇺🇲 US adi|1209 3
+      - 🇺🇲 US adi|1209 4
       - 🇺🇲 美国 adi|1207 6
-      - 🇺🇲 US adi|1207
-      - 🇭🇰 香港 adi|1207 5
-      - 🇺🇲 US adi|1207 2
-      - 🇸🇬 SG adi|1207
-      - 🇰🇷 KR adi|1207
-      - 🇺🇲 美国 adi|1207 7
-      - 🇸🇬 SG_1293
-      - 🇺🇲 美国 adi|1207 8
-      - 🇺🇲 US adi|1207 3
-      - 🇰🇷 KR_931 adi|1207
-      - 🇭🇰 HK adi|1207
+      - 🇰🇷 KR adi|1209
+      - 🇭🇰 香港 adi|1207 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇲 美国 adi|1207T
-      - seoul_3 adi|1207T
-      - 🇺🇲 西雅图C adi|1207T
-      - 善款10 adi|1205T
-      - seoul_2 adi|1207T
-      - 🇯🇵 日本2 adi|1205T
       - 🇯🇵 日本8 adi|1205T
-      - 🇰🇷 韩国3 adi|1205T
-      - 🇯🇵 日本3 adi|1207T
-      - tokyo_1 adi|1205T
-      - 🇯🇵 日本10 adi|1205T
+      - seoul_3 adi|1209T
       - 🇭🇰 香港 adi|1207T
       - 🇭🇰 香港 adi|1207T 2
       - 🇸🇬 新加坡 adi|1207T
+      - 🇺🇲 美国 adi|1207T
       - 🇸🇬 新加坡 adi|1207T 2
       - 🇸🇬 新加坡 adi|1207T 3
-      - 🇯🇵 日本5 adi|1207T
-      - 🇯🇵 日本1 adi|1207T
-      - 🇸🇬 新加坡 adi|1201
+      - seoul_2 adi|1209T
+      - 🇯🇵 日本5 adi|1209T
+      - 🇯🇵 日本3 adi|1209T
+      - 🇭🇰 HK_702 adi|1209
+      - 🇨🇳 TW_1318 adi|1209
+      - 🇨🇳 TW_1322 adi|1209
+      - 🇯🇵 JP_869 adi|1209
+      - 🇯🇵 JP_868 adi|1209
+      - 🇯🇵 JP_861 adi|1209
+      - 🇯🇵 JP_855 adi|1209
+      - 🇯🇵 JP_860 adi|1209
+      - 🇯🇵 JP_870 adi|1209
+      - 🇯🇵 JP_853 adi|1209
+      - 🇯🇵 JP_854 adi|1209
+      - CZ_281 adi|1209
+      - 🇯🇵 JP_865 adi|1209
+      - 🇯🇵 JP_859 adi|1209
+      - 🇨🇳 TW_1314 adi|1209
+      - 🇯🇵 JP_867 adi|1209
+      - 🇨🇳 TW_1324 adi|1209
+      - 🇨🇳 TW_1323 adi|1209
+      - 🇭🇰 HK adi|1209
+      - 🇺🇲 US_1869 adi|1209
       - 🇺🇲 美国 adi|1207
-      - 🇰🇷 KR_929 adi|1207
       - 🇺🇲 美国 adi|1207 2
-      - 🇸🇬 新加坡 adi|1205
       - 🇺🇲 美国 adi|1207 3
-      - 🇭🇰 香港 adi|1207
-      - 🇸🇬 新加坡 adi|1205 2
+      - 🇺🇲 US adi|1209
       - 🇺🇲 美国 adi|1207 4
-      - 🇯🇵 JP_911 adi|1207
-      - 🇺🇲 美国 adi|1207 5
+      - 🇭🇰 香港 adi|1207
+      - 🇺🇲 US adi|1209 2
+      - 🇸🇬 新加坡 adi|1205
       - 🇯🇵 日本 adi|1207
-      - 🇭🇰 香港 adi|1207 2
-      - 🇸🇬 新加坡 adi|1207
-      - 🇭🇰 香港 adi|1207 3
-      - 🇭🇰 香港 adi|1207 4
-      - 🇨🇳 TW_1343 adi|1207
+      - 🇺🇲 美国 adi|1207 5
+      - 🇺🇲 US_1872 adi|1209
+      - 🇺🇲 US_1870 adi|1209
+      - 🇺🇲 US adi|1209 3
+      - 🇺🇲 US adi|1209 4
       - 🇺🇲 美国 adi|1207 6
-      - 🇺🇲 US adi|1207
-      - 🇭🇰 香港 adi|1207 5
-      - 🇺🇲 US adi|1207 2
-      - 🇸🇬 SG adi|1207
-      - 🇰🇷 KR adi|1207
-      - 🇺🇲 美国 adi|1207 7
-      - 🇸🇬 SG_1293
-      - 🇺🇲 美国 adi|1207 8
-      - 🇺🇲 US adi|1207 3
-      - 🇰🇷 KR_931 adi|1207
-      - 🇭🇰 HK adi|1207
+      - 🇰🇷 KR adi|1209
+      - 🇭🇰 香港 adi|1207 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇲 美国 adi|1207T
-      - seoul_3 adi|1207T
-      - 🇺🇲 西雅图C adi|1207T
-      - 善款10 adi|1205T
-      - seoul_2 adi|1207T
-      - 🇯🇵 日本2 adi|1205T
       - 🇯🇵 日本8 adi|1205T
-      - 🇰🇷 韩国3 adi|1205T
-      - 🇯🇵 日本3 adi|1207T
-      - tokyo_1 adi|1205T
-      - 🇯🇵 日本10 adi|1205T
+      - seoul_3 adi|1209T
       - 🇭🇰 香港 adi|1207T
       - 🇭🇰 香港 adi|1207T 2
       - 🇸🇬 新加坡 adi|1207T
+      - 🇺🇲 美国 adi|1207T
       - 🇸🇬 新加坡 adi|1207T 2
       - 🇸🇬 新加坡 adi|1207T 3
-      - 🇯🇵 日本5 adi|1207T
-      - 🇯🇵 日本1 adi|1207T
-      - 🇸🇬 新加坡 adi|1201
+      - seoul_2 adi|1209T
+      - 🇯🇵 日本5 adi|1209T
+      - 🇯🇵 日本3 adi|1209T
+      - 🇭🇰 HK_702 adi|1209
+      - 🇨🇳 TW_1318 adi|1209
+      - 🇨🇳 TW_1322 adi|1209
+      - 🇯🇵 JP_869 adi|1209
+      - 🇯🇵 JP_868 adi|1209
+      - 🇯🇵 JP_861 adi|1209
+      - 🇯🇵 JP_855 adi|1209
+      - 🇯🇵 JP_860 adi|1209
+      - 🇯🇵 JP_870 adi|1209
+      - 🇯🇵 JP_853 adi|1209
+      - 🇯🇵 JP_854 adi|1209
+      - CZ_281 adi|1209
+      - 🇯🇵 JP_865 adi|1209
+      - 🇯🇵 JP_859 adi|1209
+      - 🇨🇳 TW_1314 adi|1209
+      - 🇯🇵 JP_867 adi|1209
+      - 🇨🇳 TW_1324 adi|1209
+      - 🇨🇳 TW_1323 adi|1209
+      - 🇭🇰 HK adi|1209
+      - 🇺🇲 US_1869 adi|1209
       - 🇺🇲 美国 adi|1207
-      - 🇰🇷 KR_929 adi|1207
       - 🇺🇲 美国 adi|1207 2
-      - 🇸🇬 新加坡 adi|1205
       - 🇺🇲 美国 adi|1207 3
-      - 🇭🇰 香港 adi|1207
-      - 🇸🇬 新加坡 adi|1205 2
+      - 🇺🇲 US adi|1209
       - 🇺🇲 美国 adi|1207 4
-      - 🇯🇵 JP_911 adi|1207
-      - 🇺🇲 美国 adi|1207 5
+      - 🇭🇰 香港 adi|1207
+      - 🇺🇲 US adi|1209 2
+      - 🇸🇬 新加坡 adi|1205
       - 🇯🇵 日本 adi|1207
-      - 🇭🇰 香港 adi|1207 2
-      - 🇸🇬 新加坡 adi|1207
-      - 🇭🇰 香港 adi|1207 3
-      - 🇭🇰 香港 adi|1207 4
-      - 🇨🇳 TW_1343 adi|1207
+      - 🇺🇲 美国 adi|1207 5
+      - 🇺🇲 US_1872 adi|1209
+      - 🇺🇲 US_1870 adi|1209
+      - 🇺🇲 US adi|1209 3
+      - 🇺🇲 US adi|1209 4
       - 🇺🇲 美国 adi|1207 6
-      - 🇺🇲 US adi|1207
-      - 🇭🇰 香港 adi|1207 5
-      - 🇺🇲 US adi|1207 2
-      - 🇸🇬 SG adi|1207
-      - 🇰🇷 KR adi|1207
-      - 🇺🇲 美国 adi|1207 7
-      - 🇸🇬 SG_1293
-      - 🇺🇲 美国 adi|1207 8
-      - 🇺🇲 US adi|1207 3
-      - 🇰🇷 KR_931 adi|1207
-      - 🇭🇰 HK adi|1207
+      - 🇰🇷 KR adi|1209
+      - 🇭🇰 香港 adi|1207 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇲 美国 adi|1207T
-      - seoul_3 adi|1207T
-      - 🇺🇲 西雅图C adi|1207T
-      - 善款10 adi|1205T
-      - seoul_2 adi|1207T
-      - 🇯🇵 日本2 adi|1205T
       - 🇯🇵 日本8 adi|1205T
-      - 🇰🇷 韩国3 adi|1205T
-      - 🇯🇵 日本3 adi|1207T
-      - tokyo_1 adi|1205T
-      - 🇯🇵 日本10 adi|1205T
+      - seoul_3 adi|1209T
       - 🇭🇰 香港 adi|1207T
       - 🇭🇰 香港 adi|1207T 2
       - 🇸🇬 新加坡 adi|1207T
+      - 🇺🇲 美国 adi|1207T
       - 🇸🇬 新加坡 adi|1207T 2
       - 🇸🇬 新加坡 adi|1207T 3
-      - 🇯🇵 日本5 adi|1207T
-      - 🇯🇵 日本1 adi|1207T
-      - 🇸🇬 新加坡 adi|1201
+      - seoul_2 adi|1209T
+      - 🇯🇵 日本5 adi|1209T
+      - 🇯🇵 日本3 adi|1209T
+      - 🇭🇰 HK_702 adi|1209
+      - 🇨🇳 TW_1318 adi|1209
+      - 🇨🇳 TW_1322 adi|1209
+      - 🇯🇵 JP_869 adi|1209
+      - 🇯🇵 JP_868 adi|1209
+      - 🇯🇵 JP_861 adi|1209
+      - 🇯🇵 JP_855 adi|1209
+      - 🇯🇵 JP_860 adi|1209
+      - 🇯🇵 JP_870 adi|1209
+      - 🇯🇵 JP_853 adi|1209
+      - 🇯🇵 JP_854 adi|1209
+      - CZ_281 adi|1209
+      - 🇯🇵 JP_865 adi|1209
+      - 🇯🇵 JP_859 adi|1209
+      - 🇨🇳 TW_1314 adi|1209
+      - 🇯🇵 JP_867 adi|1209
+      - 🇨🇳 TW_1324 adi|1209
+      - 🇨🇳 TW_1323 adi|1209
+      - 🇭🇰 HK adi|1209
+      - 🇺🇲 US_1869 adi|1209
       - 🇺🇲 美国 adi|1207
-      - 🇰🇷 KR_929 adi|1207
       - 🇺🇲 美国 adi|1207 2
-      - 🇸🇬 新加坡 adi|1205
       - 🇺🇲 美国 adi|1207 3
-      - 🇭🇰 香港 adi|1207
-      - 🇸🇬 新加坡 adi|1205 2
+      - 🇺🇲 US adi|1209
       - 🇺🇲 美国 adi|1207 4
-      - 🇯🇵 JP_911 adi|1207
-      - 🇺🇲 美国 adi|1207 5
+      - 🇭🇰 香港 adi|1207
+      - 🇺🇲 US adi|1209 2
+      - 🇸🇬 新加坡 adi|1205
       - 🇯🇵 日本 adi|1207
-      - 🇭🇰 香港 adi|1207 2
-      - 🇸🇬 新加坡 adi|1207
-      - 🇭🇰 香港 adi|1207 3
-      - 🇭🇰 香港 adi|1207 4
-      - 🇨🇳 TW_1343 adi|1207
+      - 🇺🇲 美国 adi|1207 5
+      - 🇺🇲 US_1872 adi|1209
+      - 🇺🇲 US_1870 adi|1209
+      - 🇺🇲 US adi|1209 3
+      - 🇺🇲 US adi|1209 4
       - 🇺🇲 美国 adi|1207 6
-      - 🇺🇲 US adi|1207
-      - 🇭🇰 香港 adi|1207 5
-      - 🇺🇲 US adi|1207 2
-      - 🇸🇬 SG adi|1207
-      - 🇰🇷 KR adi|1207
-      - 🇺🇲 美国 adi|1207 7
-      - 🇸🇬 SG_1293
-      - 🇺🇲 美国 adi|1207 8
-      - 🇺🇲 US adi|1207 3
-      - 🇰🇷 KR_931 adi|1207
-      - 🇭🇰 HK adi|1207
+      - 🇰🇷 KR adi|1209
+      - 🇭🇰 香港 adi|1207 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇲 美国 adi|1207T
-      - seoul_3 adi|1207T
-      - 🇺🇲 西雅图C adi|1207T
-      - 善款10 adi|1205T
-      - seoul_2 adi|1207T
-      - 🇯🇵 日本2 adi|1205T
       - 🇯🇵 日本8 adi|1205T
-      - 🇰🇷 韩国3 adi|1205T
-      - 🇯🇵 日本3 adi|1207T
-      - tokyo_1 adi|1205T
-      - 🇯🇵 日本10 adi|1205T
+      - seoul_3 adi|1209T
       - 🇭🇰 香港 adi|1207T
       - 🇭🇰 香港 adi|1207T 2
       - 🇸🇬 新加坡 adi|1207T
+      - 🇺🇲 美国 adi|1207T
       - 🇸🇬 新加坡 adi|1207T 2
       - 🇸🇬 新加坡 adi|1207T 3
-      - 🇯🇵 日本5 adi|1207T
-      - 🇯🇵 日本1 adi|1207T
-      - 🇸🇬 新加坡 adi|1201
+      - seoul_2 adi|1209T
+      - 🇯🇵 日本5 adi|1209T
+      - 🇯🇵 日本3 adi|1209T
+      - 🇭🇰 HK_702 adi|1209
+      - 🇨🇳 TW_1318 adi|1209
+      - 🇨🇳 TW_1322 adi|1209
+      - 🇯🇵 JP_869 adi|1209
+      - 🇯🇵 JP_868 adi|1209
+      - 🇯🇵 JP_861 adi|1209
+      - 🇯🇵 JP_855 adi|1209
+      - 🇯🇵 JP_860 adi|1209
+      - 🇯🇵 JP_870 adi|1209
+      - 🇯🇵 JP_853 adi|1209
+      - 🇯🇵 JP_854 adi|1209
+      - CZ_281 adi|1209
+      - 🇯🇵 JP_865 adi|1209
+      - 🇯🇵 JP_859 adi|1209
+      - 🇨🇳 TW_1314 adi|1209
+      - 🇯🇵 JP_867 adi|1209
+      - 🇨🇳 TW_1324 adi|1209
+      - 🇨🇳 TW_1323 adi|1209
+      - 🇭🇰 HK adi|1209
+      - 🇺🇲 US_1869 adi|1209
       - 🇺🇲 美国 adi|1207
-      - 🇰🇷 KR_929 adi|1207
       - 🇺🇲 美国 adi|1207 2
-      - 🇸🇬 新加坡 adi|1205
       - 🇺🇲 美国 adi|1207 3
-      - 🇭🇰 香港 adi|1207
-      - 🇸🇬 新加坡 adi|1205 2
+      - 🇺🇲 US adi|1209
       - 🇺🇲 美国 adi|1207 4
-      - 🇯🇵 JP_911 adi|1207
-      - 🇺🇲 美国 adi|1207 5
+      - 🇭🇰 香港 adi|1207
+      - 🇺🇲 US adi|1209 2
+      - 🇸🇬 新加坡 adi|1205
       - 🇯🇵 日本 adi|1207
-      - 🇭🇰 香港 adi|1207 2
-      - 🇸🇬 新加坡 adi|1207
-      - 🇭🇰 香港 adi|1207 3
-      - 🇭🇰 香港 adi|1207 4
-      - 🇨🇳 TW_1343 adi|1207
+      - 🇺🇲 美国 adi|1207 5
+      - 🇺🇲 US_1872 adi|1209
+      - 🇺🇲 US_1870 adi|1209
+      - 🇺🇲 US adi|1209 3
+      - 🇺🇲 US adi|1209 4
       - 🇺🇲 美国 adi|1207 6
-      - 🇺🇲 US adi|1207
-      - 🇭🇰 香港 adi|1207 5
-      - 🇺🇲 US adi|1207 2
-      - 🇸🇬 SG adi|1207
-      - 🇰🇷 KR adi|1207
-      - 🇺🇲 美国 adi|1207 7
-      - 🇸🇬 SG_1293
-      - 🇺🇲 美国 adi|1207 8
-      - 🇺🇲 US adi|1207 3
-      - 🇰🇷 KR_931 adi|1207
-      - 🇭🇰 HK adi|1207
+      - 🇰🇷 KR adi|1209
+      - 🇭🇰 香港 adi|1207 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇲 美国 adi|1207T
-      - seoul_3 adi|1207T
-      - 🇺🇲 西雅图C adi|1207T
-      - 善款10 adi|1205T
-      - seoul_2 adi|1207T
-      - 🇯🇵 日本2 adi|1205T
       - 🇯🇵 日本8 adi|1205T
-      - 🇰🇷 韩国3 adi|1205T
-      - 🇯🇵 日本3 adi|1207T
-      - tokyo_1 adi|1205T
-      - 🇯🇵 日本10 adi|1205T
+      - seoul_3 adi|1209T
       - 🇭🇰 香港 adi|1207T
       - 🇭🇰 香港 adi|1207T 2
       - 🇸🇬 新加坡 adi|1207T
+      - 🇺🇲 美国 adi|1207T
       - 🇸🇬 新加坡 adi|1207T 2
       - 🇸🇬 新加坡 adi|1207T 3
-      - 🇯🇵 日本5 adi|1207T
-      - 🇯🇵 日本1 adi|1207T
-      - 🇸🇬 新加坡 adi|1201
+      - seoul_2 adi|1209T
+      - 🇯🇵 日本5 adi|1209T
+      - 🇯🇵 日本3 adi|1209T
+      - 🇭🇰 HK_702 adi|1209
+      - 🇨🇳 TW_1318 adi|1209
+      - 🇨🇳 TW_1322 adi|1209
+      - 🇯🇵 JP_869 adi|1209
+      - 🇯🇵 JP_868 adi|1209
+      - 🇯🇵 JP_861 adi|1209
+      - 🇯🇵 JP_855 adi|1209
+      - 🇯🇵 JP_860 adi|1209
+      - 🇯🇵 JP_870 adi|1209
+      - 🇯🇵 JP_853 adi|1209
+      - 🇯🇵 JP_854 adi|1209
+      - CZ_281 adi|1209
+      - 🇯🇵 JP_865 adi|1209
+      - 🇯🇵 JP_859 adi|1209
+      - 🇨🇳 TW_1314 adi|1209
+      - 🇯🇵 JP_867 adi|1209
+      - 🇨🇳 TW_1324 adi|1209
+      - 🇨🇳 TW_1323 adi|1209
+      - 🇭🇰 HK adi|1209
+      - 🇺🇲 US_1869 adi|1209
       - 🇺🇲 美国 adi|1207
-      - 🇰🇷 KR_929 adi|1207
       - 🇺🇲 美国 adi|1207 2
-      - 🇸🇬 新加坡 adi|1205
       - 🇺🇲 美国 adi|1207 3
-      - 🇭🇰 香港 adi|1207
-      - 🇸🇬 新加坡 adi|1205 2
+      - 🇺🇲 US adi|1209
       - 🇺🇲 美国 adi|1207 4
-      - 🇯🇵 JP_911 adi|1207
-      - 🇺🇲 美国 adi|1207 5
+      - 🇭🇰 香港 adi|1207
+      - 🇺🇲 US adi|1209 2
+      - 🇸🇬 新加坡 adi|1205
       - 🇯🇵 日本 adi|1207
-      - 🇭🇰 香港 adi|1207 2
-      - 🇸🇬 新加坡 adi|1207
-      - 🇭🇰 香港 adi|1207 3
-      - 🇭🇰 香港 adi|1207 4
-      - 🇨🇳 TW_1343 adi|1207
+      - 🇺🇲 美国 adi|1207 5
+      - 🇺🇲 US_1872 adi|1209
+      - 🇺🇲 US_1870 adi|1209
+      - 🇺🇲 US adi|1209 3
+      - 🇺🇲 US adi|1209 4
       - 🇺🇲 美国 adi|1207 6
-      - 🇺🇲 US adi|1207
-      - 🇭🇰 香港 adi|1207 5
-      - 🇺🇲 US adi|1207 2
-      - 🇸🇬 SG adi|1207
-      - 🇰🇷 KR adi|1207
-      - 🇺🇲 美国 adi|1207 7
-      - 🇸🇬 SG_1293
-      - 🇺🇲 美国 adi|1207 8
-      - 🇺🇲 US adi|1207 3
-      - 🇰🇷 KR_931 adi|1207
-      - 🇭🇰 HK adi|1207
+      - 🇰🇷 KR adi|1209
+      - 🇭🇰 香港 adi|1207 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 美国 adi|1207T
-      - seoul_3 adi|1207T
-      - 🇺🇲 西雅图C adi|1207T
-      - 善款10 adi|1205T
-      - seoul_2 adi|1207T
-      - 🇯🇵 日本2 adi|1205T
       - 🇯🇵 日本8 adi|1205T
-      - 🇰🇷 韩国3 adi|1205T
-      - 🇯🇵 日本3 adi|1207T
-      - tokyo_1 adi|1205T
-      - 🇯🇵 日本10 adi|1205T
+      - seoul_3 adi|1209T
       - 🇭🇰 香港 adi|1207T
       - 🇭🇰 香港 adi|1207T 2
       - 🇸🇬 新加坡 adi|1207T
+      - 🇺🇲 美国 adi|1207T
       - 🇸🇬 新加坡 adi|1207T 2
       - 🇸🇬 新加坡 adi|1207T 3
-      - 🇯🇵 日本5 adi|1207T
-      - 🇯🇵 日本1 adi|1207T
-      - 🇸🇬 新加坡 adi|1201
+      - seoul_2 adi|1209T
+      - 🇯🇵 日本5 adi|1209T
+      - 🇯🇵 日本3 adi|1209T
+      - 🇭🇰 HK_702 adi|1209
+      - 🇨🇳 TW_1318 adi|1209
+      - 🇨🇳 TW_1322 adi|1209
+      - 🇯🇵 JP_869 adi|1209
+      - 🇯🇵 JP_868 adi|1209
+      - 🇯🇵 JP_861 adi|1209
+      - 🇯🇵 JP_855 adi|1209
+      - 🇯🇵 JP_860 adi|1209
+      - 🇯🇵 JP_870 adi|1209
+      - 🇯🇵 JP_853 adi|1209
+      - 🇯🇵 JP_854 adi|1209
+      - CZ_281 adi|1209
+      - 🇯🇵 JP_865 adi|1209
+      - 🇯🇵 JP_859 adi|1209
+      - 🇨🇳 TW_1314 adi|1209
+      - 🇯🇵 JP_867 adi|1209
+      - 🇨🇳 TW_1324 adi|1209
+      - 🇨🇳 TW_1323 adi|1209
+      - 🇭🇰 HK adi|1209
+      - 🇺🇲 US_1869 adi|1209
       - 🇺🇲 美国 adi|1207
-      - 🇰🇷 KR_929 adi|1207
       - 🇺🇲 美国 adi|1207 2
-      - 🇸🇬 新加坡 adi|1205
       - 🇺🇲 美国 adi|1207 3
-      - 🇭🇰 香港 adi|1207
-      - 🇸🇬 新加坡 adi|1205 2
+      - 🇺🇲 US adi|1209
       - 🇺🇲 美国 adi|1207 4
-      - 🇯🇵 JP_911 adi|1207
-      - 🇺🇲 美国 adi|1207 5
+      - 🇭🇰 香港 adi|1207
+      - 🇺🇲 US adi|1209 2
+      - 🇸🇬 新加坡 adi|1205
       - 🇯🇵 日本 adi|1207
-      - 🇭🇰 香港 adi|1207 2
-      - 🇸🇬 新加坡 adi|1207
-      - 🇭🇰 香港 adi|1207 3
-      - 🇭🇰 香港 adi|1207 4
-      - 🇨🇳 TW_1343 adi|1207
+      - 🇺🇲 美国 adi|1207 5
+      - 🇺🇲 US_1872 adi|1209
+      - 🇺🇲 US_1870 adi|1209
+      - 🇺🇲 US adi|1209 3
+      - 🇺🇲 US adi|1209 4
       - 🇺🇲 美国 adi|1207 6
-      - 🇺🇲 US adi|1207
-      - 🇭🇰 香港 adi|1207 5
-      - 🇺🇲 US adi|1207 2
-      - 🇸🇬 SG adi|1207
-      - 🇰🇷 KR adi|1207
-      - 🇺🇲 美国 adi|1207 7
-      - 🇸🇬 SG_1293
-      - 🇺🇲 美国 adi|1207 8
-      - 🇺🇲 US adi|1207 3
-      - 🇰🇷 KR_931 adi|1207
-      - 🇭🇰 HK adi|1207
+      - 🇰🇷 KR adi|1209
+      - 🇭🇰 香港 adi|1207 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -441,53 +449,54 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 美国 adi|1207T
-      - seoul_3 adi|1207T
-      - 🇺🇲 西雅图C adi|1207T
-      - 善款10 adi|1205T
-      - seoul_2 adi|1207T
-      - 🇯🇵 日本2 adi|1205T
       - 🇯🇵 日本8 adi|1205T
-      - 🇰🇷 韩国3 adi|1205T
-      - 🇯🇵 日本3 adi|1207T
-      - tokyo_1 adi|1205T
-      - 🇯🇵 日本10 adi|1205T
+      - seoul_3 adi|1209T
       - 🇭🇰 香港 adi|1207T
       - 🇭🇰 香港 adi|1207T 2
       - 🇸🇬 新加坡 adi|1207T
+      - 🇺🇲 美国 adi|1207T
       - 🇸🇬 新加坡 adi|1207T 2
       - 🇸🇬 新加坡 adi|1207T 3
-      - 🇯🇵 日本5 adi|1207T
-      - 🇯🇵 日本1 adi|1207T
-      - 🇸🇬 新加坡 adi|1201
+      - seoul_2 adi|1209T
+      - 🇯🇵 日本5 adi|1209T
+      - 🇯🇵 日本3 adi|1209T
+      - 🇭🇰 HK_702 adi|1209
+      - 🇨🇳 TW_1318 adi|1209
+      - 🇨🇳 TW_1322 adi|1209
+      - 🇯🇵 JP_869 adi|1209
+      - 🇯🇵 JP_868 adi|1209
+      - 🇯🇵 JP_861 adi|1209
+      - 🇯🇵 JP_855 adi|1209
+      - 🇯🇵 JP_860 adi|1209
+      - 🇯🇵 JP_870 adi|1209
+      - 🇯🇵 JP_853 adi|1209
+      - 🇯🇵 JP_854 adi|1209
+      - CZ_281 adi|1209
+      - 🇯🇵 JP_865 adi|1209
+      - 🇯🇵 JP_859 adi|1209
+      - 🇨🇳 TW_1314 adi|1209
+      - 🇯🇵 JP_867 adi|1209
+      - 🇨🇳 TW_1324 adi|1209
+      - 🇨🇳 TW_1323 adi|1209
+      - 🇭🇰 HK adi|1209
+      - 🇺🇲 US_1869 adi|1209
       - 🇺🇲 美国 adi|1207
-      - 🇰🇷 KR_929 adi|1207
       - 🇺🇲 美国 adi|1207 2
-      - 🇸🇬 新加坡 adi|1205
       - 🇺🇲 美国 adi|1207 3
-      - 🇭🇰 香港 adi|1207
-      - 🇸🇬 新加坡 adi|1205 2
+      - 🇺🇲 US adi|1209
       - 🇺🇲 美国 adi|1207 4
-      - 🇯🇵 JP_911 adi|1207
-      - 🇺🇲 美国 adi|1207 5
+      - 🇭🇰 香港 adi|1207
+      - 🇺🇲 US adi|1209 2
+      - 🇸🇬 新加坡 adi|1205
       - 🇯🇵 日本 adi|1207
-      - 🇭🇰 香港 adi|1207 2
-      - 🇸🇬 新加坡 adi|1207
-      - 🇭🇰 香港 adi|1207 3
-      - 🇭🇰 香港 adi|1207 4
-      - 🇨🇳 TW_1343 adi|1207
+      - 🇺🇲 美国 adi|1207 5
+      - 🇺🇲 US_1872 adi|1209
+      - 🇺🇲 US_1870 adi|1209
+      - 🇺🇲 US adi|1209 3
+      - 🇺🇲 US adi|1209 4
       - 🇺🇲 美国 adi|1207 6
-      - 🇺🇲 US adi|1207
-      - 🇭🇰 香港 adi|1207 5
-      - 🇺🇲 US adi|1207 2
-      - 🇸🇬 SG adi|1207
-      - 🇰🇷 KR adi|1207
-      - 🇺🇲 美国 adi|1207 7
-      - 🇸🇬 SG_1293
-      - 🇺🇲 美国 adi|1207 8
-      - 🇺🇲 US adi|1207 3
-      - 🇰🇷 KR_931 adi|1207
-      - 🇭🇰 HK adi|1207
+      - 🇰🇷 KR adi|1209
+      - 🇭🇰 香港 adi|1207 2
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
