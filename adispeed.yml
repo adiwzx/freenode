@@ -36,6 +36,20 @@ proxies:
   - {name: 🇸🇬 SG_1279 adi|1214, server: 103.114.163.13, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
   - {name: 🇺🇲 US_1443 adi|1214, server: 192.154.253.69, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇺🇲 US_1556 adi|1214, server: 66.115.147.89, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 JP_955 - adi|1222, server: 84.17.34.26, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 JP_956 - adi|1222, server: 89.187.161.239, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 JP_967 - adi|1222, server: 84.17.34.46, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇸🇬 SG_1371 - adi|1222, server: 103.114.163.13, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX}
+  - {name: 🇸🇬 SG_1374 - adi|1222, server: 172.105.127.199, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: 🇸🇬 SG_1377 - adi|1222, server: 103.114.163.13, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
+  - {name: 🇺🇲 US_1506 - adi|1222, server: 199.58.187.20, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 US_1507 - adi|1222, server: 213.59.119.2, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
+  - {name: 🇺🇲 US_1530 - adi|1222, server: 198.255.103.62, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
+  - {name: 🇺🇲 US_1542 - adi|1222, server: 45.82.255.178, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt}
+  - {name: 🇺🇲 US_1558 - adi|1222, server: 193.122.98.231, port: 1025, type: ss, cipher: aes-256-cfb, password: DSdN6X9mSdN1(}
+  - {name: 🇺🇲 US_1604 - adi|1222, server: 2.56.175.240, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE}
+  - {name: 🇺🇲 US_1649 - adi|1222, server: 104.225.157.165, port: 13599, type: ss, cipher: aes-256-gcm, password: 7rDq8JEGES}
+  - {name: 🇺🇲 US_1757 - adi|1222, server: 198.255.103.62, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -73,6 +87,20 @@ proxy-groups:
       - 🇸🇬 SG_1279 adi|1214
       - 🇺🇲 US_1443 adi|1214
       - 🇺🇲 US_1556 adi|1214
+      - 🇯🇵 JP_955 - adi|1222
+      - 🇯🇵 JP_956 - adi|1222
+      - 🇯🇵 JP_967 - adi|1222
+      - 🇸🇬 SG_1371 - adi|1222
+      - 🇸🇬 SG_1374 - adi|1222
+      - 🇸🇬 SG_1377 - adi|1222
+      - 🇺🇲 US_1506 - adi|1222
+      - 🇺🇲 US_1507 - adi|1222
+      - 🇺🇲 US_1530 - adi|1222
+      - 🇺🇲 US_1542 - adi|1222
+      - 🇺🇲 US_1558 - adi|1222
+      - 🇺🇲 US_1604 - adi|1222
+      - 🇺🇲 US_1649 - adi|1222
+      - 🇺🇲 US_1757 - adi|1222
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -109,6 +137,20 @@ proxy-groups:
       - 🇸🇬 SG_1279 adi|1214
       - 🇺🇲 US_1443 adi|1214
       - 🇺🇲 US_1556 adi|1214
+      - 🇯🇵 JP_955 - adi|1222
+      - 🇯🇵 JP_956 - adi|1222
+      - 🇯🇵 JP_967 - adi|1222
+      - 🇸🇬 SG_1371 - adi|1222
+      - 🇸🇬 SG_1374 - adi|1222
+      - 🇸🇬 SG_1377 - adi|1222
+      - 🇺🇲 US_1506 - adi|1222
+      - 🇺🇲 US_1507 - adi|1222
+      - 🇺🇲 US_1530 - adi|1222
+      - 🇺🇲 US_1542 - adi|1222
+      - 🇺🇲 US_1558 - adi|1222
+      - 🇺🇲 US_1604 - adi|1222
+      - 🇺🇲 US_1649 - adi|1222
+      - 🇺🇲 US_1757 - adi|1222
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -146,6 +188,20 @@ proxy-groups:
       - 🇸🇬 SG_1279 adi|1214
       - 🇺🇲 US_1443 adi|1214
       - 🇺🇲 US_1556 adi|1214
+      - 🇯🇵 JP_955 - adi|1222
+      - 🇯🇵 JP_956 - adi|1222
+      - 🇯🇵 JP_967 - adi|1222
+      - 🇸🇬 SG_1371 - adi|1222
+      - 🇸🇬 SG_1374 - adi|1222
+      - 🇸🇬 SG_1377 - adi|1222
+      - 🇺🇲 US_1506 - adi|1222
+      - 🇺🇲 US_1507 - adi|1222
+      - 🇺🇲 US_1530 - adi|1222
+      - 🇺🇲 US_1542 - adi|1222
+      - 🇺🇲 US_1558 - adi|1222
+      - 🇺🇲 US_1604 - adi|1222
+      - 🇺🇲 US_1649 - adi|1222
+      - 🇺🇲 US_1757 - adi|1222
   - name: 📲 电报信息
     type: select
     proxies:
@@ -182,6 +238,20 @@ proxy-groups:
       - 🇸🇬 SG_1279 adi|1214
       - 🇺🇲 US_1443 adi|1214
       - 🇺🇲 US_1556 adi|1214
+      - 🇯🇵 JP_955 - adi|1222
+      - 🇯🇵 JP_956 - adi|1222
+      - 🇯🇵 JP_967 - adi|1222
+      - 🇸🇬 SG_1371 - adi|1222
+      - 🇸🇬 SG_1374 - adi|1222
+      - 🇸🇬 SG_1377 - adi|1222
+      - 🇺🇲 US_1506 - adi|1222
+      - 🇺🇲 US_1507 - adi|1222
+      - 🇺🇲 US_1530 - adi|1222
+      - 🇺🇲 US_1542 - adi|1222
+      - 🇺🇲 US_1558 - adi|1222
+      - 🇺🇲 US_1604 - adi|1222
+      - 🇺🇲 US_1649 - adi|1222
+      - 🇺🇲 US_1757 - adi|1222
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -218,6 +288,20 @@ proxy-groups:
       - 🇸🇬 SG_1279 adi|1214
       - 🇺🇲 US_1443 adi|1214
       - 🇺🇲 US_1556 adi|1214
+      - 🇯🇵 JP_955 - adi|1222
+      - 🇯🇵 JP_956 - adi|1222
+      - 🇯🇵 JP_967 - adi|1222
+      - 🇸🇬 SG_1371 - adi|1222
+      - 🇸🇬 SG_1374 - adi|1222
+      - 🇸🇬 SG_1377 - adi|1222
+      - 🇺🇲 US_1506 - adi|1222
+      - 🇺🇲 US_1507 - adi|1222
+      - 🇺🇲 US_1530 - adi|1222
+      - 🇺🇲 US_1542 - adi|1222
+      - 🇺🇲 US_1558 - adi|1222
+      - 🇺🇲 US_1604 - adi|1222
+      - 🇺🇲 US_1649 - adi|1222
+      - 🇺🇲 US_1757 - adi|1222
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -254,6 +338,20 @@ proxy-groups:
       - 🇸🇬 SG_1279 adi|1214
       - 🇺🇲 US_1443 adi|1214
       - 🇺🇲 US_1556 adi|1214
+      - 🇯🇵 JP_955 - adi|1222
+      - 🇯🇵 JP_956 - adi|1222
+      - 🇯🇵 JP_967 - adi|1222
+      - 🇸🇬 SG_1371 - adi|1222
+      - 🇸🇬 SG_1374 - adi|1222
+      - 🇸🇬 SG_1377 - adi|1222
+      - 🇺🇲 US_1506 - adi|1222
+      - 🇺🇲 US_1507 - adi|1222
+      - 🇺🇲 US_1530 - adi|1222
+      - 🇺🇲 US_1542 - adi|1222
+      - 🇺🇲 US_1558 - adi|1222
+      - 🇺🇲 US_1604 - adi|1222
+      - 🇺🇲 US_1649 - adi|1222
+      - 🇺🇲 US_1757 - adi|1222
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -291,6 +389,20 @@ proxy-groups:
       - 🇸🇬 SG_1279 adi|1214
       - 🇺🇲 US_1443 adi|1214
       - 🇺🇲 US_1556 adi|1214
+      - 🇯🇵 JP_955 - adi|1222
+      - 🇯🇵 JP_956 - adi|1222
+      - 🇯🇵 JP_967 - adi|1222
+      - 🇸🇬 SG_1371 - adi|1222
+      - 🇸🇬 SG_1374 - adi|1222
+      - 🇸🇬 SG_1377 - adi|1222
+      - 🇺🇲 US_1506 - adi|1222
+      - 🇺🇲 US_1507 - adi|1222
+      - 🇺🇲 US_1530 - adi|1222
+      - 🇺🇲 US_1542 - adi|1222
+      - 🇺🇲 US_1558 - adi|1222
+      - 🇺🇲 US_1604 - adi|1222
+      - 🇺🇲 US_1649 - adi|1222
+      - 🇺🇲 US_1757 - adi|1222
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -344,6 +456,20 @@ proxy-groups:
       - 🇸🇬 SG_1279 adi|1214
       - 🇺🇲 US_1443 adi|1214
       - 🇺🇲 US_1556 adi|1214
+      - 🇯🇵 JP_955 - adi|1222
+      - 🇯🇵 JP_956 - adi|1222
+      - 🇯🇵 JP_967 - adi|1222
+      - 🇸🇬 SG_1371 - adi|1222
+      - 🇸🇬 SG_1374 - adi|1222
+      - 🇸🇬 SG_1377 - adi|1222
+      - 🇺🇲 US_1506 - adi|1222
+      - 🇺🇲 US_1507 - adi|1222
+      - 🇺🇲 US_1530 - adi|1222
+      - 🇺🇲 US_1542 - adi|1222
+      - 🇺🇲 US_1558 - adi|1222
+      - 🇺🇲 US_1604 - adi|1222
+      - 🇺🇲 US_1649 - adi|1222
+      - 🇺🇲 US_1757 - adi|1222
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
