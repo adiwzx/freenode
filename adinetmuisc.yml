@@ -1,0 +1,117 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - name: 网易云音乐
+    type: http
+    server: block4music.poetyin.me
+    port: "39000"
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - 网易云音乐
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - 网易云音乐
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 网易云音乐
+rules:
+  - DOMAIN-SUFFIX,music.163.com,🎯 全球直连
+  - DOMAIN-SUFFIX,interface.music.163.com,🎯 全球直连
+  - DOMAIN-SUFFIX,interface3.music.163.com,🎯 全球直连
+  - DOMAIN-SUFFIX,apm.music.163.com,🎯 全球直连
+  - DOMAIN-SUFFIX,apm3.music.163.com,🎯 全球直连
+  - IP-CIDR,59.111.181.38/32,🎯 全球直连
+  - IP-CIDR,59.111.181.60/32,🎯 全球直连
+  - IP-CIDR,223.252.199.66/32,🎯 全球直连
+  - IP-CIDR,223.252.199.67/32,🎯 全球直连
+  - IP-CIDR,59.111.160.195/32,🎯 全球直连
+  - IP-CIDR,59.111.160.197/32,🎯 全球直连
+  - IP-CIDR,47.100.127.239/32,🎯 全球直连
+  - IP-CIDR,118.24.63.156/32,🎯 全球直连
+  - IP-CIDR,193.112.159.225/32,🎯 全球直连
+  - IP-CIDR,39.105.63.80/32,🎯 全球直连
+  - IP-CIDR,59.111.181.35/32,🎯 全球直连
+  - IP-CIDR,115.236.118.33/32,🎯 全球直连
+  - IP-CIDR,115.236.121.1/32,🎯 全球直连
+  - IP-CIDR,112.13.122.1/32,🎯 全球直连
+  - IP-CIDR,112.13.119.17/32,🎯 全球直连
+  - IP-CIDR,103.126.92.132/32,🎯 全球直连
+  - IP-CIDR,103.126.92.13/32,🎯 全球直连
+  - IP-CIDR,45.254.48.1/32,🎯 全球直连
+  - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,music.163.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,interface.music.163.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,interface3.music.163.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,apm.music.163.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,apm3.music.163.com,🛑 全球拦截
+  - IP-CIDR,59.111.181.38/32,🛑 全球拦截
+  - IP-CIDR,59.111.181.60/32,🛑 全球拦截
+  - IP-CIDR,223.252.199.66/32,🛑 全球拦截
+  - IP-CIDR,223.252.199.67/32,🛑 全球拦截
+  - IP-CIDR,59.111.160.195/32,🛑 全球拦截
+  - IP-CIDR,59.111.160.197/32,🛑 全球拦截
+  - IP-CIDR,47.100.127.239/32,🛑 全球拦截
+  - IP-CIDR,118.24.63.156/32,🛑 全球拦截
+  - IP-CIDR,193.112.159.225/32,🛑 全球拦截
+  - IP-CIDR,39.105.63.80/32,🛑 全球拦截
+  - IP-CIDR,59.111.181.35/32,🛑 全球拦截
+  - IP-CIDR,115.236.118.33/32,🛑 全球拦截
+  - IP-CIDR,115.236.121.1/32,🛑 全球拦截
+  - IP-CIDR,112.13.122.1/32,🛑 全球拦截
+  - IP-CIDR,112.13.119.17/32,🛑 全球拦截
+  - IP-CIDR,103.126.92.132/32,🛑 全球拦截
+  - IP-CIDR,103.126.92.13/32,🛑 全球拦截
+  - IP-CIDR,45.254.48.1/32,🛑 全球拦截
+  - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,music.163.com,🚀 节点选择
+  - DOMAIN-SUFFIX,interface.music.163.com,🚀 节点选择
+  - DOMAIN-SUFFIX,interface3.music.163.com,🚀 节点选择
+  - DOMAIN-SUFFIX,apm.music.163.com,🚀 节点选择
+  - DOMAIN-SUFFIX,apm3.music.163.com,🚀 节点选择
+  - IP-CIDR,59.111.181.38/32,🚀 节点选择
+  - IP-CIDR,59.111.181.60/32,🚀 节点选择
+  - IP-CIDR,223.252.199.66/32,🚀 节点选择
+  - IP-CIDR,223.252.199.67/32,🚀 节点选择
+  - IP-CIDR,59.111.160.195/32,🚀 节点选择
+  - IP-CIDR,59.111.160.197/32,🚀 节点选择
+  - IP-CIDR,47.100.127.239/32,🚀 节点选择
+  - IP-CIDR,118.24.63.156/32,🚀 节点选择
+  - IP-CIDR,193.112.159.225/32,🚀 节点选择
+  - IP-CIDR,39.105.63.80/32,🚀 节点选择
+  - IP-CIDR,59.111.181.35/32,🚀 节点选择
+  - IP-CIDR,115.236.118.33/32,🚀 节点选择
+  - IP-CIDR,115.236.121.1/32,🚀 节点选择
+  - IP-CIDR,112.13.122.1/32,🚀 节点选择
+  - IP-CIDR,112.13.119.17/32,🚀 节点选择
+  - IP-CIDR,103.126.92.132/32,🚀 节点选择
+  - IP-CIDR,103.126.92.13/32,🚀 节点选择
+  - IP-CIDR,45.254.48.1/32,🚀 节点选择
+  - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
