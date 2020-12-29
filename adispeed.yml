@@ -81,6 +81,114 @@ proxies:
     type: trojan
     password: 60066169-325e-4114-b307-e14c1facf528
     sni: fuckxiaofenhong.tk
+  - name: 🇸🇬 新加坡 adi|1230
+    server: v1-aws-sg-15.tudog.me
+    port: 80
+    type: vmess
+    uuid: 45bcbb33-b6cd-3966-aba5-e08c9a75e3b5
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /tudog
+    ws-headers:
+      Host: v1-aws-sg-15.tudog.me
+  - name: 🇸🇬 美国新1 adi|1230
+    server: soulclub.online
+    port: 54321
+    type: vmess
+    uuid: 4fdfb05e-ab78-3757-949a-a0aed2b87e61
+    alterId: 2
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /evil
+    ws-headers:
+      Host: soulclub.online
+  - name: 🇰🇷 韩国2 adi|1230
+    server: 158.247.196.164
+    port: 443
+    type: vmess
+    uuid: df03c8fc-46f1-11eb-8adf-5600031dfd4d
+    alterId: 12
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /8ghIVcQy/
+    ws-headers:
+      Host: littlesur.ml
+  - name: 🇨🇳 台湾 adi|1230
+    server: 203.66.168.122
+    port: 14080
+    type: vmess
+    uuid: 904b1e08-f6cb-4451-d879-262c6cf3b372
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: ws
+    ws-path: /dwn
+    ws-headers:
+      Host: 203.66.168.122
+  - name: 🇳🇱 荷兰1 adi|1230
+    server: 154.84.1.75
+    port: 443
+    type: vmess
+    uuid: 8ac091ac-cf62-4a09-903d-1b98109d86a5
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /footers
+    ws-headers:
+      Host: www.00779979.xyz
+  - name: 🇳🇱 荷兰5 adi|1230
+    server: 154.84.1.84
+    port: 443
+    type: vmess
+    uuid: cb9337f7-3617-4591-a8c0-0bc173723e8e
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /footers
+    ws-headers:
+      Host: www.98868925.xyz
+  - name: 🇳🇱 荷兰8 adi|1230
+    server: 154.84.1.79
+    port: 443
+    type: vmess
+    uuid: e33eabe3-1dbd-449d-90a2-636c0f8b6f9a
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /footers
+    ws-headers:
+      Host: www.28596077.xyz
+  - name: 🇳🇱 荷兰14 adi|1230
+    server: 154.84.1.78
+    port: 443
+    type: vmess
+    uuid: 4842ff94-b7f9-4e44-8680-3275c6318638
+    alterId: 64
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /footers
+    ws-headers:
+      Host: www.76043239.xyz
+  - name: 🇺🇲 美国 adi|1230
+    server: buyvm.zhiyuanie.xyz
+    port: 443
+    type: vmess
+    uuid: 16fd9f7f-85c1-4a56-a055-782dd690ed10
+    alterId: 10
+    cipher: auto
+    tls: true
+    network: ws
+    ws-path: /331bb/
+    ws-headers:
+      Host: buyvm.zhiyuanie.xyz
   - name: 🇯🇵 JP_1447 adi|1230
     server: 45.87.213.19
     port: 31764
@@ -291,6 +399,12 @@ proxies:
     type: ss
     cipher: aes-256-gcm
     password: 8n6pwAcrrv2pj6tFY2p3TbQ6
+  - name: 🇨🇳 台湾2 adi|1230
+    server: 165.231.253.147
+    port: 33992
+    type: ss
+    cipher: aes-256-gcm
+    password: 8n6pwAcrrv2pj6tFY2p3TbQ6
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -309,6 +423,15 @@ proxy-groups:
       - seoul_3 - adi|1225T
       - tokyo_1 adi|1230T
       - 🇯🇵 日本5 adi|1230T
+      - 🇸🇬 新加坡 adi|1230
+      - 🇸🇬 美国新1 adi|1230
+      - 🇰🇷 韩国2 adi|1230
+      - 🇨🇳 台湾 adi|1230
+      - 🇳🇱 荷兰1 adi|1230
+      - 🇳🇱 荷兰5 adi|1230
+      - 🇳🇱 荷兰8 adi|1230
+      - 🇳🇱 荷兰14 adi|1230
+      - 🇺🇲 美国 adi|1230
       - 🇯🇵 JP_1447 adi|1230
       - 🇯🇵 JP_951 - adi|1225
       - 🇯🇵 JP_963 - adi|1225
@@ -344,6 +467,7 @@ proxy-groups:
       - 🇯🇵 JP_1448 adi|1230
       - 🇯🇵 JP_1463 adi|1230
       - 🇯🇵 JP_965 - adi|1225
+      - 🇨🇳 台湾2 adi|1230
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -362,6 +486,15 @@ proxy-groups:
       - seoul_3 - adi|1225T
       - tokyo_1 adi|1230T
       - 🇯🇵 日本5 adi|1230T
+      - 🇸🇬 新加坡 adi|1230
+      - 🇸🇬 美国新1 adi|1230
+      - 🇰🇷 韩国2 adi|1230
+      - 🇨🇳 台湾 adi|1230
+      - 🇳🇱 荷兰1 adi|1230
+      - 🇳🇱 荷兰5 adi|1230
+      - 🇳🇱 荷兰8 adi|1230
+      - 🇳🇱 荷兰14 adi|1230
+      - 🇺🇲 美国 adi|1230
       - 🇯🇵 JP_1447 adi|1230
       - 🇯🇵 JP_951 - adi|1225
       - 🇯🇵 JP_963 - adi|1225
@@ -397,6 +530,7 @@ proxy-groups:
       - 🇯🇵 JP_1448 adi|1230
       - 🇯🇵 JP_1463 adi|1230
       - 🇯🇵 JP_965 - adi|1225
+      - 🇨🇳 台湾2 adi|1230
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -407,6 +541,8 @@ proxy-groups:
     type: select
     proxies:
       - 网易云音乐
+      - REJECT
+      - DIRECT
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -425,6 +561,15 @@ proxy-groups:
       - seoul_3 - adi|1225T
       - tokyo_1 adi|1230T
       - 🇯🇵 日本5 adi|1230T
+      - 🇸🇬 新加坡 adi|1230
+      - 🇸🇬 美国新1 adi|1230
+      - 🇰🇷 韩国2 adi|1230
+      - 🇨🇳 台湾 adi|1230
+      - 🇳🇱 荷兰1 adi|1230
+      - 🇳🇱 荷兰5 adi|1230
+      - 🇳🇱 荷兰8 adi|1230
+      - 🇳🇱 荷兰14 adi|1230
+      - 🇺🇲 美国 adi|1230
       - 🇯🇵 JP_1447 adi|1230
       - 🇯🇵 JP_951 - adi|1225
       - 🇯🇵 JP_963 - adi|1225
@@ -460,6 +605,7 @@ proxy-groups:
       - 🇯🇵 JP_1448 adi|1230
       - 🇯🇵 JP_1463 adi|1230
       - 🇯🇵 JP_965 - adi|1225
+      - 🇨🇳 台湾2 adi|1230
 rules:
   - DOMAIN-SUFFIX,music.163.com,🛑 全球拦截
   - DOMAIN-SUFFIX,interface.music.163.com,🛑 全球拦截
