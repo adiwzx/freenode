@@ -17,7 +17,6 @@ proxy-groups:
     proxies:
       - 网易云音乐
 rules:
-  - 'MATCH,DIRECT'
   - DOMAIN-SUFFIX,music.163.com,Proxy
   - DOMAIN-SUFFIX,interface.music.163.com,Proxy
   - DOMAIN-SUFFIX,interface3.music.163.com,Proxy
