@@ -1,7 +1,7 @@
 ### Clash订阅
  https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.yml 
  
-### Clash音乐净化订阅 
+##### Clash音乐净化订阅 
  https://raw.githubusercontent.com/adiwzx/freenode/main/adinetmuisc.yml
 
 ### v2ray订阅
