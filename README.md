@@ -21,3 +21,6 @@
  https://github.com/BoyceLig/Clash_Chinese_Patch/releases
 ### Clash Android 客户端
  https://github.com/Kr328/ClashForAndroid/releases
+
+### Qv2ray Windows客户端
+https://github.com/Qv2ray/Qv2ray/releases
