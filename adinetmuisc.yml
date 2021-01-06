@@ -2,8 +2,6 @@ mixed-port: 7890
 allow-lan: false
 log-level: info
 external-controller: 127.0.0.1:9090
-secret: ""
-ipv6: false
 proxies:
   - name: 网易云音乐
     type: http
@@ -14,7 +12,6 @@ proxy-groups:
     type: select
     proxies:
       - 网易云音乐
-    _index: 0
 rules:
   - DOMAIN-SUFFIX,music.163.com,🍃 应用净化
   - DOMAIN-SUFFIX,interface.music.163.com,🍃 应用净化
