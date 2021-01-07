@@ -91,6 +91,7 @@ proxies:
   - {name: 🇺🇲 US_2704 - adi|0107, server: 209.216.92.200, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇺🇲 US_2725 - adi|0107, server: 172.86.124.121, port: 14504, type: ss, cipher: aes-256-gcm, password: 7WMZWweNCYXMyP}
   - {name: 🇺🇲 US_2726 - adi|0107, server: 66.115.147.84, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 US_2892 - adi|0107, server: 104.244.208.37, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -183,6 +184,7 @@ proxy-groups:
       - 🇺🇲 US_2704 - adi|0107
       - 🇺🇲 US_2725 - adi|0107
       - 🇺🇲 US_2726 - adi|0107
+      - 🇺🇲 US_2892 - adi|0107
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -275,6 +277,7 @@ proxy-groups:
       - 🇺🇲 US_2704 - adi|0107
       - 🇺🇲 US_2725 - adi|0107
       - 🇺🇲 US_2726 - adi|0107
+      - 🇺🇲 US_2892 - adi|0107
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -378,6 +381,7 @@ proxy-groups:
       - 🇺🇲 US_2704 - adi|0107
       - 🇺🇲 US_2725 - adi|0107
       - 🇺🇲 US_2726 - adi|0107
+      - 🇺🇲 US_2892 - adi|0107
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
