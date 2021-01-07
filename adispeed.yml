@@ -28,15 +28,8 @@ proxies:
   - {name: 🇺🇲 USinz - adi|0107, server: v2.inszzs.inss.xyz, port: 884, type: vmess, uuid: bd3eec12-8a0e-4734-950f-1559cfcbb4ca, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}}
   - {name: 🇺🇲 USins - adi|0107, server: v2.inszzs.inss.xyz, port: 887, type: vmess, uuid: bd3eec12-8a0e-4734-950f-1559cfcbb4ca, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}}
   - {name: 🇺🇲 USfo - adi|0107, server: e.fovi.tk, port: 2053, type: vmess, uuid: 8bb15a90-0f6c-4d0c-dada-5c35cdfc969f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: e.fovi.tk}}
-  - {name: 🇺🇲 US942 - adi|0107, server: agahk.v2raynb.xyz, port: 1000, type: vmess, uuid: 786d1602-3cc9-405f-87c7-446c84cd92a8, alterId: 2, cipher: auto, tls: true}
-  - {name: 🇺🇲 US94 - adi|0107, server: ac74dcea623fbeebf.awsglobalaccelerator.com, port: 1000, type: vmess, uuid: 786d1602-3cc9-405f-87c7-446c84cd92a8, alterId: 2, cipher: auto, tls: true}
   - {name: 🇺🇲 US8a - adi|0107, server: aga.nayun.xyz, port: 21050, type: vmess, uuid: f5ba93b4-eba8-449a-bf22-da465fd07e1c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /8ac1, ws-headers: {Host: hkshop.nayun.xyz}}
-  - {name: 🇺🇲 US21h - adi|0107, server: 21.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 22c835f7-7aff-4877-8134-65eebb1458e7, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 21.HKG.ASIA.BIGAIRPORT.NET}}
   - {name: 🇺🇲 US107 - adi|0107, server: 107.172.55.254, port: 52333, type: vmess, uuid: 475e7113-a34c-455a-e2a4-1ec8ec930108, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 107.172.55.254}}
-  - {name: 🇺🇲 US_3058 - adi|0107, server: 76.223.70.170, port: 1000, type: vmess, uuid: 786d1602-3cc9-405f-87c7-446c84cd92a8, alterId: 2, cipher: auto, tls: true}
-  - {name: 🇺🇲 US_3044 - adi|0107, server: 13.248.209.186, port: 1000, type: vmess, uuid: 786d1602-3cc9-405f-87c7-446c84cd92a8, alterId: 2, cipher: auto, tls: true}
-  - {name: 🇺🇲 US_3017 - adi|0107, server: 172.247.0.230, port: 443, type: vmess, uuid: 66edfc1f-caee-4a27-8ed6-c4c637550392, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.41171.xyz}}
-  - {name: 🇷🇺 RU92 - adi|0107, server: 92.38.189.124, port: 443, type: vmess, uuid: 23ad6b10-8d1a-40f7-8ad0-e3e35cd38297, alterId: 0, cipher: auto, tls: true}
   - {name: 🇰🇷 KRa2 - adi|0107, server: jp-a-2.pday.top, port: 80, type: vmess, uuid: a99038a1-4b85-3e08-a1d5-909ccc999a6a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /abouts, ws-headers: {Host: jp-a-2.pday.top}}
   - {name: 🇯🇵 JPins - adi|0107, server: v2.insslinjps.insss.xyz, port: 443, type: vmess, uuid: bd3eec12-8a0e-4734-950f-1559cfcbb4ca, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.baidu.com}}
   - {name: 🇯🇵 JP18h - adi|0107, server: 18.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: c1e1eaa9-7e0d-4e97-9fdc-e32ed888a2e5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.HKG.ASIA.BIGAIRPORT.NET}}
@@ -47,7 +40,6 @@ proxies:
   - {name: 🇨🇳 CN116 - adi|0107, server: 116.163.14.52, port: 13583, type: vmess, uuid: b8e82177-7d85-3ad8-871a-f4a27038cd67, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 116.163.14.52}}
   - {name: 🇨🇳 CN_460 - adi|0107, server: 120.232.43.195, port: 11116, type: vmess, uuid: 7ac8f3f7-91d6-3586-bd1b-a09e3f533034, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: s8.yt004.xyz}}
   - {name: V26 - adi|0106, server: 154.84.1.71, port: 443, type: vmess, uuid: 9fe8881c-d03b-4ae8-b4c5-8a48a53ff6c6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.06339405.xyz}}
-  - {name: 🇺🇲 US_3008 - adi|0102, server: 107.148.198.137, port: 443, type: vmess, uuid: 6467268f-cdda-41a5-93c8-ca4724906caa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0701321.xyz}}
   - {name: 🇯🇵 日本11 - adi|0106, server: chinahr.cf, port: 443, type: vmess, uuid: 025501c6-4f2c-11eb-a0c1-56000321591d, alterId: 12, cipher: auto, tls: true, network: ws, ws-path: /n1aJ97Ke/, ws-headers: {Host: chinahr.cf}}
   - {name: 🇰🇷 韩国7 - adi|0106, server: bigsur.cf, port: 443, type: vmess, uuid: f5c4afdc-5049-11eb-8571-560003222b79, alterId: 12, cipher: auto, tls: true, network: ws, ws-path: /WHZIGoOv/, ws-headers: {Host: bigsur.cf}}
   - {name: kernels - adi|0107, server: www.kernels.bid, port: 443, type: vmess, uuid: 27a57a00-9c9a-4858-2594-0e0081af48c5, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: www.kernels.bid}}
@@ -92,6 +84,10 @@ proxies:
   - {name: 🇺🇲 US_2387 - adi|0107, server: 104.244.211.139, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇭🇰 HK_1226 - adi|0107, server: 84.17.37.154, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇭🇰 HK_1246 - adi|0107, server: 84.17.57.66, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 US_2588 - adi|0107, server: 107.181.166.39, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 US_2608 - adi|0107, server: 66.115.147.69, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 US_2612 - adi|0107, server: 66.115.147.79, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 US_2675 - adi|0107, server: 185.93.0.146, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -121,15 +117,8 @@ proxy-groups:
       - 🇺🇲 USinz - adi|0107
       - 🇺🇲 USins - adi|0107
       - 🇺🇲 USfo - adi|0107
-      - 🇺🇲 US942 - adi|0107
-      - 🇺🇲 US94 - adi|0107
       - 🇺🇲 US8a - adi|0107
-      - 🇺🇲 US21h - adi|0107
       - 🇺🇲 US107 - adi|0107
-      - 🇺🇲 US_3058 - adi|0107
-      - 🇺🇲 US_3044 - adi|0107
-      - 🇺🇲 US_3017 - adi|0107
-      - 🇷🇺 RU92 - adi|0107
       - 🇰🇷 KRa2 - adi|0107
       - 🇯🇵 JPins - adi|0107
       - 🇯🇵 JP18h - adi|0107
@@ -140,7 +129,6 @@ proxy-groups:
       - 🇨🇳 CN116 - adi|0107
       - 🇨🇳 CN_460 - adi|0107
       - V26 - adi|0106
-      - 🇺🇲 US_3008 - adi|0102
       - 🇯🇵 日本11 - adi|0106
       - 🇰🇷 韩国7 - adi|0106
       - kernels - adi|0107
@@ -185,6 +173,10 @@ proxy-groups:
       - 🇺🇲 US_2387 - adi|0107
       - 🇭🇰 HK_1226 - adi|0107
       - 🇭🇰 HK_1246 - adi|0107
+      - 🇺🇲 US_2588 - adi|0107
+      - 🇺🇲 US_2608 - adi|0107
+      - 🇺🇲 US_2612 - adi|0107
+      - 🇺🇲 US_2675 - adi|0107
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -214,15 +206,8 @@ proxy-groups:
       - 🇺🇲 USinz - adi|0107
       - 🇺🇲 USins - adi|0107
       - 🇺🇲 USfo - adi|0107
-      - 🇺🇲 US942 - adi|0107
-      - 🇺🇲 US94 - adi|0107
       - 🇺🇲 US8a - adi|0107
-      - 🇺🇲 US21h - adi|0107
       - 🇺🇲 US107 - adi|0107
-      - 🇺🇲 US_3058 - adi|0107
-      - 🇺🇲 US_3044 - adi|0107
-      - 🇺🇲 US_3017 - adi|0107
-      - 🇷🇺 RU92 - adi|0107
       - 🇰🇷 KRa2 - adi|0107
       - 🇯🇵 JPins - adi|0107
       - 🇯🇵 JP18h - adi|0107
@@ -233,7 +218,6 @@ proxy-groups:
       - 🇨🇳 CN116 - adi|0107
       - 🇨🇳 CN_460 - adi|0107
       - V26 - adi|0106
-      - 🇺🇲 US_3008 - adi|0102
       - 🇯🇵 日本11 - adi|0106
       - 🇰🇷 韩国7 - adi|0106
       - kernels - adi|0107
@@ -278,6 +262,10 @@ proxy-groups:
       - 🇺🇲 US_2387 - adi|0107
       - 🇭🇰 HK_1226 - adi|0107
       - 🇭🇰 HK_1246 - adi|0107
+      - 🇺🇲 US_2588 - adi|0107
+      - 🇺🇲 US_2608 - adi|0107
+      - 🇺🇲 US_2612 - adi|0107
+      - 🇺🇲 US_2675 - adi|0107
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -318,15 +306,8 @@ proxy-groups:
       - 🇺🇲 USinz - adi|0107
       - 🇺🇲 USins - adi|0107
       - 🇺🇲 USfo - adi|0107
-      - 🇺🇲 US942 - adi|0107
-      - 🇺🇲 US94 - adi|0107
       - 🇺🇲 US8a - adi|0107
-      - 🇺🇲 US21h - adi|0107
       - 🇺🇲 US107 - adi|0107
-      - 🇺🇲 US_3058 - adi|0107
-      - 🇺🇲 US_3044 - adi|0107
-      - 🇺🇲 US_3017 - adi|0107
-      - 🇷🇺 RU92 - adi|0107
       - 🇰🇷 KRa2 - adi|0107
       - 🇯🇵 JPins - adi|0107
       - 🇯🇵 JP18h - adi|0107
@@ -337,7 +318,6 @@ proxy-groups:
       - 🇨🇳 CN116 - adi|0107
       - 🇨🇳 CN_460 - adi|0107
       - V26 - adi|0106
-      - 🇺🇲 US_3008 - adi|0102
       - 🇯🇵 日本11 - adi|0106
       - 🇰🇷 韩国7 - adi|0106
       - kernels - adi|0107
@@ -382,6 +362,10 @@ proxy-groups:
       - 🇺🇲 US_2387 - adi|0107
       - 🇭🇰 HK_1226 - adi|0107
       - 🇭🇰 HK_1246 - adi|0107
+      - 🇺🇲 US_2588 - adi|0107
+      - 🇺🇲 US_2608 - adi|0107
+      - 🇺🇲 US_2612 - adi|0107
+      - 🇺🇲 US_2675 - adi|0107
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
