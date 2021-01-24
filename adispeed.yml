@@ -5,423 +5,84 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 adi|0118T - US_3605, server: xibun.ga, port: 443, type: trojan, password: dc38e8e5-ed8c-4e7e-b7b4-74a9ab7d7bd4, sni: xibun.ga}
-  - {name: 🇺🇲 adi|0118T - US_3607, server: fuckxiaofenhong.gq, port: 443, type: trojan, password: e3d8ab5d-e19d-4cb7-8f91-ce26fc499429, sni: fuckxiaofenhong.gq}
-  - {name: 🇯🇵 adi|0118T - JP_1812, server: xibun.gq, port: 443, type: trojan, password: 57cf957e-6e5e-4415-b9a9-d1dc366462af, sni: xibun.gq}
-  - {name: 🇯🇵 adi|0118T - JP_1811, server: fuckxiaofenhong.cf, port: 443, type: trojan, password: 4002c46d-7eda-43e4-9281-8ec0482be101, sni: fuckxiaofenhong.cf}
-  - {name: 🇯🇵 adi|0118T - JP_1818, server: fuckxiaofenhong.tk, port: 443, type: trojan, password: 3a5c74e9-29b5-46aa-b020-f411ada298dd, sni: fuckxiaofenhong.tk}
-  - {name: 🇯🇵 adi|0118T - JP_1810, server: fuckxiaofenhong.ga, port: 443, type: trojan, password: 065af91f-40d8-4cdb-97d6-a75d4f1f4e93, sni: fuckxiaofenhong.ga}
-  - {name: 🇯🇵 adi|0118T - JP_1813, server: chinahright.ml, port: 443, type: trojan, password: 147ce1e4-fd05-425b-98c7-25160fc3e95f, sni: chinahright.ml}
-  - {name: 🇯🇵 adi|0118T - JP_1816, server: chinahumanr.ml, port: 443, type: trojan, password: 4e0c6db2-047d-493c-9a73-2b98762ee639, sni: chinahumanr.ml}
-  - {name: 🇯🇵 adi|0118T - JP_1815, server: trotro.ml, port: 443, type: trojan, password: ff61a9dd-4a64-4f9a-95bf-74ad16585966, sni: trotro.ml}
-  - {name: 🇺🇲 adi|0118T - 美国177, server: hkaga.aowucloud.xyz, port: 443, type: trojan, password: fuli, sni: hkaga.aowucloud.xyz}
-  - {name: 🇯🇵 adi|0118T - JP_1819, server: milkgogo.ga, port: 443, type: trojan, password: a02ed134-dfc4-44a2-9c1b-7d4914c1cedf, sni: milkgogo.ga}
-  - {name: 🇯🇵 adi|0118T - JP_1817, server: xibun.cf, port: 443, type: trojan, password: b5a8ef14-883c-4938-b4b3-034dcfb1c03d, sni: xibun.cf}
-  - {name: 🇺🇲 adi|0118T - US_3622, server: fuckxijinping.ga, port: 443, type: trojan, password: 8b299b03-e012-48e3-b6e8-94f325afe99e, sni: fuckxijinping.ga}
-  - {name: 🇯🇵 adi|0118T - JP_1814, server: fuckxiaofenhong.ml, port: 443, type: trojan, password: d643829a-59c9-4d51-b5f4-81a9765b995d, sni: fuckxiaofenhong.ml}
-  - {name: 🇯🇵 adi|0118T - 日本8, server: fuckxibaozi.ga, port: 443, type: trojan, password: 83cea122-e512-4db5-afde-c5e2c0078cf4, sni: fuckxibaozi.ga}
-  - {name: 🇺🇲 adi|0118T - US_3623, server: fuckxijinping.cf, port: 443, type: trojan, password: c45cfe84-57f1-4f17-83ae-b6740e645830, sni: fuckxijinping.cf}
-  - {name: 🇺🇲 adi|0116 - US_3610, server: 104.21.53.228, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: xey.wrxjys.tech}}
-  - {name: 🇩🇪 adi|0116 - 德国xey, server: xey.wrxjys.tech, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: xey.wrxjys.tech}}
-  - {name: 🇺🇲 adi|0118 - 北美地区 254.C4, server: 107.172.55.254, port: 52333, type: vmess, uuid: 475e7113-a34c-455a-e2a4-1ec8ec930108, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 107.172.55.254}}
-  - {name: 🇩🇪 adi|0118 - 德国, server: mcjs29cks32.i2eu938kp74a7.xyz, port: 443, type: vmess, uuid: e7b53be7-0975-47c0-bd6a-83eaf424bcb3, alterId: 444, cipher: auto, tls: true, network: ws, ws-path: /fc1496039d/, ws-headers: {Host: mcjs29cks32.i2eu938kp74a7.xyz}}
-  - {name: 🇩🇪 adi|0118 - 德国1, server: 188.34.140.79, port: 52333, type: vmess, uuid: 475e7113-a34c-455a-e2a4-1ec8ec930108, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 188.34.140.79}}
-  - {name: 🇩🇪 adi|0118 - 德国176.9, server: ahvuxfq.oqnqrysa.com, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ahvuxfq.oqnqrysa.com}}
-  - {name: 🇫🇷 adi|0118 - 法国 173.7B, server: 178.170.68.173, port: 52333, type: vmess, uuid: 475e7113-a34c-455a-e2a4-1ec8ec930108, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 178.170.68.173}}
-  - {name: adi|0118 - 广东172.D2, server: cm-1.ssplinks.pw, port: 6032, type: vmess, uuid: 62fe455f-1ccb-319a-9a00-0c2043bd1347, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇰🇷 adi|0118 - 韩国158.247, server: littlesur.ml, port: 443, type: vmess, uuid: 312f3946-565a-11eb-8b22-56000325aec2, alterId: 12, cipher: auto, tls: true, network: ws, ws-path: /kwYEDlqO/, ws-headers: {Host: littlesur.ml}}
-  - {name: 🇰🇷 adi|0118 - 韩国209.122, server: bigsur.cf, port: 443, type: vmess, uuid: f28e1ee2-5653-11eb-a21a-56000325ab1c, alterId: 12, cipher: auto, tls: true, network: ws, ws-path: /WBLaXAHx/, ws-headers: {Host: bigsur.cf}}
-  - {name: 🇰🇷 adi|0118 - 韩国9.0E, server: jp-a-2.pday.top, port: 80, type: vmess, uuid: a99038a1-4b85-3e08-a1d5-909ccc999a6a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /abouts, ws-headers: {Host: jp-a-2.pday.top}}
-  - {name: 🇳🇱 adi|0118 - 荷兰1, server: 154.84.1.85, port: 443, type: vmess, uuid: 10e582a2-2089-4bde-9a5c-3a57bfa846b4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.40983279.xyz}}
-  - {name: 🇳🇱 adi|0118 - 荷兰10, server: 163.172.210.122, port: 80, type: vmess, uuid: 930ab934-c00e-403a-818c-171804966a22, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /VtFojwDy9x, ws-headers: {Host: internaldrupalcache.digi.com.my}}
-  - {name: 🇳🇱 adi|0118 - 荷兰12, server: 154.84.1.223, port: 443, type: vmess, uuid: d143380c-bac9-48d8-a314-62339045cadb, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.57053041.xyz}}
-  - {name: 🇳🇱 adi|0118 - 荷兰29, server: 103.219.154.170, port: 52333, type: vmess, uuid: 475e7113-a34c-455a-e2a4-1ec8ec930108, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 103.219.154.170}}
-  - {name: 🇳🇱 adi|0118 - 荷兰3, server: 154.84.1.84, port: 443, type: vmess, uuid: cb9337f7-3617-4591-a8c0-0bc173723e8e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.98868925.xyz}}
-  - {name: 🇳🇱 adi|0118 - 荷兰7, server: 154.84.1.68, port: 443, type: vmess, uuid: 8447e618-032e-4981-943d-d3082049656d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.32429678.xyz}}
-  - {name: 🇳🇱 adi|0118 - 荷兰V1, server: 154.84.1.109, port: 443, type: vmess, uuid: 44b3de3c-b29a-4c2c-8c32-b6a8c55088ce, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0921976354.xyz}}
-  - {name: 🇳🇱 adi|0118 - 荷兰V13, server: 154.84.1.12, port: 443, type: vmess, uuid: abbe5fec-5667-4c29-a188-35fc8ebc031a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.5189462.xyz}}
-  - {name: 🇳🇱 adi|0118 - 荷兰V14, server: 154.84.1.22, port: 443, type: vmess, uuid: 44ea9c85-ab73-4024-b8f4-0b1ca0d57f71, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.9134162.xyz}}
-  - {name: 🇳🇱 adi|0118 - 荷兰V16, server: 154.84.1.143, port: 443, type: vmess, uuid: 2886122d-02ab-4790-ac94-2bb32818a686, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.49836114.xyz}}
-  - {name: 🇳🇱 adi|0118 - 荷兰V21, server: 154.84.1.44, port: 443, type: vmess, uuid: ce60ad9e-b845-46e8-bbcd-c8828017c0d5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.ocazuxhi.xyz}}
-  - {name: 🇳🇱 adi|0118 - 荷兰V22, server: 154.84.1.107, port: 443, type: vmess, uuid: 44b3de3c-b29a-4c2c-8c32-b6a8c55088ce, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0921976354.xyz}}
-  - {name: 🇳🇱 adi|0118 - 荷兰V24, server: 154.84.1.62, port: 443, type: vmess, uuid: d152e42a-8b12-4542-ba50-8cc683e0efb6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.6089793.xyz}}
-  - {name: 🇳🇱 adi|0118 - 荷兰V29, server: 154.84.1.253, port: 443, type: vmess, uuid: 57e24a59-8af7-4946-bb1f-c6af791ada9e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.6460649.xyz}}
-  - {name: 🇳🇱 adi|0118 - 荷兰V30, server: 154.84.1.82, port: 443, type: vmess, uuid: 6030c286-8614-434d-bb8b-d2b152841204, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0656333.xyz}}
-  - {name: 🇳🇱 adi|0118 - 荷兰V31, server: 154.84.1.140, port: 54671, type: vmess, uuid: 2a7349d6-994a-434b-9589-c0020685e528, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 adi|0118 - 荷兰V33, server: 154.84.1.161, port: 443, type: vmess, uuid: 8447e618-032e-4981-943d-d3082049656d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.32429678.xyz}}
-  - {name: 🇳🇱 adi|0118 - 荷兰V6, server: 154.84.1.114, port: 443, type: vmess, uuid: aa2b8e05-af65-4623-9859-5f2086f99603, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.amisxdgq.xyz}}
-  - {name: 🇳🇱 adi|0118 - 荷兰V65, server: 154.84.1.101, port: 443, type: vmess, uuid: 90afbf7b-dc20-4dc2-bb0c-9fa0ef9d3514, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.1898870.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国 80.2D, server: aga-hk.ide.wtf, port: 443, type: vmess, uuid: 5b710508-8be8-4212-f5e8-a7d2c7d2f923, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0118 - 美国1, server: 99.83.160.88, port: 443, type: vmess, uuid: 5b710508-8be8-4212-f5e8-a7d2c7d2f923, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0118 - 美国102.2A, server: 154.84.1.102, port: 443, type: vmess, uuid: 90afbf7b-dc20-4dc2-bb0c-9fa0ef9d3514, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.1898870.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国108.0F, server: 104.18.56.108, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
-  - {name: 🇺🇲 adi|0118 - 美国122.5B, server: 172.67.219.122, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: xey.wrxjys.tech}}
-  - {name: 🇺🇲 adi|0118 - 美国129.87, server: 142.4.126.129, port: 443, type: vmess, uuid: c82b9fb2-fc4e-413b-b612-57f13255cf7c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.64140222.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国131.9A, server: 47.254.36.131, port: 35601, type: vmess, uuid: d3fea656-2cf0-49b3-ad52-0bbfb97d36ee, alterId: 233, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0118 - 美国131.BA, server: 142.4.126.131, port: 443, type: vmess, uuid: c82b9fb2-fc4e-413b-b612-57f13255cf7c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.64140222.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国138.71, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇲 adi|0118 - 美国138.FF, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇲 adi|0118 - 美国139.E0, server: 154.84.1.139, port: 443, type: vmess, uuid: eb7cdd0b-3dad-4f41-86b8-e7dd5f874e14, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.hxmuuqim.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国14.EA, server: 154.84.1.14, port: 443, type: vmess, uuid: 6a6d70a2-6e5d-4de4-8a8f-745e87d6c143, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.4212507134.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国142.57, server: 154.84.1.142, port: 443, type: vmess, uuid: 10e582a2-2089-4bde-9a5c-3a57bfa846b4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.40983279.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国144.6E, server: 154.84.1.144, port: 443, type: vmess, uuid: c2d4db53-83b9-41ab-8b4a-74648635d38e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.58613279.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国15, server: 141.101.115.54, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /y284, ws-headers: {Host: freeus.mcan.tech}}
-  - {name: 🇺🇲 adi|0118 - 美国179.D0, server: 155.94.184.179, port: 52333, type: vmess, uuid: 475e7113-a34c-455a-e2a4-1ec8ec930108, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 155.94.184.179}}
-  - {name: 🇺🇲 adi|0118 - 美国18, server: 141.101.115.17, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /y284, ws-headers: {Host: freeus.mcan.tech}}
-  - {name: 🇺🇲 adi|0118 - 美国180.25, server: 154.84.1.180, port: 443, type: vmess, uuid: 0107fdcc-8d47-4b97-9330-3b3d9ab30046, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54331899.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国183.37, server: 154.84.1.183, port: 443, type: vmess, uuid: 2886122d-02ab-4790-ac94-2bb32818a686, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.49836114.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国19, server: 141.101.115.18, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /y284, ws-headers: {Host: freeus.mcan.tech}}
-  - {name: 🇺🇲 adi|0118 - 美国192.F1, server: 154.84.1.192, port: 443, type: vmess, uuid: 436f1897-6228-45aa-8e2e-8fe031827887, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.13612617.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国2, server: 75.2.1.80, port: 443, type: vmess, uuid: 5b710508-8be8-4212-f5e8-a7d2c7d2f923, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0118 - 美国20.CD, server: 104.24.102.20, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: xey.wrxjys.tech}}
-  - {name: 🇺🇲 adi|0118 - 美国205.185, server: buyvm.zhiyuanie.xyz, port: 443, type: vmess, uuid: 16fd9f7f-85c1-4a56-a055-782dd690ed10, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /331bb/, ws-headers: {Host: buyvm.zhiyuanie.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国210.82, server: 23.225.178.210, port: 443, type: vmess, uuid: 6f467adb-e8d0-418d-8a57-d01731993268, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.43642.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国222.71, server: 154.84.1.222, port: 443, type: vmess, uuid: 2a5e1b0f-ed6a-408e-a7cc-8a0ecba580d6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.46352799.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国224.4D, server: 154.84.1.224, port: 443, type: vmess, uuid: c7aba2b6-2f7c-4b44-99e3-b083c7a105a7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.44985428.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国235.D4, server: 154.84.1.235, port: 443, type: vmess, uuid: d15111f5-ad92-4175-a238-7266cf665786, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.9142674173.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国236.6E, server: 154.84.1.236, port: 443, type: vmess, uuid: 0b2c5769-f81c-4471-a625-c44f6ffd730f, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.9996013755.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国245.99, server: 172.247.199.245, port: 443, type: vmess, uuid: fa822afc-170c-412b-a876-cd077812a5b3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.01902367.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国250.77, server: rn.ddns1312.top, port: 443, type: vmess, uuid: 9d1a94d5-56bd-4f29-8d17-aa85c1d5f13a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: rn.ddns1312.top}}
-  - {name: 🇺🇲 adi|0118 - 美国253.18, server: 23.225.9.253, port: 443, type: vmess, uuid: 5fba5fed-b7a3-48cb-9951-52e0bc632d93, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.5307259.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国26, server: 104.19.4.20, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /y284, ws-headers: {Host: freeus.mcan.tech}}
-  - {name: 🇺🇲 adi|0118 - 美国27, server: 104.16.160.20, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /y284, ws-headers: {Host: freeus.mcan.tech}}
-  - {name: 🇺🇲 adi|0118 - 美国3, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇲 adi|0118 - 美国4, server: aga-hk.ide.wtf, port: 443, type: vmess, uuid: 5b710508-8be8-4212-f5e8-a7d2c7d2f923, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0118 - 美国45.148, server: free.yangxifang.tk, port: 443, type: vmess, uuid: 5a2de888-4686-4b11-af2c-d98a5115188e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: free.yangxifang.tk}}
-  - {name: 🇺🇲 adi|0118 - 美国63.9B, server: 154.84.1.63, port: 443, type: vmess, uuid: 48f9684b-5d1b-4722-afa7-e1e4f25eb3b3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.80323287.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国65.D5, server: 154.84.1.65, port: 443, type: vmess, uuid: 14505ea6-2314-4a0b-8859-8562bb82a176, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56726769.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国70.DB, server: 154.84.1.70, port: 443, type: vmess, uuid: ddf9e626-8a32-49d2-974b-ac32dd17146a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.64978360.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国71.D5, server: 154.84.1.71, port: 443, type: vmess, uuid: 9fe8881c-d03b-4ae8-b4c5-8a48a53ff6c6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.06339405.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国74.3E, server: 154.84.1.74, port: 443, type: vmess, uuid: 54704b97-b7ac-44ba-bf5d-1b35edfa3300, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.20800980.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国75.72, server: 154.84.1.75, port: 443, type: vmess, uuid: 8ac091ac-cf62-4a09-903d-1b98109d86a5, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.00779979.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国78.02, server: 154.84.1.78, port: 443, type: vmess, uuid: 4842ff94-b7f9-4e44-8680-3275c6318638, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.76043239.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国79.A9, server: 154.84.1.79, port: 443, type: vmess, uuid: e33eabe3-1dbd-449d-90a2-636c0f8b6f9a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.28596077.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国8.09, server: 154.84.1.8, port: 443, type: vmess, uuid: cec93317-8bbf-4234-908a-f5504227fa81, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0751432.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国84.47, server: 23.225.125.84, port: 443, type: vmess, uuid: 8fb921c0-564d-4d5a-9b13-384c01820126, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56626173.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国86.0B, server: 23.225.125.86, port: 443, type: vmess, uuid: 8fb921c0-564d-4d5a-9b13-384c01820126, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56626173.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V36, server: 23.225.9.194, port: 443, type: vmess, uuid: 4db97535-cde8-4c7a-bc2d-1141b99889c3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0970291.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V37, server: 172.247.198.125, port: 443, type: vmess, uuid: ca5581b9-8af8-42e1-b38d-9d51e5a8b2b6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.00689323.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V38, server: 198.2.217.239, port: 443, type: vmess, uuid: 60eccbf3-2005-45da-bba8-72f69b6d812c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.1497244.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V40, server: 23.224.69.22, port: 443, type: vmess, uuid: 588419e6-78a1-46ed-ab79-c73c00fcd8e2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7239884.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V42, server: 23.225.57.203, port: 443, type: vmess, uuid: 7e3bc49c-7c05-424d-adba-6458c7e1f492, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.4198659.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V44, server: 172.247.0.230, port: 443, type: vmess, uuid: 66edfc1f-caee-4a27-8ed6-c4c637550392, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.41171.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V46, server: 137.175.35.13, port: 443, type: vmess, uuid: 5b45f46b-b55f-4d5d-8bc9-cf6536ef9238, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.4336705.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V47, server: 23.225.9.214, port: 443, type: vmess, uuid: 98065ec0-c22d-4109-907b-9768ec851fa1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.3244708.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V48, server: 23.224.82.172, port: 443, type: vmess, uuid: c1e149de-0d41-43ce-b357-0e21d1642c03, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.0162296.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V49, server: 23.225.9.250, port: 443, type: vmess, uuid: 5fba5fed-b7a3-48cb-9951-52e0bc632d93, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.5307259.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V50, server: 45.58.145.197, port: 443, type: vmess, uuid: 3842b7eb-31c3-458f-b265-74b171729c95, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.78592.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V51, server: 23.225.178.213, port: 443, type: vmess, uuid: 6f467adb-e8d0-418d-8a57-d01731993268, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.43642.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V55, server: 45.58.149.7, port: 443, type: vmess, uuid: 0f805666-2985-4a9d-85d0-00c9932fcd96, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.87900.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V56, server: 23.224.69.4, port: 443, type: vmess, uuid: c73ea85e-757d-4596-860c-3d03046fb191, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7586616.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V57, server: 23.224.69.6, port: 443, type: vmess, uuid: c73ea85e-757d-4596-860c-3d03046fb191, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7586616.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V58, server: 45.58.145.139, port: 443, type: vmess, uuid: c50727fc-0a0d-4bab-9817-ece309d9f227, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.71356.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V59, server: 142.4.126.130, port: 443, type: vmess, uuid: c82b9fb2-fc4e-413b-b612-57f13255cf7c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.64140222.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V60, server: 45.58.145.201, port: 443, type: vmess, uuid: 3842b7eb-31c3-458f-b265-74b171729c95, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.78592.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V62, server: 172.247.0.227, port: 443, type: vmess, uuid: 66edfc1f-caee-4a27-8ed6-c4c637550392, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.41171.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V63, server: 23.224.69.18, port: 443, type: vmess, uuid: 588419e6-78a1-46ed-ab79-c73c00fcd8e2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.7239884.xyz}}
-  - {name: 🇺🇲 adi|0118 - 美国V64, server: 137.175.58.43, port: 443, type: vmess, uuid: 14a0f08d-d196-4c74-8736-a6dadaa2b639, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.42693.xyz}}
-  - {name: 🇷🇺 adi|0118 - 莫斯科2, server: 45.139.179.132, port: 26858, type: vmess, uuid: fe09c001-1456-40fd-bec9-e4eaf4812cf8, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.139.179.132}}
-  - {name: 🇷🇺 adi|0118 - 莫斯科4, server: 154.84.1.140, port: 54671, type: vmess, uuid: 2a7349d6-994a-434b-9589-c0020685e528, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 adi|0118 - 日本139.180, server: chinahr.cf, port: 443, type: vmess, uuid: 6542e022-5941-11eb-a736-5600032748fd, alterId: 12, cipher: auto, tls: true, network: ws, ws-path: /UaupJ9Xn/, ws-headers: {Host: chinahr.cf}}
-  - {name: 🇨🇳 adi|0118 - 台湾2, server: 34.80.235.121, port: 443, type: vmess, uuid: 2bcb9ccf-32a2-4bed-acf9-870471128d9f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /b89ee74a2/, ws-headers: {Host: gghk.cdrcn.tk}}
-  - {name: 🇭🇰 adi|0118 - 香港173.48, server: bocai.watch-animation.com, port: 443, type: vmess, uuid: 91a8fe5c-2030-49b0-b6f0-a2bdf1a50ebe, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /91a8fe5c, ws-headers: {Host: bocai.watch-animation.com}}
-  - {name: 🇭🇰 adi|0118 - 香港3, server: centos.fuchau.xyz, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
-  - {name: 🇭🇰 adi|0118 - 香港52.229, server: hk1.moobt.com, port: 8080, type: vmess, uuid: 8b5e117c-ed51-11e8-b474-000d3a80e7cc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: dm.toutiao.com}}
-  - {name: 🇸🇬 adi|0118 - 新加坡, server: 149.129.42.15, port: 443, type: vmess, uuid: f6769679-3960-33d4-a91e-35a04bc190de, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s283.snode.xyz}}
-  - {name: 🇸🇬 adi|0118 - 新加坡2, server: s283.snode.xyz, port: 443, type: vmess, uuid: f6769679-3960-33d4-a91e-35a04bc190de, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s283.snode.xyz}}
-  - {name: adi|0118 - 冰岛 71, server: 82.221.143.71, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇩🇪 adi|0118 - 德国 83, server: 185.220.70.83, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: adi|0118 - 拉脱维亚 150, server: 188.92.78.150, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇷🇴 adi|0118 - 罗马尼亚 14, server: 89.37.95.14, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇲 adi|0118 - 美国175, server: 89.187.182.175, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: adi|0118 - 欧盟 167, server: 45.12.221.167, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: adi|0118 - 欧洲 7, server: 154.16.169.7, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: adi|0118 - 瑞典41, server: 185.76.9.41, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: adi|0118 - 乌克兰 46, server: 2.58.242.46, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: adi|0118 - 西班牙 133, server: 193.148.17.133, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇬🇧 adi|0118 - 英国 182, server: 62.171.151.182, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇰🇷 adi|0124T - 韩国3, server: trotro.ml, port: 443, type: trojan, password: ff61a9dd-4a64-4f9a-95bf-74ad16585966, sni: trotro.ml}
+  - {name: 🇯🇵 adi|0124T - 日本WX, server: xibun.cf, port: 443, type: trojan, password: b5a8ef14-883c-4938-b4b3-034dcfb1c03d, sni: xibun.cf}
+  - {name: 🇯🇵 adi|0124T - 日本10, server: fuckxiaofenhong.cf, port: 443, type: trojan, password: dd44d75b-152c-4040-9892-7f0fc68ed572, sni: fuckxiaofenhong.cf}
+  - {name: 🇯🇵 adi|0124T - 日本3, server: milkgogo.ga, port: 443, type: trojan, password: a02ed134-dfc4-44a2-9c1b-7d4914c1cedf, sni: milkgogo.ga}
+  - {name: 🇯🇵 adi|0124T - 日本1, server: fuckxiaofenhong.gq, port: 443, type: trojan, password: 37e808d6-c0f2-40cd-ae52-f7ad40b94d7a, sni: fuckxiaofenhong.gq}
+  - {name: adi|0124T - tokyo_1, server: fuckxiaofenhong.ga, port: 443, type: trojan, password: 6b919811-4986-4574-967c-a8748489f801, sni: fuckxiaofenhong.ga}
+  - {name: 🇯🇵 adi|0124T - 日本5, server: fuckxiaofenhong.tk, port: 443, type: trojan, password: 3a5c74e9-29b5-46aa-b020-f411ada298dd, sni: fuckxiaofenhong.tk}
+  - {name: 🇨🇳 adi|0124T - CN_585, server: hk10.1z3idc.info, port: 58588, type: trojan, password: 9D88DAE8-6E09-83CD-66C2-AF31C932ADDC, sni: hk10.1z3idc.info}
+  - {name: 🇨🇳 adi|0124T - CN_586, server: hk10.1z3idc.info, port: 58581, type: trojan, password: 9D88DAE8-6E09-83CD-66C2-AF31C932ADDC, sni: hk10.1z3idc.info}
+  - {name: 🇯🇵 adi|0124T - 日本8, server: fuckxibaozi.ga, port: 443, type: trojan, password: 76e03481-b180-43d5-88e0-e5ca3d08c504, sni: fuckxibaozi.ga}
+  - {name: 🇯🇵 adi|0124T - 日本K10, server: fuckxiaofenhong.ml, port: 443, type: trojan, password: 4a1018fc-7fbe-4fdd-9216-eb4f9e6345c5, sni: fuckxiaofenhong.ml}
+  - {name: 🇭🇰 adi|0124 - 香港191.15, server: gz.52node.xyz, port: 28025, type: vmess, uuid: b3794d5b-1d4b-3390-ab61-a1c417736621, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hk.jd.com}}
+  - {name: 🇭🇰 adi|0124 - 香港, server: gz.52node.xyz, port: 28018, type: vmess, uuid: b3794d5b-1d4b-3390-ab61-a1c417736621, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hk.jd.com}}
+  - {name: 🇺🇲 adi|0124 - 美国120.24, server: agahk1.52node.xyz, port: 10000, type: vmess, uuid: b3794d5b-1d4b-3390-ab61-a1c417736621, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hk.jd.com}}
+  - {name: 🇺🇲 adi|0124 - US_3566, server: 107.172.55.254, port: 52333, type: vmess, uuid: 475e7113-a34c-455a-e2a4-1ec8ec930108, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 107.172.55.254}}
+  - {name: 🇺🇲 adi|0124 - 美国173.87, server: us1.52node.xyz, port: 28032, type: vmess, uuid: b3794d5b-1d4b-3390-ab61-a1c417736621, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hk.jd.com}}
+  - {name: 🇨🇳 adi|0124 - 台湾2, server: 34.80.235.121, port: 443, type: vmess, uuid: 2bcb9ccf-32a2-4bed-acf9-870471128d9f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /b89ee74a2/, ws-headers: {Host: gghk.cdrcn.tk}}
+  - {name: 🇺🇲 adi|0124 - 美国234.0F, server: 173.230.146.234, port: 36788, type: vmess, uuid: 529EE32D-7A2C-6DDB-07D8-CEED8B78C5FB, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 173.230.146.234}}
+  - {name: 🇭🇰 adi|0124 - AGA香港, server: hk-aga.nayun.xyz, port: 10010, type: vmess, uuid: db8045e6-02a0-4c85-94a8-367af92d6b8f, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /1c770436, ws-headers: {Host: hk02.nayun.xyz}}
+  - {name: 🇺🇲 adi|0124 - 美国239.57, server: 75.2.90.239, port: 41024, type: vmess, uuid: c904349a-8a50-4479-e3e0-62f67732b4ff, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /admin, ws-headers: {Host: 75.2.90.239}}
+  - {name: 🇺🇲 adi|0124 - 美国, server: aga-hk.ide.wtf, port: 443, type: vmess, uuid: 0f02e909-f10b-44f9-ee20-64d018d257bd, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇰🇷 adi|0124 - 韩国, server: L1-aws-kr-07.baipiao.de, port: 80, type: vmess, uuid: 2e937b49-04fb-36d1-886d-97b2617aabb1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /pucloud, ws-headers: {Host: L1-aws-kr-07.baipiao.de}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 adi|0118T - US_3605
-      - 🇺🇲 adi|0118T - US_3607
-      - 🇯🇵 adi|0118T - JP_1812
-      - 🇯🇵 adi|0118T - JP_1811
-      - 🇯🇵 adi|0118T - JP_1818
-      - 🇯🇵 adi|0118T - JP_1810
-      - 🇯🇵 adi|0118T - JP_1813
-      - 🇯🇵 adi|0118T - JP_1816
-      - 🇯🇵 adi|0118T - JP_1815
-      - 🇺🇲 adi|0118T - 美国177
-      - 🇯🇵 adi|0118T - JP_1819
-      - 🇯🇵 adi|0118T - JP_1817
-      - 🇺🇲 adi|0118T - US_3622
-      - 🇯🇵 adi|0118T - JP_1814
-      - 🇯🇵 adi|0118T - 日本8
-      - 🇺🇲 adi|0118T - US_3623
-      - 🇺🇲 adi|0116 - US_3610
-      - 🇩🇪 adi|0116 - 德国xey
-      - 🇺🇲 adi|0118 - 北美地区 254.C4
-      - 🇩🇪 adi|0118 - 德国
-      - 🇩🇪 adi|0118 - 德国1
-      - 🇩🇪 adi|0118 - 德国176.9
-      - 🇫🇷 adi|0118 - 法国 173.7B
-      - adi|0118 - 广东172.D2
-      - 🇰🇷 adi|0118 - 韩国158.247
-      - 🇰🇷 adi|0118 - 韩国209.122
-      - 🇰🇷 adi|0118 - 韩国9.0E
-      - 🇳🇱 adi|0118 - 荷兰1
-      - 🇳🇱 adi|0118 - 荷兰10
-      - 🇳🇱 adi|0118 - 荷兰12
-      - 🇳🇱 adi|0118 - 荷兰29
-      - 🇳🇱 adi|0118 - 荷兰3
-      - 🇳🇱 adi|0118 - 荷兰7
-      - 🇳🇱 adi|0118 - 荷兰V1
-      - 🇳🇱 adi|0118 - 荷兰V13
-      - 🇳🇱 adi|0118 - 荷兰V14
-      - 🇳🇱 adi|0118 - 荷兰V16
-      - 🇳🇱 adi|0118 - 荷兰V21
-      - 🇳🇱 adi|0118 - 荷兰V22
-      - 🇳🇱 adi|0118 - 荷兰V24
-      - 🇳🇱 adi|0118 - 荷兰V29
-      - 🇳🇱 adi|0118 - 荷兰V30
-      - 🇳🇱 adi|0118 - 荷兰V31
-      - 🇳🇱 adi|0118 - 荷兰V33
-      - 🇳🇱 adi|0118 - 荷兰V6
-      - 🇳🇱 adi|0118 - 荷兰V65
-      - 🇺🇲 adi|0118 - 美国 80.2D
-      - 🇺🇲 adi|0118 - 美国1
-      - 🇺🇲 adi|0118 - 美国102.2A
-      - 🇺🇲 adi|0118 - 美国108.0F
-      - 🇺🇲 adi|0118 - 美国122.5B
-      - 🇺🇲 adi|0118 - 美国129.87
-      - 🇺🇲 adi|0118 - 美国131.9A
-      - 🇺🇲 adi|0118 - 美国131.BA
-      - 🇺🇲 adi|0118 - 美国138.71
-      - 🇺🇲 adi|0118 - 美国138.FF
-      - 🇺🇲 adi|0118 - 美国139.E0
-      - 🇺🇲 adi|0118 - 美国14.EA
-      - 🇺🇲 adi|0118 - 美国142.57
-      - 🇺🇲 adi|0118 - 美国144.6E
-      - 🇺🇲 adi|0118 - 美国15
-      - 🇺🇲 adi|0118 - 美国179.D0
-      - 🇺🇲 adi|0118 - 美国18
-      - 🇺🇲 adi|0118 - 美国180.25
-      - 🇺🇲 adi|0118 - 美国183.37
-      - 🇺🇲 adi|0118 - 美国19
-      - 🇺🇲 adi|0118 - 美国192.F1
-      - 🇺🇲 adi|0118 - 美国2
-      - 🇺🇲 adi|0118 - 美国20.CD
-      - 🇺🇲 adi|0118 - 美国205.185
-      - 🇺🇲 adi|0118 - 美国210.82
-      - 🇺🇲 adi|0118 - 美国222.71
-      - 🇺🇲 adi|0118 - 美国224.4D
-      - 🇺🇲 adi|0118 - 美国235.D4
-      - 🇺🇲 adi|0118 - 美国236.6E
-      - 🇺🇲 adi|0118 - 美国245.99
-      - 🇺🇲 adi|0118 - 美国250.77
-      - 🇺🇲 adi|0118 - 美国253.18
-      - 🇺🇲 adi|0118 - 美国26
-      - 🇺🇲 adi|0118 - 美国27
-      - 🇺🇲 adi|0118 - 美国3
-      - 🇺🇲 adi|0118 - 美国4
-      - 🇺🇲 adi|0118 - 美国45.148
-      - 🇺🇲 adi|0118 - 美国63.9B
-      - 🇺🇲 adi|0118 - 美国65.D5
-      - 🇺🇲 adi|0118 - 美国70.DB
-      - 🇺🇲 adi|0118 - 美国71.D5
-      - 🇺🇲 adi|0118 - 美国74.3E
-      - 🇺🇲 adi|0118 - 美国75.72
-      - 🇺🇲 adi|0118 - 美国78.02
-      - 🇺🇲 adi|0118 - 美国79.A9
-      - 🇺🇲 adi|0118 - 美国8.09
-      - 🇺🇲 adi|0118 - 美国84.47
-      - 🇺🇲 adi|0118 - 美国86.0B
-      - 🇺🇲 adi|0118 - 美国V36
-      - 🇺🇲 adi|0118 - 美国V37
-      - 🇺🇲 adi|0118 - 美国V38
-      - 🇺🇲 adi|0118 - 美国V40
-      - 🇺🇲 adi|0118 - 美国V42
-      - 🇺🇲 adi|0118 - 美国V44
-      - 🇺🇲 adi|0118 - 美国V46
-      - 🇺🇲 adi|0118 - 美国V47
-      - 🇺🇲 adi|0118 - 美国V48
-      - 🇺🇲 adi|0118 - 美国V49
-      - 🇺🇲 adi|0118 - 美国V50
-      - 🇺🇲 adi|0118 - 美国V51
-      - 🇺🇲 adi|0118 - 美国V55
-      - 🇺🇲 adi|0118 - 美国V56
-      - 🇺🇲 adi|0118 - 美国V57
-      - 🇺🇲 adi|0118 - 美国V58
-      - 🇺🇲 adi|0118 - 美国V59
-      - 🇺🇲 adi|0118 - 美国V60
-      - 🇺🇲 adi|0118 - 美国V62
-      - 🇺🇲 adi|0118 - 美国V63
-      - 🇺🇲 adi|0118 - 美国V64
-      - 🇷🇺 adi|0118 - 莫斯科2
-      - 🇷🇺 adi|0118 - 莫斯科4
-      - 🇯🇵 adi|0118 - 日本139.180
-      - 🇨🇳 adi|0118 - 台湾2
-      - 🇭🇰 adi|0118 - 香港173.48
-      - 🇭🇰 adi|0118 - 香港3
-      - 🇭🇰 adi|0118 - 香港52.229
-      - 🇸🇬 adi|0118 - 新加坡
-      - 🇸🇬 adi|0118 - 新加坡2
-      - adi|0118 - 冰岛 71
-      - 🇩🇪 adi|0118 - 德国 83
-      - adi|0118 - 拉脱维亚 150
-      - 🇷🇴 adi|0118 - 罗马尼亚 14
-      - 🇺🇲 adi|0118 - 美国175
-      - adi|0118 - 欧盟 167
-      - adi|0118 - 欧洲 7
-      - adi|0118 - 瑞典41
-      - adi|0118 - 乌克兰 46
-      - adi|0118 - 西班牙 133
-      - 🇬🇧 adi|0118 - 英国 182
+      - 🇰🇷 adi|0124T - 韩国3
+      - 🇯🇵 adi|0124T - 日本WX
+      - 🇯🇵 adi|0124T - 日本10
+      - 🇯🇵 adi|0124T - 日本3
+      - 🇯🇵 adi|0124T - 日本1
+      - adi|0124T - tokyo_1
+      - 🇯🇵 adi|0124T - 日本5
+      - 🇨🇳 adi|0124T - CN_585
+      - 🇨🇳 adi|0124T - CN_586
+      - 🇯🇵 adi|0124T - 日本8
+      - 🇯🇵 adi|0124T - 日本K10
+      - 🇭🇰 adi|0124 - 香港191.15
+      - 🇭🇰 adi|0124 - 香港
+      - 🇺🇲 adi|0124 - 美国120.24
+      - 🇺🇲 adi|0124 - US_3566
+      - 🇺🇲 adi|0124 - 美国173.87
+      - 🇨🇳 adi|0124 - 台湾2
+      - 🇺🇲 adi|0124 - 美国234.0F
+      - 🇭🇰 adi|0124 - AGA香港
+      - 🇺🇲 adi|0124 - 美国239.57
+      - 🇺🇲 adi|0124 - 美国
+      - 🇰🇷 adi|0124 - 韩国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 adi|0118T - US_3605
-      - 🇺🇲 adi|0118T - US_3607
-      - 🇯🇵 adi|0118T - JP_1812
-      - 🇯🇵 adi|0118T - JP_1811
-      - 🇯🇵 adi|0118T - JP_1818
-      - 🇯🇵 adi|0118T - JP_1810
-      - 🇯🇵 adi|0118T - JP_1813
-      - 🇯🇵 adi|0118T - JP_1816
-      - 🇯🇵 adi|0118T - JP_1815
-      - 🇺🇲 adi|0118T - 美国177
-      - 🇯🇵 adi|0118T - JP_1819
-      - 🇯🇵 adi|0118T - JP_1817
-      - 🇺🇲 adi|0118T - US_3622
-      - 🇯🇵 adi|0118T - JP_1814
-      - 🇯🇵 adi|0118T - 日本8
-      - 🇺🇲 adi|0118T - US_3623
-      - 🇺🇲 adi|0116 - US_3610
-      - 🇩🇪 adi|0116 - 德国xey
-      - 🇺🇲 adi|0118 - 北美地区 254.C4
-      - 🇩🇪 adi|0118 - 德国
-      - 🇩🇪 adi|0118 - 德国1
-      - 🇩🇪 adi|0118 - 德国176.9
-      - 🇫🇷 adi|0118 - 法国 173.7B
-      - adi|0118 - 广东172.D2
-      - 🇰🇷 adi|0118 - 韩国158.247
-      - 🇰🇷 adi|0118 - 韩国209.122
-      - 🇰🇷 adi|0118 - 韩国9.0E
-      - 🇳🇱 adi|0118 - 荷兰1
-      - 🇳🇱 adi|0118 - 荷兰10
-      - 🇳🇱 adi|0118 - 荷兰12
-      - 🇳🇱 adi|0118 - 荷兰29
-      - 🇳🇱 adi|0118 - 荷兰3
-      - 🇳🇱 adi|0118 - 荷兰7
-      - 🇳🇱 adi|0118 - 荷兰V1
-      - 🇳🇱 adi|0118 - 荷兰V13
-      - 🇳🇱 adi|0118 - 荷兰V14
-      - 🇳🇱 adi|0118 - 荷兰V16
-      - 🇳🇱 adi|0118 - 荷兰V21
-      - 🇳🇱 adi|0118 - 荷兰V22
-      - 🇳🇱 adi|0118 - 荷兰V24
-      - 🇳🇱 adi|0118 - 荷兰V29
-      - 🇳🇱 adi|0118 - 荷兰V30
-      - 🇳🇱 adi|0118 - 荷兰V31
-      - 🇳🇱 adi|0118 - 荷兰V33
-      - 🇳🇱 adi|0118 - 荷兰V6
-      - 🇳🇱 adi|0118 - 荷兰V65
-      - 🇺🇲 adi|0118 - 美国 80.2D
-      - 🇺🇲 adi|0118 - 美国1
-      - 🇺🇲 adi|0118 - 美国102.2A
-      - 🇺🇲 adi|0118 - 美国108.0F
-      - 🇺🇲 adi|0118 - 美国122.5B
-      - 🇺🇲 adi|0118 - 美国129.87
-      - 🇺🇲 adi|0118 - 美国131.9A
-      - 🇺🇲 adi|0118 - 美国131.BA
-      - 🇺🇲 adi|0118 - 美国138.71
-      - 🇺🇲 adi|0118 - 美国138.FF
-      - 🇺🇲 adi|0118 - 美国139.E0
-      - 🇺🇲 adi|0118 - 美国14.EA
-      - 🇺🇲 adi|0118 - 美国142.57
-      - 🇺🇲 adi|0118 - 美国144.6E
-      - 🇺🇲 adi|0118 - 美国15
-      - 🇺🇲 adi|0118 - 美国179.D0
-      - 🇺🇲 adi|0118 - 美国18
-      - 🇺🇲 adi|0118 - 美国180.25
-      - 🇺🇲 adi|0118 - 美国183.37
-      - 🇺🇲 adi|0118 - 美国19
-      - 🇺🇲 adi|0118 - 美国192.F1
-      - 🇺🇲 adi|0118 - 美国2
-      - 🇺🇲 adi|0118 - 美国20.CD
-      - 🇺🇲 adi|0118 - 美国205.185
-      - 🇺🇲 adi|0118 - 美国210.82
-      - 🇺🇲 adi|0118 - 美国222.71
-      - 🇺🇲 adi|0118 - 美国224.4D
-      - 🇺🇲 adi|0118 - 美国235.D4
-      - 🇺🇲 adi|0118 - 美国236.6E
-      - 🇺🇲 adi|0118 - 美国245.99
-      - 🇺🇲 adi|0118 - 美国250.77
-      - 🇺🇲 adi|0118 - 美国253.18
-      - 🇺🇲 adi|0118 - 美国26
-      - 🇺🇲 adi|0118 - 美国27
-      - 🇺🇲 adi|0118 - 美国3
-      - 🇺🇲 adi|0118 - 美国4
-      - 🇺🇲 adi|0118 - 美国45.148
-      - 🇺🇲 adi|0118 - 美国63.9B
-      - 🇺🇲 adi|0118 - 美国65.D5
-      - 🇺🇲 adi|0118 - 美国70.DB
-      - 🇺🇲 adi|0118 - 美国71.D5
-      - 🇺🇲 adi|0118 - 美国74.3E
-      - 🇺🇲 adi|0118 - 美国75.72
-      - 🇺🇲 adi|0118 - 美国78.02
-      - 🇺🇲 adi|0118 - 美国79.A9
-      - 🇺🇲 adi|0118 - 美国8.09
-      - 🇺🇲 adi|0118 - 美国84.47
-      - 🇺🇲 adi|0118 - 美国86.0B
-      - 🇺🇲 adi|0118 - 美国V36
-      - 🇺🇲 adi|0118 - 美国V37
-      - 🇺🇲 adi|0118 - 美国V38
-      - 🇺🇲 adi|0118 - 美国V40
-      - 🇺🇲 adi|0118 - 美国V42
-      - 🇺🇲 adi|0118 - 美国V44
-      - 🇺🇲 adi|0118 - 美国V46
-      - 🇺🇲 adi|0118 - 美国V47
-      - 🇺🇲 adi|0118 - 美国V48
-      - 🇺🇲 adi|0118 - 美国V49
-      - 🇺🇲 adi|0118 - 美国V50
-      - 🇺🇲 adi|0118 - 美国V51
-      - 🇺🇲 adi|0118 - 美国V55
-      - 🇺🇲 adi|0118 - 美国V56
-      - 🇺🇲 adi|0118 - 美国V57
-      - 🇺🇲 adi|0118 - 美国V58
-      - 🇺🇲 adi|0118 - 美国V59
-      - 🇺🇲 adi|0118 - 美国V60
-      - 🇺🇲 adi|0118 - 美国V62
-      - 🇺🇲 adi|0118 - 美国V63
-      - 🇺🇲 adi|0118 - 美国V64
-      - 🇷🇺 adi|0118 - 莫斯科2
-      - 🇷🇺 adi|0118 - 莫斯科4
-      - 🇯🇵 adi|0118 - 日本139.180
-      - 🇨🇳 adi|0118 - 台湾2
-      - 🇭🇰 adi|0118 - 香港173.48
-      - 🇭🇰 adi|0118 - 香港3
-      - 🇭🇰 adi|0118 - 香港52.229
-      - 🇸🇬 adi|0118 - 新加坡
-      - 🇸🇬 adi|0118 - 新加坡2
-      - adi|0118 - 冰岛 71
-      - 🇩🇪 adi|0118 - 德国 83
-      - adi|0118 - 拉脱维亚 150
-      - 🇷🇴 adi|0118 - 罗马尼亚 14
-      - 🇺🇲 adi|0118 - 美国175
-      - adi|0118 - 欧盟 167
-      - adi|0118 - 欧洲 7
-      - adi|0118 - 瑞典41
-      - adi|0118 - 乌克兰 46
-      - adi|0118 - 西班牙 133
-      - 🇬🇧 adi|0118 - 英国 182
+      - 🇰🇷 adi|0124T - 韩国3
+      - 🇯🇵 adi|0124T - 日本WX
+      - 🇯🇵 adi|0124T - 日本10
+      - 🇯🇵 adi|0124T - 日本3
+      - 🇯🇵 adi|0124T - 日本1
+      - adi|0124T - tokyo_1
+      - 🇯🇵 adi|0124T - 日本5
+      - 🇨🇳 adi|0124T - CN_585
+      - 🇨🇳 adi|0124T - CN_586
+      - 🇯🇵 adi|0124T - 日本8
+      - 🇯🇵 adi|0124T - 日本K10
+      - 🇭🇰 adi|0124 - 香港191.15
+      - 🇭🇰 adi|0124 - 香港
+      - 🇺🇲 adi|0124 - 美国120.24
+      - 🇺🇲 adi|0124 - US_3566
+      - 🇺🇲 adi|0124 - 美国173.87
+      - 🇨🇳 adi|0124 - 台湾2
+      - 🇺🇲 adi|0124 - 美国234.0F
+      - 🇭🇰 adi|0124 - AGA香港
+      - 🇺🇲 adi|0124 - 美国239.57
+      - 🇺🇲 adi|0124 - 美国
+      - 🇰🇷 adi|0124 - 韩国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -439,143 +100,30 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 adi|0118T - US_3605
-      - 🇺🇲 adi|0118T - US_3607
-      - 🇯🇵 adi|0118T - JP_1812
-      - 🇯🇵 adi|0118T - JP_1811
-      - 🇯🇵 adi|0118T - JP_1818
-      - 🇯🇵 adi|0118T - JP_1810
-      - 🇯🇵 adi|0118T - JP_1813
-      - 🇯🇵 adi|0118T - JP_1816
-      - 🇯🇵 adi|0118T - JP_1815
-      - 🇺🇲 adi|0118T - 美国177
-      - 🇯🇵 adi|0118T - JP_1819
-      - 🇯🇵 adi|0118T - JP_1817
-      - 🇺🇲 adi|0118T - US_3622
-      - 🇯🇵 adi|0118T - JP_1814
-      - 🇯🇵 adi|0118T - 日本8
-      - 🇺🇲 adi|0118T - US_3623
-      - 🇺🇲 adi|0116 - US_3610
-      - 🇩🇪 adi|0116 - 德国xey
-      - 🇺🇲 adi|0118 - 北美地区 254.C4
-      - 🇩🇪 adi|0118 - 德国
-      - 🇩🇪 adi|0118 - 德国1
-      - 🇩🇪 adi|0118 - 德国176.9
-      - 🇫🇷 adi|0118 - 法国 173.7B
-      - adi|0118 - 广东172.D2
-      - 🇰🇷 adi|0118 - 韩国158.247
-      - 🇰🇷 adi|0118 - 韩国209.122
-      - 🇰🇷 adi|0118 - 韩国9.0E
-      - 🇳🇱 adi|0118 - 荷兰1
-      - 🇳🇱 adi|0118 - 荷兰10
-      - 🇳🇱 adi|0118 - 荷兰12
-      - 🇳🇱 adi|0118 - 荷兰29
-      - 🇳🇱 adi|0118 - 荷兰3
-      - 🇳🇱 adi|0118 - 荷兰7
-      - 🇳🇱 adi|0118 - 荷兰V1
-      - 🇳🇱 adi|0118 - 荷兰V13
-      - 🇳🇱 adi|0118 - 荷兰V14
-      - 🇳🇱 adi|0118 - 荷兰V16
-      - 🇳🇱 adi|0118 - 荷兰V21
-      - 🇳🇱 adi|0118 - 荷兰V22
-      - 🇳🇱 adi|0118 - 荷兰V24
-      - 🇳🇱 adi|0118 - 荷兰V29
-      - 🇳🇱 adi|0118 - 荷兰V30
-      - 🇳🇱 adi|0118 - 荷兰V31
-      - 🇳🇱 adi|0118 - 荷兰V33
-      - 🇳🇱 adi|0118 - 荷兰V6
-      - 🇳🇱 adi|0118 - 荷兰V65
-      - 🇺🇲 adi|0118 - 美国 80.2D
-      - 🇺🇲 adi|0118 - 美国1
-      - 🇺🇲 adi|0118 - 美国102.2A
-      - 🇺🇲 adi|0118 - 美国108.0F
-      - 🇺🇲 adi|0118 - 美国122.5B
-      - 🇺🇲 adi|0118 - 美国129.87
-      - 🇺🇲 adi|0118 - 美国131.9A
-      - 🇺🇲 adi|0118 - 美国131.BA
-      - 🇺🇲 adi|0118 - 美国138.71
-      - 🇺🇲 adi|0118 - 美国138.FF
-      - 🇺🇲 adi|0118 - 美国139.E0
-      - 🇺🇲 adi|0118 - 美国14.EA
-      - 🇺🇲 adi|0118 - 美国142.57
-      - 🇺🇲 adi|0118 - 美国144.6E
-      - 🇺🇲 adi|0118 - 美国15
-      - 🇺🇲 adi|0118 - 美国179.D0
-      - 🇺🇲 adi|0118 - 美国18
-      - 🇺🇲 adi|0118 - 美国180.25
-      - 🇺🇲 adi|0118 - 美国183.37
-      - 🇺🇲 adi|0118 - 美国19
-      - 🇺🇲 adi|0118 - 美国192.F1
-      - 🇺🇲 adi|0118 - 美国2
-      - 🇺🇲 adi|0118 - 美国20.CD
-      - 🇺🇲 adi|0118 - 美国205.185
-      - 🇺🇲 adi|0118 - 美国210.82
-      - 🇺🇲 adi|0118 - 美国222.71
-      - 🇺🇲 adi|0118 - 美国224.4D
-      - 🇺🇲 adi|0118 - 美国235.D4
-      - 🇺🇲 adi|0118 - 美国236.6E
-      - 🇺🇲 adi|0118 - 美国245.99
-      - 🇺🇲 adi|0118 - 美国250.77
-      - 🇺🇲 adi|0118 - 美国253.18
-      - 🇺🇲 adi|0118 - 美国26
-      - 🇺🇲 adi|0118 - 美国27
-      - 🇺🇲 adi|0118 - 美国3
-      - 🇺🇲 adi|0118 - 美国4
-      - 🇺🇲 adi|0118 - 美国45.148
-      - 🇺🇲 adi|0118 - 美国63.9B
-      - 🇺🇲 adi|0118 - 美国65.D5
-      - 🇺🇲 adi|0118 - 美国70.DB
-      - 🇺🇲 adi|0118 - 美国71.D5
-      - 🇺🇲 adi|0118 - 美国74.3E
-      - 🇺🇲 adi|0118 - 美国75.72
-      - 🇺🇲 adi|0118 - 美国78.02
-      - 🇺🇲 adi|0118 - 美国79.A9
-      - 🇺🇲 adi|0118 - 美国8.09
-      - 🇺🇲 adi|0118 - 美国84.47
-      - 🇺🇲 adi|0118 - 美国86.0B
-      - 🇺🇲 adi|0118 - 美国V36
-      - 🇺🇲 adi|0118 - 美国V37
-      - 🇺🇲 adi|0118 - 美国V38
-      - 🇺🇲 adi|0118 - 美国V40
-      - 🇺🇲 adi|0118 - 美国V42
-      - 🇺🇲 adi|0118 - 美国V44
-      - 🇺🇲 adi|0118 - 美国V46
-      - 🇺🇲 adi|0118 - 美国V47
-      - 🇺🇲 adi|0118 - 美国V48
-      - 🇺🇲 adi|0118 - 美国V49
-      - 🇺🇲 adi|0118 - 美国V50
-      - 🇺🇲 adi|0118 - 美国V51
-      - 🇺🇲 adi|0118 - 美国V55
-      - 🇺🇲 adi|0118 - 美国V56
-      - 🇺🇲 adi|0118 - 美国V57
-      - 🇺🇲 adi|0118 - 美国V58
-      - 🇺🇲 adi|0118 - 美国V59
-      - 🇺🇲 adi|0118 - 美国V60
-      - 🇺🇲 adi|0118 - 美国V62
-      - 🇺🇲 adi|0118 - 美国V63
-      - 🇺🇲 adi|0118 - 美国V64
-      - 🇷🇺 adi|0118 - 莫斯科2
-      - 🇷🇺 adi|0118 - 莫斯科4
-      - 🇯🇵 adi|0118 - 日本139.180
-      - 🇨🇳 adi|0118 - 台湾2
-      - 🇭🇰 adi|0118 - 香港173.48
-      - 🇭🇰 adi|0118 - 香港3
-      - 🇭🇰 adi|0118 - 香港52.229
-      - 🇸🇬 adi|0118 - 新加坡
-      - 🇸🇬 adi|0118 - 新加坡2
-      - adi|0118 - 冰岛 71
-      - 🇩🇪 adi|0118 - 德国 83
-      - adi|0118 - 拉脱维亚 150
-      - 🇷🇴 adi|0118 - 罗马尼亚 14
-      - 🇺🇲 adi|0118 - 美国175
-      - adi|0118 - 欧盟 167
-      - adi|0118 - 欧洲 7
-      - adi|0118 - 瑞典41
-      - adi|0118 - 乌克兰 46
-      - adi|0118 - 西班牙 133
-      - 🇬🇧 adi|0118 - 英国 182
+      - 🇰🇷 adi|0124T - 韩国3
+      - 🇯🇵 adi|0124T - 日本WX
+      - 🇯🇵 adi|0124T - 日本10
+      - 🇯🇵 adi|0124T - 日本3
+      - 🇯🇵 adi|0124T - 日本1
+      - adi|0124T - tokyo_1
+      - 🇯🇵 adi|0124T - 日本5
+      - 🇨🇳 adi|0124T - CN_585
+      - 🇨🇳 adi|0124T - CN_586
+      - 🇯🇵 adi|0124T - 日本8
+      - 🇯🇵 adi|0124T - 日本K10
+      - 🇭🇰 adi|0124 - 香港191.15
+      - 🇭🇰 adi|0124 - 香港
+      - 🇺🇲 adi|0124 - 美国120.24
+      - 🇺🇲 adi|0124 - US_3566
+      - 🇺🇲 adi|0124 - 美国173.87
+      - 🇨🇳 adi|0124 - 台湾2
+      - 🇺🇲 adi|0124 - 美国234.0F
+      - 🇭🇰 adi|0124 - AGA香港
+      - 🇺🇲 adi|0124 - 美国239.57
+      - 🇺🇲 adi|0124 - 美国
+      - 🇰🇷 adi|0124 - 韩国
 rules:
- - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
+ - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
  - DOMAIN-SUFFIX,local,🎯 全球直连
@@ -1494,7 +1042,6 @@ rules:
  - DOMAIN-SUFFIX,mobads.baidu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mobads.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mpro.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,msite.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mtj.baidu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mtj.baidu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,neirong.baidu.com,🛑 全球拦截
@@ -2356,33 +1903,18 @@ rules:
  - DOMAIN-SUFFIX,bahamut.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,gamer.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,hinet.net,🚀 节点选择
+ - DOMAIN-KEYWORD,livedazn,🚀 节点选择
  - DOMAIN-KEYWORD,voddazn,🚀 节点选择
  - DOMAIN,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
- - DOMAIN-SUFFIX,amplify.outbrain.com,🚀 节点选择
- - DOMAIN-SUFFIX,bluekai.com,🚀 节点选择
- - DOMAIN-SUFFIX,cdn.cookielaw.org,🚀 节点选择
- - DOMAIN-SUFFIX,control.kochava.com,🚀 节点选择
  - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
  - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🚀 节点选择
  - DOMAIN-SUFFIX,dazn-api.com,🚀 节点选择
  - DOMAIN-SUFFIX,dazn.com,🚀 节点选择
  - DOMAIN-SUFFIX,dazndn.com,🚀 节点选择
- - DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net,🚀 节点选择
- - DOMAIN-SUFFIX,dca-ll-livedazn-dznlivejp.s.llnwi.net,🚀 节点选择
- - DOMAIN-SUFFIX,dca-ll-voddazn-dznvodjp.s.llnwi.net,🚀 节点选择
- - DOMAIN-SUFFIX,dcalivedazn.akamaized.net,🚀 节点选择
  - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🚀 节点选择
- - DOMAIN-SUFFIX,docomo.ne.jp,🚀 节点选择
  - DOMAIN-SUFFIX,indazn.com,🚀 节点选择
  - DOMAIN-SUFFIX,indaznlab.com,🚀 节点选择
- - DOMAIN-SUFFIX,intercom.io,🚀 节点选择
- - DOMAIN-SUFFIX,pause-confirmed-marketing-images-prod.s3.eu-central-1.amazonaws.com,🚀 节点选择
- - DOMAIN-SUFFIX,perfops.doracdn.com,🚀 节点选择
- - DOMAIN-SUFFIX,rest.zuora.com,🚀 节点选择
- - DOMAIN-SUFFIX,s.yimg.jp,🚀 节点选择
  - DOMAIN-SUFFIX,sentry.io,🚀 节点选择
- - DOMAIN-SUFFIX,vjs.zencdn.net,🚀 节点选择
- - DOMAIN-SUFFIX,yahoo.co.jp,🚀 节点选择
  - DOMAIN-SUFFIX,deezer.com,🚀 节点选择
  - DOMAIN-SUFFIX,dzcdn.net,🚀 节点选择
  - DOMAIN,cdn.registerdisney.go.com,🚀 节点选择
@@ -2423,19 +1955,23 @@ rules:
  - DOMAIN-SUFFIX,akamaized.net,🚀 节点选择
  - DOMAIN-SUFFIX,foxplus.com,🚀 节点选择
  - DOMAIN-SUFFIX,theplatform.com,🚀 节点选择
- - DOMAIN-SUFFIX,bcbolthboa-a.akamaihd.net,🚀 节点选择
- - DOMAIN-SUFFIX,cf-images.ap-southeast-1.prod.boltdns.net,🚀 节点选择
- - DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
- - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🚀 节点选择
+ - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
+ - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
+ - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🚀 节点选择
+ - DOMAIN,dai3fd1oh325y.cloudfront.net,🚀 节点选择
+ - DOMAIN,hboasia1-i.akamaihd.net,🚀 节点选择
+ - DOMAIN,hboasia2-i.akamaihd.net,🚀 节点选择
+ - DOMAIN,hboasia3-i.akamaihd.net,🚀 节点选择
+ - DOMAIN,hboasia4-i.akamaihd.net,🚀 节点选择
+ - DOMAIN,hboasia5-i.akamaihd.net,🚀 节点选择
+ - DOMAIN,players.brightcove.net,🚀 节点选择
+ - DOMAIN,s3-ap-southeast-1.amazonaws.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbo.com,🚀 节点选择
- - DOMAIN-SUFFIX,hboasia.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbogo.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbogoasia.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbogoasia.hk,🚀 节点选择
  - DOMAIN-SUFFIX,hbomax.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbonow.com,🚀 节点选择
- - DOMAIN-SUFFIX,manifest.prod.boltdns.net,🚀 节点选择
- - DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com,🚀 节点选择
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
  - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🚀 节点选择
@@ -2851,6 +2387,24 @@ rules:
  - DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
  - IP-CIDR,74.125.0.0/16,🚀 节点选择,no-resolve
  - IP-CIDR,173.194.0.0/16,🚀 节点选择,no-resolve
+ - IP-CIDR,120.232.181.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.241.147.226/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.253.253.226/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.253.255.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.253.255.34/32,🚀 节点选择,no-resolve
+ - IP-CIDR,120.253.255.98/32,🚀 节点选择,no-resolve
+ - IP-CIDR,180.163.150.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,180.163.150.34/32,🚀 节点选择,no-resolve
+ - IP-CIDR,180.163.151.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,180.163.151.34/32,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.39.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.40.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.41.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.43.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,203.208.50.0/24,🚀 节点选择,no-resolve
+ - IP-CIDR,220.181.174.162/32,🚀 节点选择,no-resolve
+ - IP-CIDR,220.181.174.226/32,🚀 节点选择,no-resolve
+ - IP-CIDR,220.181.174.34/32,🚀 节点选择,no-resolve
  - DOMAIN-SUFFIX,cdninstagram.com,🚀 节点选择
  - DOMAIN-SUFFIX,instagram.com,🚀 节点选择
  - DOMAIN-SUFFIX,instagr.am,🚀 节点选择
