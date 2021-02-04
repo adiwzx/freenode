@@ -6,60 +6,42 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: adi|0201T - seoul_2, server: fuckxijinping.ga, port: 443, type: trojan, password: f6edb59d-5aac-43c4-ad32-e0b7972e7f50, sni: fuckxijinping.ga}
-  - {name: adi|0201T - seoul_3, server: fuckxijinping.cf, port: 443, type: trojan, password: 9ea5c0a0-74e9-465e-8ae3-0479c74dfab2, sni: fuckxijinping.cf}
-  - {name: 🇺🇲 adi|0203T - US_3839, server: sdxghjv16.gobestway.org, port: 8443, type: trojan, password: f23b39ca-a9ed-3f56-891b-364580c1512a, sni: sdxghjv16.gobestway.org}
-  - {name: 🇯🇵 adi|0201T - 日本5, server: gmegme.ml, port: 443, type: trojan, password: 0d1ae67e-a512-4dfc-a914-4d8eeac81b7f, sni: gmegme.ml}
-  - {name: 🇯🇵 adi|0201T - JP_1894, server: chinahumanr.ml, port: 443, type: trojan, password: d05ccfe1-577e-426b-89d2-2254b3965c03, sni: chinahumanr.ml}
-  - {name: 🇰🇷 adi|0201T - 韩国3, server: trotro.ml, port: 443, type: trojan, password: 76349a53-4d20-45de-a713-6c06b59f7317, sni: trotro.ml}
-  - {name: 🇺🇲 adi|0203T - US_3845, server: dsdsduh9.gobestway.org, port: 8443, type: trojan, password: f23b39ca-a9ed-3f56-891b-364580c1512a, sni: dsdsduh9.gobestway.org}
-  - {name: 🇺🇲 adi|0203T - US_3809, server: dsdsduh9.gobestway.org, port: 8443, type: trojan, password: 195d8a04-926f-3309-893e-edb5e5a36e2a, sni: dsdsduh9.gobestway.org}
-  - {name: 🇯🇵 adi|0201T - JP_1892, server: fuckxiaofenhong.ga, port: 443, type: trojan, password: e253fb06-1917-4573-b892-55364186c858, sni: fuckxiaofenhong.ga}
-  - {name: 🇺🇲 adi|0201T - 西雅图C, server: xibun.gq, port: 443, type: trojan, password: 454e32b5-22eb-45cc-9fb2-1bf236de0eb9, sni: xibun.gq}
-  - {name: 🇯🇵 adi|0201T - 日本3, server: milkgogo.ga, port: 443, type: trojan, password: 82a95008-f390-4f2e-a6ae-68c9e039f244, sni: milkgogo.ga}
-  - {name: 🇺🇲 adi|0201T - 洛杉矶WX, server: tacotasty.tk, port: 443, type: trojan, password: 196ca8d6-0d32-4e52-a4de-0fb23be82658, sni: tacotasty.tk}
-  - {name: 🇯🇵 adi|0201T - 日本1, server: gmegme.tk, port: 443, type: trojan, password: d73f5352-6cda-4cfb-8b7c-2dd8e44c4a84, sni: gmegme.tk}
-  - {name: adi|0201T - seoul_1, server: xibun.ga, port: 443, type: trojan, password: 625a46a8-af5a-4620-b8d2-a53b0c952d4b, sni: xibun.ga}
-  - {name: 🇺🇲 adi|0203T - US_3833, server: dgoduhrj14.gobestway.org, port: 8443, type: trojan, password: f23b39ca-a9ed-3f56-891b-364580c1512a, sni: dgoduhrj14.gobestway.org}
-  - {name: 🇺🇲 adi|0203 - US_3854, server: 75.2.90.239, port: 41024, type: vmess, uuid: c904349a-8a50-4479-e3e0-62f67732b4ff, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /admin, ws-headers: {Host: 75.2.90.239}}
-  - {name: 🇺🇲 adi|0203 - 美国112.5, server: 75.2.112.5, port: 11072, type: vmess, uuid: 0f38c06c-0e15-498a-851c-b429de42de2b, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 75.2.112.5}}
-  - {name: 🇭🇰 adi|0128 - 香港10010, server: a41dd943b40fc7733.awsglobalaccelerator.com, port: 80, type: vmess, uuid: 2a7a0324-e68e-4cb5-9e4c-dbc0060840ee, alterId: 64, cipher: auto, tls: false}
-  - {name: adi|0203 - 161.234, server: 219.76.161.234, port: 64910, type: vmess, uuid: 54039243-db93-34bf-9d6c-598db097247a, alterId: 23, cipher: auto, tls: false, network: ws, ws-path: /36071ppp, ws-headers: {Host: www.pccw.com}}
-  - {name: 🇺🇲 adi|0203 - US_3787, server: 104.16.182.15, port: 443, type: vmess, uuid: b3fa05fb-b1df-a5c9-ebbc-f6b9c1809b93, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /yzthvws, ws-headers: {Host: trump-fuck-gfw.xyz}}
-  - {name: 🇯🇵 adi|0203 - JP_1899, server: s34.snode.xyz, port: 443, type: vmess, uuid: c49c0406-0932-34a4-bd05-c99384238b0a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s34.snode.xyz}}
-  - {name: 🇺🇲 adi|0203 - US_3770, server: 104.17.46.56, port: 443, type: vmess, uuid: b3fa05fb-b1df-a5c9-ebbc-f6b9c1809b93, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /yzthvws, ws-headers: {Host: trump-fuck-gfw.xyz}}
-  - {name: 🇯🇵 adi|0203 - JP_1946, server: s54.snode.xyz, port: 443, type: vmess, uuid: c49c0406-0932-34a4-bd05-c99384238b0a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s54.snode.xyz}}
-  - {name: 🇺🇲 adi|0203 - US_3776, server: 172.67.223.77, port: 443, type: vmess, uuid: b3fa05fb-b1df-a5c9-ebbc-f6b9c1809b93, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /yzthvws, ws-headers: {Host: trump-fuck-gfw.xyz}}
-  - {name: 🇺🇲 adi|0203 - 美国45.117, server: 104.19.45.117, port: 443, type: vmess, uuid: 01a459f1-8796-485c-9403-298450f340f1, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /sommvws, ws-headers: {Host: cloudflare2020.ml}}
-  - {name: 🇺🇲 adi|0203 - 美国22.40, server: 172.67.150.22, port: 443, type: vmess, uuid: 37e3274e-1fc8-4879-ac24-0fa256952a5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: xjj.ddns1312.top}}
-  - {name: 🇳🇱 adi|0201 - 荷兰45.117, server: 104.19.45.117, port: 443, type: vmess, uuid: 1be1ef08-1982-4fdc-9042-98c9c25ff9a5, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /sommvws, ws-headers: {Host: trump.fuckgfw.cf}}
-  - {name: 🇺🇲 adi|0203 - US_3768, server: 104.16.124.96, port: 443, type: vmess, uuid: b3fa05fb-b1df-a5c9-ebbc-f6b9c1809b93, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /yzthvws, ws-headers: {Host: trump-fuck-gfw.xyz}}
-  - {name: 🇺🇲 adi|0203 - US_3835, server: 172.67.186.103, port: 443, type: vmess, uuid: b3fa05fb-b1df-a5c9-ebbc-f6b9c1809b93, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /yzthvws, ws-headers: {Host: trump-fuck-gfw.xyz}}
+  - {name: adi|0204T - seoul_3, server: fuckxijinping.cf, port: 443, type: trojan, password: 9ea5c0a0-74e9-465e-8ae3-0479c74dfab2, sni: fuckxijinping.cf}
+  - {name: 🇺🇲 adi|0204T - US_3620, server: uxdgdknd11.gobestway.org, port: 8443, type: trojan, password: 195d8a04-926f-3309-893e-edb5e5a36e2a, sni: uxdgdknd11.gobestway.org}
+  - {name: 🇺🇲 adi|0204T - US_3595, server: sdgbgsd15.gobestway.org, port: 8443, type: trojan, password: f23b39ca-a9ed-3f56-891b-364580c1512a, sni: sdgbgsd15.gobestway.org}
+  - {name: adi|0204T - seoul_1, server: xibun.ga, port: 443, type: trojan, password: 625a46a8-af5a-4620-b8d2-a53b0c952d4b, sni: xibun.ga}
+  - {name: 🇯🇵 adi|0204T - 日本1, server: gmegme.tk, port: 443, type: trojan, password: d73f5352-6cda-4cfb-8b7c-2dd8e44c4a84, sni: gmegme.tk}
+  - {name: 🇺🇲 adi|0204T - 洛杉矶_WX, server: tacotasty.tk, port: 443, type: trojan, password: 196ca8d6-0d32-4e52-a4de-0fb23be82658, sni: tacotasty.tk}
+  - {name: adi|0204T - tokyo_1, server: fuckxiaofenhong.ga, port: 443, type: trojan, password: e253fb06-1917-4573-b892-55364186c858, sni: fuckxiaofenhong.ga}
+  - {name: 🇯🇵 adi|0204T - 日本6, server: chinahumanr.ml, port: 443, type: trojan, password: d05ccfe1-577e-426b-89d2-2254b3965c03, sni: chinahumanr.ml}
+  - {name: 🇺🇲 adi|0204T - 西雅图C, server: xibun.gq, port: 443, type: trojan, password: 454e32b5-22eb-45cc-9fb2-1bf236de0eb9, sni: xibun.gq}
+  - {name: 🇺🇲 adi|0204 - US_157.82, server: 172.67.157.82, port: 443, type: vmess, uuid: 4f672ab6-25e3-49e8-951a-d87b1fa75467, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ce04/, ws-headers: {Host: vir.laoban666.xyz}}
+  - {name: 🇺🇲 adi|0204 - 美国153.224, server: 172.67.153.224, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ahvuxfq.oqnqrysa.com}}
+  - {name: 🇭🇰 adi|0204 - HK_164.166, server: 124.90.164.166, port: 30010, type: vmess, uuid: fd00927a-b0c2-4629-aef7-d9ff15a9d722, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /websocket, ws-headers: {Host: us.199301.xyz}}
+  - {name: 🇷🇺 adi|0204 - RU_2533, server: 45.89.229.87, port: 443, type: vmess, uuid: 738438a8-f8a9-4e19-ae96-77399e3024e6, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /cc025514ca9/, ws-headers: {Host: ru.199301.xyz}}
+  - {name: 🇺🇲 adi|0204 - 美国228.F1, server: 104.21.53.228, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: xey.wrxjys.tech}}
+  - {name: 🇯🇵 adi|0204 - Japan#01AGA, server: a7bbcc196fe74d5dd.awsglobalaccelerator.com, port: 80, type: vmess, uuid: fe2ede58-2639-4586-84aa-242aa4d1211c, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a7bbcc196fe74d5dd.awsglobalaccelerator.com}}
+  - {name: 🇸🇬 adi|0204 - Singapore#01AGA, server: afb73c7fd63f0ab69.awsglobalaccelerator.com, port: 443, type: vmess, uuid: fe2ede58-2639-4586-84aa-242aa4d1211c, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: afb73c7fd63f0ab69.awsglobalaccelerator.com}}
   - {name: 🇺🇲 adi|0203 - US_3796, server: 104.16.149.48, port: 443, type: vmess, uuid: b3fa05fb-b1df-a5c9-ebbc-f6b9c1809b93, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /yzthvws, ws-headers: {Host: trump-fuck-gfw.xyz}}
-  - {name: 🇺🇲 adi|0203 - US_3826, server: 104.16.110.238, port: 443, type: vmess, uuid: b3fa05fb-b1df-a5c9-ebbc-f6b9c1809b93, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /yzthvws, ws-headers: {Host: trump-fuck-gfw.xyz}}
-  - {name: 🇺🇲 adi|0203 - 美国160.114, server: 104.16.160.114, port: 443, type: vmess, uuid: 01a459f1-8796-485c-9403-298450f340f1, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /sommvws, ws-headers: {Host: cloudflare2020.ml}}
-  - {name: 🇺🇲 adi|0203 - US_3791, server: 104.17.188.91, port: 443, type: vmess, uuid: b3fa05fb-b1df-a5c9-ebbc-f6b9c1809b93, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /yzthvws, ws-headers: {Host: trump-fuck-gfw.xyz}}
-  - {name: 🇺🇲 adi|0203 - US_3828, server: 104.21.239.147, port: 443, type: vmess, uuid: b3fa05fb-b1df-a5c9-ebbc-f6b9c1809b93, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /yzthvws, ws-headers: {Host: trump-fuck-gfw.xyz}}
-  - {name: 🇺🇲 adi|0203 - US_3780, server: s32.snode.xyz, port: 443, type: vmess, uuid: c49c0406-0932-34a4-bd05-c99384238b0a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s32.snode.xyz}}
   - {name: 🇺🇲 adi|0203 - US_3807, server: 104.18.8.157, port: 443, type: vmess, uuid: b3fa05fb-b1df-a5c9-ebbc-f6b9c1809b93, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /yzthvws, ws-headers: {Host: trump-fuck-gfw.xyz}}
-  - {name: 🇺🇲 adi|0203 - 美国160.114 2, server: 104.16.160.114, port: 443, type: vmess, uuid: b3fa05fb-b1df-a5c9-ebbc-f6b9c1809b93, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /yzthvws, ws-headers: {Host: trump-fuck-gfw.xyz}}
-  - {name: 🇺🇲 adi|0203 - US_3773, server: 104.16.148.48, port: 443, type: vmess, uuid: b3fa05fb-b1df-a5c9-ebbc-f6b9c1809b93, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /yzthvws, ws-headers: {Host: trump-fuck-gfw.xyz}}
-  - {name: 🇺🇲 adi|0203 - US_3718, server: s40.snode.xyz, port: 443, type: vmess, uuid: c49c0406-0932-34a4-bd05-c99384238b0a, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s40.snode.xyz}}
-  - {name: 🇺🇲 adi|0203 - 美国45.117 2, server: 104.19.45.117, port: 443, type: vmess, uuid: d6e7a53a-519c-4c20-ac2e-28152ce1bcfd, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ejrzvws, ws-headers: {Host: trump-fuck-gfw.cloudflare2020.tk}}
-  - {name: 🇺🇲 adi|0201 - 美国46.56, server: 104.17.46.56, port: 443, type: vmess, uuid: 8e82a9a5-b894-4b4d-bf2e-dbf0807572aa, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: raspy-sky-9e81.roewesu.workers.dev}}
-  - {name: 🇺🇲 adi|0201 - 美国208.FA, server: 104.18.135.208, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ahvuxfq.oqnqrysa.com}}
-  - {name: 🇬🇧 adi|0201 - 英国212.49, server: 45.76.137.212, port: 29390, type: vmess, uuid: c8ce0eb0-a279-4147-8f83-93863902133a, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇩🇪 adi|0201 - 德国137.212, server: 45.76.137.212, port: 29390, type: vmess, uuid: c8ce0eb0-a279-4147-8f83-93863902133a, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇯🇵 adi|0203 - 日本87.59, server: 45.87.213.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇯🇵 adi|0203 - 日本105.0F, server: 45.87.213.105, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇯🇵 adi|0203 - 日本85.5D, server: 45.87.213.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇯🇵 adi|0203 - 日本87.CF, server: 45.87.213.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇯🇵 adi|0130 - 日本101.0E, server: 45.87.213.101, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇯🇵 adi|0203 - 日本络83.CD, server: 45.87.213.83, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇯🇵 adi|0203 - 日本243.73, server: 45.87.213.243, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇯🇵 adi|0203 - 日本4.B2, server: 89.187.161.4, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇯🇵 adi|0203 - 日本245.46, server: 45.87.213.245, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0203 - US_3828, server: 104.21.239.147, port: 443, type: vmess, uuid: b3fa05fb-b1df-a5c9-ebbc-f6b9c1809b93, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /yzthvws, ws-headers: {Host: trump-fuck-gfw.xyz}}
+  - {name: 🇯🇵 adi|0204 - 日本213.6E, server: 45.87.213.213, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇯🇵 adi|0204 - 日本241.23, server: 89.187.161.241, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇯🇵 adi|0204 - 日本161.239, server: 89.187.161.239, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 adi|0204 - 日本211.85, server: 45.87.213.211, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 adi|0204 - 台湾151.86, server: 103.152.151.86, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇯🇵 adi|0204 - 日本213.83, server: 45.87.213.83, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇯🇵 adi|0204 - 日本163.E2, server: 185.242.4.163, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇯🇵 adi|0204 - 日本103.68, server: 45.87.213.103, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇯🇵 adi|0204 - 日本213.211, server: 45.87.213.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇯🇵 adi|0203 - 日本213.7, server: 45.87.213.7, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇯🇵 adi|0130 - 日本83.F3, server: 45.87.213.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇯🇵 adi|0203 - 日本87.59, server: 45.87.213.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇯🇵 adi|0203 - 日本87.CF, server: 45.87.213.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇯🇵 adi|0203 - 日本243.73, server: 45.87.213.243, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 adi|0203 - 日本245.46, server: 45.87.213.245, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇯🇵 adi|0203 - 日本络83.CD, server: 45.87.213.83, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇯🇵 adi|0130 - 日本101.0E, server: 45.87.213.101, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -67,60 +49,42 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - adi|0201T - seoul_2
-      - adi|0201T - seoul_3
-      - 🇺🇲 adi|0203T - US_3839
-      - 🇯🇵 adi|0201T - 日本5
-      - 🇯🇵 adi|0201T - JP_1894
-      - 🇰🇷 adi|0201T - 韩国3
-      - 🇺🇲 adi|0203T - US_3845
-      - 🇺🇲 adi|0203T - US_3809
-      - 🇯🇵 adi|0201T - JP_1892
-      - 🇺🇲 adi|0201T - 西雅图C
-      - 🇯🇵 adi|0201T - 日本3
-      - 🇺🇲 adi|0201T - 洛杉矶WX
-      - 🇯🇵 adi|0201T - 日本1
-      - adi|0201T - seoul_1
-      - 🇺🇲 adi|0203T - US_3833
-      - 🇺🇲 adi|0203 - US_3854
-      - 🇺🇲 adi|0203 - 美国112.5
-      - 🇭🇰 adi|0128 - 香港10010
-      - adi|0203 - 161.234
-      - 🇺🇲 adi|0203 - US_3787
-      - 🇯🇵 adi|0203 - JP_1899
-      - 🇺🇲 adi|0203 - US_3770
-      - 🇯🇵 adi|0203 - JP_1946
-      - 🇺🇲 adi|0203 - US_3776
-      - 🇺🇲 adi|0203 - 美国45.117
-      - 🇺🇲 adi|0203 - 美国22.40
-      - 🇳🇱 adi|0201 - 荷兰45.117
-      - 🇺🇲 adi|0203 - US_3768
-      - 🇺🇲 adi|0203 - US_3835
+      - adi|0204T - seoul_3
+      - 🇺🇲 adi|0204T - US_3620
+      - 🇺🇲 adi|0204T - US_3595
+      - adi|0204T - seoul_1
+      - 🇯🇵 adi|0204T - 日本1
+      - 🇺🇲 adi|0204T - 洛杉矶_WX
+      - adi|0204T - tokyo_1
+      - 🇯🇵 adi|0204T - 日本6
+      - 🇺🇲 adi|0204T - 西雅图C
+      - 🇺🇲 adi|0204 - US_157.82
+      - 🇺🇲 adi|0204 - 美国153.224
+      - 🇭🇰 adi|0204 - HK_164.166
+      - 🇷🇺 adi|0204 - RU_2533
+      - 🇺🇲 adi|0204 - 美国228.F1
+      - 🇯🇵 adi|0204 - Japan#01AGA
+      - 🇸🇬 adi|0204 - Singapore#01AGA
       - 🇺🇲 adi|0203 - US_3796
-      - 🇺🇲 adi|0203 - US_3826
-      - 🇺🇲 adi|0203 - 美国160.114
-      - 🇺🇲 adi|0203 - US_3791
-      - 🇺🇲 adi|0203 - US_3828
-      - 🇺🇲 adi|0203 - US_3780
       - 🇺🇲 adi|0203 - US_3807
-      - 🇺🇲 adi|0203 - 美国160.114 2
-      - 🇺🇲 adi|0203 - US_3773
-      - 🇺🇲 adi|0203 - US_3718
-      - 🇺🇲 adi|0203 - 美国45.117 2
-      - 🇺🇲 adi|0201 - 美国46.56
-      - 🇺🇲 adi|0201 - 美国208.FA
-      - 🇬🇧 adi|0201 - 英国212.49
-      - 🇩🇪 adi|0201 - 德国137.212
-      - 🇯🇵 adi|0203 - 日本87.59
-      - 🇯🇵 adi|0203 - 日本105.0F
-      - 🇯🇵 adi|0203 - 日本85.5D
-      - 🇯🇵 adi|0203 - 日本87.CF
-      - 🇯🇵 adi|0130 - 日本101.0E
-      - 🇯🇵 adi|0203 - 日本络83.CD
-      - 🇯🇵 adi|0203 - 日本243.73
-      - 🇯🇵 adi|0203 - 日本4.B2
-      - 🇯🇵 adi|0203 - 日本245.46
+      - 🇺🇲 adi|0203 - US_3828
+      - 🇯🇵 adi|0204 - 日本213.6E
+      - 🇯🇵 adi|0204 - 日本241.23
+      - 🇯🇵 adi|0204 - 日本161.239
+      - 🇯🇵 adi|0204 - 日本211.85
+      - 🇨🇳 adi|0204 - 台湾151.86
+      - 🇯🇵 adi|0204 - 日本213.83
+      - 🇯🇵 adi|0204 - 日本163.E2
+      - 🇯🇵 adi|0204 - 日本103.68
+      - 🇯🇵 adi|0204 - 日本213.211
       - 🇯🇵 adi|0203 - 日本213.7
       - 🇯🇵 adi|0130 - 日本83.F3
+      - 🇯🇵 adi|0203 - 日本87.59
+      - 🇯🇵 adi|0203 - 日本87.CF
+      - 🇯🇵 adi|0203 - 日本243.73
+      - 🇯🇵 adi|0203 - 日本245.46
+      - 🇯🇵 adi|0203 - 日本络83.CD
+      - 🇯🇵 adi|0130 - 日本101.0E
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -128,60 +92,42 @@ proxy-groups:
     tolerance: 50
     proxies:
       - adi|0201T - seoul_2
-      - adi|0201T - seoul_3
-      - 🇺🇲 adi|0203T - US_3839
-      - 🇯🇵 adi|0201T - 日本5
-      - 🇯🇵 adi|0201T - JP_1894
-      - 🇰🇷 adi|0201T - 韩国3
-      - 🇺🇲 adi|0203T - US_3845
-      - 🇺🇲 adi|0203T - US_3809
-      - 🇯🇵 adi|0201T - JP_1892
-      - 🇺🇲 adi|0201T - 西雅图C
-      - 🇯🇵 adi|0201T - 日本3
-      - 🇺🇲 adi|0201T - 洛杉矶WX
-      - 🇯🇵 adi|0201T - 日本1
-      - adi|0201T - seoul_1
-      - 🇺🇲 adi|0203T - US_3833
-      - 🇺🇲 adi|0203 - US_3854
-      - 🇺🇲 adi|0203 - 美国112.5
-      - 🇭🇰 adi|0128 - 香港10010
-      - adi|0203 - 161.234
-      - 🇺🇲 adi|0203 - US_3787
-      - 🇯🇵 adi|0203 - JP_1899
-      - 🇺🇲 adi|0203 - US_3770
-      - 🇯🇵 adi|0203 - JP_1946
-      - 🇺🇲 adi|0203 - US_3776
-      - 🇺🇲 adi|0203 - 美国45.117
-      - 🇺🇲 adi|0203 - 美国22.40
-      - 🇳🇱 adi|0201 - 荷兰45.117
-      - 🇺🇲 adi|0203 - US_3768
-      - 🇺🇲 adi|0203 - US_3835
+      - adi|0204T - seoul_3
+      - 🇺🇲 adi|0204T - US_3620
+      - 🇺🇲 adi|0204T - US_3595
+      - adi|0204T - seoul_1
+      - 🇯🇵 adi|0204T - 日本1
+      - 🇺🇲 adi|0204T - 洛杉矶_WX
+      - adi|0204T - tokyo_1
+      - 🇯🇵 adi|0204T - 日本6
+      - 🇺🇲 adi|0204T - 西雅图C
+      - 🇺🇲 adi|0204 - US_157.82
+      - 🇺🇲 adi|0204 - 美国153.224
+      - 🇭🇰 adi|0204 - HK_164.166
+      - 🇷🇺 adi|0204 - RU_2533
+      - 🇺🇲 adi|0204 - 美国228.F1
+      - 🇯🇵 adi|0204 - Japan#01AGA
+      - 🇸🇬 adi|0204 - Singapore#01AGA
       - 🇺🇲 adi|0203 - US_3796
-      - 🇺🇲 adi|0203 - US_3826
-      - 🇺🇲 adi|0203 - 美国160.114
-      - 🇺🇲 adi|0203 - US_3791
-      - 🇺🇲 adi|0203 - US_3828
-      - 🇺🇲 adi|0203 - US_3780
       - 🇺🇲 adi|0203 - US_3807
-      - 🇺🇲 adi|0203 - 美国160.114 2
-      - 🇺🇲 adi|0203 - US_3773
-      - 🇺🇲 adi|0203 - US_3718
-      - 🇺🇲 adi|0203 - 美国45.117 2
-      - 🇺🇲 adi|0201 - 美国46.56
-      - 🇺🇲 adi|0201 - 美国208.FA
-      - 🇬🇧 adi|0201 - 英国212.49
-      - 🇩🇪 adi|0201 - 德国137.212
-      - 🇯🇵 adi|0203 - 日本87.59
-      - 🇯🇵 adi|0203 - 日本105.0F
-      - 🇯🇵 adi|0203 - 日本85.5D
-      - 🇯🇵 adi|0203 - 日本87.CF
-      - 🇯🇵 adi|0130 - 日本101.0E
-      - 🇯🇵 adi|0203 - 日本络83.CD
-      - 🇯🇵 adi|0203 - 日本243.73
-      - 🇯🇵 adi|0203 - 日本4.B2
-      - 🇯🇵 adi|0203 - 日本245.46
+      - 🇺🇲 adi|0203 - US_3828
+      - 🇯🇵 adi|0204 - 日本213.6E
+      - 🇯🇵 adi|0204 - 日本241.23
+      - 🇯🇵 adi|0204 - 日本161.239
+      - 🇯🇵 adi|0204 - 日本211.85
+      - 🇨🇳 adi|0204 - 台湾151.86
+      - 🇯🇵 adi|0204 - 日本213.83
+      - 🇯🇵 adi|0204 - 日本163.E2
+      - 🇯🇵 adi|0204 - 日本103.68
+      - 🇯🇵 adi|0204 - 日本213.211
       - 🇯🇵 adi|0203 - 日本213.7
       - 🇯🇵 adi|0130 - 日本83.F3
+      - 🇯🇵 adi|0203 - 日本87.59
+      - 🇯🇵 adi|0203 - 日本87.CF
+      - 🇯🇵 adi|0203 - 日本243.73
+      - 🇯🇵 adi|0203 - 日本245.46
+      - 🇯🇵 adi|0203 - 日本络83.CD
+      - 🇯🇵 adi|0130 - 日本101.0E
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -200,60 +146,42 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - adi|0201T - seoul_2
-      - adi|0201T - seoul_3
-      - 🇺🇲 adi|0203T - US_3839
-      - 🇯🇵 adi|0201T - 日本5
-      - 🇯🇵 adi|0201T - JP_1894
-      - 🇰🇷 adi|0201T - 韩国3
-      - 🇺🇲 adi|0203T - US_3845
-      - 🇺🇲 adi|0203T - US_3809
-      - 🇯🇵 adi|0201T - JP_1892
-      - 🇺🇲 adi|0201T - 西雅图C
-      - 🇯🇵 adi|0201T - 日本3
-      - 🇺🇲 adi|0201T - 洛杉矶WX
-      - 🇯🇵 adi|0201T - 日本1
-      - adi|0201T - seoul_1
-      - 🇺🇲 adi|0203T - US_3833
-      - 🇺🇲 adi|0203 - US_3854
-      - 🇺🇲 adi|0203 - 美国112.5
-      - 🇭🇰 adi|0128 - 香港10010
-      - adi|0203 - 161.234
-      - 🇺🇲 adi|0203 - US_3787
-      - 🇯🇵 adi|0203 - JP_1899
-      - 🇺🇲 adi|0203 - US_3770
-      - 🇯🇵 adi|0203 - JP_1946
-      - 🇺🇲 adi|0203 - US_3776
-      - 🇺🇲 adi|0203 - 美国45.117
-      - 🇺🇲 adi|0203 - 美国22.40
-      - 🇳🇱 adi|0201 - 荷兰45.117
-      - 🇺🇲 adi|0203 - US_3768
-      - 🇺🇲 adi|0203 - US_3835
+      - adi|0204T - seoul_3
+      - 🇺🇲 adi|0204T - US_3620
+      - 🇺🇲 adi|0204T - US_3595
+      - adi|0204T - seoul_1
+      - 🇯🇵 adi|0204T - 日本1
+      - 🇺🇲 adi|0204T - 洛杉矶_WX
+      - adi|0204T - tokyo_1
+      - 🇯🇵 adi|0204T - 日本6
+      - 🇺🇲 adi|0204T - 西雅图C
+      - 🇺🇲 adi|0204 - US_157.82
+      - 🇺🇲 adi|0204 - 美国153.224
+      - 🇭🇰 adi|0204 - HK_164.166
+      - 🇷🇺 adi|0204 - RU_2533
+      - 🇺🇲 adi|0204 - 美国228.F1
+      - 🇯🇵 adi|0204 - Japan#01AGA
+      - 🇸🇬 adi|0204 - Singapore#01AGA
       - 🇺🇲 adi|0203 - US_3796
-      - 🇺🇲 adi|0203 - US_3826
-      - 🇺🇲 adi|0203 - 美国160.114
-      - 🇺🇲 adi|0203 - US_3791
-      - 🇺🇲 adi|0203 - US_3828
-      - 🇺🇲 adi|0203 - US_3780
       - 🇺🇲 adi|0203 - US_3807
-      - 🇺🇲 adi|0203 - 美国160.114 2
-      - 🇺🇲 adi|0203 - US_3773
-      - 🇺🇲 adi|0203 - US_3718
-      - 🇺🇲 adi|0203 - 美国45.117 2
-      - 🇺🇲 adi|0201 - 美国46.56
-      - 🇺🇲 adi|0201 - 美国208.FA
-      - 🇬🇧 adi|0201 - 英国212.49
-      - 🇩🇪 adi|0201 - 德国137.212
-      - 🇯🇵 adi|0203 - 日本87.59
-      - 🇯🇵 adi|0203 - 日本105.0F
-      - 🇯🇵 adi|0203 - 日本85.5D
-      - 🇯🇵 adi|0203 - 日本87.CF
-      - 🇯🇵 adi|0130 - 日本101.0E
-      - 🇯🇵 adi|0203 - 日本络83.CD
-      - 🇯🇵 adi|0203 - 日本243.73
-      - 🇯🇵 adi|0203 - 日本4.B2
-      - 🇯🇵 adi|0203 - 日本245.46
+      - 🇺🇲 adi|0203 - US_3828
+      - 🇯🇵 adi|0204 - 日本213.6E
+      - 🇯🇵 adi|0204 - 日本241.23
+      - 🇯🇵 adi|0204 - 日本161.239
+      - 🇯🇵 adi|0204 - 日本211.85
+      - 🇨🇳 adi|0204 - 台湾151.86
+      - 🇯🇵 adi|0204 - 日本213.83
+      - 🇯🇵 adi|0204 - 日本163.E2
+      - 🇯🇵 adi|0204 - 日本103.68
+      - 🇯🇵 adi|0204 - 日本213.211
       - 🇯🇵 adi|0203 - 日本213.7
       - 🇯🇵 adi|0130 - 日本83.F3
+      - 🇯🇵 adi|0203 - 日本87.59
+      - 🇯🇵 adi|0203 - 日本87.CF
+      - 🇯🇵 adi|0203 - 日本243.73
+      - 🇯🇵 adi|0203 - 日本245.46
+      - 🇯🇵 adi|0203 - 日本络83.CD
+      - 🇯🇵 adi|0130 - 日本101.0E
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
