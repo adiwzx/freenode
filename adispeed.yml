@@ -5,159 +5,99 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 adi|0207T - 日本1, server: gmegme.tk, port: 443, type: trojan, password: 2dcc02fc-a267-4c2b-9428-6568b8f5158d, sni: gmegme.tk}
-  - {name: 🇯🇵 adi|0207T - 日本3, server: milkgogo.ga, port: 443, type: trojan, password: aea87370-859b-463f-9f95-837f81437bcc, sni: milkgogo.ga}
-  - {name: 🇯🇵 adi|0207T - 日本6, server: chinahumanr.ml, port: 443, type: trojan, password: 90f65f71-3226-4864-805d-362e28490b06, sni: chinahumanr.ml}
-  - {name: 🇰🇷 adi|0207T - 韩国3, server: trotro.ml, port: 443, type: trojan, password: b662cfdb-ce81-4c02-808c-ca01bfcd67f4, sni: trotro.ml}
-  - {name: 🇺🇸 adi|0207T - 洛杉矶_WX, server: tacotasty.tk, port: 443, type: trojan, password: 64050da3-85df-4592-8ca8-b4845b7b94f7, sni: tacotasty.tk}
-  - {name: 🇺🇸 adi|0207T - US_3533, server: www.njna.ga, port: 443, type: trojan, password: 109ce38a-4f90-48c0-d0e9-27184d3a7a9c, sni: www.njna.ga}
-  - {name: 🇺🇸 adi|0207T - 美国151.237, server: www.njna.ga, port: 443, type: trojan, password: 109ce38a-4f90-48c0-d0e9-27184d3a7a9c, sni: www.njna.ga}
-  - {name: 🇨🇳 adi|0207 - CN_565, server: cscu.xxatf.top, port: 10021, type: vmess, uuid: 58c4e2ca-fe54-3f98-8226-69841198bc76, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 21.xxatf.top}}
-  - {name: 🇨🇳 adi|0207 - CN_581, server: cscu.xxatf.top, port: 10100, type: vmess, uuid: 58c4e2ca-fe54-3f98-8226-69841198bc76, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 100.xxatf.top}}
-  - {name: 🇭🇰 adi|0207 - HK189.41, server: 122.192.189.41, port: 40000, type: vmess, uuid: 7c6f2348-0ebd-3a1f-a8a0-c3b5629c2e0b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 167.179.68.118}}
-  - {name: 🇺🇸 adi|0207 - US_3445, server: 104.21.58.11, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ahvuxfq.oqnqrysa.com}}
-  - {name: 🇺🇸 adi|0207 - 美国V30, server: 104.27.139.219, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ahvuxfq.oqnqrysa.com}}
-  - {name: 🇯🇵 adi|0207 - 日本189.41, server: 122.192.189.41, port: 40004, type: vmess, uuid: 7c6f2348-0ebd-3a1f-a8a0-c3b5629c2e0b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 108.160.142.152}}
-  - {name: 🇯🇵 adi|0207 - 日本189.41 2, server: 122.192.189.41, port: 40002, type: vmess, uuid: 7c6f2348-0ebd-3a1f-a8a0-c3b5629c2e0b, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 158.247.224.22}}
+  - {name: 🇺🇸 adi|0215T - 美国113.A7, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 23115_5a451f03, sni: tky3.ssgnode.ga}
+  - {name: 🇺🇸 adi|0215T - 洛杉矶_WX, server: tacotasty.tk, port: 443, type: trojan, password: 03f78fb8-2473-4636-89b3-98333846e2cb, sni: tacotasty.tk}
+  - {name: 🇯🇵 adi|0215T - 日本6, server: chinahumanr.ml, port: 443, type: trojan, password: dbdb25ab-b789-42b2-8782-8ec9a2f7cb68, sni: chinahumanr.ml}
+  - {name: 🇯🇵 adi|0215T - 日本3, server: milkgogo.ga, port: 443, type: trojan, password: af920201-1b42-47f1-9397-1773a484fbe5, sni: milkgogo.ga}
+  - {name: adi|0215T - seoul_2, server: fuckxijinping.ga, port: 443, type: trojan, password: d1268dc9-2aa7-4204-9062-1d9e23f050be, sni: fuckxijinping.ga}
+  - {name: adi|0215T - seoul_1, server: xibun.ga, port: 443, type: trojan, password: 01263fd3-fd5e-4c14-8789-a4c3fc9126ad, sni: xibun.ga}
+  - {name: 🇯🇵 adi|0215T - 日本1, server: gmegme.tk, port: 443, type: trojan, password: 425bee0e-4a55-4be7-9d13-40c905269965, sni: gmegme.tk}
+  - {name: adi|0215T - seoul_3, server: fuckxijinping.cf, port: 443, type: trojan, password: c0e2c7e9-d7a3-4e42-9610-749917277d7e, sni: fuckxijinping.cf}
+  - {name: 🇰🇷 adi|0215T - 韩国3, server: trotro.ml, port: 443, type: trojan, password: 602a9d99-d87a-4b91-8a8e-b50ebb2689ca, sni: trotro.ml}
+  - {name: 🇺🇸 adi|0215T - 西雅图C, server: xibun.gq, port: 443, type: trojan, password: 7f3d9f50-dc2c-4c11-b9bc-52a679984a90, sni: xibun.gq}
+  - {name: 🇯🇵 adi|0215T - 日本5, server: gmegme.ml, port: 443, type: trojan, password: c710d37f-8445-4761-b63c-edaceb42d0aa, sni: gmegme.ml}
+  - {name: adi|0215T - tokyo_1, server: fuckxiaofenhong.ga, port: 443, type: trojan, password: 112365b5-739b-4082-88ad-42ab3aa6303e, sni: fuckxiaofenhong.ga}
+  - {name: 🇰🇷 adi|0215 - 韩国9, server: gmegme.ga, port: 443, type: vmess, uuid: e5ae2986-6da2-11eb-9f7e-56000332c62c, alterId: 12, cipher: auto, tls: true, network: ws, ws-path: /qyKQebOX/, ws-headers: {Host: gmegme.ga}}
   - {name: 🇷🇺 adi|0204 - RU_2533, server: 45.89.229.87, port: 443, type: vmess, uuid: 738438a8-f8a9-4e19-ae96-77399e3024e6, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /cc025514ca9/, ws-headers: {Host: ru.199301.xyz}}
-  - {name: 🇺🇸 adi|0204 - 美国153.224, server: 172.67.153.224, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: ahvuxfq.oqnqrysa.com}}
-  - {name: 🇺🇸 adi|0204 - 美国228.F1, server: 104.21.53.228, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: xey.wrxjys.tech}}
-  - {name: 🇯🇵 adi|0204 - 日本161.239, server: 89.187.161.239, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇯🇵 adi|0204 - 日本211.85, server: 45.87.213.211, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇯🇵 adi|0204 - 日本103.68, server: 45.87.213.103, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇯🇵 adi|0130 - 日本83.F3, server: 45.87.213.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇯🇵 adi|0203 - 日本245.46, server: 45.87.213.245, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇯🇵 adi|0204 - 日本163.E2, server: 185.242.4.163, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇯🇵 adi|0215 - 日本161.241, server: 89.187.161.241, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇯🇵 adi|0215 - 日本161.2412, server: 89.187.161.241, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇯🇵 adi|0215 - 日本241.A5, server: 89.187.161.241, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇯🇵 adi|0215 - 日本34.24, server: 84.17.34.24, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇨🇳 adi|0204 - 台湾151.86, server: 103.152.151.86, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇯🇵 adi|0203 - 日本213.7, server: 45.87.213.7, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇯🇵 adi|0203 - 日本络83.CD, server: 45.87.213.83, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇯🇵 adi|0203 - 日本87.59, server: 45.87.213.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇯🇵 adi|0204 - 日本241.23, server: 89.187.161.241, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇯🇵 adi|0204 - 日本213.211, server: 45.87.213.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇯🇵 adi|0204 - 日本213.6E, server: 45.87.213.213, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇯🇵 adi|0204 - 日本213.83, server: 45.87.213.83, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇯🇵 adi|0203 - 日本243.73, server: 45.87.213.243, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇯🇵 adi|0130 - 日本101.0E, server: 45.87.213.101, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇯🇵 adi|0203 - 日本87.CF, server: 45.87.213.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 adi|0207T - 日本1
-      - 🇯🇵 adi|0207T - 日本3
-      - 🇯🇵 adi|0207T - 日本6
-      - 🇰🇷 adi|0207T - 韩国3
-      - 🇺🇸 adi|0207T - 洛杉矶_WX
-      - 🇺🇸 adi|0207T - US_3533
-      - 🇺🇸 adi|0207T - 美国151.237
-      - 🇨🇳 adi|0207 - CN_565
-      - 🇨🇳 adi|0207 - CN_581
-      - 🇭🇰 adi|0207 - HK189.41
-      - 🇺🇸 adi|0207 - US_3445
-      - 🇺🇸 adi|0207 - 美国V30
-      - 🇯🇵 adi|0207 - 日本189.41
-      - 🇯🇵 adi|0207 - 日本189.41 2
+      - 🇺🇸 adi|0215T - 美国113.A7
+      - 🇺🇸 adi|0215T - 洛杉矶_WX
+      - 🇯🇵 adi|0215T - 日本6
+      - 🇯🇵 adi|0215T - 日本3
+      - adi|0215T - seoul_2
+      - adi|0215T - seoul_1
+      - 🇯🇵 adi|0215T - 日本1
+      - adi|0215T - seoul_3
+      - 🇰🇷 adi|0215T - 韩国3
+      - 🇺🇸 adi|0215T - 西雅图C
+      - 🇯🇵 adi|0215T - 日本5
+      - adi|0215T - tokyo_1
+      - 🇰🇷 adi|0215 - 韩国9
       - 🇷🇺 adi|0204 - RU_2533
-      - 🇺🇸 adi|0204 - 美国153.224
-      - 🇺🇸 adi|0204 - 美国228.F1
-      - 🇯🇵 adi|0204 - 日本161.239
-      - 🇯🇵 adi|0204 - 日本211.85
-      - 🇯🇵 adi|0204 - 日本103.68
-      - 🇯🇵 adi|0130 - 日本83.F3
-      - 🇯🇵 adi|0203 - 日本245.46
-      - 🇯🇵 adi|0204 - 日本163.E2
+      - 🇯🇵 adi|0215 - 日本161.241
+      - 🇯🇵 adi|0215 - 日本161.2412
+      - 🇯🇵 adi|0215 - 日本241.A5
+      - 🇯🇵 adi|0215 - 日本34.24
       - 🇨🇳 adi|0204 - 台湾151.86
-      - 🇯🇵 adi|0203 - 日本213.7
-      - 🇯🇵 adi|0203 - 日本络83.CD
-      - 🇯🇵 adi|0203 - 日本87.59
-      - 🇯🇵 adi|0204 - 日本241.23
-      - 🇯🇵 adi|0204 - 日本213.211
-      - 🇯🇵 adi|0204 - 日本213.6E
-      - 🇯🇵 adi|0204 - 日本213.83
-      - 🇯🇵 adi|0203 - 日本243.73
-      - 🇯🇵 adi|0130 - 日本101.0E
-      - 🇯🇵 adi|0203 - 日本87.CF
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 adi|0207T - 日本1
-      - 🇯🇵 adi|0207T - 日本3
-      - 🇯🇵 adi|0207T - 日本6
-      - 🇰🇷 adi|0207T - 韩国3
-      - 🇺🇸 adi|0207T - 洛杉矶_WX
-      - 🇺🇸 adi|0207T - US_3533
-      - 🇺🇸 adi|0207T - 美国151.237
-      - 🇨🇳 adi|0207 - CN_565
-      - 🇨🇳 adi|0207 - CN_581
-      - 🇭🇰 adi|0207 - HK189.41
-      - 🇺🇸 adi|0207 - US_3445
-      - 🇺🇸 adi|0207 - 美国V30
-      - 🇯🇵 adi|0207 - 日本189.41
-      - 🇯🇵 adi|0207 - 日本189.41 2
+      - 🇺🇸 adi|0215T - 美国113.A7
+      - 🇺🇸 adi|0215T - 洛杉矶_WX
+      - 🇯🇵 adi|0215T - 日本6
+      - 🇯🇵 adi|0215T - 日本3
+      - adi|0215T - seoul_2
+      - adi|0215T - seoul_1
+      - 🇯🇵 adi|0215T - 日本1
+      - adi|0215T - seoul_3
+      - 🇰🇷 adi|0215T - 韩国3
+      - 🇺🇸 adi|0215T - 西雅图C
+      - 🇯🇵 adi|0215T - 日本5
+      - adi|0215T - tokyo_1
+      - 🇰🇷 adi|0215 - 韩国9
       - 🇷🇺 adi|0204 - RU_2533
-      - 🇺🇸 adi|0204 - 美国153.224
-      - 🇺🇸 adi|0204 - 美国228.F1
-      - 🇯🇵 adi|0204 - 日本161.239
-      - 🇯🇵 adi|0204 - 日本211.85
-      - 🇯🇵 adi|0204 - 日本103.68
-      - 🇯🇵 adi|0130 - 日本83.F3
-      - 🇯🇵 adi|0203 - 日本245.46
-      - 🇯🇵 adi|0204 - 日本163.E2
+      - 🇯🇵 adi|0215 - 日本161.241
+      - 🇯🇵 adi|0215 - 日本161.2412
+      - 🇯🇵 adi|0215 - 日本241.A5
+      - 🇯🇵 adi|0215 - 日本34.24
       - 🇨🇳 adi|0204 - 台湾151.86
-      - 🇯🇵 adi|0203 - 日本213.7
-      - 🇯🇵 adi|0203 - 日本络83.CD
-      - 🇯🇵 adi|0203 - 日本87.59
-      - 🇯🇵 adi|0204 - 日本241.23
-      - 🇯🇵 adi|0204 - 日本213.211
-      - 🇯🇵 adi|0204 - 日本213.6E
-      - 🇯🇵 adi|0204 - 日本213.83
-      - 🇯🇵 adi|0203 - 日本243.73
-      - 🇯🇵 adi|0130 - 日本101.0E
-      - 🇯🇵 adi|0203 - 日本87.CF
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 adi|0207T - 日本1
-      - 🇯🇵 adi|0207T - 日本3
-      - 🇯🇵 adi|0207T - 日本6
-      - 🇰🇷 adi|0207T - 韩国3
-      - 🇺🇸 adi|0207T - 洛杉矶_WX
-      - 🇺🇸 adi|0207T - US_3533
-      - 🇺🇸 adi|0207T - 美国151.237
-      - 🇨🇳 adi|0207 - CN_565
-      - 🇨🇳 adi|0207 - CN_581
-      - 🇭🇰 adi|0207 - HK189.41
-      - 🇺🇸 adi|0207 - US_3445
-      - 🇺🇸 adi|0207 - 美国V30
-      - 🇯🇵 adi|0207 - 日本189.41
-      - 🇯🇵 adi|0207 - 日本189.41 2
+      - 🇺🇸 adi|0215T - 美国113.A7
+      - 🇺🇸 adi|0215T - 洛杉矶_WX
+      - 🇯🇵 adi|0215T - 日本6
+      - 🇯🇵 adi|0215T - 日本3
+      - adi|0215T - seoul_2
+      - adi|0215T - seoul_1
+      - 🇯🇵 adi|0215T - 日本1
+      - adi|0215T - seoul_3
+      - 🇰🇷 adi|0215T - 韩国3
+      - 🇺🇸 adi|0215T - 西雅图C
+      - 🇯🇵 adi|0215T - 日本5
+      - adi|0215T - tokyo_1
+      - 🇰🇷 adi|0215 - 韩国9
       - 🇷🇺 adi|0204 - RU_2533
-      - 🇺🇸 adi|0204 - 美国153.224
-      - 🇺🇸 adi|0204 - 美国228.F1
-      - 🇯🇵 adi|0204 - 日本161.239
-      - 🇯🇵 adi|0204 - 日本211.85
-      - 🇯🇵 adi|0204 - 日本103.68
-      - 🇯🇵 adi|0130 - 日本83.F3
-      - 🇯🇵 adi|0203 - 日本245.46
-      - 🇯🇵 adi|0204 - 日本163.E2
+      - 🇯🇵 adi|0215 - 日本161.241
+      - 🇯🇵 adi|0215 - 日本161.2412
+      - 🇯🇵 adi|0215 - 日本241.A5
+      - 🇯🇵 adi|0215 - 日本34.24
       - 🇨🇳 adi|0204 - 台湾151.86
-      - 🇯🇵 adi|0203 - 日本213.7
-      - 🇯🇵 adi|0203 - 日本络83.CD
-      - 🇯🇵 adi|0203 - 日本87.59
-      - 🇯🇵 adi|0204 - 日本241.23
-      - 🇯🇵 adi|0204 - 日本213.211
-      - 🇯🇵 adi|0204 - 日本213.6E
-      - 🇯🇵 adi|0204 - 日本213.83
-      - 🇯🇵 adi|0203 - 日本243.73
-      - 🇯🇵 adi|0130 - 日本101.0E
-      - 🇯🇵 adi|0203 - 日本87.CF
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -169,119 +109,74 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 adi|0207T - 日本1
-      - 🇯🇵 adi|0207T - 日本3
-      - 🇯🇵 adi|0207T - 日本6
-      - 🇰🇷 adi|0207T - 韩国3
-      - 🇺🇸 adi|0207T - 洛杉矶_WX
-      - 🇺🇸 adi|0207T - US_3533
-      - 🇺🇸 adi|0207T - 美国151.237
-      - 🇨🇳 adi|0207 - CN_565
-      - 🇨🇳 adi|0207 - CN_581
-      - 🇭🇰 adi|0207 - HK189.41
-      - 🇺🇸 adi|0207 - US_3445
-      - 🇺🇸 adi|0207 - 美国V30
-      - 🇯🇵 adi|0207 - 日本189.41
-      - 🇯🇵 adi|0207 - 日本189.41 2
+      - 🇺🇸 adi|0215T - 美国113.A7
+      - 🇺🇸 adi|0215T - 洛杉矶_WX
+      - 🇯🇵 adi|0215T - 日本6
+      - 🇯🇵 adi|0215T - 日本3
+      - adi|0215T - seoul_2
+      - adi|0215T - seoul_1
+      - 🇯🇵 adi|0215T - 日本1
+      - adi|0215T - seoul_3
+      - 🇰🇷 adi|0215T - 韩国3
+      - 🇺🇸 adi|0215T - 西雅图C
+      - 🇯🇵 adi|0215T - 日本5
+      - adi|0215T - tokyo_1
+      - 🇰🇷 adi|0215 - 韩国9
       - 🇷🇺 adi|0204 - RU_2533
-      - 🇺🇸 adi|0204 - 美国153.224
-      - 🇺🇸 adi|0204 - 美国228.F1
-      - 🇯🇵 adi|0204 - 日本161.239
-      - 🇯🇵 adi|0204 - 日本211.85
-      - 🇯🇵 adi|0204 - 日本103.68
-      - 🇯🇵 adi|0130 - 日本83.F3
-      - 🇯🇵 adi|0203 - 日本245.46
-      - 🇯🇵 adi|0204 - 日本163.E2
+      - 🇯🇵 adi|0215 - 日本161.241
+      - 🇯🇵 adi|0215 - 日本161.2412
+      - 🇯🇵 adi|0215 - 日本241.A5
+      - 🇯🇵 adi|0215 - 日本34.24
       - 🇨🇳 adi|0204 - 台湾151.86
-      - 🇯🇵 adi|0203 - 日本213.7
-      - 🇯🇵 adi|0203 - 日本络83.CD
-      - 🇯🇵 adi|0203 - 日本87.59
-      - 🇯🇵 adi|0204 - 日本241.23
-      - 🇯🇵 adi|0204 - 日本213.211
-      - 🇯🇵 adi|0204 - 日本213.6E
-      - 🇯🇵 adi|0204 - 日本213.83
-      - 🇯🇵 adi|0203 - 日本243.73
-      - 🇯🇵 adi|0130 - 日本101.0E
-      - 🇯🇵 adi|0203 - 日本87.CF
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 adi|0207T - 日本1
-      - 🇯🇵 adi|0207T - 日本3
-      - 🇯🇵 adi|0207T - 日本6
-      - 🇰🇷 adi|0207T - 韩国3
-      - 🇺🇸 adi|0207T - 洛杉矶_WX
-      - 🇺🇸 adi|0207T - US_3533
-      - 🇺🇸 adi|0207T - 美国151.237
-      - 🇨🇳 adi|0207 - CN_565
-      - 🇨🇳 adi|0207 - CN_581
-      - 🇭🇰 adi|0207 - HK189.41
-      - 🇺🇸 adi|0207 - US_3445
-      - 🇺🇸 adi|0207 - 美国V30
-      - 🇯🇵 adi|0207 - 日本189.41
-      - 🇯🇵 adi|0207 - 日本189.41 2
+      - 🇺🇸 adi|0215T - 美国113.A7
+      - 🇺🇸 adi|0215T - 洛杉矶_WX
+      - 🇯🇵 adi|0215T - 日本6
+      - 🇯🇵 adi|0215T - 日本3
+      - adi|0215T - seoul_2
+      - adi|0215T - seoul_1
+      - 🇯🇵 adi|0215T - 日本1
+      - adi|0215T - seoul_3
+      - 🇰🇷 adi|0215T - 韩国3
+      - 🇺🇸 adi|0215T - 西雅图C
+      - 🇯🇵 adi|0215T - 日本5
+      - adi|0215T - tokyo_1
+      - 🇰🇷 adi|0215 - 韩国9
       - 🇷🇺 adi|0204 - RU_2533
-      - 🇺🇸 adi|0204 - 美国153.224
-      - 🇺🇸 adi|0204 - 美国228.F1
-      - 🇯🇵 adi|0204 - 日本161.239
-      - 🇯🇵 adi|0204 - 日本211.85
-      - 🇯🇵 adi|0204 - 日本103.68
-      - 🇯🇵 adi|0130 - 日本83.F3
-      - 🇯🇵 adi|0203 - 日本245.46
-      - 🇯🇵 adi|0204 - 日本163.E2
+      - 🇯🇵 adi|0215 - 日本161.241
+      - 🇯🇵 adi|0215 - 日本161.2412
+      - 🇯🇵 adi|0215 - 日本241.A5
+      - 🇯🇵 adi|0215 - 日本34.24
       - 🇨🇳 adi|0204 - 台湾151.86
-      - 🇯🇵 adi|0203 - 日本213.7
-      - 🇯🇵 adi|0203 - 日本络83.CD
-      - 🇯🇵 adi|0203 - 日本87.59
-      - 🇯🇵 adi|0204 - 日本241.23
-      - 🇯🇵 adi|0204 - 日本213.211
-      - 🇯🇵 adi|0204 - 日本213.6E
-      - 🇯🇵 adi|0204 - 日本213.83
-      - 🇯🇵 adi|0203 - 日本243.73
-      - 🇯🇵 adi|0130 - 日本101.0E
-      - 🇯🇵 adi|0203 - 日本87.CF
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 adi|0207T - 日本1
-      - 🇯🇵 adi|0207T - 日本3
-      - 🇯🇵 adi|0207T - 日本6
-      - 🇰🇷 adi|0207T - 韩国3
-      - 🇺🇸 adi|0207T - 洛杉矶_WX
-      - 🇺🇸 adi|0207T - US_3533
-      - 🇺🇸 adi|0207T - 美国151.237
-      - 🇨🇳 adi|0207 - CN_565
-      - 🇨🇳 adi|0207 - CN_581
-      - 🇭🇰 adi|0207 - HK189.41
-      - 🇺🇸 adi|0207 - US_3445
-      - 🇺🇸 adi|0207 - 美国V30
-      - 🇯🇵 adi|0207 - 日本189.41
-      - 🇯🇵 adi|0207 - 日本189.41 2
+      - 🇺🇸 adi|0215T - 美国113.A7
+      - 🇺🇸 adi|0215T - 洛杉矶_WX
+      - 🇯🇵 adi|0215T - 日本6
+      - 🇯🇵 adi|0215T - 日本3
+      - adi|0215T - seoul_2
+      - adi|0215T - seoul_1
+      - 🇯🇵 adi|0215T - 日本1
+      - adi|0215T - seoul_3
+      - 🇰🇷 adi|0215T - 韩国3
+      - 🇺🇸 adi|0215T - 西雅图C
+      - 🇯🇵 adi|0215T - 日本5
+      - adi|0215T - tokyo_1
+      - 🇰🇷 adi|0215 - 韩国9
       - 🇷🇺 adi|0204 - RU_2533
-      - 🇺🇸 adi|0204 - 美国153.224
-      - 🇺🇸 adi|0204 - 美国228.F1
-      - 🇯🇵 adi|0204 - 日本161.239
-      - 🇯🇵 adi|0204 - 日本211.85
-      - 🇯🇵 adi|0204 - 日本103.68
-      - 🇯🇵 adi|0130 - 日本83.F3
-      - 🇯🇵 adi|0203 - 日本245.46
-      - 🇯🇵 adi|0204 - 日本163.E2
+      - 🇯🇵 adi|0215 - 日本161.241
+      - 🇯🇵 adi|0215 - 日本161.2412
+      - 🇯🇵 adi|0215 - 日本241.A5
+      - 🇯🇵 adi|0215 - 日本34.24
       - 🇨🇳 adi|0204 - 台湾151.86
-      - 🇯🇵 adi|0203 - 日本213.7
-      - 🇯🇵 adi|0203 - 日本络83.CD
-      - 🇯🇵 adi|0203 - 日本87.59
-      - 🇯🇵 adi|0204 - 日本241.23
-      - 🇯🇵 adi|0204 - 日本213.211
-      - 🇯🇵 adi|0204 - 日本213.6E
-      - 🇯🇵 adi|0204 - 日本213.83
-      - 🇯🇵 adi|0203 - 日本243.73
-      - 🇯🇵 adi|0130 - 日本101.0E
-      - 🇯🇵 adi|0203 - 日本87.CF
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -297,40 +192,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 adi|0207T - 日本1
-      - 🇯🇵 adi|0207T - 日本3
-      - 🇯🇵 adi|0207T - 日本6
-      - 🇰🇷 adi|0207T - 韩国3
-      - 🇺🇸 adi|0207T - 洛杉矶_WX
-      - 🇺🇸 adi|0207T - US_3533
-      - 🇺🇸 adi|0207T - 美国151.237
-      - 🇨🇳 adi|0207 - CN_565
-      - 🇨🇳 adi|0207 - CN_581
-      - 🇭🇰 adi|0207 - HK189.41
-      - 🇺🇸 adi|0207 - US_3445
-      - 🇺🇸 adi|0207 - 美国V30
-      - 🇯🇵 adi|0207 - 日本189.41
-      - 🇯🇵 adi|0207 - 日本189.41 2
+      - 🇺🇸 adi|0215T - 美国113.A7
+      - 🇺🇸 adi|0215T - 洛杉矶_WX
+      - 🇯🇵 adi|0215T - 日本6
+      - 🇯🇵 adi|0215T - 日本3
+      - adi|0215T - seoul_2
+      - adi|0215T - seoul_1
+      - 🇯🇵 adi|0215T - 日本1
+      - adi|0215T - seoul_3
+      - 🇰🇷 adi|0215T - 韩国3
+      - 🇺🇸 adi|0215T - 西雅图C
+      - 🇯🇵 adi|0215T - 日本5
+      - adi|0215T - tokyo_1
+      - 🇰🇷 adi|0215 - 韩国9
       - 🇷🇺 adi|0204 - RU_2533
-      - 🇺🇸 adi|0204 - 美国153.224
-      - 🇺🇸 adi|0204 - 美国228.F1
-      - 🇯🇵 adi|0204 - 日本161.239
-      - 🇯🇵 adi|0204 - 日本211.85
-      - 🇯🇵 adi|0204 - 日本103.68
-      - 🇯🇵 adi|0130 - 日本83.F3
-      - 🇯🇵 adi|0203 - 日本245.46
-      - 🇯🇵 adi|0204 - 日本163.E2
+      - 🇯🇵 adi|0215 - 日本161.241
+      - 🇯🇵 adi|0215 - 日本161.2412
+      - 🇯🇵 adi|0215 - 日本241.A5
+      - 🇯🇵 adi|0215 - 日本34.24
       - 🇨🇳 adi|0204 - 台湾151.86
-      - 🇯🇵 adi|0203 - 日本213.7
-      - 🇯🇵 adi|0203 - 日本络83.CD
-      - 🇯🇵 adi|0203 - 日本87.59
-      - 🇯🇵 adi|0204 - 日本241.23
-      - 🇯🇵 adi|0204 - 日本213.211
-      - 🇯🇵 adi|0204 - 日本213.6E
-      - 🇯🇵 adi|0204 - 日本213.83
-      - 🇯🇵 adi|0203 - 日本243.73
-      - 🇯🇵 adi|0130 - 日本101.0E
-      - 🇯🇵 adi|0203 - 日本87.CF
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
