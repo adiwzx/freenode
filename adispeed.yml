@@ -5,155 +5,95 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 adi|0323 - 美国, server: pro-us1-1.sstr-api.xyz, port: 443, type: trojan, password: W3ADSjTHjxN3Nt28WC, sni: pro-us1-1.sstr-api.xyz}
-  - {name: 🇺🇲 adi|0323 - 美国 2, server: pro-us1-2.sstr-api.xyz, port: 443, type: trojan, password: W3ADSjTHjxN3Nt28WC, sni: pro-us1-2.sstr-api.xyz}
-  - {name: adi|0323 - seoul_2, server: fuckxijinping.ga, port: 443, type: trojan, password: 389675ea-fd45-4ccd-be25-4df4dbe8ad7f, sni: fuckxijinping.ga}
-  - {name: adi|0323 - CA_461, server: v2-05.ssrsub.one, port: 443, type: trojan, password: 0ba6c96c-8ca0-458e-81be-678c1d159bb8, sni: v2-05.ssrsub.one}
-  - {name: 🇺🇲 adi|0310T - 美国203.FA, server: pro-us1-3.sstr-api.xyz, port: 443, type: trojan, password: W3ADSjTHjxN3Nt28WC, sni: pro-us1-3.sstr-api.xyz}
-  - {name: adi|0306T - ZZ_1012, server: pro-us1-4.sstr-api.xyz, port: 443, type: trojan, password: W3ADSjTHjxN3Nt28WC, sni: pro-us1-4.sstr-api.xyz}
-  - {name: 🇮🇳 adi|0323 - 印度, server: 107.175.44.192, port: 80, type: vmess, uuid: 84a6b914-a90e-4723-a648-875f77f6e237, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 107.175.44.192}}
-  - {name: 🇭🇰 adi|0323 - 香港, server: gzcm1.955236.xyz, port: 40417, type: vmess, uuid: a8df2c3d-ff27-4c11-81ed-ad9fab1b1f47, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: dmit.hk.lite.dingyue404.xyz}}
-  - {name: 🇯🇵 adi|0323 - 日本, server: 172.67.186.204, port: 443, type: vmess, uuid: f299184b-19e0-41a4-9b4b-65fa8f0e691c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-jp1.ooxc.cc}}
-  - {name: 🇯🇵 adi|0323 - 日本 2, server: xzcu.955236.xyz, port: 40407, type: vmess, uuid: a8df2c3d-ff27-4c11-81ed-ad9fab1b1f47, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sk.jp.osa.dingyue404.xyz}}
-  - {name: 🇯🇵 adi|0323 - 日本 3, server: gzcm1.955236.xyz, port: 40407, type: vmess, uuid: a8df2c3d-ff27-4c11-81ed-ad9fab1b1f47, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sk.jp.osa.dingyue404.xyz}}
-  - {name: 🇯🇵 adi|0323 - 日本 4, server: xd.shcn2.xlddns.xyz, port: 41407, type: vmess, uuid: a8df2c3d-ff27-4c11-81ed-ad9fab1b1f47, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sk.jp.osa.dingyue404.xyz}}
-  - {name: 🇺🇲 adi|0323 - 美国 3, server: gzcm1.955236.xyz, port: 40415, type: vmess, uuid: a8df2c3d-ff27-4c11-81ed-ad9fab1b1f47, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: dmit.us.pro.dingyue404.xyz}}
-  - {name: 🇺🇲 adi|0323 - 美国 4, server: xzcu.955236.xyz, port: 40415, type: vmess, uuid: a8df2c3d-ff27-4c11-81ed-ad9fab1b1f47, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: dmit.us.pro.dingyue404.xyz}}
-  - {name: 🇺🇲 adi|0323 - 美国 5, server: xd.shcn2.xlddns.xyz, port: 40415, type: vmess, uuid: a8df2c3d-ff27-4c11-81ed-ad9fab1b1f47, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: dmit.us.pro.dingyue404.xyz}}
-  - {name: 🇰🇷 adi|0323 - 韩国, server: 152.67.196.3, port: 80, type: vmess, uuid: 0b7175a0-f97c-43d9-83aa-284ddd2be488, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 152.67.196.3}}
-  - {name: 🇰🇷 adi|0323 - 韩国 2, server: gzcm1.955236.xyz, port: 40411, type: vmess, uuid: a8df2c3d-ff27-4c11-81ed-ad9fab1b1f47, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kdc.sk.seoul.dingyue404.xyz}}
-  - {name: 🇰🇷 adi|0323 - 韩国 3, server: xzcu.955236.xyz, port: 40411, type: vmess, uuid: a8df2c3d-ff27-4c11-81ed-ad9fab1b1f47, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kdc.sk.seoul.dingyue404.xyz}}
-  - {name: 🇨🇦 adi|0323 - 加拿大V6, server: www.cloudflare.com, port: 443, type: vmess, uuid: 10965b44-ecb6-4fad-a416-5e41046a3f23, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ssrsubvws, ws-headers: {Host: t1.ssrsub.one}}
-  - {name: 🇰🇷 adi|0323 - 韩国7, server: bigsur.cf, port: 443, type: vmess, uuid: 54d48b3e-89f5-11eb-a57d-560003426bdc, alterId: 12, cipher: auto, tls: true, network: ws, ws-path: /wyCnX5Dc/, ws-headers: {Host: bigsur.cf}}
-  - {name: 🇰🇷 adi|0323 - 韩国 4, server: xd.shcn2.xlddns.xyz, port: 40411, type: vmess, uuid: a8df2c3d-ff27-4c11-81ed-ad9fab1b1f47, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kdc.sk.seoul.dingyue404.xyz}}
-  - {name: 🇺🇲 adi|0323 - US_3177, server: cw.loogsom.xyz, port: 443, type: vmess, uuid: 899ff317-954c-4724-bac6-75bbc48fa4b4, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /v, ws-headers: {Host: cw.loogsom.xyz}}
-  - {name: 🇺🇲 adi|0323 - US_3175, server: ch.loogsom.xyz, port: 443, type: vmess, uuid: d7745e6d-6b3e-4a51-80ca-309cc7751439, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /v, ws-headers: {Host: ch.loogsom.xyz}}
-  - {name: 🇺🇲 adi|0323 - US_3173, server: 104.24.96.0, port: 443, type: vmess, uuid: 896a7331-2e47-4f1b-b688-1ceb1c4ae542, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /liuwei, ws-headers: {Host: 1us.liuwei.gq}}
-  - {name: 🇺🇲 adi|0323 - US_3170, server: 104.21.94.245, port: 443, type: vmess, uuid: 56d7b28c-65fe-4250-820c-84a8a288091c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: free.fqvps.casa}}
-  - {name: 🇺🇲 adi|0323 - US_3167, server: cl.loogsom.xyz, port: 443, type: vmess, uuid: 7664835f-cad8-4c31-931d-681aa8ed6614, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /v, ws-headers: {Host: cl.loogsom.xyz}}
-  - {name: 🇺🇲 adi|0323 - US_2748, server: free.fqvps.casa, port: 443, type: vmess, uuid: 56d7b28c-65fe-4250-820c-84a8a288091c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: free.fqvps.casa}}
-  - {name: 🇨🇳 adi|0323 - TW_621, server: twpro6025.azzico.space, port: 11554, type: vmess, uuid: 8bdd2925-7218-314b-987a-dcbb44d09852, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: twpro6024.azzico.pw}}
-  - {name: adi|0323 - topcc.gq, server: 104.16.52.136, port: 443, type: vmess, uuid: af2ecec6-f593-3ed8-b8c8-5e1030654aea, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: curly-wave-0dfa.pkplay7.workers.dev}}
-  - {name: 🇷🇺 adi|0323 - RU_1941, server: 45.147.200.224, port: 443, type: vmess, uuid: 2c8b12ad-d487-40e3-9d9d-35d29c970a31, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /tsutsu, ws-headers: {Host: 45.147.200.224}}
-  - {name: 🇭🇰 adi|0323 - HK_1578, server: 58.177.131.223, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
-  - {name: 🇭🇰 adi|0323 - HK_1228, server: centos.fuchau.xyz, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
-  - {name: adi|0323 - Alien, server: transite-shcu03.iplc188.com, port: 10001, type: vmess, uuid: 9c6de765-2eb9-4b7e-b567-d780f64155d0, alterId: 0, cipher: auto, tls: false}
-  - {name: adi|0323 - Alien 2, server: gzcm01.iplc188.com, port: 10011, type: vmess, uuid: bbeca80d-9fa7-4bd7-b2d7-da4b5e76e0d2, alterId: 0, cipher: auto, tls: false}
-  - {name: adi|0323 - 52.246.186.214, server: 52.246.186.214, port: 11143, type: vmess, uuid: b877ef92-9e3b-47de-b879-a1539ce50430, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.246.186.214}}
-  - {name: adi|0320 - v2rayfreeCFCDN, server: 104.27.36.36, port: 443, type: vmess, uuid: 56d7b28c-65fe-4250-820c-84a8a288091c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: free.fqvps.casa}}
-  - {name: 🇰🇷 adi|0320 - KR_3277, server: 104.19.23.24, port: 443, type: vmess, uuid: 0926b599-3683-49e0-b53a-2cbfa87b4826, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: trump-fuck-gfw.cloudflare2020.ga}}
-  - {name: 🇯🇵 adi|0320 - Japan直连-IIJ, server: sakura828.tsutsu.cc, port: 443, type: vmess, uuid: 25eb816a-0baf-4d52-81f2-3d786418e087, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /tsutsu, ws-headers: {Host: sakura828.tsutsu.cc}}
-  - {name: 🇩🇪 adi|0319 - 德国, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 adi|0319 - DE_2932, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: adi|0319 - CA_476, server: 132.145.111.134, port: 443, type: vmess, uuid: bae399d4-13a4-46a3-b144-4af2c0004c2e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 132.145.111.134}}
-  - {name: 🇺🇲 adi|0313 - 圣何塞44.192, server: 107.175.44.192, port: 80, type: vmess, uuid: 84a6b914-a90e-4723-a648-875f77f6e237, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 107.175.44.192}}
-  - {name: 🇷🇺 adi|0313 - RU_2090, server: ru05.tsutsu.cc, port: 443, type: vmess, uuid: 2c8b12ad-d487-40e3-9d9d-35d29c970a31, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /tsutsu, ws-headers: {Host: ru05.tsutsu.cc}}
-  - {name: 🇬🇧 adi|0323 - 英国, server: 185.44.78.174, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 adi|0323 - 英国 2, server: 81.19.214.36, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇬🇧 adi|0323 - 英国 3, server: 185.141.206.182, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 adi|0323 - 英国 4, server: 185.44.76.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇮🇳 adi|0323 - 印度 2, server: 103.120.66.229, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇲 adi|0323 - 美国 6, server: 217.138.222.53, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇲 adi|0323 - 美国 7, server: 155.254.29.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 adi|0323 - 美国 8, server: 217.138.222.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: adi|0323 - 罗马, server: 193.29.107.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0323 - 罗马 2, server: 193.29.107.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: adi|0323 - 罗马 3, server: 193.29.107.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0323 - 克罗地亚, server: 176.222.34.113, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇳🇱 adi|0323 - 荷兰, server: 212.102.35.201, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇺 adi|0323 - 俄罗斯, server: 95.57.207.206, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇬🇧 adi|0323 - 英国M247网络 7, server: 89.238.130.253, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0323 - 伊朗  16, server: 185.108.106.184, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0323 - 伊朗  10, server: 185.108.106.106, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇭 adi|0323 - 瑞士  19, server: 185.124.240.151, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0323 - 欧洲  9, server: 138.199.40.169, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: adi|0323 - 欧洲  6, server: 185.38.148.228, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: adi|0323 - 欧盟  21, server: 45.89.173.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 adi|0323 - 美国  31, server: 199.36.221.111, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 adi|0323 - 美国  26, server: 173.237.207.44, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 adi|0323 - 美国  15, server: 209.216.92.5, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇲 adi|0323 - 美国  13, server: 143.244.56.230, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 adi|0323 - 罗马尼亚  29, server: 194.37.98.229, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇦 adi|0323 - 加拿大  53, server: ss-03.ssrsub.one, port: 192, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub}
-  - {name: 🇫🇮 adi|0323 - 芬兰  36, server: 196.244.191.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇫🇮 adi|0323 - 芬兰  34, server: 196.244.191.109, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇫🇮 adi|0323 - 芬兰  32, server: 196.244.191.45, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇫🇮 adi|0323 - 芬兰  12, server: 196.244.191.109, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇩🇪 adi|0323 - 德国  40, server: 185.102.217.159, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇪 adi|0323 - 德国  24, server: 185.2.100.168, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 adi|0323 - 北美地区  14, server: 199.10.64.133, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 adi|0320 - 英国 15, server: ss.uk.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
-  - {name: 🇬🇧 adi|0320 - 英国 10, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: cWv8FcJk0VpS}
-  - {name: 🇬🇧 adi|0320 - 英国, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇯🇵 adi|0325 - 日本, server: gzcm1.955236.xyz, port: 40407, type: vmess, uuid: 941f7535-d47f-4112-b9ce-aad574e83723, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sk.jp.osa.dingyue404.xyz}}
+  - {name: 🇰🇷 adi|0325 - 韩国, server: xzcu.955236.xyz, port: 40411, type: vmess, uuid: 941f7535-d47f-4112-b9ce-aad574e83723, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: kdc.sk.seoul.dingyue404.xyz}}
+  - {name: 🇯🇵 adi|0325 - JP_1888, server: 139.180.195.196, port: 35465, type: vmess, uuid: c3acbe7d-6401-4116-a5a3-d3f0a2ee6ba3, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 adi|0325 - 美国, server: 104.200.131.245, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇯🇵 adi|0325 - JP_1548, server: 139.180.195.196, port: 35465, type: vmess, uuid: c3acbe7d-6401-4116-a5a3-d3f0a2ee6ba3, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 adi|0325 - 日本 2, server: xzcu.955236.xyz, port: 40407, type: vmess, uuid: 941f7535-d47f-4112-b9ce-aad574e83723, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: sk.jp.osa.dingyue404.xyz}}
+  - {name: adi|0325 - 伊朗, server: 185.108.106.102, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇩🇰 adi|0325 - 丹麦4, server: 195.181.171.238, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇲 adi|0325 - 美国 2, server: 66.115.182.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0325 - 欧洲1, server: 138.199.9.202, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇩🇪 adi|0325 - 德国V16, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: adi|0325 - 西班牙, server: 37.120.194.165, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇫🇮 adi|0325 - 芬兰, server: 194.110.115.245, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇸🇬 adi|0325 - 新西兰, server: 185.108.106.102, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇰 adi|0320 - 丹麦, server: 37.120.194.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇩🇰 adi|0320 - 丹麦 2, server: 37.120.194.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 adi|0319 - 美国, server: 143.244.60.174, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 adi|0323 - 美国, server: 217.138.222.53, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇫🇮 adi|0325 - 芬兰 2, server: 194.110.115.75, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 adi|0325 - 美国 3, server: 45.43.19.82, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇸🇬 adi|0325 - 新西兰 2, server: 185.108.106.102, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: adi|0325 - 伊朗 2, server: 185.108.106.171, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇪 adi|0319 - 德国, server: 37.120.194.165, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇸🇬 adi|0320 - 新加坡, server: 156.146.62.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇳 adi|0320 - 台湾, server: 2.58.242.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇨🇳 adi|0320 - 台湾 2, server: 2.58.242.51, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇨🇳 adi|0320 - 台湾 3, server: 2.58.242.53, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇨🇳 adi|0320 - 台湾 4, server: 2.58.242.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇳 adi|0320 - 台湾 5, server: 2.58.242.51, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇨🇳 adi|0320 - 台湾 6, server: 2.58.242.51, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 adi|0320 - 美国, server: 193.29.107.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0320 - 捷克, server: 89.187.168.44, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇳🇱 adi|0323 - 荷兰, server: 212.102.35.201, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇳🇱 adi|0313 - 荷兰223.192, server: 89.46.223.192, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇺 adi|0325 - 俄罗斯V5, server: 45.147.200.224, port: 443, type: vmess, uuid: 2c8b12ad-d487-40e3-9d9d-35d29c970a31, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /tsutsu, ws-headers: {Host: ru05.tsutsu.cc}}
+  - {name: 🇺🇲 adi|0325 - 美国 4, server: xzcu.955236.xyz, port: 40415, type: vmess, uuid: 941f7535-d47f-4112-b9ce-aad574e83723, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: dmit.us.pro.dingyue404.xyz}}
+  - {name: 🇮🇪 adi|0325 - 爱尔兰, server: 217.138.222.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇩🇰 adi|0320 - 丹麦 3, server: 37.120.194.125, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇩🇪 adi|0319 - 德国 2, server: 217.138.222.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇦🇹 adi|0319 - 奥地利, server: 89.187.168.56, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇫🇮 adi|0325 - 芬兰 3, server: 196.244.191.35, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0323 - 罗马, server: 193.29.107.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 adi|0320 - 美国 2, server: 193.29.107.93, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0320 - 27, server: 212.102.35.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: adi|0320 - 斯洛伐克, server: 37.120.221.5, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
   - {name: adi|0320 - 斯洛伐克 2, server: 37.120.221.5, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: adi|0320 - 斯洛伐克 3, server: 37.120.221.5, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: adi|0320 - 斯洛伐克 4, server: 37.120.221.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇭 adi|0320 - 瑞士, server: 194.41.112.11, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 adi|0320 - 美国数据中心 16, server: ss.us.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD}
-  - {name: 🇺🇲 adi|0320 - 美国  11, server: ss.ru.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: QDDRsUq0FPi9}
-  - {name: 🇺🇲 adi|0320 - 美国, server: 193.29.107.93, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 adi|0320 - 美国 2, server: 193.29.107.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0320 - 捷克, server: 89.187.168.44, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: adi|0320 - 哈萨克斯坦, server: 95.57.207.206, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: adi|0320 - 哈萨克斯坦 2, server: 95.57.207.206, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: adi|0320 - 哈萨克斯坦 3, server: 95.57.207.206, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇩🇰 adi|0320 - 丹麦, server: 37.120.194.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇩🇰 adi|0320 - 丹麦 2, server: 37.120.194.125, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 adi|0320 - 丹麦 3, server: 37.120.194.165, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇩🇰 adi|0320 - 丹麦 4, server: 37.120.194.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇰 adi|0320 - 丹麦 5, server: 37.120.194.125, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇩🇰 adi|0320 - 丹麦 6, server: 37.120.194.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: adi|0320 - 波兰, server: 91.205.230.168, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0320 - 53, server: 89.45.7.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0320 - 52, server: 89.45.7.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0320 - 43, server: 37.120.221.5, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: adi|0320 - 39, server: 37.120.221.5, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: adi|0320 - 38, server: 37.120.221.5, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: adi|0320 - 36, server: 37.120.194.93, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0320 - 35, server: 37.120.194.91, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: adi|0320 - 27, server: 212.102.35.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0320 - 24, server: 2.58.46.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0320 - 21, server: 2.58.242.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: adi|0320 - 20, server: 2.58.242.53, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: adi|0320 - 13, server: 176.222.34.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇨🇳 adi|0319 - 台湾, server: 2.58.242.131, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇲 adi|0319 - 美国, server: 143.244.60.174, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: adi|0319 - 格鲁吉亚7, server: 176.125.231.29, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇩🇪 adi|0319 - 德国 2, server: 37.120.194.109, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇪 adi|0319 - 德国 3, server: 217.138.222.53, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇩🇪 adi|0319 - 德国 4, server: 217.138.222.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇪 adi|0319 - 德国 5, server: 37.120.194.165, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇪 adi|0319 - 德国 6, server: 89.187.168.46, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇪 adi|0319 - 德国 7, server: 194.41.112.11, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇦🇺 adi|0319 - 澳大利亚8, server: 180.149.228.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇦🇺 adi|0319 - 澳大利亚6, server: 180.149.228.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇦🇹 adi|0319 - 奥地利, server: 89.187.168.41, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: 🇦🇹 adi|0319 - 奥地利 2, server: 89.187.168.41, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇦🇹 adi|0319 - 奥地利 3, server: 89.187.168.56, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇦🇹 adi|0319 - 奥地利 4, server: 89.187.168.44, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇦🇹 adi|0319 - 奥地利 5, server: 89.187.168.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇦🇹 adi|0319 - 奥地利 6, server: 89.187.168.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇦🇷 adi|0319 - 阿根廷9, server: 91.206.168.19, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇦🇷 adi|0319 - 阿根廷, server: 91.206.168.34, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇦🇷 adi|0319 - 阿根廷 2, server: 91.206.168.19, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇦🇷 adi|0319 - 阿根廷 3, server: 91.206.168.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇦🇷 adi|0319 - 阿根廷 4, server: 91.206.168.34, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇦🇷 adi|0319 - 阿根廷 5, server: 91.206.168.36, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇦🇷 adi|0319 - 阿根廷 6, server: 91.206.168.26, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: adi|0319 - 阿尔巴尼亚, server: 31.171.153.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0319 - 阿尔巴尼亚 2, server: 31.171.153.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 adi|0313 - 美国137.149, server: 86.106.137.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇳🇱 adi|0313 - 荷兰35.216, server: 212.102.35.216, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧 adi|0323 - 英国, server: 81.19.214.36, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇦🇹 adi|0319 - 奥地利 3, server: 89.187.168.44, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇮🇪 adi|0325 - 爱尔兰 2, server: 217.138.222.53, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇫🇮 adi|0325 - 芬兰 4, server: 196.244.191.35, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇫🇮 adi|0325 - 芬兰 5, server: 196.244.191.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇪 adi|0319 - 德国 3, server: 37.120.194.109, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0320 - 38, server: 37.120.221.5, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: adi|0323 - 克罗地亚, server: 176.222.34.113, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇳🇱 adi|0313 - 荷兰35.206, server: 212.102.35.206, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇳🇱 adi|0313 - 荷兰223.192, server: 89.46.223.192, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0325 - 西班牙 2, server: 87.239.254.20, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0325 - 伊朗 3, server: 185.108.106.102, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇬🇧 adi|0325 - 英国, server: 91.206.168.26, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: adi|0323 - 罗马 2, server: 193.29.107.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇸🇬 adi|0325 - 新加坡, server: sg1322.azzico.space, port: 11558, type: vmess, uuid: 15a76c75-da8a-3de2-bdc2-3bbd389d7ee1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: sg1322.azzico.space}}
+  - {name: adi|0325 - 波兰, server: 5.133.8.117, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0325 - 克罗地亚, server: 176.222.34.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: adi|0325 - 西班牙 3, server: 37.120.148.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇦🇹 adi|0319 - 奥地利 4, server: 89.187.168.41, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: adi|0320 - 53, server: 89.45.7.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇪 adi|0325 - 德国, server: 45.134.224.10, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇪 adi|0325 - 德国 2, server: 176.227.241.31, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇫🇮 adi|0325 - 芬兰 6, server: 196.244.191.93, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0325 - 拉脱维亚, server: 188.92.78.152, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0325 - 西班牙 4, server: 37.120.148.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧 adi|0325 - 英国 2, server: 91.206.168.19, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇦🇹 adi|0319 - 奥地利 5, server: 89.187.168.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0323 - 美国 2, server: 217.138.222.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: adi|0320 - 波兰, server: 91.205.230.168, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0325 - 葡萄牙, server: 185.153.151.80, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇬🇧 adi|0325 - 英国 3, server: 91.206.168.19, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇬🇧 adi|0325 - 英国 4, server: 91.206.168.36, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇭 adi|0320 - 瑞士, server: 194.41.112.11, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0325 - 克罗地亚 2, server: 176.227.241.26, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇭 adi|0325 - 瑞士, server: 194.41.112.11, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇨🇭 adi|0325 - 瑞士 2, server: 194.41.112.9, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇬🇧 adi|0325 - 英国 5, server: 91.206.168.19, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇦🇷 adi|0319 - 阿根廷, server: 91.206.168.34, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇦🇷 adi|0319 - 阿根廷 2, server: 91.206.168.34, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: adi|0320 - 35, server: 37.120.194.91, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: adi|0323 - seoul_2, server: fuckxijinping.ga, port: 443, type: trojan, password: 389675ea-fd45-4ccd-be25-4df4dbe8ad7f, sni: fuckxijinping.ga}
+  - {name: adi|0323 - CA_461, server: v2-05.ssrsub.one, port: 443, type: trojan, password: 0ba6c96c-8ca0-458e-81be-678c1d159bb8, sni: v2-05.ssrsub.one}
+  - {name: 🇺🇲 adi|0323 - 美国 3, server: pro-us1-2.sstr-api.xyz, port: 443, type: trojan, password: W3ADSjTHjxN3Nt28WC, sni: pro-us1-2.sstr-api.xyz}
+  - {name: 🇺🇲 adi|0323 - 美国 4, server: pro-us1-1.sstr-api.xyz, port: 443, type: trojan, password: W3ADSjTHjxN3Nt28WC, sni: pro-us1-1.sstr-api.xyz}
+  - {name: adi|0306T - ZZ_1012, server: pro-us1-4.sstr-api.xyz, port: 443, type: trojan, password: W3ADSjTHjxN3Nt28WC, sni: pro-us1-4.sstr-api.xyz}
+  - {name: 🇺🇲 adi|0310T - 美国203.FA, server: pro-us1-3.sstr-api.xyz, port: 443, type: trojan, password: W3ADSjTHjxN3Nt28WC, sni: pro-us1-3.sstr-api.xyz}
+  - {name: 🇺🇲 adi|0325 - US_2896, server: trojan.internet-cloudflare-accelerate.tk, port: 443, type: trojan, password: 52147717-3969-4dc9-8c18-883c8b3becfe, sni: trojan.internet-cloudflare-accelerate.tk}
+  - {name: 🇷🇺 adi|0325 - RU_2014, server: v2-11.ssrsub.one, port: 443, type: trojan, password: 9a02c8a2-5d94-455a-a12c-ae3386d2cbc6, sni: v2-11.ssrsub.one}
+  - {name: 🇯🇵 adi|0325 - JP_1558, server: trojan.yangxifang.tk, port: 443, type: trojan, password: hPqAIpjl, sni: trojan.yangxifang.tk}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -161,464 +101,284 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - DIRECT
-      - 🇺🇲 adi|0323 - 美国
-      - 🇺🇲 adi|0323 - 美国 2
-      - adi|0323 - seoul_2
-      - adi|0323 - CA_461
-      - 🇺🇲 adi|0310T - 美国203.FA
-      - adi|0306T - ZZ_1012
-      - 🇮🇳 adi|0323 - 印度
-      - 🇭🇰 adi|0323 - 香港
-      - 🇯🇵 adi|0323 - 日本
-      - 🇯🇵 adi|0323 - 日本 2
-      - 🇯🇵 adi|0323 - 日本 3
-      - 🇯🇵 adi|0323 - 日本 4
-      - 🇺🇲 adi|0323 - 美国 3
-      - 🇺🇲 adi|0323 - 美国 4
-      - 🇺🇲 adi|0323 - 美国 5
-      - 🇰🇷 adi|0323 - 韩国
-      - 🇰🇷 adi|0323 - 韩国 2
-      - 🇰🇷 adi|0323 - 韩国 3
-      - 🇨🇦 adi|0323 - 加拿大V6
-      - 🇰🇷 adi|0323 - 韩国7
-      - 🇰🇷 adi|0323 - 韩国 4
-      - 🇺🇲 adi|0323 - US_3177
-      - 🇺🇲 adi|0323 - US_3175
-      - 🇺🇲 adi|0323 - US_3173
-      - 🇺🇲 adi|0323 - US_3170
-      - 🇺🇲 adi|0323 - US_3167
-      - 🇺🇲 adi|0323 - US_2748
-      - 🇨🇳 adi|0323 - TW_621
-      - adi|0323 - topcc.gq
-      - 🇷🇺 adi|0323 - RU_1941
-      - 🇭🇰 adi|0323 - HK_1578
-      - 🇭🇰 adi|0323 - HK_1228
-      - adi|0323 - Alien
-      - adi|0323 - Alien 2
-      - adi|0323 - 52.246.186.214
-      - adi|0320 - v2rayfreeCFCDN
-      - 🇰🇷 adi|0320 - KR_3277
-      - 🇯🇵 adi|0320 - Japan直连-IIJ
-      - 🇩🇪 adi|0319 - 德国
-      - 🇩🇪 adi|0319 - DE_2932
-      - adi|0319 - CA_476
-      - 🇺🇲 adi|0313 - 圣何塞44.192
-      - 🇷🇺 adi|0313 - RU_2090
-      - 🇬🇧 adi|0323 - 英国
-      - 🇬🇧 adi|0323 - 英国 2
-      - 🇬🇧 adi|0323 - 英国 3
-      - 🇬🇧 adi|0323 - 英国 4
-      - 🇮🇳 adi|0323 - 印度 2
-      - 🇺🇲 adi|0323 - 美国 6
-      - 🇺🇲 adi|0323 - 美国 7
-      - 🇺🇲 adi|0323 - 美国 8
-      - adi|0323 - 罗马
-      - adi|0323 - 罗马 2
-      - adi|0323 - 罗马 3
-      - adi|0323 - 克罗地亚
-      - 🇳🇱 adi|0323 - 荷兰
-      - 🇷🇺 adi|0323 - 俄罗斯
-      - 🇬🇧 adi|0323 - 英国M247网络 7
-      - adi|0323 - 伊朗  16
-      - adi|0323 - 伊朗  10
-      - 🇨🇭 adi|0323 - 瑞士  19
-      - adi|0323 - 欧洲  9
-      - adi|0323 - 欧洲  6
-      - adi|0323 - 欧盟  21
-      - 🇺🇲 adi|0323 - 美国  31
-      - 🇺🇲 adi|0323 - 美国  26
-      - 🇺🇲 adi|0323 - 美国  15
-      - 🇺🇲 adi|0323 - 美国  13
-      - 🇷🇴 adi|0323 - 罗马尼亚  29
-      - 🇨🇦 adi|0323 - 加拿大  53
-      - 🇫🇮 adi|0323 - 芬兰  36
-      - 🇫🇮 adi|0323 - 芬兰  34
-      - 🇫🇮 adi|0323 - 芬兰  32
-      - 🇫🇮 adi|0323 - 芬兰  12
-      - 🇩🇪 adi|0323 - 德国  40
-      - 🇩🇪 adi|0323 - 德国  24
-      - 🇺🇲 adi|0323 - 北美地区  14
-      - 🇬🇧 adi|0320 - 英国 15
-      - 🇬🇧 adi|0320 - 英国 10
-      - 🇬🇧 adi|0320 - 英国
-      - 🇸🇬 adi|0320 - 新加坡
-      - 🇨🇳 adi|0320 - 台湾
-      - 🇨🇳 adi|0320 - 台湾 2
-      - 🇨🇳 adi|0320 - 台湾 3
-      - 🇨🇳 adi|0320 - 台湾 4
-      - 🇨🇳 adi|0320 - 台湾 5
-      - 🇨🇳 adi|0320 - 台湾 6
-      - adi|0320 - 斯洛伐克
-      - adi|0320 - 斯洛伐克 2
-      - adi|0320 - 斯洛伐克 3
-      - adi|0320 - 斯洛伐克 4
-      - 🇨🇭 adi|0320 - 瑞士
-      - 🇺🇲 adi|0320 - 美国数据中心 16
-      - 🇺🇲 adi|0320 - 美国  11
-      - 🇺🇲 adi|0320 - 美国
-      - 🇺🇲 adi|0320 - 美国 2
-      - adi|0320 - 捷克
-      - adi|0320 - 哈萨克斯坦
-      - adi|0320 - 哈萨克斯坦 2
-      - adi|0320 - 哈萨克斯坦 3
+      - 🇯🇵 adi|0325 - 日本
+      - 🇰🇷 adi|0325 - 韩国
+      - 🇯🇵 adi|0325 - JP_1888
+      - 🇺🇲 adi|0325 - 美国
+      - 🇯🇵 adi|0325 - JP_1548
+      - 🇯🇵 adi|0325 - 日本 2
+      - adi|0325 - 伊朗
+      - 🇩🇰 adi|0325 - 丹麦4
+      - 🇺🇲 adi|0325 - 美国 2
+      - adi|0325 - 欧洲1
+      - 🇩🇪 adi|0325 - 德国V16
+      - adi|0325 - 西班牙
+      - 🇫🇮 adi|0325 - 芬兰
+      - 🇸🇬 adi|0325 - 新西兰
       - 🇩🇰 adi|0320 - 丹麦
       - 🇩🇰 adi|0320 - 丹麦 2
-      - 🇩🇰 adi|0320 - 丹麦 3
-      - 🇩🇰 adi|0320 - 丹麦 4
-      - 🇩🇰 adi|0320 - 丹麦 5
-      - 🇩🇰 adi|0320 - 丹麦 6
-      - adi|0320 - 波兰
-      - adi|0320 - 53
-      - adi|0320 - 52
-      - adi|0320 - 43
-      - adi|0320 - 39
-      - adi|0320 - 38
-      - adi|0320 - 36
-      - adi|0320 - 35
-      - adi|0320 - 27
-      - adi|0320 - 24
-      - adi|0320 - 21
-      - adi|0320 - 20
-      - adi|0320 - 13
-      - 🇨🇳 adi|0319 - 台湾
       - 🇺🇲 adi|0319 - 美国
-      - adi|0319 - 格鲁吉亚7
+      - 🇺🇲 adi|0323 - 美国
+      - 🇫🇮 adi|0325 - 芬兰 2
+      - 🇺🇲 adi|0325 - 美国 3
+      - 🇸🇬 adi|0325 - 新西兰 2
+      - adi|0325 - 伊朗 2
+      - 🇩🇪 adi|0319 - 德国
+      - 🇸🇬 adi|0320 - 新加坡
+      - 🇺🇲 adi|0320 - 美国
+      - adi|0320 - 捷克
+      - 🇳🇱 adi|0323 - 荷兰
+      - 🇳🇱 adi|0313 - 荷兰223.192
+      - 🇷🇺 adi|0325 - 俄罗斯V5
+      - 🇺🇲 adi|0325 - 美国 4
+      - 🇮🇪 adi|0325 - 爱尔兰
+      - 🇩🇰 adi|0320 - 丹麦 3
       - 🇩🇪 adi|0319 - 德国 2
-      - 🇩🇪 adi|0319 - 德国 3
-      - 🇩🇪 adi|0319 - 德国 4
-      - 🇩🇪 adi|0319 - 德国 5
-      - 🇩🇪 adi|0319 - 德国 6
-      - 🇩🇪 adi|0319 - 德国 7
-      - 🇦🇺 adi|0319 - 澳大利亚8
-      - 🇦🇺 adi|0319 - 澳大利亚6
       - 🇦🇹 adi|0319 - 奥地利
+      - 🇫🇮 adi|0325 - 芬兰 3
+      - adi|0323 - 罗马
+      - 🇺🇲 adi|0320 - 美国 2
+      - adi|0320 - 27
+      - adi|0320 - 斯洛伐克
+      - adi|0320 - 斯洛伐克 2
       - 🇦🇹 adi|0319 - 奥地利 2
+      - 🇬🇧 adi|0323 - 英国
       - 🇦🇹 adi|0319 - 奥地利 3
+      - 🇮🇪 adi|0325 - 爱尔兰 2
+      - 🇫🇮 adi|0325 - 芬兰 4
+      - 🇫🇮 adi|0325 - 芬兰 5
+      - 🇩🇪 adi|0319 - 德国 3
+      - adi|0320 - 38
+      - adi|0323 - 克罗地亚
+      - 🇳🇱 adi|0313 - 荷兰35.206
+      - adi|0325 - 西班牙 2
+      - adi|0325 - 伊朗 3
+      - 🇬🇧 adi|0325 - 英国
+      - adi|0323 - 罗马 2
+      - 🇸🇬 adi|0325 - 新加坡
+      - adi|0325 - 波兰
+      - adi|0325 - 克罗地亚
+      - adi|0325 - 西班牙 3
       - 🇦🇹 adi|0319 - 奥地利 4
+      - adi|0320 - 53
+      - 🇩🇪 adi|0325 - 德国
+      - 🇩🇪 adi|0325 - 德国 2
+      - 🇫🇮 adi|0325 - 芬兰 6
+      - adi|0325 - 拉脱维亚
+      - adi|0325 - 西班牙 4
+      - 🇬🇧 adi|0325 - 英国 2
       - 🇦🇹 adi|0319 - 奥地利 5
-      - 🇦🇹 adi|0319 - 奥地利 6
-      - 🇦🇷 adi|0319 - 阿根廷9
+      - 🇺🇲 adi|0323 - 美国 2
+      - adi|0320 - 波兰
+      - adi|0325 - 葡萄牙
+      - 🇬🇧 adi|0325 - 英国 3
+      - 🇬🇧 adi|0325 - 英国 4
+      - 🇨🇭 adi|0320 - 瑞士
+      - adi|0325 - 克罗地亚 2
+      - 🇨🇭 adi|0325 - 瑞士
+      - 🇨🇭 adi|0325 - 瑞士 2
+      - 🇬🇧 adi|0325 - 英国 5
       - 🇦🇷 adi|0319 - 阿根廷
       - 🇦🇷 adi|0319 - 阿根廷 2
-      - 🇦🇷 adi|0319 - 阿根廷 3
-      - 🇦🇷 adi|0319 - 阿根廷 4
-      - 🇦🇷 adi|0319 - 阿根廷 5
-      - 🇦🇷 adi|0319 - 阿根廷 6
-      - adi|0319 - 阿尔巴尼亚
-      - adi|0319 - 阿尔巴尼亚 2
-      - 🇺🇲 adi|0313 - 美国137.149
-      - 🇳🇱 adi|0313 - 荷兰35.216
-      - 🇳🇱 adi|0313 - 荷兰35.206
-      - 🇳🇱 adi|0313 - 荷兰223.192
+      - adi|0320 - 35
+      - adi|0323 - seoul_2
+      - adi|0323 - CA_461
+      - 🇺🇲 adi|0323 - 美国 3
+      - 🇺🇲 adi|0323 - 美国 4
+      - adi|0306T - ZZ_1012
+      - 🇺🇲 adi|0310T - 美国203.FA
+      - 🇺🇲 adi|0325 - US_2896
+      - 🇷🇺 adi|0325 - RU_2014
+      - 🇯🇵 adi|0325 - JP_1558
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 adi|0323 - 美国
-      - 🇺🇲 adi|0323 - 美国 2
-      - adi|0323 - seoul_2
-      - adi|0323 - CA_461
-      - 🇺🇲 adi|0310T - 美国203.FA
-      - adi|0306T - ZZ_1012
-      - 🇮🇳 adi|0323 - 印度
-      - 🇭🇰 adi|0323 - 香港
-      - 🇯🇵 adi|0323 - 日本
-      - 🇯🇵 adi|0323 - 日本 2
-      - 🇯🇵 adi|0323 - 日本 3
-      - 🇯🇵 adi|0323 - 日本 4
-      - 🇺🇲 adi|0323 - 美国 3
-      - 🇺🇲 adi|0323 - 美国 4
-      - 🇺🇲 adi|0323 - 美国 5
-      - 🇰🇷 adi|0323 - 韩国
-      - 🇰🇷 adi|0323 - 韩国 2
-      - 🇰🇷 adi|0323 - 韩国 3
-      - 🇨🇦 adi|0323 - 加拿大V6
-      - 🇰🇷 adi|0323 - 韩国7
-      - 🇰🇷 adi|0323 - 韩国 4
-      - 🇺🇲 adi|0323 - US_3177
-      - 🇺🇲 adi|0323 - US_3175
-      - 🇺🇲 adi|0323 - US_3173
-      - 🇺🇲 adi|0323 - US_3170
-      - 🇺🇲 adi|0323 - US_3167
-      - 🇺🇲 adi|0323 - US_2748
-      - 🇨🇳 adi|0323 - TW_621
-      - adi|0323 - topcc.gq
-      - 🇷🇺 adi|0323 - RU_1941
-      - 🇭🇰 adi|0323 - HK_1578
-      - 🇭🇰 adi|0323 - HK_1228
-      - adi|0323 - Alien
-      - adi|0323 - Alien 2
-      - adi|0323 - 52.246.186.214
-      - adi|0320 - v2rayfreeCFCDN
-      - 🇰🇷 adi|0320 - KR_3277
-      - 🇯🇵 adi|0320 - Japan直连-IIJ
-      - 🇩🇪 adi|0319 - 德国
-      - 🇩🇪 adi|0319 - DE_2932
-      - adi|0319 - CA_476
-      - 🇺🇲 adi|0313 - 圣何塞44.192
-      - 🇷🇺 adi|0313 - RU_2090
-      - 🇬🇧 adi|0323 - 英国
-      - 🇬🇧 adi|0323 - 英国 2
-      - 🇬🇧 adi|0323 - 英国 3
-      - 🇬🇧 adi|0323 - 英国 4
-      - 🇮🇳 adi|0323 - 印度 2
-      - 🇺🇲 adi|0323 - 美国 6
-      - 🇺🇲 adi|0323 - 美国 7
-      - 🇺🇲 adi|0323 - 美国 8
-      - adi|0323 - 罗马
-      - adi|0323 - 罗马 2
-      - adi|0323 - 罗马 3
-      - adi|0323 - 克罗地亚
-      - 🇳🇱 adi|0323 - 荷兰
-      - 🇷🇺 adi|0323 - 俄罗斯
-      - 🇬🇧 adi|0323 - 英国M247网络 7
-      - adi|0323 - 伊朗  16
-      - adi|0323 - 伊朗  10
-      - 🇨🇭 adi|0323 - 瑞士  19
-      - adi|0323 - 欧洲  9
-      - adi|0323 - 欧洲  6
-      - adi|0323 - 欧盟  21
-      - 🇺🇲 adi|0323 - 美国  31
-      - 🇺🇲 adi|0323 - 美国  26
-      - 🇺🇲 adi|0323 - 美国  15
-      - 🇺🇲 adi|0323 - 美国  13
-      - 🇷🇴 adi|0323 - 罗马尼亚  29
-      - 🇨🇦 adi|0323 - 加拿大  53
-      - 🇫🇮 adi|0323 - 芬兰  36
-      - 🇫🇮 adi|0323 - 芬兰  34
-      - 🇫🇮 adi|0323 - 芬兰  32
-      - 🇫🇮 adi|0323 - 芬兰  12
-      - 🇩🇪 adi|0323 - 德国  40
-      - 🇩🇪 adi|0323 - 德国  24
-      - 🇺🇲 adi|0323 - 北美地区  14
-      - 🇬🇧 adi|0320 - 英国 15
-      - 🇬🇧 adi|0320 - 英国 10
-      - 🇬🇧 adi|0320 - 英国
-      - 🇸🇬 adi|0320 - 新加坡
-      - 🇨🇳 adi|0320 - 台湾
-      - 🇨🇳 adi|0320 - 台湾 2
-      - 🇨🇳 adi|0320 - 台湾 3
-      - 🇨🇳 adi|0320 - 台湾 4
-      - 🇨🇳 adi|0320 - 台湾 5
-      - 🇨🇳 adi|0320 - 台湾 6
-      - adi|0320 - 斯洛伐克
-      - adi|0320 - 斯洛伐克 2
-      - adi|0320 - 斯洛伐克 3
-      - adi|0320 - 斯洛伐克 4
-      - 🇨🇭 adi|0320 - 瑞士
-      - 🇺🇲 adi|0320 - 美国数据中心 16
-      - 🇺🇲 adi|0320 - 美国  11
-      - 🇺🇲 adi|0320 - 美国
-      - 🇺🇲 adi|0320 - 美国 2
-      - adi|0320 - 捷克
-      - adi|0320 - 哈萨克斯坦
-      - adi|0320 - 哈萨克斯坦 2
-      - adi|0320 - 哈萨克斯坦 3
+      - 🇯🇵 adi|0325 - 日本
+      - 🇰🇷 adi|0325 - 韩国
+      - 🇯🇵 adi|0325 - JP_1888
+      - 🇺🇲 adi|0325 - 美国
+      - 🇯🇵 adi|0325 - JP_1548
+      - 🇯🇵 adi|0325 - 日本 2
+      - adi|0325 - 伊朗
+      - 🇩🇰 adi|0325 - 丹麦4
+      - 🇺🇲 adi|0325 - 美国 2
+      - adi|0325 - 欧洲1
+      - 🇩🇪 adi|0325 - 德国V16
+      - adi|0325 - 西班牙
+      - 🇫🇮 adi|0325 - 芬兰
+      - 🇸🇬 adi|0325 - 新西兰
       - 🇩🇰 adi|0320 - 丹麦
       - 🇩🇰 adi|0320 - 丹麦 2
-      - 🇩🇰 adi|0320 - 丹麦 3
-      - 🇩🇰 adi|0320 - 丹麦 4
-      - 🇩🇰 adi|0320 - 丹麦 5
-      - 🇩🇰 adi|0320 - 丹麦 6
-      - adi|0320 - 波兰
-      - adi|0320 - 53
-      - adi|0320 - 52
-      - adi|0320 - 43
-      - adi|0320 - 39
-      - adi|0320 - 38
-      - adi|0320 - 36
-      - adi|0320 - 35
-      - adi|0320 - 27
-      - adi|0320 - 24
-      - adi|0320 - 21
-      - adi|0320 - 20
-      - adi|0320 - 13
-      - 🇨🇳 adi|0319 - 台湾
       - 🇺🇲 adi|0319 - 美国
-      - adi|0319 - 格鲁吉亚7
+      - 🇺🇲 adi|0323 - 美国
+      - 🇫🇮 adi|0325 - 芬兰 2
+      - 🇺🇲 adi|0325 - 美国 3
+      - 🇸🇬 adi|0325 - 新西兰 2
+      - adi|0325 - 伊朗 2
+      - 🇩🇪 adi|0319 - 德国
+      - 🇸🇬 adi|0320 - 新加坡
+      - 🇺🇲 adi|0320 - 美国
+      - adi|0320 - 捷克
+      - 🇳🇱 adi|0323 - 荷兰
+      - 🇳🇱 adi|0313 - 荷兰223.192
+      - 🇷🇺 adi|0325 - 俄罗斯V5
+      - 🇺🇲 adi|0325 - 美国 4
+      - 🇮🇪 adi|0325 - 爱尔兰
+      - 🇩🇰 adi|0320 - 丹麦 3
       - 🇩🇪 adi|0319 - 德国 2
-      - 🇩🇪 adi|0319 - 德国 3
-      - 🇩🇪 adi|0319 - 德国 4
-      - 🇩🇪 adi|0319 - 德国 5
-      - 🇩🇪 adi|0319 - 德国 6
-      - 🇩🇪 adi|0319 - 德国 7
-      - 🇦🇺 adi|0319 - 澳大利亚8
-      - 🇦🇺 adi|0319 - 澳大利亚6
       - 🇦🇹 adi|0319 - 奥地利
+      - 🇫🇮 adi|0325 - 芬兰 3
+      - adi|0323 - 罗马
+      - 🇺🇲 adi|0320 - 美国 2
+      - adi|0320 - 27
+      - adi|0320 - 斯洛伐克
+      - adi|0320 - 斯洛伐克 2
       - 🇦🇹 adi|0319 - 奥地利 2
+      - 🇬🇧 adi|0323 - 英国
       - 🇦🇹 adi|0319 - 奥地利 3
+      - 🇮🇪 adi|0325 - 爱尔兰 2
+      - 🇫🇮 adi|0325 - 芬兰 4
+      - 🇫🇮 adi|0325 - 芬兰 5
+      - 🇩🇪 adi|0319 - 德国 3
+      - adi|0320 - 38
+      - adi|0323 - 克罗地亚
+      - 🇳🇱 adi|0313 - 荷兰35.206
+      - adi|0325 - 西班牙 2
+      - adi|0325 - 伊朗 3
+      - 🇬🇧 adi|0325 - 英国
+      - adi|0323 - 罗马 2
+      - 🇸🇬 adi|0325 - 新加坡
+      - adi|0325 - 波兰
+      - adi|0325 - 克罗地亚
+      - adi|0325 - 西班牙 3
       - 🇦🇹 adi|0319 - 奥地利 4
+      - adi|0320 - 53
+      - 🇩🇪 adi|0325 - 德国
+      - 🇩🇪 adi|0325 - 德国 2
+      - 🇫🇮 adi|0325 - 芬兰 6
+      - adi|0325 - 拉脱维亚
+      - adi|0325 - 西班牙 4
+      - 🇬🇧 adi|0325 - 英国 2
       - 🇦🇹 adi|0319 - 奥地利 5
-      - 🇦🇹 adi|0319 - 奥地利 6
-      - 🇦🇷 adi|0319 - 阿根廷9
+      - 🇺🇲 adi|0323 - 美国 2
+      - adi|0320 - 波兰
+      - adi|0325 - 葡萄牙
+      - 🇬🇧 adi|0325 - 英国 3
+      - 🇬🇧 adi|0325 - 英国 4
+      - 🇨🇭 adi|0320 - 瑞士
+      - adi|0325 - 克罗地亚 2
+      - 🇨🇭 adi|0325 - 瑞士
+      - 🇨🇭 adi|0325 - 瑞士 2
+      - 🇬🇧 adi|0325 - 英国 5
       - 🇦🇷 adi|0319 - 阿根廷
       - 🇦🇷 adi|0319 - 阿根廷 2
-      - 🇦🇷 adi|0319 - 阿根廷 3
-      - 🇦🇷 adi|0319 - 阿根廷 4
-      - 🇦🇷 adi|0319 - 阿根廷 5
-      - 🇦🇷 adi|0319 - 阿根廷 6
-      - adi|0319 - 阿尔巴尼亚
-      - adi|0319 - 阿尔巴尼亚 2
-      - 🇺🇲 adi|0313 - 美国137.149
-      - 🇳🇱 adi|0313 - 荷兰35.216
-      - 🇳🇱 adi|0313 - 荷兰35.206
-      - 🇳🇱 adi|0313 - 荷兰223.192
+      - adi|0320 - 35
+      - adi|0323 - seoul_2
+      - adi|0323 - CA_461
+      - 🇺🇲 adi|0323 - 美国 3
+      - 🇺🇲 adi|0323 - 美国 4
+      - adi|0306T - ZZ_1012
+      - 🇺🇲 adi|0310T - 美国203.FA
+      - 🇺🇲 adi|0325 - US_2896
+      - 🇷🇺 adi|0325 - RU_2014
+      - 🇯🇵 adi|0325 - JP_1558
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇺🇲 adi|0323 - 美国
-      - 🇺🇲 adi|0323 - 美国 2
-      - adi|0323 - seoul_2
-      - adi|0323 - CA_461
-      - 🇺🇲 adi|0310T - 美国203.FA
-      - adi|0306T - ZZ_1012
-      - 🇮🇳 adi|0323 - 印度
-      - 🇭🇰 adi|0323 - 香港
-      - 🇯🇵 adi|0323 - 日本
-      - 🇯🇵 adi|0323 - 日本 2
-      - 🇯🇵 adi|0323 - 日本 3
-      - 🇯🇵 adi|0323 - 日本 4
-      - 🇺🇲 adi|0323 - 美国 3
-      - 🇺🇲 adi|0323 - 美国 4
-      - 🇺🇲 adi|0323 - 美国 5
-      - 🇰🇷 adi|0323 - 韩国
-      - 🇰🇷 adi|0323 - 韩国 2
-      - 🇰🇷 adi|0323 - 韩国 3
-      - 🇨🇦 adi|0323 - 加拿大V6
-      - 🇰🇷 adi|0323 - 韩国7
-      - 🇰🇷 adi|0323 - 韩国 4
-      - 🇺🇲 adi|0323 - US_3177
-      - 🇺🇲 adi|0323 - US_3175
-      - 🇺🇲 adi|0323 - US_3173
-      - 🇺🇲 adi|0323 - US_3170
-      - 🇺🇲 adi|0323 - US_3167
-      - 🇺🇲 adi|0323 - US_2748
-      - 🇨🇳 adi|0323 - TW_621
-      - adi|0323 - topcc.gq
-      - 🇷🇺 adi|0323 - RU_1941
-      - 🇭🇰 adi|0323 - HK_1578
-      - 🇭🇰 adi|0323 - HK_1228
-      - adi|0323 - Alien
-      - adi|0323 - Alien 2
-      - adi|0323 - 52.246.186.214
-      - adi|0320 - v2rayfreeCFCDN
-      - 🇰🇷 adi|0320 - KR_3277
-      - 🇯🇵 adi|0320 - Japan直连-IIJ
-      - 🇩🇪 adi|0319 - 德国
-      - 🇩🇪 adi|0319 - DE_2932
-      - adi|0319 - CA_476
-      - 🇺🇲 adi|0313 - 圣何塞44.192
-      - 🇷🇺 adi|0313 - RU_2090
-      - 🇬🇧 adi|0323 - 英国
-      - 🇬🇧 adi|0323 - 英国 2
-      - 🇬🇧 adi|0323 - 英国 3
-      - 🇬🇧 adi|0323 - 英国 4
-      - 🇮🇳 adi|0323 - 印度 2
-      - 🇺🇲 adi|0323 - 美国 6
-      - 🇺🇲 adi|0323 - 美国 7
-      - 🇺🇲 adi|0323 - 美国 8
-      - adi|0323 - 罗马
-      - adi|0323 - 罗马 2
-      - adi|0323 - 罗马 3
-      - adi|0323 - 克罗地亚
-      - 🇳🇱 adi|0323 - 荷兰
-      - 🇷🇺 adi|0323 - 俄罗斯
-      - 🇬🇧 adi|0323 - 英国M247网络 7
-      - adi|0323 - 伊朗  16
-      - adi|0323 - 伊朗  10
-      - 🇨🇭 adi|0323 - 瑞士  19
-      - adi|0323 - 欧洲  9
-      - adi|0323 - 欧洲  6
-      - adi|0323 - 欧盟  21
-      - 🇺🇲 adi|0323 - 美国  31
-      - 🇺🇲 adi|0323 - 美国  26
-      - 🇺🇲 adi|0323 - 美国  15
-      - 🇺🇲 adi|0323 - 美国  13
-      - 🇷🇴 adi|0323 - 罗马尼亚  29
-      - 🇨🇦 adi|0323 - 加拿大  53
-      - 🇫🇮 adi|0323 - 芬兰  36
-      - 🇫🇮 adi|0323 - 芬兰  34
-      - 🇫🇮 adi|0323 - 芬兰  32
-      - 🇫🇮 adi|0323 - 芬兰  12
-      - 🇩🇪 adi|0323 - 德国  40
-      - 🇩🇪 adi|0323 - 德国  24
-      - 🇺🇲 adi|0323 - 北美地区  14
-      - 🇬🇧 adi|0320 - 英国 15
-      - 🇬🇧 adi|0320 - 英国 10
-      - 🇬🇧 adi|0320 - 英国
-      - 🇸🇬 adi|0320 - 新加坡
-      - 🇨🇳 adi|0320 - 台湾
-      - 🇨🇳 adi|0320 - 台湾 2
-      - 🇨🇳 adi|0320 - 台湾 3
-      - 🇨🇳 adi|0320 - 台湾 4
-      - 🇨🇳 adi|0320 - 台湾 5
-      - 🇨🇳 adi|0320 - 台湾 6
-      - adi|0320 - 斯洛伐克
-      - adi|0320 - 斯洛伐克 2
-      - adi|0320 - 斯洛伐克 3
-      - adi|0320 - 斯洛伐克 4
-      - 🇨🇭 adi|0320 - 瑞士
-      - 🇺🇲 adi|0320 - 美国数据中心 16
-      - 🇺🇲 adi|0320 - 美国  11
-      - 🇺🇲 adi|0320 - 美国
-      - 🇺🇲 adi|0320 - 美国 2
-      - adi|0320 - 捷克
-      - adi|0320 - 哈萨克斯坦
-      - adi|0320 - 哈萨克斯坦 2
-      - adi|0320 - 哈萨克斯坦 3
+      - 🇯🇵 adi|0325 - 日本
+      - 🇰🇷 adi|0325 - 韩国
+      - 🇯🇵 adi|0325 - JP_1888
+      - 🇺🇲 adi|0325 - 美国
+      - 🇯🇵 adi|0325 - JP_1548
+      - 🇯🇵 adi|0325 - 日本 2
+      - adi|0325 - 伊朗
+      - 🇩🇰 adi|0325 - 丹麦4
+      - 🇺🇲 adi|0325 - 美国 2
+      - adi|0325 - 欧洲1
+      - 🇩🇪 adi|0325 - 德国V16
+      - adi|0325 - 西班牙
+      - 🇫🇮 adi|0325 - 芬兰
+      - 🇸🇬 adi|0325 - 新西兰
       - 🇩🇰 adi|0320 - 丹麦
       - 🇩🇰 adi|0320 - 丹麦 2
-      - 🇩🇰 adi|0320 - 丹麦 3
-      - 🇩🇰 adi|0320 - 丹麦 4
-      - 🇩🇰 adi|0320 - 丹麦 5
-      - 🇩🇰 adi|0320 - 丹麦 6
-      - adi|0320 - 波兰
-      - adi|0320 - 53
-      - adi|0320 - 52
-      - adi|0320 - 43
-      - adi|0320 - 39
-      - adi|0320 - 38
-      - adi|0320 - 36
-      - adi|0320 - 35
-      - adi|0320 - 27
-      - adi|0320 - 24
-      - adi|0320 - 21
-      - adi|0320 - 20
-      - adi|0320 - 13
-      - 🇨🇳 adi|0319 - 台湾
       - 🇺🇲 adi|0319 - 美国
-      - adi|0319 - 格鲁吉亚7
+      - 🇺🇲 adi|0323 - 美国
+      - 🇫🇮 adi|0325 - 芬兰 2
+      - 🇺🇲 adi|0325 - 美国 3
+      - 🇸🇬 adi|0325 - 新西兰 2
+      - adi|0325 - 伊朗 2
+      - 🇩🇪 adi|0319 - 德国
+      - 🇸🇬 adi|0320 - 新加坡
+      - 🇺🇲 adi|0320 - 美国
+      - adi|0320 - 捷克
+      - 🇳🇱 adi|0323 - 荷兰
+      - 🇳🇱 adi|0313 - 荷兰223.192
+      - 🇷🇺 adi|0325 - 俄罗斯V5
+      - 🇺🇲 adi|0325 - 美国 4
+      - 🇮🇪 adi|0325 - 爱尔兰
+      - 🇩🇰 adi|0320 - 丹麦 3
       - 🇩🇪 adi|0319 - 德国 2
-      - 🇩🇪 adi|0319 - 德国 3
-      - 🇩🇪 adi|0319 - 德国 4
-      - 🇩🇪 adi|0319 - 德国 5
-      - 🇩🇪 adi|0319 - 德国 6
-      - 🇩🇪 adi|0319 - 德国 7
-      - 🇦🇺 adi|0319 - 澳大利亚8
-      - 🇦🇺 adi|0319 - 澳大利亚6
       - 🇦🇹 adi|0319 - 奥地利
+      - 🇫🇮 adi|0325 - 芬兰 3
+      - adi|0323 - 罗马
+      - 🇺🇲 adi|0320 - 美国 2
+      - adi|0320 - 27
+      - adi|0320 - 斯洛伐克
+      - adi|0320 - 斯洛伐克 2
       - 🇦🇹 adi|0319 - 奥地利 2
+      - 🇬🇧 adi|0323 - 英国
       - 🇦🇹 adi|0319 - 奥地利 3
+      - 🇮🇪 adi|0325 - 爱尔兰 2
+      - 🇫🇮 adi|0325 - 芬兰 4
+      - 🇫🇮 adi|0325 - 芬兰 5
+      - 🇩🇪 adi|0319 - 德国 3
+      - adi|0320 - 38
+      - adi|0323 - 克罗地亚
+      - 🇳🇱 adi|0313 - 荷兰35.206
+      - adi|0325 - 西班牙 2
+      - adi|0325 - 伊朗 3
+      - 🇬🇧 adi|0325 - 英国
+      - adi|0323 - 罗马 2
+      - 🇸🇬 adi|0325 - 新加坡
+      - adi|0325 - 波兰
+      - adi|0325 - 克罗地亚
+      - adi|0325 - 西班牙 3
       - 🇦🇹 adi|0319 - 奥地利 4
+      - adi|0320 - 53
+      - 🇩🇪 adi|0325 - 德国
+      - 🇩🇪 adi|0325 - 德国 2
+      - 🇫🇮 adi|0325 - 芬兰 6
+      - adi|0325 - 拉脱维亚
+      - adi|0325 - 西班牙 4
+      - 🇬🇧 adi|0325 - 英国 2
       - 🇦🇹 adi|0319 - 奥地利 5
-      - 🇦🇹 adi|0319 - 奥地利 6
-      - 🇦🇷 adi|0319 - 阿根廷9
+      - 🇺🇲 adi|0323 - 美国 2
+      - adi|0320 - 波兰
+      - adi|0325 - 葡萄牙
+      - 🇬🇧 adi|0325 - 英国 3
+      - 🇬🇧 adi|0325 - 英国 4
+      - 🇨🇭 adi|0320 - 瑞士
+      - adi|0325 - 克罗地亚 2
+      - 🇨🇭 adi|0325 - 瑞士
+      - 🇨🇭 adi|0325 - 瑞士 2
+      - 🇬🇧 adi|0325 - 英国 5
       - 🇦🇷 adi|0319 - 阿根廷
       - 🇦🇷 adi|0319 - 阿根廷 2
-      - 🇦🇷 adi|0319 - 阿根廷 3
-      - 🇦🇷 adi|0319 - 阿根廷 4
-      - 🇦🇷 adi|0319 - 阿根廷 5
-      - 🇦🇷 adi|0319 - 阿根廷 6
-      - adi|0319 - 阿尔巴尼亚
-      - adi|0319 - 阿尔巴尼亚 2
-      - 🇺🇲 adi|0313 - 美国137.149
-      - 🇳🇱 adi|0313 - 荷兰35.216
-      - 🇳🇱 adi|0313 - 荷兰35.206
-      - 🇳🇱 adi|0313 - 荷兰223.192
+      - adi|0320 - 35
+      - adi|0323 - seoul_2
+      - adi|0323 - CA_461
+      - 🇺🇲 adi|0323 - 美国 3
+      - 🇺🇲 adi|0323 - 美国 4
+      - adi|0306T - ZZ_1012
+      - 🇺🇲 adi|0310T - 美国203.FA
+      - 🇺🇲 adi|0325 - US_2896
+      - 🇷🇺 adi|0325 - RU_2014
+      - 🇯🇵 adi|0325 - JP_1558
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -637,155 +397,95 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔯 故障转移
-      - 🇺🇲 adi|0323 - 美国
-      - 🇺🇲 adi|0323 - 美国 2
-      - adi|0323 - seoul_2
-      - adi|0323 - CA_461
-      - 🇺🇲 adi|0310T - 美国203.FA
-      - adi|0306T - ZZ_1012
-      - 🇮🇳 adi|0323 - 印度
-      - 🇭🇰 adi|0323 - 香港
-      - 🇯🇵 adi|0323 - 日本
-      - 🇯🇵 adi|0323 - 日本 2
-      - 🇯🇵 adi|0323 - 日本 3
-      - 🇯🇵 adi|0323 - 日本 4
-      - 🇺🇲 adi|0323 - 美国 3
-      - 🇺🇲 adi|0323 - 美国 4
-      - 🇺🇲 adi|0323 - 美国 5
-      - 🇰🇷 adi|0323 - 韩国
-      - 🇰🇷 adi|0323 - 韩国 2
-      - 🇰🇷 adi|0323 - 韩国 3
-      - 🇨🇦 adi|0323 - 加拿大V6
-      - 🇰🇷 adi|0323 - 韩国7
-      - 🇰🇷 adi|0323 - 韩国 4
-      - 🇺🇲 adi|0323 - US_3177
-      - 🇺🇲 adi|0323 - US_3175
-      - 🇺🇲 adi|0323 - US_3173
-      - 🇺🇲 adi|0323 - US_3170
-      - 🇺🇲 adi|0323 - US_3167
-      - 🇺🇲 adi|0323 - US_2748
-      - 🇨🇳 adi|0323 - TW_621
-      - adi|0323 - topcc.gq
-      - 🇷🇺 adi|0323 - RU_1941
-      - 🇭🇰 adi|0323 - HK_1578
-      - 🇭🇰 adi|0323 - HK_1228
-      - adi|0323 - Alien
-      - adi|0323 - Alien 2
-      - adi|0323 - 52.246.186.214
-      - adi|0320 - v2rayfreeCFCDN
-      - 🇰🇷 adi|0320 - KR_3277
-      - 🇯🇵 adi|0320 - Japan直连-IIJ
-      - 🇩🇪 adi|0319 - 德国
-      - 🇩🇪 adi|0319 - DE_2932
-      - adi|0319 - CA_476
-      - 🇺🇲 adi|0313 - 圣何塞44.192
-      - 🇷🇺 adi|0313 - RU_2090
-      - 🇬🇧 adi|0323 - 英国
-      - 🇬🇧 adi|0323 - 英国 2
-      - 🇬🇧 adi|0323 - 英国 3
-      - 🇬🇧 adi|0323 - 英国 4
-      - 🇮🇳 adi|0323 - 印度 2
-      - 🇺🇲 adi|0323 - 美国 6
-      - 🇺🇲 adi|0323 - 美国 7
-      - 🇺🇲 adi|0323 - 美国 8
-      - adi|0323 - 罗马
-      - adi|0323 - 罗马 2
-      - adi|0323 - 罗马 3
-      - adi|0323 - 克罗地亚
-      - 🇳🇱 adi|0323 - 荷兰
-      - 🇷🇺 adi|0323 - 俄罗斯
-      - 🇬🇧 adi|0323 - 英国M247网络 7
-      - adi|0323 - 伊朗  16
-      - adi|0323 - 伊朗  10
-      - 🇨🇭 adi|0323 - 瑞士  19
-      - adi|0323 - 欧洲  9
-      - adi|0323 - 欧洲  6
-      - adi|0323 - 欧盟  21
-      - 🇺🇲 adi|0323 - 美国  31
-      - 🇺🇲 adi|0323 - 美国  26
-      - 🇺🇲 adi|0323 - 美国  15
-      - 🇺🇲 adi|0323 - 美国  13
-      - 🇷🇴 adi|0323 - 罗马尼亚  29
-      - 🇨🇦 adi|0323 - 加拿大  53
-      - 🇫🇮 adi|0323 - 芬兰  36
-      - 🇫🇮 adi|0323 - 芬兰  34
-      - 🇫🇮 adi|0323 - 芬兰  32
-      - 🇫🇮 adi|0323 - 芬兰  12
-      - 🇩🇪 adi|0323 - 德国  40
-      - 🇩🇪 adi|0323 - 德国  24
-      - 🇺🇲 adi|0323 - 北美地区  14
-      - 🇬🇧 adi|0320 - 英国 15
-      - 🇬🇧 adi|0320 - 英国 10
-      - 🇬🇧 adi|0320 - 英国
-      - 🇸🇬 adi|0320 - 新加坡
-      - 🇨🇳 adi|0320 - 台湾
-      - 🇨🇳 adi|0320 - 台湾 2
-      - 🇨🇳 adi|0320 - 台湾 3
-      - 🇨🇳 adi|0320 - 台湾 4
-      - 🇨🇳 adi|0320 - 台湾 5
-      - 🇨🇳 adi|0320 - 台湾 6
-      - adi|0320 - 斯洛伐克
-      - adi|0320 - 斯洛伐克 2
-      - adi|0320 - 斯洛伐克 3
-      - adi|0320 - 斯洛伐克 4
-      - 🇨🇭 adi|0320 - 瑞士
-      - 🇺🇲 adi|0320 - 美国数据中心 16
-      - 🇺🇲 adi|0320 - 美国  11
-      - 🇺🇲 adi|0320 - 美国
-      - 🇺🇲 adi|0320 - 美国 2
-      - adi|0320 - 捷克
-      - adi|0320 - 哈萨克斯坦
-      - adi|0320 - 哈萨克斯坦 2
-      - adi|0320 - 哈萨克斯坦 3
+      - 🇯🇵 adi|0325 - 日本
+      - 🇰🇷 adi|0325 - 韩国
+      - 🇯🇵 adi|0325 - JP_1888
+      - 🇺🇲 adi|0325 - 美国
+      - 🇯🇵 adi|0325 - JP_1548
+      - 🇯🇵 adi|0325 - 日本 2
+      - adi|0325 - 伊朗
+      - 🇩🇰 adi|0325 - 丹麦4
+      - 🇺🇲 adi|0325 - 美国 2
+      - adi|0325 - 欧洲1
+      - 🇩🇪 adi|0325 - 德国V16
+      - adi|0325 - 西班牙
+      - 🇫🇮 adi|0325 - 芬兰
+      - 🇸🇬 adi|0325 - 新西兰
       - 🇩🇰 adi|0320 - 丹麦
       - 🇩🇰 adi|0320 - 丹麦 2
-      - 🇩🇰 adi|0320 - 丹麦 3
-      - 🇩🇰 adi|0320 - 丹麦 4
-      - 🇩🇰 adi|0320 - 丹麦 5
-      - 🇩🇰 adi|0320 - 丹麦 6
-      - adi|0320 - 波兰
-      - adi|0320 - 53
-      - adi|0320 - 52
-      - adi|0320 - 43
-      - adi|0320 - 39
-      - adi|0320 - 38
-      - adi|0320 - 36
-      - adi|0320 - 35
-      - adi|0320 - 27
-      - adi|0320 - 24
-      - adi|0320 - 21
-      - adi|0320 - 20
-      - adi|0320 - 13
-      - 🇨🇳 adi|0319 - 台湾
       - 🇺🇲 adi|0319 - 美国
-      - adi|0319 - 格鲁吉亚7
+      - 🇺🇲 adi|0323 - 美国
+      - 🇫🇮 adi|0325 - 芬兰 2
+      - 🇺🇲 adi|0325 - 美国 3
+      - 🇸🇬 adi|0325 - 新西兰 2
+      - adi|0325 - 伊朗 2
+      - 🇩🇪 adi|0319 - 德国
+      - 🇸🇬 adi|0320 - 新加坡
+      - 🇺🇲 adi|0320 - 美国
+      - adi|0320 - 捷克
+      - 🇳🇱 adi|0323 - 荷兰
+      - 🇳🇱 adi|0313 - 荷兰223.192
+      - 🇷🇺 adi|0325 - 俄罗斯V5
+      - 🇺🇲 adi|0325 - 美国 4
+      - 🇮🇪 adi|0325 - 爱尔兰
+      - 🇩🇰 adi|0320 - 丹麦 3
       - 🇩🇪 adi|0319 - 德国 2
-      - 🇩🇪 adi|0319 - 德国 3
-      - 🇩🇪 adi|0319 - 德国 4
-      - 🇩🇪 adi|0319 - 德国 5
-      - 🇩🇪 adi|0319 - 德国 6
-      - 🇩🇪 adi|0319 - 德国 7
-      - 🇦🇺 adi|0319 - 澳大利亚8
-      - 🇦🇺 adi|0319 - 澳大利亚6
       - 🇦🇹 adi|0319 - 奥地利
+      - 🇫🇮 adi|0325 - 芬兰 3
+      - adi|0323 - 罗马
+      - 🇺🇲 adi|0320 - 美国 2
+      - adi|0320 - 27
+      - adi|0320 - 斯洛伐克
+      - adi|0320 - 斯洛伐克 2
       - 🇦🇹 adi|0319 - 奥地利 2
+      - 🇬🇧 adi|0323 - 英国
       - 🇦🇹 adi|0319 - 奥地利 3
+      - 🇮🇪 adi|0325 - 爱尔兰 2
+      - 🇫🇮 adi|0325 - 芬兰 4
+      - 🇫🇮 adi|0325 - 芬兰 5
+      - 🇩🇪 adi|0319 - 德国 3
+      - adi|0320 - 38
+      - adi|0323 - 克罗地亚
+      - 🇳🇱 adi|0313 - 荷兰35.206
+      - adi|0325 - 西班牙 2
+      - adi|0325 - 伊朗 3
+      - 🇬🇧 adi|0325 - 英国
+      - adi|0323 - 罗马 2
+      - 🇸🇬 adi|0325 - 新加坡
+      - adi|0325 - 波兰
+      - adi|0325 - 克罗地亚
+      - adi|0325 - 西班牙 3
       - 🇦🇹 adi|0319 - 奥地利 4
+      - adi|0320 - 53
+      - 🇩🇪 adi|0325 - 德国
+      - 🇩🇪 adi|0325 - 德国 2
+      - 🇫🇮 adi|0325 - 芬兰 6
+      - adi|0325 - 拉脱维亚
+      - adi|0325 - 西班牙 4
+      - 🇬🇧 adi|0325 - 英国 2
       - 🇦🇹 adi|0319 - 奥地利 5
-      - 🇦🇹 adi|0319 - 奥地利 6
-      - 🇦🇷 adi|0319 - 阿根廷9
+      - 🇺🇲 adi|0323 - 美国 2
+      - adi|0320 - 波兰
+      - adi|0325 - 葡萄牙
+      - 🇬🇧 adi|0325 - 英国 3
+      - 🇬🇧 adi|0325 - 英国 4
+      - 🇨🇭 adi|0320 - 瑞士
+      - adi|0325 - 克罗地亚 2
+      - 🇨🇭 adi|0325 - 瑞士
+      - 🇨🇭 adi|0325 - 瑞士 2
+      - 🇬🇧 adi|0325 - 英国 5
       - 🇦🇷 adi|0319 - 阿根廷
       - 🇦🇷 adi|0319 - 阿根廷 2
-      - 🇦🇷 adi|0319 - 阿根廷 3
-      - 🇦🇷 adi|0319 - 阿根廷 4
-      - 🇦🇷 adi|0319 - 阿根廷 5
-      - 🇦🇷 adi|0319 - 阿根廷 6
-      - adi|0319 - 阿尔巴尼亚
-      - adi|0319 - 阿尔巴尼亚 2
-      - 🇺🇲 adi|0313 - 美国137.149
-      - 🇳🇱 adi|0313 - 荷兰35.216
-      - 🇳🇱 adi|0313 - 荷兰35.206
-      - 🇳🇱 adi|0313 - 荷兰223.192
+      - adi|0320 - 35
+      - adi|0323 - seoul_2
+      - adi|0323 - CA_461
+      - 🇺🇲 adi|0323 - 美国 3
+      - 🇺🇲 adi|0323 - 美国 4
+      - adi|0306T - ZZ_1012
+      - 🇺🇲 adi|0310T - 美国203.FA
+      - 🇺🇲 adi|0325 - US_2896
+      - 🇷🇺 adi|0325 - RU_2014
+      - 🇯🇵 adi|0325 - JP_1558
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
