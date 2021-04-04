@@ -5,484 +5,468 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 adi|0401 - 日本 10, server: auto.freev2.top, port: 51291, type: vmess, uuid: 7e9eea34-f8b1-4e21-bb8c-cf7163c4ac0e, alterId: 1, cipher: auto, tls: false}
-  - {name: adi|0401 - seoul_2, server: fuckxijinping.ga, port: 443, type: trojan, password: 389675ea-fd45-4ccd-be25-4df4dbe8ad7f, sni: fuckxijinping.ga}
-  - {name: 🇨🇳 adi|0330 - HINET, server: trojan-hinet-203.66.168.143.internet-cloudflare-accelerate.tk, port: 443, type: trojan, password: a624073b-6dee-4a8c-8dc5-20ed664d42fc, sni: trojan-hinet-203.66.168.143.internet-cloudflare-accelerate.tk}
   - {name: 🇯🇵 adi|0330 - 日本#373, server: s373.snodes.xyz, port: 443, type: vmess, uuid: f77fdcb0-07f4-3c41-8a74-5cf19a5c7a58, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s373.snodes.xyz}}
   - {name: 🇯🇵 adi|0401 - JP_1008 |17.08Mb, server: ty2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty2-8.sstr-api.xyz}
-  - {name: 🇯🇵 adi|0330 - 日本#43, server: s43.snodes.xyz, port: 443, type: vmess, uuid: f77fdcb0-07f4-3c41-8a74-5cf19a5c7a58, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s43.snodes.xyz}}
-  - {name: 🇯🇵 adi|0401 - JP_783 | 6.37Mb, server: os1-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-7.sstr-api.xyz}
-  - {name: 🇯🇵 adi|0401 - JP_780 |10.08Mb, server: os1-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-1.sstr-api.xyz}
-  - {name: 🇩🇰 adi|0330 - 丹麦, server: 37.120.194.109, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 adi|0401 - US_551 |53.35Mb, server: fm2-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: fm2-1.sstr-api.xyz}
-  - {name: 🇯🇵 adi|0401 - JP_781 | 3.36Mb, server: os1-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-2.sstr-api.xyz}
-  - {name: 🇯🇵 adi|0401 - JP_1003 |14.10Mb, server: ty2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty2-5.sstr-api.xyz}
-  - {name: 🇯🇵 adi|0401 - JP_775 |16.39Mb, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-8.sstr-api.xyz}
-  - {name: 🇯🇵 adi|0401 - JP_782 | 6.25Mb, server: os1-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-3.sstr-api.xyz}
-  - {name: 🇯🇵 adi|0401 - JP_773 |19.29Mb, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-6.sstr-api.xyz}
-  - {name: 🇺🇲 adi|0330 - 美国, server: 143.244.42.66, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: adi|0325 - 西班牙, server: 87.239.254.20, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇯🇵 adi|0401 - JP_661 |11.52Mb, server: ty1-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty1-3.sstr-api.xyz}
-  - {name: adi|0330 - 捷克, server: 89.187.168.44, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇯🇵 adi|0401 - JP_770 |17.15Mb, server: os2-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-1.sstr-api.xyz}
-  - {name: 🇩🇰 adi|0330 - 丹麦 2, server: 37.120.194.93, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇦 adi|0401 - 加拿大, server: 66.115.147.89, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 adi|0401 - 丹麦, server: 37.120.194.165, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇩🇰 adi|0330 - 丹麦 3, server: 2.58.46.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0401 - 欧洲, server: 138.199.19.177, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇯🇵 adi|0401 - JP_778 | 3.13Mb, server: os1-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-8.sstr-api.xyz}
-  - {name: 🇺🇲 adi|0330 - 美国 2, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇰 adi|0401 - 丹麦 2, server: 37.120.194.125, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇩🇰 adi|0401 - 丹麦 3, server: 37.120.194.125, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇳🇱 adi|0330 - 荷兰, server: 212.102.35.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0401 - 欧洲 2, server: 138.199.19.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 adi|0401 - US_554 |51.41Mb, server: fm2-4.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: fm2-4.sstr-api.xyz}
-  - {name: 🇷🇴 adi|0330 - 罗马尼亚, server: 193.29.107.221, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇩🇰 adi|0330 - 丹麦 4, server: 37.120.194.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 adi|0401 - US_552 |53.97Mb, server: fm2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: fm2-3.sstr-api.xyz}
-  - {name: 🇩🇰 adi|0401 - 丹麦 4, server: 37.120.194.109, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0401 - 欧盟  9, server: 45.89.173.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: adi|0330 - 捷克 2, server: 89.187.168.46, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 adi|0330 - 罗马尼亚 2, server: 193.29.107.109, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇯🇵 adi|0401 - JP_772 |10.27Mb, server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-2.sstr-api.xyz}
-  - {name: adi|0330 - 捷克 3, server: 89.187.168.56, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 adi|0401 - 丹麦 5, server: 37.120.194.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 adi|0330 - 丹麦 5, server: 37.120.194.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇰 adi|0330 - 丹麦 6, server: 37.120.194.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0330 - 2, server: 87.239.254.18, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇰 adi|0401 - 丹麦 6, server: 37.120.194.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇰 adi|0330 - 丹麦 7, server: 37.120.194.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: adi|0330 - 捷克 4, server: 89.187.168.41, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇯🇵 adi|0401 - JP_776 |13.94Mb, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz}
-  - {name: 🇳🇱 adi|0401 - NL_1801 | 8.64Mb, server: t13.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t13.ssrsub.one}
-  - {name: 🇳🇱 adi|0330 - 荷兰 2, server: 212.102.35.206, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 adi|0330 - 罗马尼亚 3, server: 193.29.107.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇩🇰 adi|0401 - 丹麦 7, server: 37.120.194.125, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇩🇰 adi|0401 - 丹麦 8, server: 37.120.194.125, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: adi|0401 - ZZ_1799 |26.02Mb, server: uk1-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: uk1-2.sstr-api.xyz}
-  - {name: adi|0401 - EE_777 |24.14Mb, server: ee1-4.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ee1-4.sstr-api.xyz}
-  - {name: 🇩🇰 adi|0401 - 丹麦 9, server: 37.120.194.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0330 - 15, server: 37.120.194.165, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 adi|0401 - 美国, server: 143.244.42.76, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 adi|0401 - 丹麦 10, server: 193.29.107.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0330 - 捷克 5, server: 89.187.168.41, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇯🇵 adi|0401 - JP_768 | 8.39Mb, server: os2-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-7.sstr-api.xyz}
-  - {name: adi|0330 - 捷克 6, server: 89.187.168.44, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 adi|0401 - 丹麦 11, server: 193.29.107.125, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 adi|0401 - 丹麦 12, server: 37.120.194.91, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇰 adi|0401 - 丹麦 13, server: 193.29.107.117, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 adi|0401 - 丹麦 14, server: 2.58.46.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 adi|0330 - 罗马尼亚 4, server: 193.29.107.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 adi|0320 - 美国, server: 193.29.107.93, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 adi|0330 - 美国 3, server: 143.244.42.76, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇳🇱 adi|0330 - 荷兰 3, server: 212.102.35.201, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 adi|0401 - 丹麦 15, server: 193.29.107.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 adi|0401 - 美国  6, server: 143.244.57.91, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇨🇦 adi|0401 - 加拿大 2, server: 66.115.147.74, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0330 - 拉脱维亚里加, server: 188.92.78.152, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇦 adi|0330 - 加拿大, server: 66.115.147.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 adi|0330 - 罗马尼亚 5, server: 193.29.107.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇺 adi|0401 - RU_2446 |11.30Mb, server: t20.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t20.ssrsub.one}
-  - {name: adi|0401 - ZZ_1807 |53.62Mb, server: uk1-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: uk1-3.sstr-api.xyz}
-  - {name: 🇺🇲 adi|0401 - US_3315 |129.73Mb, server: 104.19.80.46, port: 8080, type: vmess, uuid: 657f7981-0138-4c99-9199-51f62002d8e5, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /1234, ws-headers: {Host: 3.ioqr.cn}}
-  - {name: 🇩🇰 adi|0401 - 丹麦 16, server: 37.120.194.125, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇨🇦 adi|0401 - 加拿大 3, server: 66.115.147.89, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: adi|0401 - 捷克, server: 89.187.168.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0330 - 13, server: 156.146.62.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇦 adi|0401 - 加拿大 4, server: 66.115.147.84, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0330 - 1, server: 85.10.56.192, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 adi|0330 - 丹麦 8, server: 37.120.194.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 adi|0401 - 美国  3, server: 209.216.92.3, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: adi|0330 - 拉脱维亚里加 2, server: 188.92.78.140, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇨🇦 adi|0330 - 加拿大 2, server: 66.115.147.67, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: adi|0401 - seoul_2, server: fuckxijinping.ga, port: 443, type: trojan, password: 389675ea-fd45-4ccd-be25-4df4dbe8ad7f, sni: fuckxijinping.ga}
+  - {name: 🇯🇵 adi|0403 - JP_1007 |17.18Mb, server: ty2-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty2-7.sstr-api.xyz}
+  - {name: 🇯🇵 adi|0403 - JP_638 |30.83Mb, server: ty1-4.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty1-4.sstr-api.xyz}
   - {name: 🇯🇵 adi|0401 - JP_774 |16.78Mb, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz}
-  - {name: adi|0330 - 拉脱维亚里加 3, server: 188.92.78.140, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: adi|0330 - 拉脱维亚里加 4, server: 188.92.78.140, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: adi|0330 - 4, server: 207.244.127.118, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 adi|0323 - 美国, server: 217.138.222.53, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇳🇱 adi|0401 - 荷兰, server: 212.102.35.216, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0330 - 罗马, server: 89.45.7.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇰 adi|0401 - 丹麦 17, server: 37.120.194.99, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: adi|0330 - 5, server: 217.138.222.53, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: adi|0401 - CA_581 |64.91Mb, server: t18.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t18.ssrsub.one}
-  - {name: 🇯🇵 adi|0401 - JP_665 |15.43Mb, server: ty1-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty1-1.sstr-api.xyz}
-  - {name: adi|0330 - 6, server: 143.244.60.167, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0401 - CA_580 |46.32Mb, server: t17.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t17.ssrsub.one}
+  - {name: 🇯🇵 adi|0401 - JP_1003 |14.10Mb, server: ty2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty2-5.sstr-api.xyz}
+  - {name: adi|0330 - 捷克, server: 89.187.168.46, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇯🇵 adi|0403 - JP_1008 |14.63Mb, server: ty2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty2-6.sstr-api.xyz}
   - {name: 🇺🇲 adi|0401 - US_670 |45.86Mb, server: fm1-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: fm1-2.sstr-api.xyz}
-  - {name: adi|0325 - 克罗地亚, server: 176.222.34.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇮🇪 adi|0328 - 爱尔兰都柏林, server: 217.138.222.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: adi|0330 - CA_606 |64.34Mb, server: t02.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t02.ssrsub.one}
-  - {name: 🇺🇲 adi|0401 - 美国 15, server: 444ru.liuwei.gq, port: 443, type: vmess, uuid: 4ccd4c69-f1de-4eef-b7ff-89548e3e1232, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: 444ru.liuwei.gq}}
-  - {name: 🇺🇲 adi|0401 - 美国 2, server: 185.124.240.169, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇬🇧 adi|0401 - 英国  2, server: 217.138.222.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0320 - 38, server: 37.120.221.5, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇲 adi|0403 - US_839 |14.16Mb, server: fm1-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: fm1-3.sstr-api.xyz}
+  - {name: 🇯🇵 adi|0403 - JP_1000 | 4.52Mb, server: os1-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-5.sstr-api.xyz}
+  - {name: 🇯🇵 adi|0403 - JP_1011 |12.80Mb, server: ty2-4.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty2-4.sstr-api.xyz}
+  - {name: adi|0401 - 欧洲, server: 138.199.19.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇯🇵 adi|0401 - JP_778 | 3.13Mb, server: os1-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-8.sstr-api.xyz}
+  - {name: 🇺🇲 adi|0401 - US_551 |53.35Mb, server: fm2-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: fm2-1.sstr-api.xyz}
+  - {name: 🇯🇵 adi|0401 - JP_780 |10.08Mb, server: os1-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-1.sstr-api.xyz}
+  - {name: 🇺🇲 adi|0403 - US_886 | 8.26Mb, server: fm1-4.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: fm1-4.sstr-api.xyz}
+  - {name: 🇩🇰 adi|0403 - 丹麦, server: 37.120.194.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0330 - 捷克 2, server: 89.187.168.56, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇯🇵 adi|0401 - JP_661 |11.52Mb, server: ty1-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty1-3.sstr-api.xyz}
+  - {name: 🇯🇵 adi|0403 - JP_998 |17.43Mb, server: ty2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty2-2.sstr-api.xyz}
+  - {name: adi|0403 - 143.244.56.230:39772, server: 143.244.56.230, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇳🇱 adi|0330 - 荷兰, server: 212.102.35.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇰 adi|0401 - 丹麦, server: 37.120.194.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇯🇵 adi|0403 - JP_999 |11.81Mb, server: ty2-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty2-1.sstr-api.xyz}
+  - {name: 🇯🇵 adi|0401 - JP_768 | 8.39Mb, server: os2-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-7.sstr-api.xyz}
+  - {name: 🇨🇦 adi|0401 - 加拿大, server: 66.115.147.74, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0403 - 美国, server: 156.146.33.79, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇰 adi|0330 - 丹麦, server: 37.120.194.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0330 - 捷克 3, server: 89.187.168.44, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0330 - 捷克 4, server: 89.187.168.44, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: adi|0330 - 罗马, server: 89.45.7.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0403 - US_692 |25.55Mb, server: fm2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: fm2-2.sstr-api.xyz}
+  - {name: 🇺🇲 adi|0403 - 美国 2, server: 199.10.64.165, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 adi|0403 - 美国 3, server: 184.170.250.152, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇴 adi|0330 - 罗马尼亚, server: 193.29.107.221, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇺🇲 adi|0401 - US_554 |51.41Mb, server: fm2-4.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: fm2-4.sstr-api.xyz}
+  - {name: 🇩🇰 adi|0401 - 丹麦 2, server: 37.120.194.91, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇩🇰 adi|0401 - 丹麦 3, server: 193.29.107.117, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇰 adi|0401 - 丹麦 4, server: 2.58.46.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇰 adi|0401 - 丹麦 5, server: 193.29.107.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0401 - 欧洲 2, server: 138.199.19.177, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇰 adi|0330 - 丹麦 2, server: 37.120.194.109, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: adi|0330 - 捷克 5, server: 89.187.168.41, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: adi|0330 - 捷克 6, server: 89.187.168.41, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇴 adi|0330 - 罗马尼亚 2, server: 193.29.107.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇩🇰 adi|0401 - 丹麦 6, server: 37.120.194.109, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0401 - 捷克, server: 89.187.168.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0403 - 美国 4, server: 199.10.64.165, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇰 adi|0330 - 丹麦 3, server: 37.120.194.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇩🇰 adi|0330 - 丹麦 4, server: 37.120.194.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇩🇰 adi|0330 - 丹麦 5, server: 37.120.194.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇴 adi|0330 - 罗马尼亚 3, server: 193.29.107.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0330 - 美国, server: 143.244.42.66, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 adi|0401 - US_552 |53.97Mb, server: fm2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: fm2-3.sstr-api.xyz}
+  - {name: adi|0403 - 拉脱维亚里加, server: 188.92.78.140, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0325 - 西班牙, server: 87.239.254.20, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0330 - 1, server: 85.10.56.192, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇳🇱 adi|0401 - 荷兰, server: 212.102.35.216, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0401 - 美国, server: 143.244.42.76, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0403 - US_891 |23.46Mb, server: fm1-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: fm1-1.sstr-api.xyz}
+  - {name: 🇨🇦 adi|0403 - 加拿大, server: 66.115.147.74, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: adi|0330 - 拉脱维亚里加, server: 188.92.78.140, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇷🇴 adi|0330 - 罗马尼亚 4, server: 193.29.107.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0401 - EE_777 |24.14Mb, server: ee1-4.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ee1-4.sstr-api.xyz}
+  - {name: adi|0401 - ZZ_1799 |26.02Mb, server: uk1-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: uk1-2.sstr-api.xyz}
+  - {name: 🇩🇰 adi|0401 - 丹麦 7, server: 37.120.194.125, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇩🇰 adi|0401 - 丹麦 8, server: 37.120.194.125, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇩🇰 adi|0401 - 丹麦 9, server: 37.120.194.165, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇩🇰 adi|0401 - 丹麦 10, server: 37.120.194.99, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇩🇰 adi|0401 - 丹麦 11, server: 37.120.194.125, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇩🇰 adi|0401 - 丹麦 12, server: 37.120.194.125, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇯🇵 adi|0403 - JP_776 |16.01Mb, server: os1-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-6.sstr-api.xyz}
+  - {name: 🇺🇲 adi|0403 - US_3334 | 5.89Mb, server: cl.loogsom.xyz, port: 443, type: vmess, uuid: 678bf957-f1d0-4e44-ab91-b94ddc93b71b, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /v, ws-headers: {Host: cl.loogsom.xyz}}
+  - {name: 🇩🇰 adi|0330 - 丹麦 6, server: 2.58.46.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇰 adi|0330 - 丹麦 7, server: 37.120.194.93, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0330 - 拉脱维亚里加 2, server: 188.92.78.152, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇴 adi|0330 - 罗马尼亚 5, server: 193.29.107.109, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇦 adi|0401 - 加拿大 2, server: 66.115.147.89, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0403 - US_3327 |20.21Mb, server: cc.hciahciphcie.club, port: 443, type: vmess, uuid: 219be2f9-573d-4507-9e9b-74b385ba1c9c, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /0574a110e138dd/, ws-headers: {Host: cc.hciahciphcie.club}}
+  - {name: 🇺🇲 adi|0403 - US_3338 |33.02Mb, server: 104.19.23.24, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: dawn-king-a02e.hd1831420646.workers.dev}}
+  - {name: 🇺🇲 adi|0403 - US_3342 |29.59Mb, server: 104.16.160.122, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: dawn-king-a02e.hd1831420646.workers.dev}}
+  - {name: 🇩🇪 adi|0403 - 德国, server: 185.2.100.168, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 adi|0403 - 美国 5, server: 199.10.64.165, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇲 adi|0330 - 美国 2, server: 143.244.42.76, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇯🇵 adi|0401 - JP_782 | 6.25Mb, server: os1-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-3.sstr-api.xyz}
+  - {name: 🇩🇰 adi|0401 - 丹麦 13, server: 193.29.107.125, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0403 - 美国 6, server: 66.115.147.84, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 adi|0403 - 美国 7, server: 199.10.64.165, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇺🇲 adi|0403 - 美国 8, server: 212.102.44.83, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇲 adi|0403 - 美国 9, server: 154.16.171.215, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇲 adi|0403 - 美国 10, server: 154.16.171.215, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: adi|0330 - 13, server: 156.146.62.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇰 adi|0330 - 丹麦 8, server: 37.120.194.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: adi|0401 - ZZ_1807 |53.62Mb, server: uk1-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: uk1-3.sstr-api.xyz}
+  - {name: 🇩🇰 adi|0401 - 丹麦 14, server: 37.120.194.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇫🇮 adi|0403 - 芬兰, server: 199.10.64.165, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: adi|0403 - 拉脱维亚里加 2, server: 188.92.78.140, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0403 - 罗马, server: 89.45.7.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0403 - 美国 11, server: 185.102.217.159, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇲 adi|0403 - 美国 12, server: 154.16.171.215, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0403 - 79.110.54.131:33992, server: 79.110.54.131, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 adi|0323 - 美国, server: 217.138.222.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: adi|0330 - 15, server: 37.120.194.165, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇳🇱 adi|0330 - 荷兰 2, server: 212.102.35.206, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0330 - 拉脱维亚里加 3, server: 188.92.78.140, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: adi|0330 - 罗马 2, server: 79.110.54.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇲 adi|0323 - 美国 2, server: 217.138.222.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: adi|0401 - CA_589 |60.38Mb, server: t16.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t16.ssrsub.one}
-  - {name: adi|0401 - CA_588 |70.79Mb, server: t15.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t15.ssrsub.one}
+  - {name: 🇺🇲 adi|0401 - 美国 2, server: 185.124.240.169, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: adi|0403 - 阿尔巴尼亚, server: 37.120.194.125, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0403 - 美国 13, server: 185.124.240.157, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 adi|0403 - 美国 14, server: 155.254.29.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: adi|0403 - -4, server: 89.187.168.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0330 - 拉脱维亚里加 4, server: 188.92.78.140, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇨🇦 adi|0401 - 加拿大 3, server: 66.115.147.89, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇦 adi|0403 - 加拿大 2, server: 66.115.147.69, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇭 adi|0403 - 瑞士, server: 185.124.240.151, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0320 - 美国, server: 193.29.107.93, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇦 adi|0330 - 加拿大, server: 66.115.147.67, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇦 adi|0330 - 加拿大 2, server: 66.115.147.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇰 adi|0401 - 丹麦 15, server: 193.29.107.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇰 adi|0401 - 丹麦 16, server: 37.120.194.125, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 adi|0403 - 美国 15, server: 66.115.147.79, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 adi|0403 - 美国 16, server: 212.102.44.83, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: adi|0403 - -12, server: 195.47.194.58, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇳🇱 adi|0330 - 荷兰 3, server: 212.102.35.201, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇯🇵 adi|0401 - JP_772 |10.27Mb, server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-2.sstr-api.xyz}
+  - {name: 🇷🇴 adi|0403 - 罗马尼亚  3, server: 194.37.98.211, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: adi|0403 - 阿尔巴尼亚 2, server: 37.120.194.107, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇮🇪 adi|0403 - 爱尔兰, server: 217.138.222.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇫🇷 adi|0403 - 法国, server: 185.108.106.26, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0403 - 美国 17, server: 199.36.221.119, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇺🇲 adi|0330 - 美国 3, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 adi|0401 - JP_773 |19.29Mb, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-6.sstr-api.xyz}
+  - {name: 🇯🇵 adi|0401 - JP_775 |16.39Mb, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-8.sstr-api.xyz}
+  - {name: 🇯🇵 adi|0401 - JP_781 | 3.36Mb, server: os1-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-2.sstr-api.xyz}
+  - {name: 🇺🇲 adi|0403 - 美国 18, server: 199.36.221.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇳🇱 adi|0403 - NL_2250 |12.21Mb, server: hk1-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: hk1-2.sstr-api.xyz}
+  - {name: 🇳🇱 adi|0403 - NL_2254 | 5.49Mb, server: hk1-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: hk1-3.sstr-api.xyz}
+  - {name: 🇳🇱 adi|0403 - NL_2252 | 5.32Mb, server: hk1-4.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: hk1-4.sstr-api.xyz}
+  - {name: 🇳🇱 adi|0403 - NL_2251 |11.66Mb, server: hk1-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: hk1-1.sstr-api.xyz}
+  - {name: adi|0403 - 37.120.221.5:31764, server: 37.120.221.5, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇺🇲 adi|0403 - US_3357 |66.51Mb, server: v2n10t3.fastjet.info, port: 443, type: trojan, password: xman-123-jjk, sni: v2n10t3.fastjet.info}
+  - {name: 🇷🇺 adi|0403 - 俄罗斯新西伯利亚JustHost 26, server: v2-11.ssrsub.one, port: 153, type: vmess, uuid: 9e9a27bf-550c-3cc4-c66b-9b1b36a676bc, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
+  - {name: 🇯🇵 adi|0401 - JP_783 | 6.37Mb, server: os1-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os1-7.sstr-api.xyz}
+  - {name: 🇯🇵 adi|0401 - JP_770 |17.15Mb, server: os2-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-1.sstr-api.xyz}
+  - {name: 🇯🇵 adi|0401 - JP_776 |13.94Mb, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz}
+  - {name: 🇯🇵 adi|0403 - JP_876 | 5.78Mb, server: ty1-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty1-2.sstr-api.xyz}
+  - {name: 🇯🇵 adi|0403 - JP_995 |14.27Mb, server: os2-4.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-4.sstr-api.xyz}
+  - {name: 🇯🇵 adi|0401 - JP_665 |15.43Mb, server: ty1-1.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: ty1-1.sstr-api.xyz}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🔯 故障转移
       - DIRECT
-      - 🇯🇵 adi|0401 - 日本 10
-      - adi|0401 - seoul_2
-      - 🇨🇳 adi|0330 - HINET
       - 🇯🇵 adi|0330 - 日本#373
       - 🇯🇵 adi|0401 - JP_1008 |17.08Mb
-      - 🇯🇵 adi|0330 - 日本#43
-      - 🇯🇵 adi|0401 - JP_783 | 6.37Mb
-      - 🇯🇵 adi|0401 - JP_780 |10.08Mb
-      - 🇩🇰 adi|0330 - 丹麦
-      - 🇺🇲 adi|0401 - US_551 |53.35Mb
-      - 🇯🇵 adi|0401 - JP_781 | 3.36Mb
+      - adi|0401 - seoul_2
+      - 🇯🇵 adi|0403 - JP_1007 |17.18Mb
+      - 🇯🇵 adi|0403 - JP_638 |30.83Mb
+      - 🇯🇵 adi|0401 - JP_774 |16.78Mb
       - 🇯🇵 adi|0401 - JP_1003 |14.10Mb
-      - 🇯🇵 adi|0401 - JP_775 |16.39Mb
-      - 🇯🇵 adi|0401 - JP_782 | 6.25Mb
-      - 🇯🇵 adi|0401 - JP_773 |19.29Mb
-      - 🇺🇲 adi|0330 - 美国
-      - adi|0325 - 西班牙
-      - 🇯🇵 adi|0401 - JP_661 |11.52Mb
       - adi|0330 - 捷克
-      - 🇯🇵 adi|0401 - JP_770 |17.15Mb
-      - 🇩🇰 adi|0330 - 丹麦 2
-      - 🇨🇦 adi|0401 - 加拿大
-      - 🇩🇰 adi|0401 - 丹麦
-      - 🇩🇰 adi|0330 - 丹麦 3
+      - 🇯🇵 adi|0403 - JP_1008 |14.63Mb
+      - 🇺🇲 adi|0401 - US_670 |45.86Mb
+      - 🇺🇲 adi|0403 - US_839 |14.16Mb
+      - 🇯🇵 adi|0403 - JP_1000 | 4.52Mb
+      - 🇯🇵 adi|0403 - JP_1011 |12.80Mb
       - adi|0401 - 欧洲
       - 🇯🇵 adi|0401 - JP_778 | 3.13Mb
-      - 🇺🇲 adi|0330 - 美国 2
+      - 🇺🇲 adi|0401 - US_551 |53.35Mb
+      - 🇯🇵 adi|0401 - JP_780 |10.08Mb
+      - 🇺🇲 adi|0403 - US_886 | 8.26Mb
+      - 🇩🇰 adi|0403 - 丹麦
+      - adi|0330 - 捷克 2
+      - 🇯🇵 adi|0401 - JP_661 |11.52Mb
+      - 🇯🇵 adi|0403 - JP_998 |17.43Mb
+      - adi|0403 - 143.244.56.230:39772
+      - 🇳🇱 adi|0330 - 荷兰
+      - 🇩🇰 adi|0401 - 丹麦
+      - 🇯🇵 adi|0403 - JP_999 |11.81Mb
+      - 🇯🇵 adi|0401 - JP_768 | 8.39Mb
+      - 🇨🇦 adi|0401 - 加拿大
+      - 🇺🇲 adi|0403 - 美国
+      - 🇩🇰 adi|0330 - 丹麦
+      - adi|0330 - 捷克 3
+      - adi|0330 - 捷克 4
+      - adi|0330 - 罗马
+      - 🇺🇲 adi|0403 - US_692 |25.55Mb
+      - 🇺🇲 adi|0403 - 美国 2
+      - 🇺🇲 adi|0403 - 美国 3
+      - 🇷🇴 adi|0330 - 罗马尼亚
+      - 🇺🇲 adi|0401 - US_554 |51.41Mb
       - 🇩🇰 adi|0401 - 丹麦 2
       - 🇩🇰 adi|0401 - 丹麦 3
-      - 🇳🇱 adi|0330 - 荷兰
-      - adi|0401 - 欧洲 2
-      - 🇺🇲 adi|0401 - US_554 |51.41Mb
-      - 🇷🇴 adi|0330 - 罗马尼亚
-      - 🇩🇰 adi|0330 - 丹麦 4
-      - 🇺🇲 adi|0401 - US_552 |53.97Mb
       - 🇩🇰 adi|0401 - 丹麦 4
-      - adi|0401 - 欧盟  9
-      - adi|0330 - 捷克 2
-      - 🇷🇴 adi|0330 - 罗马尼亚 2
-      - 🇯🇵 adi|0401 - JP_772 |10.27Mb
-      - adi|0330 - 捷克 3
       - 🇩🇰 adi|0401 - 丹麦 5
-      - 🇩🇰 adi|0330 - 丹麦 5
-      - 🇩🇰 adi|0330 - 丹麦 6
-      - adi|0330 - 2
+      - adi|0401 - 欧洲 2
+      - 🇩🇰 adi|0330 - 丹麦 2
+      - adi|0330 - 捷克 5
+      - adi|0330 - 捷克 6
+      - 🇷🇴 adi|0330 - 罗马尼亚 2
       - 🇩🇰 adi|0401 - 丹麦 6
-      - 🇩🇰 adi|0330 - 丹麦 7
-      - adi|0330 - 捷克 4
-      - 🇯🇵 adi|0401 - JP_776 |13.94Mb
-      - 🇳🇱 adi|0401 - NL_1801 | 8.64Mb
-      - 🇳🇱 adi|0330 - 荷兰 2
+      - adi|0401 - 捷克
+      - 🇺🇲 adi|0403 - 美国 4
+      - 🇩🇰 adi|0330 - 丹麦 3
+      - 🇩🇰 adi|0330 - 丹麦 4
+      - 🇩🇰 adi|0330 - 丹麦 5
       - 🇷🇴 adi|0330 - 罗马尼亚 3
+      - 🇺🇲 adi|0330 - 美国
+      - 🇺🇲 adi|0401 - US_552 |53.97Mb
+      - adi|0403 - 拉脱维亚里加
+      - adi|0325 - 西班牙
+      - adi|0330 - 1
+      - 🇳🇱 adi|0401 - 荷兰
+      - 🇺🇲 adi|0401 - 美国
+      - 🇺🇲 adi|0403 - US_891 |23.46Mb
+      - 🇨🇦 adi|0403 - 加拿大
+      - adi|0330 - 拉脱维亚里加
+      - 🇷🇴 adi|0330 - 罗马尼亚 4
+      - adi|0401 - EE_777 |24.14Mb
+      - adi|0401 - ZZ_1799 |26.02Mb
       - 🇩🇰 adi|0401 - 丹麦 7
       - 🇩🇰 adi|0401 - 丹麦 8
-      - adi|0401 - ZZ_1799 |26.02Mb
-      - adi|0401 - EE_777 |24.14Mb
       - 🇩🇰 adi|0401 - 丹麦 9
-      - adi|0330 - 15
-      - 🇺🇲 adi|0401 - 美国
       - 🇩🇰 adi|0401 - 丹麦 10
-      - adi|0330 - 捷克 5
-      - 🇯🇵 adi|0401 - JP_768 | 8.39Mb
-      - adi|0330 - 捷克 6
       - 🇩🇰 adi|0401 - 丹麦 11
       - 🇩🇰 adi|0401 - 丹麦 12
-      - 🇩🇰 adi|0401 - 丹麦 13
-      - 🇩🇰 adi|0401 - 丹麦 14
-      - 🇷🇴 adi|0330 - 罗马尼亚 4
-      - 🇺🇲 adi|0320 - 美国
-      - 🇺🇲 adi|0330 - 美国 3
-      - 🇳🇱 adi|0330 - 荷兰 3
-      - 🇩🇰 adi|0401 - 丹麦 15
-      - 🇺🇲 adi|0401 - 美国  6
-      - 🇨🇦 adi|0401 - 加拿大 2
-      - adi|0330 - 拉脱维亚里加
-      - 🇨🇦 adi|0330 - 加拿大
-      - 🇷🇴 adi|0330 - 罗马尼亚 5
-      - 🇷🇺 adi|0401 - RU_2446 |11.30Mb
-      - adi|0401 - ZZ_1807 |53.62Mb
-      - 🇺🇲 adi|0401 - US_3315 |129.73Mb
-      - 🇩🇰 adi|0401 - 丹麦 16
-      - 🇨🇦 adi|0401 - 加拿大 3
-      - adi|0401 - 捷克
-      - adi|0330 - 13
-      - 🇨🇦 adi|0401 - 加拿大 4
-      - adi|0330 - 1
-      - 🇩🇰 adi|0330 - 丹麦 8
-      - 🇺🇲 adi|0401 - 美国  3
+      - 🇯🇵 adi|0403 - JP_776 |16.01Mb
+      - 🇺🇲 adi|0403 - US_3334 | 5.89Mb
+      - 🇩🇰 adi|0330 - 丹麦 6
+      - 🇩🇰 adi|0330 - 丹麦 7
       - adi|0330 - 拉脱维亚里加 2
-      - 🇨🇦 adi|0330 - 加拿大 2
-      - 🇯🇵 adi|0401 - JP_774 |16.78Mb
-      - adi|0330 - 拉脱维亚里加 3
-      - adi|0330 - 拉脱维亚里加 4
-      - adi|0330 - 4
+      - 🇷🇴 adi|0330 - 罗马尼亚 5
+      - 🇨🇦 adi|0401 - 加拿大 2
+      - 🇺🇲 adi|0403 - US_3327 |20.21Mb
+      - 🇺🇲 adi|0403 - US_3338 |33.02Mb
+      - 🇺🇲 adi|0403 - US_3342 |29.59Mb
+      - 🇩🇪 adi|0403 - 德国
+      - 🇺🇲 adi|0403 - 美国 5
+      - 🇺🇲 adi|0330 - 美国 2
+      - 🇯🇵 adi|0401 - JP_782 | 6.25Mb
+      - 🇩🇰 adi|0401 - 丹麦 13
+      - 🇺🇲 adi|0403 - 美国 6
+      - 🇺🇲 adi|0403 - 美国 7
+      - 🇺🇲 adi|0403 - 美国 8
+      - 🇺🇲 adi|0403 - 美国 9
+      - 🇺🇲 adi|0403 - 美国 10
+      - adi|0330 - 13
+      - 🇩🇰 adi|0330 - 丹麦 8
+      - adi|0401 - ZZ_1807 |53.62Mb
+      - 🇩🇰 adi|0401 - 丹麦 14
+      - 🇫🇮 adi|0403 - 芬兰
+      - adi|0403 - 拉脱维亚里加 2
+      - adi|0403 - 罗马
+      - 🇺🇲 adi|0403 - 美国 11
+      - 🇺🇲 adi|0403 - 美国 12
+      - adi|0403 - 79.110.54.131:33992
       - 🇺🇲 adi|0323 - 美国
-      - 🇳🇱 adi|0401 - 荷兰
-      - adi|0330 - 罗马
-      - 🇩🇰 adi|0401 - 丹麦 17
-      - adi|0330 - 5
-      - adi|0401 - CA_581 |64.91Mb
-      - 🇯🇵 adi|0401 - JP_665 |15.43Mb
-      - adi|0330 - 6
-      - adi|0401 - CA_580 |46.32Mb
-      - 🇺🇲 adi|0401 - US_670 |45.86Mb
-      - adi|0325 - 克罗地亚
-      - 🇮🇪 adi|0328 - 爱尔兰都柏林
-      - adi|0330 - CA_606 |64.34Mb
-      - 🇺🇲 adi|0401 - 美国 15
-      - 🇺🇲 adi|0401 - 美国 2
-      - 🇬🇧 adi|0401 - 英国  2
-      - adi|0320 - 38
+      - adi|0330 - 15
+      - 🇳🇱 adi|0330 - 荷兰 2
+      - adi|0330 - 拉脱维亚里加 3
       - adi|0330 - 罗马 2
-      - 🇺🇲 adi|0323 - 美国 2
-      - adi|0401 - CA_589 |60.38Mb
-      - adi|0401 - CA_588 |70.79Mb
+      - 🇺🇲 adi|0401 - 美国 2
+      - adi|0403 - 阿尔巴尼亚
+      - 🇺🇲 adi|0403 - 美国 13
+      - 🇺🇲 adi|0403 - 美国 14
+      - adi|0403 - -4
+      - adi|0330 - 拉脱维亚里加 4
+      - 🇨🇦 adi|0401 - 加拿大 3
+      - 🇨🇦 adi|0403 - 加拿大 2
+      - 🇨🇭 adi|0403 - 瑞士
+      - 🇺🇲 adi|0320 - 美国
+      - 🇨🇦 adi|0330 - 加拿大
+      - 🇨🇦 adi|0330 - 加拿大 2
+      - 🇩🇰 adi|0401 - 丹麦 15
+      - 🇩🇰 adi|0401 - 丹麦 16
+      - 🇺🇲 adi|0403 - 美国 15
+      - 🇺🇲 adi|0403 - 美国 16
+      - adi|0403 - -12
+      - 🇳🇱 adi|0330 - 荷兰 3
+      - 🇯🇵 adi|0401 - JP_772 |10.27Mb
+      - 🇷🇴 adi|0403 - 罗马尼亚  3
+      - adi|0403 - 阿尔巴尼亚 2
+      - 🇮🇪 adi|0403 - 爱尔兰
+      - 🇫🇷 adi|0403 - 法国
+      - 🇺🇲 adi|0403 - 美国 17
+      - 🇺🇲 adi|0330 - 美国 3
+      - 🇯🇵 adi|0401 - JP_773 |19.29Mb
+      - 🇯🇵 adi|0401 - JP_775 |16.39Mb
+      - 🇯🇵 adi|0401 - JP_781 | 3.36Mb
+      - 🇺🇲 adi|0403 - 美国 18
+      - 🇳🇱 adi|0403 - NL_2250 |12.21Mb
+      - 🇳🇱 adi|0403 - NL_2254 | 5.49Mb
+      - 🇳🇱 adi|0403 - NL_2252 | 5.32Mb
+      - 🇳🇱 adi|0403 - NL_2251 |11.66Mb
+      - adi|0403 - 37.120.221.5:31764
+      - 🇺🇲 adi|0403 - US_3357 |66.51Mb
+      - 🇷🇺 adi|0403 - 俄罗斯新西伯利亚JustHost 26
+      - 🇯🇵 adi|0401 - JP_783 | 6.37Mb
+      - 🇯🇵 adi|0401 - JP_770 |17.15Mb
+      - 🇯🇵 adi|0401 - JP_776 |13.94Mb
+      - 🇯🇵 adi|0403 - JP_876 | 5.78Mb
+      - 🇯🇵 adi|0403 - JP_995 |14.27Mb
+      - 🇯🇵 adi|0401 - JP_665 |15.43Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 adi|0401 - 日本 10
-      - adi|0401 - seoul_2
-      - 🇨🇳 adi|0330 - HINET
       - 🇯🇵 adi|0330 - 日本#373
       - 🇯🇵 adi|0401 - JP_1008 |17.08Mb
-      - 🇯🇵 adi|0330 - 日本#43
-      - 🇯🇵 adi|0401 - JP_783 | 6.37Mb
-      - 🇯🇵 adi|0401 - JP_780 |10.08Mb
-      - 🇩🇰 adi|0330 - 丹麦
-      - 🇺🇲 adi|0401 - US_551 |53.35Mb
-      - 🇯🇵 adi|0401 - JP_781 | 3.36Mb
-      - 🇯🇵 adi|0401 - JP_1003 |14.10Mb
-      - 🇯🇵 adi|0401 - JP_775 |16.39Mb
-      - 🇯🇵 adi|0401 - JP_782 | 6.25Mb
-      - 🇯🇵 adi|0401 - JP_773 |19.29Mb
-      - 🇺🇲 adi|0330 - 美国
-      - adi|0325 - 西班牙
-      - 🇯🇵 adi|0401 - JP_661 |11.52Mb
-      - adi|0330 - 捷克
-      - 🇯🇵 adi|0401 - JP_770 |17.15Mb
-      - 🇩🇰 adi|0330 - 丹麦 2
-      - 🇨🇦 adi|0401 - 加拿大
-      - 🇩🇰 adi|0401 - 丹麦
-      - 🇩🇰 adi|0330 - 丹麦 3
-      - adi|0401 - 欧洲
-      - 🇯🇵 adi|0401 - JP_778 | 3.13Mb
-      - 🇺🇲 adi|0330 - 美国 2
-      - 🇩🇰 adi|0401 - 丹麦 2
-      - 🇩🇰 adi|0401 - 丹麦 3
-      - 🇳🇱 adi|0330 - 荷兰
-      - adi|0401 - 欧洲 2
-      - 🇺🇲 adi|0401 - US_554 |51.41Mb
-      - 🇷🇴 adi|0330 - 罗马尼亚
-      - 🇩🇰 adi|0330 - 丹麦 4
-      - 🇺🇲 adi|0401 - US_552 |53.97Mb
-      - 🇩🇰 adi|0401 - 丹麦 4
-      - adi|0401 - 欧盟  9
-      - adi|0330 - 捷克 2
-      - 🇷🇴 adi|0330 - 罗马尼亚 2
-      - 🇯🇵 adi|0401 - JP_772 |10.27Mb
-      - adi|0330 - 捷克 3
-      - 🇩🇰 adi|0401 - 丹麦 5
-      - 🇩🇰 adi|0330 - 丹麦 5
-      - 🇩🇰 adi|0330 - 丹麦 6
-      - adi|0330 - 2
-      - 🇩🇰 adi|0401 - 丹麦 6
-      - 🇩🇰 adi|0330 - 丹麦 7
-      - adi|0330 - 捷克 4
-      - 🇯🇵 adi|0401 - JP_776 |13.94Mb
-      - 🇳🇱 adi|0401 - NL_1801 | 8.64Mb
-      - 🇳🇱 adi|0330 - 荷兰 2
-      - 🇷🇴 adi|0330 - 罗马尼亚 3
-      - 🇩🇰 adi|0401 - 丹麦 7
-      - 🇩🇰 adi|0401 - 丹麦 8
-      - adi|0401 - ZZ_1799 |26.02Mb
-      - adi|0401 - EE_777 |24.14Mb
-      - 🇩🇰 adi|0401 - 丹麦 9
-      - adi|0330 - 15
-      - 🇺🇲 adi|0401 - 美国
-      - 🇩🇰 adi|0401 - 丹麦 10
-      - adi|0330 - 捷克 5
-      - 🇯🇵 adi|0401 - JP_768 | 8.39Mb
-      - adi|0330 - 捷克 6
-      - 🇩🇰 adi|0401 - 丹麦 11
-      - 🇩🇰 adi|0401 - 丹麦 12
-      - 🇩🇰 adi|0401 - 丹麦 13
-      - 🇩🇰 adi|0401 - 丹麦 14
-      - 🇷🇴 adi|0330 - 罗马尼亚 4
-      - 🇺🇲 adi|0320 - 美国
-      - 🇺🇲 adi|0330 - 美国 3
-      - 🇳🇱 adi|0330 - 荷兰 3
-      - 🇩🇰 adi|0401 - 丹麦 15
-      - 🇺🇲 adi|0401 - 美国  6
-      - 🇨🇦 adi|0401 - 加拿大 2
-      - adi|0330 - 拉脱维亚里加
-      - 🇨🇦 adi|0330 - 加拿大
-      - 🇷🇴 adi|0330 - 罗马尼亚 5
-      - 🇷🇺 adi|0401 - RU_2446 |11.30Mb
-      - adi|0401 - ZZ_1807 |53.62Mb
-      - 🇺🇲 adi|0401 - US_3315 |129.73Mb
-      - 🇩🇰 adi|0401 - 丹麦 16
-      - 🇨🇦 adi|0401 - 加拿大 3
-      - adi|0401 - 捷克
-      - adi|0330 - 13
-      - 🇨🇦 adi|0401 - 加拿大 4
-      - adi|0330 - 1
-      - 🇩🇰 adi|0330 - 丹麦 8
-      - 🇺🇲 adi|0401 - 美国  3
-      - adi|0330 - 拉脱维亚里加 2
-      - 🇨🇦 adi|0330 - 加拿大 2
-      - 🇯🇵 adi|0401 - JP_774 |16.78Mb
-      - adi|0330 - 拉脱维亚里加 3
-      - adi|0330 - 拉脱维亚里加 4
-      - adi|0330 - 4
-      - 🇺🇲 adi|0323 - 美国
-      - 🇳🇱 adi|0401 - 荷兰
-      - adi|0330 - 罗马
-      - 🇩🇰 adi|0401 - 丹麦 17
-      - adi|0330 - 5
-      - adi|0401 - CA_581 |64.91Mb
-      - 🇯🇵 adi|0401 - JP_665 |15.43Mb
-      - adi|0330 - 6
-      - adi|0401 - CA_580 |46.32Mb
-      - 🇺🇲 adi|0401 - US_670 |45.86Mb
-      - adi|0325 - 克罗地亚
-      - 🇮🇪 adi|0328 - 爱尔兰都柏林
-      - adi|0330 - CA_606 |64.34Mb
-      - 🇺🇲 adi|0401 - 美国 15
-      - 🇺🇲 adi|0401 - 美国 2
-      - 🇬🇧 adi|0401 - 英国  2
-      - adi|0320 - 38
-      - adi|0330 - 罗马 2
-      - 🇺🇲 adi|0323 - 美国 2
-      - adi|0401 - CA_589 |60.38Mb
-      - adi|0401 - CA_588 |70.79Mb
-  - name: 🔯 故障转移
-    type: fallback
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    proxies:
-      - 🇯🇵 adi|0401 - 日本 10
       - adi|0401 - seoul_2
-      - 🇨🇳 adi|0330 - HINET
-      - 🇯🇵 adi|0330 - 日本#373
-      - 🇯🇵 adi|0401 - JP_1008 |17.08Mb
-      - 🇯🇵 adi|0330 - 日本#43
-      - 🇯🇵 adi|0401 - JP_783 | 6.37Mb
-      - 🇯🇵 adi|0401 - JP_780 |10.08Mb
-      - 🇩🇰 adi|0330 - 丹麦
-      - 🇺🇲 adi|0401 - US_551 |53.35Mb
-      - 🇯🇵 adi|0401 - JP_781 | 3.36Mb
+      - 🇯🇵 adi|0403 - JP_1007 |17.18Mb
+      - 🇯🇵 adi|0403 - JP_638 |30.83Mb
+      - 🇯🇵 adi|0401 - JP_774 |16.78Mb
       - 🇯🇵 adi|0401 - JP_1003 |14.10Mb
-      - 🇯🇵 adi|0401 - JP_775 |16.39Mb
-      - 🇯🇵 adi|0401 - JP_782 | 6.25Mb
-      - 🇯🇵 adi|0401 - JP_773 |19.29Mb
-      - 🇺🇲 adi|0330 - 美国
-      - adi|0325 - 西班牙
-      - 🇯🇵 adi|0401 - JP_661 |11.52Mb
       - adi|0330 - 捷克
-      - 🇯🇵 adi|0401 - JP_770 |17.15Mb
-      - 🇩🇰 adi|0330 - 丹麦 2
-      - 🇨🇦 adi|0401 - 加拿大
-      - 🇩🇰 adi|0401 - 丹麦
-      - 🇩🇰 adi|0330 - 丹麦 3
+      - 🇯🇵 adi|0403 - JP_1008 |14.63Mb
+      - 🇺🇲 adi|0401 - US_670 |45.86Mb
+      - 🇺🇲 adi|0403 - US_839 |14.16Mb
+      - 🇯🇵 adi|0403 - JP_1000 | 4.52Mb
+      - 🇯🇵 adi|0403 - JP_1011 |12.80Mb
       - adi|0401 - 欧洲
       - 🇯🇵 adi|0401 - JP_778 | 3.13Mb
-      - 🇺🇲 adi|0330 - 美国 2
+      - 🇺🇲 adi|0401 - US_551 |53.35Mb
+      - 🇯🇵 adi|0401 - JP_780 |10.08Mb
+      - 🇺🇲 adi|0403 - US_886 | 8.26Mb
+      - 🇩🇰 adi|0403 - 丹麦
+      - adi|0330 - 捷克 2
+      - 🇯🇵 adi|0401 - JP_661 |11.52Mb
+      - 🇯🇵 adi|0403 - JP_998 |17.43Mb
+      - adi|0403 - 143.244.56.230:39772
+      - 🇳🇱 adi|0330 - 荷兰
+      - 🇩🇰 adi|0401 - 丹麦
+      - 🇯🇵 adi|0403 - JP_999 |11.81Mb
+      - 🇯🇵 adi|0401 - JP_768 | 8.39Mb
+      - 🇨🇦 adi|0401 - 加拿大
+      - 🇺🇲 adi|0403 - 美国
+      - 🇩🇰 adi|0330 - 丹麦
+      - adi|0330 - 捷克 3
+      - adi|0330 - 捷克 4
+      - adi|0330 - 罗马
+      - 🇺🇲 adi|0403 - US_692 |25.55Mb
+      - 🇺🇲 adi|0403 - 美国 2
+      - 🇺🇲 adi|0403 - 美国 3
+      - 🇷🇴 adi|0330 - 罗马尼亚
+      - 🇺🇲 adi|0401 - US_554 |51.41Mb
       - 🇩🇰 adi|0401 - 丹麦 2
       - 🇩🇰 adi|0401 - 丹麦 3
-      - 🇳🇱 adi|0330 - 荷兰
-      - adi|0401 - 欧洲 2
-      - 🇺🇲 adi|0401 - US_554 |51.41Mb
-      - 🇷🇴 adi|0330 - 罗马尼亚
-      - 🇩🇰 adi|0330 - 丹麦 4
-      - 🇺🇲 adi|0401 - US_552 |53.97Mb
       - 🇩🇰 adi|0401 - 丹麦 4
-      - adi|0401 - 欧盟  9
-      - adi|0330 - 捷克 2
-      - 🇷🇴 adi|0330 - 罗马尼亚 2
-      - 🇯🇵 adi|0401 - JP_772 |10.27Mb
-      - adi|0330 - 捷克 3
       - 🇩🇰 adi|0401 - 丹麦 5
-      - 🇩🇰 adi|0330 - 丹麦 5
-      - 🇩🇰 adi|0330 - 丹麦 6
-      - adi|0330 - 2
+      - adi|0401 - 欧洲 2
+      - 🇩🇰 adi|0330 - 丹麦 2
+      - adi|0330 - 捷克 5
+      - adi|0330 - 捷克 6
+      - 🇷🇴 adi|0330 - 罗马尼亚 2
       - 🇩🇰 adi|0401 - 丹麦 6
-      - 🇩🇰 adi|0330 - 丹麦 7
-      - adi|0330 - 捷克 4
-      - 🇯🇵 adi|0401 - JP_776 |13.94Mb
-      - 🇳🇱 adi|0401 - NL_1801 | 8.64Mb
-      - 🇳🇱 adi|0330 - 荷兰 2
+      - adi|0401 - 捷克
+      - 🇺🇲 adi|0403 - 美国 4
+      - 🇩🇰 adi|0330 - 丹麦 3
+      - 🇩🇰 adi|0330 - 丹麦 4
+      - 🇩🇰 adi|0330 - 丹麦 5
       - 🇷🇴 adi|0330 - 罗马尼亚 3
+      - 🇺🇲 adi|0330 - 美国
+      - 🇺🇲 adi|0401 - US_552 |53.97Mb
+      - adi|0403 - 拉脱维亚里加
+      - adi|0325 - 西班牙
+      - adi|0330 - 1
+      - 🇳🇱 adi|0401 - 荷兰
+      - 🇺🇲 adi|0401 - 美国
+      - 🇺🇲 adi|0403 - US_891 |23.46Mb
+      - 🇨🇦 adi|0403 - 加拿大
+      - adi|0330 - 拉脱维亚里加
+      - 🇷🇴 adi|0330 - 罗马尼亚 4
+      - adi|0401 - EE_777 |24.14Mb
+      - adi|0401 - ZZ_1799 |26.02Mb
       - 🇩🇰 adi|0401 - 丹麦 7
       - 🇩🇰 adi|0401 - 丹麦 8
-      - adi|0401 - ZZ_1799 |26.02Mb
-      - adi|0401 - EE_777 |24.14Mb
       - 🇩🇰 adi|0401 - 丹麦 9
-      - adi|0330 - 15
-      - 🇺🇲 adi|0401 - 美国
       - 🇩🇰 adi|0401 - 丹麦 10
-      - adi|0330 - 捷克 5
-      - 🇯🇵 adi|0401 - JP_768 | 8.39Mb
-      - adi|0330 - 捷克 6
       - 🇩🇰 adi|0401 - 丹麦 11
       - 🇩🇰 adi|0401 - 丹麦 12
-      - 🇩🇰 adi|0401 - 丹麦 13
-      - 🇩🇰 adi|0401 - 丹麦 14
-      - 🇷🇴 adi|0330 - 罗马尼亚 4
-      - 🇺🇲 adi|0320 - 美国
-      - 🇺🇲 adi|0330 - 美国 3
-      - 🇳🇱 adi|0330 - 荷兰 3
-      - 🇩🇰 adi|0401 - 丹麦 15
-      - 🇺🇲 adi|0401 - 美国  6
-      - 🇨🇦 adi|0401 - 加拿大 2
-      - adi|0330 - 拉脱维亚里加
-      - 🇨🇦 adi|0330 - 加拿大
-      - 🇷🇴 adi|0330 - 罗马尼亚 5
-      - 🇷🇺 adi|0401 - RU_2446 |11.30Mb
-      - adi|0401 - ZZ_1807 |53.62Mb
-      - 🇺🇲 adi|0401 - US_3315 |129.73Mb
-      - 🇩🇰 adi|0401 - 丹麦 16
-      - 🇨🇦 adi|0401 - 加拿大 3
-      - adi|0401 - 捷克
-      - adi|0330 - 13
-      - 🇨🇦 adi|0401 - 加拿大 4
-      - adi|0330 - 1
-      - 🇩🇰 adi|0330 - 丹麦 8
-      - 🇺🇲 adi|0401 - 美国  3
+      - 🇯🇵 adi|0403 - JP_776 |16.01Mb
+      - 🇺🇲 adi|0403 - US_3334 | 5.89Mb
+      - 🇩🇰 adi|0330 - 丹麦 6
+      - 🇩🇰 adi|0330 - 丹麦 7
       - adi|0330 - 拉脱维亚里加 2
-      - 🇨🇦 adi|0330 - 加拿大 2
-      - 🇯🇵 adi|0401 - JP_774 |16.78Mb
-      - adi|0330 - 拉脱维亚里加 3
-      - adi|0330 - 拉脱维亚里加 4
-      - adi|0330 - 4
+      - 🇷🇴 adi|0330 - 罗马尼亚 5
+      - 🇨🇦 adi|0401 - 加拿大 2
+      - 🇺🇲 adi|0403 - US_3327 |20.21Mb
+      - 🇺🇲 adi|0403 - US_3338 |33.02Mb
+      - 🇺🇲 adi|0403 - US_3342 |29.59Mb
+      - 🇩🇪 adi|0403 - 德国
+      - 🇺🇲 adi|0403 - 美国 5
+      - 🇺🇲 adi|0330 - 美国 2
+      - 🇯🇵 adi|0401 - JP_782 | 6.25Mb
+      - 🇩🇰 adi|0401 - 丹麦 13
+      - 🇺🇲 adi|0403 - 美国 6
+      - 🇺🇲 adi|0403 - 美国 7
+      - 🇺🇲 adi|0403 - 美国 8
+      - 🇺🇲 adi|0403 - 美国 9
+      - 🇺🇲 adi|0403 - 美国 10
+      - adi|0330 - 13
+      - 🇩🇰 adi|0330 - 丹麦 8
+      - adi|0401 - ZZ_1807 |53.62Mb
+      - 🇩🇰 adi|0401 - 丹麦 14
+      - 🇫🇮 adi|0403 - 芬兰
+      - adi|0403 - 拉脱维亚里加 2
+      - adi|0403 - 罗马
+      - 🇺🇲 adi|0403 - 美国 11
+      - 🇺🇲 adi|0403 - 美国 12
+      - adi|0403 - 79.110.54.131:33992
       - 🇺🇲 adi|0323 - 美国
-      - 🇳🇱 adi|0401 - 荷兰
-      - adi|0330 - 罗马
-      - 🇩🇰 adi|0401 - 丹麦 17
-      - adi|0330 - 5
-      - adi|0401 - CA_581 |64.91Mb
-      - 🇯🇵 adi|0401 - JP_665 |15.43Mb
-      - adi|0330 - 6
-      - adi|0401 - CA_580 |46.32Mb
-      - 🇺🇲 adi|0401 - US_670 |45.86Mb
-      - adi|0325 - 克罗地亚
-      - 🇮🇪 adi|0328 - 爱尔兰都柏林
-      - adi|0330 - CA_606 |64.34Mb
-      - 🇺🇲 adi|0401 - 美国 15
-      - 🇺🇲 adi|0401 - 美国 2
-      - 🇬🇧 adi|0401 - 英国  2
-      - adi|0320 - 38
+      - adi|0330 - 15
+      - 🇳🇱 adi|0330 - 荷兰 2
+      - adi|0330 - 拉脱维亚里加 3
       - adi|0330 - 罗马 2
-      - 🇺🇲 adi|0323 - 美国 2
-      - adi|0401 - CA_589 |60.38Mb
-      - adi|0401 - CA_588 |70.79Mb
+      - 🇺🇲 adi|0401 - 美国 2
+      - adi|0403 - 阿尔巴尼亚
+      - 🇺🇲 adi|0403 - 美国 13
+      - 🇺🇲 adi|0403 - 美国 14
+      - adi|0403 - -4
+      - adi|0330 - 拉脱维亚里加 4
+      - 🇨🇦 adi|0401 - 加拿大 3
+      - 🇨🇦 adi|0403 - 加拿大 2
+      - 🇨🇭 adi|0403 - 瑞士
+      - 🇺🇲 adi|0320 - 美国
+      - 🇨🇦 adi|0330 - 加拿大
+      - 🇨🇦 adi|0330 - 加拿大 2
+      - 🇩🇰 adi|0401 - 丹麦 15
+      - 🇩🇰 adi|0401 - 丹麦 16
+      - 🇺🇲 adi|0403 - 美国 15
+      - 🇺🇲 adi|0403 - 美国 16
+      - adi|0403 - -12
+      - 🇳🇱 adi|0330 - 荷兰 3
+      - 🇯🇵 adi|0401 - JP_772 |10.27Mb
+      - 🇷🇴 adi|0403 - 罗马尼亚  3
+      - adi|0403 - 阿尔巴尼亚 2
+      - 🇮🇪 adi|0403 - 爱尔兰
+      - 🇫🇷 adi|0403 - 法国
+      - 🇺🇲 adi|0403 - 美国 17
+      - 🇺🇲 adi|0330 - 美国 3
+      - 🇯🇵 adi|0401 - JP_773 |19.29Mb
+      - 🇯🇵 adi|0401 - JP_775 |16.39Mb
+      - 🇯🇵 adi|0401 - JP_781 | 3.36Mb
+      - 🇺🇲 adi|0403 - 美国 18
+      - 🇳🇱 adi|0403 - NL_2250 |12.21Mb
+      - 🇳🇱 adi|0403 - NL_2254 | 5.49Mb
+      - 🇳🇱 adi|0403 - NL_2252 | 5.32Mb
+      - 🇳🇱 adi|0403 - NL_2251 |11.66Mb
+      - adi|0403 - 37.120.221.5:31764
+      - 🇺🇲 adi|0403 - US_3357 |66.51Mb
+      - 🇷🇺 adi|0403 - 俄罗斯新西伯利亚JustHost 26
+      - 🇯🇵 adi|0401 - JP_783 | 6.37Mb
+      - 🇯🇵 adi|0401 - JP_770 |17.15Mb
+      - 🇯🇵 adi|0401 - JP_776 |13.94Mb
+      - 🇯🇵 adi|0403 - JP_876 | 5.78Mb
+      - 🇯🇵 adi|0403 - JP_995 |14.27Mb
+      - 🇯🇵 adi|0401 - JP_665 |15.43Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -500,122 +484,156 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🔯 故障转移
-      - 🇯🇵 adi|0401 - 日本 10
-      - adi|0401 - seoul_2
-      - 🇨🇳 adi|0330 - HINET
       - 🇯🇵 adi|0330 - 日本#373
       - 🇯🇵 adi|0401 - JP_1008 |17.08Mb
-      - 🇯🇵 adi|0330 - 日本#43
-      - 🇯🇵 adi|0401 - JP_783 | 6.37Mb
-      - 🇯🇵 adi|0401 - JP_780 |10.08Mb
-      - 🇩🇰 adi|0330 - 丹麦
-      - 🇺🇲 adi|0401 - US_551 |53.35Mb
-      - 🇯🇵 adi|0401 - JP_781 | 3.36Mb
+      - adi|0401 - seoul_2
+      - 🇯🇵 adi|0403 - JP_1007 |17.18Mb
+      - 🇯🇵 adi|0403 - JP_638 |30.83Mb
+      - 🇯🇵 adi|0401 - JP_774 |16.78Mb
       - 🇯🇵 adi|0401 - JP_1003 |14.10Mb
-      - 🇯🇵 adi|0401 - JP_775 |16.39Mb
-      - 🇯🇵 adi|0401 - JP_782 | 6.25Mb
-      - 🇯🇵 adi|0401 - JP_773 |19.29Mb
-      - 🇺🇲 adi|0330 - 美国
-      - adi|0325 - 西班牙
-      - 🇯🇵 adi|0401 - JP_661 |11.52Mb
       - adi|0330 - 捷克
-      - 🇯🇵 adi|0401 - JP_770 |17.15Mb
-      - 🇩🇰 adi|0330 - 丹麦 2
-      - 🇨🇦 adi|0401 - 加拿大
-      - 🇩🇰 adi|0401 - 丹麦
-      - 🇩🇰 adi|0330 - 丹麦 3
+      - 🇯🇵 adi|0403 - JP_1008 |14.63Mb
+      - 🇺🇲 adi|0401 - US_670 |45.86Mb
+      - 🇺🇲 adi|0403 - US_839 |14.16Mb
+      - 🇯🇵 adi|0403 - JP_1000 | 4.52Mb
+      - 🇯🇵 adi|0403 - JP_1011 |12.80Mb
       - adi|0401 - 欧洲
       - 🇯🇵 adi|0401 - JP_778 | 3.13Mb
-      - 🇺🇲 adi|0330 - 美国 2
+      - 🇺🇲 adi|0401 - US_551 |53.35Mb
+      - 🇯🇵 adi|0401 - JP_780 |10.08Mb
+      - 🇺🇲 adi|0403 - US_886 | 8.26Mb
+      - 🇩🇰 adi|0403 - 丹麦
+      - adi|0330 - 捷克 2
+      - 🇯🇵 adi|0401 - JP_661 |11.52Mb
+      - 🇯🇵 adi|0403 - JP_998 |17.43Mb
+      - adi|0403 - 143.244.56.230:39772
+      - 🇳🇱 adi|0330 - 荷兰
+      - 🇩🇰 adi|0401 - 丹麦
+      - 🇯🇵 adi|0403 - JP_999 |11.81Mb
+      - 🇯🇵 adi|0401 - JP_768 | 8.39Mb
+      - 🇨🇦 adi|0401 - 加拿大
+      - 🇺🇲 adi|0403 - 美国
+      - 🇩🇰 adi|0330 - 丹麦
+      - adi|0330 - 捷克 3
+      - adi|0330 - 捷克 4
+      - adi|0330 - 罗马
+      - 🇺🇲 adi|0403 - US_692 |25.55Mb
+      - 🇺🇲 adi|0403 - 美国 2
+      - 🇺🇲 adi|0403 - 美国 3
+      - 🇷🇴 adi|0330 - 罗马尼亚
+      - 🇺🇲 adi|0401 - US_554 |51.41Mb
       - 🇩🇰 adi|0401 - 丹麦 2
       - 🇩🇰 adi|0401 - 丹麦 3
-      - 🇳🇱 adi|0330 - 荷兰
-      - adi|0401 - 欧洲 2
-      - 🇺🇲 adi|0401 - US_554 |51.41Mb
-      - 🇷🇴 adi|0330 - 罗马尼亚
-      - 🇩🇰 adi|0330 - 丹麦 4
-      - 🇺🇲 adi|0401 - US_552 |53.97Mb
       - 🇩🇰 adi|0401 - 丹麦 4
-      - adi|0401 - 欧盟  9
-      - adi|0330 - 捷克 2
-      - 🇷🇴 adi|0330 - 罗马尼亚 2
-      - 🇯🇵 adi|0401 - JP_772 |10.27Mb
-      - adi|0330 - 捷克 3
       - 🇩🇰 adi|0401 - 丹麦 5
-      - 🇩🇰 adi|0330 - 丹麦 5
-      - 🇩🇰 adi|0330 - 丹麦 6
-      - adi|0330 - 2
+      - adi|0401 - 欧洲 2
+      - 🇩🇰 adi|0330 - 丹麦 2
+      - adi|0330 - 捷克 5
+      - adi|0330 - 捷克 6
+      - 🇷🇴 adi|0330 - 罗马尼亚 2
       - 🇩🇰 adi|0401 - 丹麦 6
-      - 🇩🇰 adi|0330 - 丹麦 7
-      - adi|0330 - 捷克 4
-      - 🇯🇵 adi|0401 - JP_776 |13.94Mb
-      - 🇳🇱 adi|0401 - NL_1801 | 8.64Mb
-      - 🇳🇱 adi|0330 - 荷兰 2
+      - adi|0401 - 捷克
+      - 🇺🇲 adi|0403 - 美国 4
+      - 🇩🇰 adi|0330 - 丹麦 3
+      - 🇩🇰 adi|0330 - 丹麦 4
+      - 🇩🇰 adi|0330 - 丹麦 5
       - 🇷🇴 adi|0330 - 罗马尼亚 3
+      - 🇺🇲 adi|0330 - 美国
+      - 🇺🇲 adi|0401 - US_552 |53.97Mb
+      - adi|0403 - 拉脱维亚里加
+      - adi|0325 - 西班牙
+      - adi|0330 - 1
+      - 🇳🇱 adi|0401 - 荷兰
+      - 🇺🇲 adi|0401 - 美国
+      - 🇺🇲 adi|0403 - US_891 |23.46Mb
+      - 🇨🇦 adi|0403 - 加拿大
+      - adi|0330 - 拉脱维亚里加
+      - 🇷🇴 adi|0330 - 罗马尼亚 4
+      - adi|0401 - EE_777 |24.14Mb
+      - adi|0401 - ZZ_1799 |26.02Mb
       - 🇩🇰 adi|0401 - 丹麦 7
       - 🇩🇰 adi|0401 - 丹麦 8
-      - adi|0401 - ZZ_1799 |26.02Mb
-      - adi|0401 - EE_777 |24.14Mb
       - 🇩🇰 adi|0401 - 丹麦 9
-      - adi|0330 - 15
-      - 🇺🇲 adi|0401 - 美国
       - 🇩🇰 adi|0401 - 丹麦 10
-      - adi|0330 - 捷克 5
-      - 🇯🇵 adi|0401 - JP_768 | 8.39Mb
-      - adi|0330 - 捷克 6
       - 🇩🇰 adi|0401 - 丹麦 11
       - 🇩🇰 adi|0401 - 丹麦 12
-      - 🇩🇰 adi|0401 - 丹麦 13
-      - 🇩🇰 adi|0401 - 丹麦 14
-      - 🇷🇴 adi|0330 - 罗马尼亚 4
-      - 🇺🇲 adi|0320 - 美国
-      - 🇺🇲 adi|0330 - 美国 3
-      - 🇳🇱 adi|0330 - 荷兰 3
-      - 🇩🇰 adi|0401 - 丹麦 15
-      - 🇺🇲 adi|0401 - 美国  6
-      - 🇨🇦 adi|0401 - 加拿大 2
-      - adi|0330 - 拉脱维亚里加
-      - 🇨🇦 adi|0330 - 加拿大
-      - 🇷🇴 adi|0330 - 罗马尼亚 5
-      - 🇷🇺 adi|0401 - RU_2446 |11.30Mb
-      - adi|0401 - ZZ_1807 |53.62Mb
-      - 🇺🇲 adi|0401 - US_3315 |129.73Mb
-      - 🇩🇰 adi|0401 - 丹麦 16
-      - 🇨🇦 adi|0401 - 加拿大 3
-      - adi|0401 - 捷克
-      - adi|0330 - 13
-      - 🇨🇦 adi|0401 - 加拿大 4
-      - adi|0330 - 1
-      - 🇩🇰 adi|0330 - 丹麦 8
-      - 🇺🇲 adi|0401 - 美国  3
+      - 🇯🇵 adi|0403 - JP_776 |16.01Mb
+      - 🇺🇲 adi|0403 - US_3334 | 5.89Mb
+      - 🇩🇰 adi|0330 - 丹麦 6
+      - 🇩🇰 adi|0330 - 丹麦 7
       - adi|0330 - 拉脱维亚里加 2
-      - 🇨🇦 adi|0330 - 加拿大 2
-      - 🇯🇵 adi|0401 - JP_774 |16.78Mb
-      - adi|0330 - 拉脱维亚里加 3
-      - adi|0330 - 拉脱维亚里加 4
-      - adi|0330 - 4
+      - 🇷🇴 adi|0330 - 罗马尼亚 5
+      - 🇨🇦 adi|0401 - 加拿大 2
+      - 🇺🇲 adi|0403 - US_3327 |20.21Mb
+      - 🇺🇲 adi|0403 - US_3338 |33.02Mb
+      - 🇺🇲 adi|0403 - US_3342 |29.59Mb
+      - 🇩🇪 adi|0403 - 德国
+      - 🇺🇲 adi|0403 - 美国 5
+      - 🇺🇲 adi|0330 - 美国 2
+      - 🇯🇵 adi|0401 - JP_782 | 6.25Mb
+      - 🇩🇰 adi|0401 - 丹麦 13
+      - 🇺🇲 adi|0403 - 美国 6
+      - 🇺🇲 adi|0403 - 美国 7
+      - 🇺🇲 adi|0403 - 美国 8
+      - 🇺🇲 adi|0403 - 美国 9
+      - 🇺🇲 adi|0403 - 美国 10
+      - adi|0330 - 13
+      - 🇩🇰 adi|0330 - 丹麦 8
+      - adi|0401 - ZZ_1807 |53.62Mb
+      - 🇩🇰 adi|0401 - 丹麦 14
+      - 🇫🇮 adi|0403 - 芬兰
+      - adi|0403 - 拉脱维亚里加 2
+      - adi|0403 - 罗马
+      - 🇺🇲 adi|0403 - 美国 11
+      - 🇺🇲 adi|0403 - 美国 12
+      - adi|0403 - 79.110.54.131:33992
       - 🇺🇲 adi|0323 - 美国
-      - 🇳🇱 adi|0401 - 荷兰
-      - adi|0330 - 罗马
-      - 🇩🇰 adi|0401 - 丹麦 17
-      - adi|0330 - 5
-      - adi|0401 - CA_581 |64.91Mb
-      - 🇯🇵 adi|0401 - JP_665 |15.43Mb
-      - adi|0330 - 6
-      - adi|0401 - CA_580 |46.32Mb
-      - 🇺🇲 adi|0401 - US_670 |45.86Mb
-      - adi|0325 - 克罗地亚
-      - 🇮🇪 adi|0328 - 爱尔兰都柏林
-      - adi|0330 - CA_606 |64.34Mb
-      - 🇺🇲 adi|0401 - 美国 15
-      - 🇺🇲 adi|0401 - 美国 2
-      - 🇬🇧 adi|0401 - 英国  2
-      - adi|0320 - 38
+      - adi|0330 - 15
+      - 🇳🇱 adi|0330 - 荷兰 2
+      - adi|0330 - 拉脱维亚里加 3
       - adi|0330 - 罗马 2
-      - 🇺🇲 adi|0323 - 美国 2
-      - adi|0401 - CA_589 |60.38Mb
-      - adi|0401 - CA_588 |70.79Mb
+      - 🇺🇲 adi|0401 - 美国 2
+      - adi|0403 - 阿尔巴尼亚
+      - 🇺🇲 adi|0403 - 美国 13
+      - 🇺🇲 adi|0403 - 美国 14
+      - adi|0403 - -4
+      - adi|0330 - 拉脱维亚里加 4
+      - 🇨🇦 adi|0401 - 加拿大 3
+      - 🇨🇦 adi|0403 - 加拿大 2
+      - 🇨🇭 adi|0403 - 瑞士
+      - 🇺🇲 adi|0320 - 美国
+      - 🇨🇦 adi|0330 - 加拿大
+      - 🇨🇦 adi|0330 - 加拿大 2
+      - 🇩🇰 adi|0401 - 丹麦 15
+      - 🇩🇰 adi|0401 - 丹麦 16
+      - 🇺🇲 adi|0403 - 美国 15
+      - 🇺🇲 adi|0403 - 美国 16
+      - adi|0403 - -12
+      - 🇳🇱 adi|0330 - 荷兰 3
+      - 🇯🇵 adi|0401 - JP_772 |10.27Mb
+      - 🇷🇴 adi|0403 - 罗马尼亚  3
+      - adi|0403 - 阿尔巴尼亚 2
+      - 🇮🇪 adi|0403 - 爱尔兰
+      - 🇫🇷 adi|0403 - 法国
+      - 🇺🇲 adi|0403 - 美国 17
+      - 🇺🇲 adi|0330 - 美国 3
+      - 🇯🇵 adi|0401 - JP_773 |19.29Mb
+      - 🇯🇵 adi|0401 - JP_775 |16.39Mb
+      - 🇯🇵 adi|0401 - JP_781 | 3.36Mb
+      - 🇺🇲 adi|0403 - 美国 18
+      - 🇳🇱 adi|0403 - NL_2250 |12.21Mb
+      - 🇳🇱 adi|0403 - NL_2254 | 5.49Mb
+      - 🇳🇱 adi|0403 - NL_2252 | 5.32Mb
+      - 🇳🇱 adi|0403 - NL_2251 |11.66Mb
+      - adi|0403 - 37.120.221.5:31764
+      - 🇺🇲 adi|0403 - US_3357 |66.51Mb
+      - 🇷🇺 adi|0403 - 俄罗斯新西伯利亚JustHost 26
+      - 🇯🇵 adi|0401 - JP_783 | 6.37Mb
+      - 🇯🇵 adi|0401 - JP_770 |17.15Mb
+      - 🇯🇵 adi|0401 - JP_776 |13.94Mb
+      - 🇯🇵 adi|0403 - JP_876 | 5.78Mb
+      - 🇯🇵 adi|0403 - JP_995 |14.27Mb
+      - 🇯🇵 adi|0401 - JP_665 |15.43Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2220,6 +2238,8 @@ rules:
  - DOMAIN-SUFFIX,808.tianyaui.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,92x.tumblr.com,🛑 全球拦截
  - DOMAIN-SUFFIX,a1.itc.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,ad-channel.wikawika.xyz,🛑 全球拦截
+ - DOMAIN-SUFFIX,ad-display.wikawika.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,ad.12306.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ad.3.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ad.95306.cn,🛑 全球拦截
@@ -2388,6 +2408,7 @@ rules:
  - DOMAIN-SUFFIX,bbc.co,🚀 节点选择
  - DOMAIN-SUFFIX,bbc.co.uk,🚀 节点选择
  - DOMAIN-SUFFIX,bbc.com,🚀 节点选择
+ - DOMAIN-SUFFIX,bbc.net.uk,🚀 节点选择
  - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,🚀 节点选择
  - DOMAIN-SUFFIX,bbci.co,🚀 节点选择
  - DOMAIN-SUFFIX,bbci.co.uk,🚀 节点选择
@@ -2464,6 +2485,7 @@ rules:
  - DOMAIN-SUFFIX,hbogoasia.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbogoasia.hk,🚀 节点选择
  - DOMAIN-SUFFIX,hbomax.com,🚀 节点选择
+ - DOMAIN-SUFFIX,hbomaxcdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbonow.com,🚀 节点选择
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
  - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
@@ -2527,7 +2549,7 @@ rules:
  - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🚀 节点选择
  - DOMAIN-SUFFIX,mytvsuper.com,🚀 节点选择
  - DOMAIN-SUFFIX,tvb.com,🚀 节点选择
- - DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-,🚀 节点选择
+ - DOMAIN-KEYWORD,dualstack.apiproxy-,🚀 节点选择
  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🚀 节点选择
  - DOMAIN,netflix.com.edgesuite.net,🚀 节点选择
  - DOMAIN-SUFFIX,fast.com,🚀 节点选择
@@ -3076,6 +3098,7 @@ rules:
  - DOMAIN-SUFFIX,alibabacloud.com,🎯 全球直连
  - DOMAIN-SUFFIX,alibabausercontent.com,🎯 全球直连
  - DOMAIN-SUFFIX,alicdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alicloudccp.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliexpress.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,alikunlun.com,🎯 全球直连
@@ -3085,6 +3108,7 @@ rules:
  - DOMAIN-SUFFIX,aliyun.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliyuncdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliyuncs.com,🎯 全球直连
+ - DOMAIN-SUFFIX,aliyundrive.com,🎯 全球直连
  - DOMAIN-SUFFIX,amap.com,🎯 全球直连
  - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
  - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
@@ -3578,7 +3602,6 @@ rules:
  - DOMAIN-SUFFIX,upyun.com,🎯 全球直连
  - DOMAIN-SUFFIX,uxengine.net,🎯 全球直连
  - DOMAIN-SUFFIX,videocc.net,🎯 全球直连
- - DOMAIN-SUFFIX,vmware.com,🎯 全球直连
  - DOMAIN-SUFFIX,wandoujia.com,🎯 全球直连
  - DOMAIN-SUFFIX,weather.com,🎯 全球直连
  - DOMAIN-SUFFIX,weico.cc,🎯 全球直连
