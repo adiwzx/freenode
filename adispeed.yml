@@ -5,86 +5,131 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 adi|0506 - 美国, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
-  - {name: 🇺🇲 adi|0506 - 美国 2, server: 1.0.0.0, port: 443, type: vmess, uuid: 65f11be5-ac71-4f0c-874b-d93c610c66ef, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: us-a.freeproxy1.workers.dev}}
-  - {name: 🇭🇰 adi|0506 - 香港 |16.01Mb, server: shcn2-04.iplc188.com, port: 10005, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇰🇷 adi|0506 - 韩国 |15.89Mb, server: hga.cnmwl6.cf, port: 80, type: vmess, uuid: b2e1dd98-1516-423a-bf7f-716773e47fbf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hga.cnmwl6.cf}}
-  - {name: 🇺🇲 adi|0506 - 美国 |15.44Mb, server: ks-us-a.qjnodeip.xyz, port: 5329, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-a.qjnodeip.xyz}}
-  - {name: 🇯🇵 adi|0506 - JP_4650 |36.30Mb, server: c-jp-dv1.ooxc.cc, port: 443, type: vmess, uuid: f299184b-19e0-41a4-9b4b-65fa8f0e691c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-jp-dv1.ooxc.cc}}
-  - {name: 🇺🇲 adi|0506 - 美国 15, server: us178.mars6666.com, port: 443, type: vmess, uuid: fe93a062-d13f-3958-9ebc-0c06cd32dfb0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: us178.mars6666.com}}
-  - {name: 🇰🇷 adi|0506 - 韩国, server: hga.cnmwl6.cf, port: 80, type: vmess, uuid: b2e1dd98-1516-423a-bf7f-716773e47fbf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hga.cnmwl6.cf}}
-  - {name: 🇦🇨 adi|0504 - 美国矶MULTACOM 7, server: cc.hciahciphcie.club, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /84c3f/, ws-headers: {Host: cc.hciahciphcie.club}}
-  - {name: 🇺🇲 adi|0502 - 美国14, server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: usa2-node.3366test.com}}
-  - {name: 🇺🇲 adi|0501 - 美国 |21.55Mb, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
+  - {name: 🇸🇬 adi|0506 - 新加坡NewMedia 15, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co}
+  - {name: 🇬🇧 adi|0507 - 英国ss18, server: ss.uk.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: JSvsHhHYIuVG}
+  - {name: 🇬🇧 adi|0507 - 英国, server: 185.38.150.124, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0507 - 欧洲, server: 91.90.123.155, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0507 - 欧洲 2, server: 82.102.26.91, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0507 - 欧洲 3, server: 138.199.9.202, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: adi|0507 - 欧洲 4, server: 68.71.244.208, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0507 - 欧洲 5, server: 138.199.9.202, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: adi|0507 - 欧洲 6, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇿🇦 adi|0507 - 南非, server: 154.127.50.138, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 adi|0507 - 美国 圣何塞, server: 107.181.166.55, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 adi|0507 - 美国, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇺🇲 adi|0507 - 美国 2, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: 🇺🇲 adi|0507 - 美国 3, server: 207.244.67.149, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇷🇴 adi|0507 - 罗马尼亚  2, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0507 - 罗马, server: 139.28.176.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0507 - 克罗地亚, server: 85.10.50.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0507 - 克罗地亚 2, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: adi|0507 - 克罗地亚 3, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇫🇮 adi|0507 - 芬兰, server: 194.110.115.85, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 🇬🇧 adi|0506 - 英国 9, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: HgCMlgbtQMxl}
   - {name: 🇬🇧 adi|0506 - 英国 6, server: ss.uk.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
   - {name: 🇮🇳 adi|0506 - 印度 10, server: ss.id.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: ku382YXK8cLE}
   - {name: 🇮🇳 adi|0506 - 印度, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇸🇬 adi|0506 - 新加坡ss29, server: ss.sg.sshmax.net, port: 8139, type: ss, cipher: chacha20-ietf-poly1305, password: qyzhBfoKRzXl}
+  - {name: 🇸🇬 adi|0506 - 新加坡OVH 14, server: ss.sg.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: o4qygNrXw7cE}
   - {name: 🇨🇭 adi|0506 - 瑞士, server: 185.124.240.159, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
   - {name: 🇨🇭 adi|0506 - 瑞士 2, server: 185.124.240.159, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0506 - 欧洲, server: 188.92.78.203, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: adi|0506 - 欧洲 2, server: 188.92.78.203, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0506 - 欧洲, server: 188.92.78.203, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0506 - 欧洲 2, server: 188.92.78.145, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: adi|0506 - 欧洲 3, server: 188.92.78.145, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: adi|0506 - 欧洲 4, server: 188.92.78.145, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0506 - 欧洲 5, server: 188.92.78.145, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: adi|0506 - 欧洲 4, server: 188.92.78.145, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: adi|0506 - 欧洲 5, server: 188.92.78.203, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
   - {name: 🇺🇲 adi|0506 - 美国ss17, server: ss.us.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: T3j6elRwEuA4}
   - {name: 🇺🇲 adi|0506 - 美国OVH 7, server: ss.us.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD}
-  - {name: 🇺🇲 adi|0506 - 美国 3, server: 45.89.173.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 adi|0506 - 美国 4, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 adi|0506 - 美国 5, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇲 adi|0506 - 美国 6, server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 🇺🇲 adi|0506 - 美国 7, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: 🇺🇲 adi|0506 - 美国 8, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 adi|0506 - 美国 9, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 adi|0506 - 美国 10, server: 45.89.173.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇲 adi|0506 - 美国 11, server: 143.244.57.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 adi|0506 - 美国 12, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇲 adi|0506 - 美国 13, server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0506 - 美国10, server: 143.244.42.86, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 adi|0506 - 美国, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 adi|0506 - 美国 2, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 adi|0506 - 美国 3, server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 🇺🇲 adi|0506 - 美国 4, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 adi|0506 - 美国 5, server: 45.89.173.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇲 adi|0506 - 美国 6, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇲 adi|0506 - 美国 7, server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0506 - 美国 8, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 adi|0506 - 美国 9, server: 143.244.57.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0506 - 美国 10, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 🇺🇲 adi|0506 - 美国 11, server: 45.89.173.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: adi|0506 - 罗马, server: 193.29.106.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 🇨🇦 adi|0506 - 加拿大ss16, server: ss.ca.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: r4TeEt5bK0UD}
   - {name: 🇳🇱 adi|0506 - 荷兰, server: 212.102.35.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 🇫🇷 adi|0506 - 法国ss21, server: ss.fr.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: 6nhHHuGHw2D5}
-  - {name: 🇷🇺 adi|0506 - 俄罗斯ss19, server: ss.ru.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: KACUGSkPS3FG}
   - {name: 🇩🇪 adi|0506 - 德国ss25, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: cWv8FcJk0VpS}
   - {name: 🇩🇪 adi|0506 - 德国, server: 185.2.100.166, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇪 adi|0506 - 德国 2, server: 185.2.100.166, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇩🇪 adi|0506 - 德国 3, server: 185.2.100.166, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇩🇪 adi|0506 - 德国 2, server: 185.2.100.166, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇩🇪 adi|0506 - 德国 3, server: 185.2.100.166, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
   - {name: 🇩🇪 adi|0506 - 德国 4, server: 185.124.240.159, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
   - {name: adi|0506 - 波兰ss20, server: ss.pl.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: M1LCZAlfz1bV}
-  - {name: 🇺🇲 adi|0506 - 美国10, server: 143.244.42.86, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: adi|0504 - 欧洲, server: 45.89.173.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0504 - 欧洲 2, server: 188.92.78.145, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: adi|0504 - 欧洲 3, server: 188.92.78.145, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: adi|0504 - 欧洲, server: 188.92.78.145, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: adi|0504 - 欧洲 2, server: 188.92.78.145, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: adi|0504 - 欧洲 3, server: 45.89.173.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇺🇲 adi|0504 - 美国, server: 198.147.22.87, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
   - {name: 🇬🇧 adi|0428 - 英国, server: 81.19.214.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇯🇵 adi|0415 - 日本Amazon 1, server: ffrenzy.tk, port: 11443, type: ss, cipher: chacha20-ietf-poly1305, password: 543c3bff-3d9b-41b6-800e-a8ae3eb0712a}
-  - {name: 🇸🇬 adi|0506 - 新加坡NewMedia 15, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co}
+  - {name: 🇺🇲 adi|0507 - 美国CloudFlare 9, server: 141.101.115.18, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /y284, ws-headers: {Host: cooa.xyz}}
+  - {name: 🇺🇲 adi|0507 - 美国CloudFlare 5, server: 1.0.0.0, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /y284, ws-headers: {Host: cooa.xyz}}
+  - {name: 🇺🇲 adi|0507 - 美国 4, server: 104.16.207.196, port: 443, type: vmess, uuid: a9cd126a-7c05-41af-ad0e-a185eabc89c8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson.cf}}
+  - {name: 🇺🇲 adi|0507 - 美国 5, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
+  - {name: 🇯🇵 adi|0507 - 日本 |30.76Mb, server: 13.248.185.14, port: 443, type: vmess, uuid: dcf19507-2723-4ac0-b7c5-5995a40930e0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /mkhrvws, ws-headers: {Host: 13.248.185.14}}
+  - {name: 🇺🇲 adi|0507 - 美国 |22.34Mb, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: 23.224.31.210}}
+  - {name: 🇯🇵 adi|0507 - 日本 |20.34Mb, server: a943a58cb43e598ef.awsglobalaccelerator.com, port: 443, type: vmess, uuid: dcf19507-2723-4ac0-b7c5-5995a40930e0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /mkhrvws, ws-headers: {Host: a943a58cb43e598ef.awsglobalaccelerator.com}}
+  - {name: 🇯🇵 adi|0507 - 日本 |16.62Mb, server: 76.223.55.28, port: 443, type: vmess, uuid: dcf19507-2723-4ac0-b7c5-5995a40930e0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /mkhrvws, ws-headers: {Host: 76.223.55.28}}
+  - {name: 🇭🇰 adi|0507 - 香港1, server: centos.fuchau.xyz, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
+  - {name: 🇷🇺 adi|0507 - 俄罗斯 |22.91Mb, server: 91.245.227.135, port: 38166, type: vmess, uuid: 9551d4fd-610e-4bf3-9f93-1df5452c3654, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 91.245.227.135}}
+  - {name: 🇷🇺 adi|0507 - 俄罗斯 |22.76Mb, server: 52.79.228.10, port: 53691, type: vmess, uuid: 25b4eb9e-647c-4440-98b3-d21958e24577, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 adi|0507 - 美国 |20.41Mb, server: 23.225.213.242, port: 443, type: vmess, uuid: 11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.213.242}}
+  - {name: 🇺🇲 adi|0507 - 美国 |17.38Mb, server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 128.14.153.42}}
+  - {name: 🇺🇲 adi|0507 - 美国 6, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
+  - {name: 🇺🇲 adi|0507 - 美国 7, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}}
+  - {name: 🇰🇷 adi|0507 - 韩国, server: 52.79.228.10, port: 53691, type: vmess, uuid: 25b4eb9e-647c-4440-98b3-d21958e24577, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 adi|0506 - 美国 15, server: us178.mars6666.com, port: 443, type: vmess, uuid: fe93a062-d13f-3958-9ebc-0c06cd32dfb0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: us178.mars6666.com}}
+  - {name: 🇺🇲 adi|0506 - 美国 12, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
+  - {name: 🇰🇷 adi|0506 - 韩国 |15.89Mb, server: hga.cnmwl6.cf, port: 80, type: vmess, uuid: b2e1dd98-1516-423a-bf7f-716773e47fbf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hga.cnmwl6.cf}}
+  - {name: 🇰🇷 adi|0506 - 韩国, server: hga.cnmwl6.cf, port: 80, type: vmess, uuid: b2e1dd98-1516-423a-bf7f-716773e47fbf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hga.cnmwl6.cf}}
+  - {name: 🇦🇨 adi|0504 - 美国矶MULTACOM 7, server: cc.hciahciphcie.club, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /84c3f/, ws-headers: {Host: cc.hciahciphcie.club}}
+  - {name: 🇺🇲 adi|0502 - 美国14, server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: usa2-node.3366test.com}}
+  - {name: 🇺🇲 adi|0501 - 美国 |21.55Mb, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
   - {name: 🇺🇲 adi|0425 - 美国, server: 104.21.239.147, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
   - {name: 🇺🇲 adi|0422 - 美国, server: 104.16.181.15, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇸🇬 adi|0506 - 新加坡ss29, server: ss.sg.sshmax.net, port: 8139, type: ss, cipher: chacha20-ietf-poly1305, password: qyzhBfoKRzXl}
+  - {name: adi|0507 - 207.244.67.149:40093, server: 207.244.67.149, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇦🇺 adi|0507 - 澳大利亚ss15, server: ss.au.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: kRAxb8hPUxS0}
+  - {name: adi|0507 - 欧盟  12, server: 45.88.179.35, port: 42365, type: vmess, uuid: 085e6815-e476-411a-a9a6-4e5306a1b875, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 adi|0507 - 美国32, server: 207.244.67.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇸🇬 adi|0506 - 新加坡ss27, server: ss.sg.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: grtvkkHAinCf}
-  - {name: 🇸🇬 adi|0506 - 新加坡OVH 14, server: ss.sg.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: o4qygNrXw7cE}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 adi|0506 - 美国
-      - 🇺🇲 adi|0506 - 美国 2
-      - 🇭🇰 adi|0506 - 香港 |16.01Mb
-      - 🇰🇷 adi|0506 - 韩国 |15.89Mb
-      - 🇺🇲 adi|0506 - 美国 |15.44Mb
-      - 🇯🇵 adi|0506 - JP_4650 |36.30Mb
-      - 🇺🇲 adi|0506 - 美国 15
-      - 🇰🇷 adi|0506 - 韩国
-      - 🇦🇨 adi|0504 - 美国矶MULTACOM 7
-      - 🇺🇲 adi|0502 - 美国14
-      - 🇺🇲 adi|0501 - 美国 |21.55Mb
+      - 🇸🇬 adi|0506 - 新加坡NewMedia 15
+      - 🇬🇧 adi|0507 - 英国ss18
+      - 🇬🇧 adi|0507 - 英国
+      - adi|0507 - 欧洲
+      - adi|0507 - 欧洲 2
+      - adi|0507 - 欧洲 3
+      - adi|0507 - 欧洲 4
+      - adi|0507 - 欧洲 5
+      - adi|0507 - 欧洲 6
+      - 🇿🇦 adi|0507 - 南非
+      - 🇺🇲 adi|0507 - 美国 圣何塞
+      - 🇺🇲 adi|0507 - 美国
+      - 🇺🇲 adi|0507 - 美国 2
+      - 🇺🇲 adi|0507 - 美国 3
+      - 🇷🇴 adi|0507 - 罗马尼亚  2
+      - adi|0507 - 罗马
+      - adi|0507 - 克罗地亚
+      - adi|0507 - 克罗地亚 2
+      - adi|0507 - 克罗地亚 3
+      - 🇫🇮 adi|0507 - 芬兰
       - 🇬🇧 adi|0506 - 英国 9
       - 🇬🇧 adi|0506 - 英国 6
       - 🇮🇳 adi|0506 - 印度 10
       - 🇮🇳 adi|0506 - 印度
+      - 🇸🇬 adi|0506 - 新加坡ss29
+      - 🇸🇬 adi|0506 - 新加坡OVH 14
       - 🇨🇭 adi|0506 - 瑞士
       - 🇨🇭 adi|0506 - 瑞士 2
       - adi|0506 - 欧洲
@@ -94,6 +139,9 @@ proxy-groups:
       - adi|0506 - 欧洲 5
       - 🇺🇲 adi|0506 - 美国ss17
       - 🇺🇲 adi|0506 - 美国OVH 7
+      - 🇺🇲 adi|0506 - 美国10
+      - 🇺🇲 adi|0506 - 美国
+      - 🇺🇲 adi|0506 - 美国 2
       - 🇺🇲 adi|0506 - 美国 3
       - 🇺🇲 adi|0506 - 美国 4
       - 🇺🇲 adi|0506 - 美国 5
@@ -103,53 +151,84 @@ proxy-groups:
       - 🇺🇲 adi|0506 - 美国 9
       - 🇺🇲 adi|0506 - 美国 10
       - 🇺🇲 adi|0506 - 美国 11
-      - 🇺🇲 adi|0506 - 美国 12
-      - 🇺🇲 adi|0506 - 美国 13
       - adi|0506 - 罗马
       - 🇨🇦 adi|0506 - 加拿大ss16
       - 🇳🇱 adi|0506 - 荷兰
       - 🇫🇷 adi|0506 - 法国ss21
-      - 🇷🇺 adi|0506 - 俄罗斯ss19
       - 🇩🇪 adi|0506 - 德国ss25
       - 🇩🇪 adi|0506 - 德国
       - 🇩🇪 adi|0506 - 德国 2
       - 🇩🇪 adi|0506 - 德国 3
       - 🇩🇪 adi|0506 - 德国 4
       - adi|0506 - 波兰ss20
-      - 🇺🇲 adi|0506 - 美国10
       - adi|0504 - 欧洲
       - adi|0504 - 欧洲 2
       - adi|0504 - 欧洲 3
       - 🇺🇲 adi|0504 - 美国
       - 🇬🇧 adi|0428 - 英国
       - 🇯🇵 adi|0415 - 日本Amazon 1
-      - 🇸🇬 adi|0506 - 新加坡NewMedia 15
+      - 🇺🇲 adi|0507 - 美国CloudFlare 9
+      - 🇺🇲 adi|0507 - 美国CloudFlare 5
+      - 🇺🇲 adi|0507 - 美国 4
+      - 🇺🇲 adi|0507 - 美国 5
+      - 🇯🇵 adi|0507 - 日本 |30.76Mb
+      - 🇺🇲 adi|0507 - 美国 |22.34Mb
+      - 🇯🇵 adi|0507 - 日本 |20.34Mb
+      - 🇯🇵 adi|0507 - 日本 |16.62Mb
+      - 🇭🇰 adi|0507 - 香港1
+      - 🇷🇺 adi|0507 - 俄罗斯 |22.91Mb
+      - 🇷🇺 adi|0507 - 俄罗斯 |22.76Mb
+      - 🇺🇲 adi|0507 - 美国 |20.41Mb
+      - 🇺🇲 adi|0507 - 美国 |17.38Mb
+      - 🇺🇲 adi|0507 - 美国 6
+      - 🇺🇲 adi|0507 - 美国 7
+      - 🇰🇷 adi|0507 - 韩国
+      - 🇺🇲 adi|0506 - 美国 15
+      - 🇺🇲 adi|0506 - 美国 12
+      - 🇰🇷 adi|0506 - 韩国 |15.89Mb
+      - 🇰🇷 adi|0506 - 韩国
+      - 🇦🇨 adi|0504 - 美国矶MULTACOM 7
+      - 🇺🇲 adi|0502 - 美国14
+      - 🇺🇲 adi|0501 - 美国 |21.55Mb
       - 🇺🇲 adi|0425 - 美国
       - 🇺🇲 adi|0422 - 美国
-      - 🇸🇬 adi|0506 - 新加坡ss29
+      - adi|0507 - 207.244.67.149:40093
+      - 🇦🇺 adi|0507 - 澳大利亚ss15
+      - adi|0507 - 欧盟  12
+      - 🇺🇲 adi|0507 - 美国32
       - 🇸🇬 adi|0506 - 新加坡ss27
-      - 🇸🇬 adi|0506 - 新加坡OVH 14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 adi|0506 - 美国
-      - 🇺🇲 adi|0506 - 美国 2
-      - 🇭🇰 adi|0506 - 香港 |16.01Mb
-      - 🇰🇷 adi|0506 - 韩国 |15.89Mb
-      - 🇺🇲 adi|0506 - 美国 |15.44Mb
-      - 🇯🇵 adi|0506 - JP_4650 |36.30Mb
-      - 🇺🇲 adi|0506 - 美国 15
-      - 🇰🇷 adi|0506 - 韩国
-      - 🇦🇨 adi|0504 - 美国矶MULTACOM 7
-      - 🇺🇲 adi|0502 - 美国14
-      - 🇺🇲 adi|0501 - 美国 |21.55Mb
+      - 🇸🇬 adi|0506 - 新加坡NewMedia 15
+      - 🇬🇧 adi|0507 - 英国ss18
+      - 🇬🇧 adi|0507 - 英国
+      - adi|0507 - 欧洲
+      - adi|0507 - 欧洲 2
+      - adi|0507 - 欧洲 3
+      - adi|0507 - 欧洲 4
+      - adi|0507 - 欧洲 5
+      - adi|0507 - 欧洲 6
+      - 🇿🇦 adi|0507 - 南非
+      - 🇺🇲 adi|0507 - 美国 圣何塞
+      - 🇺🇲 adi|0507 - 美国
+      - 🇺🇲 adi|0507 - 美国 2
+      - 🇺🇲 adi|0507 - 美国 3
+      - 🇷🇴 adi|0507 - 罗马尼亚  2
+      - adi|0507 - 罗马
+      - adi|0507 - 克罗地亚
+      - adi|0507 - 克罗地亚 2
+      - adi|0507 - 克罗地亚 3
+      - 🇫🇮 adi|0507 - 芬兰
       - 🇬🇧 adi|0506 - 英国 9
       - 🇬🇧 adi|0506 - 英国 6
       - 🇮🇳 adi|0506 - 印度 10
       - 🇮🇳 adi|0506 - 印度
+      - 🇸🇬 adi|0506 - 新加坡ss29
+      - 🇸🇬 adi|0506 - 新加坡OVH 14
       - 🇨🇭 adi|0506 - 瑞士
       - 🇨🇭 adi|0506 - 瑞士 2
       - adi|0506 - 欧洲
@@ -159,6 +238,9 @@ proxy-groups:
       - adi|0506 - 欧洲 5
       - 🇺🇲 adi|0506 - 美国ss17
       - 🇺🇲 adi|0506 - 美国OVH 7
+      - 🇺🇲 adi|0506 - 美国10
+      - 🇺🇲 adi|0506 - 美国
+      - 🇺🇲 adi|0506 - 美国 2
       - 🇺🇲 adi|0506 - 美国 3
       - 🇺🇲 adi|0506 - 美国 4
       - 🇺🇲 adi|0506 - 美国 5
@@ -168,32 +250,52 @@ proxy-groups:
       - 🇺🇲 adi|0506 - 美国 9
       - 🇺🇲 adi|0506 - 美国 10
       - 🇺🇲 adi|0506 - 美国 11
-      - 🇺🇲 adi|0506 - 美国 12
-      - 🇺🇲 adi|0506 - 美国 13
       - adi|0506 - 罗马
       - 🇨🇦 adi|0506 - 加拿大ss16
       - 🇳🇱 adi|0506 - 荷兰
       - 🇫🇷 adi|0506 - 法国ss21
-      - 🇷🇺 adi|0506 - 俄罗斯ss19
       - 🇩🇪 adi|0506 - 德国ss25
       - 🇩🇪 adi|0506 - 德国
       - 🇩🇪 adi|0506 - 德国 2
       - 🇩🇪 adi|0506 - 德国 3
       - 🇩🇪 adi|0506 - 德国 4
       - adi|0506 - 波兰ss20
-      - 🇺🇲 adi|0506 - 美国10
       - adi|0504 - 欧洲
       - adi|0504 - 欧洲 2
       - adi|0504 - 欧洲 3
       - 🇺🇲 adi|0504 - 美国
       - 🇬🇧 adi|0428 - 英国
       - 🇯🇵 adi|0415 - 日本Amazon 1
-      - 🇸🇬 adi|0506 - 新加坡NewMedia 15
+      - 🇺🇲 adi|0507 - 美国CloudFlare 9
+      - 🇺🇲 adi|0507 - 美国CloudFlare 5
+      - 🇺🇲 adi|0507 - 美国 4
+      - 🇺🇲 adi|0507 - 美国 5
+      - 🇯🇵 adi|0507 - 日本 |30.76Mb
+      - 🇺🇲 adi|0507 - 美国 |22.34Mb
+      - 🇯🇵 adi|0507 - 日本 |20.34Mb
+      - 🇯🇵 adi|0507 - 日本 |16.62Mb
+      - 🇭🇰 adi|0507 - 香港1
+      - 🇷🇺 adi|0507 - 俄罗斯 |22.91Mb
+      - 🇷🇺 adi|0507 - 俄罗斯 |22.76Mb
+      - 🇺🇲 adi|0507 - 美国 |20.41Mb
+      - 🇺🇲 adi|0507 - 美国 |17.38Mb
+      - 🇺🇲 adi|0507 - 美国 6
+      - 🇺🇲 adi|0507 - 美国 7
+      - 🇰🇷 adi|0507 - 韩国
+      - 🇺🇲 adi|0506 - 美国 15
+      - 🇺🇲 adi|0506 - 美国 12
+      - 🇰🇷 adi|0506 - 韩国 |15.89Mb
+      - 🇰🇷 adi|0506 - 韩国
+      - 🇦🇨 adi|0504 - 美国矶MULTACOM 7
+      - 🇺🇲 adi|0502 - 美国14
+      - 🇺🇲 adi|0501 - 美国 |21.55Mb
       - 🇺🇲 adi|0425 - 美国
       - 🇺🇲 adi|0422 - 美国
-      - 🇸🇬 adi|0506 - 新加坡ss29
+      - adi|0507 - 207.244.67.149:40093
+      - 🇦🇺 adi|0507 - 澳大利亚ss15
+      - adi|0507 - 欧盟  12
+      - 🇺🇲 adi|0507 - 美国32
       - 🇸🇬 adi|0506 - 新加坡ss27
-      - 🇸🇬 adi|0506 - 新加坡OVH 14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -211,21 +313,32 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇲 adi|0506 - 美国
-      - 🇺🇲 adi|0506 - 美国 2
-      - 🇭🇰 adi|0506 - 香港 |16.01Mb
-      - 🇰🇷 adi|0506 - 韩国 |15.89Mb
-      - 🇺🇲 adi|0506 - 美国 |15.44Mb
-      - 🇯🇵 adi|0506 - JP_4650 |36.30Mb
-      - 🇺🇲 adi|0506 - 美国 15
-      - 🇰🇷 adi|0506 - 韩国
-      - 🇦🇨 adi|0504 - 美国矶MULTACOM 7
-      - 🇺🇲 adi|0502 - 美国14
-      - 🇺🇲 adi|0501 - 美国 |21.55Mb
+      - 🇸🇬 adi|0506 - 新加坡NewMedia 15
+      - 🇬🇧 adi|0507 - 英国ss18
+      - 🇬🇧 adi|0507 - 英国
+      - adi|0507 - 欧洲
+      - adi|0507 - 欧洲 2
+      - adi|0507 - 欧洲 3
+      - adi|0507 - 欧洲 4
+      - adi|0507 - 欧洲 5
+      - adi|0507 - 欧洲 6
+      - 🇿🇦 adi|0507 - 南非
+      - 🇺🇲 adi|0507 - 美国 圣何塞
+      - 🇺🇲 adi|0507 - 美国
+      - 🇺🇲 adi|0507 - 美国 2
+      - 🇺🇲 adi|0507 - 美国 3
+      - 🇷🇴 adi|0507 - 罗马尼亚  2
+      - adi|0507 - 罗马
+      - adi|0507 - 克罗地亚
+      - adi|0507 - 克罗地亚 2
+      - adi|0507 - 克罗地亚 3
+      - 🇫🇮 adi|0507 - 芬兰
       - 🇬🇧 adi|0506 - 英国 9
       - 🇬🇧 adi|0506 - 英国 6
       - 🇮🇳 adi|0506 - 印度 10
       - 🇮🇳 adi|0506 - 印度
+      - 🇸🇬 adi|0506 - 新加坡ss29
+      - 🇸🇬 adi|0506 - 新加坡OVH 14
       - 🇨🇭 adi|0506 - 瑞士
       - 🇨🇭 adi|0506 - 瑞士 2
       - adi|0506 - 欧洲
@@ -235,6 +348,9 @@ proxy-groups:
       - adi|0506 - 欧洲 5
       - 🇺🇲 adi|0506 - 美国ss17
       - 🇺🇲 adi|0506 - 美国OVH 7
+      - 🇺🇲 adi|0506 - 美国10
+      - 🇺🇲 adi|0506 - 美国
+      - 🇺🇲 adi|0506 - 美国 2
       - 🇺🇲 adi|0506 - 美国 3
       - 🇺🇲 adi|0506 - 美国 4
       - 🇺🇲 adi|0506 - 美国 5
@@ -244,32 +360,52 @@ proxy-groups:
       - 🇺🇲 adi|0506 - 美国 9
       - 🇺🇲 adi|0506 - 美国 10
       - 🇺🇲 adi|0506 - 美国 11
-      - 🇺🇲 adi|0506 - 美国 12
-      - 🇺🇲 adi|0506 - 美国 13
       - adi|0506 - 罗马
       - 🇨🇦 adi|0506 - 加拿大ss16
       - 🇳🇱 adi|0506 - 荷兰
       - 🇫🇷 adi|0506 - 法国ss21
-      - 🇷🇺 adi|0506 - 俄罗斯ss19
       - 🇩🇪 adi|0506 - 德国ss25
       - 🇩🇪 adi|0506 - 德国
       - 🇩🇪 adi|0506 - 德国 2
       - 🇩🇪 adi|0506 - 德国 3
       - 🇩🇪 adi|0506 - 德国 4
       - adi|0506 - 波兰ss20
-      - 🇺🇲 adi|0506 - 美国10
       - adi|0504 - 欧洲
       - adi|0504 - 欧洲 2
       - adi|0504 - 欧洲 3
       - 🇺🇲 adi|0504 - 美国
       - 🇬🇧 adi|0428 - 英国
       - 🇯🇵 adi|0415 - 日本Amazon 1
-      - 🇸🇬 adi|0506 - 新加坡NewMedia 15
+      - 🇺🇲 adi|0507 - 美国CloudFlare 9
+      - 🇺🇲 adi|0507 - 美国CloudFlare 5
+      - 🇺🇲 adi|0507 - 美国 4
+      - 🇺🇲 adi|0507 - 美国 5
+      - 🇯🇵 adi|0507 - 日本 |30.76Mb
+      - 🇺🇲 adi|0507 - 美国 |22.34Mb
+      - 🇯🇵 adi|0507 - 日本 |20.34Mb
+      - 🇯🇵 adi|0507 - 日本 |16.62Mb
+      - 🇭🇰 adi|0507 - 香港1
+      - 🇷🇺 adi|0507 - 俄罗斯 |22.91Mb
+      - 🇷🇺 adi|0507 - 俄罗斯 |22.76Mb
+      - 🇺🇲 adi|0507 - 美国 |20.41Mb
+      - 🇺🇲 adi|0507 - 美国 |17.38Mb
+      - 🇺🇲 adi|0507 - 美国 6
+      - 🇺🇲 adi|0507 - 美国 7
+      - 🇰🇷 adi|0507 - 韩国
+      - 🇺🇲 adi|0506 - 美国 15
+      - 🇺🇲 adi|0506 - 美国 12
+      - 🇰🇷 adi|0506 - 韩国 |15.89Mb
+      - 🇰🇷 adi|0506 - 韩国
+      - 🇦🇨 adi|0504 - 美国矶MULTACOM 7
+      - 🇺🇲 adi|0502 - 美国14
+      - 🇺🇲 adi|0501 - 美国 |21.55Mb
       - 🇺🇲 adi|0425 - 美国
       - 🇺🇲 adi|0422 - 美国
-      - 🇸🇬 adi|0506 - 新加坡ss29
+      - adi|0507 - 207.244.67.149:40093
+      - 🇦🇺 adi|0507 - 澳大利亚ss15
+      - adi|0507 - 欧盟  12
+      - 🇺🇲 adi|0507 - 美国32
       - 🇸🇬 adi|0506 - 新加坡ss27
-      - 🇸🇬 adi|0506 - 新加坡OVH 14
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
