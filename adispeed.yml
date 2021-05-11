@@ -5,297 +5,258 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 adi|0506 - 新加坡NewMedia 15, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co}
-  - {name: 🇬🇧 adi|0507 - 英国ss18, server: ss.uk.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: JSvsHhHYIuVG}
-  - {name: 🇬🇧 adi|0507 - 英国, server: 185.38.150.124, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: adi|0507 - 欧洲, server: 91.90.123.155, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: adi|0507 - 欧洲 2, server: 82.102.26.91, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: adi|0507 - 欧洲 3, server: 138.199.9.202, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: adi|0507 - 欧洲 4, server: 68.71.244.208, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: adi|0507 - 欧洲 5, server: 138.199.9.202, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: adi|0507 - 欧洲 6, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇿🇦 adi|0507 - 南非, server: 154.127.50.138, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 adi|0507 - 美国 圣何塞, server: 107.181.166.55, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 adi|0507 - 美国, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇺🇲 adi|0507 - 美国 2, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: 🇺🇲 adi|0507 - 美国 3, server: 207.244.67.149, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇷🇴 adi|0507 - 罗马尼亚  2, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0507 - 罗马, server: 139.28.176.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: adi|0507 - 克罗地亚, server: 85.10.50.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0507 - 克罗地亚 2, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: adi|0507 - 克罗地亚 3, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇫🇮 adi|0507 - 芬兰, server: 194.110.115.85, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇬🇧 adi|0506 - 英国 9, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: HgCMlgbtQMxl}
-  - {name: 🇬🇧 adi|0506 - 英国 6, server: ss.uk.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
-  - {name: 🇮🇳 adi|0506 - 印度 10, server: ss.id.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: ku382YXK8cLE}
-  - {name: 🇮🇳 adi|0506 - 印度, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇸🇬 adi|0506 - 新加坡ss29, server: ss.sg.sshmax.net, port: 8139, type: ss, cipher: chacha20-ietf-poly1305, password: qyzhBfoKRzXl}
-  - {name: 🇸🇬 adi|0506 - 新加坡OVH 14, server: ss.sg.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: o4qygNrXw7cE}
-  - {name: 🇨🇭 adi|0506 - 瑞士, server: 185.124.240.159, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇨🇭 adi|0506 - 瑞士 2, server: 185.124.240.159, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0506 - 欧洲, server: 188.92.78.203, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: adi|0506 - 欧洲 2, server: 188.92.78.145, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0506 - 欧洲 3, server: 188.92.78.145, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: adi|0506 - 欧洲 4, server: 188.92.78.145, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: adi|0506 - 欧洲 5, server: 188.92.78.203, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇲 adi|0506 - 美国ss17, server: ss.us.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: T3j6elRwEuA4}
-  - {name: 🇺🇲 adi|0506 - 美国OVH 7, server: ss.us.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD}
-  - {name: 🇺🇲 adi|0506 - 美国10, server: 143.244.42.86, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 adi|0506 - 美国, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 adi|0506 - 美国 2, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 adi|0506 - 美国 3, server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
-  - {name: 🇺🇲 adi|0506 - 美国 4, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 adi|0506 - 美国 5, server: 45.89.173.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇲 adi|0506 - 美国 6, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇲 adi|0506 - 美国 7, server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 adi|0506 - 美国 8, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇲 adi|0506 - 美国 9, server: 143.244.57.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 adi|0506 - 美国 10, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: 🇺🇲 adi|0506 - 美国 11, server: 45.89.173.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: adi|0506 - 罗马, server: 193.29.106.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇨🇦 adi|0506 - 加拿大ss16, server: ss.ca.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: r4TeEt5bK0UD}
-  - {name: 🇳🇱 adi|0506 - 荷兰, server: 212.102.35.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇫🇷 adi|0506 - 法国ss21, server: ss.fr.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: 6nhHHuGHw2D5}
-  - {name: 🇩🇪 adi|0506 - 德国ss25, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: cWv8FcJk0VpS}
-  - {name: 🇩🇪 adi|0506 - 德国, server: 185.2.100.166, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇪 adi|0506 - 德国 2, server: 185.2.100.166, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇪 adi|0506 - 德国 3, server: 185.2.100.166, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇩🇪 adi|0506 - 德国 4, server: 185.124.240.159, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: adi|0506 - 波兰ss20, server: ss.pl.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: M1LCZAlfz1bV}
-  - {name: adi|0504 - 欧洲, server: 188.92.78.145, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: adi|0504 - 欧洲 2, server: 188.92.78.145, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: adi|0504 - 欧洲 3, server: 45.89.173.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 adi|0504 - 美国, server: 198.147.22.87, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇬🇧 adi|0428 - 英国, server: 81.19.214.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇯🇵 adi|0415 - 日本Amazon 1, server: ffrenzy.tk, port: 11443, type: ss, cipher: chacha20-ietf-poly1305, password: 543c3bff-3d9b-41b6-800e-a8ae3eb0712a}
-  - {name: 🇺🇲 adi|0507 - 美国CloudFlare 9, server: 141.101.115.18, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /y284, ws-headers: {Host: cooa.xyz}}
-  - {name: 🇺🇲 adi|0507 - 美国CloudFlare 5, server: 1.0.0.0, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /y284, ws-headers: {Host: cooa.xyz}}
-  - {name: 🇺🇲 adi|0507 - 美国 4, server: 104.16.207.196, port: 443, type: vmess, uuid: a9cd126a-7c05-41af-ad0e-a185eabc89c8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson.cf}}
-  - {name: 🇺🇲 adi|0507 - 美国 5, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
-  - {name: 🇯🇵 adi|0507 - 日本 |30.76Mb, server: 13.248.185.14, port: 443, type: vmess, uuid: dcf19507-2723-4ac0-b7c5-5995a40930e0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /mkhrvws, ws-headers: {Host: 13.248.185.14}}
-  - {name: 🇺🇲 adi|0507 - 美国 |22.34Mb, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: 23.224.31.210}}
-  - {name: 🇯🇵 adi|0507 - 日本 |20.34Mb, server: a943a58cb43e598ef.awsglobalaccelerator.com, port: 443, type: vmess, uuid: dcf19507-2723-4ac0-b7c5-5995a40930e0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /mkhrvws, ws-headers: {Host: a943a58cb43e598ef.awsglobalaccelerator.com}}
-  - {name: 🇯🇵 adi|0507 - 日本 |16.62Mb, server: 76.223.55.28, port: 443, type: vmess, uuid: dcf19507-2723-4ac0-b7c5-5995a40930e0, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /mkhrvws, ws-headers: {Host: 76.223.55.28}}
-  - {name: 🇭🇰 adi|0507 - 香港1, server: centos.fuchau.xyz, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
-  - {name: 🇷🇺 adi|0507 - 俄罗斯 |22.91Mb, server: 91.245.227.135, port: 38166, type: vmess, uuid: 9551d4fd-610e-4bf3-9f93-1df5452c3654, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 91.245.227.135}}
-  - {name: 🇷🇺 adi|0507 - 俄罗斯 |22.76Mb, server: 52.79.228.10, port: 53691, type: vmess, uuid: 25b4eb9e-647c-4440-98b3-d21958e24577, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0507 - 美国 |20.41Mb, server: 23.225.213.242, port: 443, type: vmess, uuid: 11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.213.242}}
-  - {name: 🇺🇲 adi|0507 - 美国 |17.38Mb, server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 128.14.153.42}}
-  - {name: 🇺🇲 adi|0507 - 美国 6, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
-  - {name: 🇺🇲 adi|0507 - 美国 7, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}}
-  - {name: 🇰🇷 adi|0507 - 韩国, server: 52.79.228.10, port: 53691, type: vmess, uuid: 25b4eb9e-647c-4440-98b3-d21958e24577, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0506 - 美国 15, server: us178.mars6666.com, port: 443, type: vmess, uuid: fe93a062-d13f-3958-9ebc-0c06cd32dfb0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: us178.mars6666.com}}
-  - {name: 🇺🇲 adi|0506 - 美国 12, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
-  - {name: 🇰🇷 adi|0506 - 韩国 |15.89Mb, server: hga.cnmwl6.cf, port: 80, type: vmess, uuid: b2e1dd98-1516-423a-bf7f-716773e47fbf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hga.cnmwl6.cf}}
-  - {name: 🇰🇷 adi|0506 - 韩国, server: hga.cnmwl6.cf, port: 80, type: vmess, uuid: b2e1dd98-1516-423a-bf7f-716773e47fbf, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hga.cnmwl6.cf}}
-  - {name: 🇦🇨 adi|0504 - 美国矶MULTACOM 7, server: cc.hciahciphcie.club, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /84c3f/, ws-headers: {Host: cc.hciahciphcie.club}}
   - {name: 🇺🇲 adi|0502 - 美国14, server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: usa2-node.3366test.com}}
-  - {name: 🇺🇲 adi|0501 - 美国 |21.55Mb, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
+  - {name: 🇺🇲 adi|0510 - 美国CloudFlare 18, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: adi|0510 - 欧洲, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0510 - 美国CloudFlare 19, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇲 adi|0510 - 美国Coloction 10, server: 23.224.31.202, port: 443, type: vmess, uuid: 28a84b69-e118-47a0-9869-f397bcc9fbbd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.31.202}}
+  - {name: adi|0510 - Relay_ |30.27Mb, server: jp01.v2net.top, port: 10089, type: vmess, uuid: 79D0BCA4-67DB-51D3-B497-39D54338AB61, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 adi|0510 - 美国, server: 66.115.182.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧 adi|0510 - 英国, server: 195.206.169.203, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0510 - 欧洲 2, server: 138.199.40.169, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: adi|0510 - Relay_ |22.18Mb, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: adi|0510 - 欧洲 3, server: 138.199.40.169, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: adi|0510 - 欧洲 4, server: 138.199.40.169, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: adi|0506 - 罗马, server: 193.29.106.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0510 - 欧洲 5, server: 138.199.40.169, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: adi|0506 - 欧洲, server: 188.92.78.203, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇳🇱 adi|0506 - 荷兰, server: 212.102.35.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 adi|0506 - 美国, server: 143.244.57.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0510 - 欧洲 6, server: 91.90.121.187, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: adi|0507 - 欧洲, server: 68.71.244.208, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 adi|0510 - 美国 2, server: 104.200.131.245, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 adi|0510 - 美国CloudFlare 17, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: adi|0507 - 克罗地亚, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: adi|0506 - 欧洲 2, server: 188.92.78.145, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇮🇳 adi|0510 - 印度, server: 103.156.50.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0506 - 美国10, server: 143.244.42.86, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0507 - 克罗地亚 2, server: 85.10.50.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇮🇳 adi|0506 - 印度, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0507 - 克罗地亚 3, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: adi|0507 - 欧洲 2, server: 82.102.26.91, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇫🇮 adi|0507 - 芬兰, server: 194.110.115.85, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 adi|0506 - 美国 2, server: 45.89.173.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: adi|0510 - |19.86Mb, server: 95.214.55.118, port: 41505, type: vmess, uuid: ab2a10e8-50a1-4d20-e973-b211ea6457f4, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇲 adi|0510 - 美国 3, server: 104.200.131.245, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇲 adi|0510 - 美国 4, server: 143.244.56.230, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧 adi|0419 - 英国, server: 89.187.168.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇬🇧 adi|0510 - 英国 2, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
   - {name: 🇺🇲 adi|0425 - 美国, server: 104.21.239.147, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇺🇲 adi|0422 - 美国, server: 104.16.181.15, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: adi|0507 - 207.244.67.149:40093, server: 207.244.67.149, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇦🇺 adi|0507 - 澳大利亚ss15, server: ss.au.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: kRAxb8hPUxS0}
-  - {name: adi|0507 - 欧盟  12, server: 45.88.179.35, port: 42365, type: vmess, uuid: 085e6815-e476-411a-a9a6-4e5306a1b875, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0507 - 美国32, server: 207.244.67.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇸🇬 adi|0506 - 新加坡ss27, server: ss.sg.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: grtvkkHAinCf}
+  - {name: adi|0510 - 欧洲 7, server: 5.189.202.9, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0506 - 欧洲 3, server: 188.92.78.145, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0510 - 欧洲 8, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 adi|0419 - 美国, server: 104.16.181.15, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: adi|0507 - 罗马, server: 139.28.176.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 adi|0419 - 美国 2, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
+  - {name: adi|0510 - |20.90Mb, server: 18.177.140.83, port: 28483, type: vmess, uuid: 1add6694-b56f-4162-b7da-d899612b0608, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.177.140.83}}
+  - {name: 🇨🇳 adi|0510 - 台湾, server: 2.58.242.43, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇪 adi|0506 - 德国, server: 185.2.100.166, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: adi|0510 - 16, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
+  - {name: 🇺🇲 adi|0507 - 美国 |17.38Mb, server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 128.14.153.42}}
+  - {name: 🇺🇲 adi|0510 - 美国CloudFlare 16, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇬🇧 adi|0415 - 英国 2, server: ss.uk.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH}
+  - {name: 🇬🇧 adi|0415 - 英国 15, server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: HgCMlgbtQMxl}
+  - {name: 🇺🇲 adi|0420 - 美国, server: 143.244.42.69, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0411 - 爱沙尼亚 4, server: 185.174.159.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇯🇵 adi|0415 - 日本Amazon 1, server: ffrenzy.tk, port: 11443, type: ss, cipher: chacha20-ietf-poly1305, password: 543c3bff-3d9b-41b6-800e-a8ae3eb0712a}
+  - {name: 🇺🇲 adi|0411 - 美国 |45.43Mb, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}}
+  - {name: 🇩🇪 adi|0506 - 德国 2, server: 185.2.100.166, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: adi|0504 - 欧洲, server: 188.92.78.145, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: adi|0506 - 欧洲 4, server: 188.92.78.203, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇲 adi|0510 - 美国Coloction 12, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
+  - {name: 🇺🇲 adi|0412 - US_2890 |41.25Mb, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
+  - {name: 🇺🇲 adi|0411 - 美国 11, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
+  - {name: 🇩🇪 adi|0506 - 德国 3, server: 185.2.100.166, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 adi|0419 - 美国OVH 15, server: ss.us.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD}
+  - {name: 🇫🇷 adi|0420 - 法国, server: 217.138.207.243, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇬🇧 adi|0510 - 英国 3, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇬🇧 adi|0428 - 英国, server: 81.19.214.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇮🇳 adi|0420 - 印度  19, server: ss.id.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: ku382YXK8cLE}
+  - {name: 🇬🇧 adi|0420 - 英国 16, server: ss.uk.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: JSvsHhHYIuVG}
+  - {name: adi|0510 - |61.38Mb, server: 20.74.131.217, port: 13547, type: vmess, uuid: 52f0fa52-173c-41cb-97b8-bd2ea10217cf, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇳🇱 adi|0411 - 荷兰, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇴 adi|0510 - 罗马尼亚1, server: 91.90.123.189, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0506 - 欧洲 5, server: 188.92.78.145, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇲 adi|0411 - 美国 12, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}}
+  - {name: 🇺🇲 adi|0507 - 美国 |20.41Mb, server: 23.225.213.242, port: 443, type: vmess, uuid: 11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.213.242}}
+  - {name: 🇺🇲 adi|0411 - 美国 13, server: 23.225.213.242, port: 443, type: vmess, uuid: 11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.213.242}}
+  - {name: 🇸🇬 adi|0413 - 新加坡NewMedia 27, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, sni: sg1.vless.co}
+  - {name: 🇦🇺 adi|0419 - 澳大利亚, server: ss.au.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: kRAxb8hPUxS0}
+  - {name: adi|0328 - 葡萄牙, server: 185.174.159.51, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇫🇷 adi|0419 - 法国, server: ss.fr.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: 6nhHHuGHw2D5}
+  - {name: 🇺🇲 adi|0507 - 美国 |22.34Mb, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: 23.224.31.210}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 adi|0506 - 新加坡NewMedia 15
-      - 🇬🇧 adi|0507 - 英国ss18
-      - 🇬🇧 adi|0507 - 英国
-      - adi|0507 - 欧洲
-      - adi|0507 - 欧洲 2
-      - adi|0507 - 欧洲 3
-      - adi|0507 - 欧洲 4
-      - adi|0507 - 欧洲 5
-      - adi|0507 - 欧洲 6
-      - 🇿🇦 adi|0507 - 南非
-      - 🇺🇲 adi|0507 - 美国 圣何塞
-      - 🇺🇲 adi|0507 - 美国
-      - 🇺🇲 adi|0507 - 美国 2
-      - 🇺🇲 adi|0507 - 美国 3
-      - 🇷🇴 adi|0507 - 罗马尼亚  2
-      - adi|0507 - 罗马
-      - adi|0507 - 克罗地亚
-      - adi|0507 - 克罗地亚 2
-      - adi|0507 - 克罗地亚 3
-      - 🇫🇮 adi|0507 - 芬兰
-      - 🇬🇧 adi|0506 - 英国 9
-      - 🇬🇧 adi|0506 - 英国 6
-      - 🇮🇳 adi|0506 - 印度 10
-      - 🇮🇳 adi|0506 - 印度
-      - 🇸🇬 adi|0506 - 新加坡ss29
-      - 🇸🇬 adi|0506 - 新加坡OVH 14
-      - 🇨🇭 adi|0506 - 瑞士
-      - 🇨🇭 adi|0506 - 瑞士 2
-      - adi|0506 - 欧洲
-      - adi|0506 - 欧洲 2
-      - adi|0506 - 欧洲 3
-      - adi|0506 - 欧洲 4
-      - adi|0506 - 欧洲 5
-      - 🇺🇲 adi|0506 - 美国ss17
-      - 🇺🇲 adi|0506 - 美国OVH 7
-      - 🇺🇲 adi|0506 - 美国10
-      - 🇺🇲 adi|0506 - 美国
-      - 🇺🇲 adi|0506 - 美国 2
-      - 🇺🇲 adi|0506 - 美国 3
-      - 🇺🇲 adi|0506 - 美国 4
-      - 🇺🇲 adi|0506 - 美国 5
-      - 🇺🇲 adi|0506 - 美国 6
-      - 🇺🇲 adi|0506 - 美国 7
-      - 🇺🇲 adi|0506 - 美国 8
-      - 🇺🇲 adi|0506 - 美国 9
-      - 🇺🇲 adi|0506 - 美国 10
-      - 🇺🇲 adi|0506 - 美国 11
-      - adi|0506 - 罗马
-      - 🇨🇦 adi|0506 - 加拿大ss16
-      - 🇳🇱 adi|0506 - 荷兰
-      - 🇫🇷 adi|0506 - 法国ss21
-      - 🇩🇪 adi|0506 - 德国ss25
-      - 🇩🇪 adi|0506 - 德国
-      - 🇩🇪 adi|0506 - 德国 2
-      - 🇩🇪 adi|0506 - 德国 3
-      - 🇩🇪 adi|0506 - 德国 4
-      - adi|0506 - 波兰ss20
-      - adi|0504 - 欧洲
-      - adi|0504 - 欧洲 2
-      - adi|0504 - 欧洲 3
-      - 🇺🇲 adi|0504 - 美国
-      - 🇬🇧 adi|0428 - 英国
-      - 🇯🇵 adi|0415 - 日本Amazon 1
-      - 🇺🇲 adi|0507 - 美国CloudFlare 9
-      - 🇺🇲 adi|0507 - 美国CloudFlare 5
-      - 🇺🇲 adi|0507 - 美国 4
-      - 🇺🇲 adi|0507 - 美国 5
-      - 🇯🇵 adi|0507 - 日本 |30.76Mb
-      - 🇺🇲 adi|0507 - 美国 |22.34Mb
-      - 🇯🇵 adi|0507 - 日本 |20.34Mb
-      - 🇯🇵 adi|0507 - 日本 |16.62Mb
-      - 🇭🇰 adi|0507 - 香港1
-      - 🇷🇺 adi|0507 - 俄罗斯 |22.91Mb
-      - 🇷🇺 adi|0507 - 俄罗斯 |22.76Mb
-      - 🇺🇲 adi|0507 - 美国 |20.41Mb
-      - 🇺🇲 adi|0507 - 美国 |17.38Mb
-      - 🇺🇲 adi|0507 - 美国 6
-      - 🇺🇲 adi|0507 - 美国 7
-      - 🇰🇷 adi|0507 - 韩国
-      - 🇺🇲 adi|0506 - 美国 15
-      - 🇺🇲 adi|0506 - 美国 12
-      - 🇰🇷 adi|0506 - 韩国 |15.89Mb
-      - 🇰🇷 adi|0506 - 韩国
-      - 🇦🇨 adi|0504 - 美国矶MULTACOM 7
       - 🇺🇲 adi|0502 - 美国14
-      - 🇺🇲 adi|0501 - 美国 |21.55Mb
+      - 🇺🇲 adi|0510 - 美国CloudFlare 18
+      - adi|0510 - 欧洲
+      - 🇺🇲 adi|0510 - 美国CloudFlare 19
+      - 🇺🇲 adi|0510 - 美国Coloction 10
+      - adi|0510 - Relay_ |30.27Mb
+      - 🇺🇲 adi|0510 - 美国
+      - 🇬🇧 adi|0510 - 英国
+      - adi|0510 - 欧洲 2
+      - adi|0510 - Relay_ |22.18Mb
+      - adi|0510 - 欧洲 3
+      - adi|0510 - 欧洲 4
+      - adi|0506 - 罗马
+      - adi|0510 - 欧洲 5
+      - adi|0506 - 欧洲
+      - 🇳🇱 adi|0506 - 荷兰
+      - 🇺🇲 adi|0506 - 美国
+      - adi|0510 - 欧洲 6
+      - adi|0507 - 欧洲
+      - 🇺🇲 adi|0510 - 美国 2
+      - 🇺🇲 adi|0510 - 美国CloudFlare 17
+      - adi|0507 - 克罗地亚
+      - adi|0506 - 欧洲 2
+      - 🇮🇳 adi|0510 - 印度
+      - 🇺🇲 adi|0506 - 美国10
+      - adi|0507 - 克罗地亚 2
+      - 🇮🇳 adi|0506 - 印度
+      - adi|0507 - 克罗地亚 3
+      - adi|0507 - 欧洲 2
+      - 🇫🇮 adi|0507 - 芬兰
+      - 🇺🇲 adi|0506 - 美国 2
+      - adi|0510 - |19.86Mb
+      - 🇺🇲 adi|0510 - 美国 3
+      - 🇺🇲 adi|0510 - 美国 4
+      - 🇬🇧 adi|0419 - 英国
+      - 🇬🇧 adi|0510 - 英国 2
       - 🇺🇲 adi|0425 - 美国
-      - 🇺🇲 adi|0422 - 美国
-      - adi|0507 - 207.244.67.149:40093
-      - 🇦🇺 adi|0507 - 澳大利亚ss15
-      - adi|0507 - 欧盟  12
-      - 🇺🇲 adi|0507 - 美国32
-      - 🇸🇬 adi|0506 - 新加坡ss27
+      - adi|0510 - 欧洲 7
+      - adi|0506 - 欧洲 3
+      - adi|0510 - 欧洲 8
+      - 🇺🇲 adi|0419 - 美国
+      - adi|0507 - 罗马
+      - 🇺🇲 adi|0419 - 美国 2
+      - adi|0510 - |20.90Mb
+      - 🇨🇳 adi|0510 - 台湾
+      - 🇩🇪 adi|0506 - 德国
+      - adi|0510 - 16
+      - 🇺🇲 adi|0507 - 美国 |17.38Mb
+      - 🇺🇲 adi|0510 - 美国CloudFlare 16
+      - 🇬🇧 adi|0415 - 英国 2
+      - 🇬🇧 adi|0415 - 英国 15
+      - 🇺🇲 adi|0420 - 美国
+      - adi|0411 - 爱沙尼亚 4
+      - 🇯🇵 adi|0415 - 日本Amazon 1
+      - 🇺🇲 adi|0411 - 美国 |45.43Mb
+      - 🇩🇪 adi|0506 - 德国 2
+      - adi|0504 - 欧洲
+      - adi|0506 - 欧洲 4
+      - 🇺🇲 adi|0510 - 美国Coloction 12
+      - 🇺🇲 adi|0412 - US_2890 |41.25Mb
+      - 🇺🇲 adi|0411 - 美国 11
+      - 🇩🇪 adi|0506 - 德国 3
+      - 🇺🇲 adi|0419 - 美国OVH 15
+      - 🇫🇷 adi|0420 - 法国
+      - 🇬🇧 adi|0510 - 英国 3
+      - 🇬🇧 adi|0428 - 英国
+      - 🇮🇳 adi|0420 - 印度  19
+      - 🇬🇧 adi|0420 - 英国 16
+      - adi|0510 - |61.38Mb
+      - 🇳🇱 adi|0411 - 荷兰
+      - 🇷🇴 adi|0510 - 罗马尼亚1
+      - adi|0506 - 欧洲 5
+      - 🇺🇲 adi|0411 - 美国 12
+      - 🇺🇲 adi|0507 - 美国 |20.41Mb
+      - 🇺🇲 adi|0411 - 美国 13
+      - 🇸🇬 adi|0413 - 新加坡NewMedia 27
+      - 🇦🇺 adi|0419 - 澳大利亚
+      - adi|0328 - 葡萄牙
+      - 🇫🇷 adi|0419 - 法国
+      - 🇺🇲 adi|0507 - 美国 |22.34Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 adi|0506 - 新加坡NewMedia 15
-      - 🇬🇧 adi|0507 - 英国ss18
-      - 🇬🇧 adi|0507 - 英国
-      - adi|0507 - 欧洲
-      - adi|0507 - 欧洲 2
-      - adi|0507 - 欧洲 3
-      - adi|0507 - 欧洲 4
-      - adi|0507 - 欧洲 5
-      - adi|0507 - 欧洲 6
-      - 🇿🇦 adi|0507 - 南非
-      - 🇺🇲 adi|0507 - 美国 圣何塞
-      - 🇺🇲 adi|0507 - 美国
-      - 🇺🇲 adi|0507 - 美国 2
-      - 🇺🇲 adi|0507 - 美国 3
-      - 🇷🇴 adi|0507 - 罗马尼亚  2
-      - adi|0507 - 罗马
-      - adi|0507 - 克罗地亚
-      - adi|0507 - 克罗地亚 2
-      - adi|0507 - 克罗地亚 3
-      - 🇫🇮 adi|0507 - 芬兰
-      - 🇬🇧 adi|0506 - 英国 9
-      - 🇬🇧 adi|0506 - 英国 6
-      - 🇮🇳 adi|0506 - 印度 10
-      - 🇮🇳 adi|0506 - 印度
-      - 🇸🇬 adi|0506 - 新加坡ss29
-      - 🇸🇬 adi|0506 - 新加坡OVH 14
-      - 🇨🇭 adi|0506 - 瑞士
-      - 🇨🇭 adi|0506 - 瑞士 2
-      - adi|0506 - 欧洲
-      - adi|0506 - 欧洲 2
-      - adi|0506 - 欧洲 3
-      - adi|0506 - 欧洲 4
-      - adi|0506 - 欧洲 5
-      - 🇺🇲 adi|0506 - 美国ss17
-      - 🇺🇲 adi|0506 - 美国OVH 7
-      - 🇺🇲 adi|0506 - 美国10
-      - 🇺🇲 adi|0506 - 美国
-      - 🇺🇲 adi|0506 - 美国 2
-      - 🇺🇲 adi|0506 - 美国 3
-      - 🇺🇲 adi|0506 - 美国 4
-      - 🇺🇲 adi|0506 - 美国 5
-      - 🇺🇲 adi|0506 - 美国 6
-      - 🇺🇲 adi|0506 - 美国 7
-      - 🇺🇲 adi|0506 - 美国 8
-      - 🇺🇲 adi|0506 - 美国 9
-      - 🇺🇲 adi|0506 - 美国 10
-      - 🇺🇲 adi|0506 - 美国 11
-      - adi|0506 - 罗马
-      - 🇨🇦 adi|0506 - 加拿大ss16
-      - 🇳🇱 adi|0506 - 荷兰
-      - 🇫🇷 adi|0506 - 法国ss21
-      - 🇩🇪 adi|0506 - 德国ss25
-      - 🇩🇪 adi|0506 - 德国
-      - 🇩🇪 adi|0506 - 德国 2
-      - 🇩🇪 adi|0506 - 德国 3
-      - 🇩🇪 adi|0506 - 德国 4
-      - adi|0506 - 波兰ss20
-      - adi|0504 - 欧洲
-      - adi|0504 - 欧洲 2
-      - adi|0504 - 欧洲 3
-      - 🇺🇲 adi|0504 - 美国
-      - 🇬🇧 adi|0428 - 英国
-      - 🇯🇵 adi|0415 - 日本Amazon 1
-      - 🇺🇲 adi|0507 - 美国CloudFlare 9
-      - 🇺🇲 adi|0507 - 美国CloudFlare 5
-      - 🇺🇲 adi|0507 - 美国 4
-      - 🇺🇲 adi|0507 - 美国 5
-      - 🇯🇵 adi|0507 - 日本 |30.76Mb
-      - 🇺🇲 adi|0507 - 美国 |22.34Mb
-      - 🇯🇵 adi|0507 - 日本 |20.34Mb
-      - 🇯🇵 adi|0507 - 日本 |16.62Mb
-      - 🇭🇰 adi|0507 - 香港1
-      - 🇷🇺 adi|0507 - 俄罗斯 |22.91Mb
-      - 🇷🇺 adi|0507 - 俄罗斯 |22.76Mb
-      - 🇺🇲 adi|0507 - 美国 |20.41Mb
-      - 🇺🇲 adi|0507 - 美国 |17.38Mb
-      - 🇺🇲 adi|0507 - 美国 6
-      - 🇺🇲 adi|0507 - 美国 7
-      - 🇰🇷 adi|0507 - 韩国
-      - 🇺🇲 adi|0506 - 美国 15
-      - 🇺🇲 adi|0506 - 美国 12
-      - 🇰🇷 adi|0506 - 韩国 |15.89Mb
-      - 🇰🇷 adi|0506 - 韩国
-      - 🇦🇨 adi|0504 - 美国矶MULTACOM 7
       - 🇺🇲 adi|0502 - 美国14
-      - 🇺🇲 adi|0501 - 美国 |21.55Mb
+      - 🇺🇲 adi|0510 - 美国CloudFlare 18
+      - adi|0510 - 欧洲
+      - 🇺🇲 adi|0510 - 美国CloudFlare 19
+      - 🇺🇲 adi|0510 - 美国Coloction 10
+      - adi|0510 - Relay_ |30.27Mb
+      - 🇺🇲 adi|0510 - 美国
+      - 🇬🇧 adi|0510 - 英国
+      - adi|0510 - 欧洲 2
+      - adi|0510 - Relay_ |22.18Mb
+      - adi|0510 - 欧洲 3
+      - adi|0510 - 欧洲 4
+      - adi|0506 - 罗马
+      - adi|0510 - 欧洲 5
+      - adi|0506 - 欧洲
+      - 🇳🇱 adi|0506 - 荷兰
+      - 🇺🇲 adi|0506 - 美国
+      - adi|0510 - 欧洲 6
+      - adi|0507 - 欧洲
+      - 🇺🇲 adi|0510 - 美国 2
+      - 🇺🇲 adi|0510 - 美国CloudFlare 17
+      - adi|0507 - 克罗地亚
+      - adi|0506 - 欧洲 2
+      - 🇮🇳 adi|0510 - 印度
+      - 🇺🇲 adi|0506 - 美国10
+      - adi|0507 - 克罗地亚 2
+      - 🇮🇳 adi|0506 - 印度
+      - adi|0507 - 克罗地亚 3
+      - adi|0507 - 欧洲 2
+      - 🇫🇮 adi|0507 - 芬兰
+      - 🇺🇲 adi|0506 - 美国 2
+      - adi|0510 - |19.86Mb
+      - 🇺🇲 adi|0510 - 美国 3
+      - 🇺🇲 adi|0510 - 美国 4
+      - 🇬🇧 adi|0419 - 英国
+      - 🇬🇧 adi|0510 - 英国 2
       - 🇺🇲 adi|0425 - 美国
-      - 🇺🇲 adi|0422 - 美国
-      - adi|0507 - 207.244.67.149:40093
-      - 🇦🇺 adi|0507 - 澳大利亚ss15
-      - adi|0507 - 欧盟  12
-      - 🇺🇲 adi|0507 - 美国32
-      - 🇸🇬 adi|0506 - 新加坡ss27
+      - adi|0510 - 欧洲 7
+      - adi|0506 - 欧洲 3
+      - adi|0510 - 欧洲 8
+      - 🇺🇲 adi|0419 - 美国
+      - adi|0507 - 罗马
+      - 🇺🇲 adi|0419 - 美国 2
+      - adi|0510 - |20.90Mb
+      - 🇨🇳 adi|0510 - 台湾
+      - 🇩🇪 adi|0506 - 德国
+      - adi|0510 - 16
+      - 🇺🇲 adi|0507 - 美国 |17.38Mb
+      - 🇺🇲 adi|0510 - 美国CloudFlare 16
+      - 🇬🇧 adi|0415 - 英国 2
+      - 🇬🇧 adi|0415 - 英国 15
+      - 🇺🇲 adi|0420 - 美国
+      - adi|0411 - 爱沙尼亚 4
+      - 🇯🇵 adi|0415 - 日本Amazon 1
+      - 🇺🇲 adi|0411 - 美国 |45.43Mb
+      - 🇩🇪 adi|0506 - 德国 2
+      - adi|0504 - 欧洲
+      - adi|0506 - 欧洲 4
+      - 🇺🇲 adi|0510 - 美国Coloction 12
+      - 🇺🇲 adi|0412 - US_2890 |41.25Mb
+      - 🇺🇲 adi|0411 - 美国 11
+      - 🇩🇪 adi|0506 - 德国 3
+      - 🇺🇲 adi|0419 - 美国OVH 15
+      - 🇫🇷 adi|0420 - 法国
+      - 🇬🇧 adi|0510 - 英国 3
+      - 🇬🇧 adi|0428 - 英国
+      - 🇮🇳 adi|0420 - 印度  19
+      - 🇬🇧 adi|0420 - 英国 16
+      - adi|0510 - |61.38Mb
+      - 🇳🇱 adi|0411 - 荷兰
+      - 🇷🇴 adi|0510 - 罗马尼亚1
+      - adi|0506 - 欧洲 5
+      - 🇺🇲 adi|0411 - 美国 12
+      - 🇺🇲 adi|0507 - 美国 |20.41Mb
+      - 🇺🇲 adi|0411 - 美国 13
+      - 🇸🇬 adi|0413 - 新加坡NewMedia 27
+      - 🇦🇺 adi|0419 - 澳大利亚
+      - adi|0328 - 葡萄牙
+      - 🇫🇷 adi|0419 - 法国
+      - 🇺🇲 adi|0507 - 美国 |22.34Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -313,99 +274,86 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 adi|0506 - 新加坡NewMedia 15
-      - 🇬🇧 adi|0507 - 英国ss18
-      - 🇬🇧 adi|0507 - 英国
-      - adi|0507 - 欧洲
-      - adi|0507 - 欧洲 2
-      - adi|0507 - 欧洲 3
-      - adi|0507 - 欧洲 4
-      - adi|0507 - 欧洲 5
-      - adi|0507 - 欧洲 6
-      - 🇿🇦 adi|0507 - 南非
-      - 🇺🇲 adi|0507 - 美国 圣何塞
-      - 🇺🇲 adi|0507 - 美国
-      - 🇺🇲 adi|0507 - 美国 2
-      - 🇺🇲 adi|0507 - 美国 3
-      - 🇷🇴 adi|0507 - 罗马尼亚  2
-      - adi|0507 - 罗马
-      - adi|0507 - 克罗地亚
-      - adi|0507 - 克罗地亚 2
-      - adi|0507 - 克罗地亚 3
-      - 🇫🇮 adi|0507 - 芬兰
-      - 🇬🇧 adi|0506 - 英国 9
-      - 🇬🇧 adi|0506 - 英国 6
-      - 🇮🇳 adi|0506 - 印度 10
-      - 🇮🇳 adi|0506 - 印度
-      - 🇸🇬 adi|0506 - 新加坡ss29
-      - 🇸🇬 adi|0506 - 新加坡OVH 14
-      - 🇨🇭 adi|0506 - 瑞士
-      - 🇨🇭 adi|0506 - 瑞士 2
-      - adi|0506 - 欧洲
-      - adi|0506 - 欧洲 2
-      - adi|0506 - 欧洲 3
-      - adi|0506 - 欧洲 4
-      - adi|0506 - 欧洲 5
-      - 🇺🇲 adi|0506 - 美国ss17
-      - 🇺🇲 adi|0506 - 美国OVH 7
-      - 🇺🇲 adi|0506 - 美国10
-      - 🇺🇲 adi|0506 - 美国
-      - 🇺🇲 adi|0506 - 美国 2
-      - 🇺🇲 adi|0506 - 美国 3
-      - 🇺🇲 adi|0506 - 美国 4
-      - 🇺🇲 adi|0506 - 美国 5
-      - 🇺🇲 adi|0506 - 美国 6
-      - 🇺🇲 adi|0506 - 美国 7
-      - 🇺🇲 adi|0506 - 美国 8
-      - 🇺🇲 adi|0506 - 美国 9
-      - 🇺🇲 adi|0506 - 美国 10
-      - 🇺🇲 adi|0506 - 美国 11
-      - adi|0506 - 罗马
-      - 🇨🇦 adi|0506 - 加拿大ss16
-      - 🇳🇱 adi|0506 - 荷兰
-      - 🇫🇷 adi|0506 - 法国ss21
-      - 🇩🇪 adi|0506 - 德国ss25
-      - 🇩🇪 adi|0506 - 德国
-      - 🇩🇪 adi|0506 - 德国 2
-      - 🇩🇪 adi|0506 - 德国 3
-      - 🇩🇪 adi|0506 - 德国 4
-      - adi|0506 - 波兰ss20
-      - adi|0504 - 欧洲
-      - adi|0504 - 欧洲 2
-      - adi|0504 - 欧洲 3
-      - 🇺🇲 adi|0504 - 美国
-      - 🇬🇧 adi|0428 - 英国
-      - 🇯🇵 adi|0415 - 日本Amazon 1
-      - 🇺🇲 adi|0507 - 美国CloudFlare 9
-      - 🇺🇲 adi|0507 - 美国CloudFlare 5
-      - 🇺🇲 adi|0507 - 美国 4
-      - 🇺🇲 adi|0507 - 美国 5
-      - 🇯🇵 adi|0507 - 日本 |30.76Mb
-      - 🇺🇲 adi|0507 - 美国 |22.34Mb
-      - 🇯🇵 adi|0507 - 日本 |20.34Mb
-      - 🇯🇵 adi|0507 - 日本 |16.62Mb
-      - 🇭🇰 adi|0507 - 香港1
-      - 🇷🇺 adi|0507 - 俄罗斯 |22.91Mb
-      - 🇷🇺 adi|0507 - 俄罗斯 |22.76Mb
-      - 🇺🇲 adi|0507 - 美国 |20.41Mb
-      - 🇺🇲 adi|0507 - 美国 |17.38Mb
-      - 🇺🇲 adi|0507 - 美国 6
-      - 🇺🇲 adi|0507 - 美国 7
-      - 🇰🇷 adi|0507 - 韩国
-      - 🇺🇲 adi|0506 - 美国 15
-      - 🇺🇲 adi|0506 - 美国 12
-      - 🇰🇷 adi|0506 - 韩国 |15.89Mb
-      - 🇰🇷 adi|0506 - 韩国
-      - 🇦🇨 adi|0504 - 美国矶MULTACOM 7
       - 🇺🇲 adi|0502 - 美国14
-      - 🇺🇲 adi|0501 - 美国 |21.55Mb
+      - 🇺🇲 adi|0510 - 美国CloudFlare 18
+      - adi|0510 - 欧洲
+      - 🇺🇲 adi|0510 - 美国CloudFlare 19
+      - 🇺🇲 adi|0510 - 美国Coloction 10
+      - adi|0510 - Relay_ |30.27Mb
+      - 🇺🇲 adi|0510 - 美国
+      - 🇬🇧 adi|0510 - 英国
+      - adi|0510 - 欧洲 2
+      - adi|0510 - Relay_ |22.18Mb
+      - adi|0510 - 欧洲 3
+      - adi|0510 - 欧洲 4
+      - adi|0506 - 罗马
+      - adi|0510 - 欧洲 5
+      - adi|0506 - 欧洲
+      - 🇳🇱 adi|0506 - 荷兰
+      - 🇺🇲 adi|0506 - 美国
+      - adi|0510 - 欧洲 6
+      - adi|0507 - 欧洲
+      - 🇺🇲 adi|0510 - 美国 2
+      - 🇺🇲 adi|0510 - 美国CloudFlare 17
+      - adi|0507 - 克罗地亚
+      - adi|0506 - 欧洲 2
+      - 🇮🇳 adi|0510 - 印度
+      - 🇺🇲 adi|0506 - 美国10
+      - adi|0507 - 克罗地亚 2
+      - 🇮🇳 adi|0506 - 印度
+      - adi|0507 - 克罗地亚 3
+      - adi|0507 - 欧洲 2
+      - 🇫🇮 adi|0507 - 芬兰
+      - 🇺🇲 adi|0506 - 美国 2
+      - adi|0510 - |19.86Mb
+      - 🇺🇲 adi|0510 - 美国 3
+      - 🇺🇲 adi|0510 - 美国 4
+      - 🇬🇧 adi|0419 - 英国
+      - 🇬🇧 adi|0510 - 英国 2
       - 🇺🇲 adi|0425 - 美国
-      - 🇺🇲 adi|0422 - 美国
-      - adi|0507 - 207.244.67.149:40093
-      - 🇦🇺 adi|0507 - 澳大利亚ss15
-      - adi|0507 - 欧盟  12
-      - 🇺🇲 adi|0507 - 美国32
-      - 🇸🇬 adi|0506 - 新加坡ss27
+      - adi|0510 - 欧洲 7
+      - adi|0506 - 欧洲 3
+      - adi|0510 - 欧洲 8
+      - 🇺🇲 adi|0419 - 美国
+      - adi|0507 - 罗马
+      - 🇺🇲 adi|0419 - 美国 2
+      - adi|0510 - |20.90Mb
+      - 🇨🇳 adi|0510 - 台湾
+      - 🇩🇪 adi|0506 - 德国
+      - adi|0510 - 16
+      - 🇺🇲 adi|0507 - 美国 |17.38Mb
+      - 🇺🇲 adi|0510 - 美国CloudFlare 16
+      - 🇬🇧 adi|0415 - 英国 2
+      - 🇬🇧 adi|0415 - 英国 15
+      - 🇺🇲 adi|0420 - 美国
+      - adi|0411 - 爱沙尼亚 4
+      - 🇯🇵 adi|0415 - 日本Amazon 1
+      - 🇺🇲 adi|0411 - 美国 |45.43Mb
+      - 🇩🇪 adi|0506 - 德国 2
+      - adi|0504 - 欧洲
+      - adi|0506 - 欧洲 4
+      - 🇺🇲 adi|0510 - 美国Coloction 12
+      - 🇺🇲 adi|0412 - US_2890 |41.25Mb
+      - 🇺🇲 adi|0411 - 美国 11
+      - 🇩🇪 adi|0506 - 德国 3
+      - 🇺🇲 adi|0419 - 美国OVH 15
+      - 🇫🇷 adi|0420 - 法国
+      - 🇬🇧 adi|0510 - 英国 3
+      - 🇬🇧 adi|0428 - 英国
+      - 🇮🇳 adi|0420 - 印度  19
+      - 🇬🇧 adi|0420 - 英国 16
+      - adi|0510 - |61.38Mb
+      - 🇳🇱 adi|0411 - 荷兰
+      - 🇷🇴 adi|0510 - 罗马尼亚1
+      - adi|0506 - 欧洲 5
+      - 🇺🇲 adi|0411 - 美国 12
+      - 🇺🇲 adi|0507 - 美国 |20.41Mb
+      - 🇺🇲 adi|0411 - 美国 13
+      - 🇸🇬 adi|0413 - 新加坡NewMedia 27
+      - 🇦🇺 adi|0419 - 澳大利亚
+      - adi|0328 - 葡萄牙
+      - 🇫🇷 adi|0419 - 法国
+      - 🇺🇲 adi|0507 - 美国 |22.34Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2257,6 +2205,7 @@ rules:
  - DOMAIN-SUFFIX,1lib.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,1pzskg.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,1q8h.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,1ug8jn.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,1x26q3.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,2.haoxue360.com,🛑 全球拦截
  - DOMAIN-SUFFIX,200ps.com,🛑 全球拦截
@@ -2293,6 +2242,7 @@ rules:
  - DOMAIN-SUFFIX,2bssjsq.com,🛑 全球拦截
  - DOMAIN-SUFFIX,2d-c.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,2g2h.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,2gmbbl.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,2gvuukm1lm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,2gz9nc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,2ktd0.cn,🛑 全球拦截
@@ -2340,6 +2290,7 @@ rules:
  - DOMAIN-SUFFIX,35kds.com,🛑 全球拦截
  - DOMAIN-SUFFIX,360640.com,🛑 全球拦截
  - DOMAIN-SUFFIX,360shopping.com.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,363lm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,365339.top,🛑 全球拦截
  - DOMAIN-SUFFIX,365che.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,365syt.cn,🛑 全球拦截
@@ -2361,12 +2312,14 @@ rules:
  - DOMAIN-SUFFIX,3ye924.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,3ygww.com,🛑 全球拦截
  - DOMAIN-SUFFIX,4006825178.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,40fenzhong.com,🛑 全球拦截
  - DOMAIN-SUFFIX,4480dy.net,🛑 全球拦截
  - DOMAIN-SUFFIX,47api.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,4808.jianbihua.com,🛑 全球拦截
  - DOMAIN-SUFFIX,4ekx.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,4excel.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,4ggame8.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,4htixb.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,4kfv18.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,4kyu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,4nzrqw.cn,🛑 全球拦截
@@ -2379,6 +2332,7 @@ rules:
  - DOMAIN-SUFFIX,517m.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,519397.com,🛑 全球拦截
  - DOMAIN-SUFFIX,51dengshan.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,51df7z.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,51dianji.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,51dmn.top,🛑 全球拦截
  - DOMAIN-SUFFIX,51elandt.com,🛑 全球拦截
@@ -2509,6 +2463,7 @@ rules:
  - DOMAIN-SUFFIX,892155.com,🛑 全球拦截
  - DOMAIN-SUFFIX,89h8.com,🛑 全球拦截
  - DOMAIN-SUFFIX,8ao8ao.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,8bnwuz.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,8byu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,8hdp.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,8hpay.cn,🛑 全球拦截
@@ -2810,9 +2765,12 @@ rules:
  - DOMAIN-SUFFIX,amghvzn.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,amradmin.5173.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ams.fx678.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,andyfanfan.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,anews7.nvwu.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,angryme.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,anhaochem.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ann5.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,annabelleabe.com,🛑 全球拦截
  - DOMAIN-SUFFIX,anquanzhuomian.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,anquanzhuomian.com,🛑 全球拦截
  - DOMAIN-SUFFIX,anweigongsi.com,🛑 全球拦截
@@ -2989,6 +2947,7 @@ rules:
  - DOMAIN-SUFFIX,biandaosheng.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bianxianwu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,biaoshipai.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,bibilm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bigcooa.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,bigcoob.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,bigcooc.xyz,🛑 全球拦截
@@ -3021,6 +2980,7 @@ rules:
  - DOMAIN-SUFFIX,bjtengda.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,bjygfd.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bjzcbx.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,bjzsyx.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,bjzywuxian.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bk9gun.vpser.net,🛑 全球拦截
  - DOMAIN-SUFFIX,bl2030.com,🛑 全球拦截
@@ -3050,6 +3010,7 @@ rules:
  - DOMAIN-SUFFIX,braincf.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bridline.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,brysj.vip,🛑 全球拦截
+ - DOMAIN-SUFFIX,bsjgc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bsjgqhe.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,bskeye.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bt1.patexplorer.com,🛑 全球拦截
@@ -3096,6 +3057,7 @@ rules:
  - DOMAIN-SUFFIX,caiwanhui.top,🛑 全球拦截
  - DOMAIN-SUFFIX,calculated.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,cangnews.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,cao444cao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,caofta.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,caomindianying.com,🛑 全球拦截
  - DOMAIN-SUFFIX,car.qcmrjx.com,🛑 全球拦截
@@ -3117,6 +3079,7 @@ rules:
  - DOMAIN-SUFFIX,ccmdgg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cctg.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,cctole.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ccuyuna.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,cczuxie.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cdgfa.ifeng.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cdgxq.com,🛑 全球拦截
@@ -3147,10 +3110,12 @@ rules:
  - DOMAIN-SUFFIX,cg2017.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cgiale.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cgskqg.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,chaluoyi.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,championmachinery-cn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,chang555.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,changhehengqi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,chaogej.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,chaxiaoyin.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,chaxinyong.net,🛑 全球拦截
  - DOMAIN-SUFFIX,chayayeon.com,🛑 全球拦截
  - DOMAIN-SUFFIX,chayibu.com,🛑 全球拦截
@@ -3239,6 +3204,7 @@ rules:
  - DOMAIN-SUFFIX,code222.com,🛑 全球拦截
  - DOMAIN-SUFFIX,code668.com,🛑 全球拦截
  - DOMAIN-SUFFIX,codejumps.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,codelabbeijing.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,coenr.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cojia.net,🛑 全球拦截
  - DOMAIN-SUFFIX,comberry.cn,🛑 全球拦截
@@ -3262,6 +3228,7 @@ rules:
  - DOMAIN-SUFFIX,cpro.xixiliya.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,cpv6.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cqbaitong.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,cqdjhj.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,cqerbihou.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cqfangduan.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cqftonline.com,🛑 全球拦截
@@ -3272,6 +3239,7 @@ rules:
  - DOMAIN-SUFFIX,crayon.meishichina.com,🛑 全球拦截
  - DOMAIN-SUFFIX,crdrjs.info,🛑 全球拦截
  - DOMAIN-SUFFIX,cre99.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,crglpt.com,🛑 全球拦截
  - DOMAIN-SUFFIX,crywl.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cs12d.com,🛑 全球拦截
  - DOMAIN-SUFFIX,csalsylqx.com,🛑 全球拦截
@@ -3305,6 +3273,7 @@ rules:
  - DOMAIN-SUFFIX,cyboke.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,cytcm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cyto-biotherapy.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,cz09.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cz9k8b.top,🛑 全球拦截
  - DOMAIN-SUFFIX,czhcloud.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,czlhgz.com,🛑 全球拦截
@@ -3355,6 +3324,7 @@ rules:
  - DOMAIN-SUFFIX,dalianhengtai.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dalianruosen.com,🛑 全球拦截
  - DOMAIN-SUFFIX,daliantong.com.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,dameyuan.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dami66.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,damiren.com,🛑 全球拦截
  - DOMAIN-SUFFIX,damumu.xyz,🛑 全球拦截
@@ -3399,6 +3369,7 @@ rules:
  - DOMAIN-SUFFIX,df77.com,🛑 全球拦截
  - DOMAIN-SUFFIX,df888.eastday.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dfcwg.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,dfjbgfldsjdsnldksjalld1235.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,dfseafood.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dgaoz.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dglscm.cn,🛑 全球拦截
@@ -3470,6 +3441,7 @@ rules:
  - DOMAIN-SUFFIX,doudao.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,doulaihai.top,🛑 全球拦截
  - DOMAIN-SUFFIX,downcdn.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,dpbyc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dpjszs.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dqsft.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dragoncent.com,🛑 全球拦截
@@ -3562,6 +3534,7 @@ rules:
  - DOMAIN-SUFFIX,ent1.qunchua.com,🛑 全球拦截
  - DOMAIN-SUFFIX,enyayinxiang.com,🛑 全球拦截
  - DOMAIN-SUFFIX,epcqyac.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,er.5ykj.com,🛑 全球拦截
  - DOMAIN-SUFFIX,erdsyzb.com,🛑 全球拦截
  - DOMAIN-SUFFIX,erhfnv.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,erkesi.cn,🛑 全球拦截
@@ -3647,6 +3620,7 @@ rules:
  - DOMAIN-SUFFIX,flbmfc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,flctbg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,fll007.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,flmcju.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,flowcodeapp.com,🛑 全球拦截
  - DOMAIN-SUFFIX,fnbocll.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,fnkjj.com,🛑 全球拦截
@@ -3887,6 +3861,7 @@ rules:
  - DOMAIN-SUFFIX,gzqswl.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,gzqudou.com,🛑 全球拦截
  - DOMAIN-SUFFIX,gzrljx.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,gzwxdq.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,gzxxty168.com,🛑 全球拦截
  - DOMAIN-SUFFIX,gzzena.com,🛑 全球拦截
  - DOMAIN-SUFFIX,h01ce.cn,🛑 全球拦截
@@ -4003,6 +3978,7 @@ rules:
  - DOMAIN-SUFFIX,hlhulu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hljhufengling.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hljyjm.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,hlstlyy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hmfcyy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hmnjf.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hmttoly.com,🛑 全球拦截
@@ -4024,6 +4000,7 @@ rules:
  - DOMAIN-SUFFIX,hnwjlhg.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hnxahz.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hnxbls.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,hnxinkejg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hnyny.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hnyoufan.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hnzyzhy.cn,🛑 全球拦截
@@ -4055,6 +4032,7 @@ rules:
  - DOMAIN-SUFFIX,htjsk.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hu.xbhy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,huaerduo.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,huangyeqing.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,huapuzs.com,🛑 全球拦截
  - DOMAIN-SUFFIX,huataisangao.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,huayange.com,🛑 全球拦截
@@ -4077,6 +4055,7 @@ rules:
  - DOMAIN-SUFFIX,hulemedia.com,🛑 全球拦截
  - DOMAIN-SUFFIX,humanding.com,🛑 全球拦截
  - DOMAIN-SUFFIX,huodiyun.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,huonvd.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,huosuniao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,hurom365.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hvie6u.cn,🛑 全球拦截
@@ -4133,6 +4112,7 @@ rules:
  - DOMAIN-SUFFIX,idgdmgroup.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,idianfang.com,🛑 全球拦截
  - DOMAIN-SUFFIX,idoc58.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,idy666.com,🛑 全球拦截
  - DOMAIN-SUFFIX,iewad.net,🛑 全球拦截
  - DOMAIN-SUFFIX,if-yn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ifufen.com,🛑 全球拦截
@@ -4145,6 +4125,7 @@ rules:
  - DOMAIN-SUFFIX,iigushi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,il8r.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ilinxi.cc,🛑 全球拦截
+ - DOMAIN-SUFFIX,image66.top2099.com,🛑 全球拦截
  - DOMAIN-SUFFIX,images8.gaotie.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,img.263y.com,🛑 全球拦截
  - DOMAIN-SUFFIX,img.3sjt.com,🛑 全球拦截
@@ -4202,6 +4183,8 @@ rules:
  - DOMAIN-SUFFIX,iyouhu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,iyptc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,izuis.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,j.9136.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,j.98158.com,🛑 全球拦截
  - DOMAIN-SUFFIX,j.avz4.com,🛑 全球拦截
  - DOMAIN-SUFFIX,j.baminw.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,j.diangon.com,🛑 全球拦截
@@ -4267,6 +4250,7 @@ rules:
  - DOMAIN-SUFFIX,jiekc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jieyixiu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jijunlongchengxinxi.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,jikelian.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,jimeilm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jinchaoyu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jindingguopin.com,🛑 全球拦截
@@ -4290,6 +4274,7 @@ rules:
  - DOMAIN-SUFFIX,jinshzx.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jintonghua.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jinxiuzhilv.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,jinyinggroup.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jioder3e.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jioeg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jisufeifei.com,🛑 全球拦截
@@ -4340,6 +4325,7 @@ rules:
  - DOMAIN-SUFFIX,js.23yy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,js.45bubu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,js.9136.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,js.98158.com,🛑 全球拦截
  - DOMAIN-SUFFIX,js.bju888.com,🛑 全球拦截
  - DOMAIN-SUFFIX,js.duotegame.com,🛑 全球拦截
  - DOMAIN-SUFFIX,js.hkslg520.com,🛑 全球拦截
@@ -4398,6 +4384,7 @@ rules:
  - DOMAIN-SUFFIX,jx.renrensousuo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jx118114.net,🛑 全球拦截
  - DOMAIN-SUFFIX,jxad.jx163.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,jxaucs1802.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jxbtl.com,🛑 全球拦截
  - DOMAIN-SUFFIX,jxdzoy.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,jxhcyc.com,🛑 全球拦截
@@ -4420,6 +4407,7 @@ rules:
  - DOMAIN-SUFFIX,k1.wanwenwan.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,k1815.com,🛑 全球拦截
  - DOMAIN-SUFFIX,k22x6.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,k5p8f2.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,k9dzax.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ka12138.top,🛑 全球拦截
  - DOMAIN-SUFFIX,ka5188.com,🛑 全球拦截
@@ -4488,6 +4476,7 @@ rules:
  - DOMAIN-SUFFIX,ks67.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ksxcxb.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,kt220.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,ktdlsb.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ktunions.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ktzte.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ku9377.com,🛑 全球拦截
@@ -4510,6 +4499,7 @@ rules:
  - DOMAIN-SUFFIX,l0l.top,🛑 全球拦截
  - DOMAIN-SUFFIX,l29qi.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,l4elb.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,l570mb.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,la61d.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ladsblue.com,🛑 全球拦截
  - DOMAIN-SUFFIX,laifu365.com,🛑 全球拦截
@@ -4558,6 +4548,7 @@ rules:
  - DOMAIN-SUFFIX,lianfuhuang.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,liangziweixg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,lianyicq.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,liaoningo.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,liaoren85.com,🛑 全球拦截
  - DOMAIN-SUFFIX,liaotian4.com,🛑 全球拦截
  - DOMAIN-SUFFIX,libfre.obs.cn-east-3.myhuaweicloud.com,🛑 全球拦截
@@ -4579,6 +4570,7 @@ rules:
  - DOMAIN-SUFFIX,liufang1994.top,🛑 全球拦截
  - DOMAIN-SUFFIX,liujiaqi.top,🛑 全球拦截
  - DOMAIN-SUFFIX,liulu888.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,liuwenyan.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,liuzishen.com,🛑 全球拦截
  - DOMAIN-SUFFIX,liveappgirl.net,🛑 全球拦截
  - DOMAIN-SUFFIX,livehapp.com,🛑 全球拦截
@@ -4606,6 +4598,7 @@ rules:
  - DOMAIN-SUFFIX,lolvsdota.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,longchengtg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,longkoupeanut.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,lordtao.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,louisan.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,lousivency.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,lovepets70.com,🛑 全球拦截
@@ -4682,6 +4675,7 @@ rules:
  - DOMAIN-SUFFIX,manparis.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mao1.jsnovel.com,🛑 全球拦截
  - DOMAIN-SUFFIX,maobujie.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,maosengss.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,maoyumao.net,🛑 全球拦截
  - DOMAIN-SUFFIX,market.178.com,🛑 全球拦截
  - DOMAIN-SUFFIX,market.21cn.com,🛑 全球拦截
@@ -4694,6 +4688,7 @@ rules:
  - DOMAIN-SUFFIX,maxfull.info,🛑 全球拦截
  - DOMAIN-SUFFIX,mb.gulongbbs.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mbjb1.girl13.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,mbxt.net,🛑 全球拦截
  - DOMAIN-SUFFIX,mc.tvzhe.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mc.weather.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mcdhshlsboom.com,🛑 全球拦截
@@ -4774,6 +4769,7 @@ rules:
  - DOMAIN-SUFFIX,mozqca.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mpb1.iteye.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mps.yuwenba.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,mrjfsc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mrksys.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ms.cnbanbao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ms758.com,🛑 全球拦截
@@ -4785,6 +4781,7 @@ rules:
  - DOMAIN-SUFFIX,mtcat.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mu722.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mudezs.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,mvlkvth.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,mx.loubiqu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,mxc87.org,🛑 全球拦截
  - DOMAIN-SUFFIX,mxhbkj.cn,🛑 全球拦截
@@ -4959,6 +4956,7 @@ rules:
  - DOMAIN-SUFFIX,parisianmacao.bet,🛑 全球拦截
  - DOMAIN-SUFFIX,partner.toutiao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,pb.shuxigua.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,pbbgfsm.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,pbtxt.win,🛑 全球拦截
  - DOMAIN-SUFFIX,pcmzn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,pd3a.cn,🛑 全球拦截
@@ -4968,6 +4966,7 @@ rules:
  - DOMAIN-SUFFIX,pedailyu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,peiliao-china.com,🛑 全球拦截
  - DOMAIN-SUFFIX,pekingpk10.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,pengmingx.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,pentaxaws.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,penxiangge.com,🛑 全球拦截
  - DOMAIN-SUFFIX,petsfairy.com,🛑 全球拦截
@@ -4988,6 +4987,7 @@ rules:
  - DOMAIN-SUFFIX,pingeds.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,pingping888.com,🛑 全球拦截
  - DOMAIN-SUFFIX,pingseli.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,pingyuanshenghuo.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,pinkmore.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,pinwu123.com,🛑 全球拦截
  - DOMAIN-SUFFIX,pinyoux.com,🛑 全球拦截
@@ -5115,6 +5115,7 @@ rules:
  - DOMAIN-SUFFIX,quandangdang.net,🛑 全球拦截
  - DOMAIN-SUFFIX,quanjiapp.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,quansj.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,quanxiaozi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qubo94.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qucaigg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qudaoweiwang.com,🛑 全球拦截
@@ -5125,6 +5126,10 @@ rules:
  - DOMAIN-SUFFIX,quxiandu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,quxiangkeji.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,qvpublish.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,qwddcwmwqiqwd18.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,qwddcwmwqiqwd19.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,qwddcwmwqiqwd20.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,qwddcwmwqiqwd21.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,qwfknhc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,qxfly.com,🛑 全球拦截
  - DOMAIN-SUFFIX,qxxys.com,🛑 全球拦截
@@ -5170,7 +5175,9 @@ rules:
  - DOMAIN-SUFFIX,requested.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,resource.baomihua.com,🛑 全球拦截
  - DOMAIN-SUFFIX,rfese.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,rfjckj.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,rgdhct.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,riccol.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ricqo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,riqu2015.com,🛑 全球拦截
  - DOMAIN-SUFFIX,rishenglaw.cn,🛑 全球拦截
@@ -5184,6 +5191,7 @@ rules:
  - DOMAIN-SUFFIX,rongnews.com,🛑 全球拦截
  - DOMAIN-SUFFIX,root85.com,🛑 全球拦截
  - DOMAIN-SUFFIX,rqgsf.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,rqjhhg.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,rrsubway.com,🛑 全球拦截
  - DOMAIN-SUFFIX,rscxwmj.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ruizhimu.cn,🛑 全球拦截
@@ -5258,6 +5266,7 @@ rules:
  - DOMAIN-SUFFIX,sh996.dftoutiao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,shackapple.com,🛑 全球拦截
  - DOMAIN-SUFFIX,shama5.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,shanghebaizhou.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,shanghuitianxia.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,shangyingwm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,shannon-porject.com,🛑 全球拦截
@@ -5270,6 +5279,7 @@ rules:
  - DOMAIN-SUFFIX,share.gzdsw.com,🛑 全球拦截
  - DOMAIN-SUFFIX,sharedaddomain.com,🛑 全球拦截
  - DOMAIN-SUFFIX,sharrysweb.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,shcy3.com,🛑 全球拦截
  - DOMAIN-SUFFIX,shengchaopiao.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,shengdaoyiliao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,shenglonghg.net,🛑 全球拦截
@@ -5397,6 +5407,7 @@ rules:
  - DOMAIN-SUFFIX,subshall.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,sufficient.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,sugarpuff.net,🛑 全球拦截
+ - DOMAIN-SUFFIX,suhusushi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,suitmatters.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,sundady.online,🛑 全球拦截
  - DOMAIN-SUFFIX,suning.beer,🛑 全球拦截
@@ -5416,6 +5427,7 @@ rules:
  - DOMAIN-SUFFIX,swtkc.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,swyhome.com,🛑 全球拦截
  - DOMAIN-SUFFIX,swzhaohuo.com.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,sx9zy.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,sxbhzs.net,🛑 全球拦截
  - DOMAIN-SUFFIX,sxbxzc.com,🛑 全球拦截
  - DOMAIN-SUFFIX,sxdyrq.com,🛑 全球拦截
@@ -5552,6 +5564,7 @@ rules:
  - DOMAIN-SUFFIX,tongj.xilu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tongjiwo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,toolset.vip,🛑 全球拦截
+ - DOMAIN-SUFFIX,toospk.com,🛑 全球拦截
  - DOMAIN-SUFFIX,toourbb.com,🛑 全球拦截
  - DOMAIN-SUFFIX,top267.com,🛑 全球拦截
  - DOMAIN-SUFFIX,topazedu.com,🛑 全球拦截
@@ -5584,6 +5597,7 @@ rules:
  - DOMAIN-SUFFIX,tukexiu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tunanchangban.com,🛑 全球拦截
  - DOMAIN-SUFFIX,tuoxintrade.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,tuwo-audio.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,tvbyb04.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,twitterzs.com,🛑 全球拦截
  - DOMAIN-SUFFIX,twodogegg.cn,🛑 全球拦截
@@ -5640,6 +5654,7 @@ rules:
  - DOMAIN-SUFFIX,umjsik.com,🛑 全球拦截
  - DOMAIN-SUFFIX,umm6.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,umrrcta.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,un.ubaike.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,un1.wayoulegal.com,🛑 全球拦截
  - DOMAIN-SUFFIX,undm.qibulo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,uneede.com,🛑 全球拦截
@@ -5658,6 +5673,7 @@ rules:
  - DOMAIN-SUFFIX,uu1.3gu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,uu7ey6.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,uuaoz.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,uuboos.com,🛑 全球拦截
  - DOMAIN-SUFFIX,uuu88.top,🛑 全球拦截
  - DOMAIN-SUFFIX,uuwhg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,uvclick.com,🛑 全球拦截
@@ -5722,6 +5738,7 @@ rules:
  - DOMAIN-SUFFIX,wangkeduo.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wangketuan.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wangliqin.top,🛑 全球拦截
+ - DOMAIN-SUFFIX,wangmingsort.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wangqing7.top,🛑 全球拦截
  - DOMAIN-SUFFIX,wangqipu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wannuochongkong.com,🛑 全球拦截
@@ -5761,6 +5778,7 @@ rules:
  - DOMAIN-SUFFIX,wemdsm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wenbangsh.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wenhua.jiaoshou.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,wenqixiefu.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wenxuemi6.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wenzhougy.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,werpig.com,🛑 全球拦截
@@ -5781,6 +5799,7 @@ rules:
  - DOMAIN-SUFFIX,whxhhjx.com,🛑 全球拦截
  - DOMAIN-SUFFIX,whxjnwzhs.com,🛑 全球拦截
  - DOMAIN-SUFFIX,whytoss.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,whzxpm.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wikigifth.com,🛑 全球拦截
  - DOMAIN-SUFFIX,win999.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,winde.cc,🛑 全球拦截
@@ -5821,6 +5840,7 @@ rules:
  - DOMAIN-SUFFIX,ws341.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ws7j.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wsgblw.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,wsmky.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wstztt.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wtgongsi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wtnjupl.cn,🛑 全球拦截
@@ -5840,12 +5860,14 @@ rules:
  - DOMAIN-SUFFIX,www-sina-cn-com.com,🛑 全球拦截
  - DOMAIN-SUFFIX,www1.wxnmh.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wxbdfm.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,wxbdwj.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wxebgpj.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wxhdwy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wxiansen.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wxktv.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wxs666.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wxxfqc.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,wxyun168.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,wyhzzy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,wyttech.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,wywna.cn,🛑 全球拦截
@@ -6069,6 +6091,7 @@ rules:
  - DOMAIN-SUFFIX,yanyanbiji.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yaodianzhineng.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,yaohq.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,yaokuan01.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,yaoquanshumeiyu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yaoxiaoli.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yapusheji.com,🛑 全球拦截
@@ -6137,6 +6160,7 @@ rules:
  - DOMAIN-SUFFIX,ykpbgqc.top,🛑 全球拦截
  - DOMAIN-SUFFIX,ykxwn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ylflwbj.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,ylykd.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ymcqb.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ymxlm.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,ynbojie.com,🛑 全球拦截
@@ -6172,7 +6196,6 @@ rules:
  - DOMAIN-SUFFIX,ysgsq.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ysjkbk.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ysjwj.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yskanba.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ysnj74ed.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ysxywj.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ysyhljt.vip,🛑 全球拦截
@@ -6212,6 +6235,7 @@ rules:
  - DOMAIN-SUFFIX,yuyanhe.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yuyue008.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,yvktmda.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,yvrpeky.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ywadf.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ywbwsm.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ywjxsp168.cn,🛑 全球拦截
@@ -6250,6 +6274,7 @@ rules:
  - DOMAIN-SUFFIX,yzyrsw.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yzyszy.com,🛑 全球拦截
  - DOMAIN-SUFFIX,yzytb.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,z.grfyw.com,🛑 全球拦截
  - DOMAIN-SUFFIX,z.tudouxy01.com,🛑 全球拦截
  - DOMAIN-SUFFIX,z1.chezhuzhinan.com,🛑 全球拦截
  - DOMAIN-SUFFIX,z1.cyla.cn,🛑 全球拦截
@@ -6268,6 +6293,7 @@ rules:
  - DOMAIN-SUFFIX,zencu.com.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zenwq.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zeroao.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,zeronethree.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,zf678.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zfkmw.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zfood029.com,🛑 全球拦截
@@ -6303,6 +6329,7 @@ rules:
  - DOMAIN-SUFFIX,zhihei.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zhihu.xmcimg.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zhinengap.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,zhinengcd.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zhiong.net,🛑 全球拦截
  - DOMAIN-SUFFIX,zhipinbook.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zhivalley.cn,🛑 全球拦截
@@ -6403,6 +6430,7 @@ rules:
  - DOMAIN-SUFFIX,zyzjpx.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zzbaowen.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zzcgw.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,zzchuy.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,zzhszj.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zzkoubei.com,🛑 全球拦截
  - DOMAIN-SUFFIX,zzmmkj.com,🛑 全球拦截
@@ -6454,7 +6482,6 @@ rules:
  - IP-CIDR,115.238.246.181/32,🛑 全球拦截,no-resolve
  - IP-CIDR,116.55.227.242/32,🛑 全球拦截,no-resolve
  - IP-CIDR,117.25.133.209/32,🛑 全球拦截,no-resolve
- - IP-CIDR,118.24.199.184/32,🛑 全球拦截,no-resolve
  - IP-CIDR,118.144.88.216/32,🛑 全球拦截,no-resolve
  - IP-CIDR,119.4.249.166/32,🛑 全球拦截,no-resolve
  - IP-CIDR,119.29.80.185/32,🛑 全球拦截,no-resolve
@@ -7020,8 +7047,6 @@ rules:
  - DOMAIN-SUFFIX,discord.media,🚀 节点选择
  - DOMAIN-SUFFIX,discordapp.com,🚀 节点选择
  - DOMAIN-SUFFIX,discordapp.net,🚀 节点选择
- - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
- - DOMAIN-SUFFIX,duboxcdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,facebook.com,🚀 节点选择
  - DOMAIN-SUFFIX,fb.com,🚀 节点选择
  - DOMAIN-SUFFIX,fb.me,🚀 节点选择
@@ -7183,6 +7208,8 @@ rules:
  - IP-CIDR6,2001:67c:4e8::/48,🚀 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,🚀 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
+ - DOMAIN-SUFFIX,terabox.com,🚀 节点选择
+ - DOMAIN-SUFFIX,teraboxcdn.com,🚀 节点选择
  - IP-CIDR,18.194.0.0/15,🚀 节点选择,no-resolve
  - IP-CIDR,34.224.0.0/12,🚀 节点选择,no-resolve
  - IP-CIDR,54.242.0.0/15,🚀 节点选择,no-resolve
