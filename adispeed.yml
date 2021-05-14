@@ -8,8 +8,6 @@ proxies:
   - {name: "[VMess] adi|0513 - Relay_ |16.92Mb", server: transite-shcn2-05.iplc188.com, port: 10001, type: vmess, uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "[VMess] 🇨🇳 adi|0513 - 上海市联通 12", server: 139.226.50.32, port: 10005, type: vmess, uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "[VMess] 🇨🇳 adi|0513 - 上海市联通 8", server: 139.226.50.32, port: 10002, type: vmess, uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "[VMess] 🇸🇬 adi|0513 - 新加坡Amazon 2", server: 54.151.240.28, port: 30494, type: vmess, uuid: 04fb5b11-541f-49eb-9100-c2140203812e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "[VMess] adi|0513 - |528.75Mb", server: 54.151.240.28, port: 30494, type: vmess, uuid: 04fb5b11-541f-49eb-9100-c2140203812e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "[VMess] 🇯🇵 adi|0513 - 日本Linode 3", server: auto.freev2.top, port: 18508, type: vmess, uuid: 1e064358-118e-412f-9d68-1857696a1acb, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "[VMess] adi|0513 - Relay_ |50.27Mb", server: auto.freev2.top, port: 18508, type: vmess, uuid: 1e064358-118e-412f-9d68-1857696a1acb, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "[VMess] adi|0513 - Relay_ |51.70Mb", server: transite-shcn2-05.iplc188.com, port: 10005, type: vmess, uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
@@ -29,12 +27,10 @@ proxies:
   - {name: "[SS] 🇬🇧 adi|0510 - 英国", server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
   - {name: "[VMess] 🇺🇸 adi|0510 - 美国Coloction 12", server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
   - {name: "[VMess] 🇺🇸 adi|0510 - 美国CloudFlare 18", server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: "[VMess] 🇮🇹 adi|0513 - 意大利  28", server: cc.hciahciphcie.club, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /84c3f/, ws-headers: {Host: cc.hciahciphcie.club}}
   - {name: "[VMess] 🇺🇸 adi|0510 - 美国CloudFlare 19", server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
   - {name: "[VMess] 🇺🇸 adi|0507 - 美国 |17.38Mb", server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: 128.14.153.42}}
   - {name: "[VMess] 🇨🇳 adi|0513 - 上海市联通 29", server: 139.226.50.32, port: 10003, type: vmess, uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "[VMess] adi|0513 - Relay_ |22.38Mb", server: r3uuuus.liuwei.gq, port: 443, type: vmess, uuid: 69cb9f3d-6e5d-4add-9806-b20917ea683d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: r3uuuus.liuwei.gq}}
-  - {name: "[VMess] 🇺🇸 adi|0411 - 美国 11", server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
   - {name: "[SS] adi|0510 - 欧洲 2", server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: "[SS] 🇺🇸 adi|0510 - 美国", server: 104.200.131.245, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: "[SS] 🇳🇱 adi|0506 - 荷兰", server: 212.102.35.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
@@ -59,7 +55,6 @@ proxies:
   - {name: "[SS] 🇺🇸 adi|0513 - 美国 2", server: 212.102.44.66, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: "[VMess] adi|0510 - |61.38Mb", server: 20.74.131.217, port: 13547, type: vmess, uuid: 52f0fa52-173c-41cb-97b8-bd2ea10217cf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "[SS] adi|0506 - 罗马", server: 193.29.106.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: "[SS] adi|0513 - 18", server: 91.90.123.155, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: "[SS] adi|0506 - 欧洲", server: 188.92.78.145, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: "[SS] 🇺🇸 adi|0510 - 美国 4", server: 143.244.56.230, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: "[VMess] 🇺🇸 adi|0513 - 美国Microsoft 19", server: 52.255.146.242, port: 28380, type: vmess, uuid: a232e331-bff8-48d4-f9a6-2436cf41aa26, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
@@ -71,9 +66,7 @@ proxies:
   - {name: "[SS] adi|0513 - 欧洲 4", server: 138.199.40.169, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
   - {name: "[SS] 🇳🇱 adi|0411 - 荷兰", server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: "[SS] adi|0507 - 欧洲 2", server: 82.102.26.91, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: "[VMess] adi|0510 - |20.90Mb", server: 18.177.140.83, port: 28483, type: vmess, uuid: 1add6694-b56f-4162-b7da-d899612b0608, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 18.177.140.83}}
   - {name: "[SS] 🇺🇸 adi|0513 - 美国 3", server: 143.244.56.230, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: "[SS] 🇫🇷 adi|0419 - 法国", server: ss.fr.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: 6nhHHuGHw2D5}
   - {name: "[VMess] 🇬🇧 adi|0513 - 英国Digital VM 21", server: 5.183.102.142, port: 14420, type: vmess, uuid: 9984501d-e80a-4144-c6bd-2503fb49872d, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "[SS] adi|0506 - 欧洲 3", server: 188.92.78.145, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: "[SS] 🇺🇸 adi|0506 - 美国", server: 143.244.57.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
@@ -111,14 +104,18 @@ proxies:
   - {name: "[SS] adi|0513 - 11", server: 62.212.239.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: "[VMess] 🇺🇸 adi|0411 - 美国 13", server: 23.225.213.242, port: 443, type: vmess, uuid: 11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.213.242}}
   - {name: "[SS] 🇨🇳 adi|0510 - 台湾", server: 2.58.242.43, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: "[SS] 🇬🇧 adi|0420 - 英国 16", server: ss.uk.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: JSvsHhHYIuVG}
   - {name: "[SS] adi|0513 - 波兰ss20", server: ss.pl.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: M1LCZAlfz1bV}
   - {name: "[VMess] adi|0513 - 亚太地区  11", server: 103.222.190.138, port: 10011, type: vmess, uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: "[VMess] 🇺🇸 adi|0411 - 美国 12", server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}}
   - {name: "[VMess] 🇺🇸 adi|0411 - 美国 |45.43Mb", server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}}
   - {name: "[VMess] 🇸🇬 adi|0513 - 新加坡Amazon 5", server: 54.169.214.226, port: 55480, type: vmess, uuid: a62ce843-da83-4217-936a-c5e9074e5585, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: "[VMess] 🇺🇸 adi|0513 - 美国", server: 104.16.207.196, port: 443, type: vmess, uuid: a9cd126a-7c05-41af-ad0e-a185eabc89c8, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson.cf}}
   - {name: "[VMess] 🇯🇵 adi|0513 - JP_2349 |60.38Mb", server: 13.208.248.208, port: 35105, type: vmess, uuid: 6914f4cc-fa4b-4d5e-9a77-d6f8ea5e2f34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 13.208.248.208}}
+  - {name: "[VMess] 🇸🇬 adi|0513 - 新加坡Amazon 2", server: 54.151.240.28, port: 30494, type: vmess, uuid: 04fb5b11-541f-49eb-9100-c2140203812e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "[VMess] adi|0513 - |528.75Mb", server: 54.151.240.28, port: 30494, type: vmess, uuid: 04fb5b11-541f-49eb-9100-c2140203812e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "[VMess] 🇺🇸 adi|0411 - 美国 11", server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
+  - {name: "[SS] 🇫🇷 adi|0419 - 法国", server: ss.fr.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: 6nhHHuGHw2D5}
+  - {name: "[SS] 🇬🇧 adi|0420 - 英国 16", server: ss.uk.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: JSvsHhHYIuVG}
+  - {name: "[VMess] 🇮🇹 adi|0513 - 意大利  28", server: cc.hciahciphcie.club, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /84c3f/, ws-headers: {Host: cc.hciahciphcie.club}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -128,8 +125,6 @@ proxy-groups:
       - "[VMess] adi|0513 - Relay_ |16.92Mb"
       - "[VMess] 🇨🇳 adi|0513 - 上海市联通 12"
       - "[VMess] 🇨🇳 adi|0513 - 上海市联通 8"
-      - "[VMess] 🇸🇬 adi|0513 - 新加坡Amazon 2"
-      - "[VMess] adi|0513 - |528.75Mb"
       - "[VMess] 🇯🇵 adi|0513 - 日本Linode 3"
       - "[VMess] adi|0513 - Relay_ |50.27Mb"
       - "[VMess] adi|0513 - Relay_ |51.70Mb"
@@ -149,12 +144,10 @@ proxy-groups:
       - "[SS] 🇬🇧 adi|0510 - 英国"
       - "[VMess] 🇺🇸 adi|0510 - 美国Coloction 12"
       - "[VMess] 🇺🇸 adi|0510 - 美国CloudFlare 18"
-      - "[VMess] 🇮🇹 adi|0513 - 意大利  28"
       - "[VMess] 🇺🇸 adi|0510 - 美国CloudFlare 19"
       - "[VMess] 🇺🇸 adi|0507 - 美国 |17.38Mb"
       - "[VMess] 🇨🇳 adi|0513 - 上海市联通 29"
       - "[VMess] adi|0513 - Relay_ |22.38Mb"
-      - "[VMess] 🇺🇸 adi|0411 - 美国 11"
       - "[SS] adi|0510 - 欧洲 2"
       - "[SS] 🇺🇸 adi|0510 - 美国"
       - "[SS] 🇳🇱 adi|0506 - 荷兰"
@@ -179,7 +172,6 @@ proxy-groups:
       - "[SS] 🇺🇸 adi|0513 - 美国 2"
       - "[VMess] adi|0510 - |61.38Mb"
       - "[SS] adi|0506 - 罗马"
-      - "[SS] adi|0513 - 18"
       - "[SS] adi|0506 - 欧洲"
       - "[SS] 🇺🇸 adi|0510 - 美国 4"
       - "[VMess] 🇺🇸 adi|0513 - 美国Microsoft 19"
@@ -191,9 +183,7 @@ proxy-groups:
       - "[SS] adi|0513 - 欧洲 4"
       - "[SS] 🇳🇱 adi|0411 - 荷兰"
       - "[SS] adi|0507 - 欧洲 2"
-      - "[VMess] adi|0510 - |20.90Mb"
       - "[SS] 🇺🇸 adi|0513 - 美国 3"
-      - "[SS] 🇫🇷 adi|0419 - 法国"
       - "[VMess] 🇬🇧 adi|0513 - 英国Digital VM 21"
       - "[SS] adi|0506 - 欧洲 3"
       - "[SS] 🇺🇸 adi|0506 - 美国"
@@ -231,14 +221,18 @@ proxy-groups:
       - "[SS] adi|0513 - 11"
       - "[VMess] 🇺🇸 adi|0411 - 美国 13"
       - "[SS] 🇨🇳 adi|0510 - 台湾"
-      - "[SS] 🇬🇧 adi|0420 - 英国 16"
       - "[SS] adi|0513 - 波兰ss20"
       - "[VMess] adi|0513 - 亚太地区  11"
       - "[VMess] 🇺🇸 adi|0411 - 美国 12"
       - "[VMess] 🇺🇸 adi|0411 - 美国 |45.43Mb"
       - "[VMess] 🇸🇬 adi|0513 - 新加坡Amazon 5"
-      - "[VMess] 🇺🇸 adi|0513 - 美国"
       - "[VMess] 🇯🇵 adi|0513 - JP_2349 |60.38Mb"
+      - "[VMess] 🇸🇬 adi|0513 - 新加坡Amazon 2"
+      - "[VMess] adi|0513 - |528.75Mb"
+      - "[VMess] 🇺🇸 adi|0411 - 美国 11"
+      - "[SS] 🇫🇷 adi|0419 - 法国"
+      - "[SS] 🇬🇧 adi|0420 - 英国 16"
+      - "[VMess] 🇮🇹 adi|0513 - 意大利  28"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -248,8 +242,6 @@ proxy-groups:
       - "[VMess] adi|0513 - Relay_ |16.92Mb"
       - "[VMess] 🇨🇳 adi|0513 - 上海市联通 12"
       - "[VMess] 🇨🇳 adi|0513 - 上海市联通 8"
-      - "[VMess] 🇸🇬 adi|0513 - 新加坡Amazon 2"
-      - "[VMess] adi|0513 - |528.75Mb"
       - "[VMess] 🇯🇵 adi|0513 - 日本Linode 3"
       - "[VMess] adi|0513 - Relay_ |50.27Mb"
       - "[VMess] adi|0513 - Relay_ |51.70Mb"
@@ -269,12 +261,10 @@ proxy-groups:
       - "[SS] 🇬🇧 adi|0510 - 英国"
       - "[VMess] 🇺🇸 adi|0510 - 美国Coloction 12"
       - "[VMess] 🇺🇸 adi|0510 - 美国CloudFlare 18"
-      - "[VMess] 🇮🇹 adi|0513 - 意大利  28"
       - "[VMess] 🇺🇸 adi|0510 - 美国CloudFlare 19"
       - "[VMess] 🇺🇸 adi|0507 - 美国 |17.38Mb"
       - "[VMess] 🇨🇳 adi|0513 - 上海市联通 29"
       - "[VMess] adi|0513 - Relay_ |22.38Mb"
-      - "[VMess] 🇺🇸 adi|0411 - 美国 11"
       - "[SS] adi|0510 - 欧洲 2"
       - "[SS] 🇺🇸 adi|0510 - 美国"
       - "[SS] 🇳🇱 adi|0506 - 荷兰"
@@ -299,7 +289,6 @@ proxy-groups:
       - "[SS] 🇺🇸 adi|0513 - 美国 2"
       - "[VMess] adi|0510 - |61.38Mb"
       - "[SS] adi|0506 - 罗马"
-      - "[SS] adi|0513 - 18"
       - "[SS] adi|0506 - 欧洲"
       - "[SS] 🇺🇸 adi|0510 - 美国 4"
       - "[VMess] 🇺🇸 adi|0513 - 美国Microsoft 19"
@@ -311,9 +300,7 @@ proxy-groups:
       - "[SS] adi|0513 - 欧洲 4"
       - "[SS] 🇳🇱 adi|0411 - 荷兰"
       - "[SS] adi|0507 - 欧洲 2"
-      - "[VMess] adi|0510 - |20.90Mb"
       - "[SS] 🇺🇸 adi|0513 - 美国 3"
-      - "[SS] 🇫🇷 adi|0419 - 法国"
       - "[VMess] 🇬🇧 adi|0513 - 英国Digital VM 21"
       - "[SS] adi|0506 - 欧洲 3"
       - "[SS] 🇺🇸 adi|0506 - 美国"
@@ -351,14 +338,18 @@ proxy-groups:
       - "[SS] adi|0513 - 11"
       - "[VMess] 🇺🇸 adi|0411 - 美国 13"
       - "[SS] 🇨🇳 adi|0510 - 台湾"
-      - "[SS] 🇬🇧 adi|0420 - 英国 16"
       - "[SS] adi|0513 - 波兰ss20"
       - "[VMess] adi|0513 - 亚太地区  11"
       - "[VMess] 🇺🇸 adi|0411 - 美国 12"
       - "[VMess] 🇺🇸 adi|0411 - 美国 |45.43Mb"
       - "[VMess] 🇸🇬 adi|0513 - 新加坡Amazon 5"
-      - "[VMess] 🇺🇸 adi|0513 - 美国"
       - "[VMess] 🇯🇵 adi|0513 - JP_2349 |60.38Mb"
+      - "[VMess] 🇸🇬 adi|0513 - 新加坡Amazon 2"
+      - "[VMess] adi|0513 - |528.75Mb"
+      - "[VMess] 🇺🇸 adi|0411 - 美国 11"
+      - "[SS] 🇫🇷 adi|0419 - 法国"
+      - "[SS] 🇬🇧 adi|0420 - 英国 16"
+      - "[VMess] 🇮🇹 adi|0513 - 意大利  28"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -379,8 +370,6 @@ proxy-groups:
       - "[VMess] adi|0513 - Relay_ |16.92Mb"
       - "[VMess] 🇨🇳 adi|0513 - 上海市联通 12"
       - "[VMess] 🇨🇳 adi|0513 - 上海市联通 8"
-      - "[VMess] 🇸🇬 adi|0513 - 新加坡Amazon 2"
-      - "[VMess] adi|0513 - |528.75Mb"
       - "[VMess] 🇯🇵 adi|0513 - 日本Linode 3"
       - "[VMess] adi|0513 - Relay_ |50.27Mb"
       - "[VMess] adi|0513 - Relay_ |51.70Mb"
@@ -400,12 +389,10 @@ proxy-groups:
       - "[SS] 🇬🇧 adi|0510 - 英国"
       - "[VMess] 🇺🇸 adi|0510 - 美国Coloction 12"
       - "[VMess] 🇺🇸 adi|0510 - 美国CloudFlare 18"
-      - "[VMess] 🇮🇹 adi|0513 - 意大利  28"
       - "[VMess] 🇺🇸 adi|0510 - 美国CloudFlare 19"
       - "[VMess] 🇺🇸 adi|0507 - 美国 |17.38Mb"
       - "[VMess] 🇨🇳 adi|0513 - 上海市联通 29"
       - "[VMess] adi|0513 - Relay_ |22.38Mb"
-      - "[VMess] 🇺🇸 adi|0411 - 美国 11"
       - "[SS] adi|0510 - 欧洲 2"
       - "[SS] 🇺🇸 adi|0510 - 美国"
       - "[SS] 🇳🇱 adi|0506 - 荷兰"
@@ -430,7 +417,6 @@ proxy-groups:
       - "[SS] 🇺🇸 adi|0513 - 美国 2"
       - "[VMess] adi|0510 - |61.38Mb"
       - "[SS] adi|0506 - 罗马"
-      - "[SS] adi|0513 - 18"
       - "[SS] adi|0506 - 欧洲"
       - "[SS] 🇺🇸 adi|0510 - 美国 4"
       - "[VMess] 🇺🇸 adi|0513 - 美国Microsoft 19"
@@ -442,9 +428,7 @@ proxy-groups:
       - "[SS] adi|0513 - 欧洲 4"
       - "[SS] 🇳🇱 adi|0411 - 荷兰"
       - "[SS] adi|0507 - 欧洲 2"
-      - "[VMess] adi|0510 - |20.90Mb"
       - "[SS] 🇺🇸 adi|0513 - 美国 3"
-      - "[SS] 🇫🇷 adi|0419 - 法国"
       - "[VMess] 🇬🇧 adi|0513 - 英国Digital VM 21"
       - "[SS] adi|0506 - 欧洲 3"
       - "[SS] 🇺🇸 adi|0506 - 美国"
@@ -482,14 +466,18 @@ proxy-groups:
       - "[SS] adi|0513 - 11"
       - "[VMess] 🇺🇸 adi|0411 - 美国 13"
       - "[SS] 🇨🇳 adi|0510 - 台湾"
-      - "[SS] 🇬🇧 adi|0420 - 英国 16"
       - "[SS] adi|0513 - 波兰ss20"
       - "[VMess] adi|0513 - 亚太地区  11"
       - "[VMess] 🇺🇸 adi|0411 - 美国 12"
       - "[VMess] 🇺🇸 adi|0411 - 美国 |45.43Mb"
       - "[VMess] 🇸🇬 adi|0513 - 新加坡Amazon 5"
-      - "[VMess] 🇺🇸 adi|0513 - 美国"
       - "[VMess] 🇯🇵 adi|0513 - JP_2349 |60.38Mb"
+      - "[VMess] 🇸🇬 adi|0513 - 新加坡Amazon 2"
+      - "[VMess] adi|0513 - |528.75Mb"
+      - "[VMess] 🇺🇸 adi|0411 - 美国 11"
+      - "[SS] 🇫🇷 adi|0419 - 法国"
+      - "[SS] 🇬🇧 adi|0420 - 英国 16"
+      - "[VMess] 🇮🇹 adi|0513 - 意大利  28"
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
