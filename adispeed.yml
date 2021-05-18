@@ -5,40 +5,52 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇲 adi|0513 - 美国, server: 45.89.173.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: adi|0516 - |61.43Mb, server: jp01.v2net.top, port: 10089, type: vmess, uuid: 79D0BCA4-67DB-51D3-B497-39D54338AB61, alterId: 0, cipher: auto, tls: false}
-  - {name: adi|0513 - Relay_ |22.38Mb, server: r3uuuus.liuwei.gq, port: 443, type: vmess, uuid: 69cb9f3d-6e5d-4add-9806-b20917ea683d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: r3uuuus.liuwei.gq}}
+  - {name: adi|0517 - catgz 2, server: catgz01.gnzz.xyz, port: 28015, type: vmess, uuid: 963be7e4-4aa9-36dd-903d-4e29be571801, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /cat-iplc, ws-headers: {Host: catgz01.gnzz.xyz}}
+  - {name: adi|0517 - |19.61Mb, server: 109.166.38.103, port: 29855, type: vmess, uuid: 4e7fbae0-8f08-3e4e-b3c0-77beadde4900, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 109.166.38.103}}
+  - {name: adi|0517 - |19.61Mb 2, server: 109.166.38.103, port: 29855, type: vmess, uuid: 4e7fbae0-8f08-3e4e-b3c0-77beadde4900, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 109.166.38.103}}
+  - {name: 🇨🇳 adi|0517 - shcn2-3, server: shcn2-04a.iplc188.com, port: 10005, type: vmess, uuid: 61a12800-a9f6-470b-b319-03736a99bc32, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇨🇳 adi|0517 - shcn2-1, server: shcn2-04a.iplc188.com, port: 10001, type: vmess, uuid: 61a12800-a9f6-470b-b319-03736a99bc32, alterId: 1, cipher: auto, tls: false}
+  - {name: adi|0517 - V56, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
+  - {name: 🇺🇲 adi|0517 - 美国CloudFlare 14, server: vip9-3.lounge.workers.dev, port: 443, type: vmess, uuid: f5121518-a614-4a16-b1f1-8dbc0c502854, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vip9-3.lounge.workers.dev}}
+  - {name: adi|0517 - 172.67, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: adi|0517 - 104.21, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: adi|0517 - 183.236-15, server: 183.236.57.52, port: 10004, type: vmess, uuid: 61a12800-a9f6-470b-b319-03736a99bc32, alterId: 1, cipher: auto, tls: false}
+  - {name: adi|0517 - 23.224, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
+  - {name: adi|0517 - | 8.90Mb, server: 54.180.32.181, port: 28519, type: vmess, uuid: 4e7fbae0-8f08-3e4e-b3c0-77beadde4900, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 54.180.32.181}}
+  - {name: 🇭🇰 adi|0517 - HK_4178 |24.58Mb, server: 104.19.45.116, port: 443, type: vmess, uuid: dbb1253f-c663-42b0-a3bf-ceae0e8d0e46, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ceae0e8d0e46, ws-headers: {Host: 35044ac9a120f4dd5.spbohk.com}}
+  - {name: 🇷🇴 adi|0517 - 罗马尼亚  23, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0517 - 104.18.7, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇭🇰 adi|0517 - 香港CDN77 1, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0517 - 美国, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 adi|0517 - 美国 2, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: adi|0517 - 欧洲  13, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 🇷🇴 adi|0517 - 罗马尼亚  5, server: 91.90.123.155, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0517 - |21.46Mb, server: 185.195.26.193, port: 22526, type: vmess, uuid: 4e7fbae0-8f08-3e4e-b3c0-77beadde4900, alterId: 16, cipher: auto, tls: false}
+  - {name: adi|0517 - |21.46Mb 2, server: 185.195.26.193, port: 22526, type: vmess, uuid: 4e7fbae0-8f08-3e4e-b3c0-77beadde4900, alterId: 16, cipher: auto, tls: false}
+  - {name: 🇺🇲 adi|0517 - 美国 3, server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0517 - 美国 4, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇨🇳 adi|0517 - 台湾, server: 2.58.242.43, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: adi|0517 - 欧洲, server: 62.212.239.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇿🇦 adi|0517 - 南非, server: 154.127.50.138, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0517 - V20, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
+  - {name: adi|0517 - 104.18.6, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: adi|0517 - 欧洲 2, server: 138.199.9.202, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: adi|0517 - 欧洲  7, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇫🇮 adi|0517 - 芬兰, server: 185.124.240.159, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: adi|0517 - 欧洲 3, server: 138.199.9.202, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇷🇺 adi|0517 - 俄罗斯, server: 194.147.34.26, port: 6858, type: vmess, uuid: 9ec3acbc-7c64-4e52-bb6e-990d770e104b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 adi|0411 - 美国 12, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}}
+  - {name: 🇺🇲 adi|0411 - 美国 11, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
   - {name: 🇺🇲 adi|0510 - 美国CloudFlare 16, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
   - {name: 🇺🇲 adi|0510 - 美国CloudFlare 18, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: adi|0516 - V3, server: r3uuuus.liuwei.gq, port: 443, type: vmess, uuid: 69cb9f3d-6e5d-4add-9806-b20917ea683d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: r3uuuus.liuwei.gq}}
-  - {name: 🇺🇲 adi|0506 - 美国, server: 45.89.173.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 adi|0510 - 美国CloudFlare 19, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇲 adi|0507 - 美国 |22.34Mb, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: 23.224.31.210}}
   - {name: 🇺🇲 adi|0510 - 美国CloudFlare 17, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇲 adi|0411 - 美国 11, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
-  - {name: 🇺🇲 adi|0412 - US_2890 |41.25Mb, server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.224.164.100}}
-  - {name: 🇬🇧 adi|0428 - 英国, server: 81.19.214.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 adi|0510 - 美国Coloction 12, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
-  - {name: adi|0510 - Relay_ |30.27Mb, server: jp01.v2net.top, port: 10089, type: vmess, uuid: 79D0BCA4-67DB-51D3-B497-39D54338AB61, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0419 - 美国, server: 104.16.181.15, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇨🇦 adi|0516 - 加拿大B4, server: t4.ssrsub.one, port: 8443, type: trojan, password: 8l5DUdeb, sni: t4.ssrsub.one}
-  - {name: 🇺🇲 adi|0513 - 美国 2, server: 143.244.56.230, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: adi|0510 - 欧洲, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: adi|0513 - |20.33Mb, server: 52.255.146.242, port: 28380, type: vmess, uuid: a232e331-bff8-48d4-f9a6-2436cf41aa26, alterId: 64, cipher: auto, tls: false}
-  - {name: adi|0516 - |14.24Mb, server: awsjp2.greatfirewall.cf, port: 443, type: vmess, uuid: 450474f7-9727-4879-950e-3a5a920875e6, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /GreatFireWall.CF, ws-headers: {Host: awsjp2.greatfirewall.cf}}
-  - {name: adi|0506 - 欧洲, server: 188.92.78.203, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: adi|0516 - 154.127, server: 154.127.50.138, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 adi|0411 - 美国 12, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.165.242}}
-  - {name: 🇬🇧 adi|0510 - 英国, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: adi|0510 - 欧洲 2, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: adi|0513 - 11, server: 62.212.239.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 adi|0507 - 美国 |17.38Mb, server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: 128.14.153.42}}
-  - {name: 🇺🇲 adi|0507 - 美国 |20.41Mb, server: 23.225.213.242, port: 443, type: vmess, uuid: 11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: 23.225.213.242}}
+  - {name: adi|0510 - 欧洲, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 🇫🇷 adi|0419 - 法国, server: ss.fr.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: 6nhHHuGHw2D5}
-  - {name: 🇺🇲 adi|0510 - 美国, server: 104.200.131.245, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇬🇧 adi|0510 - 英国 2, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇲 adi|0513 - 美国 3, server: 104.200.131.245, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇨🇦 adi|0516 - 加拿大A7, server: t9.ssrsub.one, port: 443, type: trojan, password: eNPxHq1V, sni: t9.ssrsub.one}
+  - {name: adi|0513 - 11, server: 62.212.239.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: adi|0516 - 154.127, server: 154.127.50.138, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇬🇧 adi|0510 - 英国, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: adi|0510 - 欧洲 2, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 adi|0513 - 美国, server: 104.200.131.245, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -47,158 +59,206 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇺🇲 adi|0513 - 美国
-      - adi|0516 - |61.43Mb
-      - adi|0513 - Relay_ |22.38Mb
+      - adi|0517 - catgz 2
+      - adi|0517 - |19.61Mb
+      - adi|0517 - |19.61Mb 2
+      - 🇨🇳 adi|0517 - shcn2-3
+      - 🇨🇳 adi|0517 - shcn2-1
+      - adi|0517 - V56
+      - 🇺🇲 adi|0517 - 美国CloudFlare 14
+      - adi|0517 - 172.67
+      - adi|0517 - 104.21
+      - adi|0517 - 183.236-15
+      - adi|0517 - 23.224
+      - adi|0517 - | 8.90Mb
+      - 🇭🇰 adi|0517 - HK_4178 |24.58Mb
+      - 🇷🇴 adi|0517 - 罗马尼亚  23
+      - adi|0517 - 104.18.7
+      - 🇭🇰 adi|0517 - 香港CDN77 1
+      - 🇺🇲 adi|0517 - 美国
+      - 🇺🇲 adi|0517 - 美国 2
+      - adi|0517 - 欧洲  13
+      - 🇷🇴 adi|0517 - 罗马尼亚  5
+      - adi|0517 - |21.46Mb
+      - adi|0517 - |21.46Mb 2
+      - 🇺🇲 adi|0517 - 美国 3
+      - 🇺🇲 adi|0517 - 美国 4
+      - 🇨🇳 adi|0517 - 台湾
+      - adi|0517 - 欧洲
+      - 🇿🇦 adi|0517 - 南非
+      - adi|0517 - V20
+      - adi|0517 - 104.18.6
+      - adi|0517 - 欧洲 2
+      - adi|0517 - 欧洲  7
+      - 🇫🇮 adi|0517 - 芬兰
+      - adi|0517 - 欧洲 3
+      - 🇷🇺 adi|0517 - 俄罗斯
+      - 🇺🇲 adi|0411 - 美国 12
+      - 🇺🇲 adi|0411 - 美国 11
       - 🇺🇲 adi|0510 - 美国CloudFlare 16
       - 🇺🇲 adi|0510 - 美国CloudFlare 18
-      - adi|0516 - V3
-      - 🇺🇲 adi|0506 - 美国
-      - 🇺🇲 adi|0510 - 美国CloudFlare 19
-      - 🇺🇲 adi|0507 - 美国 |22.34Mb
       - 🇺🇲 adi|0510 - 美国CloudFlare 17
-      - 🇺🇲 adi|0411 - 美国 11
-      - 🇺🇲 adi|0412 - US_2890 |41.25Mb
-      - 🇬🇧 adi|0428 - 英国
-      - 🇺🇲 adi|0510 - 美国Coloction 12
-      - adi|0510 - Relay_ |30.27Mb
-      - 🇺🇲 adi|0419 - 美国
-      - 🇨🇦 adi|0516 - 加拿大B4
-      - 🇺🇲 adi|0513 - 美国 2
       - adi|0510 - 欧洲
-      - adi|0513 - |20.33Mb
-      - adi|0516 - |14.24Mb
-      - adi|0506 - 欧洲
+      - 🇫🇷 adi|0419 - 法国
+      - adi|0513 - 11
       - adi|0516 - 154.127
-      - 🇺🇲 adi|0411 - 美国 12
       - 🇬🇧 adi|0510 - 英国
       - adi|0510 - 欧洲 2
-      - adi|0513 - 11
-      - 🇺🇲 adi|0507 - 美国 |17.38Mb
-      - 🇺🇲 adi|0507 - 美国 |20.41Mb
-      - 🇫🇷 adi|0419 - 法国
-      - 🇺🇲 adi|0510 - 美国
-      - 🇬🇧 adi|0510 - 英国 2
-      - 🇺🇲 adi|0513 - 美国 3
-      - 🇨🇦 adi|0516 - 加拿大A7
+      - 🇺🇲 adi|0513 - 美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇲 adi|0513 - 美国
-      - adi|0516 - |61.43Mb
-      - adi|0513 - Relay_ |22.38Mb
+      - adi|0517 - catgz 2
+      - adi|0517 - |19.61Mb
+      - adi|0517 - |19.61Mb 2
+      - 🇨🇳 adi|0517 - shcn2-3
+      - 🇨🇳 adi|0517 - shcn2-1
+      - adi|0517 - V56
+      - 🇺🇲 adi|0517 - 美国CloudFlare 14
+      - adi|0517 - 172.67
+      - adi|0517 - 104.21
+      - adi|0517 - 183.236-15
+      - adi|0517 - 23.224
+      - adi|0517 - | 8.90Mb
+      - 🇭🇰 adi|0517 - HK_4178 |24.58Mb
+      - 🇷🇴 adi|0517 - 罗马尼亚  23
+      - adi|0517 - 104.18.7
+      - 🇭🇰 adi|0517 - 香港CDN77 1
+      - 🇺🇲 adi|0517 - 美国
+      - 🇺🇲 adi|0517 - 美国 2
+      - adi|0517 - 欧洲  13
+      - 🇷🇴 adi|0517 - 罗马尼亚  5
+      - adi|0517 - |21.46Mb
+      - adi|0517 - |21.46Mb 2
+      - 🇺🇲 adi|0517 - 美国 3
+      - 🇺🇲 adi|0517 - 美国 4
+      - 🇨🇳 adi|0517 - 台湾
+      - adi|0517 - 欧洲
+      - 🇿🇦 adi|0517 - 南非
+      - adi|0517 - V20
+      - adi|0517 - 104.18.6
+      - adi|0517 - 欧洲 2
+      - adi|0517 - 欧洲  7
+      - 🇫🇮 adi|0517 - 芬兰
+      - adi|0517 - 欧洲 3
+      - 🇷🇺 adi|0517 - 俄罗斯
+      - 🇺🇲 adi|0411 - 美国 12
+      - 🇺🇲 adi|0411 - 美国 11
       - 🇺🇲 adi|0510 - 美国CloudFlare 16
       - 🇺🇲 adi|0510 - 美国CloudFlare 18
-      - adi|0516 - V3
-      - 🇺🇲 adi|0506 - 美国
-      - 🇺🇲 adi|0510 - 美国CloudFlare 19
-      - 🇺🇲 adi|0507 - 美国 |22.34Mb
       - 🇺🇲 adi|0510 - 美国CloudFlare 17
-      - 🇺🇲 adi|0411 - 美国 11
-      - 🇺🇲 adi|0412 - US_2890 |41.25Mb
-      - 🇬🇧 adi|0428 - 英国
-      - 🇺🇲 adi|0510 - 美国Coloction 12
-      - adi|0510 - Relay_ |30.27Mb
-      - 🇺🇲 adi|0419 - 美国
-      - 🇨🇦 adi|0516 - 加拿大B4
-      - 🇺🇲 adi|0513 - 美国 2
       - adi|0510 - 欧洲
-      - adi|0513 - |20.33Mb
-      - adi|0516 - |14.24Mb
-      - adi|0506 - 欧洲
+      - 🇫🇷 adi|0419 - 法国
+      - adi|0513 - 11
       - adi|0516 - 154.127
-      - 🇺🇲 adi|0411 - 美国 12
       - 🇬🇧 adi|0510 - 英国
       - adi|0510 - 欧洲 2
-      - adi|0513 - 11
-      - 🇺🇲 adi|0507 - 美国 |17.38Mb
-      - 🇺🇲 adi|0507 - 美国 |20.41Mb
-      - 🇫🇷 adi|0419 - 法国
-      - 🇺🇲 adi|0510 - 美国
-      - 🇬🇧 adi|0510 - 英国 2
-      - 🇺🇲 adi|0513 - 美国 3
-      - 🇨🇦 adi|0516 - 加拿大A7
+      - 🇺🇲 adi|0513 - 美国
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇺🇲 adi|0513 - 美国
-      - adi|0516 - |61.43Mb
-      - adi|0513 - Relay_ |22.38Mb
+      - adi|0517 - catgz 2
+      - adi|0517 - |19.61Mb
+      - adi|0517 - |19.61Mb 2
+      - 🇨🇳 adi|0517 - shcn2-3
+      - 🇨🇳 adi|0517 - shcn2-1
+      - adi|0517 - V56
+      - 🇺🇲 adi|0517 - 美国CloudFlare 14
+      - adi|0517 - 172.67
+      - adi|0517 - 104.21
+      - adi|0517 - 183.236-15
+      - adi|0517 - 23.224
+      - adi|0517 - | 8.90Mb
+      - 🇭🇰 adi|0517 - HK_4178 |24.58Mb
+      - 🇷🇴 adi|0517 - 罗马尼亚  23
+      - adi|0517 - 104.18.7
+      - 🇭🇰 adi|0517 - 香港CDN77 1
+      - 🇺🇲 adi|0517 - 美国
+      - 🇺🇲 adi|0517 - 美国 2
+      - adi|0517 - 欧洲  13
+      - 🇷🇴 adi|0517 - 罗马尼亚  5
+      - adi|0517 - |21.46Mb
+      - adi|0517 - |21.46Mb 2
+      - 🇺🇲 adi|0517 - 美国 3
+      - 🇺🇲 adi|0517 - 美国 4
+      - 🇨🇳 adi|0517 - 台湾
+      - adi|0517 - 欧洲
+      - 🇿🇦 adi|0517 - 南非
+      - adi|0517 - V20
+      - adi|0517 - 104.18.6
+      - adi|0517 - 欧洲 2
+      - adi|0517 - 欧洲  7
+      - 🇫🇮 adi|0517 - 芬兰
+      - adi|0517 - 欧洲 3
+      - 🇷🇺 adi|0517 - 俄罗斯
+      - 🇺🇲 adi|0411 - 美国 12
+      - 🇺🇲 adi|0411 - 美国 11
       - 🇺🇲 adi|0510 - 美国CloudFlare 16
       - 🇺🇲 adi|0510 - 美国CloudFlare 18
-      - adi|0516 - V3
-      - 🇺🇲 adi|0506 - 美国
-      - 🇺🇲 adi|0510 - 美国CloudFlare 19
-      - 🇺🇲 adi|0507 - 美国 |22.34Mb
       - 🇺🇲 adi|0510 - 美国CloudFlare 17
-      - 🇺🇲 adi|0411 - 美国 11
-      - 🇺🇲 adi|0412 - US_2890 |41.25Mb
-      - 🇬🇧 adi|0428 - 英国
-      - 🇺🇲 adi|0510 - 美国Coloction 12
-      - adi|0510 - Relay_ |30.27Mb
-      - 🇺🇲 adi|0419 - 美国
-      - 🇨🇦 adi|0516 - 加拿大B4
-      - 🇺🇲 adi|0513 - 美国 2
       - adi|0510 - 欧洲
-      - adi|0513 - |20.33Mb
-      - adi|0516 - |14.24Mb
-      - adi|0506 - 欧洲
+      - 🇫🇷 adi|0419 - 法国
+      - adi|0513 - 11
       - adi|0516 - 154.127
-      - 🇺🇲 adi|0411 - 美国 12
       - 🇬🇧 adi|0510 - 英国
       - adi|0510 - 欧洲 2
-      - adi|0513 - 11
-      - 🇺🇲 adi|0507 - 美国 |17.38Mb
-      - 🇺🇲 adi|0507 - 美国 |20.41Mb
-      - 🇫🇷 adi|0419 - 法国
-      - 🇺🇲 adi|0510 - 美国
-      - 🇬🇧 adi|0510 - 英国 2
-      - 🇺🇲 adi|0513 - 美国 3
-      - 🇨🇦 adi|0516 - 加拿大A7
+      - 🇺🇲 adi|0513 - 美国
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇺🇲 adi|0513 - 美国
-      - adi|0516 - |61.43Mb
-      - adi|0513 - Relay_ |22.38Mb
+      - adi|0517 - catgz 2
+      - adi|0517 - |19.61Mb
+      - adi|0517 - |19.61Mb 2
+      - 🇨🇳 adi|0517 - shcn2-3
+      - 🇨🇳 adi|0517 - shcn2-1
+      - adi|0517 - V56
+      - 🇺🇲 adi|0517 - 美国CloudFlare 14
+      - adi|0517 - 172.67
+      - adi|0517 - 104.21
+      - adi|0517 - 183.236-15
+      - adi|0517 - 23.224
+      - adi|0517 - | 8.90Mb
+      - 🇭🇰 adi|0517 - HK_4178 |24.58Mb
+      - 🇷🇴 adi|0517 - 罗马尼亚  23
+      - adi|0517 - 104.18.7
+      - 🇭🇰 adi|0517 - 香港CDN77 1
+      - 🇺🇲 adi|0517 - 美国
+      - 🇺🇲 adi|0517 - 美国 2
+      - adi|0517 - 欧洲  13
+      - 🇷🇴 adi|0517 - 罗马尼亚  5
+      - adi|0517 - |21.46Mb
+      - adi|0517 - |21.46Mb 2
+      - 🇺🇲 adi|0517 - 美国 3
+      - 🇺🇲 adi|0517 - 美国 4
+      - 🇨🇳 adi|0517 - 台湾
+      - adi|0517 - 欧洲
+      - 🇿🇦 adi|0517 - 南非
+      - adi|0517 - V20
+      - adi|0517 - 104.18.6
+      - adi|0517 - 欧洲 2
+      - adi|0517 - 欧洲  7
+      - 🇫🇮 adi|0517 - 芬兰
+      - adi|0517 - 欧洲 3
+      - 🇷🇺 adi|0517 - 俄罗斯
+      - 🇺🇲 adi|0411 - 美国 12
+      - 🇺🇲 adi|0411 - 美国 11
       - 🇺🇲 adi|0510 - 美国CloudFlare 16
       - 🇺🇲 adi|0510 - 美国CloudFlare 18
-      - adi|0516 - V3
-      - 🇺🇲 adi|0506 - 美国
-      - 🇺🇲 adi|0510 - 美国CloudFlare 19
-      - 🇺🇲 adi|0507 - 美国 |22.34Mb
       - 🇺🇲 adi|0510 - 美国CloudFlare 17
-      - 🇺🇲 adi|0411 - 美国 11
-      - 🇺🇲 adi|0412 - US_2890 |41.25Mb
-      - 🇬🇧 adi|0428 - 英国
-      - 🇺🇲 adi|0510 - 美国Coloction 12
-      - adi|0510 - Relay_ |30.27Mb
-      - 🇺🇲 adi|0419 - 美国
-      - 🇨🇦 adi|0516 - 加拿大B4
-      - 🇺🇲 adi|0513 - 美国 2
       - adi|0510 - 欧洲
-      - adi|0513 - |20.33Mb
-      - adi|0516 - |14.24Mb
-      - adi|0506 - 欧洲
+      - 🇫🇷 adi|0419 - 法国
+      - adi|0513 - 11
       - adi|0516 - 154.127
-      - 🇺🇲 adi|0411 - 美国 12
       - 🇬🇧 adi|0510 - 英国
       - adi|0510 - 欧洲 2
-      - adi|0513 - 11
-      - 🇺🇲 adi|0507 - 美国 |17.38Mb
-      - 🇺🇲 adi|0507 - 美国 |20.41Mb
-      - 🇫🇷 adi|0419 - 法国
-      - 🇺🇲 adi|0510 - 美国
-      - 🇬🇧 adi|0510 - 英国 2
-      - 🇺🇲 adi|0513 - 美国 3
-      - 🇨🇦 adi|0516 - 加拿大A7
+      - 🇺🇲 adi|0513 - 美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -218,40 +278,52 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇺🇲 adi|0513 - 美国
-      - adi|0516 - |61.43Mb
-      - adi|0513 - Relay_ |22.38Mb
+      - adi|0517 - catgz 2
+      - adi|0517 - |19.61Mb
+      - adi|0517 - |19.61Mb 2
+      - 🇨🇳 adi|0517 - shcn2-3
+      - 🇨🇳 adi|0517 - shcn2-1
+      - adi|0517 - V56
+      - 🇺🇲 adi|0517 - 美国CloudFlare 14
+      - adi|0517 - 172.67
+      - adi|0517 - 104.21
+      - adi|0517 - 183.236-15
+      - adi|0517 - 23.224
+      - adi|0517 - | 8.90Mb
+      - 🇭🇰 adi|0517 - HK_4178 |24.58Mb
+      - 🇷🇴 adi|0517 - 罗马尼亚  23
+      - adi|0517 - 104.18.7
+      - 🇭🇰 adi|0517 - 香港CDN77 1
+      - 🇺🇲 adi|0517 - 美国
+      - 🇺🇲 adi|0517 - 美国 2
+      - adi|0517 - 欧洲  13
+      - 🇷🇴 adi|0517 - 罗马尼亚  5
+      - adi|0517 - |21.46Mb
+      - adi|0517 - |21.46Mb 2
+      - 🇺🇲 adi|0517 - 美国 3
+      - 🇺🇲 adi|0517 - 美国 4
+      - 🇨🇳 adi|0517 - 台湾
+      - adi|0517 - 欧洲
+      - 🇿🇦 adi|0517 - 南非
+      - adi|0517 - V20
+      - adi|0517 - 104.18.6
+      - adi|0517 - 欧洲 2
+      - adi|0517 - 欧洲  7
+      - 🇫🇮 adi|0517 - 芬兰
+      - adi|0517 - 欧洲 3
+      - 🇷🇺 adi|0517 - 俄罗斯
+      - 🇺🇲 adi|0411 - 美国 12
+      - 🇺🇲 adi|0411 - 美国 11
       - 🇺🇲 adi|0510 - 美国CloudFlare 16
       - 🇺🇲 adi|0510 - 美国CloudFlare 18
-      - adi|0516 - V3
-      - 🇺🇲 adi|0506 - 美国
-      - 🇺🇲 adi|0510 - 美国CloudFlare 19
-      - 🇺🇲 adi|0507 - 美国 |22.34Mb
       - 🇺🇲 adi|0510 - 美国CloudFlare 17
-      - 🇺🇲 adi|0411 - 美国 11
-      - 🇺🇲 adi|0412 - US_2890 |41.25Mb
-      - 🇬🇧 adi|0428 - 英国
-      - 🇺🇲 adi|0510 - 美国Coloction 12
-      - adi|0510 - Relay_ |30.27Mb
-      - 🇺🇲 adi|0419 - 美国
-      - 🇨🇦 adi|0516 - 加拿大B4
-      - 🇺🇲 adi|0513 - 美国 2
       - adi|0510 - 欧洲
-      - adi|0513 - |20.33Mb
-      - adi|0516 - |14.24Mb
-      - adi|0506 - 欧洲
+      - 🇫🇷 adi|0419 - 法国
+      - adi|0513 - 11
       - adi|0516 - 154.127
-      - 🇺🇲 adi|0411 - 美国 12
       - 🇬🇧 adi|0510 - 英国
       - adi|0510 - 欧洲 2
-      - adi|0513 - 11
-      - 🇺🇲 adi|0507 - 美国 |17.38Mb
-      - 🇺🇲 adi|0507 - 美国 |20.41Mb
-      - 🇫🇷 adi|0419 - 法国
-      - 🇺🇲 adi|0510 - 美国
-      - 🇬🇧 adi|0510 - 英国 2
-      - 🇺🇲 adi|0513 - 美国 3
-      - 🇨🇦 adi|0516 - 加拿大A7
+      - 🇺🇲 adi|0513 - 美国
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
