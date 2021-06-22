@@ -184,6 +184,30 @@ proxies:
   - {name: 🇷🇺 adi|0620 - 俄罗斯, server: 2.56.241.7, port: 31222, type: vmess, uuid: 56bb7d0c-be78-4f90-9064-0f92cfe1c56f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 2.56.241.7}}
   - {name: adi|0620 - ip1 7, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: adi|0620 - 3, server: 104.16.149.48, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇺🇲 adi|0622 - 美国优质, server: 23.225.28.172, port: 443, type: vmess, uuid: 5ac3d610-1802-491b-ab06-dad9bbd83ff1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10855945.xyz}}
+  - {name: 🇺🇲 adi|0622 - 美国 4, server: 173.230.146.234, port: 36788, type: vmess, uuid: B22C2F57-0189-25E7-79FA-90717E212748, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 173.230.146.234}}
+  - {name: 🇺🇲 adi|0622 - 美国 5, server: 23.225.28.173, port: 443, type: vmess, uuid: 5ac3d610-1802-491b-ab06-dad9bbd83ff1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10855945.xyz}}
+  - {name: adi|0622 - 339, server: 198.2.200.217, port: 443, type: vmess, uuid: 2a23dbd5-09cf-4aa8-a835-3230728c4973, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/290516321830, ws-headers: {Host: www.48168443.xyz}}
+  - {name: adi|0622 - 118, server: 23.225.33.54, port: 443, type: vmess, uuid: 8cb60e86-5420-4c76-be31-fb3df726b971, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/301109172001, ws-headers: {Host: www.67519304.xyz}}
+  - {name: 🇭🇰 adi|0622 - IPLC香港, server: vpscloudhk.yasuoa.xyz, port: 443, type: vmess, uuid: b1b01151-3fa6-442b-9c11-bf492737f4a1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vpscloudhk.yasuoa.xyz}}
+  - {name: 🇭🇰 adi|0622 - IPLC香港 2, server: vpscloudhk2.yasuoa.xyz, port: 443, type: vmess, uuid: 4e6267f9-0e7e-4d9a-88c7-584d2a6c7a90, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vpscloudhk2.yasuoa.xyz}}
+  - {name: adi|0622 - 智能优选, server: auto.iplc.pro, port: 52000, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 adi|0622 - 深港, server: cn1.relay.iplc.pro, port: 52001, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 adi|0622 - 深港 2, server: cn1.relay.iplc.pro, port: 52002, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 adi|0622 - 深港 3, server: cn1.relay.iplc.pro, port: 52003, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 adi|0622 - 沪港, server: cn2.relay.iplc.pro, port: 52000, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇨🇳 adi|0622 - 沪台, server: cn2.relay.iplc.pro, port: 52001, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇯🇵 adi|0622 - 深日, server: cn1.relay.iplc.pro, port: 52006, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇯🇵 adi|0622 - 沪日, server: cn2.relay.iplc.pro, port: 52002, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇰🇷 adi|0622 - 沪韩, server: cn2.relay.iplc.pro, port: 52003, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇸🇬 adi|0622 - 深新, server: cn1.relay.iplc.pro, port: 52008, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇷🇺 adi|0622 - 沪俄, server: cn2.relay.iplc.pro, port: 52004, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 adi|0622 - 香港直连, server: hk2.direct.iplc.pro, port: 52000, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 adi|0622 - 香港直连 2, server: hk3.direct.iplc.pro, port: 52000, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 adi|0622 - 香港直连 3, server: hk4.direct.iplc.pro, port: 52000, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇯🇵 adi|0622 - 日本直连, server: jp1.direct.iplc.pro, port: 52000, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇯🇵 adi|0622 - 日本直连 2, server: jp2.direct.iplc.pro, port: 52000, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇰🇷 adi|0622 - 韩国直连, server: kr1.direct.iplc.pro, port: 52000, type: vmess, uuid: 56238c13-2021-4642-b089-d0029b0b51ce, alterId: 1, cipher: auto, tls: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -371,6 +395,30 @@ proxy-groups:
       - 🇷🇺 adi|0620 - 俄罗斯
       - adi|0620 - ip1 7
       - adi|0620 - 3
+      - 🇺🇲 adi|0622 - 美国优质
+      - 🇺🇲 adi|0622 - 美国 4
+      - 🇺🇲 adi|0622 - 美国 5
+      - adi|0622 - 339
+      - adi|0622 - 118
+      - 🇭🇰 adi|0622 - IPLC香港
+      - 🇭🇰 adi|0622 - IPLC香港 2
+      - adi|0622 - 智能优选
+      - 🇭🇰 adi|0622 - 深港
+      - 🇭🇰 adi|0622 - 深港 2
+      - 🇭🇰 adi|0622 - 深港 3
+      - 🇭🇰 adi|0622 - 沪港
+      - 🇨🇳 adi|0622 - 沪台
+      - 🇯🇵 adi|0622 - 深日
+      - 🇯🇵 adi|0622 - 沪日
+      - 🇰🇷 adi|0622 - 沪韩
+      - 🇸🇬 adi|0622 - 深新
+      - 🇷🇺 adi|0622 - 沪俄
+      - 🇭🇰 adi|0622 - 香港直连
+      - 🇭🇰 adi|0622 - 香港直连 2
+      - 🇭🇰 adi|0622 - 香港直连 3
+      - 🇯🇵 adi|0622 - 日本直连
+      - 🇯🇵 adi|0622 - 日本直连 2
+      - 🇰🇷 adi|0622 - 韩国直连
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -556,6 +604,30 @@ proxy-groups:
       - 🇷🇺 adi|0620 - 俄罗斯
       - adi|0620 - ip1 7
       - adi|0620 - 3
+      - 🇺🇲 adi|0622 - 美国优质
+      - 🇺🇲 adi|0622 - 美国 4
+      - 🇺🇲 adi|0622 - 美国 5
+      - adi|0622 - 339
+      - adi|0622 - 118
+      - 🇭🇰 adi|0622 - IPLC香港
+      - 🇭🇰 adi|0622 - IPLC香港 2
+      - adi|0622 - 智能优选
+      - 🇭🇰 adi|0622 - 深港
+      - 🇭🇰 adi|0622 - 深港 2
+      - 🇭🇰 adi|0622 - 深港 3
+      - 🇭🇰 adi|0622 - 沪港
+      - 🇨🇳 adi|0622 - 沪台
+      - 🇯🇵 adi|0622 - 深日
+      - 🇯🇵 adi|0622 - 沪日
+      - 🇰🇷 adi|0622 - 沪韩
+      - 🇸🇬 adi|0622 - 深新
+      - 🇷🇺 adi|0622 - 沪俄
+      - 🇭🇰 adi|0622 - 香港直连
+      - 🇭🇰 adi|0622 - 香港直连 2
+      - 🇭🇰 adi|0622 - 香港直连 3
+      - 🇯🇵 adi|0622 - 日本直连
+      - 🇯🇵 adi|0622 - 日本直连 2
+      - 🇰🇷 adi|0622 - 韩国直连
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -740,6 +812,30 @@ proxy-groups:
       - 🇷🇺 adi|0620 - 俄罗斯
       - adi|0620 - ip1 7
       - adi|0620 - 3
+      - 🇺🇲 adi|0622 - 美国优质
+      - 🇺🇲 adi|0622 - 美国 4
+      - 🇺🇲 adi|0622 - 美国 5
+      - adi|0622 - 339
+      - adi|0622 - 118
+      - 🇭🇰 adi|0622 - IPLC香港
+      - 🇭🇰 adi|0622 - IPLC香港 2
+      - adi|0622 - 智能优选
+      - 🇭🇰 adi|0622 - 深港
+      - 🇭🇰 adi|0622 - 深港 2
+      - 🇭🇰 adi|0622 - 深港 3
+      - 🇭🇰 adi|0622 - 沪港
+      - 🇨🇳 adi|0622 - 沪台
+      - 🇯🇵 adi|0622 - 深日
+      - 🇯🇵 adi|0622 - 沪日
+      - 🇰🇷 adi|0622 - 沪韩
+      - 🇸🇬 adi|0622 - 深新
+      - 🇷🇺 adi|0622 - 沪俄
+      - 🇭🇰 adi|0622 - 香港直连
+      - 🇭🇰 adi|0622 - 香港直连 2
+      - 🇭🇰 adi|0622 - 香港直连 3
+      - 🇯🇵 adi|0622 - 日本直连
+      - 🇯🇵 adi|0622 - 日本直连 2
+      - 🇰🇷 adi|0622 - 韩国直连
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -924,6 +1020,30 @@ proxy-groups:
       - 🇷🇺 adi|0620 - 俄罗斯
       - adi|0620 - ip1 7
       - adi|0620 - 3
+      - 🇺🇲 adi|0622 - 美国优质
+      - 🇺🇲 adi|0622 - 美国 4
+      - 🇺🇲 adi|0622 - 美国 5
+      - adi|0622 - 339
+      - adi|0622 - 118
+      - 🇭🇰 adi|0622 - IPLC香港
+      - 🇭🇰 adi|0622 - IPLC香港 2
+      - adi|0622 - 智能优选
+      - 🇭🇰 adi|0622 - 深港
+      - 🇭🇰 adi|0622 - 深港 2
+      - 🇭🇰 adi|0622 - 深港 3
+      - 🇭🇰 adi|0622 - 沪港
+      - 🇨🇳 adi|0622 - 沪台
+      - 🇯🇵 adi|0622 - 深日
+      - 🇯🇵 adi|0622 - 沪日
+      - 🇰🇷 adi|0622 - 沪韩
+      - 🇸🇬 adi|0622 - 深新
+      - 🇷🇺 adi|0622 - 沪俄
+      - 🇭🇰 adi|0622 - 香港直连
+      - 🇭🇰 adi|0622 - 香港直连 2
+      - 🇭🇰 adi|0622 - 香港直连 3
+      - 🇯🇵 adi|0622 - 日本直连
+      - 🇯🇵 adi|0622 - 日本直连 2
+      - 🇰🇷 adi|0622 - 韩国直连
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1122,6 +1242,30 @@ proxy-groups:
       - 🇷🇺 adi|0620 - 俄罗斯
       - adi|0620 - ip1 7
       - adi|0620 - 3
+      - 🇺🇲 adi|0622 - 美国优质
+      - 🇺🇲 adi|0622 - 美国 4
+      - 🇺🇲 adi|0622 - 美国 5
+      - adi|0622 - 339
+      - adi|0622 - 118
+      - 🇭🇰 adi|0622 - IPLC香港
+      - 🇭🇰 adi|0622 - IPLC香港 2
+      - adi|0622 - 智能优选
+      - 🇭🇰 adi|0622 - 深港
+      - 🇭🇰 adi|0622 - 深港 2
+      - 🇭🇰 adi|0622 - 深港 3
+      - 🇭🇰 adi|0622 - 沪港
+      - 🇨🇳 adi|0622 - 沪台
+      - 🇯🇵 adi|0622 - 深日
+      - 🇯🇵 adi|0622 - 沪日
+      - 🇰🇷 adi|0622 - 沪韩
+      - 🇸🇬 adi|0622 - 深新
+      - 🇷🇺 adi|0622 - 沪俄
+      - 🇭🇰 adi|0622 - 香港直连
+      - 🇭🇰 adi|0622 - 香港直连 2
+      - 🇭🇰 adi|0622 - 香港直连 3
+      - 🇯🇵 adi|0622 - 日本直连
+      - 🇯🇵 adi|0622 - 日本直连 2
+      - 🇰🇷 adi|0622 - 韩国直连
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
