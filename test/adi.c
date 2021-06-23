@@ -5,6 +5,11 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 🇭🇰 adi|0624v - hk-node01, server: dg-hk-node01.linkthink.app, port: 10745, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 adi|0624v - hk-node02, server: dg-hk-node02.linkthink.app, port: 12141, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
+  - {name: adi|0624v - 10223, server: 42.157.196.103, port: 10223, type: ssr, cipher: rc4-md5, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
+  - {name: adi|0624v - 10581, server: 42.157.196.104, port: 10581, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
+  - {name: adi|0624v - 20378, server: 42.157.196.104, port: 20378, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
   - {name: adi|0624v - 166, server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
   - {name: adi|0624v - 167, server: 46.182.107.46, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
   - {name: adi|0624v - 170, server: 46.182.107.98, port: 443, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f077621b, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.08538470.xyz}}
@@ -71,6 +76,11 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
+      - 🇭🇰 adi|0624v - hk-node01
+      - 🇭🇰 adi|0624v - hk-node02
+      - adi|0624v - 10223
+      - adi|0624v - 10581
+      - adi|0624v - 20378
       - adi|0624v - 166
       - adi|0624v - 167
       - adi|0624v - 170
@@ -135,6 +145,11 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 adi|0624v - hk-node01
+      - 🇭🇰 adi|0624v - hk-node02
+      - adi|0624v - 10223
+      - adi|0624v - 10581
+      - adi|0624v - 20378
       - adi|0624v - 166
       - adi|0624v - 167
       - adi|0624v - 170
@@ -198,6 +213,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 🇭🇰 adi|0624v - hk-node01
+      - 🇭🇰 adi|0624v - hk-node02
+      - adi|0624v - 10223
+      - adi|0624v - 10581
+      - adi|0624v - 20378
       - adi|0624v - 166
       - adi|0624v - 167
       - adi|0624v - 170
@@ -261,6 +281,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 🇭🇰 adi|0624v - hk-node01
+      - 🇭🇰 adi|0624v - hk-node02
+      - adi|0624v - 10223
+      - adi|0624v - 10581
+      - adi|0624v - 20378
       - adi|0624v - 166
       - adi|0624v - 167
       - adi|0624v - 170
@@ -338,6 +363,11 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
+      - 🇭🇰 adi|0624v - hk-node01
+      - 🇭🇰 adi|0624v - hk-node02
+      - adi|0624v - 10223
+      - adi|0624v - 10581
+      - adi|0624v - 20378
       - adi|0624v - 166
       - adi|0624v - 167
       - adi|0624v - 170
