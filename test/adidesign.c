@@ -217,6 +217,11 @@ proxies:
   - {name: adi|0620 - |49.69Mb, server: 46.182.107.146, port: 443, type: vmess, uuid: acedd8e0-e654-4a40-935d-5594c6c114bd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 46.182.107.146}}
   - {name: adi|0620 - |50.75Mb, server: 46.182.107.3, port: 443, type: vmess, uuid: bcca23ea-be73-4caf-b143-cbab2be93145, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 46.182.107.3}}
   - {name: adi|0620 - |48.95Mb, server: 46.182.107.98, port: 443, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f077621b, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 46.182.107.98}}
+  - {name: 🇭🇰 adi|0624v - hk-node01, server: dg-hk-node01.linkthink.app, port: 10745, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 adi|0624v - hk-node02, server: dg-hk-node02.linkthink.app, port: 12141, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
+  - {name: adi|0624v - 10223, server: 42.157.196.103, port: 10223, type: ssr, cipher: rc4-md5, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
+  - {name: adi|0624v - 10581, server: 42.157.196.104, port: 10581, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
+  - {name: adi|0624v - 20378, server: 42.157.196.104, port: 20378, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -437,6 +442,11 @@ proxy-groups:
       - adi|0620 - |49.69Mb
       - adi|0620 - |50.75Mb
       - adi|0620 - |48.95Mb
+      - 🇭🇰 adi|0624v - hk-node01
+      - 🇭🇰 adi|0624v - hk-node02
+      - adi|0624v - 10223
+      - adi|0624v - 10581
+      - adi|0624v - 20378
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -655,6 +665,11 @@ proxy-groups:
       - adi|0620 - |49.69Mb
       - adi|0620 - |50.75Mb
       - adi|0620 - |48.95Mb
+      - 🇭🇰 adi|0624v - hk-node01
+      - 🇭🇰 adi|0624v - hk-node02
+      - adi|0624v - 10223
+      - adi|0624v - 10581
+      - adi|0624v - 20378
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -872,6 +887,11 @@ proxy-groups:
       - adi|0620 - |49.69Mb
       - adi|0620 - |50.75Mb
       - adi|0620 - |48.95Mb
+      - 🇭🇰 adi|0624v - hk-node01
+      - 🇭🇰 adi|0624v - hk-node02
+      - adi|0624v - 10223
+      - adi|0624v - 10581
+      - adi|0624v - 20378
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -1089,6 +1109,11 @@ proxy-groups:
       - adi|0620 - |49.69Mb
       - adi|0620 - |50.75Mb
       - adi|0620 - |48.95Mb
+      - 🇭🇰 adi|0624v - hk-node01
+      - 🇭🇰 adi|0624v - hk-node02
+      - adi|0624v - 10223
+      - adi|0624v - 10581
+      - adi|0624v - 20378
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1320,6 +1345,11 @@ proxy-groups:
       - adi|0620 - |49.69Mb
       - adi|0620 - |50.75Mb
       - adi|0620 - |48.95Mb
+      - 🇭🇰 adi|0624v - hk-node01
+      - 🇭🇰 adi|0624v - hk-node02
+      - adi|0624v - 10223
+      - adi|0624v - 10581
+      - adi|0624v - 20378
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
