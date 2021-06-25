@@ -1,11 +1,55 @@
-port: 7890
-socks-port: 7891
-allow-lan: true
-mode: Rule
-log-level: info
-external-controller: 127.0.0.1:9090
 proxies:
-  - name: adi|0624v - hk-node01
+  - name: adi|0625V - hk-node01
+    server: dg-hk-node01.linkthink.app
+    port: 10700
+    type: ssr
+    cipher: rc4-md5
+    password: abK09D1FnV
+    protocol: auth_aes128_md5
+    obfs: http_post
+    protocol-param: 169953:5pWSvx1wta
+    obfs-param: ajax.microsoft.com
+  - name: adi|0625V - hk-node02
+    server: dg-hk-node02.linkthink.app
+    port: 12681
+    type: ssr
+    cipher: aes-256-cfb
+    password: e5opjuLDEQ
+    protocol: auth_aes128_md5
+    obfs: http_post
+    protocol-param: 169953:5pWSvx1wta
+    obfs-param: ajax.microsoft.com
+  - name: adi|0625V - 10705
+    server: 42.157.196.103
+    port: 10705
+    type: ssr
+    cipher: rc4-md5
+    password: Yk4UdrOyQg
+    protocol: auth_aes128_md5
+    obfs: http_post
+    protocol-param: 169953:5pWSvx1wta
+    obfs-param: ajax.microsoft.com
+  - name: adi|0625V - 10542
+    server: 42.157.196.104
+    port: 10542
+    type: ssr
+    cipher: aes-256-cfb
+    password: vCmp8ALih6
+    protocol: auth_aes128_md5
+    obfs: tls1.2_ticket_auth
+    protocol-param: 169953:5pWSvx1wta
+    obfs-param: ajax.microsoft.com
+  - name: adi|0625V - 20648
+    server: 42.157.196.104
+    port: 20648
+    type: ssr
+    cipher: aes-256-cfb
+    password: CWSZscLkjf
+    protocol: auth_aes128_md5
+    obfs: http_post
+    protocol-param: 169953:5pWSvx1wta
+    obfs-param: ajax.microsoft.com
+  - name: adi|0624v-hk-node01
     server: dg-hk-node01.linkthink.app
     port: 10745
     type: ssr
@@ -15,7 +59,7 @@ proxies:
     obfs: http_post
     protocol-param: 169234:2WBnwvH5ek
     obfs-param: ajax.microsoft.com
-  - name: adi|0624v - hk-node02
+  - name: adi|0624v-hk-node02
     server: dg-hk-node02.linkthink.app
     port: 12141
     type: ssr
@@ -25,7 +69,7 @@ proxies:
     obfs: http_post
     protocol-param: 169234:2WBnwvH5ek
     obfs-param: ajax.microsoft.com
-  - name: adi|0624v - 10223
+  - name: adi|0624v-10223
     server: 42.157.196.103
     port: 10223
     type: ssr
@@ -35,7 +79,7 @@ proxies:
     obfs: http_post
     protocol-param: 169234:2WBnwvH5ek
     obfs-param: ajax.microsoft.com
-  - name: adi|0624v - 10581
+  - name: adi|0624v-10581
     server: 42.157.196.104
     port: 10581
     type: ssr
@@ -45,7 +89,7 @@ proxies:
     obfs: tls1.2_ticket_auth
     protocol-param: 169234:2WBnwvH5ek
     obfs-param: ajax.microsoft.com
-  - name: adi|0624v - 20378
+  - name: adi|0624v-20378
     server: 42.157.196.104
     port: 20378
     type: ssr
@@ -60,45 +104,32 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🔯 故障转移
-      - 🔮 负载均衡
       - DIRECT
-      - adi|0624v - hk-node01
-      - adi|0624v - hk-node02
-      - adi|0624v - 10223
-      - adi|0624v - 10581
-      - adi|0624v - 20378
+      - adi|0625V - hk-node01
+      - adi|0625V - hk-node02
+      - adi|0625V - 10705
+      - adi|0625V - 10542
+      - adi|0625V - 20648
+      - adi|0624v-hk-node01
+      - adi|0624v-hk-node02
+      - adi|0624v-10223
+      - adi|0624v-10581
+      - adi|0624v-20378
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
-      - adi|0624v - hk-node01
-      - adi|0624v - hk-node02
-      - adi|0624v - 10223
-      - adi|0624v - 10581
-      - adi|0624v - 20378
-  - name: 🔯 故障转移
-    type: fallback
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    proxies:
-      - adi|0624v - hk-node01
-      - adi|0624v - hk-node02
-      - adi|0624v - 10223
-      - adi|0624v - 10581
-      - adi|0624v - 20378
-  - name: 🔮 负载均衡
-    type: load-balance
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    proxies:
-      - adi|0624v - hk-node01
-      - adi|0624v - hk-node02
-      - adi|0624v - 10223
-      - adi|0624v - 10581
-      - adi|0624v - 20378
+      - adi|0625V - hk-node01
+      - adi|0625V - hk-node02
+      - adi|0625V - 10705
+      - adi|0625V - 10542
+      - adi|0625V - 20648
+      - adi|0624v-hk-node01
+      - adi|0624v-hk-node02
+      - adi|0624v-10223
+      - adi|0624v-10581
+      - adi|0624v-20378
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,13 +147,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🔯 故障转移
-      - 🔮 负载均衡
-      - adi|0624v - hk-node01
-      - adi|0624v - hk-node02
-      - adi|0624v - 10223
-      - adi|0624v - 10581
-      - adi|0624v - 20378
+      - adi|0625V - hk-node01
+      - adi|0625V - hk-node02
+      - adi|0625V - 10705
+      - adi|0625V - 10542
+      - adi|0625V - 20648
+      - adi|0624v-hk-node01
+      - adi|0624v-hk-node02
+      - adi|0624v-10223
+      - adi|0624v-10581
+      - adi|0624v-20378
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -150,21 +184,6 @@ rules:
   - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
   - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
   - DOMAIN-SUFFIX,zte.home,🎯 全球直连
-  - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
-  - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
-  - DOMAIN,dl.google.com,🎯 全球直连
-  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
-  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
-  - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
-  - DOMAIN,fairplay.l.qq.com,🎯 全球直连
-  - DOMAIN,livew.l.qq.com,🎯 全球直连
-  - DOMAIN,vd.l.qq.com,🎯 全球直连
-  - DOMAIN,analytics.strava.com,🎯 全球直连
-  - DOMAIN,msg.umeng.com,🎯 全球直连
-  - DOMAIN,msg.umengcloud.com,🎯 全球直连
-  - DOMAIN,tracking.miui.com,🎯 全球直连
-  - DOMAIN,app.adjust.com,🎯 全球直连
-  - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
   - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
   - DOMAIN-KEYWORD,admaster,🛑 全球拦截
   - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -1947,6 +1966,7 @@ rules:
   - DOMAIN-SUFFIX,encoretvb.com,🚀 节点选择
   - DOMAIN-SUFFIX,fox.com,🚀 节点选择
   - DOMAIN-SUFFIX,foxdcg.com,🚀 节点选择
+  - DOMAIN-SUFFIX,theplatform.com,🚀 节点选择
   - DOMAIN-SUFFIX,uplynk.com,🚀 节点选择
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
   - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
@@ -1966,7 +1986,6 @@ rules:
   - DOMAIN-SUFFIX,hbomax.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbomaxcdn.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbonow.com,🚀 节点选择
-  - DOMAIN-KEYWORD,.hbogoasia.,🚀 节点选择
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
   - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
   - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🚀 节点选择
@@ -1976,10 +1995,6 @@ rules:
   - DOMAIN,hboasia3-i.akamaihd.net,🚀 节点选择
   - DOMAIN,hboasia4-i.akamaihd.net,🚀 节点选择
   - DOMAIN,hboasia5-i.akamaihd.net,🚀 节点选择
-  - DOMAIN,hboasialive.akamaized.net,🚀 节点选择
-  - DOMAIN,hbogoprod-vod.akamaized.net,🚀 节点选择
-  - DOMAIN,hbolb.onwardsmg.com,🚀 节点选择
-  - DOMAIN,hbounify-prod.evergent.com,🚀 节点选择
   - DOMAIN,players.brightcove.net,🚀 节点选择
   - DOMAIN,s3-ap-southeast-1.amazonaws.com,🚀 节点选择
   - DOMAIN-SUFFIX,hbogoasia.com,🚀 节点选择
@@ -2534,7 +2549,6 @@ rules:
   - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
   - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
-  - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
   - DOMAIN-SUFFIX,423down.com,🎯 全球直连
   - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
   - DOMAIN-SUFFIX,chaipip.com,🎯 全球直连
@@ -2543,7 +2557,6 @@ rules:
   - DOMAIN-SUFFIX,kaikeba.com,🎯 全球直连
   - DOMAIN-SUFFIX,laomo.me,🎯 全球直连
   - DOMAIN-SUFFIX,mpyit.com,🎯 全球直连
-  - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
   - DOMAIN-SUFFIX,cn,🎯 全球直连
   - DOMAIN-SUFFIX,中国,🎯 全球直连
   - DOMAIN-SUFFIX,公司,🎯 全球直连
