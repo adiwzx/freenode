@@ -5,69 +5,39 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 adi|0624v - hk-node01, server: dg-hk-node01.linkthink.app, port: 10745, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
-  - {name: 🇭🇰 adi|0624v - hk-node02, server: dg-hk-node02.linkthink.app, port: 12141, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
-  - {name: adi|0624v - 10223, server: 42.157.196.103, port: 10223, type: ssr, cipher: rc4-md5, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
-  - {name: adi|0624v - 10581, server: 42.157.196.104, port: 10581, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
-  - {name: adi|0624v - 20378, server: 42.157.196.104, port: 20378, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
-  - {name: adi|0624v - 166, server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
-  - {name: adi|0624v - 167, server: 46.182.107.46, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
-  - {name: adi|0624v - 170, server: 46.182.107.98, port: 443, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f077621b, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.08538470.xyz}}
-  - {name: adi|0624v - 172, server: 46.182.107.3, port: 443, type: vmess, uuid: bcca23ea-be73-4caf-b143-cbab2be93145, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.33960870.xyz}}
-  - {name: adi|0624v - 209, server: 46.182.107.129, port: 443, type: vmess, uuid: f8597f0c-5dc0-44d1-ad4d-d3515a8d9fb3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/301109172001, ws-headers: {Host: www.758025777.xyz}}
-  - {name: adi|0624v - 225, server: 23.225.125.195, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/301109172001, ws-headers: {Host: www.91370744.xyz}}
-  - {name: adi|0624v - 339, server: 198.2.200.217, port: 443, type: vmess, uuid: 2a23dbd5-09cf-4aa8-a835-3230728c4973, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/290516321830, ws-headers: {Host: www.48168443.xyz}}
-  - {name: adi|0624v - 390, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b67947, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.49696760.xyz}}
-  - {name: 🇭🇰 adi|0624v - HK1-IEPL沪港, server: cn2.relay.iplc.pro, port: 52000, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇭🇰 adi|0624v - HK1-IPLC香港, server: hk1.iplc.pro, port: 52000, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇭🇰 adi|0624v - HK2-Direct香港, server: hk2.direct.iplc.pro, port: 52000, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇭🇰 adi|0624v - HK2-IEPL深港, server: cn1.relay.iplc.pro, port: 52001, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇭🇰 adi|0624v - HK3-Direct-香港, server: hk3.direct.iplc.pro, port: 52000, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇭🇰 adi|0624v - HK3-IEPL-深港, server: cn1.relay.iplc.pro, port: 52002, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇭🇰 adi|0624v - HK4-Direct-香港, server: hk4.direct.iplc.pro, port: 52000, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇭🇰 adi|0624v - HK4-IEPL深港, server: cn1.relay.iplc.pro, port: 52003, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇺🇲 adi|0624v - IPLC美国, server: vpscloudus.yasuoa.xyz, port: 443, type: vmess, uuid: 66f0b61a-5c2a-42ee-955e-bc3dd61d3c61, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vpscloudus.yasuoa.xyz}}
-  - {name: 🇭🇰 adi|0624v - IPLC香港, server: vpscloudhk.yasuoa.xyz, port: 443, type: vmess, uuid: b1b01151-3fa6-442b-9c11-bf492737f4a1, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vpscloudhk.yasuoa.xyz}}
-  - {name: 🇭🇰 adi|0624v - IPLC香港 2, server: vpscloudhk2.yasuoa.xyz, port: 443, type: vmess, uuid: 4e6267f9-0e7e-4d9a-88c7-584d2a6c7a90, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vpscloudhk2.yasuoa.xyz}}
-  - {name: 🇯🇵 adi|0624v - JP1-Direct日本, server: jp1.direct.iplc.pro, port: 52000, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇯🇵 adi|0624v - JP1-IEPL沪日, server: cn2.relay.iplc.pro, port: 52002, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇯🇵 adi|0624v - JP1-IEPL深日, server: cn1.relay.iplc.pro, port: 52006, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇯🇵 adi|0624v - JP2-Direct日本, server: jp2.direct.iplc.pro, port: 52000, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇰🇷 adi|0624v - KR1-Direct韩国, server: kr1.direct.iplc.pro, port: 52000, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇰🇷 adi|0624v - KR1-IEPL沪韩, server: cn2.relay.iplc.pro, port: 52003, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇰🇷 adi|0624v - KR1-IEPL深韩, server: cn1.relay.iplc.pro, port: 52007, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇷🇺 adi|0624v - RU1-IEPL沪俄, server: cn2.relay.iplc.pro, port: 52004, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇸🇬 adi|0624v - SG1-IEPL深新, server: cn1.relay.iplc.pro, port: 52008, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇨🇳 adi|0624v - TW1-IEPL沪台, server: cn2.relay.iplc.pro, port: 52001, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇺🇲 adi|0624v - US1-IEPL沪美, server: cn2.relay.iplc.pro, port: 52005, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
-  - {name: 🇩🇰 adi|0624v - 丹麦, server: 5.183.101.204, port: 59857, type: vmess, uuid: 4c35d374-dbf2-4e5f-c731-dfa49191825a, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇷🇺 adi|0624v - 俄罗斯原生, server: vpscloudrussia.yasuoa.xyz, port: 443, type: vmess, uuid: 99440a26-666c-4d37-894a-65f3f7878acf, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vpscloudrussia.yasuoa.xyz}}
-  - {name: 🇳🇱 adi|0624v - 荷兰, server: 46.182.107.146, port: 443, type: vmess, uuid: acedd8e0-e654-4a40-935d-5594c6c114bd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.61020861.xyz}}
-  - {name: 🇳🇱 adi|0624v - 荷兰 2, server: 46.182.107.147, port: 443, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a539467bc7a7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73207635.xyz}}
-  - {name: 🇳🇱 adi|0624v - 荷兰 3, server: 46.182.107.150, port: 443, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.06321530.xyz}}
-  - {name: 🇳🇱 adi|0624v - 荷兰 4, server: 46.182.107.153, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26111a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.53103739.xyz}}
-  - {name: 🇳🇱 adi|0624v - 荷兰 5, server: 46.182.107.36, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f68, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.28735975.xyz}}
-  - {name: 🇳🇱 adi|0624v - 荷兰 6, server: 46.182.107.81, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.63681459.xyz}}
-  - {name: 🇳🇱 adi|0624v - 荷兰 7, server: 95.214.55.119, port: 16408, type: vmess, uuid: 4e49e7c6-b7cd-4c74-c022-2add80a19556, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇳🇱 adi|0624v - 荷兰 8, server: 95.214.55.120, port: 42280, type: vmess, uuid: ac56c78b-bc3e-45ce-bd20-254339688d17, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0624v - 美国, server: 152.67.225.114, port: 23456, type: vmess, uuid: 86e46276-7b5a-445e-8a66-1f3ec592fc8f, alterId: 32, cipher: auto, tls: false, network: ws, ws-path: /cs, ws-headers: {Host: 152.67.225.114}}
-  - {name: 🇺🇲 adi|0624v - 美国 2, server: 154.84.1.106, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.63681459.xyz}}
-  - {name: 🇺🇲 adi|0624v - 美国 3, server: 154.84.1.116, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd3588, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.25936911.xyz}}
-  - {name: 🇺🇲 adi|0624v - 美国 4, server: 154.84.1.14, port: 443, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.51334583.xyz}}
-  - {name: 🇺🇲 adi|0624v - 美国 5, server: 154.84.1.15, port: 443, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.51334583.xyz}}
-  - {name: 🇺🇲 adi|0624v - 美国 6, server: 173.230.146.234, port: 36788, type: vmess, uuid: B22C2F57-0189-25E7-79FA-90717E212748, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 173.230.146.234}}
-  - {name: 🇺🇲 adi|0624v - 美国 7, server: 198.2.200.218, port: 443, type: vmess, uuid: 2a23dbd5-09cf-4aa8-a835-3230728c4973, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.48168443.xyz}}
-  - {name: 🇺🇲 adi|0624v - 美国 8, server: 198.211.3.154, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: 🇺🇲 adi|0624v - 美国 9, server: 209.141.32.238, port: 32917, type: vmess, uuid: 552f62be-f7ca-465d-b18e-e081e8241ca2, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0624v - 美国 10, server: 23.224.30.69, port: 443, type: vmess, uuid: 688f4b5d-ce9a-4729-abe5-b66ca96b2ee9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.36773818.xyz}}
-  - {name: 🇺🇲 adi|0624v - 美国 11, server: 23.224.30.70, port: 443, type: vmess, uuid: 688f4b5d-ce9a-4729-abe5-b66ca96b2ee9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.36773818.xyz}}
-  - {name: 🇺🇲 adi|0624v - 美国 12, server: 23.224.8.92, port: 443, type: vmess, uuid: bef6f470-d961-4419-a0df-d9c2dcafaefa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10925848.xyz}}
-  - {name: 🇺🇲 adi|0624v - 美国 13, server: 23.225.28.172, port: 443, type: vmess, uuid: 5ac3d610-1802-491b-ab06-dad9bbd83ff1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10855945.xyz}}
-  - {name: 🇺🇲 adi|0624v - 美国 14, server: 23.225.28.173, port: 443, type: vmess, uuid: 5ac3d610-1802-491b-ab06-dad9bbd83ff1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.10855945.xyz}}
-  - {name: 🇺🇲 adi|0624v - 美国 15, server: 52.255.146.242, port: 28380, type: vmess, uuid: a232e331-bff8-48d4-f9a6-2436cf41aa26, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0624v - 美国原生, server: vpsrack.yasuoa.xyz, port: 443, type: vmess, uuid: 58218014-4b79-4e3e-aa6a-d2961f366a8e, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vpsrack.yasuoa.xyz}}
-  - {name: 🇬🇧 adi|0624v - 英国, server: 35.178.68.152, port: 47611, type: vmess, uuid: 97a4d167-b361-48b8-b004-8bc45669e334, alterId: 0, cipher: auto, tls: false}
-  - {name: adi|0624v - 智能优选, server: auto.iplc.pro, port: 52000, type: vmess, uuid: 5a56b44f-f54a-4310-9830-5adecf6a01a7, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇺🇲 adi|0625V - 美国原生节点, server: vpsrack.yasuoa.xyz, port: 443, type: vmess, uuid: f97338f6-97bc-45cc-a5f9-4ec7fd715f5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vpsrack.yasuoa.xyz}}
+  - {name: 🇷🇺 adi|0625V - 沪俄国际, server: vpscloudrussia.yasuoa.xyz, port: 443, type: vmess, uuid: 0f771c23-808f-4850-b563-5f6edf22d476, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: vpscloudrussia.yasuoa.xyz}}
+  - {name: 🇺🇲 adi|0625V - IPLC沪美国际, server: vpscloudus.yasuoa.xyz, port: 443, type: vmess, uuid: 30c4cb49-5bd3-4164-8d0b-eec8b11ecfd9, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vpscloudus.yasuoa.xyz}}
+  - {name: 🇸🇬 adi|0625V - SG1IEPL - 深新国际, server: cn1.relay.iplc.pro, port: 52008, type: vmess, uuid: 36eb570d-73c1-4f1b-a13c-6ca879e1ee04, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 adi|0625V - HK4IEPL - 深港国际, server: cn1.relay.iplc.pro, port: 52003, type: vmess, uuid: 36eb570d-73c1-4f1b-a13c-6ca879e1ee04, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 adi|0625V - HK3IEPL - 深港国际, server: cn1.relay.iplc.pro, port: 52002, type: vmess, uuid: 36eb570d-73c1-4f1b-a13c-6ca879e1ee04, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 adi|0625V - IPLC香港游戏, server: vpscloudhk.yasuoa.xyz, port: 443, type: vmess, uuid: 731f9245-6f1d-4415-a70f-047b9224579d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: vpscloudhk.yasuoa.xyz}}
+  - {name: 🇭🇰 adi|0625V - IPLC沪港国际, server: vpscloudhk2.yasuoa.xyz, port: 443, type: vmess, uuid: c376104e-460a-45dc-ad5d-2896d7f075ff, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: vpscloudhk2.yasuoa.xyz}}
+  - {name: 🇺🇲 adi|0625V - US1IEPL - 沪美国际, server: cn2.relay.iplc.pro, port: 52005, type: vmess, uuid: 36eb570d-73c1-4f1b-a13c-6ca879e1ee04, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 adi|0625V - HK4Direct - 香港直连, server: hk4.direct.iplc.pro, port: 52000, type: vmess, uuid: 36eb570d-73c1-4f1b-a13c-6ca879e1ee04, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 adi|0625V - HK2IEPL - 深港国际, server: cn1.relay.iplc.pro, port: 52001, type: vmess, uuid: 36eb570d-73c1-4f1b-a13c-6ca879e1ee04, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇯🇵 adi|0625V - JP1IEPL - 沪日国际, server: cn2.relay.iplc.pro, port: 52002, type: vmess, uuid: 36eb570d-73c1-4f1b-a13c-6ca879e1ee04, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇰🇷 adi|0625V - KR1Direct - 韩国直连, server: kr1.direct.iplc.pro, port: 52000, type: vmess, uuid: 36eb570d-73c1-4f1b-a13c-6ca879e1ee04, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 adi|0625V - HK2Direct - 香港直连, server: hk2.direct.iplc.pro, port: 52000, type: vmess, uuid: 36eb570d-73c1-4f1b-a13c-6ca879e1ee04, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇯🇵 adi|0625V - JP2Direct - 日本直连, server: jp2.direct.iplc.pro, port: 52000, type: vmess, uuid: 36eb570d-73c1-4f1b-a13c-6ca879e1ee04, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇰🇷 adi|0625V - KR1IEPL - 深韩国际, server: cn1.relay.iplc.pro, port: 52007, type: vmess, uuid: 36eb570d-73c1-4f1b-a13c-6ca879e1ee04, alterId: 1, cipher: auto, tls: true}
+  - {name: adi|0625V - 智能优选, server: auto.iplc.pro, port: 52000, type: vmess, uuid: 36eb570d-73c1-4f1b-a13c-6ca879e1ee04, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇨🇳 adi|0625V - TW1IEPL - 沪台国际, server: cn2.relay.iplc.pro, port: 52001, type: vmess, uuid: 36eb570d-73c1-4f1b-a13c-6ca879e1ee04, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇰🇷 adi|0625V - KR1IEPL - 沪韩国际, server: cn2.relay.iplc.pro, port: 52003, type: vmess, uuid: 36eb570d-73c1-4f1b-a13c-6ca879e1ee04, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇷🇺 adi|0625V - RU1IEPL - 沪俄国际, server: cn2.relay.iplc.pro, port: 52004, type: vmess, uuid: 36eb570d-73c1-4f1b-a13c-6ca879e1ee04, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇭🇰 adi|0625V - HK3Direct - 香港直连, server: hk3.direct.iplc.pro, port: 52000, type: vmess, uuid: 36eb570d-73c1-4f1b-a13c-6ca879e1ee04, alterId: 1, cipher: auto, tls: true}
+  - {name: 🇺🇲 adi|0625V - 美国原生节点 2, server: vpsrack.yasuoa.xyz, port: 443, type: vmess, uuid: f97338f6-97bc-45cc-a5f9-4ec7fd715f5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: vpsrack.yasuoa.xyz}}
+  - {name: 🇺🇲 adi|0625V - 美国, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇭🇰 adi|0625V - hk-node01, server: dg-hk-node01.linkthink.app, port: 10700, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169953:5pWSvx1wta, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 adi|0625V - hk-node02, server: dg-hk-node02.linkthink.app, port: 12681, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169953:5pWSvx1wta, obfs-param: ajax.microsoft.com}
+  - {name: adi|0625V - 10705, server: 42.157.196.103, port: 10705, type: ssr, cipher: rc4-md5, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169953:5pWSvx1wta, obfs-param: ajax.microsoft.com}
+  - {name: adi|0625V - 10542, server: 42.157.196.104, port: 10542, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 169953:5pWSvx1wta, obfs-param: ajax.microsoft.com}
+  - {name: adi|0625V - 20648, server: 42.157.196.104, port: 20648, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169953:5pWSvx1wta, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 adi|0624v-hk-node01, server: dg-hk-node01.linkthink.app, port: 10745, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 adi|0624v-hk-node02, server: dg-hk-node02.linkthink.app, port: 12141, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
+  - {name: adi|0624v-10223, server: 42.157.196.103, port: 10223, type: ssr, cipher: rc4-md5, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
+  - {name: adi|0624v-10581, server: 42.157.196.104, port: 10581, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
+  - {name: adi|0624v-20378, server: 42.157.196.104, port: 20378, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 169234:2WBnwvH5ek, obfs-param: ajax.microsoft.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -76,274 +46,154 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇭🇰 adi|0624v - hk-node01
-      - 🇭🇰 adi|0624v - hk-node02
-      - adi|0624v - 10223
-      - adi|0624v - 10581
-      - adi|0624v - 20378
-      - adi|0624v - 166
-      - adi|0624v - 167
-      - adi|0624v - 170
-      - adi|0624v - 172
-      - adi|0624v - 209
-      - adi|0624v - 225
-      - adi|0624v - 339
-      - adi|0624v - 390
-      - 🇭🇰 adi|0624v - HK1-IEPL沪港
-      - 🇭🇰 adi|0624v - HK1-IPLC香港
-      - 🇭🇰 adi|0624v - HK2-Direct香港
-      - 🇭🇰 adi|0624v - HK2-IEPL深港
-      - 🇭🇰 adi|0624v - HK3-Direct-香港
-      - 🇭🇰 adi|0624v - HK3-IEPL-深港
-      - 🇭🇰 adi|0624v - HK4-Direct-香港
-      - 🇭🇰 adi|0624v - HK4-IEPL深港
-      - 🇺🇲 adi|0624v - IPLC美国
-      - 🇭🇰 adi|0624v - IPLC香港
-      - 🇭🇰 adi|0624v - IPLC香港 2
-      - 🇯🇵 adi|0624v - JP1-Direct日本
-      - 🇯🇵 adi|0624v - JP1-IEPL沪日
-      - 🇯🇵 adi|0624v - JP1-IEPL深日
-      - 🇯🇵 adi|0624v - JP2-Direct日本
-      - 🇰🇷 adi|0624v - KR1-Direct韩国
-      - 🇰🇷 adi|0624v - KR1-IEPL沪韩
-      - 🇰🇷 adi|0624v - KR1-IEPL深韩
-      - 🇷🇺 adi|0624v - RU1-IEPL沪俄
-      - 🇸🇬 adi|0624v - SG1-IEPL深新
-      - 🇨🇳 adi|0624v - TW1-IEPL沪台
-      - 🇺🇲 adi|0624v - US1-IEPL沪美
-      - 🇩🇰 adi|0624v - 丹麦
-      - 🇷🇺 adi|0624v - 俄罗斯原生
-      - 🇳🇱 adi|0624v - 荷兰
-      - 🇳🇱 adi|0624v - 荷兰 2
-      - 🇳🇱 adi|0624v - 荷兰 3
-      - 🇳🇱 adi|0624v - 荷兰 4
-      - 🇳🇱 adi|0624v - 荷兰 5
-      - 🇳🇱 adi|0624v - 荷兰 6
-      - 🇳🇱 adi|0624v - 荷兰 7
-      - 🇳🇱 adi|0624v - 荷兰 8
-      - 🇺🇲 adi|0624v - 美国
-      - 🇺🇲 adi|0624v - 美国 2
-      - 🇺🇲 adi|0624v - 美国 3
-      - 🇺🇲 adi|0624v - 美国 4
-      - 🇺🇲 adi|0624v - 美国 5
-      - 🇺🇲 adi|0624v - 美国 6
-      - 🇺🇲 adi|0624v - 美国 7
-      - 🇺🇲 adi|0624v - 美国 8
-      - 🇺🇲 adi|0624v - 美国 9
-      - 🇺🇲 adi|0624v - 美国 10
-      - 🇺🇲 adi|0624v - 美国 11
-      - 🇺🇲 adi|0624v - 美国 12
-      - 🇺🇲 adi|0624v - 美国 13
-      - 🇺🇲 adi|0624v - 美国 14
-      - 🇺🇲 adi|0624v - 美国 15
-      - 🇺🇲 adi|0624v - 美国原生
-      - 🇬🇧 adi|0624v - 英国
-      - adi|0624v - 智能优选
+      - 🇺🇲 adi|0625V - 美国原生节点
+      - 🇷🇺 adi|0625V - 沪俄国际
+      - 🇺🇲 adi|0625V - IPLC沪美国际
+      - 🇸🇬 adi|0625V - SG1IEPL - 深新国际
+      - 🇭🇰 adi|0625V - HK4IEPL - 深港国际
+      - 🇭🇰 adi|0625V - HK3IEPL - 深港国际
+      - 🇭🇰 adi|0625V - IPLC香港游戏
+      - 🇭🇰 adi|0625V - IPLC沪港国际
+      - 🇺🇲 adi|0625V - US1IEPL - 沪美国际
+      - 🇭🇰 adi|0625V - HK4Direct - 香港直连
+      - 🇭🇰 adi|0625V - HK2IEPL - 深港国际
+      - 🇯🇵 adi|0625V - JP1IEPL - 沪日国际
+      - 🇰🇷 adi|0625V - KR1Direct - 韩国直连
+      - 🇭🇰 adi|0625V - HK2Direct - 香港直连
+      - 🇯🇵 adi|0625V - JP2Direct - 日本直连
+      - 🇰🇷 adi|0625V - KR1IEPL - 深韩国际
+      - adi|0625V - 智能优选
+      - 🇨🇳 adi|0625V - TW1IEPL - 沪台国际
+      - 🇰🇷 adi|0625V - KR1IEPL - 沪韩国际
+      - 🇷🇺 adi|0625V - RU1IEPL - 沪俄国际
+      - 🇭🇰 adi|0625V - HK3Direct - 香港直连
+      - 🇺🇲 adi|0625V - 美国原生节点 2
+      - 🇺🇲 adi|0625V - 美国
+      - 🇭🇰 adi|0625V - hk-node01
+      - 🇭🇰 adi|0625V - hk-node02
+      - adi|0625V - 10705
+      - adi|0625V - 10542
+      - adi|0625V - 20648
+      - 🇭🇰 adi|0624v-hk-node01
+      - 🇭🇰 adi|0624v-hk-node02
+      - adi|0624v-10223
+      - adi|0624v-10581
+      - adi|0624v-20378
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 adi|0624v - hk-node01
-      - 🇭🇰 adi|0624v - hk-node02
-      - adi|0624v - 10223
-      - adi|0624v - 10581
-      - adi|0624v - 20378
-      - adi|0624v - 166
-      - adi|0624v - 167
-      - adi|0624v - 170
-      - adi|0624v - 172
-      - adi|0624v - 209
-      - adi|0624v - 225
-      - adi|0624v - 339
-      - adi|0624v - 390
-      - 🇭🇰 adi|0624v - HK1-IEPL沪港
-      - 🇭🇰 adi|0624v - HK1-IPLC香港
-      - 🇭🇰 adi|0624v - HK2-Direct香港
-      - 🇭🇰 adi|0624v - HK2-IEPL深港
-      - 🇭🇰 adi|0624v - HK3-Direct-香港
-      - 🇭🇰 adi|0624v - HK3-IEPL-深港
-      - 🇭🇰 adi|0624v - HK4-Direct-香港
-      - 🇭🇰 adi|0624v - HK4-IEPL深港
-      - 🇺🇲 adi|0624v - IPLC美国
-      - 🇭🇰 adi|0624v - IPLC香港
-      - 🇭🇰 adi|0624v - IPLC香港 2
-      - 🇯🇵 adi|0624v - JP1-Direct日本
-      - 🇯🇵 adi|0624v - JP1-IEPL沪日
-      - 🇯🇵 adi|0624v - JP1-IEPL深日
-      - 🇯🇵 adi|0624v - JP2-Direct日本
-      - 🇰🇷 adi|0624v - KR1-Direct韩国
-      - 🇰🇷 adi|0624v - KR1-IEPL沪韩
-      - 🇰🇷 adi|0624v - KR1-IEPL深韩
-      - 🇷🇺 adi|0624v - RU1-IEPL沪俄
-      - 🇸🇬 adi|0624v - SG1-IEPL深新
-      - 🇨🇳 adi|0624v - TW1-IEPL沪台
-      - 🇺🇲 adi|0624v - US1-IEPL沪美
-      - 🇩🇰 adi|0624v - 丹麦
-      - 🇷🇺 adi|0624v - 俄罗斯原生
-      - 🇳🇱 adi|0624v - 荷兰
-      - 🇳🇱 adi|0624v - 荷兰 2
-      - 🇳🇱 adi|0624v - 荷兰 3
-      - 🇳🇱 adi|0624v - 荷兰 4
-      - 🇳🇱 adi|0624v - 荷兰 5
-      - 🇳🇱 adi|0624v - 荷兰 6
-      - 🇳🇱 adi|0624v - 荷兰 7
-      - 🇳🇱 adi|0624v - 荷兰 8
-      - 🇺🇲 adi|0624v - 美国
-      - 🇺🇲 adi|0624v - 美国 2
-      - 🇺🇲 adi|0624v - 美国 3
-      - 🇺🇲 adi|0624v - 美国 4
-      - 🇺🇲 adi|0624v - 美国 5
-      - 🇺🇲 adi|0624v - 美国 6
-      - 🇺🇲 adi|0624v - 美国 7
-      - 🇺🇲 adi|0624v - 美国 8
-      - 🇺🇲 adi|0624v - 美国 9
-      - 🇺🇲 adi|0624v - 美国 10
-      - 🇺🇲 adi|0624v - 美国 11
-      - 🇺🇲 adi|0624v - 美国 12
-      - 🇺🇲 adi|0624v - 美国 13
-      - 🇺🇲 adi|0624v - 美国 14
-      - 🇺🇲 adi|0624v - 美国 15
-      - 🇺🇲 adi|0624v - 美国原生
-      - 🇬🇧 adi|0624v - 英国
-      - adi|0624v - 智能优选
+      - 🇺🇲 adi|0625V - 美国原生节点
+      - 🇷🇺 adi|0625V - 沪俄国际
+      - 🇺🇲 adi|0625V - IPLC沪美国际
+      - 🇸🇬 adi|0625V - SG1IEPL - 深新国际
+      - 🇭🇰 adi|0625V - HK4IEPL - 深港国际
+      - 🇭🇰 adi|0625V - HK3IEPL - 深港国际
+      - 🇭🇰 adi|0625V - IPLC香港游戏
+      - 🇭🇰 adi|0625V - IPLC沪港国际
+      - 🇺🇲 adi|0625V - US1IEPL - 沪美国际
+      - 🇭🇰 adi|0625V - HK4Direct - 香港直连
+      - 🇭🇰 adi|0625V - HK2IEPL - 深港国际
+      - 🇯🇵 adi|0625V - JP1IEPL - 沪日国际
+      - 🇰🇷 adi|0625V - KR1Direct - 韩国直连
+      - 🇭🇰 adi|0625V - HK2Direct - 香港直连
+      - 🇯🇵 adi|0625V - JP2Direct - 日本直连
+      - 🇰🇷 adi|0625V - KR1IEPL - 深韩国际
+      - adi|0625V - 智能优选
+      - 🇨🇳 adi|0625V - TW1IEPL - 沪台国际
+      - 🇰🇷 adi|0625V - KR1IEPL - 沪韩国际
+      - 🇷🇺 adi|0625V - RU1IEPL - 沪俄国际
+      - 🇭🇰 adi|0625V - HK3Direct - 香港直连
+      - 🇺🇲 adi|0625V - 美国原生节点 2
+      - 🇺🇲 adi|0625V - 美国
+      - 🇭🇰 adi|0625V - hk-node01
+      - 🇭🇰 adi|0625V - hk-node02
+      - adi|0625V - 10705
+      - adi|0625V - 10542
+      - adi|0625V - 20648
+      - 🇭🇰 adi|0624v-hk-node01
+      - 🇭🇰 adi|0624v-hk-node02
+      - adi|0624v-10223
+      - adi|0624v-10581
+      - adi|0624v-20378
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇭🇰 adi|0624v - hk-node01
-      - 🇭🇰 adi|0624v - hk-node02
-      - adi|0624v - 10223
-      - adi|0624v - 10581
-      - adi|0624v - 20378
-      - adi|0624v - 166
-      - adi|0624v - 167
-      - adi|0624v - 170
-      - adi|0624v - 172
-      - adi|0624v - 209
-      - adi|0624v - 225
-      - adi|0624v - 339
-      - adi|0624v - 390
-      - 🇭🇰 adi|0624v - HK1-IEPL沪港
-      - 🇭🇰 adi|0624v - HK1-IPLC香港
-      - 🇭🇰 adi|0624v - HK2-Direct香港
-      - 🇭🇰 adi|0624v - HK2-IEPL深港
-      - 🇭🇰 adi|0624v - HK3-Direct-香港
-      - 🇭🇰 adi|0624v - HK3-IEPL-深港
-      - 🇭🇰 adi|0624v - HK4-Direct-香港
-      - 🇭🇰 adi|0624v - HK4-IEPL深港
-      - 🇺🇲 adi|0624v - IPLC美国
-      - 🇭🇰 adi|0624v - IPLC香港
-      - 🇭🇰 adi|0624v - IPLC香港 2
-      - 🇯🇵 adi|0624v - JP1-Direct日本
-      - 🇯🇵 adi|0624v - JP1-IEPL沪日
-      - 🇯🇵 adi|0624v - JP1-IEPL深日
-      - 🇯🇵 adi|0624v - JP2-Direct日本
-      - 🇰🇷 adi|0624v - KR1-Direct韩国
-      - 🇰🇷 adi|0624v - KR1-IEPL沪韩
-      - 🇰🇷 adi|0624v - KR1-IEPL深韩
-      - 🇷🇺 adi|0624v - RU1-IEPL沪俄
-      - 🇸🇬 adi|0624v - SG1-IEPL深新
-      - 🇨🇳 adi|0624v - TW1-IEPL沪台
-      - 🇺🇲 adi|0624v - US1-IEPL沪美
-      - 🇩🇰 adi|0624v - 丹麦
-      - 🇷🇺 adi|0624v - 俄罗斯原生
-      - 🇳🇱 adi|0624v - 荷兰
-      - 🇳🇱 adi|0624v - 荷兰 2
-      - 🇳🇱 adi|0624v - 荷兰 3
-      - 🇳🇱 adi|0624v - 荷兰 4
-      - 🇳🇱 adi|0624v - 荷兰 5
-      - 🇳🇱 adi|0624v - 荷兰 6
-      - 🇳🇱 adi|0624v - 荷兰 7
-      - 🇳🇱 adi|0624v - 荷兰 8
-      - 🇺🇲 adi|0624v - 美国
-      - 🇺🇲 adi|0624v - 美国 2
-      - 🇺🇲 adi|0624v - 美国 3
-      - 🇺🇲 adi|0624v - 美国 4
-      - 🇺🇲 adi|0624v - 美国 5
-      - 🇺🇲 adi|0624v - 美国 6
-      - 🇺🇲 adi|0624v - 美国 7
-      - 🇺🇲 adi|0624v - 美国 8
-      - 🇺🇲 adi|0624v - 美国 9
-      - 🇺🇲 adi|0624v - 美国 10
-      - 🇺🇲 adi|0624v - 美国 11
-      - 🇺🇲 adi|0624v - 美国 12
-      - 🇺🇲 adi|0624v - 美国 13
-      - 🇺🇲 adi|0624v - 美国 14
-      - 🇺🇲 adi|0624v - 美国 15
-      - 🇺🇲 adi|0624v - 美国原生
-      - 🇬🇧 adi|0624v - 英国
-      - adi|0624v - 智能优选
+      - 🇺🇲 adi|0625V - 美国原生节点
+      - 🇷🇺 adi|0625V - 沪俄国际
+      - 🇺🇲 adi|0625V - IPLC沪美国际
+      - 🇸🇬 adi|0625V - SG1IEPL - 深新国际
+      - 🇭🇰 adi|0625V - HK4IEPL - 深港国际
+      - 🇭🇰 adi|0625V - HK3IEPL - 深港国际
+      - 🇭🇰 adi|0625V - IPLC香港游戏
+      - 🇭🇰 adi|0625V - IPLC沪港国际
+      - 🇺🇲 adi|0625V - US1IEPL - 沪美国际
+      - 🇭🇰 adi|0625V - HK4Direct - 香港直连
+      - 🇭🇰 adi|0625V - HK2IEPL - 深港国际
+      - 🇯🇵 adi|0625V - JP1IEPL - 沪日国际
+      - 🇰🇷 adi|0625V - KR1Direct - 韩国直连
+      - 🇭🇰 adi|0625V - HK2Direct - 香港直连
+      - 🇯🇵 adi|0625V - JP2Direct - 日本直连
+      - 🇰🇷 adi|0625V - KR1IEPL - 深韩国际
+      - adi|0625V - 智能优选
+      - 🇨🇳 adi|0625V - TW1IEPL - 沪台国际
+      - 🇰🇷 adi|0625V - KR1IEPL - 沪韩国际
+      - 🇷🇺 adi|0625V - RU1IEPL - 沪俄国际
+      - 🇭🇰 adi|0625V - HK3Direct - 香港直连
+      - 🇺🇲 adi|0625V - 美国原生节点 2
+      - 🇺🇲 adi|0625V - 美国
+      - 🇭🇰 adi|0625V - hk-node01
+      - 🇭🇰 adi|0625V - hk-node02
+      - adi|0625V - 10705
+      - adi|0625V - 10542
+      - adi|0625V - 20648
+      - 🇭🇰 adi|0624v-hk-node01
+      - 🇭🇰 adi|0624v-hk-node02
+      - adi|0624v-10223
+      - adi|0624v-10581
+      - adi|0624v-20378
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇭🇰 adi|0624v - hk-node01
-      - 🇭🇰 adi|0624v - hk-node02
-      - adi|0624v - 10223
-      - adi|0624v - 10581
-      - adi|0624v - 20378
-      - adi|0624v - 166
-      - adi|0624v - 167
-      - adi|0624v - 170
-      - adi|0624v - 172
-      - adi|0624v - 209
-      - adi|0624v - 225
-      - adi|0624v - 339
-      - adi|0624v - 390
-      - 🇭🇰 adi|0624v - HK1-IEPL沪港
-      - 🇭🇰 adi|0624v - HK1-IPLC香港
-      - 🇭🇰 adi|0624v - HK2-Direct香港
-      - 🇭🇰 adi|0624v - HK2-IEPL深港
-      - 🇭🇰 adi|0624v - HK3-Direct-香港
-      - 🇭🇰 adi|0624v - HK3-IEPL-深港
-      - 🇭🇰 adi|0624v - HK4-Direct-香港
-      - 🇭🇰 adi|0624v - HK4-IEPL深港
-      - 🇺🇲 adi|0624v - IPLC美国
-      - 🇭🇰 adi|0624v - IPLC香港
-      - 🇭🇰 adi|0624v - IPLC香港 2
-      - 🇯🇵 adi|0624v - JP1-Direct日本
-      - 🇯🇵 adi|0624v - JP1-IEPL沪日
-      - 🇯🇵 adi|0624v - JP1-IEPL深日
-      - 🇯🇵 adi|0624v - JP2-Direct日本
-      - 🇰🇷 adi|0624v - KR1-Direct韩国
-      - 🇰🇷 adi|0624v - KR1-IEPL沪韩
-      - 🇰🇷 adi|0624v - KR1-IEPL深韩
-      - 🇷🇺 adi|0624v - RU1-IEPL沪俄
-      - 🇸🇬 adi|0624v - SG1-IEPL深新
-      - 🇨🇳 adi|0624v - TW1-IEPL沪台
-      - 🇺🇲 adi|0624v - US1-IEPL沪美
-      - 🇩🇰 adi|0624v - 丹麦
-      - 🇷🇺 adi|0624v - 俄罗斯原生
-      - 🇳🇱 adi|0624v - 荷兰
-      - 🇳🇱 adi|0624v - 荷兰 2
-      - 🇳🇱 adi|0624v - 荷兰 3
-      - 🇳🇱 adi|0624v - 荷兰 4
-      - 🇳🇱 adi|0624v - 荷兰 5
-      - 🇳🇱 adi|0624v - 荷兰 6
-      - 🇳🇱 adi|0624v - 荷兰 7
-      - 🇳🇱 adi|0624v - 荷兰 8
-      - 🇺🇲 adi|0624v - 美国
-      - 🇺🇲 adi|0624v - 美国 2
-      - 🇺🇲 adi|0624v - 美国 3
-      - 🇺🇲 adi|0624v - 美国 4
-      - 🇺🇲 adi|0624v - 美国 5
-      - 🇺🇲 adi|0624v - 美国 6
-      - 🇺🇲 adi|0624v - 美国 7
-      - 🇺🇲 adi|0624v - 美国 8
-      - 🇺🇲 adi|0624v - 美国 9
-      - 🇺🇲 adi|0624v - 美国 10
-      - 🇺🇲 adi|0624v - 美国 11
-      - 🇺🇲 adi|0624v - 美国 12
-      - 🇺🇲 adi|0624v - 美国 13
-      - 🇺🇲 adi|0624v - 美国 14
-      - 🇺🇲 adi|0624v - 美国 15
-      - 🇺🇲 adi|0624v - 美国原生
-      - 🇬🇧 adi|0624v - 英国
-      - adi|0624v - 智能优选
+      - 🇺🇲 adi|0625V - 美国原生节点
+      - 🇷🇺 adi|0625V - 沪俄国际
+      - 🇺🇲 adi|0625V - IPLC沪美国际
+      - 🇸🇬 adi|0625V - SG1IEPL - 深新国际
+      - 🇭🇰 adi|0625V - HK4IEPL - 深港国际
+      - 🇭🇰 adi|0625V - HK3IEPL - 深港国际
+      - 🇭🇰 adi|0625V - IPLC香港游戏
+      - 🇭🇰 adi|0625V - IPLC沪港国际
+      - 🇺🇲 adi|0625V - US1IEPL - 沪美国际
+      - 🇭🇰 adi|0625V - HK4Direct - 香港直连
+      - 🇭🇰 adi|0625V - HK2IEPL - 深港国际
+      - 🇯🇵 adi|0625V - JP1IEPL - 沪日国际
+      - 🇰🇷 adi|0625V - KR1Direct - 韩国直连
+      - 🇭🇰 adi|0625V - HK2Direct - 香港直连
+      - 🇯🇵 adi|0625V - JP2Direct - 日本直连
+      - 🇰🇷 adi|0625V - KR1IEPL - 深韩国际
+      - adi|0625V - 智能优选
+      - 🇨🇳 adi|0625V - TW1IEPL - 沪台国际
+      - 🇰🇷 adi|0625V - KR1IEPL - 沪韩国际
+      - 🇷🇺 adi|0625V - RU1IEPL - 沪俄国际
+      - 🇭🇰 adi|0625V - HK3Direct - 香港直连
+      - 🇺🇲 adi|0625V - 美国原生节点 2
+      - 🇺🇲 adi|0625V - 美国
+      - 🇭🇰 adi|0625V - hk-node01
+      - 🇭🇰 adi|0625V - hk-node02
+      - adi|0625V - 10705
+      - adi|0625V - 10542
+      - adi|0625V - 20648
+      - 🇭🇰 adi|0624v-hk-node01
+      - 🇭🇰 adi|0624v-hk-node02
+      - adi|0624v-10223
+      - adi|0624v-10581
+      - adi|0624v-20378
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -363,69 +213,39 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇭🇰 adi|0624v - hk-node01
-      - 🇭🇰 adi|0624v - hk-node02
-      - adi|0624v - 10223
-      - adi|0624v - 10581
-      - adi|0624v - 20378
-      - adi|0624v - 166
-      - adi|0624v - 167
-      - adi|0624v - 170
-      - adi|0624v - 172
-      - adi|0624v - 209
-      - adi|0624v - 225
-      - adi|0624v - 339
-      - adi|0624v - 390
-      - 🇭🇰 adi|0624v - HK1-IEPL沪港
-      - 🇭🇰 adi|0624v - HK1-IPLC香港
-      - 🇭🇰 adi|0624v - HK2-Direct香港
-      - 🇭🇰 adi|0624v - HK2-IEPL深港
-      - 🇭🇰 adi|0624v - HK3-Direct-香港
-      - 🇭🇰 adi|0624v - HK3-IEPL-深港
-      - 🇭🇰 adi|0624v - HK4-Direct-香港
-      - 🇭🇰 adi|0624v - HK4-IEPL深港
-      - 🇺🇲 adi|0624v - IPLC美国
-      - 🇭🇰 adi|0624v - IPLC香港
-      - 🇭🇰 adi|0624v - IPLC香港 2
-      - 🇯🇵 adi|0624v - JP1-Direct日本
-      - 🇯🇵 adi|0624v - JP1-IEPL沪日
-      - 🇯🇵 adi|0624v - JP1-IEPL深日
-      - 🇯🇵 adi|0624v - JP2-Direct日本
-      - 🇰🇷 adi|0624v - KR1-Direct韩国
-      - 🇰🇷 adi|0624v - KR1-IEPL沪韩
-      - 🇰🇷 adi|0624v - KR1-IEPL深韩
-      - 🇷🇺 adi|0624v - RU1-IEPL沪俄
-      - 🇸🇬 adi|0624v - SG1-IEPL深新
-      - 🇨🇳 adi|0624v - TW1-IEPL沪台
-      - 🇺🇲 adi|0624v - US1-IEPL沪美
-      - 🇩🇰 adi|0624v - 丹麦
-      - 🇷🇺 adi|0624v - 俄罗斯原生
-      - 🇳🇱 adi|0624v - 荷兰
-      - 🇳🇱 adi|0624v - 荷兰 2
-      - 🇳🇱 adi|0624v - 荷兰 3
-      - 🇳🇱 adi|0624v - 荷兰 4
-      - 🇳🇱 adi|0624v - 荷兰 5
-      - 🇳🇱 adi|0624v - 荷兰 6
-      - 🇳🇱 adi|0624v - 荷兰 7
-      - 🇳🇱 adi|0624v - 荷兰 8
-      - 🇺🇲 adi|0624v - 美国
-      - 🇺🇲 adi|0624v - 美国 2
-      - 🇺🇲 adi|0624v - 美国 3
-      - 🇺🇲 adi|0624v - 美国 4
-      - 🇺🇲 adi|0624v - 美国 5
-      - 🇺🇲 adi|0624v - 美国 6
-      - 🇺🇲 adi|0624v - 美国 7
-      - 🇺🇲 adi|0624v - 美国 8
-      - 🇺🇲 adi|0624v - 美国 9
-      - 🇺🇲 adi|0624v - 美国 10
-      - 🇺🇲 adi|0624v - 美国 11
-      - 🇺🇲 adi|0624v - 美国 12
-      - 🇺🇲 adi|0624v - 美国 13
-      - 🇺🇲 adi|0624v - 美国 14
-      - 🇺🇲 adi|0624v - 美国 15
-      - 🇺🇲 adi|0624v - 美国原生
-      - 🇬🇧 adi|0624v - 英国
-      - adi|0624v - 智能优选
+      - 🇺🇲 adi|0625V - 美国原生节点
+      - 🇷🇺 adi|0625V - 沪俄国际
+      - 🇺🇲 adi|0625V - IPLC沪美国际
+      - 🇸🇬 adi|0625V - SG1IEPL - 深新国际
+      - 🇭🇰 adi|0625V - HK4IEPL - 深港国际
+      - 🇭🇰 adi|0625V - HK3IEPL - 深港国际
+      - 🇭🇰 adi|0625V - IPLC香港游戏
+      - 🇭🇰 adi|0625V - IPLC沪港国际
+      - 🇺🇲 adi|0625V - US1IEPL - 沪美国际
+      - 🇭🇰 adi|0625V - HK4Direct - 香港直连
+      - 🇭🇰 adi|0625V - HK2IEPL - 深港国际
+      - 🇯🇵 adi|0625V - JP1IEPL - 沪日国际
+      - 🇰🇷 adi|0625V - KR1Direct - 韩国直连
+      - 🇭🇰 adi|0625V - HK2Direct - 香港直连
+      - 🇯🇵 adi|0625V - JP2Direct - 日本直连
+      - 🇰🇷 adi|0625V - KR1IEPL - 深韩国际
+      - adi|0625V - 智能优选
+      - 🇨🇳 adi|0625V - TW1IEPL - 沪台国际
+      - 🇰🇷 adi|0625V - KR1IEPL - 沪韩国际
+      - 🇷🇺 adi|0625V - RU1IEPL - 沪俄国际
+      - 🇭🇰 adi|0625V - HK3Direct - 香港直连
+      - 🇺🇲 adi|0625V - 美国原生节点 2
+      - 🇺🇲 adi|0625V - 美国
+      - 🇭🇰 adi|0625V - hk-node01
+      - 🇭🇰 adi|0625V - hk-node02
+      - adi|0625V - 10705
+      - adi|0625V - 10542
+      - adi|0625V - 20648
+      - 🇭🇰 adi|0624v-hk-node01
+      - 🇭🇰 adi|0624v-hk-node02
+      - adi|0624v-10223
+      - adi|0624v-10581
+      - adi|0624v-20378
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
