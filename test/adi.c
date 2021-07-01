@@ -4,7 +4,6 @@ proxies:
   - {name: 🇭🇰 IPLC沪港国际专线 3, server: 5.253.16.233, port: 21430, type: vmess, uuid: 44fbb4f6-c70a-4ffc-83a7-237bfc7b4341, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: IPLC沪俄国际专线, server: 92.223.72.130, port: 45517, type: vmess, uuid: 23ed3c87-c688-472a-b4a0-59a54b1d6750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇭🇰 香港智能优选线路, server: 62.216.92.170, port: 16288, type: vmess, uuid: ea2c6ef3-ae1d-4182-bd4f-ef89d1ed8599, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡03丨高速中转丨, server: sg3.keaiyun.top, port: 47777, type: vmess, uuid: 640779a5-e7c0-3090-b72a-753dc9e9dd5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
   - {name: 🇺🇲 美国01丨原生IP丨, server: 154.208.10.121, port: 25561, type: vmess, uuid: 640779a5-e7c0-3090-b72a-753dc9e9dd5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
   - {name: 🇺🇲 美国02丨原生IP丨, server: 173.82.42.241, port: 48888, type: vmess, uuid: 640779a5-e7c0-3090-b72a-753dc9e9dd5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
   - {name: 🇰🇷 韩国02丨高速中转丨, server: kp2.keaiyun.top, port: 47777, type: vmess, uuid: 640779a5-e7c0-3090-b72a-753dc9e9dd5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
@@ -23,6 +22,13 @@ proxies:
   - {name: 🇭🇰 HK1(Direct)-香港直连专线, server: hk1.direct.iplc.pro, port: 52000, type: vmess, uuid: ef4de808-f536-4058-b106-8f4c607e5c2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇭🇰 HK2(Direct)-香港直连专线, server: hk2.direct.iplc.pro, port: 52000, type: vmess, uuid: ef4de808-f536-4058-b106-8f4c607e5c2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇭🇰 HK3(Direct)-香港直连专线, server: hk3.direct.iplc.pro, port: 52000, type: vmess, uuid: ef4de808-f536-4058-b106-8f4c607e5c2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇲 美国原生节点, server: 45.144.241.138, port: 29286, type: vmess, uuid: 5b9dafb4-7cd6-4a60-8b52-a5cd7556db02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇷 韩国, server: kr1.jjhost.net, port: 443, type: vmess, uuid: 06e9a299-5129-46fb-b32f-d42cc131fbc9, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cs, ws-headers: {Host: kr1.jjhost.net}}
+  - {name: 🇺🇲 美国, server: us1.jjhost.net, port: 443, type: vmess, uuid: c290ed6e-efb1-4b7b-eb54-6dc12cbb8454, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /mouse, ws-headers: {Host: us1.jjhost.net}}
+  - {name: 🇺🇲 美国 2, server: us2.jjhost.net, port: 443, type: vmess, uuid: 7205478a-7a40-407a-8453-5b9e1f5bcf57, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /v2s, ws-headers: {Host: us2.jjhost.net}}
+  - {name: 🇯🇵 日本, server: jp1.jjhost.net, port: 443, type: vmess, uuid: 902ae76e-4f42-4ed0-afbd-8d265ebf7fd5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /v2c, ws-headers: {Host: jp1.jjhost.net}}
+  - {name: 备用, server: 23.224.101.102, port: 443, type: vmess, uuid: 946ba5df-5771-4873-a3cb-892378526147, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.76126449.xyz}}
+  - {name: 备用 2, server: 52.81.94.63, port: 30030, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 42.157.196.103:10394, server: 42.157.196.103, port: 10394, type: ssr, cipher: rc4-md5, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 174291:3A4PqUDTFC, obfs-param: ajax.microsoft.com}
   - {name: 42.157.196.104:10863, server: 42.157.196.104, port: 10863, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 174291:3A4PqUDTFC, obfs-param: ajax.microsoft.com}
   - {name: dg-hk-node01.linkthink.app:10413, server: dg-hk-node01.linkthink.app, port: 10413, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 174291:3A4PqUDTFC, obfs-param: ajax.microsoft.com}
@@ -33,13 +39,14 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
+      - 🔯 故障转移
+      - 🔮 负载均衡
       - DIRECT
       - 🇭🇰 IPLC沪港国际专线
       - 🇭🇰 IPLC沪港国际专线 2
       - 🇭🇰 IPLC沪港国际专线 3
       - IPLC沪俄国际专线
       - 🇭🇰 香港智能优选线路
-      - 🇸🇬 新加坡03丨高速中转丨
       - 🇺🇲 美国01丨原生IP丨
       - 🇺🇲 美国02丨原生IP丨
       - 🇰🇷 韩国02丨高速中转丨
@@ -58,6 +65,13 @@ proxy-groups:
       - 🇭🇰 HK1(Direct)-香港直连专线
       - 🇭🇰 HK2(Direct)-香港直连专线
       - 🇭🇰 HK3(Direct)-香港直连专线
+      - 🇺🇲 美国原生节点
+      - 🇰🇷 韩国
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
+      - 🇯🇵 日本
+      - 备用
+      - 备用 2
       - 42.157.196.103:10394
       - 42.157.196.104:10863
       - dg-hk-node01.linkthink.app:10413
@@ -73,7 +87,6 @@ proxy-groups:
       - 🇭🇰 IPLC沪港国际专线 3
       - IPLC沪俄国际专线
       - 🇭🇰 香港智能优选线路
-      - 🇸🇬 新加坡03丨高速中转丨
       - 🇺🇲 美国01丨原生IP丨
       - 🇺🇲 美国02丨原生IP丨
       - 🇰🇷 韩国02丨高速中转丨
@@ -92,6 +105,93 @@ proxy-groups:
       - 🇭🇰 HK1(Direct)-香港直连专线
       - 🇭🇰 HK2(Direct)-香港直连专线
       - 🇭🇰 HK3(Direct)-香港直连专线
+      - 🇺🇲 美国原生节点
+      - 🇰🇷 韩国
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
+      - 🇯🇵 日本
+      - 备用
+      - 备用 2
+      - 42.157.196.103:10394
+      - 42.157.196.104:10863
+      - dg-hk-node01.linkthink.app:10413
+      - dg-hk-node02.linkthink.app:12565
+      - 42.157.196.104:20129
+  - name: 🔯 故障转移
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+    proxies:
+      - 🇭🇰 IPLC沪港国际专线
+      - 🇭🇰 IPLC沪港国际专线 2
+      - 🇭🇰 IPLC沪港国际专线 3
+      - IPLC沪俄国际专线
+      - 🇭🇰 香港智能优选线路
+      - 🇺🇲 美国01丨原生IP丨
+      - 🇺🇲 美国02丨原生IP丨
+      - 🇰🇷 韩国02丨高速中转丨
+      - 🇰🇷 韩国03丨高速中转丨
+      - 🇭🇰 香港03丨高速中转丨
+      - 🇭🇰 HK1(IPLC)-香港国际专线
+      - 🇭🇰 HK1(Auto)-香港智选专线
+      - 🇭🇰 HK1(Relay)-香港中继专线
+      - 🇨🇳 TW1(Relay)-台湾中继专线
+      - 🇯🇵 JP1(Relay)-日本中继专线
+      - 🇯🇵 JP2(Relay)-日本中继专线
+      - 🇰🇷 KR1(Relay)-韩国中继专线
+      - 🇸🇬 SG1(Relay)-新加坡中继专线
+      - 🇷🇺 RU1(Relay)-俄罗斯中继专线
+      - 🇺🇲 US1(Relay)-美国中继专线
+      - 🇭🇰 HK1(Direct)-香港直连专线
+      - 🇭🇰 HK2(Direct)-香港直连专线
+      - 🇭🇰 HK3(Direct)-香港直连专线
+      - 🇺🇲 美国原生节点
+      - 🇰🇷 韩国
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
+      - 🇯🇵 日本
+      - 备用
+      - 备用 2
+      - 42.157.196.103:10394
+      - 42.157.196.104:10863
+      - dg-hk-node01.linkthink.app:10413
+      - dg-hk-node02.linkthink.app:12565
+      - 42.157.196.104:20129
+  - name: 🔮 负载均衡
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+    proxies:
+      - 🇭🇰 IPLC沪港国际专线
+      - 🇭🇰 IPLC沪港国际专线 2
+      - 🇭🇰 IPLC沪港国际专线 3
+      - IPLC沪俄国际专线
+      - 🇭🇰 香港智能优选线路
+      - 🇺🇲 美国01丨原生IP丨
+      - 🇺🇲 美国02丨原生IP丨
+      - 🇰🇷 韩国02丨高速中转丨
+      - 🇰🇷 韩国03丨高速中转丨
+      - 🇭🇰 香港03丨高速中转丨
+      - 🇭🇰 HK1(IPLC)-香港国际专线
+      - 🇭🇰 HK1(Auto)-香港智选专线
+      - 🇭🇰 HK1(Relay)-香港中继专线
+      - 🇨🇳 TW1(Relay)-台湾中继专线
+      - 🇯🇵 JP1(Relay)-日本中继专线
+      - 🇯🇵 JP2(Relay)-日本中继专线
+      - 🇰🇷 KR1(Relay)-韩国中继专线
+      - 🇸🇬 SG1(Relay)-新加坡中继专线
+      - 🇷🇺 RU1(Relay)-俄罗斯中继专线
+      - 🇺🇲 US1(Relay)-美国中继专线
+      - 🇭🇰 HK1(Direct)-香港直连专线
+      - 🇭🇰 HK2(Direct)-香港直连专线
+      - 🇭🇰 HK3(Direct)-香港直连专线
+      - 🇺🇲 美国原生节点
+      - 🇰🇷 韩国
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
+      - 🇯🇵 日本
+      - 备用
+      - 备用 2
       - 42.157.196.103:10394
       - 42.157.196.104:10863
       - dg-hk-node01.linkthink.app:10413
@@ -114,12 +214,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🔯 故障转移
+      - 🔮 负载均衡
       - 🇭🇰 IPLC沪港国际专线
       - 🇭🇰 IPLC沪港国际专线 2
       - 🇭🇰 IPLC沪港国际专线 3
       - IPLC沪俄国际专线
       - 🇭🇰 香港智能优选线路
-      - 🇸🇬 新加坡03丨高速中转丨
       - 🇺🇲 美国01丨原生IP丨
       - 🇺🇲 美国02丨原生IP丨
       - 🇰🇷 韩国02丨高速中转丨
@@ -138,6 +239,13 @@ proxy-groups:
       - 🇭🇰 HK1(Direct)-香港直连专线
       - 🇭🇰 HK2(Direct)-香港直连专线
       - 🇭🇰 HK3(Direct)-香港直连专线
+      - 🇺🇲 美国原生节点
+      - 🇰🇷 韩国
+      - 🇺🇲 美国
+      - 🇺🇲 美国 2
+      - 🇯🇵 日本
+      - 备用
+      - 备用 2
       - 42.157.196.103:10394
       - 42.157.196.104:10863
       - dg-hk-node01.linkthink.app:10413
