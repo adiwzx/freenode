@@ -1,39 +1,106 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
 proxies:
-  - {name: 🇭🇰 IPLC沪港国际专线, server: 5.253.16.216, port: 31246, type: vmess, uuid: 0c85cd19-7766-4ee0-9d42-1eabd10c8a18, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 IPLC沪港国际专线 2, server: 5.253.16.227, port: 59812, type: vmess, uuid: c9ec6cce-ad00-4fc0-a306-b715b078f96c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 IPLC沪港国际专线 3, server: 5.253.16.233, port: 21430, type: vmess, uuid: 44fbb4f6-c70a-4ffc-83a7-237bfc7b4341, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: IPLC沪俄国际专线, server: 92.223.72.130, port: 45517, type: vmess, uuid: 23ed3c87-c688-472a-b4a0-59a54b1d6750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港智能优选线路, server: 62.216.92.170, port: 16288, type: vmess, uuid: ea2c6ef3-ae1d-4182-bd4f-ef89d1ed8599, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇲 美国01丨原生IP丨, server: 154.208.10.121, port: 25561, type: vmess, uuid: 640779a5-e7c0-3090-b72a-753dc9e9dd5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇺🇲 美国02丨原生IP丨, server: 173.82.42.241, port: 48888, type: vmess, uuid: 640779a5-e7c0-3090-b72a-753dc9e9dd5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇰🇷 韩国02丨高速中转丨, server: kp2.keaiyun.top, port: 47777, type: vmess, uuid: 640779a5-e7c0-3090-b72a-753dc9e9dd5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇰🇷 韩国03丨高速中转丨, server: kp3.keaiyun.top, port: 47777, type: vmess, uuid: 640779a5-e7c0-3090-b72a-753dc9e9dd5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇭🇰 香港03丨高速中转丨, server: hk3.keaiyun.top, port: 47777, type: vmess, uuid: 640779a5-e7c0-3090-b72a-753dc9e9dd5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇭🇰 HK1(IPLC)-香港国际专线, server: hk1.iplc.pro, port: 52000, type: vmess, uuid: ef4de808-f536-4058-b106-8f4c607e5c2f, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇭🇰 HK1(Auto)-香港智选专线, server: hk1.auto.starlink.st, port: 52000, type: vmess, uuid: ef4de808-f536-4058-b106-8f4c607e5c2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 HK1(Relay)-香港中继专线, server: hk1.relay.starlink.st, port: 52000, type: vmess, uuid: ef4de808-f536-4058-b106-8f4c607e5c2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 TW1(Relay)-台湾中继专线, server: hk1.relay.starlink.st, port: 52001, type: vmess, uuid: ef4de808-f536-4058-b106-8f4c607e5c2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 JP1(Relay)-日本中继专线, server: hk1.relay.starlink.st, port: 52002, type: vmess, uuid: ef4de808-f536-4058-b106-8f4c607e5c2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 JP2(Relay)-日本中继专线, server: hk1.relay.starlink.st, port: 52003, type: vmess, uuid: ef4de808-f536-4058-b106-8f4c607e5c2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇰🇷 KR1(Relay)-韩国中继专线, server: hk1.relay.starlink.st, port: 52004, type: vmess, uuid: ef4de808-f536-4058-b106-8f4c607e5c2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 SG1(Relay)-新加坡中继专线, server: hk1.relay.starlink.st, port: 52005, type: vmess, uuid: ef4de808-f536-4058-b106-8f4c607e5c2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇷🇺 RU1(Relay)-俄罗斯中继专线, server: hk1.relay.starlink.st, port: 52006, type: vmess, uuid: ef4de808-f536-4058-b106-8f4c607e5c2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇲 US1(Relay)-美国中继专线, server: hk1.relay.starlink.st, port: 52007, type: vmess, uuid: ef4de808-f536-4058-b106-8f4c607e5c2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 HK1(Direct)-香港直连专线, server: hk1.direct.iplc.pro, port: 52000, type: vmess, uuid: ef4de808-f536-4058-b106-8f4c607e5c2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 HK2(Direct)-香港直连专线, server: hk2.direct.iplc.pro, port: 52000, type: vmess, uuid: ef4de808-f536-4058-b106-8f4c607e5c2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 HK3(Direct)-香港直连专线, server: hk3.direct.iplc.pro, port: 52000, type: vmess, uuid: ef4de808-f536-4058-b106-8f4c607e5c2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇲 美国原生节点, server: 45.144.241.138, port: 29286, type: vmess, uuid: 5b9dafb4-7cd6-4a60-8b52-a5cd7556db02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇰🇷 韩国, server: kr1.jjhost.net, port: 443, type: vmess, uuid: 06e9a299-5129-46fb-b32f-d42cc131fbc9, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cs, ws-headers: {Host: kr1.jjhost.net}}
-  - {name: 🇺🇲 美国, server: us1.jjhost.net, port: 443, type: vmess, uuid: c290ed6e-efb1-4b7b-eb54-6dc12cbb8454, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /mouse, ws-headers: {Host: us1.jjhost.net}}
-  - {name: 🇺🇲 美国 2, server: us2.jjhost.net, port: 443, type: vmess, uuid: 7205478a-7a40-407a-8453-5b9e1f5bcf57, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /v2s, ws-headers: {Host: us2.jjhost.net}}
-  - {name: 🇯🇵 日本, server: jp1.jjhost.net, port: 443, type: vmess, uuid: 902ae76e-4f42-4ed0-afbd-8d265ebf7fd5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /v2c, ws-headers: {Host: jp1.jjhost.net}}
-  - {name: 备用, server: 23.224.101.102, port: 443, type: vmess, uuid: 946ba5df-5771-4873-a3cb-892378526147, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.76126449.xyz}}
-  - {name: 备用 2, server: 52.81.94.63, port: 30030, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 42.157.196.103:10394, server: 42.157.196.103, port: 10394, type: ssr, cipher: rc4-md5, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 174291:3A4PqUDTFC, obfs-param: ajax.microsoft.com}
-  - {name: 42.157.196.104:10863, server: 42.157.196.104, port: 10863, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 174291:3A4PqUDTFC, obfs-param: ajax.microsoft.com}
-  - {name: dg-hk-node01.linkthink.app:10413, server: dg-hk-node01.linkthink.app, port: 10413, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 174291:3A4PqUDTFC, obfs-param: ajax.microsoft.com}
-  - {name: dg-hk-node02.linkthink.app:12565, server: dg-hk-node02.linkthink.app, port: 12565, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 174291:3A4PqUDTFC, obfs-param: ajax.microsoft.com}
-  - {name: 42.157.196.104:20129, server: 42.157.196.104, port: 20129, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 174291:3A4PqUDTFC, obfs-param: ajax.microsoft.com}
+  - {name: 🇯🇵 adi|0703v - 日本-04 免流, server: superstar.jp1.srayx.xyz, port: 80, type: vmess, uuid: 27c4d8dc-9676-4ac4-95bf-46a0e338f82e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /superstar, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: adi|0622 - 埃及, server: 185.108.105.129, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇷🇴 adi|0622 - 罗马尼亚, server: 146.70.48.53, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇷🇴 adi|0622 - 罗马尼亚 2, server: 86.106.136.125, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: adi|0701 - ip1, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: adi|0701 - ip1 2, server: aa.zzzr.ltd, port: 8443, type: vmess, uuid: 1112e248-d026-11eb-8f91-00163c62af29, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /mnCKp30k/, ws-headers: {Host: aa.zzzr.ltd}}
+  - {name: adi|0703 - SSR, server: euserv10p.ezddns.tk, port: 80, type: vmess, uuid: 4323a38e-29dc-4c6d-f436-b15114e57a75, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.zip, ws-headers: {Host: euserv10p.ezddns.tk}}
+  - {name: 🇺🇸 adi|0703 - 美国, server: euserv10p.ezddns.tk, port: 80, type: vmess, uuid: 4323a38e-29dc-4c6d-f436-b15114e57a75, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.zip, ws-headers: {Host: euserv10p.ezddns.tk}}
+  - {name: adi|0703 - ip3, server: 120.236.197.205, port: 3389, type: trojan, password: ba4fedf8c217c146}
+  - {name: 🇺🇸 adi|0703 - 美国DMIT10, server: 154.17.2.112, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: N0KSFR6alSxjgp7T8Aa9Ce8DnCaAOYqz5lFZxe3O2I3uycYZXEDp3S34RyCDwB}
+  - {name: 🇺🇸 adi|0703 - 美国DMIT14, server: 154.17.5.184, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: adi|0703 - 154.17.2.31:18333, server: 154.17.2.31, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: adi|0703 - ip3 2, server: workers.dev, port: 443, type: vmess, uuid: 7a70e0f7-170d-4ab0-82a0-c40554bfb320, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /111111.online, ws-headers: {Host: buyvm.proxypool.ga}}
+  - {name: adi|0703 - ip3 3, server: www.digitalocean.com, port: 443, type: vmess, uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /111111.online, ws-headers: {Host: by.6111.online}}
+  - {name: adi|0703 - |21.48Mb, server: 104.19.36.160, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: restless-haze-599b.zjjcool.workers.dev}}
+  - {name: adi|0703 - GER 10, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: adi|0703 - | 6.60Mb, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: 🇺🇸 adi|0703 - US_5400, server: ban4.feiclouddd.me, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
+  - {name: adi|0703 - 00301315, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: adi|0703 - | 5.77Mb, server: ban4.feiclouddd.me, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}}
+  - {name: 🇺🇸 adi|0703 - US_66, server: 104.25.52.187, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
+  - {name: 🇷🇺 adi|0703 - ip4莫斯科, server: 85.117.234.184, port: 19303, type: vmess, uuid: c3806abf-afaf-4ed1-8f7e-41a7ecdbb4e3, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 adi|0703 - 日本3, server: jpaws.huarenlife.top, port: 8888, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jpaws.huarenlife.top}}
+  - {name: adi|0703 - IT_2539, server: 82.102.26.117, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: adi|0703 - | 8.88Mb, server: ac2088.herokuapp.com, port: 443, type: vmess, uuid: d1babe08-f8ac-490b-b66f-9be27467f3cc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess, ws-headers: {Host: ac2088.herokuapp.com}}
+  - {name: adi|0703 - | 9.81Mb, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 adi|0703 - DE_5605, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: adi|0703 - CA, server: 138.197.174.245, port: 56443, type: ss, cipher: chacha20-ietf-poly1305, password: yuMqkGIx6Ia0}
+  - {name: 🇰🇷 adi|0703 - 韩国2, server: 54.180.96.67, port: 8888, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.180.96.67}}
+  - {name: adi|0703 - IT_2560, server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
+  - {name: adi|0703 - 卢森堡, server: 23.224.101.102, port: 443, type: vmess, uuid: 946ba5df-5771-4873-a3cb-892378526147, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.76126449.xyz}}
+  - {name: adi|0703 - ip1, server: 164.90.234.85, port: 18492, type: ss, cipher: chacha20-ietf-poly1305, password: fdRAl4scWDTg}
+  - {name: adi|0703 - | 9.91Mb, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇳🇱 adi|0703 - NL_3079, server: 46.182.107.82, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 46.182.107.82}}
+  - {name: 🇺🇸 adi|0703 - 美国 2, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇳🇱 adi|0703 - NL_3212, server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
+  - {name: 🇳🇱 adi|0703 - NL_264, server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 46.182.107.45}}
+  - {name: 🇺🇸 adi|0703 - US_63, server: 104.19.7.84, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
+  - {name: 🇳🇱 adi|0703 - 🇳🇱 Pool_🇳🇱NL_262, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b67947, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 46.182.107.39}}
+  - {name: 🇳🇱 adi|0703 - NL_270, server: 46.182.107.46, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 46.182.107.46}}
+  - {name: 🇺🇸 adi|0703 - US_652, server: euserv9p.ezddns.tk, port: 80, type: vmess, uuid: ca870483-fa7d-4f64-983a-6ed455143aca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /live, ws-headers: {Host: euserv9p.ezddns.tk}}
+  - {name: 🇬🇧 adi|0703 - UK, server: 167.99.192.30, port: 3567, type: ss, cipher: chacha20-ietf-poly1305, password: HGBdOKdcIer5}
+  - {name: 🇳🇱 adi|0703 - NL_268, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f68, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 46.182.107.37}}
+  - {name: 🇷🇺 adi|0703 - RU_646, server: free-russian01-cdn.xiaohouzi.club, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: adi|0703 - ip1 2, server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 adi|0703 - US_5388, server: rntwo.laoban666.xyz, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /27353486f3a1d4f/, ws-headers: {Host: rntwo.laoban666.xyz}}
+  - {name: 🇳🇱 adi|0703 - 荷兰23, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b67947, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.49696760.xyz}}
+  - {name: adi|0703 - GB_2044, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: adi|0703 - ip1 3, server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ}
+  - {name: adi|0703 - ip3 4, server: ping.pe, port: 443, type: vmess, uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /111111.online, ws-headers: {Host: by.6111.online}}
+  - {name: adi|0703 - SSR 2, server: euserv12p.ezddns.tk, port: 80, type: vmess, uuid: c0304bc1-f8ff-4108-9bc6-3415d16ae5e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv12p.ezddns.tk}}
+  - {name: 🇳🇱 adi|0703 - NL_3056, server: 46.182.107.44, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: 46.182.107.44}}
+  - {name: adi|0703 - |21.72Mb, server: qq13.feiclouddd.me, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: 🇳🇱 adi|0703 - 荷兰22, server: 46.182.107.46, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.27430248.xyz}}
+  - {name: 🇸🇬 adi|0703 - 新加坡3, server: 103.83.156.89, port: 8888, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 103.83.156.89}}
+  - {name: 🇺🇸 adi|0703 - US_70, server: 104.19.110.34, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
+  - {name: adi|0703 - SSR 3, server: euserv11p.ezddns.tk, port: 80, type: vmess, uuid: ffab7ea6-596d-4f88-daa5-4ec177f314a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.rar, ws-headers: {Host: euserv11p.ezddns.tk}}
+  - {name: 🇺🇸 adi|0703 - US_5389, server: 107.175.44.154, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /27353486f3a1d4f/, ws-headers: {Host: 107.175.44.154}}
+  - {name: 🇺🇸 adi|0703 - 美国DMIT11, server: 154.17.2.153, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇸🇬 adi|0703 - 新加坡1, server: 104.248.148.147, port: 21888, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 104.248.148.147}}
+  - {name: 🇺🇸 adi|0703 - US, server: 198.8.92.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇺🇸 adi|0703 - US 2, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
+  - {name: adi|0703 - vmess12, server: rntwo.laoban666.xyz, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /27353486f3a1d4f/, ws-headers: {Host: rntwo.laoban666.xyz}}
+  - {name: 🇺🇸 adi|0703 - US_5380, server: qq13.feiclouddd.me, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}}
+  - {name: adi|0703 - 198.147.22.87:33998, server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: adi|0703 - ip3 5, server: euserv18p.ezddns.tk, port: 80, type: vmess, uuid: 344c0b7d-2c35-4c95-8481-e2fc3c456a06, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.mp3, ws-headers: {Host: euserv18p.ezddns.tk}}
+  - {name: adi|0703 - ip3 6, server: euserv11p.ezddns.tk, port: 80, type: vmess, uuid: ffab7ea6-596d-4f88-daa5-4ec177f314a5, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /download.rar, ws-headers: {Host: euserv11p.ezddns.tk}}
+  - {name: adi|0703 - 154.17.1.251:18334, server: 154.17.1.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 🇺🇸 adi|0703 - US_654, server: euserv12p.ezddns.tk, port: 80, type: vmess, uuid: c0304bc1-f8ff-4108-9bc6-3415d16ae5e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv12p.ezddns.tk}}
+  - {name: 🇺🇸 adi|0703 - US_66 |22.65Mb, server: euserv17p.ezddns.tk, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
+  - {name: 🇺🇸 adi|0703 - US_4984, server: 66.115.175.37, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: adi|0703 - SSR 4, server: euserv9p.ezddns.tk, port: 80, type: vmess, uuid: ca870483-fa7d-4f64-983a-6ed455143aca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /live, ws-headers: {Host: euserv9p.ezddns.tk}}
+  - {name: 🇺🇸 adi|0703 - US_631, server: euserv7p.ezddns.tk, port: 80, type: vmess, uuid: 0b5aeb7c-e477-484f-8999-61772c43b43c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv7p.ezddns.tk}}
+  - {name: 🇺🇸 adi|0703 - US_68, server: 104.17.21.243, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
+  - {name: 🇺🇸 adi|0703 - US_648, server: euserv18p.ezddns.tk, port: 80, type: vmess, uuid: 344c0b7d-2c35-4c95-8481-e2fc3c456a06, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /audio.mp3, ws-headers: {Host: euserv18p.ezddns.tk}}
+  - {name: 🇷🇺 adi|0703s - 俄罗斯A, server: 91.206.92.99, port: 12855, type: ssr, cipher: none, password: lncn.org w9, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇷🇺 adi|0703s - 俄罗斯B, server: 194.5.78.112, port: 12855, type: ssr, cipher: none, password: lncn.org w9, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇷🇺 adi|0703s - 俄罗斯C, server: 194.50.171.31, port: 12855, type: ssr, cipher: none, password: lncn.org w9, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇷🇺 adi|0703s - 俄罗斯D, server: 45.130.145.236, port: 12855, type: ssr, cipher: none, password: lncn.org w9, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇷🇺 adi|0703s - 俄罗斯E, server: 45.130.147.131, port: 12855, type: ssr, cipher: none, password: lncn.org u7, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇷🇺 adi|0703s - 俄罗斯F, server: 46.29.164.88, port: 12855, type: ssr, cipher: none, password: lncn.org u7, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇷🇺 adi|0703s - 俄罗斯G, server: 45.8.158.184, port: 12855, type: ssr, cipher: none, password: lncn.org u7, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇷🇺 adi|0703s - 俄罗斯H, server: 45.89.229.66, port: 12855, type: ssr, cipher: none, password: lncn.org u7, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇷🇺 adi|0703s - 俄罗斯I, server: 46.17.46.140, port: 12855, type: ssr, cipher: none, password: lncn.org 2w, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇷🇺 adi|0703s - 俄罗斯J, server: 176.32.33.51, port: 12855, type: ssr, cipher: none, password: lncn.org 2w, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇷🇺 adi|0703s - 俄罗斯K, server: 46.29.161.201, port: 12855, type: ssr, cipher: none, password: lncn.org 2w, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇷🇺 adi|0703s - 俄罗斯L, server: 46.17.47.210, port: 12855, type: ssr, cipher: none, password: lncn.org 2w, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇷🇺 adi|0703s - 俄罗斯M, server: 45.130.145.116, port: 12855, type: ssr, cipher: none, password: lncn.org 2t, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇷🇺 adi|0703s - 俄罗斯N, server: 45.89.229.223, port: 12855, type: ssr, cipher: none, password: lncn.org 2t, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇷🇺 adi|0703s - 俄罗斯O, server: 2.56.240.61, port: 12855, type: ssr, cipher: none, password: lncn.org 2t, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇷🇺 adi|0703s - 俄罗斯P, server: 46.29.167.189, port: 12855, type: ssr, cipher: none, password: lncn.org 2t, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: 🇭🇰 adi|0703s - hk-node01, server: dg-hk-node01.linkthink.app, port: 10210, type: ssr, cipher: none, password: abK09D1FnV, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: ""}
+  - {name: 🇭🇰 adi|0703s - hk-node02, server: dg-hk-node02.linkthink.app, port: 12025, type: ssr, cipher: none, password: e5opjuLDEQ, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: ""}
+  - {name: adi|0703s - 10120, server: 42.157.196.103, port: 10120, type: ssr, cipher: none, password: Yk4UdrOyQg, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: ""}
+  - {name: adi|0703s - 10967, server: 42.157.196.104, port: 10967, type: ssr, cipher: none, password: vCmp8ALih6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: adi|0703s - 20037, server: 42.157.196.104, port: 20037, type: ssr, cipher: none, password: CWSZscLkjf, protocol: origin, obfs: http_post, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -42,161 +109,406 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇭🇰 IPLC沪港国际专线
-      - 🇭🇰 IPLC沪港国际专线 2
-      - 🇭🇰 IPLC沪港国际专线 3
-      - IPLC沪俄国际专线
-      - 🇭🇰 香港智能优选线路
-      - 🇺🇲 美国01丨原生IP丨
-      - 🇺🇲 美国02丨原生IP丨
-      - 🇰🇷 韩国02丨高速中转丨
-      - 🇰🇷 韩国03丨高速中转丨
-      - 🇭🇰 香港03丨高速中转丨
-      - 🇭🇰 HK1(IPLC)-香港国际专线
-      - 🇭🇰 HK1(Auto)-香港智选专线
-      - 🇭🇰 HK1(Relay)-香港中继专线
-      - 🇨🇳 TW1(Relay)-台湾中继专线
-      - 🇯🇵 JP1(Relay)-日本中继专线
-      - 🇯🇵 JP2(Relay)-日本中继专线
-      - 🇰🇷 KR1(Relay)-韩国中继专线
-      - 🇸🇬 SG1(Relay)-新加坡中继专线
-      - 🇷🇺 RU1(Relay)-俄罗斯中继专线
-      - 🇺🇲 US1(Relay)-美国中继专线
-      - 🇭🇰 HK1(Direct)-香港直连专线
-      - 🇭🇰 HK2(Direct)-香港直连专线
-      - 🇭🇰 HK3(Direct)-香港直连专线
-      - 🇺🇲 美国原生节点
-      - 🇰🇷 韩国
-      - 🇺🇲 美国
-      - 🇺🇲 美国 2
-      - 🇯🇵 日本
-      - 备用
-      - 备用 2
-      - 42.157.196.103:10394
-      - 42.157.196.104:10863
-      - dg-hk-node01.linkthink.app:10413
-      - dg-hk-node02.linkthink.app:12565
-      - 42.157.196.104:20129
+      - 🇯🇵 adi|0703v - 日本-04 免流
+      - adi|0622 - 埃及
+      - 🇷🇴 adi|0622 - 罗马尼亚
+      - 🇷🇴 adi|0622 - 罗马尼亚 2
+      - adi|0701 - ip1
+      - adi|0701 - ip1 2
+      - adi|0703 - SSR
+      - 🇺🇸 adi|0703 - 美国
+      - adi|0703 - ip3
+      - 🇺🇸 adi|0703 - 美国DMIT10
+      - 🇺🇸 adi|0703 - 美国DMIT14
+      - adi|0703 - 154.17.2.31:18333
+      - adi|0703 - ip3 2
+      - adi|0703 - ip3 3
+      - adi|0703 - |21.48Mb
+      - adi|0703 - GER 10
+      - adi|0703 - | 6.60Mb
+      - 🇺🇸 adi|0703 - US_5400
+      - adi|0703 - 00301315
+      - adi|0703 - | 5.77Mb
+      - 🇺🇸 adi|0703 - US_66
+      - 🇷🇺 adi|0703 - ip4莫斯科
+      - 🇯🇵 adi|0703 - 日本3
+      - adi|0703 - IT_2539
+      - adi|0703 - | 8.88Mb
+      - adi|0703 - | 9.81Mb
+      - 🇩🇪 adi|0703 - DE_5605
+      - adi|0703 - CA
+      - 🇰🇷 adi|0703 - 韩国2
+      - adi|0703 - IT_2560
+      - adi|0703 - 卢森堡
+      - adi|0703 - ip1
+      - adi|0703 - | 9.91Mb
+      - 🇳🇱 adi|0703 - NL_3079
+      - 🇺🇸 adi|0703 - 美国 2
+      - 🇳🇱 adi|0703 - NL_3212
+      - 🇳🇱 adi|0703 - NL_264
+      - 🇺🇸 adi|0703 - US_63
+      - 🇳🇱 adi|0703 - 🇳🇱 Pool_🇳🇱NL_262
+      - 🇳🇱 adi|0703 - NL_270
+      - 🇺🇸 adi|0703 - US_652
+      - 🇬🇧 adi|0703 - UK
+      - 🇳🇱 adi|0703 - NL_268
+      - 🇷🇺 adi|0703 - RU_646
+      - adi|0703 - ip1 2
+      - 🇺🇸 adi|0703 - US_5388
+      - 🇳🇱 adi|0703 - 荷兰23
+      - adi|0703 - GB_2044
+      - adi|0703 - ip1 3
+      - adi|0703 - ip3 4
+      - adi|0703 - SSR 2
+      - 🇳🇱 adi|0703 - NL_3056
+      - adi|0703 - |21.72Mb
+      - 🇳🇱 adi|0703 - 荷兰22
+      - 🇸🇬 adi|0703 - 新加坡3
+      - 🇺🇸 adi|0703 - US_70
+      - adi|0703 - SSR 3
+      - 🇺🇸 adi|0703 - US_5389
+      - 🇺🇸 adi|0703 - 美国DMIT11
+      - 🇸🇬 adi|0703 - 新加坡1
+      - 🇺🇸 adi|0703 - US
+      - 🇺🇸 adi|0703 - US 2
+      - adi|0703 - vmess12
+      - 🇺🇸 adi|0703 - US_5380
+      - adi|0703 - 198.147.22.87:33998
+      - adi|0703 - ip3 5
+      - adi|0703 - ip3 6
+      - adi|0703 - 154.17.1.251:18334
+      - 🇺🇸 adi|0703 - US_654
+      - 🇺🇸 adi|0703 - US_66 |22.65Mb
+      - 🇺🇸 adi|0703 - US_4984
+      - adi|0703 - SSR 4
+      - 🇺🇸 adi|0703 - US_631
+      - 🇺🇸 adi|0703 - US_68
+      - 🇺🇸 adi|0703 - US_648
+      - 🇷🇺 adi|0703s - 俄罗斯A
+      - 🇷🇺 adi|0703s - 俄罗斯B
+      - 🇷🇺 adi|0703s - 俄罗斯C
+      - 🇷🇺 adi|0703s - 俄罗斯D
+      - 🇷🇺 adi|0703s - 俄罗斯E
+      - 🇷🇺 adi|0703s - 俄罗斯F
+      - 🇷🇺 adi|0703s - 俄罗斯G
+      - 🇷🇺 adi|0703s - 俄罗斯H
+      - 🇷🇺 adi|0703s - 俄罗斯I
+      - 🇷🇺 adi|0703s - 俄罗斯J
+      - 🇷🇺 adi|0703s - 俄罗斯K
+      - 🇷🇺 adi|0703s - 俄罗斯L
+      - 🇷🇺 adi|0703s - 俄罗斯M
+      - 🇷🇺 adi|0703s - 俄罗斯N
+      - 🇷🇺 adi|0703s - 俄罗斯O
+      - 🇷🇺 adi|0703s - 俄罗斯P
+      - 🇭🇰 adi|0703s - hk-node01
+      - 🇭🇰 adi|0703s - hk-node02
+      - adi|0703s - 10120
+      - adi|0703s - 10967
+      - adi|0703s - 20037
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
+    tolerance: 50
     proxies:
-      - 🇭🇰 IPLC沪港国际专线
-      - 🇭🇰 IPLC沪港国际专线 2
-      - 🇭🇰 IPLC沪港国际专线 3
-      - IPLC沪俄国际专线
-      - 🇭🇰 香港智能优选线路
-      - 🇺🇲 美国01丨原生IP丨
-      - 🇺🇲 美国02丨原生IP丨
-      - 🇰🇷 韩国02丨高速中转丨
-      - 🇰🇷 韩国03丨高速中转丨
-      - 🇭🇰 香港03丨高速中转丨
-      - 🇭🇰 HK1(IPLC)-香港国际专线
-      - 🇭🇰 HK1(Auto)-香港智选专线
-      - 🇭🇰 HK1(Relay)-香港中继专线
-      - 🇨🇳 TW1(Relay)-台湾中继专线
-      - 🇯🇵 JP1(Relay)-日本中继专线
-      - 🇯🇵 JP2(Relay)-日本中继专线
-      - 🇰🇷 KR1(Relay)-韩国中继专线
-      - 🇸🇬 SG1(Relay)-新加坡中继专线
-      - 🇷🇺 RU1(Relay)-俄罗斯中继专线
-      - 🇺🇲 US1(Relay)-美国中继专线
-      - 🇭🇰 HK1(Direct)-香港直连专线
-      - 🇭🇰 HK2(Direct)-香港直连专线
-      - 🇭🇰 HK3(Direct)-香港直连专线
-      - 🇺🇲 美国原生节点
-      - 🇰🇷 韩国
-      - 🇺🇲 美国
-      - 🇺🇲 美国 2
-      - 🇯🇵 日本
-      - 备用
-      - 备用 2
-      - 42.157.196.103:10394
-      - 42.157.196.104:10863
-      - dg-hk-node01.linkthink.app:10413
-      - dg-hk-node02.linkthink.app:12565
-      - 42.157.196.104:20129
+      - 🇯🇵 adi|0703v - 日本-04 免流
+      - adi|0622 - 埃及
+      - 🇷🇴 adi|0622 - 罗马尼亚
+      - 🇷🇴 adi|0622 - 罗马尼亚 2
+      - adi|0701 - ip1
+      - adi|0701 - ip1 2
+      - adi|0703 - SSR
+      - 🇺🇸 adi|0703 - 美国
+      - adi|0703 - ip3
+      - 🇺🇸 adi|0703 - 美国DMIT10
+      - 🇺🇸 adi|0703 - 美国DMIT14
+      - adi|0703 - 154.17.2.31:18333
+      - adi|0703 - ip3 2
+      - adi|0703 - ip3 3
+      - adi|0703 - |21.48Mb
+      - adi|0703 - GER 10
+      - adi|0703 - | 6.60Mb
+      - 🇺🇸 adi|0703 - US_5400
+      - adi|0703 - 00301315
+      - adi|0703 - | 5.77Mb
+      - 🇺🇸 adi|0703 - US_66
+      - 🇷🇺 adi|0703 - ip4莫斯科
+      - 🇯🇵 adi|0703 - 日本3
+      - adi|0703 - IT_2539
+      - adi|0703 - | 8.88Mb
+      - adi|0703 - | 9.81Mb
+      - 🇩🇪 adi|0703 - DE_5605
+      - adi|0703 - CA
+      - 🇰🇷 adi|0703 - 韩国2
+      - adi|0703 - IT_2560
+      - adi|0703 - 卢森堡
+      - adi|0703 - ip1
+      - adi|0703 - | 9.91Mb
+      - 🇳🇱 adi|0703 - NL_3079
+      - 🇺🇸 adi|0703 - 美国 2
+      - 🇳🇱 adi|0703 - NL_3212
+      - 🇳🇱 adi|0703 - NL_264
+      - 🇺🇸 adi|0703 - US_63
+      - 🇳🇱 adi|0703 - 🇳🇱 Pool_🇳🇱NL_262
+      - 🇳🇱 adi|0703 - NL_270
+      - 🇺🇸 adi|0703 - US_652
+      - 🇬🇧 adi|0703 - UK
+      - 🇳🇱 adi|0703 - NL_268
+      - 🇷🇺 adi|0703 - RU_646
+      - adi|0703 - ip1 2
+      - 🇺🇸 adi|0703 - US_5388
+      - 🇳🇱 adi|0703 - 荷兰23
+      - adi|0703 - GB_2044
+      - adi|0703 - ip1 3
+      - adi|0703 - ip3 4
+      - adi|0703 - SSR 2
+      - 🇳🇱 adi|0703 - NL_3056
+      - adi|0703 - |21.72Mb
+      - 🇳🇱 adi|0703 - 荷兰22
+      - 🇸🇬 adi|0703 - 新加坡3
+      - 🇺🇸 adi|0703 - US_70
+      - adi|0703 - SSR 3
+      - 🇺🇸 adi|0703 - US_5389
+      - 🇺🇸 adi|0703 - 美国DMIT11
+      - 🇸🇬 adi|0703 - 新加坡1
+      - 🇺🇸 adi|0703 - US
+      - 🇺🇸 adi|0703 - US 2
+      - adi|0703 - vmess12
+      - 🇺🇸 adi|0703 - US_5380
+      - adi|0703 - 198.147.22.87:33998
+      - adi|0703 - ip3 5
+      - adi|0703 - ip3 6
+      - adi|0703 - 154.17.1.251:18334
+      - 🇺🇸 adi|0703 - US_654
+      - 🇺🇸 adi|0703 - US_66 |22.65Mb
+      - 🇺🇸 adi|0703 - US_4984
+      - adi|0703 - SSR 4
+      - 🇺🇸 adi|0703 - US_631
+      - 🇺🇸 adi|0703 - US_68
+      - 🇺🇸 adi|0703 - US_648
+      - 🇷🇺 adi|0703s - 俄罗斯A
+      - 🇷🇺 adi|0703s - 俄罗斯B
+      - 🇷🇺 adi|0703s - 俄罗斯C
+      - 🇷🇺 adi|0703s - 俄罗斯D
+      - 🇷🇺 adi|0703s - 俄罗斯E
+      - 🇷🇺 adi|0703s - 俄罗斯F
+      - 🇷🇺 adi|0703s - 俄罗斯G
+      - 🇷🇺 adi|0703s - 俄罗斯H
+      - 🇷🇺 adi|0703s - 俄罗斯I
+      - 🇷🇺 adi|0703s - 俄罗斯J
+      - 🇷🇺 adi|0703s - 俄罗斯K
+      - 🇷🇺 adi|0703s - 俄罗斯L
+      - 🇷🇺 adi|0703s - 俄罗斯M
+      - 🇷🇺 adi|0703s - 俄罗斯N
+      - 🇷🇺 adi|0703s - 俄罗斯O
+      - 🇷🇺 adi|0703s - 俄罗斯P
+      - 🇭🇰 adi|0703s - hk-node01
+      - 🇭🇰 adi|0703s - hk-node02
+      - adi|0703s - 10120
+      - adi|0703s - 10967
+      - adi|0703s - 20037
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇭🇰 IPLC沪港国际专线
-      - 🇭🇰 IPLC沪港国际专线 2
-      - 🇭🇰 IPLC沪港国际专线 3
-      - IPLC沪俄国际专线
-      - 🇭🇰 香港智能优选线路
-      - 🇺🇲 美国01丨原生IP丨
-      - 🇺🇲 美国02丨原生IP丨
-      - 🇰🇷 韩国02丨高速中转丨
-      - 🇰🇷 韩国03丨高速中转丨
-      - 🇭🇰 香港03丨高速中转丨
-      - 🇭🇰 HK1(IPLC)-香港国际专线
-      - 🇭🇰 HK1(Auto)-香港智选专线
-      - 🇭🇰 HK1(Relay)-香港中继专线
-      - 🇨🇳 TW1(Relay)-台湾中继专线
-      - 🇯🇵 JP1(Relay)-日本中继专线
-      - 🇯🇵 JP2(Relay)-日本中继专线
-      - 🇰🇷 KR1(Relay)-韩国中继专线
-      - 🇸🇬 SG1(Relay)-新加坡中继专线
-      - 🇷🇺 RU1(Relay)-俄罗斯中继专线
-      - 🇺🇲 US1(Relay)-美国中继专线
-      - 🇭🇰 HK1(Direct)-香港直连专线
-      - 🇭🇰 HK2(Direct)-香港直连专线
-      - 🇭🇰 HK3(Direct)-香港直连专线
-      - 🇺🇲 美国原生节点
-      - 🇰🇷 韩国
-      - 🇺🇲 美国
-      - 🇺🇲 美国 2
-      - 🇯🇵 日本
-      - 备用
-      - 备用 2
-      - 42.157.196.103:10394
-      - 42.157.196.104:10863
-      - dg-hk-node01.linkthink.app:10413
-      - dg-hk-node02.linkthink.app:12565
-      - 42.157.196.104:20129
+      - 🇯🇵 adi|0703v - 日本-04 免流
+      - adi|0622 - 埃及
+      - 🇷🇴 adi|0622 - 罗马尼亚
+      - 🇷🇴 adi|0622 - 罗马尼亚 2
+      - adi|0701 - ip1
+      - adi|0701 - ip1 2
+      - adi|0703 - SSR
+      - 🇺🇸 adi|0703 - 美国
+      - adi|0703 - ip3
+      - 🇺🇸 adi|0703 - 美国DMIT10
+      - 🇺🇸 adi|0703 - 美国DMIT14
+      - adi|0703 - 154.17.2.31:18333
+      - adi|0703 - ip3 2
+      - adi|0703 - ip3 3
+      - adi|0703 - |21.48Mb
+      - adi|0703 - GER 10
+      - adi|0703 - | 6.60Mb
+      - 🇺🇸 adi|0703 - US_5400
+      - adi|0703 - 00301315
+      - adi|0703 - | 5.77Mb
+      - 🇺🇸 adi|0703 - US_66
+      - 🇷🇺 adi|0703 - ip4莫斯科
+      - 🇯🇵 adi|0703 - 日本3
+      - adi|0703 - IT_2539
+      - adi|0703 - | 8.88Mb
+      - adi|0703 - | 9.81Mb
+      - 🇩🇪 adi|0703 - DE_5605
+      - adi|0703 - CA
+      - 🇰🇷 adi|0703 - 韩国2
+      - adi|0703 - IT_2560
+      - adi|0703 - 卢森堡
+      - adi|0703 - ip1
+      - adi|0703 - | 9.91Mb
+      - 🇳🇱 adi|0703 - NL_3079
+      - 🇺🇸 adi|0703 - 美国 2
+      - 🇳🇱 adi|0703 - NL_3212
+      - 🇳🇱 adi|0703 - NL_264
+      - 🇺🇸 adi|0703 - US_63
+      - 🇳🇱 adi|0703 - 🇳🇱 Pool_🇳🇱NL_262
+      - 🇳🇱 adi|0703 - NL_270
+      - 🇺🇸 adi|0703 - US_652
+      - 🇬🇧 adi|0703 - UK
+      - 🇳🇱 adi|0703 - NL_268
+      - 🇷🇺 adi|0703 - RU_646
+      - adi|0703 - ip1 2
+      - 🇺🇸 adi|0703 - US_5388
+      - 🇳🇱 adi|0703 - 荷兰23
+      - adi|0703 - GB_2044
+      - adi|0703 - ip1 3
+      - adi|0703 - ip3 4
+      - adi|0703 - SSR 2
+      - 🇳🇱 adi|0703 - NL_3056
+      - adi|0703 - |21.72Mb
+      - 🇳🇱 adi|0703 - 荷兰22
+      - 🇸🇬 adi|0703 - 新加坡3
+      - 🇺🇸 adi|0703 - US_70
+      - adi|0703 - SSR 3
+      - 🇺🇸 adi|0703 - US_5389
+      - 🇺🇸 adi|0703 - 美国DMIT11
+      - 🇸🇬 adi|0703 - 新加坡1
+      - 🇺🇸 adi|0703 - US
+      - 🇺🇸 adi|0703 - US 2
+      - adi|0703 - vmess12
+      - 🇺🇸 adi|0703 - US_5380
+      - adi|0703 - 198.147.22.87:33998
+      - adi|0703 - ip3 5
+      - adi|0703 - ip3 6
+      - adi|0703 - 154.17.1.251:18334
+      - 🇺🇸 adi|0703 - US_654
+      - 🇺🇸 adi|0703 - US_66 |22.65Mb
+      - 🇺🇸 adi|0703 - US_4984
+      - adi|0703 - SSR 4
+      - 🇺🇸 adi|0703 - US_631
+      - 🇺🇸 adi|0703 - US_68
+      - 🇺🇸 adi|0703 - US_648
+      - 🇷🇺 adi|0703s - 俄罗斯A
+      - 🇷🇺 adi|0703s - 俄罗斯B
+      - 🇷🇺 adi|0703s - 俄罗斯C
+      - 🇷🇺 adi|0703s - 俄罗斯D
+      - 🇷🇺 adi|0703s - 俄罗斯E
+      - 🇷🇺 adi|0703s - 俄罗斯F
+      - 🇷🇺 adi|0703s - 俄罗斯G
+      - 🇷🇺 adi|0703s - 俄罗斯H
+      - 🇷🇺 adi|0703s - 俄罗斯I
+      - 🇷🇺 adi|0703s - 俄罗斯J
+      - 🇷🇺 adi|0703s - 俄罗斯K
+      - 🇷🇺 adi|0703s - 俄罗斯L
+      - 🇷🇺 adi|0703s - 俄罗斯M
+      - 🇷🇺 adi|0703s - 俄罗斯N
+      - 🇷🇺 adi|0703s - 俄罗斯O
+      - 🇷🇺 adi|0703s - 俄罗斯P
+      - 🇭🇰 adi|0703s - hk-node01
+      - 🇭🇰 adi|0703s - hk-node02
+      - adi|0703s - 10120
+      - adi|0703s - 10967
+      - adi|0703s - 20037
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇭🇰 IPLC沪港国际专线
-      - 🇭🇰 IPLC沪港国际专线 2
-      - 🇭🇰 IPLC沪港国际专线 3
-      - IPLC沪俄国际专线
-      - 🇭🇰 香港智能优选线路
-      - 🇺🇲 美国01丨原生IP丨
-      - 🇺🇲 美国02丨原生IP丨
-      - 🇰🇷 韩国02丨高速中转丨
-      - 🇰🇷 韩国03丨高速中转丨
-      - 🇭🇰 香港03丨高速中转丨
-      - 🇭🇰 HK1(IPLC)-香港国际专线
-      - 🇭🇰 HK1(Auto)-香港智选专线
-      - 🇭🇰 HK1(Relay)-香港中继专线
-      - 🇨🇳 TW1(Relay)-台湾中继专线
-      - 🇯🇵 JP1(Relay)-日本中继专线
-      - 🇯🇵 JP2(Relay)-日本中继专线
-      - 🇰🇷 KR1(Relay)-韩国中继专线
-      - 🇸🇬 SG1(Relay)-新加坡中继专线
-      - 🇷🇺 RU1(Relay)-俄罗斯中继专线
-      - 🇺🇲 US1(Relay)-美国中继专线
-      - 🇭🇰 HK1(Direct)-香港直连专线
-      - 🇭🇰 HK2(Direct)-香港直连专线
-      - 🇭🇰 HK3(Direct)-香港直连专线
-      - 🇺🇲 美国原生节点
-      - 🇰🇷 韩国
-      - 🇺🇲 美国
-      - 🇺🇲 美国 2
-      - 🇯🇵 日本
-      - 备用
-      - 备用 2
-      - 42.157.196.103:10394
-      - 42.157.196.104:10863
-      - dg-hk-node01.linkthink.app:10413
-      - dg-hk-node02.linkthink.app:12565
-      - 42.157.196.104:20129
+      - 🇯🇵 adi|0703v - 日本-04 免流
+      - adi|0622 - 埃及
+      - 🇷🇴 adi|0622 - 罗马尼亚
+      - 🇷🇴 adi|0622 - 罗马尼亚 2
+      - adi|0701 - ip1
+      - adi|0701 - ip1 2
+      - adi|0703 - SSR
+      - 🇺🇸 adi|0703 - 美国
+      - adi|0703 - ip3
+      - 🇺🇸 adi|0703 - 美国DMIT10
+      - 🇺🇸 adi|0703 - 美国DMIT14
+      - adi|0703 - 154.17.2.31:18333
+      - adi|0703 - ip3 2
+      - adi|0703 - ip3 3
+      - adi|0703 - |21.48Mb
+      - adi|0703 - GER 10
+      - adi|0703 - | 6.60Mb
+      - 🇺🇸 adi|0703 - US_5400
+      - adi|0703 - 00301315
+      - adi|0703 - | 5.77Mb
+      - 🇺🇸 adi|0703 - US_66
+      - 🇷🇺 adi|0703 - ip4莫斯科
+      - 🇯🇵 adi|0703 - 日本3
+      - adi|0703 - IT_2539
+      - adi|0703 - | 8.88Mb
+      - adi|0703 - | 9.81Mb
+      - 🇩🇪 adi|0703 - DE_5605
+      - adi|0703 - CA
+      - 🇰🇷 adi|0703 - 韩国2
+      - adi|0703 - IT_2560
+      - adi|0703 - 卢森堡
+      - adi|0703 - ip1
+      - adi|0703 - | 9.91Mb
+      - 🇳🇱 adi|0703 - NL_3079
+      - 🇺🇸 adi|0703 - 美国 2
+      - 🇳🇱 adi|0703 - NL_3212
+      - 🇳🇱 adi|0703 - NL_264
+      - 🇺🇸 adi|0703 - US_63
+      - 🇳🇱 adi|0703 - 🇳🇱 Pool_🇳🇱NL_262
+      - 🇳🇱 adi|0703 - NL_270
+      - 🇺🇸 adi|0703 - US_652
+      - 🇬🇧 adi|0703 - UK
+      - 🇳🇱 adi|0703 - NL_268
+      - 🇷🇺 adi|0703 - RU_646
+      - adi|0703 - ip1 2
+      - 🇺🇸 adi|0703 - US_5388
+      - 🇳🇱 adi|0703 - 荷兰23
+      - adi|0703 - GB_2044
+      - adi|0703 - ip1 3
+      - adi|0703 - ip3 4
+      - adi|0703 - SSR 2
+      - 🇳🇱 adi|0703 - NL_3056
+      - adi|0703 - |21.72Mb
+      - 🇳🇱 adi|0703 - 荷兰22
+      - 🇸🇬 adi|0703 - 新加坡3
+      - 🇺🇸 adi|0703 - US_70
+      - adi|0703 - SSR 3
+      - 🇺🇸 adi|0703 - US_5389
+      - 🇺🇸 adi|0703 - 美国DMIT11
+      - 🇸🇬 adi|0703 - 新加坡1
+      - 🇺🇸 adi|0703 - US
+      - 🇺🇸 adi|0703 - US 2
+      - adi|0703 - vmess12
+      - 🇺🇸 adi|0703 - US_5380
+      - adi|0703 - 198.147.22.87:33998
+      - adi|0703 - ip3 5
+      - adi|0703 - ip3 6
+      - adi|0703 - 154.17.1.251:18334
+      - 🇺🇸 adi|0703 - US_654
+      - 🇺🇸 adi|0703 - US_66 |22.65Mb
+      - 🇺🇸 adi|0703 - US_4984
+      - adi|0703 - SSR 4
+      - 🇺🇸 adi|0703 - US_631
+      - 🇺🇸 adi|0703 - US_68
+      - 🇺🇸 adi|0703 - US_648
+      - 🇷🇺 adi|0703s - 俄罗斯A
+      - 🇷🇺 adi|0703s - 俄罗斯B
+      - 🇷🇺 adi|0703s - 俄罗斯C
+      - 🇷🇺 adi|0703s - 俄罗斯D
+      - 🇷🇺 adi|0703s - 俄罗斯E
+      - 🇷🇺 adi|0703s - 俄罗斯F
+      - 🇷🇺 adi|0703s - 俄罗斯G
+      - 🇷🇺 adi|0703s - 俄罗斯H
+      - 🇷🇺 adi|0703s - 俄罗斯I
+      - 🇷🇺 adi|0703s - 俄罗斯J
+      - 🇷🇺 adi|0703s - 俄罗斯K
+      - 🇷🇺 adi|0703s - 俄罗斯L
+      - 🇷🇺 adi|0703s - 俄罗斯M
+      - 🇷🇺 adi|0703s - 俄罗斯N
+      - 🇷🇺 adi|0703s - 俄罗斯O
+      - 🇷🇺 adi|0703s - 俄罗斯P
+      - 🇭🇰 adi|0703s - hk-node01
+      - 🇭🇰 adi|0703s - hk-node02
+      - adi|0703s - 10120
+      - adi|0703s - 10967
+      - adi|0703s - 20037
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -216,41 +528,102 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇭🇰 IPLC沪港国际专线
-      - 🇭🇰 IPLC沪港国际专线 2
-      - 🇭🇰 IPLC沪港国际专线 3
-      - IPLC沪俄国际专线
-      - 🇭🇰 香港智能优选线路
-      - 🇺🇲 美国01丨原生IP丨
-      - 🇺🇲 美国02丨原生IP丨
-      - 🇰🇷 韩国02丨高速中转丨
-      - 🇰🇷 韩国03丨高速中转丨
-      - 🇭🇰 香港03丨高速中转丨
-      - 🇭🇰 HK1(IPLC)-香港国际专线
-      - 🇭🇰 HK1(Auto)-香港智选专线
-      - 🇭🇰 HK1(Relay)-香港中继专线
-      - 🇨🇳 TW1(Relay)-台湾中继专线
-      - 🇯🇵 JP1(Relay)-日本中继专线
-      - 🇯🇵 JP2(Relay)-日本中继专线
-      - 🇰🇷 KR1(Relay)-韩国中继专线
-      - 🇸🇬 SG1(Relay)-新加坡中继专线
-      - 🇷🇺 RU1(Relay)-俄罗斯中继专线
-      - 🇺🇲 US1(Relay)-美国中继专线
-      - 🇭🇰 HK1(Direct)-香港直连专线
-      - 🇭🇰 HK2(Direct)-香港直连专线
-      - 🇭🇰 HK3(Direct)-香港直连专线
-      - 🇺🇲 美国原生节点
-      - 🇰🇷 韩国
-      - 🇺🇲 美国
-      - 🇺🇲 美国 2
-      - 🇯🇵 日本
-      - 备用
-      - 备用 2
-      - 42.157.196.103:10394
-      - 42.157.196.104:10863
-      - dg-hk-node01.linkthink.app:10413
-      - dg-hk-node02.linkthink.app:12565
-      - 42.157.196.104:20129
+      - 🇯🇵 adi|0703v - 日本-04 免流
+      - adi|0622 - 埃及
+      - 🇷🇴 adi|0622 - 罗马尼亚
+      - 🇷🇴 adi|0622 - 罗马尼亚 2
+      - adi|0701 - ip1
+      - adi|0701 - ip1 2
+      - adi|0703 - SSR
+      - 🇺🇸 adi|0703 - 美国
+      - adi|0703 - ip3
+      - 🇺🇸 adi|0703 - 美国DMIT10
+      - 🇺🇸 adi|0703 - 美国DMIT14
+      - adi|0703 - 154.17.2.31:18333
+      - adi|0703 - ip3 2
+      - adi|0703 - ip3 3
+      - adi|0703 - |21.48Mb
+      - adi|0703 - GER 10
+      - adi|0703 - | 6.60Mb
+      - 🇺🇸 adi|0703 - US_5400
+      - adi|0703 - 00301315
+      - adi|0703 - | 5.77Mb
+      - 🇺🇸 adi|0703 - US_66
+      - 🇷🇺 adi|0703 - ip4莫斯科
+      - 🇯🇵 adi|0703 - 日本3
+      - adi|0703 - IT_2539
+      - adi|0703 - | 8.88Mb
+      - adi|0703 - | 9.81Mb
+      - 🇩🇪 adi|0703 - DE_5605
+      - adi|0703 - CA
+      - 🇰🇷 adi|0703 - 韩国2
+      - adi|0703 - IT_2560
+      - adi|0703 - 卢森堡
+      - adi|0703 - ip1
+      - adi|0703 - | 9.91Mb
+      - 🇳🇱 adi|0703 - NL_3079
+      - 🇺🇸 adi|0703 - 美国 2
+      - 🇳🇱 adi|0703 - NL_3212
+      - 🇳🇱 adi|0703 - NL_264
+      - 🇺🇸 adi|0703 - US_63
+      - 🇳🇱 adi|0703 - 🇳🇱 Pool_🇳🇱NL_262
+      - 🇳🇱 adi|0703 - NL_270
+      - 🇺🇸 adi|0703 - US_652
+      - 🇬🇧 adi|0703 - UK
+      - 🇳🇱 adi|0703 - NL_268
+      - 🇷🇺 adi|0703 - RU_646
+      - adi|0703 - ip1 2
+      - 🇺🇸 adi|0703 - US_5388
+      - 🇳🇱 adi|0703 - 荷兰23
+      - adi|0703 - GB_2044
+      - adi|0703 - ip1 3
+      - adi|0703 - ip3 4
+      - adi|0703 - SSR 2
+      - 🇳🇱 adi|0703 - NL_3056
+      - adi|0703 - |21.72Mb
+      - 🇳🇱 adi|0703 - 荷兰22
+      - 🇸🇬 adi|0703 - 新加坡3
+      - 🇺🇸 adi|0703 - US_70
+      - adi|0703 - SSR 3
+      - 🇺🇸 adi|0703 - US_5389
+      - 🇺🇸 adi|0703 - 美国DMIT11
+      - 🇸🇬 adi|0703 - 新加坡1
+      - 🇺🇸 adi|0703 - US
+      - 🇺🇸 adi|0703 - US 2
+      - adi|0703 - vmess12
+      - 🇺🇸 adi|0703 - US_5380
+      - adi|0703 - 198.147.22.87:33998
+      - adi|0703 - ip3 5
+      - adi|0703 - ip3 6
+      - adi|0703 - 154.17.1.251:18334
+      - 🇺🇸 adi|0703 - US_654
+      - 🇺🇸 adi|0703 - US_66 |22.65Mb
+      - 🇺🇸 adi|0703 - US_4984
+      - adi|0703 - SSR 4
+      - 🇺🇸 adi|0703 - US_631
+      - 🇺🇸 adi|0703 - US_68
+      - 🇺🇸 adi|0703 - US_648
+      - 🇷🇺 adi|0703s - 俄罗斯A
+      - 🇷🇺 adi|0703s - 俄罗斯B
+      - 🇷🇺 adi|0703s - 俄罗斯C
+      - 🇷🇺 adi|0703s - 俄罗斯D
+      - 🇷🇺 adi|0703s - 俄罗斯E
+      - 🇷🇺 adi|0703s - 俄罗斯F
+      - 🇷🇺 adi|0703s - 俄罗斯G
+      - 🇷🇺 adi|0703s - 俄罗斯H
+      - 🇷🇺 adi|0703s - 俄罗斯I
+      - 🇷🇺 adi|0703s - 俄罗斯J
+      - 🇷🇺 adi|0703s - 俄罗斯K
+      - 🇷🇺 adi|0703s - 俄罗斯L
+      - 🇷🇺 adi|0703s - 俄罗斯M
+      - 🇷🇺 adi|0703s - 俄罗斯N
+      - 🇷🇺 adi|0703s - 俄罗斯O
+      - 🇷🇺 adi|0703s - 俄罗斯P
+      - 🇭🇰 adi|0703s - hk-node01
+      - 🇭🇰 adi|0703s - hk-node02
+      - adi|0703s - 10120
+      - adi|0703s - 10967
+      - adi|0703s - 20037
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -278,6 +651,21 @@ rules:
  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
+ - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
+ - DOMAIN,dl.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
+ - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+ - DOMAIN,fairplay.l.qq.com,🎯 全球直连
+ - DOMAIN,livew.l.qq.com,🎯 全球直连
+ - DOMAIN,vd.l.qq.com,🎯 全球直连
+ - DOMAIN,analytics.strava.com,🎯 全球直连
+ - DOMAIN,msg.umeng.com,🎯 全球直连
+ - DOMAIN,msg.umengcloud.com,🎯 全球直连
+ - DOMAIN,tracking.miui.com,🎯 全球直连
+ - DOMAIN,app.adjust.com,🎯 全球直连
+ - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -2060,7 +2448,6 @@ rules:
  - DOMAIN-SUFFIX,encoretvb.com,🚀 节点选择
  - DOMAIN-SUFFIX,fox.com,🚀 节点选择
  - DOMAIN-SUFFIX,foxdcg.com,🚀 节点选择
- - DOMAIN-SUFFIX,theplatform.com,🚀 节点选择
  - DOMAIN-SUFFIX,uplynk.com,🚀 节点选择
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
  - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
@@ -2080,6 +2467,7 @@ rules:
  - DOMAIN-SUFFIX,hbomax.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbomaxcdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbonow.com,🚀 节点选择
+ - DOMAIN-KEYWORD,.hbogoasia.,🚀 节点选择
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
  - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🚀 节点选择
@@ -2089,6 +2477,10 @@ rules:
  - DOMAIN,hboasia3-i.akamaihd.net,🚀 节点选择
  - DOMAIN,hboasia4-i.akamaihd.net,🚀 节点选择
  - DOMAIN,hboasia5-i.akamaihd.net,🚀 节点选择
+ - DOMAIN,hboasialive.akamaized.net,🚀 节点选择
+ - DOMAIN,hbogoprod-vod.akamaized.net,🚀 节点选择
+ - DOMAIN,hbolb.onwardsmg.com,🚀 节点选择
+ - DOMAIN,hbounify-prod.evergent.com,🚀 节点选择
  - DOMAIN,players.brightcove.net,🚀 节点选择
  - DOMAIN,s3-ap-southeast-1.amazonaws.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbogoasia.com,🚀 节点选择
@@ -2643,6 +3035,7 @@ rules:
  - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
+ - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
  - DOMAIN-SUFFIX,423down.com,🎯 全球直连
  - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
  - DOMAIN-SUFFIX,chaipip.com,🎯 全球直连
@@ -2651,6 +3044,7 @@ rules:
  - DOMAIN-SUFFIX,kaikeba.com,🎯 全球直连
  - DOMAIN-SUFFIX,laomo.me,🎯 全球直连
  - DOMAIN-SUFFIX,mpyit.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
  - DOMAIN-SUFFIX,中国,🎯 全球直连
  - DOMAIN-SUFFIX,公司,🎯 全球直连
