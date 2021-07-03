@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - name: adi|0703v - dg-hk-node01
+  - name: 🇭🇰 adi|0703v - dg-hk-node01
     server: dg-hk-node01.linkthink.app
     port: 10210
     type: ssr
@@ -15,7 +15,7 @@ proxies:
     obfs: http_post
     protocol-param: 176327:l8AeWKocJF
     obfs-param: ajax.microsoft.com
-  - name: adi|0703v - dg-hk-node02
+  - name: 🇭🇰 adi|0703v - dg-hk-node02
     server: dg-hk-node02.linkthink.app
     port: 12025
     type: ssr
@@ -63,8 +63,8 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - adi|0703v - dg-hk-node01
-      - adi|0703v - dg-hk-node02
+      - 🇭🇰 adi|0703v - dg-hk-node01
+      - 🇭🇰 adi|0703v - dg-hk-node02
       - adi|0703v - 10120
       - adi|0703v - 10967
       - adi|0703v - 20037
@@ -74,8 +74,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - adi|0703v - dg-hk-node01
-      - adi|0703v - dg-hk-node02
+      - 🇭🇰 adi|0703v - dg-hk-node01
+      - 🇭🇰 adi|0703v - dg-hk-node02
       - adi|0703v - 10120
       - adi|0703v - 10967
       - adi|0703v - 20037
@@ -84,8 +84,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - adi|0703v - dg-hk-node01
-      - adi|0703v - dg-hk-node02
+      - 🇭🇰 adi|0703v - dg-hk-node01
+      - 🇭🇰 adi|0703v - dg-hk-node02
       - adi|0703v - 10120
       - adi|0703v - 10967
       - adi|0703v - 20037
@@ -94,8 +94,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - adi|0703v - dg-hk-node01
-      - adi|0703v - dg-hk-node02
+      - 🇭🇰 adi|0703v - dg-hk-node01
+      - 🇭🇰 adi|0703v - dg-hk-node02
       - adi|0703v - 10120
       - adi|0703v - 10967
       - adi|0703v - 20037
@@ -117,9 +117,9 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔯 故障转移
-      - adi|0703v - dg-hk-node01
-      - adi|0703v - dg-hk-node02
       - 🔮 负载均衡
+      - 🇭🇰 adi|0703v - dg-hk-node01
+      - 🇭🇰 adi|0703v - dg-hk-node02
       - adi|0703v - 10120
       - adi|0703v - 10967
       - adi|0703v - 20037
