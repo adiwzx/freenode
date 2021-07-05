@@ -5,30 +5,34 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 IPLC沪港国际专线, server: 5.253.16.110, port: 13935, type: vmess, uuid: ae862d35-5295-407a-8726-0862781832f1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 IPLC沪港国际专线 2, server: 5.253.16.233, port: 26616, type: vmess, uuid: b551343c-0948-4628-b0cf-f7ff1f5d263f, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 IPLC沪港国际专线, server: 5.253.16.233, port: 27468, type: vmess, uuid: 91051099-d9f4-4dc3-a492-766415985862, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 IPLC沪港国际专线 2, server: 5.253.16.38, port: 33101, type: vmess, uuid: 5157ad12-6b6c-4515-a780-c22fb415b5a0, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 IPLC沪港国际专线 3, server: 5.253.16.110, port: 13935, type: vmess, uuid: ae862d35-5295-407a-8726-0862781832f1, alterId: 0, cipher: auto, tls: false}
   - {name: 🇷🇺 IPLC沪俄国际专线, server: 92.223.72.130, port: 45517, type: vmess, uuid: 23ed3c87-c688-472a-b4a0-59a54b1d6750, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港智能优选线路, server: 62.216.92.169, port: 11879, type: vmess, uuid: 9502f656-3e49-47a5-b945-47d631a6002f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 香港01丨高速中转丨, server: 5cb4e5c5-e850-5143-be31-1e5495d9614c.fkunky.cn, port: 53149, type: vmess, uuid: 5e71b402-0968-3aa9-83dd-fa5f6eb767af, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
-  - {name: 🇭🇰 香港02丨高速中转丨, server: 5cb4e5c5-e850-5143-be31-1e5495d9614c.fkunky.cn, port: 59050, type: vmess, uuid: 5e71b402-0968-3aa9-83dd-fa5f6eb767af, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
-  - {name: 🇭🇰 香港03丨高速中转丨, server: 5cb4e5c5-e850-5143-be31-1e5495d9614c.fkunky.cn, port: 55861, type: vmess, uuid: 5e71b402-0968-3aa9-83dd-fa5f6eb767af, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
-  - {name: 🇸🇬 新加坡01丨高速中转丨, server: 5cb4e5c5-e850-5143-be31-1e5495d9614c.fkunky.cn, port: 56477, type: vmess, uuid: 5e71b402-0968-3aa9-83dd-fa5f6eb767af, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
-  - {name: 🇸🇬 新加坡02丨高速中转丨, server: 5cb4e5c5-e850-5143-be31-1e5495d9614c.fkunky.cn, port: 57143, type: vmess, uuid: 5e71b402-0968-3aa9-83dd-fa5f6eb767af, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
-  - {name: 🇸🇬 新加坡03丨高速中转丨, server: 5cb4e5c5-e850-5143-be31-1e5495d9614c.fkunky.cn, port: 51852, type: vmess, uuid: 5e71b402-0968-3aa9-83dd-fa5f6eb767af, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
-  - {name: 🇺🇸 美国01丨原生IP丨, server: 154.208.10.121, port: 25561, type: vmess, uuid: 5e71b402-0968-3aa9-83dd-fa5f6eb767af, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇺🇸 美国02丨原生IP丨, server: 173.82.42.241, port: 48888, type: vmess, uuid: 5e71b402-0968-3aa9-83dd-fa5f6eb767af, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇰🇷 韩国01丨高速中转丨, server: 52.175.56.206, port: 45403, type: vmess, uuid: 5e71b402-0968-3aa9-83dd-fa5f6eb767af, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
-  - {name: 🇰🇷 韩国02丨高速中转丨, server: 52.175.56.206, port: 45401, type: vmess, uuid: 5e71b402-0968-3aa9-83dd-fa5f6eb767af, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
-  - {name: 🇰🇷 韩国03丨高速中转丨, server: 52.175.56.206, port: 45402, type: vmess, uuid: 5e71b402-0968-3aa9-83dd-fa5f6eb767af, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
-  - {name: 🇭🇰 HK1(Auto) - 香港智选专线, server: hk1.auto.starlink.st, port: 52000, type: vmess, uuid: 53379bd9-3e1b-4687-9e78-71cea8eef3a1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 HK1(Relay) - 香港中继专线, server: cn1.relay.starlink.st, port: 52100, type: vmess, uuid: 53379bd9-3e1b-4687-9e78-71cea8eef3a1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 TW1(Relay) - 台湾中继专线, server: cn1.relay.starlink.st, port: 52101, type: vmess, uuid: 53379bd9-3e1b-4687-9e78-71cea8eef3a1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP1(Relay) - 日本中继专线, server: cn1.relay.starlink.st, port: 52102, type: vmess, uuid: 53379bd9-3e1b-4687-9e78-71cea8eef3a1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 JP2(Relay) - 日本中继专线, server: cn1.relay.starlink.st, port: 52103, type: vmess, uuid: 53379bd9-3e1b-4687-9e78-71cea8eef3a1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 KR1(Relay) - 韩国中继专线, server: cn1.relay.starlink.st, port: 52104, type: vmess, uuid: 53379bd9-3e1b-4687-9e78-71cea8eef3a1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 SG1(Relay) - 新加坡中继专线, server: cn1.relay.starlink.st, port: 52105, type: vmess, uuid: 53379bd9-3e1b-4687-9e78-71cea8eef3a1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 RU1(Relay) - 俄罗斯中继专线, server: cn1.relay.starlink.st, port: 52106, type: vmess, uuid: 53379bd9-3e1b-4687-9e78-71cea8eef3a1, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 US1(Relay) - 美国中继专线, server: cn1.relay.starlink.st, port: 52107, type: vmess, uuid: 53379bd9-3e1b-4687-9e78-71cea8eef3a1, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 日本智能优选线路, server: 194.156.230.203, port: 33342, type: vmess, uuid: 31d634a4-e223-4287-a4df-0db3e33b66bf, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港智能优选线路, server: 62.216.92.169, port: 13139, type: vmess, uuid: 6bf86057-ee49-49ef-a396-48e4527770be, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 新加坡01丨解锁流媒体丨, server: 5cb4e5c5-e850-5143-be31-1e5495d9614c.fkunky.cn, port: 58301, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: 🇸🇬 新加坡02丨解锁流媒体丨, server: 5cb4e5c5-e850-5143-be31-1e5495d9614c.fkunky.cn, port: 56126, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: 🇭🇰 香港01丨解锁流媒体丨, server: 5cb4e5c5-e850-5143-be31-1e5495d9614c.fkunky.cn, port: 53149, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: 🇭🇰 香港03丨解锁流媒体丨, server: 5cb4e5c5-e850-5143-be31-1e5495d9614c.fkunky.cn, port: 55861, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: 🇺🇸 美国01丨原生IP丨, server: 154.208.10.121, port: 25561, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇺🇸 美国02丨原生IP丨, server: 173.82.42.241, port: 48888, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇺🇸 美国03丨原生IP丨, server: 173.82.197.138, port: 45634, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇰🇷 韩国03丨, server: 41171956-ddbb.fkunky.cn, port: 59823, type: vmess, uuid: d8d955a9-ae8c-3d1b-b825-6d69dbd23777, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: 🇭🇰 HK1(Auto) - 香港智选专线, server: hk1.auto.starlink.st, port: 52000, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 HK1(Relay) - 香港中继专线, server: cn1.relay.starlink.st, port: 52100, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 TW1(Relay) - 台湾中继专线, server: cn1.relay.starlink.st, port: 52101, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 JP1(Relay) - 日本中继专线, server: cn1.relay.starlink.st, port: 52102, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 JP2(Relay) - 日本中继专线, server: cn1.relay.starlink.st, port: 52103, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 KR1(Relay) - 韩国中继专线, server: cn1.relay.starlink.st, port: 52104, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 SG1(Relay) - 新加坡中继专线, server: cn1.relay.starlink.st, port: 52105, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇺 RU1(Relay) - 俄罗斯中继专线, server: cn1.relay.starlink.st, port: 52106, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 US1(Relay) - 美国中继专线, server: cn1.relay.starlink.st, port: 52107, type: vmess, uuid: 19ce21bc-e27c-4d2e-945e-81aefc467d8e, alterId: 0, cipher: auto, tls: false}
+  - {name: 42.157.196.103:10717, server: 42.157.196.103, port: 10717, type: ssr, cipher: rc4-md5, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 177663:VSLeGcj2uk, obfs-param: ajax.microsoft.com}
+  - {name: 42.157.196.104:10720, server: 42.157.196.104, port: 10720, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 177663:VSLeGcj2uk, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10973, server: dg-hk-node01.linkthink.app, port: 10973, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 177663:VSLeGcj2uk, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12972, server: dg-hk-node02.linkthink.app, port: 12972, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 177663:VSLeGcj2uk, obfs-param: ajax.microsoft.com}
+  - {name: 42.157.196.104:20343, server: 42.157.196.104, port: 20343, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 177663:VSLeGcj2uk, obfs-param: ajax.microsoft.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -39,19 +43,18 @@ proxy-groups:
       - DIRECT
       - 🇭🇰 IPLC沪港国际专线
       - 🇭🇰 IPLC沪港国际专线 2
+      - 🇭🇰 IPLC沪港国际专线 3
       - 🇷🇺 IPLC沪俄国际专线
+      - 🇯🇵 日本智能优选线路
       - 🇭🇰 香港智能优选线路
-      - 🇭🇰 香港01丨高速中转丨
-      - 🇭🇰 香港02丨高速中转丨
-      - 🇭🇰 香港03丨高速中转丨
-      - 🇸🇬 新加坡01丨高速中转丨
-      - 🇸🇬 新加坡02丨高速中转丨
-      - 🇸🇬 新加坡03丨高速中转丨
+      - 🇸🇬 新加坡01丨解锁流媒体丨
+      - 🇸🇬 新加坡02丨解锁流媒体丨
+      - 🇭🇰 香港01丨解锁流媒体丨
+      - 🇭🇰 香港03丨解锁流媒体丨
       - 🇺🇸 美国01丨原生IP丨
       - 🇺🇸 美国02丨原生IP丨
-      - 🇰🇷 韩国01丨高速中转丨
-      - 🇰🇷 韩国02丨高速中转丨
-      - 🇰🇷 韩国03丨高速中转丨
+      - 🇺🇸 美国03丨原生IP丨
+      - 🇰🇷 韩国03丨
       - 🇭🇰 HK1(Auto) - 香港智选专线
       - 🇭🇰 HK1(Relay) - 香港中继专线
       - 🇨🇳 TW1(Relay) - 台湾中继专线
@@ -61,6 +64,11 @@ proxy-groups:
       - 🇸🇬 SG1(Relay) - 新加坡中继专线
       - 🇷🇺 RU1(Relay) - 俄罗斯中继专线
       - 🇺🇸 US1(Relay) - 美国中继专线
+      - 42.157.196.103:10717
+      - 42.157.196.104:10720
+      - 🇭🇰 dg-hk-node01.linkthink.app:10973
+      - 🇭🇰 dg-hk-node02.linkthink.app:12972
+      - 42.157.196.104:20343
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -69,19 +77,18 @@ proxy-groups:
     proxies:
       - 🇭🇰 IPLC沪港国际专线
       - 🇭🇰 IPLC沪港国际专线 2
+      - 🇭🇰 IPLC沪港国际专线 3
       - 🇷🇺 IPLC沪俄国际专线
+      - 🇯🇵 日本智能优选线路
       - 🇭🇰 香港智能优选线路
-      - 🇭🇰 香港01丨高速中转丨
-      - 🇭🇰 香港02丨高速中转丨
-      - 🇭🇰 香港03丨高速中转丨
-      - 🇸🇬 新加坡01丨高速中转丨
-      - 🇸🇬 新加坡02丨高速中转丨
-      - 🇸🇬 新加坡03丨高速中转丨
+      - 🇸🇬 新加坡01丨解锁流媒体丨
+      - 🇸🇬 新加坡02丨解锁流媒体丨
+      - 🇭🇰 香港01丨解锁流媒体丨
+      - 🇭🇰 香港03丨解锁流媒体丨
       - 🇺🇸 美国01丨原生IP丨
       - 🇺🇸 美国02丨原生IP丨
-      - 🇰🇷 韩国01丨高速中转丨
-      - 🇰🇷 韩国02丨高速中转丨
-      - 🇰🇷 韩国03丨高速中转丨
+      - 🇺🇸 美国03丨原生IP丨
+      - 🇰🇷 韩国03丨
       - 🇭🇰 HK1(Auto) - 香港智选专线
       - 🇭🇰 HK1(Relay) - 香港中继专线
       - 🇨🇳 TW1(Relay) - 台湾中继专线
@@ -91,6 +98,11 @@ proxy-groups:
       - 🇸🇬 SG1(Relay) - 新加坡中继专线
       - 🇷🇺 RU1(Relay) - 俄罗斯中继专线
       - 🇺🇸 US1(Relay) - 美国中继专线
+      - 42.157.196.103:10717
+      - 42.157.196.104:10720
+      - 🇭🇰 dg-hk-node01.linkthink.app:10973
+      - 🇭🇰 dg-hk-node02.linkthink.app:12972
+      - 42.157.196.104:20343
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -98,19 +110,18 @@ proxy-groups:
     proxies:
       - 🇭🇰 IPLC沪港国际专线
       - 🇭🇰 IPLC沪港国际专线 2
+      - 🇭🇰 IPLC沪港国际专线 3
       - 🇷🇺 IPLC沪俄国际专线
+      - 🇯🇵 日本智能优选线路
       - 🇭🇰 香港智能优选线路
-      - 🇭🇰 香港01丨高速中转丨
-      - 🇭🇰 香港02丨高速中转丨
-      - 🇭🇰 香港03丨高速中转丨
-      - 🇸🇬 新加坡01丨高速中转丨
-      - 🇸🇬 新加坡02丨高速中转丨
-      - 🇸🇬 新加坡03丨高速中转丨
+      - 🇸🇬 新加坡01丨解锁流媒体丨
+      - 🇸🇬 新加坡02丨解锁流媒体丨
+      - 🇭🇰 香港01丨解锁流媒体丨
+      - 🇭🇰 香港03丨解锁流媒体丨
       - 🇺🇸 美国01丨原生IP丨
       - 🇺🇸 美国02丨原生IP丨
-      - 🇰🇷 韩国01丨高速中转丨
-      - 🇰🇷 韩国02丨高速中转丨
-      - 🇰🇷 韩国03丨高速中转丨
+      - 🇺🇸 美国03丨原生IP丨
+      - 🇰🇷 韩国03丨
       - 🇭🇰 HK1(Auto) - 香港智选专线
       - 🇭🇰 HK1(Relay) - 香港中继专线
       - 🇨🇳 TW1(Relay) - 台湾中继专线
@@ -120,6 +131,11 @@ proxy-groups:
       - 🇸🇬 SG1(Relay) - 新加坡中继专线
       - 🇷🇺 RU1(Relay) - 俄罗斯中继专线
       - 🇺🇸 US1(Relay) - 美国中继专线
+      - 42.157.196.103:10717
+      - 42.157.196.104:10720
+      - 🇭🇰 dg-hk-node01.linkthink.app:10973
+      - 🇭🇰 dg-hk-node02.linkthink.app:12972
+      - 42.157.196.104:20343
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -127,19 +143,18 @@ proxy-groups:
     proxies:
       - 🇭🇰 IPLC沪港国际专线
       - 🇭🇰 IPLC沪港国际专线 2
+      - 🇭🇰 IPLC沪港国际专线 3
       - 🇷🇺 IPLC沪俄国际专线
+      - 🇯🇵 日本智能优选线路
       - 🇭🇰 香港智能优选线路
-      - 🇭🇰 香港01丨高速中转丨
-      - 🇭🇰 香港02丨高速中转丨
-      - 🇭🇰 香港03丨高速中转丨
-      - 🇸🇬 新加坡01丨高速中转丨
-      - 🇸🇬 新加坡02丨高速中转丨
-      - 🇸🇬 新加坡03丨高速中转丨
+      - 🇸🇬 新加坡01丨解锁流媒体丨
+      - 🇸🇬 新加坡02丨解锁流媒体丨
+      - 🇭🇰 香港01丨解锁流媒体丨
+      - 🇭🇰 香港03丨解锁流媒体丨
       - 🇺🇸 美国01丨原生IP丨
       - 🇺🇸 美国02丨原生IP丨
-      - 🇰🇷 韩国01丨高速中转丨
-      - 🇰🇷 韩国02丨高速中转丨
-      - 🇰🇷 韩国03丨高速中转丨
+      - 🇺🇸 美国03丨原生IP丨
+      - 🇰🇷 韩国03丨
       - 🇭🇰 HK1(Auto) - 香港智选专线
       - 🇭🇰 HK1(Relay) - 香港中继专线
       - 🇨🇳 TW1(Relay) - 台湾中继专线
@@ -149,6 +164,11 @@ proxy-groups:
       - 🇸🇬 SG1(Relay) - 新加坡中继专线
       - 🇷🇺 RU1(Relay) - 俄罗斯中继专线
       - 🇺🇸 US1(Relay) - 美国中继专线
+      - 42.157.196.103:10717
+      - 42.157.196.104:10720
+      - 🇭🇰 dg-hk-node01.linkthink.app:10973
+      - 🇭🇰 dg-hk-node02.linkthink.app:12972
+      - 42.157.196.104:20343
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -170,19 +190,18 @@ proxy-groups:
       - 🔮 负载均衡
       - 🇭🇰 IPLC沪港国际专线
       - 🇭🇰 IPLC沪港国际专线 2
+      - 🇭🇰 IPLC沪港国际专线 3
       - 🇷🇺 IPLC沪俄国际专线
+      - 🇯🇵 日本智能优选线路
       - 🇭🇰 香港智能优选线路
-      - 🇭🇰 香港01丨高速中转丨
-      - 🇭🇰 香港02丨高速中转丨
-      - 🇭🇰 香港03丨高速中转丨
-      - 🇸🇬 新加坡01丨高速中转丨
-      - 🇸🇬 新加坡02丨高速中转丨
-      - 🇸🇬 新加坡03丨高速中转丨
+      - 🇸🇬 新加坡01丨解锁流媒体丨
+      - 🇸🇬 新加坡02丨解锁流媒体丨
+      - 🇭🇰 香港01丨解锁流媒体丨
+      - 🇭🇰 香港03丨解锁流媒体丨
       - 🇺🇸 美国01丨原生IP丨
       - 🇺🇸 美国02丨原生IP丨
-      - 🇰🇷 韩国01丨高速中转丨
-      - 🇰🇷 韩国02丨高速中转丨
-      - 🇰🇷 韩国03丨高速中转丨
+      - 🇺🇸 美国03丨原生IP丨
+      - 🇰🇷 韩国03丨
       - 🇭🇰 HK1(Auto) - 香港智选专线
       - 🇭🇰 HK1(Relay) - 香港中继专线
       - 🇨🇳 TW1(Relay) - 台湾中继专线
@@ -192,6 +211,11 @@ proxy-groups:
       - 🇸🇬 SG1(Relay) - 新加坡中继专线
       - 🇷🇺 RU1(Relay) - 俄罗斯中继专线
       - 🇺🇸 US1(Relay) - 美国中继专线
+      - 42.157.196.103:10717
+      - 42.157.196.104:10720
+      - 🇭🇰 dg-hk-node01.linkthink.app:10973
+      - 🇭🇰 dg-hk-node02.linkthink.app:12972
+      - 42.157.196.104:20343
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1911,7 +1935,6 @@ rules:
  - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
  - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
- - DOMAIN-SUFFIX,redirector.gvt1.com,🎯 全球直连
  - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
@@ -1976,17 +1999,43 @@ rules:
  - DOMAIN-SUFFIX,gamer.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,hinet.net,🚀 节点选择
  - DOMAIN-KEYWORD,livedazn,🚀 节点选择
+ - DOMAIN-KEYWORD,vod2dazn,🚀 节点选择
  - DOMAIN-KEYWORD,voddazn,🚀 节点选择
  - DOMAIN,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
+ - DOMAIN,edge.api.brightcove.com,🚀 节点选择
+ - DOMAIN,players.brightcove.net,🚀 节点选择
+ - DOMAIN-SUFFIX,amplify.outbrain.com,🚀 节点选择
+ - DOMAIN-SUFFIX,bluekai.com,🚀 节点选择
+ - DOMAIN-SUFFIX,control.kochava.com,🚀 节点选择
+ - DOMAIN-SUFFIX,cws.conviva.com,🚀 节点选择
  - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
  - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🚀 节点选择
  - DOMAIN-SUFFIX,dazn-api.com,🚀 节点选择
  - DOMAIN-SUFFIX,dazn.com,🚀 节点选择
  - DOMAIN-SUFFIX,dazndn.com,🚀 节点选择
+ - DOMAIN-SUFFIX,dc1-voddash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dc1live21715dazn.akamaized.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dc2-live2dash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dc2-live2hls-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dca-livedash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dca-voddash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dca-vodhls-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dcb-livedash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dcb-voddash-perform.secure.footprint.net,🚀 节点选择
  - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🚀 节点选择
  - DOMAIN-SUFFIX,indazn.com,🚀 节点选择
  - DOMAIN-SUFFIX,indaznlab.com,🚀 节点选择
+ - DOMAIN-SUFFIX,intercom.io,🚀 节点选择
+ - DOMAIN-SUFFIX,perfops.doracdn.com,🚀 节点选择
+ - DOMAIN-SUFFIX,s.llnwi.net,🚀 节点选择
+ - DOMAIN-SUFFIX,s.yimg.jp,🚀 节点选择
+ - DOMAIN-SUFFIX,secure.footprint.net,🚀 节点选择
  - DOMAIN-SUFFIX,sentry.io,🚀 节点选择
+ - DOMAIN-SUFFIX,urbanairship.com,🚀 节点选择
+ - DOMAIN-SUFFIX,vjs.zencdn.net,🚀 节点选择
+ - DOMAIN-SUFFIX,widevine.entitlement.us.theplatform.com,🚀 节点选择
+ - DOMAIN-SUFFIX,yahoo.co.jp,🚀 节点选择
  - DOMAIN-SUFFIX,deezer.com,🚀 节点选择
  - DOMAIN-SUFFIX,dzcdn.net,🚀 节点选择
  - DOMAIN,cdn.registerdisney.go.com,🚀 节点选择
@@ -2207,6 +2256,9 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,🚀 节点选择
  - DOMAIN-SUFFIX,youtube.com,🚀 节点选择
  - DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
+ - PROCESS-NAME,com.google.android.apps.youtube.music,🚀 节点选择
+ - PROCESS-NAME,com.google.android.youtube.tvmusicroot,🚀 节点选择
+ - PROCESS-NAME,com.vanced.android.apps.youtube.music,🚀 节点选择
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
@@ -2329,6 +2381,7 @@ rules:
  - DOMAIN-SUFFIX,nintendo.net,🚀 节点选择
  - DOMAIN-SUFFIX,nsstatic.net,🚀 节点选择
  - DOMAIN-SUFFIX,nytstyle.com,🚀 节点选择
+ - DOMAIN-SUFFIX,overcast.fm,🚀 节点选择
  - DOMAIN-SUFFIX,openvpn.net,🚀 节点选择
  - DOMAIN-SUFFIX,periscope.tv,🚀 节点选择
  - DOMAIN-SUFFIX,pinimg.com,🚀 节点选择
@@ -3109,7 +3162,6 @@ rules:
  - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
  - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
  - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
- - DOMAIN-SUFFIX,overcast.fm,🎯 全球直连
  - DOMAIN-SUFFIX,paypal.com,🎯 全球直连
  - DOMAIN-SUFFIX,polyv.net,🎯 全球直连
  - DOMAIN-SUFFIX,qbox.me,🎯 全球直连
