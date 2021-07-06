@@ -111,6 +111,11 @@ proxies:
   - {name: 🇸🇬 adi|0706 - 新加坡1, server: sgaws1.biteb.club, port: 51102, type: vmess, uuid: 486bf012-8f4d-384e-802a-f84c4072f068, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: sgaws1.biteb.club}}
   - {name: 🇸🇬 adi|0706 - 新加坡2, server: sgaws2.biteb.xyz, port: 51094, type: vmess, uuid: 486bf012-8f4d-384e-802a-f84c4072f068, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: sgaws2.biteb.xyz}}
   - {name: 🇸🇬 adi|0706 - 新加坡3, server: sgaws3.biteb.club, port: 51106, type: vmess, uuid: 486bf012-8f4d-384e-802a-f84c4072f068, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /index, ws-headers: {Host: sgaws3.biteb.club}}
+  - {name: 42.157.196.103:10019, server: 42.157.196.103, port: 10019, type: ssr, cipher: rc4-md5, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 178313:vZFT4NwH9j, obfs-param: ajax.microsoft.com}
+  - {name: 42.157.196.104:10159, server: 42.157.196.104, port: 10159, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 178313:vZFT4NwH9j, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10946, server: dg-hk-node01.linkthink.app, port: 10946, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 178313:vZFT4NwH9j, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12537, server: dg-hk-node02.linkthink.app, port: 12537, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 178313:vZFT4NwH9j, obfs-param: ajax.microsoft.com}
+  - {name: 42.157.196.104:20683, server: 42.157.196.104, port: 20683, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 178313:vZFT4NwH9j, obfs-param: ajax.microsoft.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -225,6 +230,11 @@ proxy-groups:
       - 🇸🇬 adi|0706 - 新加坡1
       - 🇸🇬 adi|0706 - 新加坡2
       - 🇸🇬 adi|0706 - 新加坡3
+      - 42.157.196.103:10019
+      - 42.157.196.104:10159
+      - 🇭🇰 dg-hk-node01.linkthink.app:10946
+      - 🇭🇰 dg-hk-node02.linkthink.app:12537
+      - 42.157.196.104:20683
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -337,6 +347,11 @@ proxy-groups:
       - 🇸🇬 adi|0706 - 新加坡1
       - 🇸🇬 adi|0706 - 新加坡2
       - 🇸🇬 adi|0706 - 新加坡3
+      - 42.157.196.103:10019
+      - 42.157.196.104:10159
+      - 🇭🇰 dg-hk-node01.linkthink.app:10946
+      - 🇭🇰 dg-hk-node02.linkthink.app:12537
+      - 42.157.196.104:20683
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -448,6 +463,11 @@ proxy-groups:
       - 🇸🇬 adi|0706 - 新加坡1
       - 🇸🇬 adi|0706 - 新加坡2
       - 🇸🇬 adi|0706 - 新加坡3
+      - 42.157.196.103:10019
+      - 42.157.196.104:10159
+      - 🇭🇰 dg-hk-node01.linkthink.app:10946
+      - 🇭🇰 dg-hk-node02.linkthink.app:12537
+      - 42.157.196.104:20683
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -559,6 +579,11 @@ proxy-groups:
       - 🇸🇬 adi|0706 - 新加坡1
       - 🇸🇬 adi|0706 - 新加坡2
       - 🇸🇬 adi|0706 - 新加坡3
+      - 42.157.196.103:10019
+      - 42.157.196.104:10159
+      - 🇭🇰 dg-hk-node01.linkthink.app:10946
+      - 🇭🇰 dg-hk-node02.linkthink.app:12537
+      - 42.157.196.104:20683
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -684,6 +709,11 @@ proxy-groups:
       - 🇸🇬 adi|0706 - 新加坡1
       - 🇸🇬 adi|0706 - 新加坡2
       - 🇸🇬 adi|0706 - 新加坡3
+      - 42.157.196.103:10019
+      - 42.157.196.104:10159
+      - 🇭🇰 dg-hk-node01.linkthink.app:10946
+      - 🇭🇰 dg-hk-node02.linkthink.app:12537
+      - 42.157.196.104:20683
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
