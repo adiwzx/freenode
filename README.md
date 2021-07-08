@@ -25,3 +25,27 @@
 #
 ### Qv2ray Windows/MacOS客户端
 https://github.com/Qv2ray/Qv2ray/releases
+
+
+
+####  
+
+adidesign.c
+
+http://mtw.so/5SSDLk
+
+http://m6z.cn/5TDggN
+
+http://mtw.so/619qu4
+
+http://mtw.so/5LmQHx
+
+adidesign.r
+
+http://mtw.so/6g7EzK
+
+http://m6z.cn/68FDE5
+
+http://mtw.so/5TDg5Z
+
+http://mtw.so/619qzo
