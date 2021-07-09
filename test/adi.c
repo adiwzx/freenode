@@ -5,144 +5,150 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 adi|0707v - IPLC沪港国际专线, server: 5.253.16.38, port: 42547, type: vmess, uuid: 27b466a2-2890-4618-b381-ab8ee16be952, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 adi|0707v - IPLC沪港国际专线 2, server: 5.253.16.110, port: 58706, type: vmess, uuid: c2a7bd4f-1a62-42be-93db-92b87c73da98, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 adi|0707v - 日本智能优选线路, server: 194.156.230.203, port: 33342, type: vmess, uuid: 31d634a4-e223-4287-a4df-0db3e33b66bf, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 adi|0707v - 香港智能优选线路, server: 62.216.92.169, port: 13139, type: vmess, uuid: 6bf86057-ee49-49ef-a396-48e4527770be, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 adi|0707v - 美国01丨原生IP丨, server: 154.208.10.121, port: 25561, type: vmess, uuid: aa8adc47-2f6c-32d9-9b54-75c3651826af, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇺🇸 adi|0707v - 美国02丨原生IP丨, server: 173.82.42.241, port: 48888, type: vmess, uuid: aa8adc47-2f6c-32d9-9b54-75c3651826af, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
-  - {name: 🇭🇰 adi|0707v - HK1(Auto) - 香港智选专线, server: hk1.auto.starlink.st, port: 52000, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 adi|0707v - HK1(Relay) - 香港中继专线, server: cn1.relay.starlink.st, port: 52100, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 adi|0707v - TW1(Relay) - 台湾中继专线, server: cn1.relay.starlink.st, port: 52101, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 adi|0707v - JP1(Relay) - 日本中继专线, server: cn1.relay.starlink.st, port: 52102, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 adi|0707v - JP2(Relay) - 日本中继专线, server: cn1.relay.starlink.st, port: 52103, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 adi|0707v - KR1(Relay) - 韩国中继专线, server: cn1.relay.starlink.st, port: 52104, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 adi|0707v - SG1(Relay) - 新加坡中继专线, server: cn1.relay.starlink.st, port: 52105, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 adi|0707v - RU1(Relay) - 俄罗斯中继专线, server: cn1.relay.starlink.st, port: 52106, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 adi|0707v - US1(Relay) - 美国中继专线, server: cn1.relay.starlink.st, port: 52107, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 adi|0707v - HK1(IEPL) - 深港国际专线, server: cn1.relay.starlink.st, port: 52000, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 adi|0707v - HK2(IEPL) - 深港国际专线, server: cn1.relay.starlink.st, port: 52001, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 adi|0707v - HK3(IEPL) - 深港国际专线, server: cn1.relay.starlink.st, port: 52002, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 adi|0707v - HK4(IEPL) - 深港国际专线, server: cn1.relay.starlink.st, port: 52003, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 adi|0707v - JP1(IEPL) - 深日国际专线, server: cn1.relay.starlink.st, port: 52004, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 adi|0707v - KR1(IEPL) - 深韩国际专线, server: cn1.relay.starlink.st, port: 52005, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 adi|0707v - SG1(IEPL) - 深新国际专线, server: cn1.relay.starlink.st, port: 52006, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 adi|0707v - TW1(IEPL) - 沪台国际专线, server: cn2.relay.starlink.st, port: 52001, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 adi|0707v - JP1(IEPL) - 沪日国际专线, server: cn2.relay.starlink.st, port: 52003, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 adi|0707v - KR1(IEPL) - 沪韩国际专线, server: cn2.relay.starlink.st, port: 52004, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 adi|0707v - RU1(IEPL) - 沪俄国际专线, server: cn2.relay.starlink.st, port: 52006, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 adi|0707v - US1(IEPL) - 沪美国际专线, server: cn2.relay.starlink.st, port: 52007, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 adi|0707v - HK1(Direct) - 香港直连专线, server: hk1.direct.starlink.st, port: 52000, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 adi|0707v - HK2(Direct) - 香港直连专线, server: hk2.direct.starlink.st, port: 52000, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 adi|0707v - HK3(Direct) - 香港直连专线, server: hk3.direct.starlink.st, port: 52000, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 adi|0707v - HK4(Direct) - 香港直连专线, server: hk4.direct.starlink.st, port: 52000, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇨🇳 adi|0707v - TW1(Direct) - 台湾直连专线, server: tw1.direct.starlink.st, port: 52000, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 adi|0707v - JP1(Direct) - 日本直连专线, server: jp1.direct.starlink.st, port: 52000, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇯🇵 adi|0707v - JP2(Direct) - 日本直连专线, server: jp2.direct.starlink.st, port: 52000, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 adi|0707v - KR1(Direct) - 韩国直连专线, server: kr1.direct.starlink.st, port: 52000, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇸🇬 adi|0707v - SG1(Direct) - 新加坡直连专线, server: sg1.direct.starlink.st, port: 52000, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 adi|0707v - RU1(Direct) - 俄罗斯直连专线, server: ru1.direct.starlink.st, port: 52000, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 adi|0707v - US1(Direct) - 美国直连专线, server: us1.direct.starlink.st, port: 52000, type: vmess, uuid: 9979352f-f4de-4ad2-b22a-78acbd347b2f, alterId: 0, cipher: auto, tls: false}
-  - {name: adi|0707v -, server: 42.157.196.103, port: 10534, type: ssr, cipher: rc4-md5, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 179459:R1qSF2s6Gx, obfs-param: ajax.microsoft.com}
-  - {name: adi|0707v - 2, server: dg-hk-node01.linkthink.app, port: 10520, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 179459:R1qSF2s6Gx, obfs-param: ajax.microsoft.com}
-  - {name: adi|0707v - 3, server: dg-hk-node02.linkthink.app, port: 12990, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 179459:R1qSF2s6Gx, obfs-param: ajax.microsoft.com}
-  - {name: adi|0707v - 4, server: 42.157.196.104, port: 20473, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 179459:R1qSF2s6Gx, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 adi|0708v - IPLC沪港国际专线, server: 5.253.16.150, port: 51851, type: vmess, uuid: fa6cc476-b27e-49c3-8330-7d1c2155529b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 adi|0708v - IPLC沪港国际专线 2, server: 5.253.16.141, port: 56017, type: vmess, uuid: 72d84efd-675a-48b5-8f53-46e2fe71a8ae, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 adi|0708v - 日本智能优选线路, server: 194.156.230.203, port: 33342, type: vmess, uuid: 31d634a4-e223-4287-a4df-0db3e33b66bf, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 adi|0708v - 香港智能优选线路, server: 62.216.92.169, port: 13139, type: vmess, uuid: 6bf86057-ee49-49ef-a396-48e4527770be, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 adi|0708v - 新加坡01丨解锁流媒体丨, server: 1e5495d9614c.fkunky.cn, port: 58823, type: vmess, uuid: b5ae2a99-ccfe-3810-8817-29959d8165ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: 🇸🇬 adi|0708v - 新加坡02丨解锁流媒体丨, server: 1e5495d9614c.fkunky.cn, port: 58824, type: vmess, uuid: b5ae2a99-ccfe-3810-8817-29959d8165ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: 🇸🇬 adi|0708v - 新加坡03丨解锁流媒体丨, server: 41171956-ddbb.fkunky.cn, port: 58825, type: vmess, uuid: b5ae2a99-ccfe-3810-8817-29959d8165ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: 🇯🇵 adi|0708v - 日本01丨解锁流媒体丨, server: 1e5495d9614c.fkunky.cn, port: 58826, type: vmess, uuid: b5ae2a99-ccfe-3810-8817-29959d8165ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: 🇯🇵 adi|0708v - 日本02丨解锁流媒体丨, server: 83b09db37449.fkunky.cn, port: 58827, type: vmess, uuid: b5ae2a99-ccfe-3810-8817-29959d8165ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: 🇯🇵 adi|0708v - 日本03丨解锁流媒体丨, server: 41171956-ddbb.fkunky.cn, port: 58828, type: vmess, uuid: b5ae2a99-ccfe-3810-8817-29959d8165ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: 🇯🇵 adi|0708v - 日本04丨解锁流媒体丨, server: 1e5495d9614c.fkunky.cn, port: 58829, type: vmess, uuid: b5ae2a99-ccfe-3810-8817-29959d8165ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: 🇯🇵 adi|0708v - 日本05丨解锁流媒体丨, server: 83b09db37449.fkunky.cn, port: 58830, type: vmess, uuid: b5ae2a99-ccfe-3810-8817-29959d8165ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: 🇯🇵 adi|0708v - 日本06丨解锁流媒体丨, server: 41171956-ddbb.fkunky.cn, port: 58831, type: vmess, uuid: b5ae2a99-ccfe-3810-8817-29959d8165ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: 🇺🇸 adi|0708v - 美国01丨原生IP丨, server: 154.208.10.121, port: 25561, type: vmess, uuid: b5ae2a99-ccfe-3810-8817-29959d8165ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇺🇸 adi|0708v - 美国02丨原生IP丨, server: 173.82.42.241, port: 48888, type: vmess, uuid: b5ae2a99-ccfe-3810-8817-29959d8165ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 adi|0708v - 香港01丨解锁流媒体丨, server: 1e5495d9614c.fkunky.cn, port: 58820, type: vmess, uuid: b5ae2a99-ccfe-3810-8817-29959d8165ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}}
+  - {name: 🇭🇰 adi|0708v - 香港02丨解锁流媒体丨, server: 1e5495d9614c.fkunky.cn, port: 58821, type: vmess, uuid: b5ae2a99-ccfe-3810-8817-29959d8165ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: 🇭🇰 adi|0708v - 香港03丨解锁流媒体丨, server: 41171956-ddbb.fkunky.cn, port: 58822, type: vmess, uuid: b5ae2a99-ccfe-3810-8817-29959d8165ca, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: v.qq.com}}
+  - {name: 🇭🇰 adi|0708v - HK1(Auto) - 香港智选专线, server: hk1.auto.starlink.st, port: 52000, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 adi|0708v - HK1(Relay) - 香港中继专线, server: cn1.relay.starlink.st, port: 52100, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 adi|0708v - TW1(Relay) - 台湾中继专线, server: cn1.relay.starlink.st, port: 52101, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 adi|0708v - JP1(Relay) - 日本中继专线, server: cn1.relay.starlink.st, port: 52102, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 adi|0708v - JP2(Relay) - 日本中继专线, server: cn1.relay.starlink.st, port: 52103, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 adi|0708v - KR1(Relay) - 韩国中继专线, server: cn1.relay.starlink.st, port: 52104, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 adi|0708v - SG1(Relay) - 新加坡中继专线, server: cn1.relay.starlink.st, port: 52105, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇺 adi|0708v - RU1(Relay) - 俄罗斯中继专线, server: cn1.relay.starlink.st, port: 52106, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 adi|0708v - US1(Relay) - 美国中继专线, server: cn1.relay.starlink.st, port: 52107, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 adi|0708v - HK1(IEPL) - 深港国际专线, server: cn1.relay.starlink.st, port: 52000, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 adi|0708v - HK2(IEPL) - 深港国际专线, server: cn1.relay.starlink.st, port: 52001, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 adi|0708v - HK3(IEPL) - 深港国际专线, server: cn1.relay.starlink.st, port: 52002, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 adi|0708v - HK4(IEPL) - 深港国际专线, server: cn1.relay.starlink.st, port: 52003, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 adi|0708v - JP1(IEPL) - 深日国际专线, server: cn1.relay.starlink.st, port: 52004, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 adi|0708v - KR1(IEPL) - 深韩国际专线, server: cn1.relay.starlink.st, port: 52005, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 adi|0708v - SG1(IEPL) - 深新国际专线, server: cn1.relay.starlink.st, port: 52006, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 adi|0708v - HK1(IEPL) - 沪港国际专线, server: cn2.relay.starlink.st, port: 52000, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇳 adi|0708v - TW1(IEPL) - 沪台国际专线, server: cn2.relay.starlink.st, port: 52001, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 adi|0708v - JP1(IEPL) - 沪日国际专线, server: cn2.relay.starlink.st, port: 52003, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇰🇷 adi|0708v - KR1(IEPL) - 沪韩国际专线, server: cn2.relay.starlink.st, port: 52004, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇺 adi|0708v - RU1(IEPL) - 沪俄国际专线, server: cn2.relay.starlink.st, port: 52006, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 adi|0708v - US1(IEPL) - 沪美国际专线, server: cn2.relay.starlink.st, port: 52007, type: vmess, uuid: 9f71fc04-11f6-4aeb-940e-f4dceda25149, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 adi|0708v - 香港 01, server: dg-hk-node01.linkthink.app, port: 10435, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 180188:Ga41ef5yw9, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 adi|0708v - 香港 02, server: dg-hk-node02.linkthink.app, port: 12892, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 180188:Ga41ef5yw9, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 adi|0708v - 香港 03 测试, server: 42.157.196.103, port: 10685, type: ssr, cipher: rc4-md5, password: Yk4UdrOyQg, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 180188:Ga41ef5yw9, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 adi|0708v - 香港04-测试, server: 42.157.196.104, port: 20483, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 180188:Ga41ef5yw9, obfs-param: ajax.microsoft.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 adi|0707v - IPLC沪港国际专线
-      - 🇭🇰 adi|0707v - IPLC沪港国际专线 2
-      - 🇯🇵 adi|0707v - 日本智能优选线路
-      - 🇭🇰 adi|0707v - 香港智能优选线路
-      - 🇺🇸 adi|0707v - 美国01丨原生IP丨
-      - 🇺🇸 adi|0707v - 美国02丨原生IP丨
-      - 🇭🇰 adi|0707v - HK1(Auto) - 香港智选专线
-      - 🇭🇰 adi|0707v - HK1(Relay) - 香港中继专线
-      - 🇨🇳 adi|0707v - TW1(Relay) - 台湾中继专线
-      - 🇯🇵 adi|0707v - JP1(Relay) - 日本中继专线
-      - 🇯🇵 adi|0707v - JP2(Relay) - 日本中继专线
-      - 🇰🇷 adi|0707v - KR1(Relay) - 韩国中继专线
-      - 🇸🇬 adi|0707v - SG1(Relay) - 新加坡中继专线
-      - 🇷🇺 adi|0707v - RU1(Relay) - 俄罗斯中继专线
-      - 🇺🇸 adi|0707v - US1(Relay) - 美国中继专线
-      - 🇭🇰 adi|0707v - HK1(IEPL) - 深港国际专线
-      - 🇭🇰 adi|0707v - HK2(IEPL) - 深港国际专线
-      - 🇭🇰 adi|0707v - HK3(IEPL) - 深港国际专线
-      - 🇭🇰 adi|0707v - HK4(IEPL) - 深港国际专线
-      - 🇯🇵 adi|0707v - JP1(IEPL) - 深日国际专线
-      - 🇰🇷 adi|0707v - KR1(IEPL) - 深韩国际专线
-      - 🇸🇬 adi|0707v - SG1(IEPL) - 深新国际专线
-      - 🇨🇳 adi|0707v - TW1(IEPL) - 沪台国际专线
-      - 🇯🇵 adi|0707v - JP1(IEPL) - 沪日国际专线
-      - 🇰🇷 adi|0707v - KR1(IEPL) - 沪韩国际专线
-      - 🇷🇺 adi|0707v - RU1(IEPL) - 沪俄国际专线
-      - 🇺🇸 adi|0707v - US1(IEPL) - 沪美国际专线
-      - 🇭🇰 adi|0707v - HK1(Direct) - 香港直连专线
-      - 🇭🇰 adi|0707v - HK2(Direct) - 香港直连专线
-      - 🇭🇰 adi|0707v - HK3(Direct) - 香港直连专线
-      - 🇭🇰 adi|0707v - HK4(Direct) - 香港直连专线
-      - 🇨🇳 adi|0707v - TW1(Direct) - 台湾直连专线
-      - 🇯🇵 adi|0707v - JP1(Direct) - 日本直连专线
-      - 🇯🇵 adi|0707v - JP2(Direct) - 日本直连专线
-      - 🇰🇷 adi|0707v - KR1(Direct) - 韩国直连专线
-      - 🇸🇬 adi|0707v - SG1(Direct) - 新加坡直连专线
-      - 🇷🇺 adi|0707v - RU1(Direct) - 俄罗斯直连专线
-      - 🇺🇸 adi|0707v - US1(Direct) - 美国直连专线
-      - adi|0707v -
-      - adi|0707v - 2
-      - adi|0707v - 3
-      - adi|0707v - 4
+      - 🇭🇰 adi|0708v - IPLC沪港国际专线
+      - 🇭🇰 adi|0708v - IPLC沪港国际专线 2
+      - 🇯🇵 adi|0708v - 日本智能优选线路
+      - 🇭🇰 adi|0708v - 香港智能优选线路
+      - 🇸🇬 adi|0708v - 新加坡01丨解锁流媒体丨
+      - 🇸🇬 adi|0708v - 新加坡02丨解锁流媒体丨
+      - 🇸🇬 adi|0708v - 新加坡03丨解锁流媒体丨
+      - 🇯🇵 adi|0708v - 日本01丨解锁流媒体丨
+      - 🇯🇵 adi|0708v - 日本02丨解锁流媒体丨
+      - 🇯🇵 adi|0708v - 日本03丨解锁流媒体丨
+      - 🇯🇵 adi|0708v - 日本04丨解锁流媒体丨
+      - 🇯🇵 adi|0708v - 日本05丨解锁流媒体丨
+      - 🇯🇵 adi|0708v - 日本06丨解锁流媒体丨
+      - 🇺🇸 adi|0708v - 美国01丨原生IP丨
+      - 🇺🇸 adi|0708v - 美国02丨原生IP丨
+      - 🇭🇰 adi|0708v - 香港01丨解锁流媒体丨
+      - 🇭🇰 adi|0708v - 香港02丨解锁流媒体丨
+      - 🇭🇰 adi|0708v - 香港03丨解锁流媒体丨
+      - 🇭🇰 adi|0708v - HK1(Auto) - 香港智选专线
+      - 🇭🇰 adi|0708v - HK1(Relay) - 香港中继专线
+      - 🇨🇳 adi|0708v - TW1(Relay) - 台湾中继专线
+      - 🇯🇵 adi|0708v - JP1(Relay) - 日本中继专线
+      - 🇯🇵 adi|0708v - JP2(Relay) - 日本中继专线
+      - 🇰🇷 adi|0708v - KR1(Relay) - 韩国中继专线
+      - 🇸🇬 adi|0708v - SG1(Relay) - 新加坡中继专线
+      - 🇷🇺 adi|0708v - RU1(Relay) - 俄罗斯中继专线
+      - 🇺🇸 adi|0708v - US1(Relay) - 美国中继专线
+      - 🇭🇰 adi|0708v - HK1(IEPL) - 深港国际专线
+      - 🇭🇰 adi|0708v - HK2(IEPL) - 深港国际专线
+      - 🇭🇰 adi|0708v - HK3(IEPL) - 深港国际专线
+      - 🇭🇰 adi|0708v - HK4(IEPL) - 深港国际专线
+      - 🇯🇵 adi|0708v - JP1(IEPL) - 深日国际专线
+      - 🇰🇷 adi|0708v - KR1(IEPL) - 深韩国际专线
+      - 🇸🇬 adi|0708v - SG1(IEPL) - 深新国际专线
+      - 🇭🇰 adi|0708v - HK1(IEPL) - 沪港国际专线
+      - 🇨🇳 adi|0708v - TW1(IEPL) - 沪台国际专线
+      - 🇯🇵 adi|0708v - JP1(IEPL) - 沪日国际专线
+      - 🇰🇷 adi|0708v - KR1(IEPL) - 沪韩国际专线
+      - 🇷🇺 adi|0708v - RU1(IEPL) - 沪俄国际专线
+      - 🇺🇸 adi|0708v - US1(IEPL) - 沪美国际专线
+      - 🇭🇰 adi|0708v - 香港 01
+      - 🇭🇰 adi|0708v - 香港 02
+      - 🇭🇰 adi|0708v - 香港 03 测试
+      - 🇭🇰 adi|0708v - 香港04-测试
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 adi|0707v - IPLC沪港国际专线
-      - 🇭🇰 adi|0707v - IPLC沪港国际专线 2
-      - 🇯🇵 adi|0707v - 日本智能优选线路
-      - 🇭🇰 adi|0707v - 香港智能优选线路
-      - 🇺🇸 adi|0707v - 美国01丨原生IP丨
-      - 🇺🇸 adi|0707v - 美国02丨原生IP丨
-      - 🇭🇰 adi|0707v - HK1(Auto) - 香港智选专线
-      - 🇭🇰 adi|0707v - HK1(Relay) - 香港中继专线
-      - 🇨🇳 adi|0707v - TW1(Relay) - 台湾中继专线
-      - 🇯🇵 adi|0707v - JP1(Relay) - 日本中继专线
-      - 🇯🇵 adi|0707v - JP2(Relay) - 日本中继专线
-      - 🇰🇷 adi|0707v - KR1(Relay) - 韩国中继专线
-      - 🇸🇬 adi|0707v - SG1(Relay) - 新加坡中继专线
-      - 🇷🇺 adi|0707v - RU1(Relay) - 俄罗斯中继专线
-      - 🇺🇸 adi|0707v - US1(Relay) - 美国中继专线
-      - 🇭🇰 adi|0707v - HK1(IEPL) - 深港国际专线
-      - 🇭🇰 adi|0707v - HK2(IEPL) - 深港国际专线
-      - 🇭🇰 adi|0707v - HK3(IEPL) - 深港国际专线
-      - 🇭🇰 adi|0707v - HK4(IEPL) - 深港国际专线
-      - 🇯🇵 adi|0707v - JP1(IEPL) - 深日国际专线
-      - 🇰🇷 adi|0707v - KR1(IEPL) - 深韩国际专线
-      - 🇸🇬 adi|0707v - SG1(IEPL) - 深新国际专线
-      - 🇨🇳 adi|0707v - TW1(IEPL) - 沪台国际专线
-      - 🇯🇵 adi|0707v - JP1(IEPL) - 沪日国际专线
-      - 🇰🇷 adi|0707v - KR1(IEPL) - 沪韩国际专线
-      - 🇷🇺 adi|0707v - RU1(IEPL) - 沪俄国际专线
-      - 🇺🇸 adi|0707v - US1(IEPL) - 沪美国际专线
-      - 🇭🇰 adi|0707v - HK1(Direct) - 香港直连专线
-      - 🇭🇰 adi|0707v - HK2(Direct) - 香港直连专线
-      - 🇭🇰 adi|0707v - HK3(Direct) - 香港直连专线
-      - 🇭🇰 adi|0707v - HK4(Direct) - 香港直连专线
-      - 🇨🇳 adi|0707v - TW1(Direct) - 台湾直连专线
-      - 🇯🇵 adi|0707v - JP1(Direct) - 日本直连专线
-      - 🇯🇵 adi|0707v - JP2(Direct) - 日本直连专线
-      - 🇰🇷 adi|0707v - KR1(Direct) - 韩国直连专线
-      - 🇸🇬 adi|0707v - SG1(Direct) - 新加坡直连专线
-      - 🇷🇺 adi|0707v - RU1(Direct) - 俄罗斯直连专线
-      - 🇺🇸 adi|0707v - US1(Direct) - 美国直连专线
-      - adi|0707v -
-      - adi|0707v - 2
-      - adi|0707v - 3
-      - adi|0707v - 4
+      - 🇭🇰 adi|0708v - IPLC沪港国际专线
+      - 🇭🇰 adi|0708v - IPLC沪港国际专线 2
+      - 🇯🇵 adi|0708v - 日本智能优选线路
+      - 🇭🇰 adi|0708v - 香港智能优选线路
+      - 🇸🇬 adi|0708v - 新加坡01丨解锁流媒体丨
+      - 🇸🇬 adi|0708v - 新加坡02丨解锁流媒体丨
+      - 🇸🇬 adi|0708v - 新加坡03丨解锁流媒体丨
+      - 🇯🇵 adi|0708v - 日本01丨解锁流媒体丨
+      - 🇯🇵 adi|0708v - 日本02丨解锁流媒体丨
+      - 🇯🇵 adi|0708v - 日本03丨解锁流媒体丨
+      - 🇯🇵 adi|0708v - 日本04丨解锁流媒体丨
+      - 🇯🇵 adi|0708v - 日本05丨解锁流媒体丨
+      - 🇯🇵 adi|0708v - 日本06丨解锁流媒体丨
+      - 🇺🇸 adi|0708v - 美国01丨原生IP丨
+      - 🇺🇸 adi|0708v - 美国02丨原生IP丨
+      - 🇭🇰 adi|0708v - 香港01丨解锁流媒体丨
+      - 🇭🇰 adi|0708v - 香港02丨解锁流媒体丨
+      - 🇭🇰 adi|0708v - 香港03丨解锁流媒体丨
+      - 🇭🇰 adi|0708v - HK1(Auto) - 香港智选专线
+      - 🇭🇰 adi|0708v - HK1(Relay) - 香港中继专线
+      - 🇨🇳 adi|0708v - TW1(Relay) - 台湾中继专线
+      - 🇯🇵 adi|0708v - JP1(Relay) - 日本中继专线
+      - 🇯🇵 adi|0708v - JP2(Relay) - 日本中继专线
+      - 🇰🇷 adi|0708v - KR1(Relay) - 韩国中继专线
+      - 🇸🇬 adi|0708v - SG1(Relay) - 新加坡中继专线
+      - 🇷🇺 adi|0708v - RU1(Relay) - 俄罗斯中继专线
+      - 🇺🇸 adi|0708v - US1(Relay) - 美国中继专线
+      - 🇭🇰 adi|0708v - HK1(IEPL) - 深港国际专线
+      - 🇭🇰 adi|0708v - HK2(IEPL) - 深港国际专线
+      - 🇭🇰 adi|0708v - HK3(IEPL) - 深港国际专线
+      - 🇭🇰 adi|0708v - HK4(IEPL) - 深港国际专线
+      - 🇯🇵 adi|0708v - JP1(IEPL) - 深日国际专线
+      - 🇰🇷 adi|0708v - KR1(IEPL) - 深韩国际专线
+      - 🇸🇬 adi|0708v - SG1(IEPL) - 深新国际专线
+      - 🇭🇰 adi|0708v - HK1(IEPL) - 沪港国际专线
+      - 🇨🇳 adi|0708v - TW1(IEPL) - 沪台国际专线
+      - 🇯🇵 adi|0708v - JP1(IEPL) - 沪日国际专线
+      - 🇰🇷 adi|0708v - KR1(IEPL) - 沪韩国际专线
+      - 🇷🇺 adi|0708v - RU1(IEPL) - 沪俄国际专线
+      - 🇺🇸 adi|0708v - US1(IEPL) - 沪美国际专线
+      - 🇭🇰 adi|0708v - 香港 01
+      - 🇭🇰 adi|0708v - 香港 02
+      - 🇭🇰 adi|0708v - 香港 03 测试
+      - 🇭🇰 adi|0708v - 香港04-测试
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -160,48 +166,50 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 adi|0707v - IPLC沪港国际专线
-      - 🇭🇰 adi|0707v - IPLC沪港国际专线 2
-      - 🇯🇵 adi|0707v - 日本智能优选线路
-      - 🇭🇰 adi|0707v - 香港智能优选线路
-      - 🇺🇸 adi|0707v - 美国01丨原生IP丨
-      - 🇺🇸 adi|0707v - 美国02丨原生IP丨
-      - 🇭🇰 adi|0707v - HK1(Auto) - 香港智选专线
-      - 🇭🇰 adi|0707v - HK1(Relay) - 香港中继专线
-      - 🇨🇳 adi|0707v - TW1(Relay) - 台湾中继专线
-      - 🇯🇵 adi|0707v - JP1(Relay) - 日本中继专线
-      - 🇯🇵 adi|0707v - JP2(Relay) - 日本中继专线
-      - 🇰🇷 adi|0707v - KR1(Relay) - 韩国中继专线
-      - 🇸🇬 adi|0707v - SG1(Relay) - 新加坡中继专线
-      - 🇷🇺 adi|0707v - RU1(Relay) - 俄罗斯中继专线
-      - 🇺🇸 adi|0707v - US1(Relay) - 美国中继专线
-      - 🇭🇰 adi|0707v - HK1(IEPL) - 深港国际专线
-      - 🇭🇰 adi|0707v - HK2(IEPL) - 深港国际专线
-      - 🇭🇰 adi|0707v - HK3(IEPL) - 深港国际专线
-      - 🇭🇰 adi|0707v - HK4(IEPL) - 深港国际专线
-      - 🇯🇵 adi|0707v - JP1(IEPL) - 深日国际专线
-      - 🇰🇷 adi|0707v - KR1(IEPL) - 深韩国际专线
-      - 🇸🇬 adi|0707v - SG1(IEPL) - 深新国际专线
-      - 🇨🇳 adi|0707v - TW1(IEPL) - 沪台国际专线
-      - 🇯🇵 adi|0707v - JP1(IEPL) - 沪日国际专线
-      - 🇰🇷 adi|0707v - KR1(IEPL) - 沪韩国际专线
-      - 🇷🇺 adi|0707v - RU1(IEPL) - 沪俄国际专线
-      - 🇺🇸 adi|0707v - US1(IEPL) - 沪美国际专线
-      - 🇭🇰 adi|0707v - HK1(Direct) - 香港直连专线
-      - 🇭🇰 adi|0707v - HK2(Direct) - 香港直连专线
-      - 🇭🇰 adi|0707v - HK3(Direct) - 香港直连专线
-      - 🇭🇰 adi|0707v - HK4(Direct) - 香港直连专线
-      - 🇨🇳 adi|0707v - TW1(Direct) - 台湾直连专线
-      - 🇯🇵 adi|0707v - JP1(Direct) - 日本直连专线
-      - 🇯🇵 adi|0707v - JP2(Direct) - 日本直连专线
-      - 🇰🇷 adi|0707v - KR1(Direct) - 韩国直连专线
-      - 🇸🇬 adi|0707v - SG1(Direct) - 新加坡直连专线
-      - 🇷🇺 adi|0707v - RU1(Direct) - 俄罗斯直连专线
-      - 🇺🇸 adi|0707v - US1(Direct) - 美国直连专线
-      - adi|0707v -
-      - adi|0707v - 2
-      - adi|0707v - 3
-      - adi|0707v - 4
+      - 🇭🇰 adi|0708v - IPLC沪港国际专线
+      - 🇭🇰 adi|0708v - IPLC沪港国际专线 2
+      - 🇯🇵 adi|0708v - 日本智能优选线路
+      - 🇭🇰 adi|0708v - 香港智能优选线路
+      - 🇸🇬 adi|0708v - 新加坡01丨解锁流媒体丨
+      - 🇸🇬 adi|0708v - 新加坡02丨解锁流媒体丨
+      - 🇸🇬 adi|0708v - 新加坡03丨解锁流媒体丨
+      - 🇯🇵 adi|0708v - 日本01丨解锁流媒体丨
+      - 🇯🇵 adi|0708v - 日本02丨解锁流媒体丨
+      - 🇯🇵 adi|0708v - 日本03丨解锁流媒体丨
+      - 🇯🇵 adi|0708v - 日本04丨解锁流媒体丨
+      - 🇯🇵 adi|0708v - 日本05丨解锁流媒体丨
+      - 🇯🇵 adi|0708v - 日本06丨解锁流媒体丨
+      - 🇺🇸 adi|0708v - 美国01丨原生IP丨
+      - 🇺🇸 adi|0708v - 美国02丨原生IP丨
+      - 🇭🇰 adi|0708v - 香港01丨解锁流媒体丨
+      - 🇭🇰 adi|0708v - 香港02丨解锁流媒体丨
+      - 🇭🇰 adi|0708v - 香港03丨解锁流媒体丨
+      - 🇭🇰 adi|0708v - HK1(Auto) - 香港智选专线
+      - 🇭🇰 adi|0708v - HK1(Relay) - 香港中继专线
+      - 🇨🇳 adi|0708v - TW1(Relay) - 台湾中继专线
+      - 🇯🇵 adi|0708v - JP1(Relay) - 日本中继专线
+      - 🇯🇵 adi|0708v - JP2(Relay) - 日本中继专线
+      - 🇰🇷 adi|0708v - KR1(Relay) - 韩国中继专线
+      - 🇸🇬 adi|0708v - SG1(Relay) - 新加坡中继专线
+      - 🇷🇺 adi|0708v - RU1(Relay) - 俄罗斯中继专线
+      - 🇺🇸 adi|0708v - US1(Relay) - 美国中继专线
+      - 🇭🇰 adi|0708v - HK1(IEPL) - 深港国际专线
+      - 🇭🇰 adi|0708v - HK2(IEPL) - 深港国际专线
+      - 🇭🇰 adi|0708v - HK3(IEPL) - 深港国际专线
+      - 🇭🇰 adi|0708v - HK4(IEPL) - 深港国际专线
+      - 🇯🇵 adi|0708v - JP1(IEPL) - 深日国际专线
+      - 🇰🇷 adi|0708v - KR1(IEPL) - 深韩国际专线
+      - 🇸🇬 adi|0708v - SG1(IEPL) - 深新国际专线
+      - 🇭🇰 adi|0708v - HK1(IEPL) - 沪港国际专线
+      - 🇨🇳 adi|0708v - TW1(IEPL) - 沪台国际专线
+      - 🇯🇵 adi|0708v - JP1(IEPL) - 沪日国际专线
+      - 🇰🇷 adi|0708v - KR1(IEPL) - 沪韩国际专线
+      - 🇷🇺 adi|0708v - RU1(IEPL) - 沪俄国际专线
+      - 🇺🇸 adi|0708v - US1(IEPL) - 沪美国际专线
+      - 🇭🇰 adi|0708v - 香港 01
+      - 🇭🇰 adi|0708v - 香港 02
+      - 🇭🇰 adi|0708v - 香港 03 测试
+      - 🇭🇰 adi|0708v - 香港04-测试
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
