@@ -1,2 +1,1 @@
-# freenode
-V2Ray | Clash 免费节点分享
+时间有限，偶尔更新
