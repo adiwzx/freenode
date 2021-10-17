@@ -29,9 +29,12 @@ https://github.com/Qv2ray/Qv2ray/releases
 
 
 ####  
-
 adidesign.c
 
+github-c http://mtw.so/5XVMfz
+
+gitee-c http://mtw.so/5Bq18o
+______________________
 http://mtw.so/5SSDLk
 
 http://m6z.cn/5TDggN
@@ -42,6 +45,10 @@ http://mtw.so/5LmQHx
 
 adidesign.r
 
+github-r http://mtw.so/6cY9SP
+
+gitee-r http://mtw.so/5tVydF
+_____________________
 http://mtw.so/6g7EzK
 
 http://m6z.cn/68FDE5
