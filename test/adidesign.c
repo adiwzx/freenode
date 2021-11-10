@@ -5,39 +5,40 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12064, server: dg-hk-node02.linkthink.app, port: 12064, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221716:XHUm9lc5WT, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 🇭🇰 dg-hk-node02.linkthink.app:12443, server: dg-hk-node02.linkthink.app, port: 12443, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221715:X6lMx5uGBz, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12236, server: dg-hk-node02.linkthink.app, port: 12236, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 226925:XeBhrYWv7M, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12509, server: dg-hk-node02.linkthink.app, port: 12509, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 234291:8R6XpWyNhI, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12702, server: dg-hk-node02.linkthink.app, port: 12702, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224180:IHin6VcaFN, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12772, server: dg-hk-node02.linkthink.app, port: 12772, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 217997:jKFWOlZID6, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 🇭🇰 dg-hk-node02.linkthink.app:12758, server: dg-hk-node02.linkthink.app, port: 12758, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221714:y40qfi38FW, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12292, server: dg-hk-node02.linkthink.app, port: 12292, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224949:8Xs2eVt10Z, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12692, server: dg-hk-node02.linkthink.app, port: 12692, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 223641:1jK8SHDx2i, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 🇭🇰 dg-hk-node02.linkthink.app:12176, server: dg-hk-node02.linkthink.app, port: 12176, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 229492:a8xYAmMQ6t, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12692, server: dg-hk-node02.linkthink.app, port: 12692, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 223641:1jK8SHDx2i, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 🇭🇰 dg-hk-node02.linkthink.app:12206, server: dg-hk-node02.linkthink.app, port: 12206, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224343:pc0Es8ruXA, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10831, server: dg-hk-node01.linkthink.app, port: 10831, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 229492:a8xYAmMQ6t, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12236, server: dg-hk-node02.linkthink.app, port: 12236, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 226925:XeBhrYWv7M, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12292, server: dg-hk-node02.linkthink.app, port: 12292, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224949:8Xs2eVt10Z, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12509, server: dg-hk-node02.linkthink.app, port: 12509, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 234291:8R6XpWyNhI, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12064, server: dg-hk-node02.linkthink.app, port: 12064, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221716:XHUm9lc5WT, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12702, server: dg-hk-node02.linkthink.app, port: 12702, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224180:IHin6VcaFN, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12634, server: dg-hk-node02.linkthink.app, port: 12634, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 🇭🇰 dg-hk-node01.linkthink.app:10160, server: dg-hk-node01.linkthink.app, port: 10160, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 234291:8R6XpWyNhI, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10976, server: dg-hk-node01.linkthink.app, port: 10976, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 226925:XeBhrYWv7M, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10223, server: dg-hk-node01.linkthink.app, port: 10223, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221714:y40qfi38FW, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10053, server: dg-hk-node01.linkthink.app, port: 10053, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224180:IHin6VcaFN, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10816, server: dg-hk-node01.linkthink.app, port: 10816, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 217997:jKFWOlZID6, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10562, server: dg-hk-node01.linkthink.app, port: 10562, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224949:8Xs2eVt10Z, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 🇭🇰 dg-hk-node01.linkthink.app:10189, server: dg-hk-node01.linkthink.app, port: 10189, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221715:X6lMx5uGBz, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10615, server: dg-hk-node01.linkthink.app, port: 10615, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221716:XHUm9lc5WT, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10562, server: dg-hk-node01.linkthink.app, port: 10562, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224949:8Xs2eVt10Z, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 🇭🇰 dg-hk-node01.linkthink.app:10483, server: dg-hk-node01.linkthink.app, port: 10483, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224343:pc0Es8ruXA, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10976, server: dg-hk-node01.linkthink.app, port: 10976, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 226925:XeBhrYWv7M, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 🇭🇰 dg-hk-node01.linkthink.app:10104, server: dg-hk-node01.linkthink.app, port: 10104, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 223641:1jK8SHDx2i, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20384, server: 42.157.196.104, port: 20384, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 217997:jKFWOlZID6, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20423, server: 42.157.196.104, port: 20423, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224949:8Xs2eVt10Z, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20871, server: 42.157.196.104, port: 20871, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221714:y40qfi38FW, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20979, server: 42.157.196.104, port: 20979, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221715:X6lMx5uGBz, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20644, server: 42.157.196.104, port: 20644, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 226925:XeBhrYWv7M, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20310, server: 42.157.196.104, port: 20310, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221716:XHUm9lc5WT, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10615, server: dg-hk-node01.linkthink.app, port: 10615, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221716:XHUm9lc5WT, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10435, server: dg-hk-node01.linkthink.app, port: 10435, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10831, server: dg-hk-node01.linkthink.app, port: 10831, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 229492:a8xYAmMQ6t, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10053, server: dg-hk-node01.linkthink.app, port: 10053, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224180:IHin6VcaFN, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10223, server: dg-hk-node01.linkthink.app, port: 10223, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221714:y40qfi38FW, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 42.157.196.104:20594, server: 42.157.196.104, port: 20594, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 229492:a8xYAmMQ6t, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20625, server: 42.157.196.104, port: 20625, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224343:pc0Es8ruXA, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20624, server: 42.157.196.104, port: 20624, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 223641:1jK8SHDx2i, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 42.157.196.104:20932, server: 42.157.196.104, port: 20932, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 42.157.196.104:20802, server: 42.157.196.104, port: 20802, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224180:IHin6VcaFN, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 42.157.196.104:20624, server: 42.157.196.104, port: 20624, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 223641:1jK8SHDx2i, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 42.157.196.104:20310, server: 42.157.196.104, port: 20310, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221716:XHUm9lc5WT, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 42.157.196.104:20644, server: 42.157.196.104, port: 20644, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 226925:XeBhrYWv7M, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 42.157.196.104:20871, server: 42.157.196.104, port: 20871, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221714:y40qfi38FW, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 42.157.196.104:20625, server: 42.157.196.104, port: 20625, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224343:pc0Es8ruXA, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 42.157.196.104:20423, server: 42.157.196.104, port: 20423, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224949:8Xs2eVt10Z, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 42.157.196.104:20681, server: 42.157.196.104, port: 20681, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 234291:8R6XpWyNhI, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 42.157.196.104:20979, server: 42.157.196.104, port: 20979, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221715:X6lMx5uGBz, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 42.157.196.104:10848, server: 42.157.196.104, port: 10848, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 42.157.196.104:10480, server: 42.157.196.104, port: 10480, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 234291:8R6XpWyNhI, obfs-param: ajax.microsoft.com, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
@@ -45,39 +46,40 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 dg-hk-node02.linkthink.app:12064
       - 🇭🇰 dg-hk-node02.linkthink.app:12443
-      - 🇭🇰 dg-hk-node02.linkthink.app:12236
-      - 🇭🇰 dg-hk-node02.linkthink.app:12509
-      - 🇭🇰 dg-hk-node02.linkthink.app:12702
-      - 🇭🇰 dg-hk-node02.linkthink.app:12772
       - 🇭🇰 dg-hk-node02.linkthink.app:12758
-      - 🇭🇰 dg-hk-node02.linkthink.app:12292
-      - 🇭🇰 dg-hk-node02.linkthink.app:12692
       - 🇭🇰 dg-hk-node02.linkthink.app:12176
+      - 🇭🇰 dg-hk-node02.linkthink.app:12692
       - 🇭🇰 dg-hk-node02.linkthink.app:12206
-      - 🇭🇰 dg-hk-node01.linkthink.app:10831
+      - 🇭🇰 dg-hk-node02.linkthink.app:12236
+      - 🇭🇰 dg-hk-node02.linkthink.app:12292
+      - 🇭🇰 dg-hk-node02.linkthink.app:12509
+      - 🇭🇰 dg-hk-node02.linkthink.app:12064
+      - 🇭🇰 dg-hk-node02.linkthink.app:12702
+      - 🇭🇰 dg-hk-node02.linkthink.app:12634
       - 🇭🇰 dg-hk-node01.linkthink.app:10160
-      - 🇭🇰 dg-hk-node01.linkthink.app:10976
-      - 🇭🇰 dg-hk-node01.linkthink.app:10223
-      - 🇭🇰 dg-hk-node01.linkthink.app:10053
-      - 🇭🇰 dg-hk-node01.linkthink.app:10816
-      - 🇭🇰 dg-hk-node01.linkthink.app:10562
       - 🇭🇰 dg-hk-node01.linkthink.app:10189
-      - 🇭🇰 dg-hk-node01.linkthink.app:10615
+      - 🇭🇰 dg-hk-node01.linkthink.app:10562
       - 🇭🇰 dg-hk-node01.linkthink.app:10483
+      - 🇭🇰 dg-hk-node01.linkthink.app:10976
       - 🇭🇰 dg-hk-node01.linkthink.app:10104
-      - 42.157.196.104:20384
-      - 42.157.196.104:20423
-      - 42.157.196.104:20871
-      - 42.157.196.104:20979
-      - 42.157.196.104:20644
-      - 42.157.196.104:20310
+      - 🇭🇰 dg-hk-node01.linkthink.app:10615
+      - 🇭🇰 dg-hk-node01.linkthink.app:10435
+      - 🇭🇰 dg-hk-node01.linkthink.app:10831
+      - 🇭🇰 dg-hk-node01.linkthink.app:10053
+      - 🇭🇰 dg-hk-node01.linkthink.app:10223
       - 42.157.196.104:20594
-      - 42.157.196.104:20625
-      - 42.157.196.104:20624
+      - 42.157.196.104:20932
       - 42.157.196.104:20802
+      - 42.157.196.104:20624
+      - 42.157.196.104:20310
+      - 42.157.196.104:20644
+      - 42.157.196.104:20871
+      - 42.157.196.104:20625
+      - 42.157.196.104:20423
       - 42.157.196.104:20681
+      - 42.157.196.104:20979
+      - 42.157.196.104:10848
       - 42.157.196.104:10480
   - name: ♻️ 自动选择
     type: url-test
@@ -85,39 +87,40 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 dg-hk-node02.linkthink.app:12064
       - 🇭🇰 dg-hk-node02.linkthink.app:12443
-      - 🇭🇰 dg-hk-node02.linkthink.app:12236
-      - 🇭🇰 dg-hk-node02.linkthink.app:12509
-      - 🇭🇰 dg-hk-node02.linkthink.app:12702
-      - 🇭🇰 dg-hk-node02.linkthink.app:12772
       - 🇭🇰 dg-hk-node02.linkthink.app:12758
-      - 🇭🇰 dg-hk-node02.linkthink.app:12292
-      - 🇭🇰 dg-hk-node02.linkthink.app:12692
       - 🇭🇰 dg-hk-node02.linkthink.app:12176
+      - 🇭🇰 dg-hk-node02.linkthink.app:12692
       - 🇭🇰 dg-hk-node02.linkthink.app:12206
-      - 🇭🇰 dg-hk-node01.linkthink.app:10831
+      - 🇭🇰 dg-hk-node02.linkthink.app:12236
+      - 🇭🇰 dg-hk-node02.linkthink.app:12292
+      - 🇭🇰 dg-hk-node02.linkthink.app:12509
+      - 🇭🇰 dg-hk-node02.linkthink.app:12064
+      - 🇭🇰 dg-hk-node02.linkthink.app:12702
+      - 🇭🇰 dg-hk-node02.linkthink.app:12634
       - 🇭🇰 dg-hk-node01.linkthink.app:10160
-      - 🇭🇰 dg-hk-node01.linkthink.app:10976
-      - 🇭🇰 dg-hk-node01.linkthink.app:10223
-      - 🇭🇰 dg-hk-node01.linkthink.app:10053
-      - 🇭🇰 dg-hk-node01.linkthink.app:10816
-      - 🇭🇰 dg-hk-node01.linkthink.app:10562
       - 🇭🇰 dg-hk-node01.linkthink.app:10189
-      - 🇭🇰 dg-hk-node01.linkthink.app:10615
+      - 🇭🇰 dg-hk-node01.linkthink.app:10562
       - 🇭🇰 dg-hk-node01.linkthink.app:10483
+      - 🇭🇰 dg-hk-node01.linkthink.app:10976
       - 🇭🇰 dg-hk-node01.linkthink.app:10104
-      - 42.157.196.104:20384
-      - 42.157.196.104:20423
-      - 42.157.196.104:20871
-      - 42.157.196.104:20979
-      - 42.157.196.104:20644
-      - 42.157.196.104:20310
+      - 🇭🇰 dg-hk-node01.linkthink.app:10615
+      - 🇭🇰 dg-hk-node01.linkthink.app:10435
+      - 🇭🇰 dg-hk-node01.linkthink.app:10831
+      - 🇭🇰 dg-hk-node01.linkthink.app:10053
+      - 🇭🇰 dg-hk-node01.linkthink.app:10223
       - 42.157.196.104:20594
-      - 42.157.196.104:20625
-      - 42.157.196.104:20624
+      - 42.157.196.104:20932
       - 42.157.196.104:20802
+      - 42.157.196.104:20624
+      - 42.157.196.104:20310
+      - 42.157.196.104:20644
+      - 42.157.196.104:20871
+      - 42.157.196.104:20625
+      - 42.157.196.104:20423
       - 42.157.196.104:20681
+      - 42.157.196.104:20979
+      - 42.157.196.104:10848
       - 42.157.196.104:10480
   - name: 🎯 全球直连
     type: select
@@ -136,39 +139,40 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 dg-hk-node02.linkthink.app:12064
       - 🇭🇰 dg-hk-node02.linkthink.app:12443
-      - 🇭🇰 dg-hk-node02.linkthink.app:12236
-      - 🇭🇰 dg-hk-node02.linkthink.app:12509
-      - 🇭🇰 dg-hk-node02.linkthink.app:12702
-      - 🇭🇰 dg-hk-node02.linkthink.app:12772
       - 🇭🇰 dg-hk-node02.linkthink.app:12758
-      - 🇭🇰 dg-hk-node02.linkthink.app:12292
-      - 🇭🇰 dg-hk-node02.linkthink.app:12692
       - 🇭🇰 dg-hk-node02.linkthink.app:12176
+      - 🇭🇰 dg-hk-node02.linkthink.app:12692
       - 🇭🇰 dg-hk-node02.linkthink.app:12206
-      - 🇭🇰 dg-hk-node01.linkthink.app:10831
+      - 🇭🇰 dg-hk-node02.linkthink.app:12236
+      - 🇭🇰 dg-hk-node02.linkthink.app:12292
+      - 🇭🇰 dg-hk-node02.linkthink.app:12509
+      - 🇭🇰 dg-hk-node02.linkthink.app:12064
+      - 🇭🇰 dg-hk-node02.linkthink.app:12702
+      - 🇭🇰 dg-hk-node02.linkthink.app:12634
       - 🇭🇰 dg-hk-node01.linkthink.app:10160
-      - 🇭🇰 dg-hk-node01.linkthink.app:10976
-      - 🇭🇰 dg-hk-node01.linkthink.app:10223
-      - 🇭🇰 dg-hk-node01.linkthink.app:10053
-      - 🇭🇰 dg-hk-node01.linkthink.app:10816
-      - 🇭🇰 dg-hk-node01.linkthink.app:10562
       - 🇭🇰 dg-hk-node01.linkthink.app:10189
-      - 🇭🇰 dg-hk-node01.linkthink.app:10615
+      - 🇭🇰 dg-hk-node01.linkthink.app:10562
       - 🇭🇰 dg-hk-node01.linkthink.app:10483
+      - 🇭🇰 dg-hk-node01.linkthink.app:10976
       - 🇭🇰 dg-hk-node01.linkthink.app:10104
-      - 42.157.196.104:20384
-      - 42.157.196.104:20423
-      - 42.157.196.104:20871
-      - 42.157.196.104:20979
-      - 42.157.196.104:20644
-      - 42.157.196.104:20310
+      - 🇭🇰 dg-hk-node01.linkthink.app:10615
+      - 🇭🇰 dg-hk-node01.linkthink.app:10435
+      - 🇭🇰 dg-hk-node01.linkthink.app:10831
+      - 🇭🇰 dg-hk-node01.linkthink.app:10053
+      - 🇭🇰 dg-hk-node01.linkthink.app:10223
       - 42.157.196.104:20594
-      - 42.157.196.104:20625
-      - 42.157.196.104:20624
+      - 42.157.196.104:20932
       - 42.157.196.104:20802
+      - 42.157.196.104:20624
+      - 42.157.196.104:20310
+      - 42.157.196.104:20644
+      - 42.157.196.104:20871
+      - 42.157.196.104:20625
+      - 42.157.196.104:20423
       - 42.157.196.104:20681
+      - 42.157.196.104:20979
+      - 42.157.196.104:10848
       - 42.157.196.104:10480
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
