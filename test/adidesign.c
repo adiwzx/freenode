@@ -3,125 +3,101 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12443, server: dg-hk-node02.linkthink.app, port: 12443, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221715:X6lMx5uGBz, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12758, server: dg-hk-node02.linkthink.app, port: 12758, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221714:y40qfi38FW, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12176, server: dg-hk-node02.linkthink.app, port: 12176, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 229492:a8xYAmMQ6t, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12692, server: dg-hk-node02.linkthink.app, port: 12692, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 223641:1jK8SHDx2i, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12206, server: dg-hk-node02.linkthink.app, port: 12206, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224343:pc0Es8ruXA, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12236, server: dg-hk-node02.linkthink.app, port: 12236, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 226925:XeBhrYWv7M, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12292, server: dg-hk-node02.linkthink.app, port: 12292, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224949:8Xs2eVt10Z, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12509, server: dg-hk-node02.linkthink.app, port: 12509, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 234291:8R6XpWyNhI, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12064, server: dg-hk-node02.linkthink.app, port: 12064, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221716:XHUm9lc5WT, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12702, server: dg-hk-node02.linkthink.app, port: 12702, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224180:IHin6VcaFN, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12634, server: dg-hk-node02.linkthink.app, port: 12634, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10160, server: dg-hk-node01.linkthink.app, port: 10160, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 234291:8R6XpWyNhI, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10189, server: dg-hk-node01.linkthink.app, port: 10189, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221715:X6lMx5uGBz, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10562, server: dg-hk-node01.linkthink.app, port: 10562, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224949:8Xs2eVt10Z, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10483, server: dg-hk-node01.linkthink.app, port: 10483, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224343:pc0Es8ruXA, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10976, server: dg-hk-node01.linkthink.app, port: 10976, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 226925:XeBhrYWv7M, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10104, server: dg-hk-node01.linkthink.app, port: 10104, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 223641:1jK8SHDx2i, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10615, server: dg-hk-node01.linkthink.app, port: 10615, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221716:XHUm9lc5WT, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10435, server: dg-hk-node01.linkthink.app, port: 10435, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10831, server: dg-hk-node01.linkthink.app, port: 10831, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 229492:a8xYAmMQ6t, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10053, server: dg-hk-node01.linkthink.app, port: 10053, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224180:IHin6VcaFN, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10223, server: dg-hk-node01.linkthink.app, port: 10223, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221714:y40qfi38FW, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20594, server: 42.157.196.104, port: 20594, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 229492:a8xYAmMQ6t, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20932, server: 42.157.196.104, port: 20932, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20802, server: 42.157.196.104, port: 20802, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224180:IHin6VcaFN, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20624, server: 42.157.196.104, port: 20624, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 223641:1jK8SHDx2i, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20310, server: 42.157.196.104, port: 20310, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221716:XHUm9lc5WT, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20644, server: 42.157.196.104, port: 20644, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 226925:XeBhrYWv7M, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20871, server: 42.157.196.104, port: 20871, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221714:y40qfi38FW, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20625, server: 42.157.196.104, port: 20625, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224343:pc0Es8ruXA, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20423, server: 42.157.196.104, port: 20423, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224949:8Xs2eVt10Z, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20681, server: 42.157.196.104, port: 20681, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 234291:8R6XpWyNhI, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:20979, server: 42.157.196.104, port: 20979, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 221715:X6lMx5uGBz, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:10848, server: 42.157.196.104, port: 10848, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 42.157.196.104:10480, server: 42.157.196.104, port: 10480, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 234291:8R6XpWyNhI, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12292, server: dg-hk-node02.linkthink.app, port: 12292, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224949:8Xs2eVt10Z, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12206, server: dg-hk-node02.linkthink.app, port: 12206, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224343:pc0Es8ruXA, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12236, server: dg-hk-node02.linkthink.app, port: 12236, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 226925:XeBhrYWv7M, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12634, server: dg-hk-node02.linkthink.app, port: 12634, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12176, server: dg-hk-node02.linkthink.app, port: 12176, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 229492:a8xYAmMQ6t, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12509, server: dg-hk-node02.linkthink.app, port: 12509, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 234291:8R6XpWyNhI, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12702, server: dg-hk-node02.linkthink.app, port: 12702, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224180:IHin6VcaFN, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node02.linkthink.app:12007, server: dg-hk-node02.linkthink.app, port: 12007, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 247486:eTxMJcn8Ct, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10483, server: dg-hk-node01.linkthink.app, port: 10483, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224343:pc0Es8ruXA, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10053, server: dg-hk-node01.linkthink.app, port: 10053, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224180:IHin6VcaFN, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10160, server: dg-hk-node01.linkthink.app, port: 10160, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 234291:8R6XpWyNhI, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10976, server: dg-hk-node01.linkthink.app, port: 10976, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 226925:XeBhrYWv7M, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10562, server: dg-hk-node01.linkthink.app, port: 10562, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224949:8Xs2eVt10Z, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10394, server: dg-hk-node01.linkthink.app, port: 10394, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 247486:eTxMJcn8Ct, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10831, server: dg-hk-node01.linkthink.app, port: 10831, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 229492:a8xYAmMQ6t, obfs-param: ajax.microsoft.com}
+  - {name: 🇭🇰 dg-hk-node01.linkthink.app:10435, server: dg-hk-node01.linkthink.app, port: 10435, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com}
+  - {name: 42.157.196.104:10661, server: 42.157.196.104, port: 10661, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 247486:eTxMJcn8Ct, obfs-param: ajax.microsoft.com}
+  - {name: 42.157.196.104:10848, server: 42.157.196.104, port: 10848, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com}
+  - {name: 42.157.196.104:10480, server: 42.157.196.104, port: 10480, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 234291:8R6XpWyNhI, obfs-param: ajax.microsoft.com}
+  - {name: 42.157.196.104:20594, server: 42.157.196.104, port: 20594, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 229492:a8xYAmMQ6t, obfs-param: ajax.microsoft.com}
+  - {name: 42.157.196.104:20644, server: 42.157.196.104, port: 20644, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 226925:XeBhrYWv7M, obfs-param: ajax.microsoft.com}
+  - {name: 42.157.196.104:20951, server: 42.157.196.104, port: 20951, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 247486:eTxMJcn8Ct, obfs-param: ajax.microsoft.com}
+  - {name: 42.157.196.104:20681, server: 42.157.196.104, port: 20681, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 234291:8R6XpWyNhI, obfs-param: ajax.microsoft.com}
+  - {name: 42.157.196.104:20625, server: 42.157.196.104, port: 20625, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224343:pc0Es8ruXA, obfs-param: ajax.microsoft.com}
+  - {name: 42.157.196.104:20423, server: 42.157.196.104, port: 20423, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224949:8Xs2eVt10Z, obfs-param: ajax.microsoft.com}
+  - {name: 42.157.196.104:20932, server: 42.157.196.104, port: 20932, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com}
+  - {name: 42.157.196.104:20802, server: 42.157.196.104, port: 20802, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 224180:IHin6VcaFN, obfs-param: ajax.microsoft.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 dg-hk-node02.linkthink.app:12443
-      - 🇭🇰 dg-hk-node02.linkthink.app:12758
-      - 🇭🇰 dg-hk-node02.linkthink.app:12176
-      - 🇭🇰 dg-hk-node02.linkthink.app:12692
+      - 🇭🇰 dg-hk-node02.linkthink.app:12292
       - 🇭🇰 dg-hk-node02.linkthink.app:12206
       - 🇭🇰 dg-hk-node02.linkthink.app:12236
-      - 🇭🇰 dg-hk-node02.linkthink.app:12292
-      - 🇭🇰 dg-hk-node02.linkthink.app:12509
-      - 🇭🇰 dg-hk-node02.linkthink.app:12064
-      - 🇭🇰 dg-hk-node02.linkthink.app:12702
       - 🇭🇰 dg-hk-node02.linkthink.app:12634
-      - 🇭🇰 dg-hk-node01.linkthink.app:10160
-      - 🇭🇰 dg-hk-node01.linkthink.app:10189
-      - 🇭🇰 dg-hk-node01.linkthink.app:10562
+      - 🇭🇰 dg-hk-node02.linkthink.app:12176
+      - 🇭🇰 dg-hk-node02.linkthink.app:12509
+      - 🇭🇰 dg-hk-node02.linkthink.app:12702
+      - 🇭🇰 dg-hk-node02.linkthink.app:12007
       - 🇭🇰 dg-hk-node01.linkthink.app:10483
-      - 🇭🇰 dg-hk-node01.linkthink.app:10976
-      - 🇭🇰 dg-hk-node01.linkthink.app:10104
-      - 🇭🇰 dg-hk-node01.linkthink.app:10615
-      - 🇭🇰 dg-hk-node01.linkthink.app:10435
-      - 🇭🇰 dg-hk-node01.linkthink.app:10831
       - 🇭🇰 dg-hk-node01.linkthink.app:10053
-      - 🇭🇰 dg-hk-node01.linkthink.app:10223
-      - 42.157.196.104:20594
-      - 42.157.196.104:20932
-      - 42.157.196.104:20802
-      - 42.157.196.104:20624
-      - 42.157.196.104:20310
-      - 42.157.196.104:20644
-      - 42.157.196.104:20871
-      - 42.157.196.104:20625
-      - 42.157.196.104:20423
-      - 42.157.196.104:20681
-      - 42.157.196.104:20979
+      - 🇭🇰 dg-hk-node01.linkthink.app:10160
+      - 🇭🇰 dg-hk-node01.linkthink.app:10976
+      - 🇭🇰 dg-hk-node01.linkthink.app:10562
+      - 🇭🇰 dg-hk-node01.linkthink.app:10394
+      - 🇭🇰 dg-hk-node01.linkthink.app:10831
+      - 🇭🇰 dg-hk-node01.linkthink.app:10435
+      - 42.157.196.104:10661
       - 42.157.196.104:10848
       - 42.157.196.104:10480
+      - 42.157.196.104:20594
+      - 42.157.196.104:20644
+      - 42.157.196.104:20951
+      - 42.157.196.104:20681
+      - 42.157.196.104:20625
+      - 42.157.196.104:20423
+      - 42.157.196.104:20932
+      - 42.157.196.104:20802
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 dg-hk-node02.linkthink.app:12443
-      - 🇭🇰 dg-hk-node02.linkthink.app:12758
-      - 🇭🇰 dg-hk-node02.linkthink.app:12176
-      - 🇭🇰 dg-hk-node02.linkthink.app:12692
+      - 🇭🇰 dg-hk-node02.linkthink.app:12292
       - 🇭🇰 dg-hk-node02.linkthink.app:12206
       - 🇭🇰 dg-hk-node02.linkthink.app:12236
-      - 🇭🇰 dg-hk-node02.linkthink.app:12292
-      - 🇭🇰 dg-hk-node02.linkthink.app:12509
-      - 🇭🇰 dg-hk-node02.linkthink.app:12064
-      - 🇭🇰 dg-hk-node02.linkthink.app:12702
       - 🇭🇰 dg-hk-node02.linkthink.app:12634
-      - 🇭🇰 dg-hk-node01.linkthink.app:10160
-      - 🇭🇰 dg-hk-node01.linkthink.app:10189
-      - 🇭🇰 dg-hk-node01.linkthink.app:10562
+      - 🇭🇰 dg-hk-node02.linkthink.app:12176
+      - 🇭🇰 dg-hk-node02.linkthink.app:12509
+      - 🇭🇰 dg-hk-node02.linkthink.app:12702
+      - 🇭🇰 dg-hk-node02.linkthink.app:12007
       - 🇭🇰 dg-hk-node01.linkthink.app:10483
-      - 🇭🇰 dg-hk-node01.linkthink.app:10976
-      - 🇭🇰 dg-hk-node01.linkthink.app:10104
-      - 🇭🇰 dg-hk-node01.linkthink.app:10615
-      - 🇭🇰 dg-hk-node01.linkthink.app:10435
-      - 🇭🇰 dg-hk-node01.linkthink.app:10831
       - 🇭🇰 dg-hk-node01.linkthink.app:10053
-      - 🇭🇰 dg-hk-node01.linkthink.app:10223
-      - 42.157.196.104:20594
-      - 42.157.196.104:20932
-      - 42.157.196.104:20802
-      - 42.157.196.104:20624
-      - 42.157.196.104:20310
-      - 42.157.196.104:20644
-      - 42.157.196.104:20871
-      - 42.157.196.104:20625
-      - 42.157.196.104:20423
-      - 42.157.196.104:20681
-      - 42.157.196.104:20979
+      - 🇭🇰 dg-hk-node01.linkthink.app:10160
+      - 🇭🇰 dg-hk-node01.linkthink.app:10976
+      - 🇭🇰 dg-hk-node01.linkthink.app:10562
+      - 🇭🇰 dg-hk-node01.linkthink.app:10394
+      - 🇭🇰 dg-hk-node01.linkthink.app:10831
+      - 🇭🇰 dg-hk-node01.linkthink.app:10435
+      - 42.157.196.104:10661
       - 42.157.196.104:10848
       - 42.157.196.104:10480
+      - 42.157.196.104:20594
+      - 42.157.196.104:20644
+      - 42.157.196.104:20951
+      - 42.157.196.104:20681
+      - 42.157.196.104:20625
+      - 42.157.196.104:20423
+      - 42.157.196.104:20932
+      - 42.157.196.104:20802
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -139,41 +115,33 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 dg-hk-node02.linkthink.app:12443
-      - 🇭🇰 dg-hk-node02.linkthink.app:12758
-      - 🇭🇰 dg-hk-node02.linkthink.app:12176
-      - 🇭🇰 dg-hk-node02.linkthink.app:12692
+      - 🇭🇰 dg-hk-node02.linkthink.app:12292
       - 🇭🇰 dg-hk-node02.linkthink.app:12206
       - 🇭🇰 dg-hk-node02.linkthink.app:12236
-      - 🇭🇰 dg-hk-node02.linkthink.app:12292
-      - 🇭🇰 dg-hk-node02.linkthink.app:12509
-      - 🇭🇰 dg-hk-node02.linkthink.app:12064
-      - 🇭🇰 dg-hk-node02.linkthink.app:12702
       - 🇭🇰 dg-hk-node02.linkthink.app:12634
-      - 🇭🇰 dg-hk-node01.linkthink.app:10160
-      - 🇭🇰 dg-hk-node01.linkthink.app:10189
-      - 🇭🇰 dg-hk-node01.linkthink.app:10562
+      - 🇭🇰 dg-hk-node02.linkthink.app:12176
+      - 🇭🇰 dg-hk-node02.linkthink.app:12509
+      - 🇭🇰 dg-hk-node02.linkthink.app:12702
+      - 🇭🇰 dg-hk-node02.linkthink.app:12007
       - 🇭🇰 dg-hk-node01.linkthink.app:10483
-      - 🇭🇰 dg-hk-node01.linkthink.app:10976
-      - 🇭🇰 dg-hk-node01.linkthink.app:10104
-      - 🇭🇰 dg-hk-node01.linkthink.app:10615
-      - 🇭🇰 dg-hk-node01.linkthink.app:10435
-      - 🇭🇰 dg-hk-node01.linkthink.app:10831
       - 🇭🇰 dg-hk-node01.linkthink.app:10053
-      - 🇭🇰 dg-hk-node01.linkthink.app:10223
-      - 42.157.196.104:20594
-      - 42.157.196.104:20932
-      - 42.157.196.104:20802
-      - 42.157.196.104:20624
-      - 42.157.196.104:20310
-      - 42.157.196.104:20644
-      - 42.157.196.104:20871
-      - 42.157.196.104:20625
-      - 42.157.196.104:20423
-      - 42.157.196.104:20681
-      - 42.157.196.104:20979
+      - 🇭🇰 dg-hk-node01.linkthink.app:10160
+      - 🇭🇰 dg-hk-node01.linkthink.app:10976
+      - 🇭🇰 dg-hk-node01.linkthink.app:10562
+      - 🇭🇰 dg-hk-node01.linkthink.app:10394
+      - 🇭🇰 dg-hk-node01.linkthink.app:10831
+      - 🇭🇰 dg-hk-node01.linkthink.app:10435
+      - 42.157.196.104:10661
       - 42.157.196.104:10848
       - 42.157.196.104:10480
+      - 42.157.196.104:20594
+      - 42.157.196.104:20644
+      - 42.157.196.104:20951
+      - 42.157.196.104:20681
+      - 42.157.196.104:20625
+      - 42.157.196.104:20423
+      - 42.157.196.104:20932
+      - 42.157.196.104:20802
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -201,6 +169,23 @@ rules:
  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
+ - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
+ - DOMAIN,dl.google.com,🎯 全球直连
+ - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
+ - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
+ - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+ - DOMAIN,xivanalysis.com,🎯 全球直连
+ - DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
+ - DOMAIN,fairplay.l.qq.com,🎯 全球直连
+ - DOMAIN,livew.l.qq.com,🎯 全球直连
+ - DOMAIN,vd.l.qq.com,🎯 全球直连
+ - DOMAIN,analytics.strava.com,🎯 全球直连
+ - DOMAIN,msg.umeng.com,🎯 全球直连
+ - DOMAIN,msg.umengcloud.com,🎯 全球直连
+ - DOMAIN,tracking.miui.com,🎯 全球直连
+ - DOMAIN,app.adjust.com,🎯 全球直连
+ - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -225,7 +210,6 @@ rules:
  - DOMAIN-KEYWORD,pingfore,🛑 全球拦截
  - DOMAIN-KEYWORD,socdm,🛑 全球拦截
  - DOMAIN-KEYWORD,supersonicads,🛑 全球拦截
- - DOMAIN-KEYWORD,tracking,🛑 全球拦截
  - DOMAIN-KEYWORD,usage,🛑 全球拦截
  - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
  - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
@@ -1764,6 +1748,8 @@ rules:
  - DOMAIN-SUFFIX,808.tianyaui.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,92x.tumblr.com,🛑 全球拦截
  - DOMAIN-SUFFIX,a1.itc.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,ad-channel.wikawika.xyz,🛑 全球拦截
+ - DOMAIN-SUFFIX,ad-display.wikawika.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,ad.12306.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ad.3.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ad.95306.cn,🛑 全球拦截
@@ -1877,7 +1863,6 @@ rules:
  - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
  - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
- - DOMAIN-SUFFIX,redirector.gvt1.com,🎯 全球直连
  - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
@@ -1932,26 +1917,54 @@ rules:
  - DOMAIN-SUFFIX,bbc.co,🚀 节点选择
  - DOMAIN-SUFFIX,bbc.co.uk,🚀 节点选择
  - DOMAIN-SUFFIX,bbc.com,🚀 节点选择
+ - DOMAIN-SUFFIX,bbc.net.uk,🚀 节点选择
  - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,🚀 节点选择
  - DOMAIN-SUFFIX,bbci.co,🚀 节点选择
  - DOMAIN-SUFFIX,bbci.co.uk,🚀 节点选择
+ - DOMAIN-SUFFIX,bidi.net.uk,🚀 节点选择
  - DOMAIN,gamer-cds.cdn.hinet.net,🚀 节点选择
  - DOMAIN,gamer2-cds.cdn.hinet.net,🚀 节点选择
  - DOMAIN-SUFFIX,bahamut.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,gamer.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,hinet.net,🚀 节点选择
  - DOMAIN-KEYWORD,livedazn,🚀 节点选择
+ - DOMAIN-KEYWORD,vod2dazn,🚀 节点选择
  - DOMAIN-KEYWORD,voddazn,🚀 节点选择
  - DOMAIN,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
+ - DOMAIN,edge.api.brightcove.com,🚀 节点选择
+ - DOMAIN,players.brightcove.net,🚀 节点选择
+ - DOMAIN-SUFFIX,amplify.outbrain.com,🚀 节点选择
+ - DOMAIN-SUFFIX,bluekai.com,🚀 节点选择
+ - DOMAIN-SUFFIX,control.kochava.com,🚀 节点选择
+ - DOMAIN-SUFFIX,cws.conviva.com,🚀 节点选择
  - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
  - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🚀 节点选择
  - DOMAIN-SUFFIX,dazn-api.com,🚀 节点选择
  - DOMAIN-SUFFIX,dazn.com,🚀 节点选择
  - DOMAIN-SUFFIX,dazndn.com,🚀 节点选择
+ - DOMAIN-SUFFIX,dc1-voddash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dc1live21715dazn.akamaized.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dc2-live2dash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dc2-live2hls-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dca-livedash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dca-voddash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dca-vodhls-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dcb-livedash-perform.secure.footprint.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dcb-voddash-perform.secure.footprint.net,🚀 节点选择
  - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🚀 节点选择
  - DOMAIN-SUFFIX,indazn.com,🚀 节点选择
  - DOMAIN-SUFFIX,indaznlab.com,🚀 节点选择
+ - DOMAIN-SUFFIX,intercom.io,🚀 节点选择
+ - DOMAIN-SUFFIX,perfops.doracdn.com,🚀 节点选择
+ - DOMAIN-SUFFIX,s.llnwi.net,🚀 节点选择
+ - DOMAIN-SUFFIX,s.yimg.jp,🚀 节点选择
+ - DOMAIN-SUFFIX,secure.footprint.net,🚀 节点选择
  - DOMAIN-SUFFIX,sentry.io,🚀 节点选择
+ - DOMAIN-SUFFIX,urbanairship.com,🚀 节点选择
+ - DOMAIN-SUFFIX,vjs.zencdn.net,🚀 节点选择
+ - DOMAIN-SUFFIX,widevine.entitlement.us.theplatform.com,🚀 节点选择
+ - DOMAIN-SUFFIX,yahoo.co.jp,🚀 节点选择
  - DOMAIN-SUFFIX,deezer.com,🚀 节点选择
  - DOMAIN-SUFFIX,dzcdn.net,🚀 节点选择
  - DOMAIN,cdn.registerdisney.go.com,🚀 节点选择
@@ -1981,17 +1994,7 @@ rules:
  - DOMAIN-SUFFIX,encoretvb.com,🚀 节点选择
  - DOMAIN-SUFFIX,fox.com,🚀 节点选择
  - DOMAIN-SUFFIX,foxdcg.com,🚀 节点选择
- - DOMAIN-SUFFIX,theplatform.com,🚀 节点选择
  - DOMAIN-SUFFIX,uplynk.com,🚀 节点选择
- - DOMAIN,cdn-fox-networks-group-green.akamaized.net,🚀 节点选择
- - DOMAIN,d3cv4a9a9wh0bt.cloudfront.net,🚀 节点选择
- - DOMAIN,foxsports01-i.akamaihd.net,🚀 节点选择
- - DOMAIN,foxsports02-i.akamaihd.net,🚀 节点选择
- - DOMAIN,foxsports03-i.akamaihd.net,🚀 节点选择
- - DOMAIN,staticasiafox.akamaized.net,🚀 节点选择
- - DOMAIN-SUFFIX,akamaized.net,🚀 节点选择
- - DOMAIN-SUFFIX,foxplus.com,🚀 节点选择
- - DOMAIN-SUFFIX,theplatform.com,🚀 节点选择
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
  - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🚀 节点选择
@@ -2008,7 +2011,9 @@ rules:
  - DOMAIN-SUFFIX,hbogoasia.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbogoasia.hk,🚀 节点选择
  - DOMAIN-SUFFIX,hbomax.com,🚀 节点选择
+ - DOMAIN-SUFFIX,hbomaxcdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbonow.com,🚀 节点选择
+ - DOMAIN-KEYWORD,.hbogoasia.,🚀 节点选择
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
  - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🚀 节点选择
@@ -2018,6 +2023,10 @@ rules:
  - DOMAIN,hboasia3-i.akamaihd.net,🚀 节点选择
  - DOMAIN,hboasia4-i.akamaihd.net,🚀 节点选择
  - DOMAIN,hboasia5-i.akamaihd.net,🚀 节点选择
+ - DOMAIN,hboasialive.akamaized.net,🚀 节点选择
+ - DOMAIN,hbogoprod-vod.akamaized.net,🚀 节点选择
+ - DOMAIN,hbolb.onwardsmg.com,🚀 节点选择
+ - DOMAIN,hbounify-prod.evergent.com,🚀 节点选择
  - DOMAIN,players.brightcove.net,🚀 节点选择
  - DOMAIN,s3-ap-southeast-1.amazonaws.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbogoasia.com,🚀 节点选择
@@ -2071,7 +2080,7 @@ rules:
  - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🚀 节点选择
  - DOMAIN-SUFFIX,mytvsuper.com,🚀 节点选择
  - DOMAIN-SUFFIX,tvb.com,🚀 节点选择
- - DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-,🚀 节点选择
+ - DOMAIN-KEYWORD,dualstack.apiproxy-,🚀 节点选择
  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🚀 节点选择
  - DOMAIN,netflix.com.edgesuite.net,🚀 节点选择
  - DOMAIN-SUFFIX,fast.com,🚀 节点选择
@@ -2131,6 +2140,7 @@ rules:
  - DOMAIN-SUFFIX,scdn.co,🚀 节点选择
  - DOMAIN-SUFFIX,spoti.fi,🚀 节点选择
  - DOMAIN-SUFFIX,spotify.com,🚀 节点选择
+ - DOMAIN-SUFFIX,spotifycdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,spotifycdn.net,🚀 节点选择
  - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🚀 节点选择
  - DOMAIN-SUFFIX,tidal.com,🚀 节点选择
@@ -2175,6 +2185,9 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,🚀 节点选择
  - DOMAIN-SUFFIX,youtube.com,🚀 节点选择
  - DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
+ - PROCESS-NAME,com.google.android.apps.youtube.music,🚀 节点选择
+ - PROCESS-NAME,com.google.android.youtube.tvmusicroot,🚀 节点选择
+ - PROCESS-NAME,com.vanced.android.apps.youtube.music,🚀 节点选择
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
@@ -2184,6 +2197,7 @@ rules:
  - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
  - DOMAIN-SUFFIX,gameloft.com,🚀 节点选择
  - DOMAIN-SUFFIX,garena.com,🚀 节点选择
+ - DOMAIN-SUFFIX,hoyolab.com,🚀 节点选择
  - DOMAIN-SUFFIX,inoreader.com,🚀 节点选择
  - DOMAIN-SUFFIX,ip138.com,🚀 节点选择
  - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
@@ -2297,6 +2311,7 @@ rules:
  - DOMAIN-SUFFIX,nintendo.net,🚀 节点选择
  - DOMAIN-SUFFIX,nsstatic.net,🚀 节点选择
  - DOMAIN-SUFFIX,nytstyle.com,🚀 节点选择
+ - DOMAIN-SUFFIX,overcast.fm,🚀 节点选择
  - DOMAIN-SUFFIX,openvpn.net,🚀 节点选择
  - DOMAIN-SUFFIX,periscope.tv,🚀 节点选择
  - DOMAIN-SUFFIX,pinimg.com,🚀 节点选择
@@ -2377,8 +2392,6 @@ rules:
  - DOMAIN-SUFFIX,discord.media,🚀 节点选择
  - DOMAIN-SUFFIX,discordapp.com,🚀 节点选择
  - DOMAIN-SUFFIX,discordapp.net,🚀 节点选择
- - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
- - DOMAIN-SUFFIX,duboxcdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,facebook.com,🚀 节点选择
  - DOMAIN-SUFFIX,fb.com,🚀 节点选择
  - DOMAIN-SUFFIX,fb.me,🚀 节点选择
@@ -2514,10 +2527,7 @@ rules:
  - DOMAIN-SUFFIX,smartmailcloud.com,🚀 节点选择
  - DOMAIN-SUFFIX,fanatical.com,🚀 节点选择
  - DOMAIN-SUFFIX,humblebundle.com,🚀 节点选择
- - DOMAIN-SUFFIX,steam-chat.com,🚀 节点选择
  - DOMAIN-SUFFIX,steamcommunity.com,🚀 节点选择
- - DOMAIN-SUFFIX,steampowered.com,🚀 节点选择
- - DOMAIN-SUFFIX,steamstatic.com,🚀 节点选择
  - DOMAIN-SUFFIX,tap.io,🚀 节点选择
  - DOMAIN-SUFFIX,taptap.tw,🚀 节点选择
  - DOMAIN-SUFFIX,twitch.tv,🚀 节点选择
@@ -2540,6 +2550,8 @@ rules:
  - IP-CIDR6,2001:67c:4e8::/48,🚀 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,🚀 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
+ - DOMAIN-SUFFIX,terabox.com,🚀 节点选择
+ - DOMAIN-SUFFIX,teraboxcdn.com,🚀 节点选择
  - IP-CIDR,18.194.0.0/15,🚀 节点选择,no-resolve
  - IP-CIDR,34.224.0.0/12,🚀 节点选择,no-resolve
  - IP-CIDR,54.242.0.0/15,🚀 节点选择,no-resolve
@@ -2571,6 +2583,7 @@ rules:
  - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
+ - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
  - DOMAIN-SUFFIX,423down.com,🎯 全球直连
  - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
  - DOMAIN-SUFFIX,chaipip.com,🎯 全球直连
@@ -2579,6 +2592,9 @@ rules:
  - DOMAIN-SUFFIX,kaikeba.com,🎯 全球直连
  - DOMAIN-SUFFIX,laomo.me,🎯 全球直连
  - DOMAIN-SUFFIX,mpyit.com,🎯 全球直连
+ - DOMAIN-SUFFIX,msftconnecttest.com,🎯 全球直连
+ - DOMAIN-SUFFIX,msftncsi.com,🎯 全球直连
+ - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
  - DOMAIN-SUFFIX,中国,🎯 全球直连
  - DOMAIN-SUFFIX,公司,🎯 全球直连
@@ -2620,6 +2636,7 @@ rules:
  - DOMAIN-SUFFIX,alibabacloud.com,🎯 全球直连
  - DOMAIN-SUFFIX,alibabausercontent.com,🎯 全球直连
  - DOMAIN-SUFFIX,alicdn.com,🎯 全球直连
+ - DOMAIN-SUFFIX,alicloudccp.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliexpress.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,alikunlun.com,🎯 全球直连
@@ -2629,6 +2646,7 @@ rules:
  - DOMAIN-SUFFIX,aliyun.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliyuncdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliyuncs.com,🎯 全球直连
+ - DOMAIN-SUFFIX,aliyundrive.com,🎯 全球直连
  - DOMAIN-SUFFIX,amap.com,🎯 全球直连
  - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
  - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
@@ -2663,13 +2681,19 @@ rules:
  - DOMAIN-SUFFIX,acg.tv,🎯 全球直连
  - DOMAIN-SUFFIX,acgvideo.com,🎯 全球直连
  - DOMAIN-SUFFIX,b23.tv,🎯 全球直连
+ - DOMAIN-SUFFIX,bigfun.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,bigfunapp.cn,🎯 全球直连
  - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
+ - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
  - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
  - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
  - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
+ - DOMAIN-SUFFIX,bilivideo.cn,🎯 全球直连
  - DOMAIN-SUFFIX,hdslb.com,🎯 全球直连
  - DOMAIN-SUFFIX,im9.com,🎯 全球直连
+ - DOMAIN-SUFFIX,smtcdns.net,🎯 全球直连
  - DOMAIN-SUFFIX,battle.net,🎯 全球直连
  - DOMAIN-SUFFIX,battlenet.com,🎯 全球直连
  - DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
@@ -3034,6 +3058,8 @@ rules:
  - DOMAIN-SUFFIX,lancdns.com,🎯 全球直连
  - DOMAIN-SUFFIX,landiannews.com,🎯 全球直连
  - DOMAIN-SUFFIX,lanzou.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lanzoui.com,🎯 全球直连
+ - DOMAIN-SUFFIX,lanzoux.com,🎯 全球直连
  - DOMAIN-SUFFIX,lemicp.com,🎯 全球直连
  - DOMAIN-SUFFIX,letitfly.me,🎯 全球直连
  - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
@@ -3067,7 +3093,6 @@ rules:
  - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
  - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
  - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
- - DOMAIN-SUFFIX,overcast.fm,🎯 全球直连
  - DOMAIN-SUFFIX,paypal.com,🎯 全球直连
  - DOMAIN-SUFFIX,polyv.net,🎯 全球直连
  - DOMAIN-SUFFIX,qbox.me,🎯 全球直连
@@ -3104,6 +3129,7 @@ rules:
  - DOMAIN-SUFFIX,sspai.com,🎯 全球直连
  - DOMAIN-SUFFIX,startssl.com,🎯 全球直连
  - DOMAIN-SUFFIX,suning.com,🎯 全球直连
+ - DOMAIN-SUFFIX,synology.com,🎯 全球直连
  - DOMAIN-SUFFIX,taihe.com,🎯 全球直连
  - DOMAIN-SUFFIX,th-sjy.com,🎯 全球直连
  - DOMAIN-SUFFIX,tianqi.com,🎯 全球直连
@@ -3122,7 +3148,6 @@ rules:
  - DOMAIN-SUFFIX,upyun.com,🎯 全球直连
  - DOMAIN-SUFFIX,uxengine.net,🎯 全球直连
  - DOMAIN-SUFFIX,videocc.net,🎯 全球直连
- - DOMAIN-SUFFIX,vmware.com,🎯 全球直连
  - DOMAIN-SUFFIX,wandoujia.com,🎯 全球直连
  - DOMAIN-SUFFIX,weather.com,🎯 全球直连
  - DOMAIN-SUFFIX,weico.cc,🎯 全球直连
