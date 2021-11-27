@@ -5,84 +5,84 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: adi|1126, server: dg-hk-node02.linkthink.app, port: 12162, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 253259:XPm6YJdoL3, obfs-param: ajax.microsoft.com}
   - {name: adi|1124, server: dg-hk-node02.linkthink.app, port: 12007, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 247486:eTxMJcn8Ct, obfs-param: ajax.microsoft.com}
+  - {name: adi|1127, server: dg-hk-node02.linkthink.app, port: 12205, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 257532:5rz2AHnQ1m, obfs-param: ajax.microsoft.com}
   - {name: adi|1124 2, server: dg-hk-node02.linkthink.app, port: 12662, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 252173:0zEP9YXI8e, obfs-param: ajax.microsoft.com}
   - {name: adi|1124 3, server: dg-hk-node02.linkthink.app, port: 12862, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 252172:yo2FBA9HSj, obfs-param: ajax.microsoft.com}
   - {name: adi|1124 4, server: dg-hk-node02.linkthink.app, port: 12634, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com}
-  - {name: adi|1126, server: dg-hk-node02.linkthink.app, port: 12162, type: ssr, cipher: aes-256-cfb, password: e5opjuLDEQ, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 253259:XPm6YJdoL3, obfs-param: ajax.microsoft.com}
   - {name: adi|1124 5, server: dg-hk-node01.linkthink.app, port: 10525, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 252173:0zEP9YXI8e, obfs-param: ajax.microsoft.com}
-  - {name: adi|1124 6, server: dg-hk-node01.linkthink.app, port: 10435, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com}
-  - {name: adi|1124 7, server: dg-hk-node01.linkthink.app, port: 10394, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 247486:eTxMJcn8Ct, obfs-param: ajax.microsoft.com}
-  - {name: adi|1124 8, server: dg-hk-node01.linkthink.app, port: 10718, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 252172:yo2FBA9HSj, obfs-param: ajax.microsoft.com}
   - {name: adi|1126 2, server: dg-hk-node01.linkthink.app, port: 10588, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 253259:XPm6YJdoL3, obfs-param: ajax.microsoft.com}
-  - {name: adi|1124 9, server: 42.157.196.104, port: 10991, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 252172:yo2FBA9HSj, obfs-param: ajax.microsoft.com}
-  - {name: adi|1124 10, server: 42.157.196.104, port: 10661, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 247486:eTxMJcn8Ct, obfs-param: ajax.microsoft.com}
-  - {name: adi|1124 11, server: 42.157.196.104, port: 10283, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 252173:0zEP9YXI8e, obfs-param: ajax.microsoft.com}
-  - {name: adi|1124 12, server: 42.157.196.104, port: 10848, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com}
-  - {name: adi|1124 13, server: 42.157.196.104, port: 20931, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 252173:0zEP9YXI8e, obfs-param: ajax.microsoft.com}
-  - {name: adi|1124 14, server: 42.157.196.104, port: 20932, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com}
-  - {name: adi|1124 15, server: 42.157.196.104, port: 20370, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 252172:yo2FBA9HSj, obfs-param: ajax.microsoft.com}
-  - {name: adi|1124 16, server: 42.157.196.104, port: 20951, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 247486:eTxMJcn8Ct, obfs-param: ajax.microsoft.com}
-  - {name: adi|1126 3, server: 42.157.196.104, port: 10710, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 253259:XPm6YJdoL3, obfs-param: ajax.microsoft.com}
-  - {name: adi|1126 4, server: 42.157.196.104, port: 20770, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 253259:XPm6YJdoL3, obfs-param: ajax.microsoft.com}
-  - {name: adi|1126 5, server: tk.shcn2.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: zxjp-b.tkong.cc}}
-  - {name: adi|1126 6, server: jpa.sttlink.xyz, port: 20189, type: vmess, uuid: ab60166b-d22d-3ae5-963f-e5867007ff08, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /ka, ws-headers: {Host: jpa.sttlink.xyz}}
+  - {name: adi|1124 6, server: dg-hk-node01.linkthink.app, port: 10394, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 247486:eTxMJcn8Ct, obfs-param: ajax.microsoft.com}
+  - {name: adi|1124 7, server: dg-hk-node01.linkthink.app, port: 10718, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 252172:yo2FBA9HSj, obfs-param: ajax.microsoft.com}
+  - {name: adi|1124 8, server: dg-hk-node01.linkthink.app, port: 10435, type: ssr, cipher: rc4-md5, password: abK09D1FnV, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com}
+  - {name: adi|1126 3, server: 42.157.196.104, port: 20770, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 253259:XPm6YJdoL3, obfs-param: ajax.microsoft.com}
+  - {name: adi|1124 9, server: 42.157.196.104, port: 20951, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 247486:eTxMJcn8Ct, obfs-param: ajax.microsoft.com}
+  - {name: adi|1124 10, server: 42.157.196.104, port: 10283, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 252173:0zEP9YXI8e, obfs-param: ajax.microsoft.com}
+  - {name: adi|1124 11, server: 42.157.196.104, port: 20370, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 252172:yo2FBA9HSj, obfs-param: ajax.microsoft.com}
+  - {name: adi|1127 2, server: 42.157.196.104, port: 10559, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 257532:5rz2AHnQ1m, obfs-param: ajax.microsoft.com}
+  - {name: adi|1124 12, server: 42.157.196.104, port: 10661, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 247486:eTxMJcn8Ct, obfs-param: ajax.microsoft.com}
+  - {name: adi|1124 13, server: 42.157.196.104, port: 10848, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com}
+  - {name: adi|1124 14, server: 42.157.196.104, port: 20931, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 252173:0zEP9YXI8e, obfs-param: ajax.microsoft.com}
+  - {name: adi|1124 15, server: 42.157.196.104, port: 20932, type: ssr, cipher: aes-256-cfb, password: CWSZscLkjf, protocol: auth_aes128_md5, obfs: http_post, protocol-param: 243338:25HaMSGxjl, obfs-param: ajax.microsoft.com}
+  - {name: adi|1126 4, server: 42.157.196.104, port: 10710, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 253259:XPm6YJdoL3, obfs-param: ajax.microsoft.com}
+  - {name: adi|1124 16, server: 42.157.196.104, port: 10991, type: ssr, cipher: aes-256-cfb, password: vCmp8ALih6, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 252172:yo2FBA9HSj, obfs-param: ajax.microsoft.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - adi|1126
       - adi|1124
+      - adi|1127
       - adi|1124 2
       - adi|1124 3
       - adi|1124 4
-      - adi|1126
       - adi|1124 5
+      - adi|1126 2
       - adi|1124 6
       - adi|1124 7
       - adi|1124 8
-      - adi|1126 2
+      - adi|1126 3
       - adi|1124 9
       - adi|1124 10
       - adi|1124 11
+      - adi|1127 2
       - adi|1124 12
       - adi|1124 13
       - adi|1124 14
       - adi|1124 15
-      - adi|1124 16
-      - adi|1126 3
       - adi|1126 4
-      - adi|1126 5
-      - adi|1126 6
+      - adi|1124 16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - adi|1126
       - adi|1124
+      - adi|1127
       - adi|1124 2
       - adi|1124 3
       - adi|1124 4
-      - adi|1126
       - adi|1124 5
+      - adi|1126 2
       - adi|1124 6
       - adi|1124 7
       - adi|1124 8
-      - adi|1126 2
+      - adi|1126 3
       - adi|1124 9
       - adi|1124 10
       - adi|1124 11
+      - adi|1127 2
       - adi|1124 12
       - adi|1124 13
       - adi|1124 14
       - adi|1124 15
-      - adi|1124 16
-      - adi|1126 3
       - adi|1126 4
-      - adi|1126 5
-      - adi|1126 6
+      - adi|1124 16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -100,28 +100,28 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - adi|1126
       - adi|1124
+      - adi|1127
       - adi|1124 2
       - adi|1124 3
       - adi|1124 4
-      - adi|1126
       - adi|1124 5
+      - adi|1126 2
       - adi|1124 6
       - adi|1124 7
       - adi|1124 8
-      - adi|1126 2
+      - adi|1126 3
       - adi|1124 9
       - adi|1124 10
       - adi|1124 11
+      - adi|1127 2
       - adi|1124 12
       - adi|1124 13
       - adi|1124 14
       - adi|1124 15
-      - adi|1124 16
-      - adi|1126 3
       - adi|1126 4
-      - adi|1126 5
-      - adi|1126 6
+      - adi|1124 16
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
