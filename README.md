@@ -45,7 +45,7 @@ http://mtw.so/5LmQHx
 
 adidesign.r
 
-github-r http://mtw.so/6cY9SP
+github-r https://suo.yt/QxwkaiY
 
 gitee-r http://mtw.so/5tVydF
 _____________________
