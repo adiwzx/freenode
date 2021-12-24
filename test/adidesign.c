@@ -5,13 +5,18 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇷🇺 adi|1222 俄罗斯莫斯科Relcom网络 25, server: t7.ssrsub.com, port: 8443, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t7.ssrsub.com}
+  - {name: 🇲🇾 adi|1222 马来西亚  20, server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: adi|1222 挪威  1, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇩🇪 adi|1222 美国德克萨斯州达拉斯Psychz8, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇺🇸 adi|1222 美国(US)USA/Newark, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
   - {name: 🇨🇦 adi|1222 加拿大  18, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
   - {name: adi|1222 Nobis9, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
   - {name: adi|1222 Nobis13, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
   - {name: 🇺🇸 adi|1222 美国蒙大拿州Sharktech公司 12, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
   - {name: 🇺🇸 adi|1222 美国(US)USA/Buffalo, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
   - {name: 🇨🇦 adi|1222 加拿大  16, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇺🇸 adi|1222 美国(US)USA/Newark, server: v8.ssrsub.com, port: 443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
+  - {name: 🇺🇸 adi|1222 美国(US)USA/Newark 2, server: v8.ssrsub.com, port: 443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
   - {name: adi|1222, server: 104.16.104.135, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: tight-math-32ee.tianzhen4567.workers.dev}}
   - {name: 🇨🇦 adi|1222 加拿大  14, server: 165.154.229.22, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 165.154.229.22}}
   - {name: adi|1222 2, server: 112.33.32.136, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
@@ -32,13 +37,18 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - DIRECT
+      - 🇷🇺 adi|1222 俄罗斯莫斯科Relcom网络 25
+      - 🇲🇾 adi|1222 马来西亚  20
+      - adi|1222 挪威  1
+      - 🇩🇪 adi|1222 美国德克萨斯州达拉斯Psychz8
+      - 🇺🇸 adi|1222 美国(US)USA/Newark
       - 🇨🇦 adi|1222 加拿大  18
       - adi|1222 Nobis9
       - adi|1222 Nobis13
       - 🇺🇸 adi|1222 美国蒙大拿州Sharktech公司 12
       - 🇺🇸 adi|1222 美国(US)USA/Buffalo
       - 🇨🇦 adi|1222 加拿大  16
-      - 🇺🇸 adi|1222 美国(US)USA/Newark
+      - 🇺🇸 adi|1222 美国(US)USA/Newark 2
       - adi|1222
       - 🇨🇦 adi|1222 加拿大  14
       - adi|1222 2
@@ -58,13 +68,18 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 🇷🇺 adi|1222 俄罗斯莫斯科Relcom网络 25
+      - 🇲🇾 adi|1222 马来西亚  20
+      - adi|1222 挪威  1
+      - 🇩🇪 adi|1222 美国德克萨斯州达拉斯Psychz8
+      - 🇺🇸 adi|1222 美国(US)USA/Newark
       - 🇨🇦 adi|1222 加拿大  18
       - adi|1222 Nobis9
       - adi|1222 Nobis13
       - 🇺🇸 adi|1222 美国蒙大拿州Sharktech公司 12
       - 🇺🇸 adi|1222 美国(US)USA/Buffalo
       - 🇨🇦 adi|1222 加拿大  16
-      - 🇺🇸 adi|1222 美国(US)USA/Newark
+      - 🇺🇸 adi|1222 美国(US)USA/Newark 2
       - adi|1222
       - 🇨🇦 adi|1222 加拿大  14
       - adi|1222 2
@@ -83,13 +98,18 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
+      - 🇷🇺 adi|1222 俄罗斯莫斯科Relcom网络 25
+      - 🇲🇾 adi|1222 马来西亚  20
+      - adi|1222 挪威  1
+      - 🇩🇪 adi|1222 美国德克萨斯州达拉斯Psychz8
+      - 🇺🇸 adi|1222 美国(US)USA/Newark
       - 🇨🇦 adi|1222 加拿大  18
       - adi|1222 Nobis9
       - adi|1222 Nobis13
       - 🇺🇸 adi|1222 美国蒙大拿州Sharktech公司 12
       - 🇺🇸 adi|1222 美国(US)USA/Buffalo
       - 🇨🇦 adi|1222 加拿大  16
-      - 🇺🇸 adi|1222 美国(US)USA/Newark
+      - 🇺🇸 adi|1222 美国(US)USA/Newark 2
       - adi|1222
       - 🇨🇦 adi|1222 加拿大  14
       - adi|1222 2
@@ -121,13 +141,18 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔯 故障转移
+      - 🇷🇺 adi|1222 俄罗斯莫斯科Relcom网络 25
+      - 🇲🇾 adi|1222 马来西亚  20
+      - adi|1222 挪威  1
+      - 🇩🇪 adi|1222 美国德克萨斯州达拉斯Psychz8
+      - 🇺🇸 adi|1222 美国(US)USA/Newark
       - 🇨🇦 adi|1222 加拿大  18
       - adi|1222 Nobis9
       - adi|1222 Nobis13
       - 🇺🇸 adi|1222 美国蒙大拿州Sharktech公司 12
       - 🇺🇸 adi|1222 美国(US)USA/Buffalo
       - 🇨🇦 adi|1222 加拿大  16
-      - 🇺🇸 adi|1222 美国(US)USA/Newark
+      - 🇺🇸 adi|1222 美国(US)USA/Newark 2
       - adi|1222
       - 🇨🇦 adi|1222 加拿大  14
       - adi|1222 2
