@@ -3,126 +3,115 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇷🇺 adi|1222 俄罗斯莫斯科Relcom网络 25, server: t7.ssrsub.com, port: 8443, type: trojan, password: c4415de6-7548-4c8b-94c7-28c37179e84a, sni: t7.ssrsub.com}
-  - {name: 🇲🇾 adi|1222 马来西亚  20, server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: adi|1222 挪威  1, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇩🇪 adi|1222 美国德克萨斯州达拉斯Psychz8, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 🇺🇸 adi|1222 美国(US)USA/Newark, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
-  - {name: 🇨🇦 adi|1222 加拿大  18, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: adi|1222 Nobis9, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: adi|1222 Nobis13, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
-  - {name: 🇺🇸 adi|1222 美国蒙大拿州Sharktech公司 12, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
-  - {name: 🇺🇸 adi|1222 美国(US)USA/Buffalo, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇨🇦 adi|1222 加拿大  16, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
-  - {name: 🇺🇸 adi|1222 美国(US)USA/Newark 2, server: v8.ssrsub.com, port: 443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
-  - {name: adi|1222, server: 104.16.104.135, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: tight-math-32ee.tianzhen4567.workers.dev}}
-  - {name: 🇨🇦 adi|1222 加拿大  14, server: 165.154.229.22, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 165.154.229.22}}
-  - {name: adi|1222 2, server: 112.33.32.136, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: adi|1222 3, server: 112.33.32.136, port: 10005, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇯🇵 adi|1222 日本(JP)Japan/Tokyo, server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.gov.hk}}
-  - {name: 🇯🇵 adi|1222 日本(JP)Japan/Tokyo 2, server: 172.104.98.216, port: 80, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.gov.hk}}
-  - {name: 🇩🇪 adi|1222 美国德克萨斯州达拉斯Psychz6, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 🇭🇰 adi|1222 中国香港/中国台湾(CN)China/Shenzhen, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇷🇺 adi|1222 俄罗斯g1, server: 195.133.53.192, port: 27182, type: vmess, uuid: a22df2ec-6200-11ec-9070-fecccc2333dc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /AmrTCtbk/, ws-headers: {Host: 195.133.53.192}}
-  - {name: adi|1222 4, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇭🇰 adi|1222 中国香港/中国台湾(CN)China/Shenzhen 2, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇸 adi|1222 美国(US)USA/San Francisco, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: c4415de6-7548-4c8b-94c7-28c37179e84a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
-  - {name: 🇭🇰 adi|1222 香港Zenlayer 24, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
+  - {name: 🇨🇦 adi|1228 加拿大  22, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 🇺🇲 adi|1222 美国, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
+  - {name: 🇨🇦 adi|1228 加拿大  20, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 🇺🇲 adi|1228 美国9, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇨🇦 adi|1228 加拿大  18, server: 1116yn.fans8.xyz, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 🇨🇦 adi|1228 加拿大  21, server: 165.154.229.22, port: 80, type: vmess, uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 165.154.229.22}}
+  - {name: 🇺🇲 adi|1228 美国CloudFlare节点 6, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}}
+  - {name: 🇺🇲 adi|1228 美国7, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇺🇲 adi|1228 美国  29, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v7.ssrsub.com}}
+  - {name: 🇭🇰 adi|1228 香港Zenlayer 26, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
+  - {name: 🇺🇲 adi|1228 美国  8, server: 198.200.51.18, port: 27962, type: vmess, uuid: b660c4a6-50df-11ec-9676-00163caf481c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jZyaImnU/, ws-headers: {Host: 198.200.51.18}}
+  - {name: 🇺🇲 adi|1228 洛杉矶, server: 45.32.88.178, port: 6490, type: vmess, uuid: 49ea8fba-6786-11ec-8186-560003c2e491, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /jAw1IfdO/, ws-headers: {Host: 45.32.88.178}}
+  - {name: 🇺🇲 adi|1228 美国11, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: 🇺🇲 adi|1228 美国12, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: adi|1228, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇲 adi|1228 北美地区  14, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇲 adi|1228 北美地区  19, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: adi|1228 2, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇬🇧 adi|1228 英国, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: adi|1228 3, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇲 adi|1228 美国  27, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇲 adi|1228 美国, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 adi|1228 美国  17, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: adi|1222 挪威, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: adi|1228 4, server: 23.226.131.146, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
+  - {name: adi|1228 5, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: adi|1228 6, server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: 🇬🇧 adi|1228 英国  32, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇲🇾 adi|1228 马来西亚  31, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇲 adi|1228 美国1, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇨🇦 adi|1228 加拿大  10, server: t1.ssrsub.com, port: 8443, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912, sni: t1.ssrsub.com}
+  - {name: 🇷🇺 adi|1228 俄罗斯  30, server: t2.ssrsub.com, port: 8443, type: trojan, password: 8cf83f44-79ff-4e50-be1a-585c82338912, sni: t2.ssrsub.com}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🔯 故障转移
       - DIRECT
-      - 🇷🇺 adi|1222 俄罗斯莫斯科Relcom网络 25
-      - 🇲🇾 adi|1222 马来西亚  20
-      - adi|1222 挪威  1
-      - 🇩🇪 adi|1222 美国德克萨斯州达拉斯Psychz8
-      - 🇺🇸 adi|1222 美国(US)USA/Newark
-      - 🇨🇦 adi|1222 加拿大  18
-      - adi|1222 Nobis9
-      - adi|1222 Nobis13
-      - 🇺🇸 adi|1222 美国蒙大拿州Sharktech公司 12
-      - 🇺🇸 adi|1222 美国(US)USA/Buffalo
-      - 🇨🇦 adi|1222 加拿大  16
-      - 🇺🇸 adi|1222 美国(US)USA/Newark 2
-      - adi|1222
-      - 🇨🇦 adi|1222 加拿大  14
-      - adi|1222 2
-      - adi|1222 3
-      - 🇯🇵 adi|1222 日本(JP)Japan/Tokyo
-      - 🇯🇵 adi|1222 日本(JP)Japan/Tokyo 2
-      - 🇩🇪 adi|1222 美国德克萨斯州达拉斯Psychz6
-      - 🇭🇰 adi|1222 中国香港/中国台湾(CN)China/Shenzhen
-      - 🇷🇺 adi|1222 俄罗斯g1
-      - adi|1222 4
-      - 🇭🇰 adi|1222 中国香港/中国台湾(CN)China/Shenzhen 2
-      - 🇺🇸 adi|1222 美国(US)USA/San Francisco
-      - 🇭🇰 adi|1222 香港Zenlayer 24
+      - 🇨🇦 adi|1228 加拿大  22
+      - 🇺🇲 adi|1222 美国
+      - 🇨🇦 adi|1228 加拿大  20
+      - 🇺🇲 adi|1228 美国9
+      - 🇨🇦 adi|1228 加拿大  18
+      - 🇨🇦 adi|1228 加拿大  21
+      - 🇺🇲 adi|1228 美国CloudFlare节点 6
+      - 🇺🇲 adi|1228 美国7
+      - 🇺🇲 adi|1228 美国  29
+      - 🇭🇰 adi|1228 香港Zenlayer 26
+      - 🇺🇲 adi|1228 美国  8
+      - 🇺🇲 adi|1228 洛杉矶
+      - 🇺🇲 adi|1228 美国11
+      - 🇺🇲 adi|1228 美国12
+      - adi|1228
+      - 🇺🇲 adi|1228 北美地区  14
+      - 🇺🇲 adi|1228 北美地区  19
+      - adi|1228 2
+      - 🇬🇧 adi|1228 英国
+      - adi|1228 3
+      - 🇺🇲 adi|1228 美国  27
+      - 🇺🇲 adi|1228 美国
+      - 🇺🇲 adi|1228 美国  17
+      - adi|1222 挪威
+      - adi|1228 4
+      - adi|1228 5
+      - adi|1228 6
+      - 🇬🇧 adi|1228 英国  32
+      - 🇲🇾 adi|1228 马来西亚  31
+      - 🇺🇲 adi|1228 美国1
+      - 🇨🇦 adi|1228 加拿大  10
+      - 🇷🇺 adi|1228 俄罗斯  30
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
-      - 🇷🇺 adi|1222 俄罗斯莫斯科Relcom网络 25
-      - 🇲🇾 adi|1222 马来西亚  20
-      - adi|1222 挪威  1
-      - 🇩🇪 adi|1222 美国德克萨斯州达拉斯Psychz8
-      - 🇺🇸 adi|1222 美国(US)USA/Newark
-      - 🇨🇦 adi|1222 加拿大  18
-      - adi|1222 Nobis9
-      - adi|1222 Nobis13
-      - 🇺🇸 adi|1222 美国蒙大拿州Sharktech公司 12
-      - 🇺🇸 adi|1222 美国(US)USA/Buffalo
-      - 🇨🇦 adi|1222 加拿大  16
-      - 🇺🇸 adi|1222 美国(US)USA/Newark 2
-      - adi|1222
-      - 🇨🇦 adi|1222 加拿大  14
-      - adi|1222 2
-      - adi|1222 3
-      - 🇯🇵 adi|1222 日本(JP)Japan/Tokyo
-      - 🇯🇵 adi|1222 日本(JP)Japan/Tokyo 2
-      - 🇩🇪 adi|1222 美国德克萨斯州达拉斯Psychz6
-      - 🇭🇰 adi|1222 中国香港/中国台湾(CN)China/Shenzhen
-      - 🇷🇺 adi|1222 俄罗斯g1
-      - adi|1222 4
-      - 🇭🇰 adi|1222 中国香港/中国台湾(CN)China/Shenzhen 2
-      - 🇺🇸 adi|1222 美国(US)USA/San Francisco
-      - 🇭🇰 adi|1222 香港Zenlayer 24
-  - name: 🔯 故障转移
-    type: fallback
-    url: http://www.gstatic.com/generate_204
-    interval: 180
-    proxies:
-      - 🇷🇺 adi|1222 俄罗斯莫斯科Relcom网络 25
-      - 🇲🇾 adi|1222 马来西亚  20
-      - adi|1222 挪威  1
-      - 🇩🇪 adi|1222 美国德克萨斯州达拉斯Psychz8
-      - 🇺🇸 adi|1222 美国(US)USA/Newark
-      - 🇨🇦 adi|1222 加拿大  18
-      - adi|1222 Nobis9
-      - adi|1222 Nobis13
-      - 🇺🇸 adi|1222 美国蒙大拿州Sharktech公司 12
-      - 🇺🇸 adi|1222 美国(US)USA/Buffalo
-      - 🇨🇦 adi|1222 加拿大  16
-      - 🇺🇸 adi|1222 美国(US)USA/Newark 2
-      - adi|1222
-      - 🇨🇦 adi|1222 加拿大  14
-      - adi|1222 2
-      - adi|1222 3
-      - 🇯🇵 adi|1222 日本(JP)Japan/Tokyo
-      - 🇯🇵 adi|1222 日本(JP)Japan/Tokyo 2
-      - 🇩🇪 adi|1222 美国德克萨斯州达拉斯Psychz6
-      - 🇭🇰 adi|1222 中国香港/中国台湾(CN)China/Shenzhen
-      - 🇷🇺 adi|1222 俄罗斯g1
-      - adi|1222 4
-      - 🇭🇰 adi|1222 中国香港/中国台湾(CN)China/Shenzhen 2
-      - 🇺🇸 adi|1222 美国(US)USA/San Francisco
-      - 🇭🇰 adi|1222 香港Zenlayer 24
+      - 🇨🇦 adi|1228 加拿大  22
+      - 🇺🇲 adi|1222 美国
+      - 🇨🇦 adi|1228 加拿大  20
+      - 🇺🇲 adi|1228 美国9
+      - 🇨🇦 adi|1228 加拿大  18
+      - 🇨🇦 adi|1228 加拿大  21
+      - 🇺🇲 adi|1228 美国CloudFlare节点 6
+      - 🇺🇲 adi|1228 美国7
+      - 🇺🇲 adi|1228 美国  29
+      - 🇭🇰 adi|1228 香港Zenlayer 26
+      - 🇺🇲 adi|1228 美国  8
+      - 🇺🇲 adi|1228 洛杉矶
+      - 🇺🇲 adi|1228 美国11
+      - 🇺🇲 adi|1228 美国12
+      - adi|1228
+      - 🇺🇲 adi|1228 北美地区  14
+      - 🇺🇲 adi|1228 北美地区  19
+      - adi|1228 2
+      - 🇬🇧 adi|1228 英国
+      - adi|1228 3
+      - 🇺🇲 adi|1228 美国  27
+      - 🇺🇲 adi|1228 美国
+      - 🇺🇲 adi|1228 美国  17
+      - adi|1222 挪威
+      - adi|1228 4
+      - adi|1228 5
+      - adi|1228 6
+      - 🇬🇧 adi|1228 英国  32
+      - 🇲🇾 adi|1228 马来西亚  31
+      - 🇺🇲 adi|1228 美国1
+      - 🇨🇦 adi|1228 加拿大  10
+      - 🇷🇺 adi|1228 俄罗斯  30
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -140,32 +129,38 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🔯 故障转移
-      - 🇷🇺 adi|1222 俄罗斯莫斯科Relcom网络 25
-      - 🇲🇾 adi|1222 马来西亚  20
-      - adi|1222 挪威  1
-      - 🇩🇪 adi|1222 美国德克萨斯州达拉斯Psychz8
-      - 🇺🇸 adi|1222 美国(US)USA/Newark
-      - 🇨🇦 adi|1222 加拿大  18
-      - adi|1222 Nobis9
-      - adi|1222 Nobis13
-      - 🇺🇸 adi|1222 美国蒙大拿州Sharktech公司 12
-      - 🇺🇸 adi|1222 美国(US)USA/Buffalo
-      - 🇨🇦 adi|1222 加拿大  16
-      - 🇺🇸 adi|1222 美国(US)USA/Newark 2
-      - adi|1222
-      - 🇨🇦 adi|1222 加拿大  14
-      - adi|1222 2
-      - adi|1222 3
-      - 🇯🇵 adi|1222 日本(JP)Japan/Tokyo
-      - 🇯🇵 adi|1222 日本(JP)Japan/Tokyo 2
-      - 🇩🇪 adi|1222 美国德克萨斯州达拉斯Psychz6
-      - 🇭🇰 adi|1222 中国香港/中国台湾(CN)China/Shenzhen
-      - 🇷🇺 adi|1222 俄罗斯g1
-      - adi|1222 4
-      - 🇭🇰 adi|1222 中国香港/中国台湾(CN)China/Shenzhen 2
-      - 🇺🇸 adi|1222 美国(US)USA/San Francisco
-      - 🇭🇰 adi|1222 香港Zenlayer 24
+      - 🇨🇦 adi|1228 加拿大  22
+      - 🇺🇲 adi|1222 美国
+      - 🇨🇦 adi|1228 加拿大  20
+      - 🇺🇲 adi|1228 美国9
+      - 🇨🇦 adi|1228 加拿大  18
+      - 🇨🇦 adi|1228 加拿大  21
+      - 🇺🇲 adi|1228 美国CloudFlare节点 6
+      - 🇺🇲 adi|1228 美国7
+      - 🇺🇲 adi|1228 美国  29
+      - 🇭🇰 adi|1228 香港Zenlayer 26
+      - 🇺🇲 adi|1228 美国  8
+      - 🇺🇲 adi|1228 洛杉矶
+      - 🇺🇲 adi|1228 美国11
+      - 🇺🇲 adi|1228 美国12
+      - adi|1228
+      - 🇺🇲 adi|1228 北美地区  14
+      - 🇺🇲 adi|1228 北美地区  19
+      - adi|1228 2
+      - 🇬🇧 adi|1228 英国
+      - adi|1228 3
+      - 🇺🇲 adi|1228 美国  27
+      - 🇺🇲 adi|1228 美国
+      - 🇺🇲 adi|1228 美国  17
+      - adi|1222 挪威
+      - adi|1228 4
+      - adi|1228 5
+      - adi|1228 6
+      - 🇬🇧 adi|1228 英国  32
+      - 🇲🇾 adi|1228 马来西亚  31
+      - 🇺🇲 adi|1228 美国1
+      - 🇨🇦 adi|1228 加拿大  10
+      - 🇷🇺 adi|1228 俄罗斯  30
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -1919,15 +1914,22 @@ rules:
  - DOMAIN-SUFFIX,hayabusa.io,🚀 节点选择
  - DOMAIN-SUFFIX,c4assets.com,🚀 节点选择
  - DOMAIN-SUFFIX,channel4.com,🚀 节点选择
- - DOMAIN, atv-ps.amazon.com,🚀 节点选择
- - DOMAIN, fls-na.amazon.com,🚀 节点选择
- - DOMAIN-SUFFIX, media-amazon.com,🚀 节点选择
+ - DOMAIN-KEYWORD,avoddashs,🚀 节点选择
+ - DOMAIN,atv-ps.amazon.com,🚀 节点选择
+ - DOMAIN,avodmp4s3ww-a.akamaihd.net,🚀 节点选择
+ - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🚀 节点选择
+ - DOMAIN,d1xfray82862hr.cloudfront.net,🚀 节点选择
+ - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🚀 节点选择
+ - DOMAIN,d25xi40x97liuc.cloudfront.net,🚀 节点选择
+ - DOMAIN,d27xxe7juh1us6.cloudfront.net,🚀 节点选择
+ - DOMAIN,d3196yreox78o9.cloudfront.net,🚀 节点选择
+ - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🚀 节点选择
+ - DOMAIN,ktpx.amazon.com,🚀 节点选择
  - DOMAIN-SUFFIX,aiv-cdn.net,🚀 节点选择
- - DOMAIN-SUFFIX,amazonaws.co.uk,🚀 节点选择
- - DOMAIN-SUFFIX,amazonaws.com,🚀 节点选择
+ - DOMAIN-SUFFIX,aiv-delivery.net,🚀 节点选择
  - DOMAIN-SUFFIX,amazonvideo.com,🚀 节点选择
- - DOMAIN-SUFFIX,llnwd.net,🚀 节点选择
- - DOMAIN-SUFFIX,primevideo.com,🚀 节点选择
+ - DOMAIN-SUFFIX,media-amazon.com,🚀 节点选择
+ - DOMAIN-SUFFIX,pv-cdn.net,🚀 节点选择
  - DOMAIN,gspe1-ssl.ls.apple.com,🚀 节点选择
  - DOMAIN,np-edge.itunes.apple.com,🚀 节点选择
  - DOMAIN,play-edge.itunes.apple.com,🚀 节点选择
@@ -1950,45 +1952,17 @@ rules:
  - DOMAIN,gamer2-cds.cdn.hinet.net,🚀 节点选择
  - DOMAIN-SUFFIX,bahamut.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,gamer.com.tw,🚀 节点选择
- - DOMAIN-SUFFIX,hinet.net,🚀 节点选择
- - DOMAIN-KEYWORD,livedazn,🚀 节点选择
- - DOMAIN-KEYWORD,vod2dazn,🚀 节点选择
  - DOMAIN-KEYWORD,voddazn,🚀 节点选择
  - DOMAIN,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
- - DOMAIN,edge.api.brightcove.com,🚀 节点选择
- - DOMAIN,players.brightcove.net,🚀 节点选择
- - DOMAIN-SUFFIX,amplify.outbrain.com,🚀 节点选择
- - DOMAIN-SUFFIX,bluekai.com,🚀 节点选择
- - DOMAIN-SUFFIX,control.kochava.com,🚀 节点选择
- - DOMAIN-SUFFIX,cws.conviva.com,🚀 节点选择
  - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
  - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🚀 节点选择
  - DOMAIN-SUFFIX,dazn-api.com,🚀 节点选择
  - DOMAIN-SUFFIX,dazn.com,🚀 节点选择
  - DOMAIN-SUFFIX,dazndn.com,🚀 节点选择
- - DOMAIN-SUFFIX,dc1-voddash-perform.secure.footprint.net,🚀 节点选择
- - DOMAIN-SUFFIX,dc1live21715dazn.akamaized.net,🚀 节点选择
- - DOMAIN-SUFFIX,dc2-live2dash-perform.secure.footprint.net,🚀 节点选择
- - DOMAIN-SUFFIX,dc2-live2hls-perform.secure.footprint.net,🚀 节点选择
- - DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net,🚀 节点选择
- - DOMAIN-SUFFIX,dca-livedash-perform.secure.footprint.net,🚀 节点选择
- - DOMAIN-SUFFIX,dca-voddash-perform.secure.footprint.net,🚀 节点选择
- - DOMAIN-SUFFIX,dca-vodhls-perform.secure.footprint.net,🚀 节点选择
- - DOMAIN-SUFFIX,dcb-livedash-perform.secure.footprint.net,🚀 节点选择
- - DOMAIN-SUFFIX,dcb-voddash-perform.secure.footprint.net,🚀 节点选择
  - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🚀 节点选择
  - DOMAIN-SUFFIX,indazn.com,🚀 节点选择
  - DOMAIN-SUFFIX,indaznlab.com,🚀 节点选择
- - DOMAIN-SUFFIX,intercom.io,🚀 节点选择
- - DOMAIN-SUFFIX,perfops.doracdn.com,🚀 节点选择
- - DOMAIN-SUFFIX,s.llnwi.net,🚀 节点选择
- - DOMAIN-SUFFIX,s.yimg.jp,🚀 节点选择
- - DOMAIN-SUFFIX,secure.footprint.net,🚀 节点选择
  - DOMAIN-SUFFIX,sentry.io,🚀 节点选择
- - DOMAIN-SUFFIX,urbanairship.com,🚀 节点选择
- - DOMAIN-SUFFIX,vjs.zencdn.net,🚀 节点选择
- - DOMAIN-SUFFIX,widevine.entitlement.us.theplatform.com,🚀 节点选择
- - DOMAIN-SUFFIX,yahoo.co.jp,🚀 节点选择
  - DOMAIN-SUFFIX,deezer.com,🚀 节点选择
  - DOMAIN-SUFFIX,dzcdn.net,🚀 节点选择
  - DOMAIN,cdn.registerdisney.go.com,🚀 节点选择
@@ -2019,25 +1993,13 @@ rules:
  - DOMAIN-SUFFIX,fox.com,🚀 节点选择
  - DOMAIN-SUFFIX,foxdcg.com,🚀 节点选择
  - DOMAIN-SUFFIX,uplynk.com,🚀 节点选择
- - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
- - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
- - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🚀 节点选择
- - DOMAIN,dai3fd1oh325y.cloudfront.net,🚀 节点选择
- - DOMAIN,hboasia1-i.akamaihd.net,🚀 节点选择
- - DOMAIN,hboasia2-i.akamaihd.net,🚀 节点选择
- - DOMAIN,hboasia3-i.akamaihd.net,🚀 节点选择
- - DOMAIN,hboasia4-i.akamaihd.net,🚀 节点选择
- - DOMAIN,hboasia5-i.akamaihd.net,🚀 节点选择
- - DOMAIN,players.brightcove.net,🚀 节点选择
- - DOMAIN,s3-ap-southeast-1.amazonaws.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbo.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbogo.com,🚀 节点选择
- - DOMAIN-SUFFIX,hbogoasia.com,🚀 节点选择
- - DOMAIN-SUFFIX,hbogoasia.hk,🚀 节点选择
  - DOMAIN-SUFFIX,hbomax.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbomaxcdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbonow.com,🚀 节点选择
  - DOMAIN-KEYWORD,.hbogoasia.,🚀 节点选择
+ - DOMAIN-KEYWORD,hbogoasia,🚀 节点选择
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
  - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🚀 节点选择
@@ -2053,6 +2015,7 @@ rules:
  - DOMAIN,hbounify-prod.evergent.com,🚀 节点选择
  - DOMAIN,players.brightcove.net,🚀 节点选择
  - DOMAIN,s3-ap-southeast-1.amazonaws.com,🚀 节点选择
+ - DOMAIN-SUFFIX,hboasia.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbogoasia.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbogoasia.hk,🚀 节点选择
  - DOMAIN-SUFFIX,5itv.tv,🚀 节点选择
@@ -2100,6 +2063,8 @@ rules:
  - DOMAIN,d349g9zuie06uo.cloudfront.net,🚀 节点选择
  - DOMAIN-SUFFIX,channel5.com,🚀 节点选择
  - DOMAIN-SUFFIX,my5.tv,🚀 节点选择
+ - DOMAIN-KEYWORD,nowtv100,🚀 节点选择
+ - DOMAIN-KEYWORD,rthklive,🚀 节点选择
  - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🚀 节点选择
  - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🚀 节点选择
  - DOMAIN-SUFFIX,mytvsuper.com,🚀 节点选择
@@ -2209,6 +2174,7 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,🚀 节点选择
  - DOMAIN-SUFFIX,youtube.com,🚀 节点选择
  - DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
+ - DOMAIN,music.youtube.com,🚀 节点选择
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
@@ -2221,6 +2187,7 @@ rules:
  - DOMAIN-SUFFIX,hoyolab.com,🚀 节点选择
  - DOMAIN-SUFFIX,inoreader.com,🚀 节点选择
  - DOMAIN-SUFFIX,ip138.com,🚀 节点选择
+ - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
  - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
  - DOMAIN-SUFFIX,notion.so,🚀 节点选择
  - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
@@ -2229,8 +2196,6 @@ rules:
  - DOMAIN-SUFFIX,tumbex.com,🚀 节点选择
  - DOMAIN-SUFFIX,twdvd.com,🚀 节点选择
  - DOMAIN-SUFFIX,unsplash.com,🚀 节点选择
- - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,🚀 节点选择
- - DOMAIN-SUFFIX,yunpanjingling.com,🚀 节点选择
  - DOMAIN-SUFFIX,eu,🚀 节点选择
  - DOMAIN-SUFFIX,hk,🚀 节点选择
  - DOMAIN-SUFFIX,jp,🚀 节点选择
@@ -2618,6 +2583,7 @@ rules:
  - DOMAIN-SUFFIX,msftconnecttest.com,🎯 全球直连
  - DOMAIN-SUFFIX,msftncsi.com,🎯 全球直连
  - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
+ - DOMAIN-SUFFIX,pdfwifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
  - DOMAIN-SUFFIX,中国,🎯 全球直连
  - DOMAIN-SUFFIX,公司,🎯 全球直连
@@ -2709,7 +2675,6 @@ rules:
  - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
  - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
- - DOMAIN-SUFFIX,bilibili.tv,🎯 全球直连
  - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
  - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
  - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
@@ -2963,7 +2928,6 @@ rules:
  - DOMAIN-SUFFIX,baomitu.com,🎯 全球直连
  - DOMAIN-SUFFIX,bootcss.com,🎯 全球直连
  - DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
- - DOMAIN-SUFFIX,jsdelivr.net,🎯 全球直连
  - DOMAIN-SUFFIX,staticfile.org,🎯 全球直连
  - DOMAIN-SUFFIX,upaiyun.com,🎯 全球直连
  - DOMAIN-SUFFIX,10010.com,🎯 全球直连
@@ -3085,7 +3049,6 @@ rules:
  - DOMAIN-SUFFIX,lanzoux.com,🎯 全球直连
  - DOMAIN-SUFFIX,lemicp.com,🎯 全球直连
  - DOMAIN-SUFFIX,letitfly.me,🎯 全球直连
- - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
  - DOMAIN-SUFFIX,lizhi.fm,🎯 全球直连
  - DOMAIN-SUFFIX,lizhi.io,🎯 全球直连
  - DOMAIN-SUFFIX,lizhifm.com,🎯 全球直连
