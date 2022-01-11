@@ -5,160 +5,148 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇨🇳 adi|0102 - CN_1, server: 112.33.32.136, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: adi|0102 -, server: 112.33.32.136, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: adi|0102 - 2, server: 118.107.244.112, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇨🇳 adi|0102 - 上海 2, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: adi|0102 - 3, server: zj.haojiahuo.club, port: 30057, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: 🇭🇰 adi|0102 - 中国香港, server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇭🇰 adi|0102 - 中国香港 2, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇦🇺 adi|0102 - 澳大利亚, server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara, server: 169.197.142.39, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇦🇺 adi|0102 - 澳大利亚 2, server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇦🇺 adi|0102 - 澳大利亚 3, server: 172.105.180.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 2, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/San Francisco, server: www.ltzs.buzz, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
-  - {name: 🇳🇱 adi|0102 - 荷兰  12, server: 5.255.101.95, port: 60202, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
-  - {name: adi|0102 - 欧洲, server: 82.202.220.242, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
-  - {name: 🇺🇲 adi|0102 - 美国, server: 38.143.66.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇲 adi|0102 - 美国 2, server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇺🇲 adi|0102 - 美国 3, server: 38.143.66.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇲 adi|0102 - 美国 4, server: 38.91.102.96, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇲 adi|0102 - 美国 5, server: 38.91.102.86, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 3, server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 adi|0102 - 美国 6, server: 38.143.66.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇲 adi|0102 - 美国 7, server: 38.143.66.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/Miami, server: 38.143.66.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇲 adi|0102 - 美国 8, server: 38.91.102.96, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇲 adi|0102 - 美国 9, server: 38.143.66.71, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇲 adi|0102 - 美国 30, server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
-  - {name: 🇺🇲 adi|0102 - 美国 10, server: 38.91.102.96, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 adi|0102 - 美国 11, server: 38.143.66.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 adi|0102 - 美国 12, server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 adi|0102 - 美国 29, server: 38.91.102.86, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 4, server: 167.88.61.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/Seattle, server: 38.91.102.86, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: adi|0102 - 欧洲 2, server: 172.105.180.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 adi|0102 - 美国 13, server: 167.88.61.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 5, server: 169.197.142.39, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: adi|0102 - 4, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: fca9b620-6a2f-11ec-b290-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}}
-  - {name: 🇺🇲 adi|0102 - 美国 14, server: 70.32.0.208, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q4apPAjyY9knqKS4e9xZ}
-  - {name: 🇺🇲 adi|0102 - 美国 15, server: 96.47.224.2, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: YDNYJcNdH5xuLrhyr7Fj}
-  - {name: 🇺🇲 adi|0102 - US_16, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: 209.58.139.41}}
-  - {name: 🇺🇲 adi|0102 - 美国 16, server: 167.88.61.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 2, server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: adi|0102 - 欧洲 3, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
-  - {name: adi|0102 - 5, server: 104.16.104.135, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: tight-math-32ee.tianzhen4567.workers.dev}}
-  - {name: adi|0102 - 6, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: feeacce4-6a2f-11ec-b290-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/Seattle 2, server: 38.91.102.86, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: adi|0102 - 7, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: fa6ae99c-6a2f-11ec-b290-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}}
-  - {name: 🇺🇲 adi|1228 美国  27, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/Seattle 3, server: 38.91.102.86, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: adi|0102 - 欧洲 4, server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
-  - {name: 🇭🇰 adi|0102 - 中国香港 3, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0102 - 美国 17, server: 38.91.102.86, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇲 adi|0102 - US_19, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: 45.35.84.162}}
-  - {name: adi|0102 - 8, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: f84eb512-6a2f-11ec-b290-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /nBaG3RmV/, ws-headers: {Host: v2ray.ifuckgfw.ga}}
-  - {name: adi|0102 - 欧洲 5, server: 70.39.71.2, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
-  - {name: adi|0102 - 9, server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: adi|0102 - 欧洲 6, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇲 adi|0102 - 美国 18, server: 38.91.102.86, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 6, server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇲 adi|0102 - 美国 16 2, server: 38.143.66.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇬🇧 adi|1228 英国, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇲🇾 adi|1228 马来西亚  31, server: 118.107.244.112, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 adi|0102 - US_17, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: 23.82.136.151}}
-  - {name: adi|0102 - V05-, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: 192.186.129.66}}
-  - {name: 🇭🇰 adi|0102 - 中国香港 4, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/Seattle 4, server: 38.91.102.86, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 adi|0102 - 美国 19, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: adi|0102 - 欧洲 7, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 3, server: free-russian01-cdn.xiaohouzi.club, port: 443, type: vmess, uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f, alterId: 233, cipher: auto, tls: true, network: ws, ws-path: /2993fe/, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: adi|0102 - 欧洲 8, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: adi|0102 - 欧洲 9, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: adi|0102 - 欧洲 10, server: 172.105.180.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: adi|0102 - 欧洲 11, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: adi|0102 - V38-, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: 208.98.48.2}}
+  - {name: adi|0111 - 0.05 MB/s, server: 109.74.194.189, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true}
+  - {name: adi|0111 - 0.21 MB/s, server: 89.31.127.151, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true}
+  - {name: adi|0111 - 0.26 MB/s, server: 62.216.92.179, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true}
+  - {name: adi|0111 - 0.27 MB/s, server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true}
+  - {name: adi|0111 - 0.28 MB/s, server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯T02, server: t2.ssrsub.com, port: 8443, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t2.ssrsub.com, skip-cert-verify: true}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯T06, server: t7.ssrsub.com, port: 8443, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t7.ssrsub.com, skip-cert-verify: true}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯T08, server: t2.ssrsub.com, port: 8443, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t2.ssrsub.com, skip-cert-verify: true}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯T12, server: t7.ssrsub.com, port: 8443, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t7.ssrsub.com, skip-cert-verify: true}
+  - {name: 🇰🇷 adi|0111 - 韩国T05, server: t5.ssrsub.com, port: 8443, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t5.ssrsub.com, skip-cert-verify: true}
+  - {name: 🇰🇷 adi|0111 - 韩国T11, server: t5.ssrsub.com, port: 8443, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t5.ssrsub.com, skip-cert-verify: true}
+  - {name: 🇳🇱 adi|0111 - 荷兰-3.63MB/s, server: 89.31.127.151, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true}
+  - {name: 🇨🇦 adi|0111 - 加拿大T01, server: t1.ssrsub.com, port: 8443, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t1.ssrsub.com, skip-cert-verify: true}
+  - {name: 🇨🇦 adi|0111 - 加拿大T03, server: t3.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t3.ssrsub.com, skip-cert-verify: true}
+  - {name: 🇨🇦 adi|0111 - 加拿大T04, server: t4.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t4.ssrsub.com, skip-cert-verify: true}
+  - {name: 🇨🇦 adi|0111 - 加拿大T07, server: t1.ssrsub.com, port: 8443, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t1.ssrsub.com, skip-cert-verify: true}
+  - {name: 🇨🇦 adi|0111 - 加拿大T09, server: t3.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t3.ssrsub.com, skip-cert-verify: true}
+  - {name: 🇨🇦 adi|0111 - 加拿大T10, server: t4.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t4.ssrsub.com, skip-cert-verify: true}
+  - {name: 🇦🇺 adi|0111 - _AU_51, server: 172.105.180.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 adi|0111 - _FR_38, server: 62.210.209.50, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇫🇷 adi|0111 - _FR_39, server: 62.210.209.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇫🇷 adi|0111 - _FR_40, server: 62.210.209.50, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 adi|0111 - _FR_45, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇸🇪 adi|0111 - _SE_37, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: 🇺🇲 adi|0111 - _US_50, server: 107.182.234.233, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: adi|0111 - 03, server: 38.143.66.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: adi|0111 - 04, server: 145.239.1.137, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: adi|0111 - 05, server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: adi|0111 - 07, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: adi|0111 - 08, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: adi|0111 - 09, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: adi|0111 - 10, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: adi|0111 - 11, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: adi|0111 - 12, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: adi|0111 - 13, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: adi|0111 - 14, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: adi|0111 - 17, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯SS, server: 45.137.154.208, port: 10033, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯SS 2, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯SS 3, server: 193.53.126.182, port: 10022, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯SS 4, server: 2.56.241.234, port: 10022, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: adi|0111 - 卢森堡-3.65MB/s, server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC}
+  - {name: 🇺🇲 adi|0111 - 洛杉矶5, server: 45.66.159.75, port: 23456, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇲 adi|0111 - 洛杉矶6 SS, server: 142.4.123.171, port: 456, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇲 adi|0111 - 洛杉矶SS, server: 23.19.26.246, port: 10515, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇲 adi|0111 - 美国-1.48MB/s, server: 169.197.142.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇲 adi|0111 - 美国-4.68MB/s, server: 107.182.234.233, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: XkH8z99cQguQ8ywK5jhV}
+  - {name: 🇺🇲 adi|0111 - 美国-5.59MB/s, server: 169.197.142.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇺🇲 adi|0111 - 美国SS, server: 38.143.66.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0111 - 挪威-1.19MB/s, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0111 - 挪威-621.8KB/s, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: adi|0102+-+13, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
+  - {name: 🇦🇺 adi|0102+-+澳大利亚, server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇦🇺 adi|0102+-+澳大利亚+2, server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇦🇺 adi|0102+-+澳大利亚+3, server: 172.105.180.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇷🇺 adi|0102+-+俄罗斯SS, server: 193.53.126.182, port: 10022, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇷🇺 adi|0102+-+俄罗斯SS+2, server: 2.56.241.234, port: 10022, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇷🇺 adi|0102+-+俄罗斯SS+3, server: 45.137.154.208, port: 10033, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇫🇷 adi|0102+-+法国, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 🇺🇲 adi|0102+-+洛杉矶5, server: 45.66.159.75, port: 23456, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇲 adi|0102+-+美国+11, server: 38.143.66.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇲 adi|0102+-+美国+12, server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇲 adi|0102+-+美国+2, server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇺🇲 adi|0102+-+美国+25, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇲 adi|0102+-+美国+6, server: 38.143.66.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇺🇲 adi|0102+-+美国(US)USA/Santa+Clara, server: 169.197.142.39, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇲 adi|0102+-+美国(US)USA/Santa+Clara+2, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 adi|0102+-+美国(US)USA/Santa+Clara+5, server: 169.197.142.39, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: adi|0102+-+挪威++13, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: adi|0102+-+欧洲+10, server: 172.105.180.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: adi|0102+-+欧洲+11, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: adi|0102+-+欧洲+13, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0102+-+欧洲+14, server: 172.105.180.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0102+-+欧洲+15, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
+  - {name: adi|0102+-+欧洲+16, server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
+  - {name: adi|0102+-+欧洲+18, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: adi|0102+-+欧洲+2, server: 172.105.180.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: adi|0102+-+欧洲+3, server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: adi|0102+-+欧洲+4, server: 89.238.177.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VPPqaR4qpLmNw37jaJg6}
+  - {name: adi|0102+-+欧洲+6, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: adi|0102+-+欧洲+7, server: 62.210.209.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: adi|0102+-+欧洲+8, server: 62.210.209.50, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: adi|1228, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: adi|1228 2, server: 139.99.62.207, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 adi|0102 - 美国 20, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: adi|0102 - 欧洲 12, server: 169.197.142.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: adi|0102 - 10, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/Seattle 5, server: 38.91.102.86, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: adi|0102 - 欧洲 13, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 adi|1228 美国  17, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇲 adi|1228 美国, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/Seattle 6, server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 adi|0102 - 美国 21, server: 38.91.102.96, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 adi|0102 - 美国 22, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: adi|0102 - 11, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 7, server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇲 adi|0102 - 美国 23, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: adi|0102 - V39-, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: adi|0102 - 欧洲 14, server: 172.105.180.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇭🇰 adi|0102 - 中国香港 5, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: adi|0102 - V20-, server: 138.3.210.217, port: 60935, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}}
-  - {name: adi|0102 - 12, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: adi|0102 - 13, server: 45.83.91.66, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: fAmKHf3Dft78ZyzL9kYF}
-  - {name: adi|0102 - 01, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: adi|0102 - 9 2, server: ff6.uuv2.co.uk, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}}
-  - {name: adi|0102 - 14, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 adi|0102 - 美国 24, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
-  - {name: adi|0102 - 欧洲 15, server: 84.247.50.10, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf}
-  - {name: 🇬🇧 adi|1228 英国  32, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: adi|0102 - 比利时, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
-  - {name: 🇺🇲 adi|0102 - 美国 2 2, server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray, ws-headers: {Host: 45.91.83.111}}
-  - {name: adi|0102 - 欧洲 16, server: 37.120.137.82, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: EGTHtnGhcnggx5yBYSqS}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 4, server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
-  - {name: adi|0102 - V15-, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
-  - {name: 🇫🇷 adi|0102 - 法国, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 🇺🇲 adi|0102 - 美国 9 2, server: 192.74.254.112, port: 52244, type: vmess, uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /E0Y46mSw/, ws-headers: {Host: 192.74.254.112}}
-  - {name: 🇺🇲 adi|1228 美国1, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: adi|0102 - 15, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b}
-  - {name: 🇺🇲 adi|0102 - 美国 1, server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false}
-  - {name: adi|0102 - 欧洲 17, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: 🇭🇰 adi|0102 - 中国香港 6, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0102 - 美国 25, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇭🇰 adi|0102 - Hongkong, server: 183.232.56.110, port: 574, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat}
-  - {name: 🇨🇦 adi|0102 - 加拿大, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 adi|1228 北美地区  19, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 adi|1228 北美地区  14, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: adi|0102 - 欧洲 18, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: adi|1222 挪威, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: adi|0102 - 安徽省移动 36, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0102 - 洛杉矶5, server: 45.66.159.75, port: 23456, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇷🇺 adi|0102 - 俄罗斯SS, server: 193.53.126.182, port: 10022, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇷🇺 adi|0102 - 俄罗斯SS 2, server: 2.56.241.234, port: 10022, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇷🇺 adi|0102 - 俄罗斯g5, server: 193.233.85.3, port: 45174, type: vmess, uuid: 14823120-5dc2-11ec-b398-3a571dcc9720, alterId: 0, cipher: auto, tls: false}
-  - {name: adi|1228 3, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇷🇺 adi|0102 - 俄罗斯SS 3, server: 45.137.154.208, port: 10033, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇷🇺 adi|0102 - 俄罗斯g3, server: 194.156.120.52, port: 41002, type: vmess, uuid: ebb93e84-5bb7-11ec-8bc6-6a5c6e054e4d, alterId: 0, cipher: auto, tls: false}
-  - {name: adi|0102 - 挪威  13, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇷🇺 adi|0102 - 俄罗斯g1, server: 195.133.53.192, port: 27182, type: vmess, uuid: a22df2ec-6200-11ec-9070-fecccc2333dc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /AmrTCtbk/, ws-headers: {Host: 195.133.53.192}}
-  - {name: adi|0102 - 葡萄牙(PT)Portugal/Lisbon, server: 185.90.57.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: 🇨🇳 adi|0102 - 上海 31, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: adi|0102 - 欧洲 19, server: 43.154.157.216, port: 60151, type: ss, cipher: chacha20-ietf-poly1305, password: dunkpzGG9FM9}
-  - {name: 🇭🇰 adi|0102 - HK, server: 183.232.56.182, port: 574, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat}
-  - {name: adi|0102 - 欧洲 20, server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
-  - {name: adi|0102 - V14-, server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray, ws-headers: {Host: 45.91.83.111}}
-  - {name: adi|0102 - V13-, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇮🇳 adi|0102 - 印度(IN)India/Mumbai, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇺🇲 adi|0102 - 美国 26, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
-  - {name: adi|0102 - 欧洲 21, server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC}
-  - {name: 🇨🇦 adi|0102 - 加拿大 2, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: adi|0102 - V34-, server: 18.218.198.254, port: 9999, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 18.218.198.254}}
-  - {name: 🇺🇲 adi|0102 - 美国 3 2, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}}
-  - {name: 🇺🇲 adi|0102 - 美国 25 2, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
-  - {name: 🇸🇬 adi|0102 - 新加坡OVH 23, server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇳 adi|0102 - TW, server: 117.28.243.154, port: 6145, type: ss, cipher: rc4-md5, password: passinfo123}
-  - {name: 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 5, server: ff7.uuv2.co.uk, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
-  - {name: 🇺🇲 adi|0102 - 美国 27, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
-  - {name: 🇺🇲 adi|0102 - 洛杉矶SS, server: 23.19.26.246, port: 10515, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇭🇰 adi|0102 - 香港Zenlayer 35, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: 129.227.201.234}}
-  - {name: 🇮🇳 adi|0102 - 印度(IN)India/Mumbai 2, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: aicoo6du.com}}
-  - {name: 🇺🇲 adi|0102 - 美国  32, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v7.ssrsub.com}}
-  - {name: 🇺🇲 adi|0102 - 美国  28, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v7.ssrsub.com}}
-  - {name: 🇭🇰 adi|0102 - 中国香港 7, server: shcn2-06b.iplc188.com, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: adi|1228+3, server: 45.140.169.176, port: 10055, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇲 adi|1228+北美地区++14, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇲 adi|1228+北美地区++19, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 adi|1228+美国, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 adi|1228+美国++27, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇬🇧 adi|1228+英国++32, server: 145.239.1.137, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: adi|0111 - V01-, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: 129.227.201.234}}}
+  - {name: adi|0111 - V02-, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: 192.186.129.66}}}
+  - {name: adi|0111 - V03-, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: adi|0111 - V04, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: adi|0111 - V08-, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: 208.98.48.2}}}
+  - {name: adi|0111 - V09-, server: 5.255.101.95, port: 60202, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 5.255.101.95}}}
+  - {name: adi|0111 - V10-, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: 23.82.136.151}}}
+  - {name: adi|0111 - V11-, server: 192.186.129.66, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}}
+  - {name: adi|0111 - V12-, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-buffalo.lvuft.com}}}
+  - {name: adi|0111 - V17-, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
+  - {name: adi|0111 - V21-, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false}
+  - {name: adi|0111 - V22-, server: 45.91.83.111, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-opts: {path: ray, headers: {Host: 45.91.83.111}}}
+  - {name: adi|0111 - V23-, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, network: ws, ws-opts: {path: ray, headers: {Host: us1nhg-node.aiqiche123.com}}}
+  - {name: adi|0111 - V24-, server: 129.227.201.234, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}}
+  - {name: adi|0111 - V25-, server: aicoo6du.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: aicoo6du.com}}}
+  - {name: adi|0111 - V30-, server: 5.255.101.95, port: 60202, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: microsoft.com}}}
+  - {name: adi|0111 - V35-, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}}
+  - {name: adi|0111 - V36-, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-sanfrancisco.lvuft.com}}}
+  - {name: adi|0111 - V37-, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: iesei1ei.com}}}
+  - {name: adi|0111 - V38-, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}}
+  - {name: adi|0111 - V39-, server: 70.39.67.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: amu1ahfi.com}}}
+  - {name: adi|0111 - V40-, server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: dax6ujai.com}}}
+  - {name: adi|0111 - V43-, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-dallas.lvuft.com}}}
+  - {name: adi|0111 - V44-, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-miami.lvuft.com}}}
+  - {name: adi|0111 - V48-, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
+  - {name: adi|0111 - V49-, server: 192.96.204.250, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: usa-washington.lvuft.com}}}
+  - {name: adi|0111 - V50-, server: dax6ujai.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: dax6ujai.com}}}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯g1, server: 193.42.114.222, port: 48186, type: vmess, uuid: 29c30ab2-7287-11ec-9c16-ce1d3620cfe6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hjX8I1VS/, headers: {Host: 193.42.114.222}}}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯g2, server: 194.147.33.186, port: 29078, type: vmess, uuid: 37c3b288-7287-11ec-ab53-62ada0aaad7c, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯V03, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 1c356475-9d2e-4b35-b05a-95517756e7a5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯V04, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: 1c356475-9d2e-4b35-b05a-95517756e7a5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯V05, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: 1c356475-9d2e-4b35-b05a-95517756e7a5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯V06, server: v6.ssrsub.com, port: 8443, type: vmess, uuid: 1c356475-9d2e-4b35-b05a-95517756e7a5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v6.ssrsub.com}}}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯V09, server: v9.ssrsub.com, port: 8443, type: vmess, uuid: 1c356475-9d2e-4b35-b05a-95517756e7a5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v9.ssrsub.com}}}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯V13, server: v3.ssrsub.com, port: 443, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v3.ssrsub.com}}}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯V14, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯V15, server: v5.ssrsub.com, port: 8443, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v5.ssrsub.com}}}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯V16, server: v6.ssrsub.com, port: 8443, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v6.ssrsub.com}}}
+  - {name: 🇷🇺 adi|0111 - 俄罗斯V19, server: v9.ssrsub.com, port: 8443, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v9.ssrsub.com}}}
+  - {name: 🇰🇷 adi|0111 - 韩国V10, server: v10.ssrsub.com, port: 166, type: vmess, uuid: 1c356475-9d2e-4b35-b05a-95517756e7a5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v10.ssrsub.com}}}
+  - {name: 🇰🇷 adi|0111 - 韩国V20, server: v10.ssrsub.com, port: 166, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v10.ssrsub.com}}}
+  - {name: 🇺🇲 adi|0111 - 洛杉矶g1, server: 149.248.21.50, port: 23515, type: vmess, uuid: 89980a1e-72a5-11ec-b535-560003c9de4b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /RvGiLYD4/, headers: {Host: 149.248.21.50}}}
+  - {name: 🇺🇲 adi|0111 - 美国V01, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 1c356475-9d2e-4b35-b05a-95517756e7a5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}}
+  - {name: 🇺🇲 adi|0111 - 美国V08, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 1c356475-9d2e-4b35-b05a-95517756e7a5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}}
+  - {name: 🇺🇲 adi|0111 - 美国V11, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v1.ssrsub.com}}}
+  - {name: 🇺🇲 adi|0111 - 美国V18, server: v8.ssrsub.com, port: 443, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}}
+  - {name: 🇸🇬 adi|0111 - 新加坡V07, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: 1c356475-9d2e-4b35-b05a-95517756e7a5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v7.ssrsub.com}}}
+  - {name: 🇸🇬 adi|0111 - 新加坡V17, server: v7.ssrsub.com, port: 8443, type: vmess, uuid: e6c36d58-6070-4b55-a437-146e6b53ec57, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v7.ssrsub.com}}}
+  - {name: adi|0102 - 4, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: fca9b620-6a2f-11ec-b290-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /nBaG3RmV/, headers: {Host: v2ray.ifuckgfw.ga}}}
+  - {name: adi|0102 - 5, server: 104.16.104.135, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: tight-math-32ee.tianzhen4567.workers.dev}}}
+  - {name: adi|0102 - 6, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: feeacce4-6a2f-11ec-b290-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /nBaG3RmV/, headers: {Host: v2ray.ifuckgfw.ga}}}
+  - {name: adi|0102 - 7, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: fa6ae99c-6a2f-11ec-b290-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /nBaG3RmV/, headers: {Host: v2ray.ifuckgfw.ga}}}
+  - {name: adi|0102 - 8, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: f84eb512-6a2f-11ec-b290-52ac0014346a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /nBaG3RmV/, headers: {Host: v2ray.ifuckgfw.ga}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -167,638 +155,590 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇨🇳 adi|0102 - CN_1
-      - adi|0102 -
-      - adi|0102 - 2
-      - 🇨🇳 adi|0102 - 上海 2
-      - adi|0102 - 3
-      - 🇭🇰 adi|0102 - 中国香港
-      - 🇭🇰 adi|0102 - 中国香港 2
-      - 🇦🇺 adi|0102 - 澳大利亚
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara
-      - 🇦🇺 adi|0102 - 澳大利亚 2
-      - 🇦🇺 adi|0102 - 澳大利亚 3
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 2
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco
-      - 🇳🇱 adi|0102 - 荷兰  12
-      - adi|0102 - 欧洲
-      - 🇺🇲 adi|0102 - 美国
-      - 🇺🇲 adi|0102 - 美国 2
-      - 🇺🇲 adi|0102 - 美国 3
-      - 🇺🇲 adi|0102 - 美国 4
-      - 🇺🇲 adi|0102 - 美国 5
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 3
-      - 🇺🇲 adi|0102 - 美国 6
-      - 🇺🇲 adi|0102 - 美国 7
-      - 🇺🇲 adi|0102 - 美国(US)USA/Miami
-      - 🇺🇲 adi|0102 - 美国 8
-      - 🇺🇲 adi|0102 - 美国 9
-      - 🇺🇲 adi|0102 - 美国 30
-      - 🇺🇲 adi|0102 - 美国 10
-      - 🇺🇲 adi|0102 - 美国 11
-      - 🇺🇲 adi|0102 - 美国 12
-      - 🇺🇲 adi|0102 - 美国 29
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 4
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle
-      - adi|0102 - 欧洲 2
-      - 🇺🇲 adi|0102 - 美国 13
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 5
+      - adi|0111 - 0.05 MB/s
+      - adi|0111 - 0.21 MB/s
+      - adi|0111 - 0.26 MB/s
+      - adi|0111 - 0.27 MB/s
+      - adi|0111 - 0.28 MB/s
+      - 🇷🇺 adi|0111 - 俄罗斯T02
+      - 🇷🇺 adi|0111 - 俄罗斯T06
+      - 🇷🇺 adi|0111 - 俄罗斯T08
+      - 🇷🇺 adi|0111 - 俄罗斯T12
+      - 🇰🇷 adi|0111 - 韩国T05
+      - 🇰🇷 adi|0111 - 韩国T11
+      - 🇳🇱 adi|0111 - 荷兰-3.63MB/s
+      - 🇨🇦 adi|0111 - 加拿大T01
+      - 🇨🇦 adi|0111 - 加拿大T03
+      - 🇨🇦 adi|0111 - 加拿大T04
+      - 🇨🇦 adi|0111 - 加拿大T07
+      - 🇨🇦 adi|0111 - 加拿大T09
+      - 🇨🇦 adi|0111 - 加拿大T10
+      - 🇦🇺 adi|0111 - _AU_51
+      - 🇫🇷 adi|0111 - _FR_38
+      - 🇫🇷 adi|0111 - _FR_39
+      - 🇫🇷 adi|0111 - _FR_40
+      - 🇫🇷 adi|0111 - _FR_45
+      - 🇸🇪 adi|0111 - _SE_37
+      - 🇺🇲 adi|0111 - _US_50
+      - adi|0111 - 03
+      - adi|0111 - 04
+      - adi|0111 - 05
+      - adi|0111 - 07
+      - adi|0111 - 08
+      - adi|0111 - 09
+      - adi|0111 - 10
+      - adi|0111 - 11
+      - adi|0111 - 12
+      - adi|0111 - 13
+      - adi|0111 - 14
+      - adi|0111 - 17
+      - 🇷🇺 adi|0111 - 俄罗斯SS
+      - 🇷🇺 adi|0111 - 俄罗斯SS 2
+      - 🇷🇺 adi|0111 - 俄罗斯SS 3
+      - 🇷🇺 adi|0111 - 俄罗斯SS 4
+      - adi|0111 - 卢森堡-3.65MB/s
+      - 🇺🇲 adi|0111 - 洛杉矶5
+      - 🇺🇲 adi|0111 - 洛杉矶6 SS
+      - 🇺🇲 adi|0111 - 洛杉矶SS
+      - 🇺🇲 adi|0111 - 美国-1.48MB/s
+      - 🇺🇲 adi|0111 - 美国-4.68MB/s
+      - 🇺🇲 adi|0111 - 美国-5.59MB/s
+      - 🇺🇲 adi|0111 - 美国SS
+      - adi|0111 - 挪威-1.19MB/s
+      - adi|0111 - 挪威-621.8KB/s
+      - adi|0102+-+13
+      - 🇦🇺 adi|0102+-+澳大利亚
+      - 🇦🇺 adi|0102+-+澳大利亚+2
+      - 🇦🇺 adi|0102+-+澳大利亚+3
+      - 🇷🇺 adi|0102+-+俄罗斯SS
+      - 🇷🇺 adi|0102+-+俄罗斯SS+2
+      - 🇷🇺 adi|0102+-+俄罗斯SS+3
+      - 🇫🇷 adi|0102+-+法国
+      - 🇺🇲 adi|0102+-+洛杉矶5
+      - 🇺🇲 adi|0102+-+美国+11
+      - 🇺🇲 adi|0102+-+美国+12
+      - 🇺🇲 adi|0102+-+美国+2
+      - 🇺🇲 adi|0102+-+美国+25
+      - 🇺🇲 adi|0102+-+美国+6
+      - 🇺🇲 adi|0102+-+美国(US)USA/Santa+Clara
+      - 🇺🇲 adi|0102+-+美国(US)USA/Santa+Clara+2
+      - 🇺🇲 adi|0102+-+美国(US)USA/Santa+Clara+5
+      - adi|0102+-+挪威++13
+      - adi|0102+-+欧洲+10
+      - adi|0102+-+欧洲+11
+      - adi|0102+-+欧洲+13
+      - adi|0102+-+欧洲+14
+      - adi|0102+-+欧洲+15
+      - adi|0102+-+欧洲+16
+      - adi|0102+-+欧洲+18
+      - adi|0102+-+欧洲+2
+      - adi|0102+-+欧洲+3
+      - adi|0102+-+欧洲+4
+      - adi|0102+-+欧洲+6
+      - adi|0102+-+欧洲+7
+      - adi|0102+-+欧洲+8
+      - adi|1228
+      - adi|1228+3
+      - 🇺🇲 adi|1228+北美地区++14
+      - 🇺🇲 adi|1228+北美地区++19
+      - 🇺🇲 adi|1228+美国
+      - 🇺🇲 adi|1228+美国++27
+      - 🇬🇧 adi|1228+英国++32
+      - adi|0111 - V01-
+      - adi|0111 - V02-
+      - adi|0111 - V03-
+      - adi|0111 - V04
+      - adi|0111 - V08-
+      - adi|0111 - V09-
+      - adi|0111 - V10-
+      - adi|0111 - V11-
+      - adi|0111 - V12-
+      - adi|0111 - V17-
+      - adi|0111 - V21-
+      - adi|0111 - V22-
+      - adi|0111 - V23-
+      - adi|0111 - V24-
+      - adi|0111 - V25-
+      - adi|0111 - V30-
+      - adi|0111 - V35-
+      - adi|0111 - V36-
+      - adi|0111 - V37-
+      - adi|0111 - V38-
+      - adi|0111 - V39-
+      - adi|0111 - V40-
+      - adi|0111 - V43-
+      - adi|0111 - V44-
+      - adi|0111 - V48-
+      - adi|0111 - V49-
+      - adi|0111 - V50-
+      - 🇷🇺 adi|0111 - 俄罗斯g1
+      - 🇷🇺 adi|0111 - 俄罗斯g2
+      - 🇷🇺 adi|0111 - 俄罗斯V03
+      - 🇷🇺 adi|0111 - 俄罗斯V04
+      - 🇷🇺 adi|0111 - 俄罗斯V05
+      - 🇷🇺 adi|0111 - 俄罗斯V06
+      - 🇷🇺 adi|0111 - 俄罗斯V09
+      - 🇷🇺 adi|0111 - 俄罗斯V13
+      - 🇷🇺 adi|0111 - 俄罗斯V14
+      - 🇷🇺 adi|0111 - 俄罗斯V15
+      - 🇷🇺 adi|0111 - 俄罗斯V16
+      - 🇷🇺 adi|0111 - 俄罗斯V19
+      - 🇰🇷 adi|0111 - 韩国V10
+      - 🇰🇷 adi|0111 - 韩国V20
+      - 🇺🇲 adi|0111 - 洛杉矶g1
+      - 🇺🇲 adi|0111 - 美国V01
+      - 🇺🇲 adi|0111 - 美国V08
+      - 🇺🇲 adi|0111 - 美国V11
+      - 🇺🇲 adi|0111 - 美国V18
+      - 🇸🇬 adi|0111 - 新加坡V07
+      - 🇸🇬 adi|0111 - 新加坡V17
       - adi|0102 - 4
-      - 🇺🇲 adi|0102 - 美国 14
-      - 🇺🇲 adi|0102 - 美国 15
-      - 🇺🇲 adi|0102 - US_16
-      - 🇺🇲 adi|0102 - 美国 16
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 2
-      - adi|0102 - 欧洲 3
       - adi|0102 - 5
       - adi|0102 - 6
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 2
       - adi|0102 - 7
-      - 🇺🇲 adi|1228 美国  27
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 3
-      - adi|0102 - 欧洲 4
-      - 🇭🇰 adi|0102 - 中国香港 3
-      - 🇺🇲 adi|0102 - 美国 17
-      - 🇺🇲 adi|0102 - US_19
       - adi|0102 - 8
-      - adi|0102 - 欧洲 5
-      - adi|0102 - 9
-      - adi|0102 - 欧洲 6
-      - 🇺🇲 adi|0102 - 美国 18
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 6
-      - 🇺🇲 adi|0102 - 美国 16 2
-      - 🇬🇧 adi|1228 英国
-      - 🇲🇾 adi|1228 马来西亚  31
-      - 🇺🇲 adi|0102 - US_17
-      - adi|0102 - V05-
-      - 🇭🇰 adi|0102 - 中国香港 4
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 4
-      - 🇺🇲 adi|0102 - 美国 19
-      - adi|0102 - 欧洲 7
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 3
-      - adi|0102 - 欧洲 8
-      - adi|0102 - 欧洲 9
-      - adi|0102 - 欧洲 10
-      - adi|0102 - 欧洲 11
-      - adi|0102 - V38-
-      - adi|1228
-      - adi|1228 2
-      - 🇺🇲 adi|0102 - 美国 20
-      - adi|0102 - 欧洲 12
-      - adi|0102 - 10
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 5
-      - adi|0102 - 欧洲 13
-      - 🇺🇲 adi|1228 美国  17
-      - 🇺🇲 adi|1228 美国
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 6
-      - 🇺🇲 adi|0102 - 美国 21
-      - 🇺🇲 adi|0102 - 美国 22
-      - adi|0102 - 11
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 7
-      - 🇺🇲 adi|0102 - 美国 23
-      - adi|0102 - V39-
-      - adi|0102 - 欧洲 14
-      - 🇭🇰 adi|0102 - 中国香港 5
-      - adi|0102 - V20-
-      - adi|0102 - 12
-      - adi|0102 - 13
-      - adi|0102 - 01
-      - adi|0102 - 9 2
-      - adi|0102 - 14
-      - 🇺🇲 adi|0102 - 美国 24
-      - adi|0102 - 欧洲 15
-      - 🇬🇧 adi|1228 英国  32
-      - adi|0102 - 比利时
-      - 🇺🇲 adi|0102 - 美国 2 2
-      - adi|0102 - 欧洲 16
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 4
-      - adi|0102 - V15-
-      - 🇫🇷 adi|0102 - 法国
-      - 🇺🇲 adi|0102 - 美国 9 2
-      - 🇺🇲 adi|1228 美国1
-      - adi|0102 - 15
-      - 🇺🇲 adi|0102 - 美国 1
-      - adi|0102 - 欧洲 17
-      - 🇭🇰 adi|0102 - 中国香港 6
-      - 🇺🇲 adi|0102 - 美国 25
-      - 🇭🇰 adi|0102 - Hongkong
-      - 🇨🇦 adi|0102 - 加拿大
-      - 🇺🇲 adi|1228 北美地区  19
-      - 🇺🇲 adi|1228 北美地区  14
-      - adi|0102 - 欧洲 18
-      - adi|1222 挪威
-      - adi|0102 - 安徽省移动 36
-      - 🇺🇲 adi|0102 - 洛杉矶5
-      - 🇷🇺 adi|0102 - 俄罗斯SS
-      - 🇷🇺 adi|0102 - 俄罗斯SS 2
-      - 🇷🇺 adi|0102 - 俄罗斯g5
-      - adi|1228 3
-      - 🇷🇺 adi|0102 - 俄罗斯SS 3
-      - 🇷🇺 adi|0102 - 俄罗斯g3
-      - adi|0102 - 挪威  13
-      - 🇷🇺 adi|0102 - 俄罗斯g1
-      - adi|0102 - 葡萄牙(PT)Portugal/Lisbon
-      - 🇨🇳 adi|0102 - 上海 31
-      - adi|0102 - 欧洲 19
-      - 🇭🇰 adi|0102 - HK
-      - adi|0102 - 欧洲 20
-      - adi|0102 - V14-
-      - adi|0102 - V13-
-      - 🇮🇳 adi|0102 - 印度(IN)India/Mumbai
-      - 🇺🇲 adi|0102 - 美国 26
-      - adi|0102 - 欧洲 21
-      - 🇨🇦 adi|0102 - 加拿大 2
-      - adi|0102 - V34-
-      - 🇺🇲 adi|0102 - 美国 3 2
-      - 🇺🇲 adi|0102 - 美国 25 2
-      - 🇸🇬 adi|0102 - 新加坡OVH 23
-      - 🇨🇳 adi|0102 - TW
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 5
-      - 🇺🇲 adi|0102 - 美国 27
-      - 🇺🇲 adi|0102 - 洛杉矶SS
-      - 🇭🇰 adi|0102 - 香港Zenlayer 35
-      - 🇮🇳 adi|0102 - 印度(IN)India/Mumbai 2
-      - 🇺🇲 adi|0102 - 美国  32
-      - 🇺🇲 adi|0102 - 美国  28
-      - 🇭🇰 adi|0102 - 中国香港 7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 adi|0102 - CN_1
-      - adi|0102 -
-      - adi|0102 - 2
-      - 🇨🇳 adi|0102 - 上海 2
-      - adi|0102 - 3
-      - 🇭🇰 adi|0102 - 中国香港
-      - 🇭🇰 adi|0102 - 中国香港 2
-      - 🇦🇺 adi|0102 - 澳大利亚
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara
-      - 🇦🇺 adi|0102 - 澳大利亚 2
-      - 🇦🇺 adi|0102 - 澳大利亚 3
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 2
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco
-      - 🇳🇱 adi|0102 - 荷兰  12
-      - adi|0102 - 欧洲
-      - 🇺🇲 adi|0102 - 美国
-      - 🇺🇲 adi|0102 - 美国 2
-      - 🇺🇲 adi|0102 - 美国 3
-      - 🇺🇲 adi|0102 - 美国 4
-      - 🇺🇲 adi|0102 - 美国 5
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 3
-      - 🇺🇲 adi|0102 - 美国 6
-      - 🇺🇲 adi|0102 - 美国 7
-      - 🇺🇲 adi|0102 - 美国(US)USA/Miami
-      - 🇺🇲 adi|0102 - 美国 8
-      - 🇺🇲 adi|0102 - 美国 9
-      - 🇺🇲 adi|0102 - 美国 30
-      - 🇺🇲 adi|0102 - 美国 10
-      - 🇺🇲 adi|0102 - 美国 11
-      - 🇺🇲 adi|0102 - 美国 12
-      - 🇺🇲 adi|0102 - 美国 29
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 4
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle
-      - adi|0102 - 欧洲 2
-      - 🇺🇲 adi|0102 - 美国 13
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 5
+      - adi|0111 - 0.05 MB/s
+      - adi|0111 - 0.21 MB/s
+      - adi|0111 - 0.26 MB/s
+      - adi|0111 - 0.27 MB/s
+      - adi|0111 - 0.28 MB/s
+      - 🇷🇺 adi|0111 - 俄罗斯T02
+      - 🇷🇺 adi|0111 - 俄罗斯T06
+      - 🇷🇺 adi|0111 - 俄罗斯T08
+      - 🇷🇺 adi|0111 - 俄罗斯T12
+      - 🇰🇷 adi|0111 - 韩国T05
+      - 🇰🇷 adi|0111 - 韩国T11
+      - 🇳🇱 adi|0111 - 荷兰-3.63MB/s
+      - 🇨🇦 adi|0111 - 加拿大T01
+      - 🇨🇦 adi|0111 - 加拿大T03
+      - 🇨🇦 adi|0111 - 加拿大T04
+      - 🇨🇦 adi|0111 - 加拿大T07
+      - 🇨🇦 adi|0111 - 加拿大T09
+      - 🇨🇦 adi|0111 - 加拿大T10
+      - 🇦🇺 adi|0111 - _AU_51
+      - 🇫🇷 adi|0111 - _FR_38
+      - 🇫🇷 adi|0111 - _FR_39
+      - 🇫🇷 adi|0111 - _FR_40
+      - 🇫🇷 adi|0111 - _FR_45
+      - 🇸🇪 adi|0111 - _SE_37
+      - 🇺🇲 adi|0111 - _US_50
+      - adi|0111 - 03
+      - adi|0111 - 04
+      - adi|0111 - 05
+      - adi|0111 - 07
+      - adi|0111 - 08
+      - adi|0111 - 09
+      - adi|0111 - 10
+      - adi|0111 - 11
+      - adi|0111 - 12
+      - adi|0111 - 13
+      - adi|0111 - 14
+      - adi|0111 - 17
+      - 🇷🇺 adi|0111 - 俄罗斯SS
+      - 🇷🇺 adi|0111 - 俄罗斯SS 2
+      - 🇷🇺 adi|0111 - 俄罗斯SS 3
+      - 🇷🇺 adi|0111 - 俄罗斯SS 4
+      - adi|0111 - 卢森堡-3.65MB/s
+      - 🇺🇲 adi|0111 - 洛杉矶5
+      - 🇺🇲 adi|0111 - 洛杉矶6 SS
+      - 🇺🇲 adi|0111 - 洛杉矶SS
+      - 🇺🇲 adi|0111 - 美国-1.48MB/s
+      - 🇺🇲 adi|0111 - 美国-4.68MB/s
+      - 🇺🇲 adi|0111 - 美国-5.59MB/s
+      - 🇺🇲 adi|0111 - 美国SS
+      - adi|0111 - 挪威-1.19MB/s
+      - adi|0111 - 挪威-621.8KB/s
+      - adi|0102+-+13
+      - 🇦🇺 adi|0102+-+澳大利亚
+      - 🇦🇺 adi|0102+-+澳大利亚+2
+      - 🇦🇺 adi|0102+-+澳大利亚+3
+      - 🇷🇺 adi|0102+-+俄罗斯SS
+      - 🇷🇺 adi|0102+-+俄罗斯SS+2
+      - 🇷🇺 adi|0102+-+俄罗斯SS+3
+      - 🇫🇷 adi|0102+-+法国
+      - 🇺🇲 adi|0102+-+洛杉矶5
+      - 🇺🇲 adi|0102+-+美国+11
+      - 🇺🇲 adi|0102+-+美国+12
+      - 🇺🇲 adi|0102+-+美国+2
+      - 🇺🇲 adi|0102+-+美国+25
+      - 🇺🇲 adi|0102+-+美国+6
+      - 🇺🇲 adi|0102+-+美国(US)USA/Santa+Clara
+      - 🇺🇲 adi|0102+-+美国(US)USA/Santa+Clara+2
+      - 🇺🇲 adi|0102+-+美国(US)USA/Santa+Clara+5
+      - adi|0102+-+挪威++13
+      - adi|0102+-+欧洲+10
+      - adi|0102+-+欧洲+11
+      - adi|0102+-+欧洲+13
+      - adi|0102+-+欧洲+14
+      - adi|0102+-+欧洲+15
+      - adi|0102+-+欧洲+16
+      - adi|0102+-+欧洲+18
+      - adi|0102+-+欧洲+2
+      - adi|0102+-+欧洲+3
+      - adi|0102+-+欧洲+4
+      - adi|0102+-+欧洲+6
+      - adi|0102+-+欧洲+7
+      - adi|0102+-+欧洲+8
+      - adi|1228
+      - adi|1228+3
+      - 🇺🇲 adi|1228+北美地区++14
+      - 🇺🇲 adi|1228+北美地区++19
+      - 🇺🇲 adi|1228+美国
+      - 🇺🇲 adi|1228+美国++27
+      - 🇬🇧 adi|1228+英国++32
+      - adi|0111 - V01-
+      - adi|0111 - V02-
+      - adi|0111 - V03-
+      - adi|0111 - V04
+      - adi|0111 - V08-
+      - adi|0111 - V09-
+      - adi|0111 - V10-
+      - adi|0111 - V11-
+      - adi|0111 - V12-
+      - adi|0111 - V17-
+      - adi|0111 - V21-
+      - adi|0111 - V22-
+      - adi|0111 - V23-
+      - adi|0111 - V24-
+      - adi|0111 - V25-
+      - adi|0111 - V30-
+      - adi|0111 - V35-
+      - adi|0111 - V36-
+      - adi|0111 - V37-
+      - adi|0111 - V38-
+      - adi|0111 - V39-
+      - adi|0111 - V40-
+      - adi|0111 - V43-
+      - adi|0111 - V44-
+      - adi|0111 - V48-
+      - adi|0111 - V49-
+      - adi|0111 - V50-
+      - 🇷🇺 adi|0111 - 俄罗斯g1
+      - 🇷🇺 adi|0111 - 俄罗斯g2
+      - 🇷🇺 adi|0111 - 俄罗斯V03
+      - 🇷🇺 adi|0111 - 俄罗斯V04
+      - 🇷🇺 adi|0111 - 俄罗斯V05
+      - 🇷🇺 adi|0111 - 俄罗斯V06
+      - 🇷🇺 adi|0111 - 俄罗斯V09
+      - 🇷🇺 adi|0111 - 俄罗斯V13
+      - 🇷🇺 adi|0111 - 俄罗斯V14
+      - 🇷🇺 adi|0111 - 俄罗斯V15
+      - 🇷🇺 adi|0111 - 俄罗斯V16
+      - 🇷🇺 adi|0111 - 俄罗斯V19
+      - 🇰🇷 adi|0111 - 韩国V10
+      - 🇰🇷 adi|0111 - 韩国V20
+      - 🇺🇲 adi|0111 - 洛杉矶g1
+      - 🇺🇲 adi|0111 - 美国V01
+      - 🇺🇲 adi|0111 - 美国V08
+      - 🇺🇲 adi|0111 - 美国V11
+      - 🇺🇲 adi|0111 - 美国V18
+      - 🇸🇬 adi|0111 - 新加坡V07
+      - 🇸🇬 adi|0111 - 新加坡V17
       - adi|0102 - 4
-      - 🇺🇲 adi|0102 - 美国 14
-      - 🇺🇲 adi|0102 - 美国 15
-      - 🇺🇲 adi|0102 - US_16
-      - 🇺🇲 adi|0102 - 美国 16
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 2
-      - adi|0102 - 欧洲 3
       - adi|0102 - 5
       - adi|0102 - 6
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 2
       - adi|0102 - 7
-      - 🇺🇲 adi|1228 美国  27
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 3
-      - adi|0102 - 欧洲 4
-      - 🇭🇰 adi|0102 - 中国香港 3
-      - 🇺🇲 adi|0102 - 美国 17
-      - 🇺🇲 adi|0102 - US_19
       - adi|0102 - 8
-      - adi|0102 - 欧洲 5
-      - adi|0102 - 9
-      - adi|0102 - 欧洲 6
-      - 🇺🇲 adi|0102 - 美国 18
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 6
-      - 🇺🇲 adi|0102 - 美国 16 2
-      - 🇬🇧 adi|1228 英国
-      - 🇲🇾 adi|1228 马来西亚  31
-      - 🇺🇲 adi|0102 - US_17
-      - adi|0102 - V05-
-      - 🇭🇰 adi|0102 - 中国香港 4
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 4
-      - 🇺🇲 adi|0102 - 美国 19
-      - adi|0102 - 欧洲 7
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 3
-      - adi|0102 - 欧洲 8
-      - adi|0102 - 欧洲 9
-      - adi|0102 - 欧洲 10
-      - adi|0102 - 欧洲 11
-      - adi|0102 - V38-
-      - adi|1228
-      - adi|1228 2
-      - 🇺🇲 adi|0102 - 美国 20
-      - adi|0102 - 欧洲 12
-      - adi|0102 - 10
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 5
-      - adi|0102 - 欧洲 13
-      - 🇺🇲 adi|1228 美国  17
-      - 🇺🇲 adi|1228 美国
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 6
-      - 🇺🇲 adi|0102 - 美国 21
-      - 🇺🇲 adi|0102 - 美国 22
-      - adi|0102 - 11
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 7
-      - 🇺🇲 adi|0102 - 美国 23
-      - adi|0102 - V39-
-      - adi|0102 - 欧洲 14
-      - 🇭🇰 adi|0102 - 中国香港 5
-      - adi|0102 - V20-
-      - adi|0102 - 12
-      - adi|0102 - 13
-      - adi|0102 - 01
-      - adi|0102 - 9 2
-      - adi|0102 - 14
-      - 🇺🇲 adi|0102 - 美国 24
-      - adi|0102 - 欧洲 15
-      - 🇬🇧 adi|1228 英国  32
-      - adi|0102 - 比利时
-      - 🇺🇲 adi|0102 - 美国 2 2
-      - adi|0102 - 欧洲 16
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 4
-      - adi|0102 - V15-
-      - 🇫🇷 adi|0102 - 法国
-      - 🇺🇲 adi|0102 - 美国 9 2
-      - 🇺🇲 adi|1228 美国1
-      - adi|0102 - 15
-      - 🇺🇲 adi|0102 - 美国 1
-      - adi|0102 - 欧洲 17
-      - 🇭🇰 adi|0102 - 中国香港 6
-      - 🇺🇲 adi|0102 - 美国 25
-      - 🇭🇰 adi|0102 - Hongkong
-      - 🇨🇦 adi|0102 - 加拿大
-      - 🇺🇲 adi|1228 北美地区  19
-      - 🇺🇲 adi|1228 北美地区  14
-      - adi|0102 - 欧洲 18
-      - adi|1222 挪威
-      - adi|0102 - 安徽省移动 36
-      - 🇺🇲 adi|0102 - 洛杉矶5
-      - 🇷🇺 adi|0102 - 俄罗斯SS
-      - 🇷🇺 adi|0102 - 俄罗斯SS 2
-      - 🇷🇺 adi|0102 - 俄罗斯g5
-      - adi|1228 3
-      - 🇷🇺 adi|0102 - 俄罗斯SS 3
-      - 🇷🇺 adi|0102 - 俄罗斯g3
-      - adi|0102 - 挪威  13
-      - 🇷🇺 adi|0102 - 俄罗斯g1
-      - adi|0102 - 葡萄牙(PT)Portugal/Lisbon
-      - 🇨🇳 adi|0102 - 上海 31
-      - adi|0102 - 欧洲 19
-      - 🇭🇰 adi|0102 - HK
-      - adi|0102 - 欧洲 20
-      - adi|0102 - V14-
-      - adi|0102 - V13-
-      - 🇮🇳 adi|0102 - 印度(IN)India/Mumbai
-      - 🇺🇲 adi|0102 - 美国 26
-      - adi|0102 - 欧洲 21
-      - 🇨🇦 adi|0102 - 加拿大 2
-      - adi|0102 - V34-
-      - 🇺🇲 adi|0102 - 美国 3 2
-      - 🇺🇲 adi|0102 - 美国 25 2
-      - 🇸🇬 adi|0102 - 新加坡OVH 23
-      - 🇨🇳 adi|0102 - TW
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 5
-      - 🇺🇲 adi|0102 - 美国 27
-      - 🇺🇲 adi|0102 - 洛杉矶SS
-      - 🇭🇰 adi|0102 - 香港Zenlayer 35
-      - 🇮🇳 adi|0102 - 印度(IN)India/Mumbai 2
-      - 🇺🇲 adi|0102 - 美国  32
-      - 🇺🇲 adi|0102 - 美国  28
-      - 🇭🇰 adi|0102 - 中国香港 7
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇨🇳 adi|0102 - CN_1
-      - adi|0102 -
-      - adi|0102 - 2
-      - 🇨🇳 adi|0102 - 上海 2
-      - adi|0102 - 3
-      - 🇭🇰 adi|0102 - 中国香港
-      - 🇭🇰 adi|0102 - 中国香港 2
-      - 🇦🇺 adi|0102 - 澳大利亚
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara
-      - 🇦🇺 adi|0102 - 澳大利亚 2
-      - 🇦🇺 adi|0102 - 澳大利亚 3
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 2
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco
-      - 🇳🇱 adi|0102 - 荷兰  12
-      - adi|0102 - 欧洲
-      - 🇺🇲 adi|0102 - 美国
-      - 🇺🇲 adi|0102 - 美国 2
-      - 🇺🇲 adi|0102 - 美国 3
-      - 🇺🇲 adi|0102 - 美国 4
-      - 🇺🇲 adi|0102 - 美国 5
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 3
-      - 🇺🇲 adi|0102 - 美国 6
-      - 🇺🇲 adi|0102 - 美国 7
-      - 🇺🇲 adi|0102 - 美国(US)USA/Miami
-      - 🇺🇲 adi|0102 - 美国 8
-      - 🇺🇲 adi|0102 - 美国 9
-      - 🇺🇲 adi|0102 - 美国 30
-      - 🇺🇲 adi|0102 - 美国 10
-      - 🇺🇲 adi|0102 - 美国 11
-      - 🇺🇲 adi|0102 - 美国 12
-      - 🇺🇲 adi|0102 - 美国 29
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 4
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle
-      - adi|0102 - 欧洲 2
-      - 🇺🇲 adi|0102 - 美国 13
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 5
+      - adi|0111 - 0.05 MB/s
+      - adi|0111 - 0.21 MB/s
+      - adi|0111 - 0.26 MB/s
+      - adi|0111 - 0.27 MB/s
+      - adi|0111 - 0.28 MB/s
+      - 🇷🇺 adi|0111 - 俄罗斯T02
+      - 🇷🇺 adi|0111 - 俄罗斯T06
+      - 🇷🇺 adi|0111 - 俄罗斯T08
+      - 🇷🇺 adi|0111 - 俄罗斯T12
+      - 🇰🇷 adi|0111 - 韩国T05
+      - 🇰🇷 adi|0111 - 韩国T11
+      - 🇳🇱 adi|0111 - 荷兰-3.63MB/s
+      - 🇨🇦 adi|0111 - 加拿大T01
+      - 🇨🇦 adi|0111 - 加拿大T03
+      - 🇨🇦 adi|0111 - 加拿大T04
+      - 🇨🇦 adi|0111 - 加拿大T07
+      - 🇨🇦 adi|0111 - 加拿大T09
+      - 🇨🇦 adi|0111 - 加拿大T10
+      - 🇦🇺 adi|0111 - _AU_51
+      - 🇫🇷 adi|0111 - _FR_38
+      - 🇫🇷 adi|0111 - _FR_39
+      - 🇫🇷 adi|0111 - _FR_40
+      - 🇫🇷 adi|0111 - _FR_45
+      - 🇸🇪 adi|0111 - _SE_37
+      - 🇺🇲 adi|0111 - _US_50
+      - adi|0111 - 03
+      - adi|0111 - 04
+      - adi|0111 - 05
+      - adi|0111 - 07
+      - adi|0111 - 08
+      - adi|0111 - 09
+      - adi|0111 - 10
+      - adi|0111 - 11
+      - adi|0111 - 12
+      - adi|0111 - 13
+      - adi|0111 - 14
+      - adi|0111 - 17
+      - 🇷🇺 adi|0111 - 俄罗斯SS
+      - 🇷🇺 adi|0111 - 俄罗斯SS 2
+      - 🇷🇺 adi|0111 - 俄罗斯SS 3
+      - 🇷🇺 adi|0111 - 俄罗斯SS 4
+      - adi|0111 - 卢森堡-3.65MB/s
+      - 🇺🇲 adi|0111 - 洛杉矶5
+      - 🇺🇲 adi|0111 - 洛杉矶6 SS
+      - 🇺🇲 adi|0111 - 洛杉矶SS
+      - 🇺🇲 adi|0111 - 美国-1.48MB/s
+      - 🇺🇲 adi|0111 - 美国-4.68MB/s
+      - 🇺🇲 adi|0111 - 美国-5.59MB/s
+      - 🇺🇲 adi|0111 - 美国SS
+      - adi|0111 - 挪威-1.19MB/s
+      - adi|0111 - 挪威-621.8KB/s
+      - adi|0102+-+13
+      - 🇦🇺 adi|0102+-+澳大利亚
+      - 🇦🇺 adi|0102+-+澳大利亚+2
+      - 🇦🇺 adi|0102+-+澳大利亚+3
+      - 🇷🇺 adi|0102+-+俄罗斯SS
+      - 🇷🇺 adi|0102+-+俄罗斯SS+2
+      - 🇷🇺 adi|0102+-+俄罗斯SS+3
+      - 🇫🇷 adi|0102+-+法国
+      - 🇺🇲 adi|0102+-+洛杉矶5
+      - 🇺🇲 adi|0102+-+美国+11
+      - 🇺🇲 adi|0102+-+美国+12
+      - 🇺🇲 adi|0102+-+美国+2
+      - 🇺🇲 adi|0102+-+美国+25
+      - 🇺🇲 adi|0102+-+美国+6
+      - 🇺🇲 adi|0102+-+美国(US)USA/Santa+Clara
+      - 🇺🇲 adi|0102+-+美国(US)USA/Santa+Clara+2
+      - 🇺🇲 adi|0102+-+美国(US)USA/Santa+Clara+5
+      - adi|0102+-+挪威++13
+      - adi|0102+-+欧洲+10
+      - adi|0102+-+欧洲+11
+      - adi|0102+-+欧洲+13
+      - adi|0102+-+欧洲+14
+      - adi|0102+-+欧洲+15
+      - adi|0102+-+欧洲+16
+      - adi|0102+-+欧洲+18
+      - adi|0102+-+欧洲+2
+      - adi|0102+-+欧洲+3
+      - adi|0102+-+欧洲+4
+      - adi|0102+-+欧洲+6
+      - adi|0102+-+欧洲+7
+      - adi|0102+-+欧洲+8
+      - adi|1228
+      - adi|1228+3
+      - 🇺🇲 adi|1228+北美地区++14
+      - 🇺🇲 adi|1228+北美地区++19
+      - 🇺🇲 adi|1228+美国
+      - 🇺🇲 adi|1228+美国++27
+      - 🇬🇧 adi|1228+英国++32
+      - adi|0111 - V01-
+      - adi|0111 - V02-
+      - adi|0111 - V03-
+      - adi|0111 - V04
+      - adi|0111 - V08-
+      - adi|0111 - V09-
+      - adi|0111 - V10-
+      - adi|0111 - V11-
+      - adi|0111 - V12-
+      - adi|0111 - V17-
+      - adi|0111 - V21-
+      - adi|0111 - V22-
+      - adi|0111 - V23-
+      - adi|0111 - V24-
+      - adi|0111 - V25-
+      - adi|0111 - V30-
+      - adi|0111 - V35-
+      - adi|0111 - V36-
+      - adi|0111 - V37-
+      - adi|0111 - V38-
+      - adi|0111 - V39-
+      - adi|0111 - V40-
+      - adi|0111 - V43-
+      - adi|0111 - V44-
+      - adi|0111 - V48-
+      - adi|0111 - V49-
+      - adi|0111 - V50-
+      - 🇷🇺 adi|0111 - 俄罗斯g1
+      - 🇷🇺 adi|0111 - 俄罗斯g2
+      - 🇷🇺 adi|0111 - 俄罗斯V03
+      - 🇷🇺 adi|0111 - 俄罗斯V04
+      - 🇷🇺 adi|0111 - 俄罗斯V05
+      - 🇷🇺 adi|0111 - 俄罗斯V06
+      - 🇷🇺 adi|0111 - 俄罗斯V09
+      - 🇷🇺 adi|0111 - 俄罗斯V13
+      - 🇷🇺 adi|0111 - 俄罗斯V14
+      - 🇷🇺 adi|0111 - 俄罗斯V15
+      - 🇷🇺 adi|0111 - 俄罗斯V16
+      - 🇷🇺 adi|0111 - 俄罗斯V19
+      - 🇰🇷 adi|0111 - 韩国V10
+      - 🇰🇷 adi|0111 - 韩国V20
+      - 🇺🇲 adi|0111 - 洛杉矶g1
+      - 🇺🇲 adi|0111 - 美国V01
+      - 🇺🇲 adi|0111 - 美国V08
+      - 🇺🇲 adi|0111 - 美国V11
+      - 🇺🇲 adi|0111 - 美国V18
+      - 🇸🇬 adi|0111 - 新加坡V07
+      - 🇸🇬 adi|0111 - 新加坡V17
       - adi|0102 - 4
-      - 🇺🇲 adi|0102 - 美国 14
-      - 🇺🇲 adi|0102 - 美国 15
-      - 🇺🇲 adi|0102 - US_16
-      - 🇺🇲 adi|0102 - 美国 16
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 2
-      - adi|0102 - 欧洲 3
       - adi|0102 - 5
       - adi|0102 - 6
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 2
       - adi|0102 - 7
-      - 🇺🇲 adi|1228 美国  27
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 3
-      - adi|0102 - 欧洲 4
-      - 🇭🇰 adi|0102 - 中国香港 3
-      - 🇺🇲 adi|0102 - 美国 17
-      - 🇺🇲 adi|0102 - US_19
       - adi|0102 - 8
-      - adi|0102 - 欧洲 5
-      - adi|0102 - 9
-      - adi|0102 - 欧洲 6
-      - 🇺🇲 adi|0102 - 美国 18
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 6
-      - 🇺🇲 adi|0102 - 美国 16 2
-      - 🇬🇧 adi|1228 英国
-      - 🇲🇾 adi|1228 马来西亚  31
-      - 🇺🇲 adi|0102 - US_17
-      - adi|0102 - V05-
-      - 🇭🇰 adi|0102 - 中国香港 4
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 4
-      - 🇺🇲 adi|0102 - 美国 19
-      - adi|0102 - 欧洲 7
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 3
-      - adi|0102 - 欧洲 8
-      - adi|0102 - 欧洲 9
-      - adi|0102 - 欧洲 10
-      - adi|0102 - 欧洲 11
-      - adi|0102 - V38-
-      - adi|1228
-      - adi|1228 2
-      - 🇺🇲 adi|0102 - 美国 20
-      - adi|0102 - 欧洲 12
-      - adi|0102 - 10
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 5
-      - adi|0102 - 欧洲 13
-      - 🇺🇲 adi|1228 美国  17
-      - 🇺🇲 adi|1228 美国
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 6
-      - 🇺🇲 adi|0102 - 美国 21
-      - 🇺🇲 adi|0102 - 美国 22
-      - adi|0102 - 11
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 7
-      - 🇺🇲 adi|0102 - 美国 23
-      - adi|0102 - V39-
-      - adi|0102 - 欧洲 14
-      - 🇭🇰 adi|0102 - 中国香港 5
-      - adi|0102 - V20-
-      - adi|0102 - 12
-      - adi|0102 - 13
-      - adi|0102 - 01
-      - adi|0102 - 9 2
-      - adi|0102 - 14
-      - 🇺🇲 adi|0102 - 美国 24
-      - adi|0102 - 欧洲 15
-      - 🇬🇧 adi|1228 英国  32
-      - adi|0102 - 比利时
-      - 🇺🇲 adi|0102 - 美国 2 2
-      - adi|0102 - 欧洲 16
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 4
-      - adi|0102 - V15-
-      - 🇫🇷 adi|0102 - 法国
-      - 🇺🇲 adi|0102 - 美国 9 2
-      - 🇺🇲 adi|1228 美国1
-      - adi|0102 - 15
-      - 🇺🇲 adi|0102 - 美国 1
-      - adi|0102 - 欧洲 17
-      - 🇭🇰 adi|0102 - 中国香港 6
-      - 🇺🇲 adi|0102 - 美国 25
-      - 🇭🇰 adi|0102 - Hongkong
-      - 🇨🇦 adi|0102 - 加拿大
-      - 🇺🇲 adi|1228 北美地区  19
-      - 🇺🇲 adi|1228 北美地区  14
-      - adi|0102 - 欧洲 18
-      - adi|1222 挪威
-      - adi|0102 - 安徽省移动 36
-      - 🇺🇲 adi|0102 - 洛杉矶5
-      - 🇷🇺 adi|0102 - 俄罗斯SS
-      - 🇷🇺 adi|0102 - 俄罗斯SS 2
-      - 🇷🇺 adi|0102 - 俄罗斯g5
-      - adi|1228 3
-      - 🇷🇺 adi|0102 - 俄罗斯SS 3
-      - 🇷🇺 adi|0102 - 俄罗斯g3
-      - adi|0102 - 挪威  13
-      - 🇷🇺 adi|0102 - 俄罗斯g1
-      - adi|0102 - 葡萄牙(PT)Portugal/Lisbon
-      - 🇨🇳 adi|0102 - 上海 31
-      - adi|0102 - 欧洲 19
-      - 🇭🇰 adi|0102 - HK
-      - adi|0102 - 欧洲 20
-      - adi|0102 - V14-
-      - adi|0102 - V13-
-      - 🇮🇳 adi|0102 - 印度(IN)India/Mumbai
-      - 🇺🇲 adi|0102 - 美国 26
-      - adi|0102 - 欧洲 21
-      - 🇨🇦 adi|0102 - 加拿大 2
-      - adi|0102 - V34-
-      - 🇺🇲 adi|0102 - 美国 3 2
-      - 🇺🇲 adi|0102 - 美国 25 2
-      - 🇸🇬 adi|0102 - 新加坡OVH 23
-      - 🇨🇳 adi|0102 - TW
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 5
-      - 🇺🇲 adi|0102 - 美国 27
-      - 🇺🇲 adi|0102 - 洛杉矶SS
-      - 🇭🇰 adi|0102 - 香港Zenlayer 35
-      - 🇮🇳 adi|0102 - 印度(IN)India/Mumbai 2
-      - 🇺🇲 adi|0102 - 美国  32
-      - 🇺🇲 adi|0102 - 美国  28
-      - 🇭🇰 adi|0102 - 中国香港 7
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇨🇳 adi|0102 - CN_1
-      - adi|0102 -
-      - adi|0102 - 2
-      - 🇨🇳 adi|0102 - 上海 2
-      - adi|0102 - 3
-      - 🇭🇰 adi|0102 - 中国香港
-      - 🇭🇰 adi|0102 - 中国香港 2
-      - 🇦🇺 adi|0102 - 澳大利亚
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara
-      - 🇦🇺 adi|0102 - 澳大利亚 2
-      - 🇦🇺 adi|0102 - 澳大利亚 3
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 2
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco
-      - 🇳🇱 adi|0102 - 荷兰  12
-      - adi|0102 - 欧洲
-      - 🇺🇲 adi|0102 - 美国
-      - 🇺🇲 adi|0102 - 美国 2
-      - 🇺🇲 adi|0102 - 美国 3
-      - 🇺🇲 adi|0102 - 美国 4
-      - 🇺🇲 adi|0102 - 美国 5
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 3
-      - 🇺🇲 adi|0102 - 美国 6
-      - 🇺🇲 adi|0102 - 美国 7
-      - 🇺🇲 adi|0102 - 美国(US)USA/Miami
-      - 🇺🇲 adi|0102 - 美国 8
-      - 🇺🇲 adi|0102 - 美国 9
-      - 🇺🇲 adi|0102 - 美国 30
-      - 🇺🇲 adi|0102 - 美国 10
-      - 🇺🇲 adi|0102 - 美国 11
-      - 🇺🇲 adi|0102 - 美国 12
-      - 🇺🇲 adi|0102 - 美国 29
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 4
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle
-      - adi|0102 - 欧洲 2
-      - 🇺🇲 adi|0102 - 美国 13
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 5
+      - adi|0111 - 0.05 MB/s
+      - adi|0111 - 0.21 MB/s
+      - adi|0111 - 0.26 MB/s
+      - adi|0111 - 0.27 MB/s
+      - adi|0111 - 0.28 MB/s
+      - 🇷🇺 adi|0111 - 俄罗斯T02
+      - 🇷🇺 adi|0111 - 俄罗斯T06
+      - 🇷🇺 adi|0111 - 俄罗斯T08
+      - 🇷🇺 adi|0111 - 俄罗斯T12
+      - 🇰🇷 adi|0111 - 韩国T05
+      - 🇰🇷 adi|0111 - 韩国T11
+      - 🇳🇱 adi|0111 - 荷兰-3.63MB/s
+      - 🇨🇦 adi|0111 - 加拿大T01
+      - 🇨🇦 adi|0111 - 加拿大T03
+      - 🇨🇦 adi|0111 - 加拿大T04
+      - 🇨🇦 adi|0111 - 加拿大T07
+      - 🇨🇦 adi|0111 - 加拿大T09
+      - 🇨🇦 adi|0111 - 加拿大T10
+      - 🇦🇺 adi|0111 - _AU_51
+      - 🇫🇷 adi|0111 - _FR_38
+      - 🇫🇷 adi|0111 - _FR_39
+      - 🇫🇷 adi|0111 - _FR_40
+      - 🇫🇷 adi|0111 - _FR_45
+      - 🇸🇪 adi|0111 - _SE_37
+      - 🇺🇲 adi|0111 - _US_50
+      - adi|0111 - 03
+      - adi|0111 - 04
+      - adi|0111 - 05
+      - adi|0111 - 07
+      - adi|0111 - 08
+      - adi|0111 - 09
+      - adi|0111 - 10
+      - adi|0111 - 11
+      - adi|0111 - 12
+      - adi|0111 - 13
+      - adi|0111 - 14
+      - adi|0111 - 17
+      - 🇷🇺 adi|0111 - 俄罗斯SS
+      - 🇷🇺 adi|0111 - 俄罗斯SS 2
+      - 🇷🇺 adi|0111 - 俄罗斯SS 3
+      - 🇷🇺 adi|0111 - 俄罗斯SS 4
+      - adi|0111 - 卢森堡-3.65MB/s
+      - 🇺🇲 adi|0111 - 洛杉矶5
+      - 🇺🇲 adi|0111 - 洛杉矶6 SS
+      - 🇺🇲 adi|0111 - 洛杉矶SS
+      - 🇺🇲 adi|0111 - 美国-1.48MB/s
+      - 🇺🇲 adi|0111 - 美国-4.68MB/s
+      - 🇺🇲 adi|0111 - 美国-5.59MB/s
+      - 🇺🇲 adi|0111 - 美国SS
+      - adi|0111 - 挪威-1.19MB/s
+      - adi|0111 - 挪威-621.8KB/s
+      - adi|0102+-+13
+      - 🇦🇺 adi|0102+-+澳大利亚
+      - 🇦🇺 adi|0102+-+澳大利亚+2
+      - 🇦🇺 adi|0102+-+澳大利亚+3
+      - 🇷🇺 adi|0102+-+俄罗斯SS
+      - 🇷🇺 adi|0102+-+俄罗斯SS+2
+      - 🇷🇺 adi|0102+-+俄罗斯SS+3
+      - 🇫🇷 adi|0102+-+法国
+      - 🇺🇲 adi|0102+-+洛杉矶5
+      - 🇺🇲 adi|0102+-+美国+11
+      - 🇺🇲 adi|0102+-+美国+12
+      - 🇺🇲 adi|0102+-+美国+2
+      - 🇺🇲 adi|0102+-+美国+25
+      - 🇺🇲 adi|0102+-+美国+6
+      - 🇺🇲 adi|0102+-+美国(US)USA/Santa+Clara
+      - 🇺🇲 adi|0102+-+美国(US)USA/Santa+Clara+2
+      - 🇺🇲 adi|0102+-+美国(US)USA/Santa+Clara+5
+      - adi|0102+-+挪威++13
+      - adi|0102+-+欧洲+10
+      - adi|0102+-+欧洲+11
+      - adi|0102+-+欧洲+13
+      - adi|0102+-+欧洲+14
+      - adi|0102+-+欧洲+15
+      - adi|0102+-+欧洲+16
+      - adi|0102+-+欧洲+18
+      - adi|0102+-+欧洲+2
+      - adi|0102+-+欧洲+3
+      - adi|0102+-+欧洲+4
+      - adi|0102+-+欧洲+6
+      - adi|0102+-+欧洲+7
+      - adi|0102+-+欧洲+8
+      - adi|1228
+      - adi|1228+3
+      - 🇺🇲 adi|1228+北美地区++14
+      - 🇺🇲 adi|1228+北美地区++19
+      - 🇺🇲 adi|1228+美国
+      - 🇺🇲 adi|1228+美国++27
+      - 🇬🇧 adi|1228+英国++32
+      - adi|0111 - V01-
+      - adi|0111 - V02-
+      - adi|0111 - V03-
+      - adi|0111 - V04
+      - adi|0111 - V08-
+      - adi|0111 - V09-
+      - adi|0111 - V10-
+      - adi|0111 - V11-
+      - adi|0111 - V12-
+      - adi|0111 - V17-
+      - adi|0111 - V21-
+      - adi|0111 - V22-
+      - adi|0111 - V23-
+      - adi|0111 - V24-
+      - adi|0111 - V25-
+      - adi|0111 - V30-
+      - adi|0111 - V35-
+      - adi|0111 - V36-
+      - adi|0111 - V37-
+      - adi|0111 - V38-
+      - adi|0111 - V39-
+      - adi|0111 - V40-
+      - adi|0111 - V43-
+      - adi|0111 - V44-
+      - adi|0111 - V48-
+      - adi|0111 - V49-
+      - adi|0111 - V50-
+      - 🇷🇺 adi|0111 - 俄罗斯g1
+      - 🇷🇺 adi|0111 - 俄罗斯g2
+      - 🇷🇺 adi|0111 - 俄罗斯V03
+      - 🇷🇺 adi|0111 - 俄罗斯V04
+      - 🇷🇺 adi|0111 - 俄罗斯V05
+      - 🇷🇺 adi|0111 - 俄罗斯V06
+      - 🇷🇺 adi|0111 - 俄罗斯V09
+      - 🇷🇺 adi|0111 - 俄罗斯V13
+      - 🇷🇺 adi|0111 - 俄罗斯V14
+      - 🇷🇺 adi|0111 - 俄罗斯V15
+      - 🇷🇺 adi|0111 - 俄罗斯V16
+      - 🇷🇺 adi|0111 - 俄罗斯V19
+      - 🇰🇷 adi|0111 - 韩国V10
+      - 🇰🇷 adi|0111 - 韩国V20
+      - 🇺🇲 adi|0111 - 洛杉矶g1
+      - 🇺🇲 adi|0111 - 美国V01
+      - 🇺🇲 adi|0111 - 美国V08
+      - 🇺🇲 adi|0111 - 美国V11
+      - 🇺🇲 adi|0111 - 美国V18
+      - 🇸🇬 adi|0111 - 新加坡V07
+      - 🇸🇬 adi|0111 - 新加坡V17
       - adi|0102 - 4
-      - 🇺🇲 adi|0102 - 美国 14
-      - 🇺🇲 adi|0102 - 美国 15
-      - 🇺🇲 adi|0102 - US_16
-      - 🇺🇲 adi|0102 - 美国 16
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 2
-      - adi|0102 - 欧洲 3
       - adi|0102 - 5
       - adi|0102 - 6
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 2
       - adi|0102 - 7
-      - 🇺🇲 adi|1228 美国  27
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 3
-      - adi|0102 - 欧洲 4
-      - 🇭🇰 adi|0102 - 中国香港 3
-      - 🇺🇲 adi|0102 - 美国 17
-      - 🇺🇲 adi|0102 - US_19
       - adi|0102 - 8
-      - adi|0102 - 欧洲 5
-      - adi|0102 - 9
-      - adi|0102 - 欧洲 6
-      - 🇺🇲 adi|0102 - 美国 18
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 6
-      - 🇺🇲 adi|0102 - 美国 16 2
-      - 🇬🇧 adi|1228 英国
-      - 🇲🇾 adi|1228 马来西亚  31
-      - 🇺🇲 adi|0102 - US_17
-      - adi|0102 - V05-
-      - 🇭🇰 adi|0102 - 中国香港 4
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 4
-      - 🇺🇲 adi|0102 - 美国 19
-      - adi|0102 - 欧洲 7
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 3
-      - adi|0102 - 欧洲 8
-      - adi|0102 - 欧洲 9
-      - adi|0102 - 欧洲 10
-      - adi|0102 - 欧洲 11
-      - adi|0102 - V38-
-      - adi|1228
-      - adi|1228 2
-      - 🇺🇲 adi|0102 - 美国 20
-      - adi|0102 - 欧洲 12
-      - adi|0102 - 10
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 5
-      - adi|0102 - 欧洲 13
-      - 🇺🇲 adi|1228 美国  17
-      - 🇺🇲 adi|1228 美国
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 6
-      - 🇺🇲 adi|0102 - 美国 21
-      - 🇺🇲 adi|0102 - 美国 22
-      - adi|0102 - 11
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 7
-      - 🇺🇲 adi|0102 - 美国 23
-      - adi|0102 - V39-
-      - adi|0102 - 欧洲 14
-      - 🇭🇰 adi|0102 - 中国香港 5
-      - adi|0102 - V20-
-      - adi|0102 - 12
-      - adi|0102 - 13
-      - adi|0102 - 01
-      - adi|0102 - 9 2
-      - adi|0102 - 14
-      - 🇺🇲 adi|0102 - 美国 24
-      - adi|0102 - 欧洲 15
-      - 🇬🇧 adi|1228 英国  32
-      - adi|0102 - 比利时
-      - 🇺🇲 adi|0102 - 美国 2 2
-      - adi|0102 - 欧洲 16
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 4
-      - adi|0102 - V15-
-      - 🇫🇷 adi|0102 - 法国
-      - 🇺🇲 adi|0102 - 美国 9 2
-      - 🇺🇲 adi|1228 美国1
-      - adi|0102 - 15
-      - 🇺🇲 adi|0102 - 美国 1
-      - adi|0102 - 欧洲 17
-      - 🇭🇰 adi|0102 - 中国香港 6
-      - 🇺🇲 adi|0102 - 美国 25
-      - 🇭🇰 adi|0102 - Hongkong
-      - 🇨🇦 adi|0102 - 加拿大
-      - 🇺🇲 adi|1228 北美地区  19
-      - 🇺🇲 adi|1228 北美地区  14
-      - adi|0102 - 欧洲 18
-      - adi|1222 挪威
-      - adi|0102 - 安徽省移动 36
-      - 🇺🇲 adi|0102 - 洛杉矶5
-      - 🇷🇺 adi|0102 - 俄罗斯SS
-      - 🇷🇺 adi|0102 - 俄罗斯SS 2
-      - 🇷🇺 adi|0102 - 俄罗斯g5
-      - adi|1228 3
-      - 🇷🇺 adi|0102 - 俄罗斯SS 3
-      - 🇷🇺 adi|0102 - 俄罗斯g3
-      - adi|0102 - 挪威  13
-      - 🇷🇺 adi|0102 - 俄罗斯g1
-      - adi|0102 - 葡萄牙(PT)Portugal/Lisbon
-      - 🇨🇳 adi|0102 - 上海 31
-      - adi|0102 - 欧洲 19
-      - 🇭🇰 adi|0102 - HK
-      - adi|0102 - 欧洲 20
-      - adi|0102 - V14-
-      - adi|0102 - V13-
-      - 🇮🇳 adi|0102 - 印度(IN)India/Mumbai
-      - 🇺🇲 adi|0102 - 美国 26
-      - adi|0102 - 欧洲 21
-      - 🇨🇦 adi|0102 - 加拿大 2
-      - adi|0102 - V34-
-      - 🇺🇲 adi|0102 - 美国 3 2
-      - 🇺🇲 adi|0102 - 美国 25 2
-      - 🇸🇬 adi|0102 - 新加坡OVH 23
-      - 🇨🇳 adi|0102 - TW
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 5
-      - 🇺🇲 adi|0102 - 美国 27
-      - 🇺🇲 adi|0102 - 洛杉矶SS
-      - 🇭🇰 adi|0102 - 香港Zenlayer 35
-      - 🇮🇳 adi|0102 - 印度(IN)India/Mumbai 2
-      - 🇺🇲 adi|0102 - 美国  32
-      - 🇺🇲 adi|0102 - 美国  28
-      - 🇭🇰 adi|0102 - 中国香港 7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -818,160 +758,148 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇨🇳 adi|0102 - CN_1
-      - adi|0102 -
-      - adi|0102 - 2
-      - 🇨🇳 adi|0102 - 上海 2
-      - adi|0102 - 3
-      - 🇭🇰 adi|0102 - 中国香港
-      - 🇭🇰 adi|0102 - 中国香港 2
-      - 🇦🇺 adi|0102 - 澳大利亚
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara
-      - 🇦🇺 adi|0102 - 澳大利亚 2
-      - 🇦🇺 adi|0102 - 澳大利亚 3
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 2
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco
-      - 🇳🇱 adi|0102 - 荷兰  12
-      - adi|0102 - 欧洲
-      - 🇺🇲 adi|0102 - 美国
-      - 🇺🇲 adi|0102 - 美国 2
-      - 🇺🇲 adi|0102 - 美国 3
-      - 🇺🇲 adi|0102 - 美国 4
-      - 🇺🇲 adi|0102 - 美国 5
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 3
-      - 🇺🇲 adi|0102 - 美国 6
-      - 🇺🇲 adi|0102 - 美国 7
-      - 🇺🇲 adi|0102 - 美国(US)USA/Miami
-      - 🇺🇲 adi|0102 - 美国 8
-      - 🇺🇲 adi|0102 - 美国 9
-      - 🇺🇲 adi|0102 - 美国 30
-      - 🇺🇲 adi|0102 - 美国 10
-      - 🇺🇲 adi|0102 - 美国 11
-      - 🇺🇲 adi|0102 - 美国 12
-      - 🇺🇲 adi|0102 - 美国 29
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 4
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle
-      - adi|0102 - 欧洲 2
-      - 🇺🇲 adi|0102 - 美国 13
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 5
+      - adi|0111 - 0.05 MB/s
+      - adi|0111 - 0.21 MB/s
+      - adi|0111 - 0.26 MB/s
+      - adi|0111 - 0.27 MB/s
+      - adi|0111 - 0.28 MB/s
+      - 🇷🇺 adi|0111 - 俄罗斯T02
+      - 🇷🇺 adi|0111 - 俄罗斯T06
+      - 🇷🇺 adi|0111 - 俄罗斯T08
+      - 🇷🇺 adi|0111 - 俄罗斯T12
+      - 🇰🇷 adi|0111 - 韩国T05
+      - 🇰🇷 adi|0111 - 韩国T11
+      - 🇳🇱 adi|0111 - 荷兰-3.63MB/s
+      - 🇨🇦 adi|0111 - 加拿大T01
+      - 🇨🇦 adi|0111 - 加拿大T03
+      - 🇨🇦 adi|0111 - 加拿大T04
+      - 🇨🇦 adi|0111 - 加拿大T07
+      - 🇨🇦 adi|0111 - 加拿大T09
+      - 🇨🇦 adi|0111 - 加拿大T10
+      - 🇦🇺 adi|0111 - _AU_51
+      - 🇫🇷 adi|0111 - _FR_38
+      - 🇫🇷 adi|0111 - _FR_39
+      - 🇫🇷 adi|0111 - _FR_40
+      - 🇫🇷 adi|0111 - _FR_45
+      - 🇸🇪 adi|0111 - _SE_37
+      - 🇺🇲 adi|0111 - _US_50
+      - adi|0111 - 03
+      - adi|0111 - 04
+      - adi|0111 - 05
+      - adi|0111 - 07
+      - adi|0111 - 08
+      - adi|0111 - 09
+      - adi|0111 - 10
+      - adi|0111 - 11
+      - adi|0111 - 12
+      - adi|0111 - 13
+      - adi|0111 - 14
+      - adi|0111 - 17
+      - 🇷🇺 adi|0111 - 俄罗斯SS
+      - 🇷🇺 adi|0111 - 俄罗斯SS 2
+      - 🇷🇺 adi|0111 - 俄罗斯SS 3
+      - 🇷🇺 adi|0111 - 俄罗斯SS 4
+      - adi|0111 - 卢森堡-3.65MB/s
+      - 🇺🇲 adi|0111 - 洛杉矶5
+      - 🇺🇲 adi|0111 - 洛杉矶6 SS
+      - 🇺🇲 adi|0111 - 洛杉矶SS
+      - 🇺🇲 adi|0111 - 美国-1.48MB/s
+      - 🇺🇲 adi|0111 - 美国-4.68MB/s
+      - 🇺🇲 adi|0111 - 美国-5.59MB/s
+      - 🇺🇲 adi|0111 - 美国SS
+      - adi|0111 - 挪威-1.19MB/s
+      - adi|0111 - 挪威-621.8KB/s
+      - adi|0102+-+13
+      - 🇦🇺 adi|0102+-+澳大利亚
+      - 🇦🇺 adi|0102+-+澳大利亚+2
+      - 🇦🇺 adi|0102+-+澳大利亚+3
+      - 🇷🇺 adi|0102+-+俄罗斯SS
+      - 🇷🇺 adi|0102+-+俄罗斯SS+2
+      - 🇷🇺 adi|0102+-+俄罗斯SS+3
+      - 🇫🇷 adi|0102+-+法国
+      - 🇺🇲 adi|0102+-+洛杉矶5
+      - 🇺🇲 adi|0102+-+美国+11
+      - 🇺🇲 adi|0102+-+美国+12
+      - 🇺🇲 adi|0102+-+美国+2
+      - 🇺🇲 adi|0102+-+美国+25
+      - 🇺🇲 adi|0102+-+美国+6
+      - 🇺🇲 adi|0102+-+美国(US)USA/Santa+Clara
+      - 🇺🇲 adi|0102+-+美国(US)USA/Santa+Clara+2
+      - 🇺🇲 adi|0102+-+美国(US)USA/Santa+Clara+5
+      - adi|0102+-+挪威++13
+      - adi|0102+-+欧洲+10
+      - adi|0102+-+欧洲+11
+      - adi|0102+-+欧洲+13
+      - adi|0102+-+欧洲+14
+      - adi|0102+-+欧洲+15
+      - adi|0102+-+欧洲+16
+      - adi|0102+-+欧洲+18
+      - adi|0102+-+欧洲+2
+      - adi|0102+-+欧洲+3
+      - adi|0102+-+欧洲+4
+      - adi|0102+-+欧洲+6
+      - adi|0102+-+欧洲+7
+      - adi|0102+-+欧洲+8
+      - adi|1228
+      - adi|1228+3
+      - 🇺🇲 adi|1228+北美地区++14
+      - 🇺🇲 adi|1228+北美地区++19
+      - 🇺🇲 adi|1228+美国
+      - 🇺🇲 adi|1228+美国++27
+      - 🇬🇧 adi|1228+英国++32
+      - adi|0111 - V01-
+      - adi|0111 - V02-
+      - adi|0111 - V03-
+      - adi|0111 - V04
+      - adi|0111 - V08-
+      - adi|0111 - V09-
+      - adi|0111 - V10-
+      - adi|0111 - V11-
+      - adi|0111 - V12-
+      - adi|0111 - V17-
+      - adi|0111 - V21-
+      - adi|0111 - V22-
+      - adi|0111 - V23-
+      - adi|0111 - V24-
+      - adi|0111 - V25-
+      - adi|0111 - V30-
+      - adi|0111 - V35-
+      - adi|0111 - V36-
+      - adi|0111 - V37-
+      - adi|0111 - V38-
+      - adi|0111 - V39-
+      - adi|0111 - V40-
+      - adi|0111 - V43-
+      - adi|0111 - V44-
+      - adi|0111 - V48-
+      - adi|0111 - V49-
+      - adi|0111 - V50-
+      - 🇷🇺 adi|0111 - 俄罗斯g1
+      - 🇷🇺 adi|0111 - 俄罗斯g2
+      - 🇷🇺 adi|0111 - 俄罗斯V03
+      - 🇷🇺 adi|0111 - 俄罗斯V04
+      - 🇷🇺 adi|0111 - 俄罗斯V05
+      - 🇷🇺 adi|0111 - 俄罗斯V06
+      - 🇷🇺 adi|0111 - 俄罗斯V09
+      - 🇷🇺 adi|0111 - 俄罗斯V13
+      - 🇷🇺 adi|0111 - 俄罗斯V14
+      - 🇷🇺 adi|0111 - 俄罗斯V15
+      - 🇷🇺 adi|0111 - 俄罗斯V16
+      - 🇷🇺 adi|0111 - 俄罗斯V19
+      - 🇰🇷 adi|0111 - 韩国V10
+      - 🇰🇷 adi|0111 - 韩国V20
+      - 🇺🇲 adi|0111 - 洛杉矶g1
+      - 🇺🇲 adi|0111 - 美国V01
+      - 🇺🇲 adi|0111 - 美国V08
+      - 🇺🇲 adi|0111 - 美国V11
+      - 🇺🇲 adi|0111 - 美国V18
+      - 🇸🇬 adi|0111 - 新加坡V07
+      - 🇸🇬 adi|0111 - 新加坡V17
       - adi|0102 - 4
-      - 🇺🇲 adi|0102 - 美国 14
-      - 🇺🇲 adi|0102 - 美国 15
-      - 🇺🇲 adi|0102 - US_16
-      - 🇺🇲 adi|0102 - 美国 16
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 2
-      - adi|0102 - 欧洲 3
       - adi|0102 - 5
       - adi|0102 - 6
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 2
       - adi|0102 - 7
-      - 🇺🇲 adi|1228 美国  27
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 3
-      - adi|0102 - 欧洲 4
-      - 🇭🇰 adi|0102 - 中国香港 3
-      - 🇺🇲 adi|0102 - 美国 17
-      - 🇺🇲 adi|0102 - US_19
       - adi|0102 - 8
-      - adi|0102 - 欧洲 5
-      - adi|0102 - 9
-      - adi|0102 - 欧洲 6
-      - 🇺🇲 adi|0102 - 美国 18
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 6
-      - 🇺🇲 adi|0102 - 美国 16 2
-      - 🇬🇧 adi|1228 英国
-      - 🇲🇾 adi|1228 马来西亚  31
-      - 🇺🇲 adi|0102 - US_17
-      - adi|0102 - V05-
-      - 🇭🇰 adi|0102 - 中国香港 4
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 4
-      - 🇺🇲 adi|0102 - 美国 19
-      - adi|0102 - 欧洲 7
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 3
-      - adi|0102 - 欧洲 8
-      - adi|0102 - 欧洲 9
-      - adi|0102 - 欧洲 10
-      - adi|0102 - 欧洲 11
-      - adi|0102 - V38-
-      - adi|1228
-      - adi|1228 2
-      - 🇺🇲 adi|0102 - 美国 20
-      - adi|0102 - 欧洲 12
-      - adi|0102 - 10
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 5
-      - adi|0102 - 欧洲 13
-      - 🇺🇲 adi|1228 美国  17
-      - 🇺🇲 adi|1228 美国
-      - 🇺🇲 adi|0102 - 美国(US)USA/Seattle 6
-      - 🇺🇲 adi|0102 - 美国 21
-      - 🇺🇲 adi|0102 - 美国 22
-      - adi|0102 - 11
-      - 🇺🇲 adi|0102 - 美国(US)USA/Santa Clara 7
-      - 🇺🇲 adi|0102 - 美国 23
-      - adi|0102 - V39-
-      - adi|0102 - 欧洲 14
-      - 🇭🇰 adi|0102 - 中国香港 5
-      - adi|0102 - V20-
-      - adi|0102 - 12
-      - adi|0102 - 13
-      - adi|0102 - 01
-      - adi|0102 - 9 2
-      - adi|0102 - 14
-      - 🇺🇲 adi|0102 - 美国 24
-      - adi|0102 - 欧洲 15
-      - 🇬🇧 adi|1228 英国  32
-      - adi|0102 - 比利时
-      - 🇺🇲 adi|0102 - 美国 2 2
-      - adi|0102 - 欧洲 16
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 4
-      - adi|0102 - V15-
-      - 🇫🇷 adi|0102 - 法国
-      - 🇺🇲 adi|0102 - 美国 9 2
-      - 🇺🇲 adi|1228 美国1
-      - adi|0102 - 15
-      - 🇺🇲 adi|0102 - 美国 1
-      - adi|0102 - 欧洲 17
-      - 🇭🇰 adi|0102 - 中国香港 6
-      - 🇺🇲 adi|0102 - 美国 25
-      - 🇭🇰 adi|0102 - Hongkong
-      - 🇨🇦 adi|0102 - 加拿大
-      - 🇺🇲 adi|1228 北美地区  19
-      - 🇺🇲 adi|1228 北美地区  14
-      - adi|0102 - 欧洲 18
-      - adi|1222 挪威
-      - adi|0102 - 安徽省移动 36
-      - 🇺🇲 adi|0102 - 洛杉矶5
-      - 🇷🇺 adi|0102 - 俄罗斯SS
-      - 🇷🇺 adi|0102 - 俄罗斯SS 2
-      - 🇷🇺 adi|0102 - 俄罗斯g5
-      - adi|1228 3
-      - 🇷🇺 adi|0102 - 俄罗斯SS 3
-      - 🇷🇺 adi|0102 - 俄罗斯g3
-      - adi|0102 - 挪威  13
-      - 🇷🇺 adi|0102 - 俄罗斯g1
-      - adi|0102 - 葡萄牙(PT)Portugal/Lisbon
-      - 🇨🇳 adi|0102 - 上海 31
-      - adi|0102 - 欧洲 19
-      - 🇭🇰 adi|0102 - HK
-      - adi|0102 - 欧洲 20
-      - adi|0102 - V14-
-      - adi|0102 - V13-
-      - 🇮🇳 adi|0102 - 印度(IN)India/Mumbai
-      - 🇺🇲 adi|0102 - 美国 26
-      - adi|0102 - 欧洲 21
-      - 🇨🇦 adi|0102 - 加拿大 2
-      - adi|0102 - V34-
-      - 🇺🇲 adi|0102 - 美国 3 2
-      - 🇺🇲 adi|0102 - 美国 25 2
-      - 🇸🇬 adi|0102 - 新加坡OVH 23
-      - 🇨🇳 adi|0102 - TW
-      - 🇺🇲 adi|0102 - 美国(US)USA/San Francisco 5
-      - 🇺🇲 adi|0102 - 美国 27
-      - 🇺🇲 adi|0102 - 洛杉矶SS
-      - 🇭🇰 adi|0102 - 香港Zenlayer 35
-      - 🇮🇳 adi|0102 - 印度(IN)India/Mumbai 2
-      - 🇺🇲 adi|0102 - 美国  32
-      - 🇺🇲 adi|0102 - 美国  28
-      - 🇭🇰 adi|0102 - 中国香港 7
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
