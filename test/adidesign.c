@@ -81,7 +81,6 @@ proxies:
   - {name: 🇺🇸 adi|0122 - 美国 13, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 🇬🇧 adi|0122 - 英国 2, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 🇨🇦 adi|0122 - 加拿大 17, server: 198.57.27.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0122 - 美国 14, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: 208.98.48.2}, udp: true}
   - {name: 🇨🇦 adi|0122 - 加拿大T03, server: t3.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t3.ssrsub.com, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 adi|0122 - 日本 2, server: 85.208.110.2, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: adi|0122 - 1.48MB/s, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}, udp: true}
@@ -180,7 +179,6 @@ proxy-groups:
       - 🇺🇸 adi|0122 - 美国 13
       - 🇬🇧 adi|0122 - 英国 2
       - 🇨🇦 adi|0122 - 加拿大 17
-      - 🇺🇸 adi|0122 - 美国 14
       - 🇨🇦 adi|0122 - 加拿大T03
       - 🇯🇵 adi|0122 - 日本 2
       - adi|0122 - 1.48MB/s
@@ -277,7 +275,6 @@ proxy-groups:
       - 🇺🇸 adi|0122 - 美国 13
       - 🇬🇧 adi|0122 - 英国 2
       - 🇨🇦 adi|0122 - 加拿大 17
-      - 🇺🇸 adi|0122 - 美国 14
       - 🇨🇦 adi|0122 - 加拿大T03
       - 🇯🇵 adi|0122 - 日本 2
       - adi|0122 - 1.48MB/s
@@ -373,7 +370,6 @@ proxy-groups:
       - 🇺🇸 adi|0122 - 美国 13
       - 🇬🇧 adi|0122 - 英国 2
       - 🇨🇦 adi|0122 - 加拿大 17
-      - 🇺🇸 adi|0122 - 美国 14
       - 🇨🇦 adi|0122 - 加拿大T03
       - 🇯🇵 adi|0122 - 日本 2
       - adi|0122 - 1.48MB/s
@@ -469,7 +465,6 @@ proxy-groups:
       - 🇺🇸 adi|0122 - 美国 13
       - 🇬🇧 adi|0122 - 英国 2
       - 🇨🇦 adi|0122 - 加拿大 17
-      - 🇺🇸 adi|0122 - 美国 14
       - 🇨🇦 adi|0122 - 加拿大T03
       - 🇯🇵 adi|0122 - 日本 2
       - adi|0122 - 1.48MB/s
@@ -579,7 +574,6 @@ proxy-groups:
       - 🇺🇸 adi|0122 - 美国 13
       - 🇬🇧 adi|0122 - 英国 2
       - 🇨🇦 adi|0122 - 加拿大 17
-      - 🇺🇸 adi|0122 - 美国 14
       - 🇨🇦 adi|0122 - 加拿大T03
       - 🇯🇵 adi|0122 - 日本 2
       - adi|0122 - 1.48MB/s
