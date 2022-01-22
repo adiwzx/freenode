@@ -88,6 +88,14 @@ proxies:
   - {name: adi|0122 - V05, server: 42.157.8.162, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
   - {name: adi|0122 - 11, server: 42.157.8.162, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
   - {name: 🇷🇺 adi|0122 - 俄罗斯13, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 51273235-0995-455e-96e4-83b1811b4cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
+  - {name: 卢森堡 mojie.pw 赞助, server: 107.189.12.115, port: 5515, type: vmess, uuid: d41eb3c0-fa9e-3ce3-92b2-39e5346548d8, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 107.189.12.115}, udp: true}
+  - {name: 🇨🇳 卢森堡|0x|01|BT|上海移动, server: shcms.ddnnss.xyz, port: 61990, type: vmess, uuid: a264fb64-26a1-4af3-97bb-a343250532bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: buyvm.lu.tgproxy.wtf}, udp: true}
+  - {name: 🇭🇰 香港|06|1M|80端口, server: hk.aliyun.tgproxy.wtf, port: 80, type: vmess, uuid: a264fb64-26a1-4af3-97bb-a343250532bc, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /theuploadapi, ws-headers: {Host: hk.aliyun.tgproxy.wtf}, udp: true}
+  - {name: 🇺🇸 美国|主力|流解|拉斯维加斯, server: us.lv.buyvm.tgproxy.wtf, port: 21888, type: vmess, uuid: a264fb64-26a1-4af3-97bb-a343250532bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: us.lv.buyvm.tgproxy.wtf}, udp: true}
+  - {name: 🇺🇸 美国|主|03|AWSUS|0.1x|流解, server: aws.us.tgproxy.wtf, port: 21888, type: vmess, uuid: a264fb64-26a1-4af3-97bb-a343250532bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: aws.us.tgproxy.wtf}, udp: true}
+  - {name: 🇺🇸 美国|04|流解, server: inap.us.tgproxy.wtf, port: 8888, type: vmess, uuid: a264fb64-26a1-4af3-97bb-a343250532bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: inap.us.tgproxy.wtf}, udp: true}
+  - {name: 🇫🇷 法国|02|OVH, server: ovh.fr.tgproxy.wtf, port: 8888, type: vmess, uuid: a264fb64-26a1-4af3-97bb-a343250532bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: ovh.fr.tgproxy.wtf}, udp: true}
+  - {name: 卢森堡|01|BT|0x, server: buyvm.lu.tgproxy.wtf, port: 443, type: vmess, uuid: a264fb64-26a1-4af3-97bb-a343250532bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: buyvm.lu.tgproxy.wtf}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -179,6 +187,14 @@ proxy-groups:
       - adi|0122 - V05
       - adi|0122 - 11
       - 🇷🇺 adi|0122 - 俄罗斯13
+      - 卢森堡 mojie.pw 赞助
+      - 🇨🇳 卢森堡|0x|01|BT|上海移动
+      - 🇭🇰 香港|06|1M|80端口
+      - 🇺🇸 美国|主力|流解|拉斯维加斯
+      - 🇺🇸 美国|主|03|AWSUS|0.1x|流解
+      - 🇺🇸 美国|04|流解
+      - 🇫🇷 法国|02|OVH
+      - 卢森堡|01|BT|0x
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -268,6 +284,14 @@ proxy-groups:
       - adi|0122 - V05
       - adi|0122 - 11
       - 🇷🇺 adi|0122 - 俄罗斯13
+      - 卢森堡 mojie.pw 赞助
+      - 🇨🇳 卢森堡|0x|01|BT|上海移动
+      - 🇭🇰 香港|06|1M|80端口
+      - 🇺🇸 美国|主力|流解|拉斯维加斯
+      - 🇺🇸 美国|主|03|AWSUS|0.1x|流解
+      - 🇺🇸 美国|04|流解
+      - 🇫🇷 法国|02|OVH
+      - 卢森堡|01|BT|0x
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -356,6 +380,14 @@ proxy-groups:
       - adi|0122 - V05
       - adi|0122 - 11
       - 🇷🇺 adi|0122 - 俄罗斯13
+      - 卢森堡 mojie.pw 赞助
+      - 🇨🇳 卢森堡|0x|01|BT|上海移动
+      - 🇭🇰 香港|06|1M|80端口
+      - 🇺🇸 美国|主力|流解|拉斯维加斯
+      - 🇺🇸 美国|主|03|AWSUS|0.1x|流解
+      - 🇺🇸 美国|04|流解
+      - 🇫🇷 法国|02|OVH
+      - 卢森堡|01|BT|0x
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -444,6 +476,14 @@ proxy-groups:
       - adi|0122 - V05
       - adi|0122 - 11
       - 🇷🇺 adi|0122 - 俄罗斯13
+      - 卢森堡 mojie.pw 赞助
+      - 🇨🇳 卢森堡|0x|01|BT|上海移动
+      - 🇭🇰 香港|06|1M|80端口
+      - 🇺🇸 美国|主力|流解|拉斯维加斯
+      - 🇺🇸 美国|主|03|AWSUS|0.1x|流解
+      - 🇺🇸 美国|04|流解
+      - 🇫🇷 法国|02|OVH
+      - 卢森堡|01|BT|0x
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -546,6 +586,14 @@ proxy-groups:
       - adi|0122 - V05
       - adi|0122 - 11
       - 🇷🇺 adi|0122 - 俄罗斯13
+      - 卢森堡 mojie.pw 赞助
+      - 🇨🇳 卢森堡|0x|01|BT|上海移动
+      - 🇭🇰 香港|06|1M|80端口
+      - 🇺🇸 美国|主力|流解|拉斯维加斯
+      - 🇺🇸 美国|主|03|AWSUS|0.1x|流解
+      - 🇺🇸 美国|04|流解
+      - 🇫🇷 法国|02|OVH
+      - 卢森堡|01|BT|0x
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
