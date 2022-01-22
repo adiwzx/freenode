@@ -3,70 +3,91 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: 127.0.0.1:9090
+external-controller: :9090
 proxies:
-  - {name: 🇺🇲 adi|0119+-+US_美国+62, server: 167.88.62.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇲 adi|0119+-+US_美国+197, server: 38.68.134.69, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 adi|0119+-+US_美国+100, server: 167.88.61.204, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇲 adi|0119+-+US_美国+204, server: 38.68.134.191, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇲 adi|0119+-+US_美国+36, server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 adi|0119+-+US_美国+130, server: 38.68.134.69, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 adi|0119+-+美国Cogent6, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: adi|0117+-+欧洲, server: 38.68.134.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 adi|0119+-+US_美国+91, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇲 adi|0119+-+US_美国+20, server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 adi|0119+-+美国, server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 adi|0119+-+US_美国+39, server: 167.88.62.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇲 adi|0119+-+US_美国+12, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇲 adi|0119+-+US_美国+87, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇲 adi|0119+-+美国-3.51MB/s, server: 38.75.136.45, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇲 adi|0119+-+美国-340.8KB/s, server: 38.68.135.19, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇲 adi|0119+-+US_美国+83, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 adi|0119+-+US_美国+55, server: 38.68.134.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: adi|0119 -, server: 1222ru.fans8.xyz, port: 80, type: vmess, uuid: 6c23fcf0-18e7-3cd0-a123-821fa514fb42, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 1222ru.fans8.xyz}}}
-  - {name: 🇺🇲 adi|0119+-+US_美国+84, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 adi|0119+-+CA_加拿大+21, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 adi|0119+-+US_美国+105, server: 167.88.62.68, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 adi|0119+-+US_美国+114, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 adi|0119+-+US_美国+140, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇲 adi|0119+-+US_美国+15, server: 169.197.143.157, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: 🇺🇲 adi|0119+-+US_美国+173, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇲 adi|0119+-+美国Cogent1, server: 38.75.136.102, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 adi|0119+-+US_美国+46, server: 142.202.48.78, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 adi|0119+-+CA_加拿大+18, server: 134.195.196.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 adi|0119+-+US_美国+18, server: 167.88.62.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 adi|0119+-+US_美国+35, server: 38.68.134.202, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 adi|0119+-+US_美国+142, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 adi|0119+-+CA_加拿大+51, server: 134.195.196.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 adi|0119+-+US_美国+147, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇲 adi|0119+-+US_美国+157, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇦 adi|0119+-+CA_加拿大+74, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 adi|0119+-+US_美国+120, server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇲 adi|0119+-+US_美国+10, server: 169.197.143.157, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇬🇧 adi|0119+-+GB_英国+9, server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 adi|0119+-+US_美国+11, server: 38.75.136.102, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: adi|0119+-+h2ye, server: 167.88.61.130, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 adi|0119+-+US_美国+152, server: 38.68.134.191, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 adi|0119+-+US_美国+145, server: 167.88.62.68, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: adi|0119+-+IT_57, server: 185.213.21.6, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 adi|0119+-+CA_加拿大+15, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 adi|0119+-+CA_加拿大+43, server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇯🇵 adi|0119+-+JP_日本, server: 85.208.108.106, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇮🇹 adi|0119+-+IT_意大利, server: 185.213.21.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 adi|0119+-+US_美国+149, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 adi|0119+-+US_美国+164, server: 38.68.134.69, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: adi|0119+-+h2ye 2, server: 134.195.196.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: adi|0117+-+欧洲 2, server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇲 adi|0119+-+US_美国+106, server: 142.202.48.78, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 adi|0119+-+加拿大-1.40MB/s, server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 adi|0119+-+CA_加拿大+49, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: adi|0119+-+2ye, server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇦 adi|0119+-+CA_加拿大+6, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇺🇲 adi|0119+-+US_美国+38, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 adi|0119+-+US_2, server: 167.88.61.96, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇲 adi|0119+-+US_美国+133, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: adi|0119+-+16, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇲 adi|0119+-+🇺🇸US_8090, server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: adi|0122 - V32, server: 128.wgong.xyz, port: 52228, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 adi|0122 - 香港, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 adi|0122 - US_612, server: azhk.node.qchwnd.moe, port: 10213, type: trojan, password: 476ddab3-29a2-4a32-8f0d-33cf6add3722, sni: azhk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 adi|0122 - 香港 2, server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: adi|0122 - V42, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 adi|0122 - 香港 3, server: 128.wgong.xyz, port: 52228, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: adi|0122 - V61, server: 100.wgong.xyz, port: 11220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 adi|0122 - 香港 4, server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: adi|0122 - V43, server: 127.wgong.xyz, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: adi|0122 - V41, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: adi|0122 - V37, server: 82.wgong.xyz, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 adi|0122 - 香港 5, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: adi|0122 - V49, server: 131.wgong.xyz, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 adi|0122 - 香港 6, server: 98.wgong.xyz, port: 52298, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 adi|0122 - 美国, server: 127.wgong.xyz, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 adi|0122 - US_613, server: azhk.node.qchwnd.moe, port: 44609, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: azhk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 adi|0122 - 香港 7, server: 117.wgong.xyz, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: adi|0122 - V23, server: 117.wgong.xyz, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 adi|0122 - 香港 8, server: 131.wgong.xyz, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 adi|0122 - 美国V01, server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: 🇺🇸 adi|0122 - 美国 2, server: 104.24.223.86, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: us.fovi.tk}, udp: true}
+  - {name: adi|0122 -, server: 104.17.161.28, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: us.fovi.tk}, udp: true}
+  - {name: 🇺🇸 adi|0122 - 美国V19, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 51273235-0995-455e-96e4-83b1811b4cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
+  - {name: 🇺🇸 adi|0122 - US_38, server: 38.75.136.58, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: adi|0122 - 10, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 adi|0122 - 美国 3, server: 38.75.136.45, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇸 adi|0122 - 美国 4, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇸 adi|0122 - 美国 5, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0122 - 美国 6, server: 142.4.105.253, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 142.4.105.253}, udp: true}
+  - {name: 🇺🇸 adi|0119+-+US_美国+38, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0119+-+US_美国+20, server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: adi|0122 - 15, server: 104.19.23.215, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdn-dc01.testred.xyz}, udp: true}
+  - {name: 🇺🇸 adi|0122 - 美国 7, server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: adi|0122 - 14, server: 104.19.28.35, port: 443, type: vmess, uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdn-dc01.testred.xyz}, udp: true}
+  - {name: 🇪🇺 adi|0117+-+欧洲, server: 38.68.134.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0119+-+US_美国+87, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0122 - 美国 8, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇺🇸 adi|0119+-+US_美国+149, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大 2, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大 3, server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 adi|0122 - 美国 9, server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大 4, server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大 5, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇸 adi|0122 - 美国 10, server: 38.107.226.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0122 - 美国V08, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
+  - {name: 🇺🇸 adi|0119+-+US_美国+114, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大 6, server: 198.57.27.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇪🇺 adi|0122 - 欧洲, server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇪🇺 adi|0122 - 欧洲 2, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇪🇺 adi|0122 - 欧洲 3, server: 134.195.196.110, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大 7, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 adi|0119+-+US_美国+157, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大-782.4KB/s, server: 198.57.27.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大 8, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 adi|0122 - 美国V19 2, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 51273235-0995-455e-96e4-83b1811b4cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大 9, server: 198.57.27.172, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大 10, server: 198.57.27.152, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大 11, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇨🇦 adi|0119+-+加拿大-1.40MB/s, server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大 12, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇪🇺 adi|0122 - 欧洲 4, server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大 13, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大 14, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大 15, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大 16, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇨🇦 adi|0119+-+CA_加拿大+21, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0122 - 美国 11, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 🇬🇧 adi|0122 - 英国, server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇯🇵 adi|0122 - 日本, server: 85.208.110.2, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 adi|0122 - 美国 12, server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇬🇧 adi|0119+-+GB_英国+9, server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大T11, server: t1.ssrsub.com, port: 8443, type: trojan, password: 51273235-0995-455e-96e4-83b1811b4cab, sni: t1.ssrsub.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 adi|0122 - 美国 13, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇬🇧 adi|0122 - 英国 2, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大 17, server: 198.57.27.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 adi|0122 - 美国 14, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: 208.98.48.2}, udp: true}
+  - {name: 🇨🇦 adi|0122 - 加拿大T03, server: t3.ssrsub.com, port: 8443, type: trojan, password: 974aeac3-c27c-4e20-86e4-03f526faaccd, sni: t3.ssrsub.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 adi|0122 - 日本 2, server: 85.208.110.2, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: adi|0122 - 1.48MB/s, server: 198.41.221.169, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: zero1.a-yu.xyz}, udp: true}
+  - {name: adi|0122 - V05, server: 42.157.8.162, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: adi|0122 - 11, server: 42.157.8.162, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: 🇷🇺 adi|0122 - 俄罗斯13, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 51273235-0995-455e-96e4-83b1811b4cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -75,270 +96,354 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇺🇲 adi|0119+-+US_美国+62
-      - 🇺🇲 adi|0119+-+US_美国+197
-      - 🇺🇲 adi|0119+-+US_美国+100
-      - 🇺🇲 adi|0119+-+US_美国+204
-      - 🇺🇲 adi|0119+-+US_美国+36
-      - 🇺🇲 adi|0119+-+US_美国+130
-      - 🇺🇲 adi|0119+-+美国Cogent6
-      - adi|0117+-+欧洲
-      - 🇺🇲 adi|0119+-+US_美国+91
-      - 🇺🇲 adi|0119+-+US_美国+20
-      - 🇺🇲 adi|0119+-+美国
-      - 🇺🇲 adi|0119+-+US_美国+39
-      - 🇺🇲 adi|0119+-+US_美国+12
-      - 🇺🇲 adi|0119+-+US_美国+87
-      - 🇺🇲 adi|0119+-+美国-3.51MB/s
-      - 🇺🇲 adi|0119+-+美国-340.8KB/s
-      - 🇺🇲 adi|0119+-+US_美国+83
-      - 🇺🇲 adi|0119+-+US_美国+55
-      - adi|0119 -
-      - 🇺🇲 adi|0119+-+US_美国+84
-      - 🇨🇦 adi|0119+-+CA_加拿大+21
-      - 🇺🇲 adi|0119+-+US_美国+105
-      - 🇺🇲 adi|0119+-+US_美国+114
-      - 🇺🇲 adi|0119+-+US_美国+140
-      - 🇺🇲 adi|0119+-+US_美国+15
-      - 🇺🇲 adi|0119+-+US_美国+173
-      - 🇺🇲 adi|0119+-+美国Cogent1
-      - 🇺🇲 adi|0119+-+US_美国+46
-      - 🇨🇦 adi|0119+-+CA_加拿大+18
-      - 🇺🇲 adi|0119+-+US_美国+18
-      - 🇺🇲 adi|0119+-+US_美国+35
-      - 🇺🇲 adi|0119+-+US_美国+142
-      - 🇨🇦 adi|0119+-+CA_加拿大+51
-      - 🇺🇲 adi|0119+-+US_美国+147
-      - 🇺🇲 adi|0119+-+US_美国+157
-      - 🇨🇦 adi|0119+-+CA_加拿大+74
-      - 🇺🇲 adi|0119+-+US_美国+120
-      - 🇺🇲 adi|0119+-+US_美国+10
-      - 🇬🇧 adi|0119+-+GB_英国+9
-      - 🇺🇲 adi|0119+-+US_美国+11
-      - adi|0119+-+h2ye
-      - 🇺🇲 adi|0119+-+US_美国+152
-      - 🇺🇲 adi|0119+-+US_美国+145
-      - adi|0119+-+IT_57
-      - 🇨🇦 adi|0119+-+CA_加拿大+15
-      - 🇨🇦 adi|0119+-+CA_加拿大+43
-      - 🇯🇵 adi|0119+-+JP_日本
-      - 🇮🇹 adi|0119+-+IT_意大利
-      - 🇺🇲 adi|0119+-+US_美国+149
-      - 🇺🇲 adi|0119+-+US_美国+164
-      - adi|0119+-+h2ye 2
-      - adi|0117+-+欧洲 2
-      - 🇺🇲 adi|0119+-+US_美国+106
+      - adi|0122 - V32
+      - 🇭🇰 adi|0122 - 香港
+      - 🇺🇸 adi|0122 - US_612
+      - 🇭🇰 adi|0122 - 香港 2
+      - adi|0122 - V42
+      - 🇭🇰 adi|0122 - 香港 3
+      - adi|0122 - V61
+      - 🇭🇰 adi|0122 - 香港 4
+      - adi|0122 - V43
+      - adi|0122 - V41
+      - adi|0122 - V37
+      - 🇭🇰 adi|0122 - 香港 5
+      - adi|0122 - V49
+      - 🇭🇰 adi|0122 - 香港 6
+      - 🇺🇸 adi|0122 - 美国
+      - 🇺🇸 adi|0122 - US_613
+      - 🇭🇰 adi|0122 - 香港 7
+      - adi|0122 - V23
+      - 🇭🇰 adi|0122 - 香港 8
+      - 🇺🇸 adi|0122 - 美国V01
+      - 🇺🇸 adi|0122 - 美国 2
+      - adi|0122 -
+      - 🇺🇸 adi|0122 - 美国V19
+      - 🇺🇸 adi|0122 - US_38
+      - adi|0122 - 10
+      - 🇺🇸 adi|0122 - 美国 3
+      - 🇺🇸 adi|0122 - 美国 4
+      - 🇺🇸 adi|0122 - 美国 5
+      - 🇺🇸 adi|0122 - 美国 6
+      - 🇺🇸 adi|0119+-+US_美国+38
+      - 🇺🇸 adi|0119+-+US_美国+20
+      - adi|0122 - 15
+      - 🇺🇸 adi|0122 - 美国 7
+      - adi|0122 - 14
+      - 🇪🇺 adi|0117+-+欧洲
+      - 🇺🇸 adi|0119+-+US_美国+87
+      - 🇺🇸 adi|0122 - 美国 8
+      - 🇺🇸 adi|0119+-+US_美国+149
+      - 🇨🇦 adi|0122 - 加拿大
+      - 🇨🇦 adi|0122 - 加拿大 2
+      - 🇨🇦 adi|0122 - 加拿大 3
+      - 🇺🇸 adi|0122 - 美国 9
+      - 🇨🇦 adi|0122 - 加拿大 4
+      - 🇨🇦 adi|0122 - 加拿大 5
+      - 🇺🇸 adi|0122 - 美国 10
+      - 🇺🇸 adi|0122 - 美国V08
+      - 🇺🇸 adi|0119+-+US_美国+114
+      - 🇨🇦 adi|0122 - 加拿大 6
+      - 🇪🇺 adi|0122 - 欧洲
+      - 🇪🇺 adi|0122 - 欧洲 2
+      - 🇪🇺 adi|0122 - 欧洲 3
+      - 🇨🇦 adi|0122 - 加拿大 7
+      - 🇺🇸 adi|0119+-+US_美国+157
+      - 🇨🇦 adi|0122 - 加拿大-782.4KB/s
+      - 🇨🇦 adi|0122 - 加拿大 8
+      - 🇺🇸 adi|0122 - 美国V19 2
+      - 🇨🇦 adi|0122 - 加拿大 9
+      - 🇨🇦 adi|0122 - 加拿大 10
+      - 🇨🇦 adi|0122 - 加拿大 11
       - 🇨🇦 adi|0119+-+加拿大-1.40MB/s
-      - 🇨🇦 adi|0119+-+CA_加拿大+49
-      - adi|0119+-+2ye
-      - 🇨🇦 adi|0119+-+CA_加拿大+6
-      - 🇺🇲 adi|0119+-+US_美国+38
-      - 🇺🇲 adi|0119+-+US_2
-      - 🇺🇲 adi|0119+-+US_美国+133
-      - adi|0119+-+16
-      - 🇺🇲 adi|0119+-+🇺🇸US_8090
+      - 🇨🇦 adi|0122 - 加拿大 12
+      - 🇪🇺 adi|0122 - 欧洲 4
+      - 🇨🇦 adi|0122 - 加拿大 13
+      - 🇨🇦 adi|0122 - 加拿大 14
+      - 🇨🇦 adi|0122 - 加拿大 15
+      - 🇨🇦 adi|0122 - 加拿大 16
+      - 🇨🇦 adi|0119+-+CA_加拿大+21
+      - 🇺🇸 adi|0122 - 美国 11
+      - 🇬🇧 adi|0122 - 英国
+      - 🇯🇵 adi|0122 - 日本
+      - 🇺🇸 adi|0122 - 美国 12
+      - 🇬🇧 adi|0119+-+GB_英国+9
+      - 🇨🇦 adi|0122 - 加拿大T11
+      - 🇺🇸 adi|0122 - 美国 13
+      - 🇬🇧 adi|0122 - 英国 2
+      - 🇨🇦 adi|0122 - 加拿大 17
+      - 🇺🇸 adi|0122 - 美国 14
+      - 🇨🇦 adi|0122 - 加拿大T03
+      - 🇯🇵 adi|0122 - 日本 2
+      - adi|0122 - 1.48MB/s
+      - adi|0122 - V05
+      - adi|0122 - 11
+      - 🇷🇺 adi|0122 - 俄罗斯13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
+    tolerance: 50
     proxies:
-      - 🇺🇲 adi|0119+-+US_美国+62
-      - 🇺🇲 adi|0119+-+US_美国+197
-      - 🇺🇲 adi|0119+-+US_美国+100
-      - 🇺🇲 adi|0119+-+US_美国+204
-      - 🇺🇲 adi|0119+-+US_美国+36
-      - 🇺🇲 adi|0119+-+US_美国+130
-      - 🇺🇲 adi|0119+-+美国Cogent6
-      - adi|0117+-+欧洲
-      - 🇺🇲 adi|0119+-+US_美国+91
-      - 🇺🇲 adi|0119+-+US_美国+20
-      - 🇺🇲 adi|0119+-+美国
-      - 🇺🇲 adi|0119+-+US_美国+39
-      - 🇺🇲 adi|0119+-+US_美国+12
-      - 🇺🇲 adi|0119+-+US_美国+87
-      - 🇺🇲 adi|0119+-+美国-3.51MB/s
-      - 🇺🇲 adi|0119+-+美国-340.8KB/s
-      - 🇺🇲 adi|0119+-+US_美国+83
-      - 🇺🇲 adi|0119+-+US_美国+55
-      - adi|0119 -
-      - 🇺🇲 adi|0119+-+US_美国+84
-      - 🇨🇦 adi|0119+-+CA_加拿大+21
-      - 🇺🇲 adi|0119+-+US_美国+105
-      - 🇺🇲 adi|0119+-+US_美国+114
-      - 🇺🇲 adi|0119+-+US_美国+140
-      - 🇺🇲 adi|0119+-+US_美国+15
-      - 🇺🇲 adi|0119+-+US_美国+173
-      - 🇺🇲 adi|0119+-+美国Cogent1
-      - 🇺🇲 adi|0119+-+US_美国+46
-      - 🇨🇦 adi|0119+-+CA_加拿大+18
-      - 🇺🇲 adi|0119+-+US_美国+18
-      - 🇺🇲 adi|0119+-+US_美国+35
-      - 🇺🇲 adi|0119+-+US_美国+142
-      - 🇨🇦 adi|0119+-+CA_加拿大+51
-      - 🇺🇲 adi|0119+-+US_美国+147
-      - 🇺🇲 adi|0119+-+US_美国+157
-      - 🇨🇦 adi|0119+-+CA_加拿大+74
-      - 🇺🇲 adi|0119+-+US_美国+120
-      - 🇺🇲 adi|0119+-+US_美国+10
-      - 🇬🇧 adi|0119+-+GB_英国+9
-      - 🇺🇲 adi|0119+-+US_美国+11
-      - adi|0119+-+h2ye
-      - 🇺🇲 adi|0119+-+US_美国+152
-      - 🇺🇲 adi|0119+-+US_美国+145
-      - adi|0119+-+IT_57
-      - 🇨🇦 adi|0119+-+CA_加拿大+15
-      - 🇨🇦 adi|0119+-+CA_加拿大+43
-      - 🇯🇵 adi|0119+-+JP_日本
-      - 🇮🇹 adi|0119+-+IT_意大利
-      - 🇺🇲 adi|0119+-+US_美国+149
-      - 🇺🇲 adi|0119+-+US_美国+164
-      - adi|0119+-+h2ye 2
-      - adi|0117+-+欧洲 2
-      - 🇺🇲 adi|0119+-+US_美国+106
+      - adi|0122 - V32
+      - 🇭🇰 adi|0122 - 香港
+      - 🇺🇸 adi|0122 - US_612
+      - 🇭🇰 adi|0122 - 香港 2
+      - adi|0122 - V42
+      - 🇭🇰 adi|0122 - 香港 3
+      - adi|0122 - V61
+      - 🇭🇰 adi|0122 - 香港 4
+      - adi|0122 - V43
+      - adi|0122 - V41
+      - adi|0122 - V37
+      - 🇭🇰 adi|0122 - 香港 5
+      - adi|0122 - V49
+      - 🇭🇰 adi|0122 - 香港 6
+      - 🇺🇸 adi|0122 - 美国
+      - 🇺🇸 adi|0122 - US_613
+      - 🇭🇰 adi|0122 - 香港 7
+      - adi|0122 - V23
+      - 🇭🇰 adi|0122 - 香港 8
+      - 🇺🇸 adi|0122 - 美国V01
+      - 🇺🇸 adi|0122 - 美国 2
+      - adi|0122 -
+      - 🇺🇸 adi|0122 - 美国V19
+      - 🇺🇸 adi|0122 - US_38
+      - adi|0122 - 10
+      - 🇺🇸 adi|0122 - 美国 3
+      - 🇺🇸 adi|0122 - 美国 4
+      - 🇺🇸 adi|0122 - 美国 5
+      - 🇺🇸 adi|0122 - 美国 6
+      - 🇺🇸 adi|0119+-+US_美国+38
+      - 🇺🇸 adi|0119+-+US_美国+20
+      - adi|0122 - 15
+      - 🇺🇸 adi|0122 - 美国 7
+      - adi|0122 - 14
+      - 🇪🇺 adi|0117+-+欧洲
+      - 🇺🇸 adi|0119+-+US_美国+87
+      - 🇺🇸 adi|0122 - 美国 8
+      - 🇺🇸 adi|0119+-+US_美国+149
+      - 🇨🇦 adi|0122 - 加拿大
+      - 🇨🇦 adi|0122 - 加拿大 2
+      - 🇨🇦 adi|0122 - 加拿大 3
+      - 🇺🇸 adi|0122 - 美国 9
+      - 🇨🇦 adi|0122 - 加拿大 4
+      - 🇨🇦 adi|0122 - 加拿大 5
+      - 🇺🇸 adi|0122 - 美国 10
+      - 🇺🇸 adi|0122 - 美国V08
+      - 🇺🇸 adi|0119+-+US_美国+114
+      - 🇨🇦 adi|0122 - 加拿大 6
+      - 🇪🇺 adi|0122 - 欧洲
+      - 🇪🇺 adi|0122 - 欧洲 2
+      - 🇪🇺 adi|0122 - 欧洲 3
+      - 🇨🇦 adi|0122 - 加拿大 7
+      - 🇺🇸 adi|0119+-+US_美国+157
+      - 🇨🇦 adi|0122 - 加拿大-782.4KB/s
+      - 🇨🇦 adi|0122 - 加拿大 8
+      - 🇺🇸 adi|0122 - 美国V19 2
+      - 🇨🇦 adi|0122 - 加拿大 9
+      - 🇨🇦 adi|0122 - 加拿大 10
+      - 🇨🇦 adi|0122 - 加拿大 11
       - 🇨🇦 adi|0119+-+加拿大-1.40MB/s
-      - 🇨🇦 adi|0119+-+CA_加拿大+49
-      - adi|0119+-+2ye
-      - 🇨🇦 adi|0119+-+CA_加拿大+6
-      - 🇺🇲 adi|0119+-+US_美国+38
-      - 🇺🇲 adi|0119+-+US_2
-      - 🇺🇲 adi|0119+-+US_美国+133
-      - adi|0119+-+16
-      - 🇺🇲 adi|0119+-+🇺🇸US_8090
+      - 🇨🇦 adi|0122 - 加拿大 12
+      - 🇪🇺 adi|0122 - 欧洲 4
+      - 🇨🇦 adi|0122 - 加拿大 13
+      - 🇨🇦 adi|0122 - 加拿大 14
+      - 🇨🇦 adi|0122 - 加拿大 15
+      - 🇨🇦 adi|0122 - 加拿大 16
+      - 🇨🇦 adi|0119+-+CA_加拿大+21
+      - 🇺🇸 adi|0122 - 美国 11
+      - 🇬🇧 adi|0122 - 英国
+      - 🇯🇵 adi|0122 - 日本
+      - 🇺🇸 adi|0122 - 美国 12
+      - 🇬🇧 adi|0119+-+GB_英国+9
+      - 🇨🇦 adi|0122 - 加拿大T11
+      - 🇺🇸 adi|0122 - 美国 13
+      - 🇬🇧 adi|0122 - 英国 2
+      - 🇨🇦 adi|0122 - 加拿大 17
+      - 🇺🇸 adi|0122 - 美国 14
+      - 🇨🇦 adi|0122 - 加拿大T03
+      - 🇯🇵 adi|0122 - 日本 2
+      - adi|0122 - 1.48MB/s
+      - adi|0122 - V05
+      - adi|0122 - 11
+      - 🇷🇺 adi|0122 - 俄罗斯13
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇺🇲 adi|0119+-+US_美国+62
-      - 🇺🇲 adi|0119+-+US_美国+197
-      - 🇺🇲 adi|0119+-+US_美国+100
-      - 🇺🇲 adi|0119+-+US_美国+204
-      - 🇺🇲 adi|0119+-+US_美国+36
-      - 🇺🇲 adi|0119+-+US_美国+130
-      - 🇺🇲 adi|0119+-+美国Cogent6
-      - adi|0117+-+欧洲
-      - 🇺🇲 adi|0119+-+US_美国+91
-      - 🇺🇲 adi|0119+-+US_美国+20
-      - 🇺🇲 adi|0119+-+美国
-      - 🇺🇲 adi|0119+-+US_美国+39
-      - 🇺🇲 adi|0119+-+US_美国+12
-      - 🇺🇲 adi|0119+-+US_美国+87
-      - 🇺🇲 adi|0119+-+美国-3.51MB/s
-      - 🇺🇲 adi|0119+-+美国-340.8KB/s
-      - 🇺🇲 adi|0119+-+US_美国+83
-      - 🇺🇲 adi|0119+-+US_美国+55
-      - adi|0119 -
-      - 🇺🇲 adi|0119+-+US_美国+84
-      - 🇨🇦 adi|0119+-+CA_加拿大+21
-      - 🇺🇲 adi|0119+-+US_美国+105
-      - 🇺🇲 adi|0119+-+US_美国+114
-      - 🇺🇲 adi|0119+-+US_美国+140
-      - 🇺🇲 adi|0119+-+US_美国+15
-      - 🇺🇲 adi|0119+-+US_美国+173
-      - 🇺🇲 adi|0119+-+美国Cogent1
-      - 🇺🇲 adi|0119+-+US_美国+46
-      - 🇨🇦 adi|0119+-+CA_加拿大+18
-      - 🇺🇲 adi|0119+-+US_美国+18
-      - 🇺🇲 adi|0119+-+US_美国+35
-      - 🇺🇲 adi|0119+-+US_美国+142
-      - 🇨🇦 adi|0119+-+CA_加拿大+51
-      - 🇺🇲 adi|0119+-+US_美国+147
-      - 🇺🇲 adi|0119+-+US_美国+157
-      - 🇨🇦 adi|0119+-+CA_加拿大+74
-      - 🇺🇲 adi|0119+-+US_美国+120
-      - 🇺🇲 adi|0119+-+US_美国+10
-      - 🇬🇧 adi|0119+-+GB_英国+9
-      - 🇺🇲 adi|0119+-+US_美国+11
-      - adi|0119+-+h2ye
-      - 🇺🇲 adi|0119+-+US_美国+152
-      - 🇺🇲 adi|0119+-+US_美国+145
-      - adi|0119+-+IT_57
-      - 🇨🇦 adi|0119+-+CA_加拿大+15
-      - 🇨🇦 adi|0119+-+CA_加拿大+43
-      - 🇯🇵 adi|0119+-+JP_日本
-      - 🇮🇹 adi|0119+-+IT_意大利
-      - 🇺🇲 adi|0119+-+US_美国+149
-      - 🇺🇲 adi|0119+-+US_美国+164
-      - adi|0119+-+h2ye 2
-      - adi|0117+-+欧洲 2
-      - 🇺🇲 adi|0119+-+US_美国+106
+      - adi|0122 - V32
+      - 🇭🇰 adi|0122 - 香港
+      - 🇺🇸 adi|0122 - US_612
+      - 🇭🇰 adi|0122 - 香港 2
+      - adi|0122 - V42
+      - 🇭🇰 adi|0122 - 香港 3
+      - adi|0122 - V61
+      - 🇭🇰 adi|0122 - 香港 4
+      - adi|0122 - V43
+      - adi|0122 - V41
+      - adi|0122 - V37
+      - 🇭🇰 adi|0122 - 香港 5
+      - adi|0122 - V49
+      - 🇭🇰 adi|0122 - 香港 6
+      - 🇺🇸 adi|0122 - 美国
+      - 🇺🇸 adi|0122 - US_613
+      - 🇭🇰 adi|0122 - 香港 7
+      - adi|0122 - V23
+      - 🇭🇰 adi|0122 - 香港 8
+      - 🇺🇸 adi|0122 - 美国V01
+      - 🇺🇸 adi|0122 - 美国 2
+      - adi|0122 -
+      - 🇺🇸 adi|0122 - 美国V19
+      - 🇺🇸 adi|0122 - US_38
+      - adi|0122 - 10
+      - 🇺🇸 adi|0122 - 美国 3
+      - 🇺🇸 adi|0122 - 美国 4
+      - 🇺🇸 adi|0122 - 美国 5
+      - 🇺🇸 adi|0122 - 美国 6
+      - 🇺🇸 adi|0119+-+US_美国+38
+      - 🇺🇸 adi|0119+-+US_美国+20
+      - adi|0122 - 15
+      - 🇺🇸 adi|0122 - 美国 7
+      - adi|0122 - 14
+      - 🇪🇺 adi|0117+-+欧洲
+      - 🇺🇸 adi|0119+-+US_美国+87
+      - 🇺🇸 adi|0122 - 美国 8
+      - 🇺🇸 adi|0119+-+US_美国+149
+      - 🇨🇦 adi|0122 - 加拿大
+      - 🇨🇦 adi|0122 - 加拿大 2
+      - 🇨🇦 adi|0122 - 加拿大 3
+      - 🇺🇸 adi|0122 - 美国 9
+      - 🇨🇦 adi|0122 - 加拿大 4
+      - 🇨🇦 adi|0122 - 加拿大 5
+      - 🇺🇸 adi|0122 - 美国 10
+      - 🇺🇸 adi|0122 - 美国V08
+      - 🇺🇸 adi|0119+-+US_美国+114
+      - 🇨🇦 adi|0122 - 加拿大 6
+      - 🇪🇺 adi|0122 - 欧洲
+      - 🇪🇺 adi|0122 - 欧洲 2
+      - 🇪🇺 adi|0122 - 欧洲 3
+      - 🇨🇦 adi|0122 - 加拿大 7
+      - 🇺🇸 adi|0119+-+US_美国+157
+      - 🇨🇦 adi|0122 - 加拿大-782.4KB/s
+      - 🇨🇦 adi|0122 - 加拿大 8
+      - 🇺🇸 adi|0122 - 美国V19 2
+      - 🇨🇦 adi|0122 - 加拿大 9
+      - 🇨🇦 adi|0122 - 加拿大 10
+      - 🇨🇦 adi|0122 - 加拿大 11
       - 🇨🇦 adi|0119+-+加拿大-1.40MB/s
-      - 🇨🇦 adi|0119+-+CA_加拿大+49
-      - adi|0119+-+2ye
-      - 🇨🇦 adi|0119+-+CA_加拿大+6
-      - 🇺🇲 adi|0119+-+US_美国+38
-      - 🇺🇲 adi|0119+-+US_2
-      - 🇺🇲 adi|0119+-+US_美国+133
-      - adi|0119+-+16
-      - 🇺🇲 adi|0119+-+🇺🇸US_8090
+      - 🇨🇦 adi|0122 - 加拿大 12
+      - 🇪🇺 adi|0122 - 欧洲 4
+      - 🇨🇦 adi|0122 - 加拿大 13
+      - 🇨🇦 adi|0122 - 加拿大 14
+      - 🇨🇦 adi|0122 - 加拿大 15
+      - 🇨🇦 adi|0122 - 加拿大 16
+      - 🇨🇦 adi|0119+-+CA_加拿大+21
+      - 🇺🇸 adi|0122 - 美国 11
+      - 🇬🇧 adi|0122 - 英国
+      - 🇯🇵 adi|0122 - 日本
+      - 🇺🇸 adi|0122 - 美国 12
+      - 🇬🇧 adi|0119+-+GB_英国+9
+      - 🇨🇦 adi|0122 - 加拿大T11
+      - 🇺🇸 adi|0122 - 美国 13
+      - 🇬🇧 adi|0122 - 英国 2
+      - 🇨🇦 adi|0122 - 加拿大 17
+      - 🇺🇸 adi|0122 - 美国 14
+      - 🇨🇦 adi|0122 - 加拿大T03
+      - 🇯🇵 adi|0122 - 日本 2
+      - adi|0122 - 1.48MB/s
+      - adi|0122 - V05
+      - adi|0122 - 11
+      - 🇷🇺 adi|0122 - 俄罗斯13
   - name: 🔮 负载均衡
     type: load-balance
-    strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇺🇲 adi|0119+-+US_美国+62
-      - 🇺🇲 adi|0119+-+US_美国+197
-      - 🇺🇲 adi|0119+-+US_美国+100
-      - 🇺🇲 adi|0119+-+US_美国+204
-      - 🇺🇲 adi|0119+-+US_美国+36
-      - 🇺🇲 adi|0119+-+US_美国+130
-      - 🇺🇲 adi|0119+-+美国Cogent6
-      - adi|0117+-+欧洲
-      - 🇺🇲 adi|0119+-+US_美国+91
-      - 🇺🇲 adi|0119+-+US_美国+20
-      - 🇺🇲 adi|0119+-+美国
-      - 🇺🇲 adi|0119+-+US_美国+39
-      - 🇺🇲 adi|0119+-+US_美国+12
-      - 🇺🇲 adi|0119+-+US_美国+87
-      - 🇺🇲 adi|0119+-+美国-3.51MB/s
-      - 🇺🇲 adi|0119+-+美国-340.8KB/s
-      - 🇺🇲 adi|0119+-+US_美国+83
-      - 🇺🇲 adi|0119+-+US_美国+55
-      - adi|0119 -
-      - 🇺🇲 adi|0119+-+US_美国+84
-      - 🇨🇦 adi|0119+-+CA_加拿大+21
-      - 🇺🇲 adi|0119+-+US_美国+105
-      - 🇺🇲 adi|0119+-+US_美国+114
-      - 🇺🇲 adi|0119+-+US_美国+140
-      - 🇺🇲 adi|0119+-+US_美国+15
-      - 🇺🇲 adi|0119+-+US_美国+173
-      - 🇺🇲 adi|0119+-+美国Cogent1
-      - 🇺🇲 adi|0119+-+US_美国+46
-      - 🇨🇦 adi|0119+-+CA_加拿大+18
-      - 🇺🇲 adi|0119+-+US_美国+18
-      - 🇺🇲 adi|0119+-+US_美国+35
-      - 🇺🇲 adi|0119+-+US_美国+142
-      - 🇨🇦 adi|0119+-+CA_加拿大+51
-      - 🇺🇲 adi|0119+-+US_美国+147
-      - 🇺🇲 adi|0119+-+US_美国+157
-      - 🇨🇦 adi|0119+-+CA_加拿大+74
-      - 🇺🇲 adi|0119+-+US_美国+120
-      - 🇺🇲 adi|0119+-+US_美国+10
-      - 🇬🇧 adi|0119+-+GB_英国+9
-      - 🇺🇲 adi|0119+-+US_美国+11
-      - adi|0119+-+h2ye
-      - 🇺🇲 adi|0119+-+US_美国+152
-      - 🇺🇲 adi|0119+-+US_美国+145
-      - adi|0119+-+IT_57
-      - 🇨🇦 adi|0119+-+CA_加拿大+15
-      - 🇨🇦 adi|0119+-+CA_加拿大+43
-      - 🇯🇵 adi|0119+-+JP_日本
-      - 🇮🇹 adi|0119+-+IT_意大利
-      - 🇺🇲 adi|0119+-+US_美国+149
-      - 🇺🇲 adi|0119+-+US_美国+164
-      - adi|0119+-+h2ye 2
-      - adi|0117+-+欧洲 2
-      - 🇺🇲 adi|0119+-+US_美国+106
+      - adi|0122 - V32
+      - 🇭🇰 adi|0122 - 香港
+      - 🇺🇸 adi|0122 - US_612
+      - 🇭🇰 adi|0122 - 香港 2
+      - adi|0122 - V42
+      - 🇭🇰 adi|0122 - 香港 3
+      - adi|0122 - V61
+      - 🇭🇰 adi|0122 - 香港 4
+      - adi|0122 - V43
+      - adi|0122 - V41
+      - adi|0122 - V37
+      - 🇭🇰 adi|0122 - 香港 5
+      - adi|0122 - V49
+      - 🇭🇰 adi|0122 - 香港 6
+      - 🇺🇸 adi|0122 - 美国
+      - 🇺🇸 adi|0122 - US_613
+      - 🇭🇰 adi|0122 - 香港 7
+      - adi|0122 - V23
+      - 🇭🇰 adi|0122 - 香港 8
+      - 🇺🇸 adi|0122 - 美国V01
+      - 🇺🇸 adi|0122 - 美国 2
+      - adi|0122 -
+      - 🇺🇸 adi|0122 - 美国V19
+      - 🇺🇸 adi|0122 - US_38
+      - adi|0122 - 10
+      - 🇺🇸 adi|0122 - 美国 3
+      - 🇺🇸 adi|0122 - 美国 4
+      - 🇺🇸 adi|0122 - 美国 5
+      - 🇺🇸 adi|0122 - 美国 6
+      - 🇺🇸 adi|0119+-+US_美国+38
+      - 🇺🇸 adi|0119+-+US_美国+20
+      - adi|0122 - 15
+      - 🇺🇸 adi|0122 - 美国 7
+      - adi|0122 - 14
+      - 🇪🇺 adi|0117+-+欧洲
+      - 🇺🇸 adi|0119+-+US_美国+87
+      - 🇺🇸 adi|0122 - 美国 8
+      - 🇺🇸 adi|0119+-+US_美国+149
+      - 🇨🇦 adi|0122 - 加拿大
+      - 🇨🇦 adi|0122 - 加拿大 2
+      - 🇨🇦 adi|0122 - 加拿大 3
+      - 🇺🇸 adi|0122 - 美国 9
+      - 🇨🇦 adi|0122 - 加拿大 4
+      - 🇨🇦 adi|0122 - 加拿大 5
+      - 🇺🇸 adi|0122 - 美国 10
+      - 🇺🇸 adi|0122 - 美国V08
+      - 🇺🇸 adi|0119+-+US_美国+114
+      - 🇨🇦 adi|0122 - 加拿大 6
+      - 🇪🇺 adi|0122 - 欧洲
+      - 🇪🇺 adi|0122 - 欧洲 2
+      - 🇪🇺 adi|0122 - 欧洲 3
+      - 🇨🇦 adi|0122 - 加拿大 7
+      - 🇺🇸 adi|0119+-+US_美国+157
+      - 🇨🇦 adi|0122 - 加拿大-782.4KB/s
+      - 🇨🇦 adi|0122 - 加拿大 8
+      - 🇺🇸 adi|0122 - 美国V19 2
+      - 🇨🇦 adi|0122 - 加拿大 9
+      - 🇨🇦 adi|0122 - 加拿大 10
+      - 🇨🇦 adi|0122 - 加拿大 11
       - 🇨🇦 adi|0119+-+加拿大-1.40MB/s
-      - 🇨🇦 adi|0119+-+CA_加拿大+49
-      - adi|0119+-+2ye
-      - 🇨🇦 adi|0119+-+CA_加拿大+6
-      - 🇺🇲 adi|0119+-+US_美国+38
-      - 🇺🇲 adi|0119+-+US_2
-      - 🇺🇲 adi|0119+-+US_美国+133
-      - adi|0119+-+16
-      - 🇺🇲 adi|0119+-+🇺🇸US_8090
+      - 🇨🇦 adi|0122 - 加拿大 12
+      - 🇪🇺 adi|0122 - 欧洲 4
+      - 🇨🇦 adi|0122 - 加拿大 13
+      - 🇨🇦 adi|0122 - 加拿大 14
+      - 🇨🇦 adi|0122 - 加拿大 15
+      - 🇨🇦 adi|0122 - 加拿大 16
+      - 🇨🇦 adi|0119+-+CA_加拿大+21
+      - 🇺🇸 adi|0122 - 美国 11
+      - 🇬🇧 adi|0122 - 英国
+      - 🇯🇵 adi|0122 - 日本
+      - 🇺🇸 adi|0122 - 美国 12
+      - 🇬🇧 adi|0119+-+GB_英国+9
+      - 🇨🇦 adi|0122 - 加拿大T11
+      - 🇺🇸 adi|0122 - 美国 13
+      - 🇬🇧 adi|0122 - 英国 2
+      - 🇨🇦 adi|0122 - 加拿大 17
+      - 🇺🇸 adi|0122 - 美国 14
+      - 🇨🇦 adi|0122 - 加拿大T03
+      - 🇯🇵 adi|0122 - 日本 2
+      - adi|0122 - 1.48MB/s
+      - adi|0122 - V05
+      - adi|0122 - 11
+      - 🇷🇺 adi|0122 - 俄罗斯13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -358,68 +463,89 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇺🇲 adi|0119+-+US_美国+62
-      - 🇺🇲 adi|0119+-+US_美国+197
-      - 🇺🇲 adi|0119+-+US_美国+100
-      - 🇺🇲 adi|0119+-+US_美国+204
-      - 🇺🇲 adi|0119+-+US_美国+36
-      - 🇺🇲 adi|0119+-+US_美国+130
-      - 🇺🇲 adi|0119+-+美国Cogent6
-      - adi|0117+-+欧洲
-      - 🇺🇲 adi|0119+-+US_美国+91
-      - 🇺🇲 adi|0119+-+US_美国+20
-      - 🇺🇲 adi|0119+-+美国
-      - 🇺🇲 adi|0119+-+US_美国+39
-      - 🇺🇲 adi|0119+-+US_美国+12
-      - 🇺🇲 adi|0119+-+US_美国+87
-      - 🇺🇲 adi|0119+-+美国-3.51MB/s
-      - 🇺🇲 adi|0119+-+美国-340.8KB/s
-      - 🇺🇲 adi|0119+-+US_美国+83
-      - 🇺🇲 adi|0119+-+US_美国+55
-      - adi|0119 -
-      - 🇺🇲 adi|0119+-+US_美国+84
-      - 🇨🇦 adi|0119+-+CA_加拿大+21
-      - 🇺🇲 adi|0119+-+US_美国+105
-      - 🇺🇲 adi|0119+-+US_美国+114
-      - 🇺🇲 adi|0119+-+US_美国+140
-      - 🇺🇲 adi|0119+-+US_美国+15
-      - 🇺🇲 adi|0119+-+US_美国+173
-      - 🇺🇲 adi|0119+-+美国Cogent1
-      - 🇺🇲 adi|0119+-+US_美国+46
-      - 🇨🇦 adi|0119+-+CA_加拿大+18
-      - 🇺🇲 adi|0119+-+US_美国+18
-      - 🇺🇲 adi|0119+-+US_美国+35
-      - 🇺🇲 adi|0119+-+US_美国+142
-      - 🇨🇦 adi|0119+-+CA_加拿大+51
-      - 🇺🇲 adi|0119+-+US_美国+147
-      - 🇺🇲 adi|0119+-+US_美国+157
-      - 🇨🇦 adi|0119+-+CA_加拿大+74
-      - 🇺🇲 adi|0119+-+US_美国+120
-      - 🇺🇲 adi|0119+-+US_美国+10
-      - 🇬🇧 adi|0119+-+GB_英国+9
-      - 🇺🇲 adi|0119+-+US_美国+11
-      - adi|0119+-+h2ye
-      - 🇺🇲 adi|0119+-+US_美国+152
-      - 🇺🇲 adi|0119+-+US_美国+145
-      - adi|0119+-+IT_57
-      - 🇨🇦 adi|0119+-+CA_加拿大+15
-      - 🇨🇦 adi|0119+-+CA_加拿大+43
-      - 🇯🇵 adi|0119+-+JP_日本
-      - 🇮🇹 adi|0119+-+IT_意大利
-      - 🇺🇲 adi|0119+-+US_美国+149
-      - 🇺🇲 adi|0119+-+US_美国+164
-      - adi|0119+-+h2ye 2
-      - adi|0117+-+欧洲 2
-      - 🇺🇲 adi|0119+-+US_美国+106
+      - adi|0122 - V32
+      - 🇭🇰 adi|0122 - 香港
+      - 🇺🇸 adi|0122 - US_612
+      - 🇭🇰 adi|0122 - 香港 2
+      - adi|0122 - V42
+      - 🇭🇰 adi|0122 - 香港 3
+      - adi|0122 - V61
+      - 🇭🇰 adi|0122 - 香港 4
+      - adi|0122 - V43
+      - adi|0122 - V41
+      - adi|0122 - V37
+      - 🇭🇰 adi|0122 - 香港 5
+      - adi|0122 - V49
+      - 🇭🇰 adi|0122 - 香港 6
+      - 🇺🇸 adi|0122 - 美国
+      - 🇺🇸 adi|0122 - US_613
+      - 🇭🇰 adi|0122 - 香港 7
+      - adi|0122 - V23
+      - 🇭🇰 adi|0122 - 香港 8
+      - 🇺🇸 adi|0122 - 美国V01
+      - 🇺🇸 adi|0122 - 美国 2
+      - adi|0122 -
+      - 🇺🇸 adi|0122 - 美国V19
+      - 🇺🇸 adi|0122 - US_38
+      - adi|0122 - 10
+      - 🇺🇸 adi|0122 - 美国 3
+      - 🇺🇸 adi|0122 - 美国 4
+      - 🇺🇸 adi|0122 - 美国 5
+      - 🇺🇸 adi|0122 - 美国 6
+      - 🇺🇸 adi|0119+-+US_美国+38
+      - 🇺🇸 adi|0119+-+US_美国+20
+      - adi|0122 - 15
+      - 🇺🇸 adi|0122 - 美国 7
+      - adi|0122 - 14
+      - 🇪🇺 adi|0117+-+欧洲
+      - 🇺🇸 adi|0119+-+US_美国+87
+      - 🇺🇸 adi|0122 - 美国 8
+      - 🇺🇸 adi|0119+-+US_美国+149
+      - 🇨🇦 adi|0122 - 加拿大
+      - 🇨🇦 adi|0122 - 加拿大 2
+      - 🇨🇦 adi|0122 - 加拿大 3
+      - 🇺🇸 adi|0122 - 美国 9
+      - 🇨🇦 adi|0122 - 加拿大 4
+      - 🇨🇦 adi|0122 - 加拿大 5
+      - 🇺🇸 adi|0122 - 美国 10
+      - 🇺🇸 adi|0122 - 美国V08
+      - 🇺🇸 adi|0119+-+US_美国+114
+      - 🇨🇦 adi|0122 - 加拿大 6
+      - 🇪🇺 adi|0122 - 欧洲
+      - 🇪🇺 adi|0122 - 欧洲 2
+      - 🇪🇺 adi|0122 - 欧洲 3
+      - 🇨🇦 adi|0122 - 加拿大 7
+      - 🇺🇸 adi|0119+-+US_美国+157
+      - 🇨🇦 adi|0122 - 加拿大-782.4KB/s
+      - 🇨🇦 adi|0122 - 加拿大 8
+      - 🇺🇸 adi|0122 - 美国V19 2
+      - 🇨🇦 adi|0122 - 加拿大 9
+      - 🇨🇦 adi|0122 - 加拿大 10
+      - 🇨🇦 adi|0122 - 加拿大 11
       - 🇨🇦 adi|0119+-+加拿大-1.40MB/s
-      - 🇨🇦 adi|0119+-+CA_加拿大+49
-      - adi|0119+-+2ye
-      - 🇨🇦 adi|0119+-+CA_加拿大+6
-      - 🇺🇲 adi|0119+-+US_美国+38
-      - 🇺🇲 adi|0119+-+US_2
-      - 🇺🇲 adi|0119+-+US_美国+133
-      - adi|0119+-+16
-      - 🇺🇲 adi|0119+-+🇺🇸US_8090
+      - 🇨🇦 adi|0122 - 加拿大 12
+      - 🇪🇺 adi|0122 - 欧洲 4
+      - 🇨🇦 adi|0122 - 加拿大 13
+      - 🇨🇦 adi|0122 - 加拿大 14
+      - 🇨🇦 adi|0122 - 加拿大 15
+      - 🇨🇦 adi|0122 - 加拿大 16
+      - 🇨🇦 adi|0119+-+CA_加拿大+21
+      - 🇺🇸 adi|0122 - 美国 11
+      - 🇬🇧 adi|0122 - 英国
+      - 🇯🇵 adi|0122 - 日本
+      - 🇺🇸 adi|0122 - 美国 12
+      - 🇬🇧 adi|0119+-+GB_英国+9
+      - 🇨🇦 adi|0122 - 加拿大T11
+      - 🇺🇸 adi|0122 - 美国 13
+      - 🇬🇧 adi|0122 - 英国 2
+      - 🇨🇦 adi|0122 - 加拿大 17
+      - 🇺🇸 adi|0122 - 美国 14
+      - 🇨🇦 adi|0122 - 加拿大T03
+      - 🇯🇵 adi|0122 - 日本 2
+      - adi|0122 - 1.48MB/s
+      - adi|0122 - V05
+      - adi|0122 - 11
+      - 🇷🇺 adi|0122 - 俄罗斯13
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -447,23 +573,6 @@ rules:
  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
- - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
- - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
- - DOMAIN,dl.google.com,🎯 全球直连
- - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
- - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
- - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
- - DOMAIN,xivanalysis.com,🎯 全球直连
- - DOMAIN,picanalysis.vivo.com.cn,🎯 全球直连
- - DOMAIN,fairplay.l.qq.com,🎯 全球直连
- - DOMAIN,livew.l.qq.com,🎯 全球直连
- - DOMAIN,vd.l.qq.com,🎯 全球直连
- - DOMAIN,analytics.strava.com,🎯 全球直连
- - DOMAIN,msg.umeng.com,🎯 全球直连
- - DOMAIN,msg.umengcloud.com,🎯 全球直连
- - DOMAIN,tracking.miui.com,🎯 全球直连
- - DOMAIN,app.adjust.com,🎯 全球直连
- - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -488,6 +597,7 @@ rules:
  - DOMAIN-KEYWORD,pingfore,🛑 全球拦截
  - DOMAIN-KEYWORD,socdm,🛑 全球拦截
  - DOMAIN-KEYWORD,supersonicads,🛑 全球拦截
+ - DOMAIN-KEYWORD,tracking,🛑 全球拦截
  - DOMAIN-KEYWORD,usage,🛑 全球拦截
  - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
  - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
@@ -2026,8 +2136,6 @@ rules:
  - DOMAIN-SUFFIX,808.tianyaui.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,92x.tumblr.com,🛑 全球拦截
  - DOMAIN-SUFFIX,a1.itc.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,ad-channel.wikawika.xyz,🛑 全球拦截
- - DOMAIN-SUFFIX,ad-display.wikawika.xyz,🛑 全球拦截
  - DOMAIN-SUFFIX,ad.12306.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ad.3.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,ad.95306.cn,🛑 全球拦截
@@ -2141,6 +2249,7 @@ rules:
  - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
  - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
+ - DOMAIN-SUFFIX,redirector.gvt1.com,🎯 全球直连
  - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
@@ -2173,22 +2282,15 @@ rules:
  - DOMAIN-SUFFIX,hayabusa.io,🚀 节点选择
  - DOMAIN-SUFFIX,c4assets.com,🚀 节点选择
  - DOMAIN-SUFFIX,channel4.com,🚀 节点选择
- - DOMAIN-KEYWORD,avoddashs,🚀 节点选择
- - DOMAIN,atv-ps.amazon.com,🚀 节点选择
- - DOMAIN,avodmp4s3ww-a.akamaihd.net,🚀 节点选择
- - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🚀 节点选择
- - DOMAIN,d1xfray82862hr.cloudfront.net,🚀 节点选择
- - DOMAIN,d22qjgkvxw22r6.cloudfront.net,🚀 节点选择
- - DOMAIN,d25xi40x97liuc.cloudfront.net,🚀 节点选择
- - DOMAIN,d27xxe7juh1us6.cloudfront.net,🚀 节点选择
- - DOMAIN,d3196yreox78o9.cloudfront.net,🚀 节点选择
- - DOMAIN,dmqdd6hw24ucf.cloudfront.net,🚀 节点选择
- - DOMAIN,ktpx.amazon.com,🚀 节点选择
+ - DOMAIN, atv-ps.amazon.com,🚀 节点选择
+ - DOMAIN, fls-na.amazon.com,🚀 节点选择
+ - DOMAIN-SUFFIX, media-amazon.com,🚀 节点选择
  - DOMAIN-SUFFIX,aiv-cdn.net,🚀 节点选择
- - DOMAIN-SUFFIX,aiv-delivery.net,🚀 节点选择
+ - DOMAIN-SUFFIX,amazonaws.co.uk,🚀 节点选择
+ - DOMAIN-SUFFIX,amazonaws.com,🚀 节点选择
  - DOMAIN-SUFFIX,amazonvideo.com,🚀 节点选择
- - DOMAIN-SUFFIX,media-amazon.com,🚀 节点选择
- - DOMAIN-SUFFIX,pv-cdn.net,🚀 节点选择
+ - DOMAIN-SUFFIX,llnwd.net,🚀 节点选择
+ - DOMAIN-SUFFIX,primevideo.com,🚀 节点选择
  - DOMAIN,gspe1-ssl.ls.apple.com,🚀 节点选择
  - DOMAIN,np-edge.itunes.apple.com,🚀 节点选择
  - DOMAIN,play-edge.itunes.apple.com,🚀 节点选择
@@ -2202,15 +2304,15 @@ rules:
  - DOMAIN-SUFFIX,bbc.co,🚀 节点选择
  - DOMAIN-SUFFIX,bbc.co.uk,🚀 节点选择
  - DOMAIN-SUFFIX,bbc.com,🚀 节点选择
- - DOMAIN-SUFFIX,bbc.net.uk,🚀 节点选择
  - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,🚀 节点选择
  - DOMAIN-SUFFIX,bbci.co,🚀 节点选择
  - DOMAIN-SUFFIX,bbci.co.uk,🚀 节点选择
- - DOMAIN-SUFFIX,bidi.net.uk,🚀 节点选择
  - DOMAIN,gamer-cds.cdn.hinet.net,🚀 节点选择
  - DOMAIN,gamer2-cds.cdn.hinet.net,🚀 节点选择
  - DOMAIN-SUFFIX,bahamut.com.tw,🚀 节点选择
  - DOMAIN-SUFFIX,gamer.com.tw,🚀 节点选择
+ - DOMAIN-SUFFIX,hinet.net,🚀 节点选择
+ - DOMAIN-KEYWORD,livedazn,🚀 节点选择
  - DOMAIN-KEYWORD,voddazn,🚀 节点选择
  - DOMAIN,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
  - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🚀 节点选择
@@ -2251,14 +2353,17 @@ rules:
  - DOMAIN-SUFFIX,encoretvb.com,🚀 节点选择
  - DOMAIN-SUFFIX,fox.com,🚀 节点选择
  - DOMAIN-SUFFIX,foxdcg.com,🚀 节点选择
+ - DOMAIN-SUFFIX,theplatform.com,🚀 节点选择
  - DOMAIN-SUFFIX,uplynk.com,🚀 节点选择
- - DOMAIN-SUFFIX,hbo.com,🚀 节点选择
- - DOMAIN-SUFFIX,hbogo.com,🚀 节点选择
- - DOMAIN-SUFFIX,hbomax.com,🚀 节点选择
- - DOMAIN-SUFFIX,hbomaxcdn.com,🚀 节点选择
- - DOMAIN-SUFFIX,hbonow.com,🚀 节点选择
- - DOMAIN-KEYWORD,.hbogoasia.,🚀 节点选择
- - DOMAIN-KEYWORD,hbogoasia,🚀 节点选择
+ - DOMAIN,cdn-fox-networks-group-green.akamaized.net,🚀 节点选择
+ - DOMAIN,d3cv4a9a9wh0bt.cloudfront.net,🚀 节点选择
+ - DOMAIN,foxsports01-i.akamaihd.net,🚀 节点选择
+ - DOMAIN,foxsports02-i.akamaihd.net,🚀 节点选择
+ - DOMAIN,foxsports03-i.akamaihd.net,🚀 节点选择
+ - DOMAIN,staticasiafox.akamaized.net,🚀 节点选择
+ - DOMAIN-SUFFIX,akamaized.net,🚀 节点选择
+ - DOMAIN-SUFFIX,foxplus.com,🚀 节点选择
+ - DOMAIN-SUFFIX,theplatform.com,🚀 节点选择
  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
  - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
  - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🚀 节点选择
@@ -2268,13 +2373,25 @@ rules:
  - DOMAIN,hboasia3-i.akamaihd.net,🚀 节点选择
  - DOMAIN,hboasia4-i.akamaihd.net,🚀 节点选择
  - DOMAIN,hboasia5-i.akamaihd.net,🚀 节点选择
- - DOMAIN,hboasialive.akamaized.net,🚀 节点选择
- - DOMAIN,hbogoprod-vod.akamaized.net,🚀 节点选择
- - DOMAIN,hbolb.onwardsmg.com,🚀 节点选择
- - DOMAIN,hbounify-prod.evergent.com,🚀 节点选择
  - DOMAIN,players.brightcove.net,🚀 节点选择
  - DOMAIN,s3-ap-southeast-1.amazonaws.com,🚀 节点选择
- - DOMAIN-SUFFIX,hboasia.com,🚀 节点选择
+ - DOMAIN-SUFFIX,hbo.com,🚀 节点选择
+ - DOMAIN-SUFFIX,hbogo.com,🚀 节点选择
+ - DOMAIN-SUFFIX,hbogoasia.com,🚀 节点选择
+ - DOMAIN-SUFFIX,hbogoasia.hk,🚀 节点选择
+ - DOMAIN-SUFFIX,hbomax.com,🚀 节点选择
+ - DOMAIN-SUFFIX,hbonow.com,🚀 节点选择
+ - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🚀 节点选择
+ - DOMAIN,bcbolthboa-a.akamaihd.net,🚀 节点选择
+ - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,🚀 节点选择
+ - DOMAIN,dai3fd1oh325y.cloudfront.net,🚀 节点选择
+ - DOMAIN,hboasia1-i.akamaihd.net,🚀 节点选择
+ - DOMAIN,hboasia2-i.akamaihd.net,🚀 节点选择
+ - DOMAIN,hboasia3-i.akamaihd.net,🚀 节点选择
+ - DOMAIN,hboasia4-i.akamaihd.net,🚀 节点选择
+ - DOMAIN,hboasia5-i.akamaihd.net,🚀 节点选择
+ - DOMAIN,players.brightcove.net,🚀 节点选择
+ - DOMAIN,s3-ap-southeast-1.amazonaws.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbogoasia.com,🚀 节点选择
  - DOMAIN-SUFFIX,hbogoasia.hk,🚀 节点选择
  - DOMAIN-SUFFIX,5itv.tv,🚀 节点选择
@@ -2322,13 +2439,11 @@ rules:
  - DOMAIN,d349g9zuie06uo.cloudfront.net,🚀 节点选择
  - DOMAIN-SUFFIX,channel5.com,🚀 节点选择
  - DOMAIN-SUFFIX,my5.tv,🚀 节点选择
- - DOMAIN-KEYWORD,nowtv100,🚀 节点选择
- - DOMAIN-KEYWORD,rthklive,🚀 节点选择
  - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🚀 节点选择
  - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🚀 节点选择
  - DOMAIN-SUFFIX,mytvsuper.com,🚀 节点选择
  - DOMAIN-SUFFIX,tvb.com,🚀 节点选择
- - DOMAIN-KEYWORD,dualstack.apiproxy-,🚀 节点选择
+ - DOMAIN-KEYWORD,dualstack.apiproxy-device-prod-nlb-,🚀 节点选择
  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🚀 节点选择
  - DOMAIN,netflix.com.edgesuite.net,🚀 节点选择
  - DOMAIN-SUFFIX,fast.com,🚀 节点选择
@@ -2388,7 +2503,6 @@ rules:
  - DOMAIN-SUFFIX,scdn.co,🚀 节点选择
  - DOMAIN-SUFFIX,spoti.fi,🚀 节点选择
  - DOMAIN-SUFFIX,spotify.com,🚀 节点选择
- - DOMAIN-SUFFIX,spotifycdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,spotifycdn.net,🚀 节点选择
  - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🚀 节点选择
  - DOMAIN-SUFFIX,tidal.com,🚀 节点选择
@@ -2433,7 +2547,6 @@ rules:
  - DOMAIN-SUFFIX,youtu.be,🚀 节点选择
  - DOMAIN-SUFFIX,youtube.com,🚀 节点选择
  - DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
- - DOMAIN,music.youtube.com,🚀 节点选择
  - DOMAIN-SUFFIX,1password.com,🚀 节点选择
  - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
  - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
@@ -2443,18 +2556,16 @@ rules:
  - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
  - DOMAIN-SUFFIX,gameloft.com,🚀 节点选择
  - DOMAIN-SUFFIX,garena.com,🚀 节点选择
- - DOMAIN-SUFFIX,hoyolab.com,🚀 节点选择
  - DOMAIN-SUFFIX,inoreader.com,🚀 节点选择
  - DOMAIN-SUFFIX,ip138.com,🚀 节点选择
- - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
- - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
- - DOMAIN-SUFFIX,notion.so,🚀 节点选择
  - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
  - DOMAIN-SUFFIX,reddit.com,🚀 节点选择
  - DOMAIN-SUFFIX,teddysun.com,🚀 节点选择
  - DOMAIN-SUFFIX,tumbex.com,🚀 节点选择
  - DOMAIN-SUFFIX,twdvd.com,🚀 节点选择
  - DOMAIN-SUFFIX,unsplash.com,🚀 节点选择
+ - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,🚀 节点选择
+ - DOMAIN-SUFFIX,yunpanjingling.com,🚀 节点选择
  - DOMAIN-SUFFIX,eu,🚀 节点选择
  - DOMAIN-SUFFIX,hk,🚀 节点选择
  - DOMAIN-SUFFIX,jp,🚀 节点选择
@@ -2558,7 +2669,6 @@ rules:
  - DOMAIN-SUFFIX,nintendo.net,🚀 节点选择
  - DOMAIN-SUFFIX,nsstatic.net,🚀 节点选择
  - DOMAIN-SUFFIX,nytstyle.com,🚀 节点选择
- - DOMAIN-SUFFIX,overcast.fm,🚀 节点选择
  - DOMAIN-SUFFIX,openvpn.net,🚀 节点选择
  - DOMAIN-SUFFIX,periscope.tv,🚀 节点选择
  - DOMAIN-SUFFIX,pinimg.com,🚀 节点选择
@@ -2639,6 +2749,8 @@ rules:
  - DOMAIN-SUFFIX,discord.media,🚀 节点选择
  - DOMAIN-SUFFIX,discordapp.com,🚀 节点选择
  - DOMAIN-SUFFIX,discordapp.net,🚀 节点选择
+ - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
+ - DOMAIN-SUFFIX,duboxcdn.com,🚀 节点选择
  - DOMAIN-SUFFIX,facebook.com,🚀 节点选择
  - DOMAIN-SUFFIX,fb.com,🚀 节点选择
  - DOMAIN-SUFFIX,fb.me,🚀 节点选择
@@ -2774,22 +2886,10 @@ rules:
  - DOMAIN-SUFFIX,smartmailcloud.com,🚀 节点选择
  - DOMAIN-SUFFIX,fanatical.com,🚀 节点选择
  - DOMAIN-SUFFIX,humblebundle.com,🚀 节点选择
- - DOMAIN-SUFFIX,underlords.com,🚀 节点选择
- - DOMAIN-SUFFIX,valvesoftware.com,🚀 节点选择
- - DOMAIN-SUFFIX,playartifact.com,🚀 节点选择
  - DOMAIN-SUFFIX,steam-chat.com,🚀 节点选择
  - DOMAIN-SUFFIX,steamcommunity.com,🚀 节点选择
- - DOMAIN-SUFFIX,steamgames.com,🚀 节点选择
  - DOMAIN-SUFFIX,steampowered.com,🚀 节点选择
  - DOMAIN-SUFFIX,steamstatic.com,🚀 节点选择
- - DOMAIN-SUFFIX,steamstat.us,🚀 节点选择
- - DOMAIN,steambroadcast.akamaized.net,🚀 节点选择
- - DOMAIN,steamcdn-a.akamaihd.net,🚀 节点选择
- - DOMAIN,steamcommunity-a.akamaihd.net,🚀 节点选择
- - DOMAIN,steamstore-a.akamaihd.net,🚀 节点选择
- - DOMAIN,steamusercontent-a.akamaihd.net,🚀 节点选择
- - DOMAIN,steamuserimages-a.akamaihd.net,🚀 节点选择
- - DOMAIN,steampipe.akamaized.net,🚀 节点选择
  - DOMAIN-SUFFIX,tap.io,🚀 节点选择
  - DOMAIN-SUFFIX,taptap.tw,🚀 节点选择
  - DOMAIN-SUFFIX,twitch.tv,🚀 节点选择
@@ -2812,8 +2912,6 @@ rules:
  - IP-CIDR6,2001:67c:4e8::/48,🚀 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23d::/48,🚀 节点选择,no-resolve
  - IP-CIDR6,2001:b28:f23f::/48,🚀 节点选择,no-resolve
- - DOMAIN-SUFFIX,terabox.com,🚀 节点选择
- - DOMAIN-SUFFIX,teraboxcdn.com,🚀 节点选择
  - IP-CIDR,18.194.0.0/15,🚀 节点选择,no-resolve
  - IP-CIDR,34.224.0.0/12,🚀 节点选择,no-resolve
  - IP-CIDR,54.242.0.0/15,🚀 节点选择,no-resolve
@@ -2845,7 +2943,6 @@ rules:
  - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
  - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
- - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
  - DOMAIN-SUFFIX,423down.com,🎯 全球直连
  - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
  - DOMAIN-SUFFIX,chaipip.com,🎯 全球直连
@@ -2854,10 +2951,6 @@ rules:
  - DOMAIN-SUFFIX,kaikeba.com,🎯 全球直连
  - DOMAIN-SUFFIX,laomo.me,🎯 全球直连
  - DOMAIN-SUFFIX,mpyit.com,🎯 全球直连
- - DOMAIN-SUFFIX,msftconnecttest.com,🎯 全球直连
- - DOMAIN-SUFFIX,msftncsi.com,🎯 全球直连
- - DOMAIN-SUFFIX,qupu123.com,🎯 全球直连
- - DOMAIN-SUFFIX,pdfwifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
  - DOMAIN-SUFFIX,中国,🎯 全球直连
  - DOMAIN-SUFFIX,公司,🎯 全球直连
@@ -2899,7 +2992,6 @@ rules:
  - DOMAIN-SUFFIX,alibabacloud.com,🎯 全球直连
  - DOMAIN-SUFFIX,alibabausercontent.com,🎯 全球直连
  - DOMAIN-SUFFIX,alicdn.com,🎯 全球直连
- - DOMAIN-SUFFIX,alicloudccp.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliexpress.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,alikunlun.com,🎯 全球直连
@@ -2909,7 +3001,6 @@ rules:
  - DOMAIN-SUFFIX,aliyun.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliyuncdn.com,🎯 全球直连
  - DOMAIN-SUFFIX,aliyuncs.com,🎯 全球直连
- - DOMAIN-SUFFIX,aliyundrive.com,🎯 全球直连
  - DOMAIN-SUFFIX,amap.com,🎯 全球直连
  - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
  - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
@@ -2944,18 +3035,13 @@ rules:
  - DOMAIN-SUFFIX,acg.tv,🎯 全球直连
  - DOMAIN-SUFFIX,acgvideo.com,🎯 全球直连
  - DOMAIN-SUFFIX,b23.tv,🎯 全球直连
- - DOMAIN-SUFFIX,bigfun.cn,🎯 全球直连
- - DOMAIN-SUFFIX,bigfunapp.cn,🎯 全球直连
  - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
- - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
  - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
  - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
  - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
- - DOMAIN-SUFFIX,bilivideo.cn,🎯 全球直连
  - DOMAIN-SUFFIX,hdslb.com,🎯 全球直连
  - DOMAIN-SUFFIX,im9.com,🎯 全球直连
- - DOMAIN-SUFFIX,smtcdns.net,🎯 全球直连
  - DOMAIN-SUFFIX,battle.net,🎯 全球直连
  - DOMAIN-SUFFIX,battlenet.com,🎯 全球直连
  - DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
@@ -3089,20 +3175,20 @@ rules:
  - DOMAIN-SUFFIX,playstationnetwork.com,🎯 全球直连
  - DOMAIN-SUFFIX,sony.com,🎯 全球直连
  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎯 全球直连
+ - DOMAIN-SUFFIX,csgo.wmsj.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,dl.steam.ksyna.com,🎯 全球直连
+ - DOMAIN-SUFFIX,dota2.wmsj.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,st.dl.bscstorage.net,🎯 全球直连
+ - DOMAIN-SUFFIX,st.dl.eccdnx.com,🎯 全球直连
+ - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net,🎯 全球直连
  - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamgames.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steampowered.com.8686c.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamstat.us,🎯 全球直连
+ - DOMAIN-SUFFIX,steamstatic.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
- - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
- - DOMAIN,csgo.wmsj.cn,🎯 全球直连
- - DOMAIN,dota2.wmsj.cn,🎯 全球直连
- - DOMAIN,wmsjsteam.com,🎯 全球直连
- - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
- - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
- - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
- - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
- - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
- - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
- - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
- - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,🎯 全球直连
  - DOMAIN-SUFFIX,foxmail.com,🎯 全球直连
  - DOMAIN-SUFFIX,gtimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,idqqimg.com,🎯 全球直连
@@ -3202,6 +3288,7 @@ rules:
  - DOMAIN-SUFFIX,baomitu.com,🎯 全球直连
  - DOMAIN-SUFFIX,bootcss.com,🎯 全球直连
  - DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
+ - DOMAIN-SUFFIX,jsdelivr.net,🎯 全球直连
  - DOMAIN-SUFFIX,staticfile.org,🎯 全球直连
  - DOMAIN-SUFFIX,upaiyun.com,🎯 全球直连
  - DOMAIN-SUFFIX,10010.com,🎯 全球直连
@@ -3319,10 +3406,9 @@ rules:
  - DOMAIN-SUFFIX,lancdns.com,🎯 全球直连
  - DOMAIN-SUFFIX,landiannews.com,🎯 全球直连
  - DOMAIN-SUFFIX,lanzou.com,🎯 全球直连
- - DOMAIN-SUFFIX,lanzoui.com,🎯 全球直连
- - DOMAIN-SUFFIX,lanzoux.com,🎯 全球直连
  - DOMAIN-SUFFIX,lemicp.com,🎯 全球直连
  - DOMAIN-SUFFIX,letitfly.me,🎯 全球直连
+ - DOMAIN-SUFFIX,linkedin.com,🎯 全球直连
  - DOMAIN-SUFFIX,lizhi.fm,🎯 全球直连
  - DOMAIN-SUFFIX,lizhi.io,🎯 全球直连
  - DOMAIN-SUFFIX,lizhifm.com,🎯 全球直连
@@ -3353,6 +3439,7 @@ rules:
  - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
  - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
  - DOMAIN-SUFFIX,ourdvs.com,🎯 全球直连
+ - DOMAIN-SUFFIX,overcast.fm,🎯 全球直连
  - DOMAIN-SUFFIX,paypal.com,🎯 全球直连
  - DOMAIN-SUFFIX,polyv.net,🎯 全球直连
  - DOMAIN-SUFFIX,qbox.me,🎯 全球直连
@@ -3389,7 +3476,6 @@ rules:
  - DOMAIN-SUFFIX,sspai.com,🎯 全球直连
  - DOMAIN-SUFFIX,startssl.com,🎯 全球直连
  - DOMAIN-SUFFIX,suning.com,🎯 全球直连
- - DOMAIN-SUFFIX,synology.com,🎯 全球直连
  - DOMAIN-SUFFIX,taihe.com,🎯 全球直连
  - DOMAIN-SUFFIX,th-sjy.com,🎯 全球直连
  - DOMAIN-SUFFIX,tianqi.com,🎯 全球直连
@@ -3408,6 +3494,7 @@ rules:
  - DOMAIN-SUFFIX,upyun.com,🎯 全球直连
  - DOMAIN-SUFFIX,uxengine.net,🎯 全球直连
  - DOMAIN-SUFFIX,videocc.net,🎯 全球直连
+ - DOMAIN-SUFFIX,vmware.com,🎯 全球直连
  - DOMAIN-SUFFIX,wandoujia.com,🎯 全球直连
  - DOMAIN-SUFFIX,weather.com,🎯 全球直连
  - DOMAIN-SUFFIX,weico.cc,🎯 全球直连
