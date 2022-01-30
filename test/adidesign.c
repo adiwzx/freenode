@@ -5,255 +5,304 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: adi|0125 - V41, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 adi|0125 - JP_17, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 adi|0123 - 香港, server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
-  - {name: adi|0125 - 卢森堡|01|BT|0x, server: buyvm.lu.tgproxy.wtf, port: 2052, type: vmess, uuid: a264fb64-26a1-4af3-97bb-a343250532bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: buyvm.lu.tgproxy.wtf}}, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国, server: 38.143.66.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 2, server: 142.202.48.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇪🇺 adi|0125+-+欧洲, server: 172.104.207.140, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 3, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇪🇺 adi|0125+-+欧洲 2, server: 172.104.207.140, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 4, server: 169.197.142.99, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 5, server: 169.197.142.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 6, server: 169.197.142.99, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: adi|0125+-+70, server: 198.57.27.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇬🇧 adi|0125+-+英国, server: 172.99.190.186, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 7, server: 38.68.134.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇬🇧 adi|0125+-+英国-1.74MB/s, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 8, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 9, server: 167.88.62.34, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 10, server: 38.68.134.191, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 11, server: 38.143.66.55, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 12, server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国-1.85MB/s, server: 38.68.134.37, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 13, server: 38.143.66.55, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 14, server: 169.197.143.219, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: adi|0125+-+, server: 62.210.209.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇫🇷 adi|0125+-+法国, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇪🇺 adi|0125+-+欧洲 3, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 15, server: 38.68.134.37, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 16, server: 38.68.134.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国Cogent9, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 17, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 18, server: 38.75.136.49, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 19, server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: adi|0125+-+69, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: adi|0125+-+43, server: 38.68.134.190, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 20, server: 38.68.134.191, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 21, server: 167.88.62.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 🇬🇧 adi|0125+-+英国 2, server: 172.99.190.186, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇪🇺 adi|0125+-+欧洲 4, server: 172.105.171.80, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 22, server: 38.107.226.238, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇷🇺 adi|0125 - 俄罗斯02, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
-  - {name: adi|0125 - 拉脱维亚|01|流解|0x, server: lv.tgproxy.wtf, port: 2052, type: vmess, uuid: a264fb64-26a1-4af3-97bb-a343250532bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: lv.tgproxy.wtf}}, udp: true}
-  - {name: 🇨🇦 adi|0119+-+加拿大-1.40MB/s, server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇬🇧 adi|0125+-+英国 3, server: 172.99.190.186, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 23, server: 38.143.66.87, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 24, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 25, server: 167.88.62.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 26, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: adi|0125+-+8, server: 38.68.134.190, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 🇫🇷 adi|0125 - 法国|02|OVH, server: ovh.fr.tgproxy.wtf, port: 8888, type: vmess, uuid: a264fb64-26a1-4af3-97bb-a343250532bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: ovh.fr.tgproxy.wtf}}, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 27, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125 - 美国V19, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 51273235-0995-455e-96e4-83b1811b4cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
-  - {name: 🇪🇺 adi|0125+-+欧洲 5, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 28, server: 38.143.66.20, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 29, server: 38.143.66.87, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: adi|0125+-+14, server: 38.68.134.190, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: adi|0125+-+29, server: 38.68.134.190, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 30, server: 38.143.66.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 31, server: 38.143.66.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 32, server: 38.143.66.20, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 33, server: 38.68.134.190, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 34, server: 38.143.66.20, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 35, server: 38.143.66.20, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 36, server: 38.143.66.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0125 - 美国V19 2, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 51273235-0995-455e-96e4-83b1811b4cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
+  - {name: 🇭🇰 adi|0130 - 香港, server: 121.wgong.xyz, port: 52221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, udp: true}
+  - {name: adi|0130 - 3, server: 141.164.42.236, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 🇰🇷 adi|0130 - 韩国, server: 141.164.56.110, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇰🇷 adi|0130 - 韩国 2, server: 141.164.42.67, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国V08b, server: v8.ssrsub.com, port: 443, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国V19b, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 50a90339-8afa-4579-832d-f5d608a6f569, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: adi|0130 - 三网15, server: la40.bulink.xyz.fobzs.com, port: 8880, type: vmess, uuid: 445886f2-ada8-43d0-9d24-84d1db7c9b7a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 2, server: 169.197.142.99, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国, server: 169.197.142.99, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: adi|0130 - 三网19, server: la49.bulink.xyz.fobzs.com, port: 8008, type: vmess, uuid: 445886f2-ada8-43d0-9d24-84d1db7c9b7a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 2, server: 38.75.136.49, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 3, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 3, server: 38.75.136.49, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 4, server: 38.75.136.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 4, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 5, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 6, server: 169.197.142.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 5, server: 169.197.142.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 6, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 7, server: 169.197.142.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 8, server: 169.197.142.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 9, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 10, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 11, server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 12, server: 169.197.142.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 7, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 13, server: 169.197.142.99, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 14, server: 169.197.142.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 8, server: 104.24.223.86, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: us.fovi.tk}}, udp: true}
+  - {name: adi|0130 - 三网11, server: ny56.bulink.xyz.fobzs.com, port: 8000, type: vmess, uuid: 445886f2-ada8-43d0-9d24-84d1db7c9b7a, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 15, server: 169.197.143.29, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 16, server: 169.197.143.29, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: adi|0130 - 44, server: 38.75.136.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国-4.57MB/s, server: 169.197.143.29, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 17, server: 169.197.143.29, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 18, server: 169.197.143.29, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 9, server: 38.143.66.249, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 10, server: 38.91.102.123, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 19, server: 169.197.143.29, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 20, server: 169.197.143.29, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 21, server: 38.143.66.210, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 11, server: 38.143.66.210, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 22, server: 169.197.143.29, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 12, server: 38.143.66.210, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 23, server: 38.143.66.210, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 24, server: 38.143.66.210, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 13, server: 38.91.102.123, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 25, server: 38.143.66.210, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 26, server: 169.197.143.29, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 27, server: 38.143.66.210, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 28, server: 38.143.66.210, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 29, server: 38.143.66.210, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 14, server: 38.143.66.55, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 30, server: 38.143.66.55, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 31, server: 38.143.66.55, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 15, server: 38.143.66.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 32, server: 38.143.66.210, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 16, server: 38.143.66.55, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 17, server: 38.143.66.55, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 18, server: 38.143.66.55, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 19, server: 38.143.66.55, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 33, server: 38.143.66.55, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: adi|0130 - 89, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 20, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 34, server: 38.68.134.191, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 35, server: 38.143.66.55, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 21, server: 38.143.66.249, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 22, server: 38.143.66.55, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 23, server: 38.68.134.191, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: adi|0130 - 77, server: 38.68.134.37, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 36, server: 38.143.66.55, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 24, server: 38.68.134.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 25, server: 38.91.102.124, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 26, server: 38.91.102.124, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 🇺🇸 adi|0125+-+美国 37, server: 38.68.134.191, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 38, server: 38.143.66.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 39, server: 38.143.66.20, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 40, server: 38.143.66.187, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇨🇦 adi|0125+-+加拿大, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 41, server: 38.143.66.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 42, server: 169.197.142.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 43, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇬🇧 adi|0125+-+英国 4, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 44, server: 38.143.66.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 45, server: 38.143.66.20, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 46, server: 38.143.66.20, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: adi|0125+-+9, server: 38.68.134.190, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇨🇦 adi|0125+-+加拿大 2, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 47, server: 38.68.135.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇪🇺 adi|0125+-+欧洲 6, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 48, server: 38.143.66.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 49, server: 38.68.135.18, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 50, server: 38.143.66.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 51, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: adi|0125+-+17, server: 38.68.134.190, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 52, server: 38.114.114.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 53, server: 38.143.66.20, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 54, server: 38.143.66.20, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: adi|0125+-+24, server: 38.68.134.190, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇨🇦 adi|0125+-+加拿大 3, server: 198.57.27.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇨🇳 adi|0123 - 中国, server: one.hmbiplc.com, port: 53894, type: vmess, uuid: 07d676a1-903d-4606-93bd-e3522089f951, alterId: 4, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 55, server: 38.143.66.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: adi|0123+-+CA_76, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 56, server: 38.68.134.190, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: adi|0125+-+20, server: 38.68.134.37, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇷🇺 adi|0125 - 俄罗斯13, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 51273235-0995-455e-96e4-83b1811b4cab, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
-  - {name: adi|0125+-+51, server: 134.195.196.214, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: adi|0125+-+10, server: 38.68.134.190, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 57, server: 38.143.66.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇺🇸 adi|0123+-+US_61, server: 169.197.141.244, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 58, server: 38.68.134.190, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 59, server: 38.68.134.37, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇸 adi|0125 - 美国|主|03|AWSUS|0.1x|流解, server: aws.us.tgproxy.wtf, port: 21888, type: vmess, uuid: a264fb64-26a1-4af3-97bb-a343250532bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: aws.us.tgproxy.wtf}}, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 60, server: 38.68.134.37, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 61, server: 38.68.134.190, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇨🇦 adi|0125+-+加拿大 4, server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 62, server: 38.68.135.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 63, server: 38.143.66.87, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 64, server: 38.68.134.190, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 65, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇪🇺 adi|0125+-+欧洲 7, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇸 adi|0125 - 美国V08, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v8.ssrsub.com}}, udp: true}
-  - {name: adi|0123 -, server: 104.16.192.211, port: 443, type: vmess, uuid: 59a44ca8-085b-426f-9e06-51fd334279a5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /59a44ca8-085b-426f-9e06-51fd334279a5-vmess, headers: {Host: eu1.xyou.workers.dev}}, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 66, server: 38.68.134.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 67, server: 38.143.66.87, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: adi|0125+-+39, server: 38.68.134.190, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 68, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 69, server: 38.68.134.190, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇫🇷 adi|0125+-+法国 2, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 70, server: 38.68.134.37, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 71, server: 38.68.134.37, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国-4.60MB/s, server: 38.68.135.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 72, server: 38.107.226.238, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: adi|0130 - 84, server: 38.68.134.37, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 27, server: 38.75.136.49, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: adi|0130 - 58, server: 38.68.134.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 28, server: 38.91.102.125, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 29, server: 38.75.136.49, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 30, server: 38.68.134.37, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国-3.63MB/s, server: 38.68.134.37, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 31, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: adi|0130 - 53, server: 38.68.134.191, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: adi|0130 - 92, server: 38.68.134.37, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: adi|0130 - 79, server: 38.68.134.37, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 32, server: 38.68.134.37, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 38, server: 38.143.66.210, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 33, server: 38.68.134.37, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 39, server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 34, server: 38.143.66.55, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇪🇺 adi|0130 - 欧洲, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 35, server: 38.114.114.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 36, server: 38.143.66.249, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 37, server: 38.143.66.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 40, server: 38.143.66.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: adi|0130 - 39, server: 38.143.66.20, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 38, server: 38.143.66.20, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 41, server: 38.143.66.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: adi|0130 - 49, server: 38.143.66.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 42, server: 38.143.66.20, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 43, server: 38.143.66.20, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 44, server: 38.143.66.20, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 45, server: 169.197.143.29, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 39, server: 38.143.66.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 46, server: 38.143.66.20, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: adi|0130 - 95, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 40, server: 38.143.66.187, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 47, server: 38.143.66.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 41, server: 38.143.66.20, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 42, server: 38.143.66.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇨🇦 adi|0130 - 加拿大-3.51MB/s, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 48, server: 38.143.66.187, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国-3.03MB/s, server: 38.114.114.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 49, server: 38.143.66.210, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 50, server: 38.143.66.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇪🇺 adi|0130 - 欧洲 2, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 51, server: 38.143.66.20, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: adi|0130 - 51, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: adi|0130 - 76, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 52, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 53, server: 167.88.62.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: adi|0130 - 13, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国-4.44MB/s, server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇪🇺 adi|0130 - 欧洲 3, server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 43, server: 38.68.134.23, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 54, server: 38.68.134.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 44, server: 38.114.114.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: adi|0125+-+48, server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 73, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 74, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇪🇺 adi|0125+-+欧洲 8, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 75, server: 172.99.190.186, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 76, server: 169.197.141.240, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 77, server: 38.143.66.87, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇬🇧 adi|0125+-+英国 5, server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇪🇺 adi|0125+-+欧洲 9, server: 38.68.135.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国-3.98MB/s, server: 38.68.135.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 78, server: 38.143.66.87, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 🇫🇷 adi|0125+-+法国 3, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 79, server: 38.68.135.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 80, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: adi|0125+-+30, server: 38.68.134.190, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 🇬🇧 adi|0125+-+英国 6, server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 81, server: 38.143.66.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇫🇷 adi|0125+-+法国 4, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 82, server: 169.197.143.29, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: adi|0125 - V04, server: 23.82.136.151, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: 23.82.136.151}}, udp: true}
-  - {name: 🇬🇧 adi|0125+-+英国 7, server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 83, server: 192.46.209.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 84, server: 38.68.135.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 85, server: 38.68.135.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇬🇧 adi|0125+-+英国 8, server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 86, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: adi|0125+-+26, server: 38.68.134.190, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: adi|0125+-+65, server: 167.88.63.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 45, server: 38.91.102.125, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 55, server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇪🇺 adi|0130 - 欧洲 4, server: 167.88.63.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇪🇺 adi|0130 - 欧洲 5, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 46, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: adi|0130 - 72, server: 38.68.134.37, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: adi|0130 - 112, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇨🇦 adi|0130 - 加拿大-582.4KB/s, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 47, server: 38.91.102.125, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇪🇺 adi|0130 - 欧洲 6, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇨🇦 adi|0130 - 加拿大-3.53MB/s, server: 134.195.196.214, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: adi|0130 - 90, server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 48, server: 38.91.102.125, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: adi|0130 - 132, server: 134.195.196.214, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇨🇦 adi|0130 - 加拿大-3.58MB/s, server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: adi|0130 - 54, server: 167.88.63.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: adi|0130 - 60, server: 134.195.196.214, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国-3.65MB/s, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇨🇦 adi|0130 - 加拿大-3.08MB/s, server: 134.195.196.214, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: adi|0130 - 115, server: 134.195.196.214, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: adi|0130 - 93, server: 167.88.63.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇷🇺 adi|0130 - 俄罗斯|Justhost|0.1x|流解, server: justhost.ru.tgproxy.wtf, port: 21888, type: vmess, uuid: a264fb64-26a1-4af3-97bb-a343250532bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: justhost.ru.tgproxy.wtf}}, udp: true}
+  - {name: adi|0130 - 128, server: 134.195.196.214, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇪🇺 adi|0130 - 欧洲 7, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: adi|0130 - 43, server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: adi|0130 - 39 2, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 56, server: 38.143.66.20, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 57, server: 38.143.66.20, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 58, server: 38.143.66.187, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: adi|0130 - 136, server: 134.195.196.214, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: adi|0130 - 30, server: 134.195.196.214, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: adi|0130 - 119, server: 134.195.196.214, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇪🇺 adi|0130 - 欧洲 8, server: 38.107.226.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: adi|0130 - 82, server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 49, server: 169.197.141.240, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇪🇺 adi|0130 - 欧洲 9, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国-1.66MB/s, server: 169.197.141.24, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: adi|0130 - 64, server: 134.195.196.200, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国-1.42MB/s, server: 38.91.101.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 59, server: 38.143.66.20, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 50, server: 169.197.141.24, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 51, server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇨🇦 adi|0130 - 加拿大-3.54MB/s, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: adi|0130 - 27, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇨🇦 adi|0130 - 加拿大, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: adi|0125+-+55, server: 167.88.63.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: adi|0125+-+32, server: 38.68.134.190, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 87, server: 169.197.143.29, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇨🇦 adi|0125+-+加拿大-3.47MB/s, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇪🇺 adi|0125+-+欧洲 10, server: 134.195.196.128, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 🇪🇺 adi|0125+-+欧洲 11, server: 134.195.196.128, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 88, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 89, server: 38.143.66.210, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 90, server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇬🇧 adi|0125+-+英国 9, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 91, server: 38.143.66.55, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 92, server: 169.197.143.219, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 93, server: 38.68.135.18, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 94, server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 95, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 96, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 97, server: 38.107.226.159, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇨🇦 adi|0119+-+CA_加拿大+21, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇬🇧 adi|0125+-+英国 10, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇬🇧 adi|0125+-+英国-3.10MB/s, server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国++24, server: 172.99.190.139, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 98, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇪🇺 adi|0130 - 欧洲 10, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇨🇦 adi|0130 - 加拿大-3.55MB/s, server: 134.195.196.200, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇨🇦 adi|0130 - 加拿大-2.04MB/s, server: 134.195.196.200, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: adi|0130 - 65, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇨🇦 adi|0125+-+加拿大, server: 198.57.27.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国-3.38MB/s, server: 169.197.141.24, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 52, server: 169.197.141.24, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 🇬🇧 adi|0125+-+英国-2.29MB/s, server: 172.99.190.139, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 99, server: 172.99.190.186, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇬🇧 adi|0125+-+英国 11, server: 172.99.190.186, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: adi|0125+-+13, server: 38.68.134.190, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 100, server: 169.197.143.219, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇬🇧 adi|0125+-+英国 12, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 101, server: 38.143.66.55, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: adi|0125+-+28, server: 38.68.134.190, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 102, server: 38.91.100.200, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 103, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 104, server: 38.91.100.200, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 105, server: 38.143.66.20, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 106, server: 38.143.66.187, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 107, server: 169.197.143.219, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 108, server: 38.143.66.210, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 109, server: 38.143.66.210, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 110, server: 38.143.66.55, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 111, server: 38.143.66.20, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 112, server: 38.143.66.210, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 113, server: 38.143.66.55, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 114, server: 169.197.143.219, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 115, server: 38.143.66.210, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 116, server: 169.197.143.29, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 117, server: 38.143.66.210, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 118, server: 38.143.66.55, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 119, server: 38.68.135.18, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 120, server: 38.68.135.18, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 121, server: 169.197.143.29, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 122, server: 169.197.143.29, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 123, server: 38.68.135.18, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 124, server: 38.143.66.55, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 125, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 126, server: 38.143.66.210, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 127, server: 38.143.66.210, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 128, server: 169.197.142.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 129, server: 38.75.136.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 130, server: 169.197.143.219, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 131, server: 38.143.66.210, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 132, server: 169.197.143.29, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 133, server: 169.197.142.99, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 134, server: 169.197.142.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 135, server: 169.197.142.99, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 136, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 137, server: 169.197.142.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 138, server: 169.197.142.99, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 139, server: 169.197.142.99, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 140, server: 169.197.142.99, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 141, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 142, server: 169.197.143.219, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 143, server: 169.197.142.99, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 144, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 145, server: 169.197.143.219, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 146, server: 169.197.143.219, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 147, server: 169.197.143.29, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 148, server: 169.197.143.219, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 149, server: 169.197.143.29, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 150, server: 169.197.143.219, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 151, server: 169.197.143.219, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 152, server: 38.143.66.210, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 153, server: 169.197.143.219, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 154, server: 38.143.66.210, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 155, server: 38.143.66.210, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 156, server: 38.143.66.55, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 157, server: 38.143.66.55, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 158, server: 38.75.136.49, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 159, server: 38.143.66.55, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 160, server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 161, server: 169.197.143.29, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 162, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 163, server: 38.68.134.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 164, server: 169.197.143.29, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 165, server: 169.197.143.219, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 166, server: 169.197.143.219, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇺🇸 adi|0125+-+美国 167, server: 192.46.209.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: adi|0130 - 106, server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: adi|0130 - 133, server: 134.195.198.252, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: adi|0130 - 130, server: 134.195.196.214, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇬🇧 adi|0130 - 英国-3.09MB/s, server: 172.99.190.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇪🇺 adi|0130 - 欧洲 11, server: 134.195.198.252, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: adi|0130 - 102, server: 134.195.196.214, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: adi|0130 - 73, server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: adi|0130 - 87, server: 134.195.196.200, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国5, server: 172.99.190.139, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: adi|0130 - 131, server: 134.195.196.128, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: adi|0130 - 66, server: 134.195.196.214, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: adi|0130 - 28, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: adi|0130 - 88, server: 134.195.196.128, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: adi|0130 - 18, server: 134.195.196.200, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: adi|0130 - 16, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 60, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇫🇷 adi|0125+-+法国, server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 53, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: adi|0130 - 97, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇬🇧 adi|0125+-+英国, server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 61, server: 38.91.100.200, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: adi|0130 - 87 2, server: 167.88.63.28, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: adi|0130 - 13 2, server: 38.107.226.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: adi|0130 - 69, server: oz1.mooncloud.bike, port: 8443, type: vmess, uuid: 2c42a34e-5f88-492b-8a59-3531090578f8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: oz1.mooncloud.bike}}, udp: true}
+  - {name: adi|0130 - 124, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国|主|03|AWSUS|0.1x|流解, server: aws.us.tgproxy.wtf, port: 21888, type: vmess, uuid: a264fb64-26a1-4af3-97bb-a343250532bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: aws.us.tgproxy.wtf}}, udp: true}
+  - {name: 🇪🇺 adi|0130 - 欧洲 12, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: adi|0130 - 107, server: 134.195.196.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国-3.34MB/s, server: 169.197.141.24, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇬🇧 adi|0125+-+英国 2, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: adi|0130 - 35, server: 134.195.196.128, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: adi|0130 - 85, server: 172.105.244.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: adi|0130 - 34, server: 134.195.196.128, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: adi|0130 - 74, server: 134.195.196.128, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 🇺🇸 adi|0123+-+US_61, server: 169.197.141.244, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 54, server: 172.99.190.84, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: adi|0130 - 127, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇪🇺 adi|0130 - 欧洲 13, server: 134.195.196.128, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: adi|0130 - 114, server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 55, server: aws.us.tgproxy.wtf, port: 21888, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: aws.us.tgproxy.wtf}}, udp: true}
+  - {name: 🇨🇦 adi|0130 - 加拿大-2.98MB/s, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: adi|0130 - 122, server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇬🇧 adi|0125+-+英国 3, server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇬🇧 adi|0125+-+英国 4, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 62, server: 38.91.100.200, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: adi|0130 - 111, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇪🇺 adi|0125+-+欧洲, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇫🇷 adi|0130 - 法国-2.90MB/s, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: adi|0130 - 56, server: 134.195.196.128, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: adi|0130 - 109, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: adi|0130 - 120, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: adi|0130 - 拉脱维亚|01|流解|0x, server: lv.tgproxy.wtf, port: 2052, type: vmess, uuid: a264fb64-26a1-4af3-97bb-a343250532bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: lv.tgproxy.wtf}}, udp: true}
+  - {name: adi|0130 - 24, server: 134.195.196.128, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: adi|0130 - 50, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇨🇦 adi|0130 - 加拿大 2, server: 134.195.196.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: adi|0123 -, server: 104.16.192.211, port: 443, type: vmess, uuid: 59a44ca8-085b-426f-9e06-51fd334279a5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /59a44ca8-085b-426f-9e06-51fd334279a5-vmess, headers: {Host: eu1.xyou.workers.dev}}, udp: true}
+  - {name: 🇬🇧 adi|0130 - 英国-3.02MB/s, server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: adi|0130 - 135, server: 134.195.196.128, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: adi|0130 - 91, server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: adi|0130 - V05, server: 42.157.8.162, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, udp: true}
+  - {name: adi|0130 - 71, server: 172.99.190.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: adi|0130 - 57, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇪🇺 adi|0130 - 欧洲 14, server: 217.182.199.168, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: adi|0130 - 53 2, server: 134.195.196.128, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 56, server: 167.88.63.61, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: adi|0130 - 118, server: 134.195.196.149, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 57, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: adi|0130 - 145, server: 172.105.244.165, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: adi|0130 - 86, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: adi|0130 - 110, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国-829.6KB/s, server: 38.107.226.48, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: adi|0130 - 69 2, server: 172.105.244.165, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 🇨🇦 adi|0130 - 加拿大 3, server: 134.195.196.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇪🇺 adi|0130 - 欧洲 15, server: 134.195.196.128, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇨🇦 adi|0130 - 加拿大-1.03MB/s 2, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: adi|0130 - 11, server: 134.195.196.128, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: adi|0130 - 67, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 63, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: adi|0130 - 104, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: adi|0130 - 78, server: 134.195.196.128, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: adi|0130 - 141, server: 142.202.48.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 58, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 59, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 64, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇫🇷 adi|0125+-+法国 2, server: 62.210.209.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇰🇷 adi|0130 - 韩国 3, server: 141.164.42.236, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: adi|0130 - 138, server: 172.104.207.140, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇫🇷 adi|0125+-+法国 3, server: 62.210.209.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇰🇷 adi|0130 - 韩国|01|AWSKR|0.1x|移动起飞, server: aws.kr.tgproxy.wtf, port: 21888, type: vmess, uuid: a264fb64-26a1-4af3-97bb-a343250532bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: aws.kr.tgproxy.wtf}}, udp: true}
   - {name: 🇯🇵 adi|0125 - 日本|03|LINODE|0.7x|流解, server: linode.jp.tgproxy.wtf, port: 28888, type: vmess, uuid: a264fb64-26a1-4af3-97bb-a343250532bc, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: linode.jp.tgproxy.wtf}}, udp: true}
+  - {name: adi|0130 - 139, server: 172.104.207.140, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 60, server: 38.143.66.55, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 65, server: 169.197.142.99, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 66, server: 169.197.142.99, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 67, server: 38.143.66.55, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: adi|0130 - 146, server: 38.68.134.191, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: adi|0130 - 147, server: 38.68.134.37, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 68, server: 169.197.142.99, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 69, server: 167.88.62.34, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 70, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 71, server: 38.68.134.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: adi|0125+-+70, server: 198.57.27.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: adi|0130 - 148, server: 134.195.196.214, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: adi|0130 - 150, server: 134.195.196.214, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇨🇦 adi|0130 - 加拿大-1.25MB/s, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇬🇧 adi|0125+-+英国-1.74MB/s, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇨🇦 adi|0130 - 加拿大-1.80MB/s, server: 134.195.196.128, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0130 - 美国 61, server: 169.197.141.24, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: adi|0130 - 149, server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇪🇺 adi|0130 - 欧洲 16, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇨🇦 adi|0130 - 加拿大-1.71MB/s, server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0125+-+美国 72, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: adi|0130 - 57 2, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇷🇺 adi|0130 - 俄罗斯02b, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: a56903b7-e983-4cd5-99a6-94d62c79b128, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v2.ssrsub.com}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -262,1019 +311,1215 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - adi|0125 - V41
-      - 🇯🇵 adi|0125 - JP_17
-      - 🇭🇰 adi|0123 - 香港
-      - adi|0125 - 卢森堡|01|BT|0x
+      - 🇭🇰 adi|0130 - 香港
+      - adi|0130 - 3
+      - 🇰🇷 adi|0130 - 韩国
+      - 🇰🇷 adi|0130 - 韩国 2
+      - 🇺🇸 adi|0130 - 美国V08b
+      - 🇺🇸 adi|0130 - 美国V19b
+      - 🇺🇸 adi|0130 - 美国
+      - adi|0130 - 三网15
+      - 🇺🇸 adi|0130 - 美国 2
       - 🇺🇸 adi|0125+-+美国
+      - adi|0130 - 三网19
       - 🇺🇸 adi|0125+-+美国 2
-      - 🇪🇺 adi|0125+-+欧洲
       - 🇺🇸 adi|0125+-+美国 3
-      - 🇪🇺 adi|0125+-+欧洲 2
+      - 🇺🇸 adi|0130 - 美国 3
       - 🇺🇸 adi|0125+-+美国 4
+      - 🇺🇸 adi|0130 - 美国 4
+      - 🇺🇸 adi|0130 - 美国 5
+      - 🇺🇸 adi|0130 - 美国 6
       - 🇺🇸 adi|0125+-+美国 5
       - 🇺🇸 adi|0125+-+美国 6
-      - adi|0125+-+70
-      - 🇬🇧 adi|0125+-+英国
       - 🇺🇸 adi|0125+-+美国 7
-      - 🇬🇧 adi|0125+-+英国-1.74MB/s
       - 🇺🇸 adi|0125+-+美国 8
       - 🇺🇸 adi|0125+-+美国 9
       - 🇺🇸 adi|0125+-+美国 10
       - 🇺🇸 adi|0125+-+美国 11
       - 🇺🇸 adi|0125+-+美国 12
-      - 🇺🇸 adi|0125+-+美国-1.85MB/s
+      - 🇺🇸 adi|0130 - 美国 7
       - 🇺🇸 adi|0125+-+美国 13
       - 🇺🇸 adi|0125+-+美国 14
-      - adi|0125+-+
-      - 🇫🇷 adi|0125+-+法国
-      - 🇪🇺 adi|0125+-+欧洲 3
+      - 🇺🇸 adi|0130 - 美国 8
+      - adi|0130 - 三网11
       - 🇺🇸 adi|0125+-+美国 15
       - 🇺🇸 adi|0125+-+美国 16
-      - 🇺🇸 adi|0125+-+美国Cogent9
+      - adi|0130 - 44
+      - 🇺🇸 adi|0130 - 美国-4.57MB/s
       - 🇺🇸 adi|0125+-+美国 17
       - 🇺🇸 adi|0125+-+美国 18
+      - 🇺🇸 adi|0130 - 美国 9
+      - 🇺🇸 adi|0130 - 美国 10
       - 🇺🇸 adi|0125+-+美国 19
-      - adi|0125+-+69
-      - adi|0125+-+43
       - 🇺🇸 adi|0125+-+美国 20
       - 🇺🇸 adi|0125+-+美国 21
-      - 🇬🇧 adi|0125+-+英国 2
-      - 🇪🇺 adi|0125+-+欧洲 4
+      - 🇺🇸 adi|0130 - 美国 11
       - 🇺🇸 adi|0125+-+美国 22
-      - 🇷🇺 adi|0125 - 俄罗斯02
-      - adi|0125 - 拉脱维亚|01|流解|0x
-      - 🇨🇦 adi|0119+-+加拿大-1.40MB/s
-      - 🇬🇧 adi|0125+-+英国 3
+      - 🇺🇸 adi|0130 - 美国 12
       - 🇺🇸 adi|0125+-+美国 23
       - 🇺🇸 adi|0125+-+美国 24
+      - 🇺🇸 adi|0130 - 美国 13
       - 🇺🇸 adi|0125+-+美国 25
       - 🇺🇸 adi|0125+-+美国 26
-      - adi|0125+-+8
-      - 🇫🇷 adi|0125 - 法国|02|OVH
       - 🇺🇸 adi|0125+-+美国 27
-      - 🇺🇸 adi|0125 - 美国V19
-      - 🇪🇺 adi|0125+-+欧洲 5
       - 🇺🇸 adi|0125+-+美国 28
       - 🇺🇸 adi|0125+-+美国 29
-      - adi|0125+-+14
-      - adi|0125+-+29
+      - 🇺🇸 adi|0130 - 美国 14
       - 🇺🇸 adi|0125+-+美国 30
       - 🇺🇸 adi|0125+-+美国 31
+      - 🇺🇸 adi|0130 - 美国 15
       - 🇺🇸 adi|0125+-+美国 32
+      - 🇺🇸 adi|0130 - 美国 16
+      - 🇺🇸 adi|0130 - 美国 17
+      - 🇺🇸 adi|0130 - 美国 18
+      - 🇺🇸 adi|0130 - 美国 19
       - 🇺🇸 adi|0125+-+美国 33
+      - adi|0130 - 89
+      - 🇺🇸 adi|0130 - 美国 20
       - 🇺🇸 adi|0125+-+美国 34
       - 🇺🇸 adi|0125+-+美国 35
+      - 🇺🇸 adi|0130 - 美国 21
+      - 🇺🇸 adi|0130 - 美国 22
+      - 🇺🇸 adi|0130 - 美国 23
+      - adi|0130 - 77
       - 🇺🇸 adi|0125+-+美国 36
-      - 🇺🇸 adi|0125 - 美国V19 2
+      - 🇺🇸 adi|0130 - 美国 24
+      - 🇺🇸 adi|0130 - 美国 25
+      - 🇺🇸 adi|0130 - 美国 26
       - 🇺🇸 adi|0125+-+美国 37
+      - adi|0130 - 84
+      - 🇺🇸 adi|0130 - 美国 27
+      - adi|0130 - 58
+      - 🇺🇸 adi|0130 - 美国 28
+      - 🇺🇸 adi|0130 - 美国 29
+      - 🇺🇸 adi|0130 - 美国 30
+      - 🇺🇸 adi|0130 - 美国-3.63MB/s
+      - 🇺🇸 adi|0130 - 美国 31
+      - adi|0130 - 53
+      - adi|0130 - 92
+      - adi|0130 - 79
+      - 🇺🇸 adi|0130 - 美国 32
       - 🇺🇸 adi|0125+-+美国 38
+      - 🇺🇸 adi|0130 - 美国 33
       - 🇺🇸 adi|0125+-+美国 39
+      - 🇺🇸 adi|0130 - 美国 34
+      - 🇪🇺 adi|0130 - 欧洲
+      - 🇺🇸 adi|0130 - 美国 35
+      - 🇺🇸 adi|0130 - 美国 36
+      - 🇺🇸 adi|0130 - 美国 37
       - 🇺🇸 adi|0125+-+美国 40
-      - 🇨🇦 adi|0125+-+加拿大
+      - adi|0130 - 39
+      - 🇺🇸 adi|0130 - 美国 38
       - 🇺🇸 adi|0125+-+美国 41
+      - adi|0130 - 49
       - 🇺🇸 adi|0125+-+美国 42
       - 🇺🇸 adi|0125+-+美国 43
-      - 🇬🇧 adi|0125+-+英国 4
       - 🇺🇸 adi|0125+-+美国 44
       - 🇺🇸 adi|0125+-+美国 45
+      - 🇺🇸 adi|0130 - 美国 39
       - 🇺🇸 adi|0125+-+美国 46
-      - adi|0125+-+9
-      - 🇨🇦 adi|0125+-+加拿大 2
+      - adi|0130 - 95
+      - 🇺🇸 adi|0130 - 美国 40
       - 🇺🇸 adi|0125+-+美国 47
-      - 🇪🇺 adi|0125+-+欧洲 6
+      - 🇺🇸 adi|0130 - 美国 41
+      - 🇺🇸 adi|0130 - 美国 42
+      - 🇨🇦 adi|0130 - 加拿大-3.51MB/s
       - 🇺🇸 adi|0125+-+美国 48
+      - 🇺🇸 adi|0130 - 美国-3.03MB/s
       - 🇺🇸 adi|0125+-+美国 49
       - 🇺🇸 adi|0125+-+美国 50
+      - 🇪🇺 adi|0130 - 欧洲 2
       - 🇺🇸 adi|0125+-+美国 51
-      - adi|0125+-+17
+      - adi|0130 - 51
+      - adi|0130 - 76
       - 🇺🇸 adi|0125+-+美国 52
       - 🇺🇸 adi|0125+-+美国 53
+      - adi|0130 - 13
+      - 🇺🇸 adi|0130 - 美国-4.44MB/s
+      - 🇪🇺 adi|0130 - 欧洲 3
+      - 🇺🇸 adi|0130 - 美国 43
       - 🇺🇸 adi|0125+-+美国 54
-      - adi|0125+-+24
-      - 🇨🇦 adi|0125+-+加拿大 3
-      - 🇨🇳 adi|0123 - 中国
+      - 🇺🇸 adi|0130 - 美国 44
+      - adi|0125+-+48
+      - 🇺🇸 adi|0130 - 美国 45
       - 🇺🇸 adi|0125+-+美国 55
-      - adi|0123+-+CA_76
+      - 🇪🇺 adi|0130 - 欧洲 4
+      - 🇪🇺 adi|0130 - 欧洲 5
+      - 🇺🇸 adi|0130 - 美国 46
+      - adi|0130 - 72
+      - adi|0130 - 112
+      - 🇨🇦 adi|0130 - 加拿大-582.4KB/s
+      - 🇺🇸 adi|0130 - 美国 47
+      - 🇪🇺 adi|0130 - 欧洲 6
+      - 🇨🇦 adi|0130 - 加拿大-3.53MB/s
+      - adi|0130 - 90
+      - 🇺🇸 adi|0130 - 美国 48
+      - adi|0130 - 132
+      - 🇨🇦 adi|0130 - 加拿大-3.58MB/s
+      - adi|0130 - 54
+      - adi|0130 - 60
+      - 🇺🇸 adi|0130 - 美国-3.65MB/s
+      - 🇨🇦 adi|0130 - 加拿大-3.08MB/s
+      - adi|0130 - 115
+      - adi|0130 - 93
+      - 🇷🇺 adi|0130 - 俄罗斯|Justhost|0.1x|流解
+      - adi|0130 - 128
+      - 🇪🇺 adi|0130 - 欧洲 7
+      - adi|0130 - 43
+      - adi|0130 - 39 2
       - 🇺🇸 adi|0125+-+美国 56
-      - adi|0125+-+20
-      - 🇷🇺 adi|0125 - 俄罗斯13
-      - adi|0125+-+51
-      - adi|0125+-+10
       - 🇺🇸 adi|0125+-+美国 57
-      - 🇺🇸 adi|0123+-+US_61
       - 🇺🇸 adi|0125+-+美国 58
+      - adi|0130 - 136
+      - adi|0130 - 30
+      - adi|0130 - 119
+      - 🇪🇺 adi|0130 - 欧洲 8
+      - adi|0130 - 82
+      - 🇺🇸 adi|0130 - 美国 49
+      - 🇪🇺 adi|0130 - 欧洲 9
+      - 🇺🇸 adi|0130 - 美国-1.66MB/s
+      - adi|0130 - 64
+      - 🇺🇸 adi|0130 - 美国-1.42MB/s
       - 🇺🇸 adi|0125+-+美国 59
-      - 🇺🇸 adi|0125 - 美国|主|03|AWSUS|0.1x|流解
+      - 🇺🇸 adi|0130 - 美国 50
+      - 🇺🇸 adi|0130 - 美国 51
+      - 🇨🇦 adi|0130 - 加拿大-3.54MB/s
+      - adi|0130 - 27
+      - 🇨🇦 adi|0130 - 加拿大
+      - adi|0125+-+55
+      - 🇪🇺 adi|0130 - 欧洲 10
+      - 🇨🇦 adi|0130 - 加拿大-3.55MB/s
+      - 🇨🇦 adi|0130 - 加拿大-2.04MB/s
+      - adi|0130 - 65
+      - 🇨🇦 adi|0125+-+加拿大
+      - 🇺🇸 adi|0130 - 美国-3.38MB/s
+      - 🇺🇸 adi|0130 - 美国 52
+      - 🇬🇧 adi|0125+-+英国-2.29MB/s
+      - adi|0130 - 106
+      - adi|0130 - 133
+      - adi|0130 - 130
+      - 🇬🇧 adi|0130 - 英国-3.09MB/s
+      - 🇪🇺 adi|0130 - 欧洲 11
+      - adi|0130 - 102
+      - adi|0130 - 73
+      - adi|0130 - 87
+      - 🇺🇸 adi|0130 - 美国5
+      - adi|0130 - 131
+      - adi|0130 - 66
+      - adi|0130 - 28
+      - adi|0130 - 88
+      - adi|0130 - 18
+      - adi|0130 - 16
       - 🇺🇸 adi|0125+-+美国 60
+      - 🇫🇷 adi|0125+-+法国
+      - 🇺🇸 adi|0130 - 美国 53
+      - adi|0130 - 97
+      - 🇬🇧 adi|0125+-+英国
       - 🇺🇸 adi|0125+-+美国 61
-      - 🇨🇦 adi|0125+-+加拿大 4
+      - adi|0130 - 87 2
+      - adi|0130 - 13 2
+      - adi|0130 - 69
+      - adi|0130 - 124
+      - 🇺🇸 adi|0130 - 美国|主|03|AWSUS|0.1x|流解
+      - 🇪🇺 adi|0130 - 欧洲 12
+      - adi|0130 - 107
+      - 🇺🇸 adi|0130 - 美国-3.34MB/s
+      - 🇬🇧 adi|0125+-+英国 2
+      - adi|0130 - 35
+      - adi|0130 - 85
+      - adi|0130 - 34
+      - adi|0130 - 74
+      - 🇺🇸 adi|0123+-+US_61
+      - 🇺🇸 adi|0130 - 美国 54
+      - adi|0130 - 127
+      - 🇪🇺 adi|0130 - 欧洲 13
+      - adi|0130 - 114
+      - 🇺🇸 adi|0130 - 美国 55
+      - 🇨🇦 adi|0130 - 加拿大-2.98MB/s
+      - adi|0130 - 122
+      - 🇬🇧 adi|0125+-+英国 3
+      - 🇬🇧 adi|0125+-+英国 4
       - 🇺🇸 adi|0125+-+美国 62
-      - 🇺🇸 adi|0125+-+美国 63
-      - 🇺🇸 adi|0125+-+美国 64
-      - 🇺🇸 adi|0125+-+美国 65
-      - 🇪🇺 adi|0125+-+欧洲 7
-      - 🇺🇸 adi|0125 - 美国V08
+      - adi|0130 - 111
+      - 🇪🇺 adi|0125+-+欧洲
+      - 🇫🇷 adi|0130 - 法国-2.90MB/s
+      - adi|0130 - 56
+      - adi|0130 - 109
+      - adi|0130 - 120
+      - adi|0130 - 拉脱维亚|01|流解|0x
+      - adi|0130 - 24
+      - adi|0130 - 50
+      - 🇨🇦 adi|0130 - 加拿大 2
       - adi|0123 -
+      - 🇬🇧 adi|0130 - 英国-3.02MB/s
+      - adi|0130 - 135
+      - adi|0130 - 91
+      - adi|0130 - V05
+      - adi|0130 - 71
+      - adi|0130 - 57
+      - 🇪🇺 adi|0130 - 欧洲 14
+      - adi|0130 - 53 2
+      - 🇺🇸 adi|0130 - 美国 56
+      - adi|0130 - 118
+      - 🇺🇸 adi|0130 - 美国 57
+      - adi|0130 - 145
+      - adi|0130 - 86
+      - adi|0130 - 110
+      - 🇺🇸 adi|0130 - 美国-829.6KB/s
+      - adi|0130 - 69 2
+      - 🇨🇦 adi|0130 - 加拿大 3
+      - 🇪🇺 adi|0130 - 欧洲 15
+      - 🇨🇦 adi|0130 - 加拿大-1.03MB/s 2
+      - adi|0130 - 11
+      - adi|0130 - 67
+      - 🇺🇸 adi|0125+-+美国 63
+      - adi|0130 - 104
+      - adi|0130 - 78
+      - adi|0130 - 141
+      - 🇺🇸 adi|0130 - 美国 58
+      - 🇺🇸 adi|0130 - 美国 59
+      - 🇺🇸 adi|0125+-+美国 64
+      - 🇫🇷 adi|0125+-+法国 2
+      - 🇰🇷 adi|0130 - 韩国 3
+      - adi|0130 - 138
+      - 🇫🇷 adi|0125+-+法国 3
+      - 🇰🇷 adi|0130 - 韩国|01|AWSKR|0.1x|移动起飞
+      - 🇯🇵 adi|0125 - 日本|03|LINODE|0.7x|流解
+      - adi|0130 - 139
+      - 🇺🇸 adi|0130 - 美国 60
+      - 🇺🇸 adi|0125+-+美国 65
       - 🇺🇸 adi|0125+-+美国 66
       - 🇺🇸 adi|0125+-+美国 67
-      - adi|0125+-+39
+      - adi|0130 - 146
+      - adi|0130 - 147
       - 🇺🇸 adi|0125+-+美国 68
       - 🇺🇸 adi|0125+-+美国 69
-      - 🇫🇷 adi|0125+-+法国 2
       - 🇺🇸 adi|0125+-+美国 70
       - 🇺🇸 adi|0125+-+美国 71
-      - 🇺🇸 adi|0125+-+美国-4.60MB/s
+      - adi|0125+-+70
+      - adi|0130 - 148
+      - adi|0130 - 150
+      - 🇨🇦 adi|0130 - 加拿大-1.25MB/s
+      - 🇬🇧 adi|0125+-+英国-1.74MB/s
+      - 🇨🇦 adi|0130 - 加拿大-1.80MB/s
+      - 🇺🇸 adi|0130 - 美国 61
+      - adi|0130 - 149
+      - 🇪🇺 adi|0130 - 欧洲 16
+      - 🇨🇦 adi|0130 - 加拿大-1.71MB/s
       - 🇺🇸 adi|0125+-+美国 72
-      - adi|0125+-+48
-      - 🇺🇸 adi|0125+-+美国 73
-      - 🇺🇸 adi|0125+-+美国 74
-      - 🇪🇺 adi|0125+-+欧洲 8
-      - 🇺🇸 adi|0125+-+美国 75
-      - 🇺🇸 adi|0125+-+美国 76
-      - 🇺🇸 adi|0125+-+美国 77
-      - 🇬🇧 adi|0125+-+英国 5
-      - 🇪🇺 adi|0125+-+欧洲 9
-      - 🇺🇸 adi|0125+-+美国-3.98MB/s
-      - 🇺🇸 adi|0125+-+美国 78
-      - 🇫🇷 adi|0125+-+法国 3
-      - 🇺🇸 adi|0125+-+美国 79
-      - 🇺🇸 adi|0125+-+美国 80
-      - adi|0125+-+30
-      - 🇬🇧 adi|0125+-+英国 6
-      - 🇺🇸 adi|0125+-+美国 81
-      - 🇫🇷 adi|0125+-+法国 4
-      - 🇺🇸 adi|0125+-+美国 82
-      - adi|0125 - V04
-      - 🇬🇧 adi|0125+-+英国 7
-      - 🇺🇸 adi|0125+-+美国 83
-      - 🇺🇸 adi|0125+-+美国 84
-      - 🇺🇸 adi|0125+-+美国 85
-      - 🇬🇧 adi|0125+-+英国 8
-      - 🇺🇸 adi|0125+-+美国 86
-      - adi|0125+-+26
-      - adi|0125+-+65
-      - adi|0125+-+55
-      - adi|0125+-+32
-      - 🇺🇸 adi|0125+-+美国 87
-      - 🇨🇦 adi|0125+-+加拿大-3.47MB/s
-      - 🇪🇺 adi|0125+-+欧洲 10
-      - 🇪🇺 adi|0125+-+欧洲 11
-      - 🇺🇸 adi|0125+-+美国 88
-      - 🇺🇸 adi|0125+-+美国 89
-      - 🇺🇸 adi|0125+-+美国 90
-      - 🇬🇧 adi|0125+-+英国 9
-      - 🇺🇸 adi|0125+-+美国 91
-      - 🇺🇸 adi|0125+-+美国 92
-      - 🇺🇸 adi|0125+-+美国 93
-      - 🇺🇸 adi|0125+-+美国 94
-      - 🇺🇸 adi|0125+-+美国 95
-      - 🇺🇸 adi|0125+-+美国 96
-      - 🇺🇸 adi|0125+-+美国 97
-      - 🇨🇦 adi|0119+-+CA_加拿大+21
-      - 🇬🇧 adi|0125+-+英国 10
-      - 🇬🇧 adi|0125+-+英国-3.10MB/s
-      - 🇺🇸 adi|0125+-+美国++24
-      - 🇺🇸 adi|0125+-+美国 98
-      - 🇬🇧 adi|0125+-+英国-2.29MB/s
-      - 🇺🇸 adi|0125+-+美国 99
-      - 🇬🇧 adi|0125+-+英国 11
-      - adi|0125+-+13
-      - 🇺🇸 adi|0125+-+美国 100
-      - 🇬🇧 adi|0125+-+英国 12
-      - 🇺🇸 adi|0125+-+美国 101
-      - adi|0125+-+28
-      - 🇺🇸 adi|0125+-+美国 102
-      - 🇺🇸 adi|0125+-+美国 103
-      - 🇺🇸 adi|0125+-+美国 104
-      - 🇺🇸 adi|0125+-+美国 105
-      - 🇺🇸 adi|0125+-+美国 106
-      - 🇺🇸 adi|0125+-+美国 107
-      - 🇺🇸 adi|0125+-+美国 108
-      - 🇺🇸 adi|0125+-+美国 109
-      - 🇺🇸 adi|0125+-+美国 110
-      - 🇺🇸 adi|0125+-+美国 111
-      - 🇺🇸 adi|0125+-+美国 112
-      - 🇺🇸 adi|0125+-+美国 113
-      - 🇺🇸 adi|0125+-+美国 114
-      - 🇺🇸 adi|0125+-+美国 115
-      - 🇺🇸 adi|0125+-+美国 116
-      - 🇺🇸 adi|0125+-+美国 117
-      - 🇺🇸 adi|0125+-+美国 118
-      - 🇺🇸 adi|0125+-+美国 119
-      - 🇺🇸 adi|0125+-+美国 120
-      - 🇺🇸 adi|0125+-+美国 121
-      - 🇺🇸 adi|0125+-+美国 122
-      - 🇺🇸 adi|0125+-+美国 123
-      - 🇺🇸 adi|0125+-+美国 124
-      - 🇺🇸 adi|0125+-+美国 125
-      - 🇺🇸 adi|0125+-+美国 126
-      - 🇺🇸 adi|0125+-+美国 127
-      - 🇺🇸 adi|0125+-+美国 128
-      - 🇺🇸 adi|0125+-+美国 129
-      - 🇺🇸 adi|0125+-+美国 130
-      - 🇺🇸 adi|0125+-+美国 131
-      - 🇺🇸 adi|0125+-+美国 132
-      - 🇺🇸 adi|0125+-+美国 133
-      - 🇺🇸 adi|0125+-+美国 134
-      - 🇺🇸 adi|0125+-+美国 135
-      - 🇺🇸 adi|0125+-+美国 136
-      - 🇺🇸 adi|0125+-+美国 137
-      - 🇺🇸 adi|0125+-+美国 138
-      - 🇺🇸 adi|0125+-+美国 139
-      - 🇺🇸 adi|0125+-+美国 140
-      - 🇺🇸 adi|0125+-+美国 141
-      - 🇺🇸 adi|0125+-+美国 142
-      - 🇺🇸 adi|0125+-+美国 143
-      - 🇺🇸 adi|0125+-+美国 144
-      - 🇺🇸 adi|0125+-+美国 145
-      - 🇺🇸 adi|0125+-+美国 146
-      - 🇺🇸 adi|0125+-+美国 147
-      - 🇺🇸 adi|0125+-+美国 148
-      - 🇺🇸 adi|0125+-+美国 149
-      - 🇺🇸 adi|0125+-+美国 150
-      - 🇺🇸 adi|0125+-+美国 151
-      - 🇺🇸 adi|0125+-+美国 152
-      - 🇺🇸 adi|0125+-+美国 153
-      - 🇺🇸 adi|0125+-+美国 154
-      - 🇺🇸 adi|0125+-+美国 155
-      - 🇺🇸 adi|0125+-+美国 156
-      - 🇺🇸 adi|0125+-+美国 157
-      - 🇺🇸 adi|0125+-+美国 158
-      - 🇺🇸 adi|0125+-+美国 159
-      - 🇺🇸 adi|0125+-+美国 160
-      - 🇺🇸 adi|0125+-+美国 161
-      - 🇺🇸 adi|0125+-+美国 162
-      - 🇺🇸 adi|0125+-+美国 163
-      - 🇺🇸 adi|0125+-+美国 164
-      - 🇺🇸 adi|0125+-+美国 165
-      - 🇺🇸 adi|0125+-+美国 166
-      - 🇺🇸 adi|0125+-+美国 167
-      - 🇯🇵 adi|0125 - 日本|03|LINODE|0.7x|流解
+      - adi|0130 - 57 2
+      - 🇷🇺 adi|0130 - 俄罗斯02b
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - adi|0125 - V41
-      - 🇯🇵 adi|0125 - JP_17
-      - 🇭🇰 adi|0123 - 香港
-      - adi|0125 - 卢森堡|01|BT|0x
+      - 🇭🇰 adi|0130 - 香港
+      - adi|0130 - 3
+      - 🇰🇷 adi|0130 - 韩国
+      - 🇰🇷 adi|0130 - 韩国 2
+      - 🇺🇸 adi|0130 - 美国V08b
+      - 🇺🇸 adi|0130 - 美国V19b
+      - 🇺🇸 adi|0130 - 美国
+      - adi|0130 - 三网15
+      - 🇺🇸 adi|0130 - 美国 2
       - 🇺🇸 adi|0125+-+美国
+      - adi|0130 - 三网19
       - 🇺🇸 adi|0125+-+美国 2
-      - 🇪🇺 adi|0125+-+欧洲
       - 🇺🇸 adi|0125+-+美国 3
-      - 🇪🇺 adi|0125+-+欧洲 2
+      - 🇺🇸 adi|0130 - 美国 3
       - 🇺🇸 adi|0125+-+美国 4
+      - 🇺🇸 adi|0130 - 美国 4
+      - 🇺🇸 adi|0130 - 美国 5
+      - 🇺🇸 adi|0130 - 美国 6
       - 🇺🇸 adi|0125+-+美国 5
       - 🇺🇸 adi|0125+-+美国 6
-      - adi|0125+-+70
-      - 🇬🇧 adi|0125+-+英国
       - 🇺🇸 adi|0125+-+美国 7
-      - 🇬🇧 adi|0125+-+英国-1.74MB/s
       - 🇺🇸 adi|0125+-+美国 8
       - 🇺🇸 adi|0125+-+美国 9
       - 🇺🇸 adi|0125+-+美国 10
       - 🇺🇸 adi|0125+-+美国 11
       - 🇺🇸 adi|0125+-+美国 12
-      - 🇺🇸 adi|0125+-+美国-1.85MB/s
+      - 🇺🇸 adi|0130 - 美国 7
       - 🇺🇸 adi|0125+-+美国 13
       - 🇺🇸 adi|0125+-+美国 14
-      - adi|0125+-+
-      - 🇫🇷 adi|0125+-+法国
-      - 🇪🇺 adi|0125+-+欧洲 3
+      - 🇺🇸 adi|0130 - 美国 8
+      - adi|0130 - 三网11
       - 🇺🇸 adi|0125+-+美国 15
       - 🇺🇸 adi|0125+-+美国 16
-      - 🇺🇸 adi|0125+-+美国Cogent9
+      - adi|0130 - 44
+      - 🇺🇸 adi|0130 - 美国-4.57MB/s
       - 🇺🇸 adi|0125+-+美国 17
       - 🇺🇸 adi|0125+-+美国 18
+      - 🇺🇸 adi|0130 - 美国 9
+      - 🇺🇸 adi|0130 - 美国 10
       - 🇺🇸 adi|0125+-+美国 19
-      - adi|0125+-+69
-      - adi|0125+-+43
       - 🇺🇸 adi|0125+-+美国 20
       - 🇺🇸 adi|0125+-+美国 21
-      - 🇬🇧 adi|0125+-+英国 2
-      - 🇪🇺 adi|0125+-+欧洲 4
+      - 🇺🇸 adi|0130 - 美国 11
       - 🇺🇸 adi|0125+-+美国 22
-      - 🇷🇺 adi|0125 - 俄罗斯02
-      - adi|0125 - 拉脱维亚|01|流解|0x
-      - 🇨🇦 adi|0119+-+加拿大-1.40MB/s
-      - 🇬🇧 adi|0125+-+英国 3
+      - 🇺🇸 adi|0130 - 美国 12
       - 🇺🇸 adi|0125+-+美国 23
       - 🇺🇸 adi|0125+-+美国 24
+      - 🇺🇸 adi|0130 - 美国 13
       - 🇺🇸 adi|0125+-+美国 25
       - 🇺🇸 adi|0125+-+美国 26
-      - adi|0125+-+8
-      - 🇫🇷 adi|0125 - 法国|02|OVH
       - 🇺🇸 adi|0125+-+美国 27
-      - 🇺🇸 adi|0125 - 美国V19
-      - 🇪🇺 adi|0125+-+欧洲 5
       - 🇺🇸 adi|0125+-+美国 28
       - 🇺🇸 adi|0125+-+美国 29
-      - adi|0125+-+14
-      - adi|0125+-+29
+      - 🇺🇸 adi|0130 - 美国 14
       - 🇺🇸 adi|0125+-+美国 30
       - 🇺🇸 adi|0125+-+美国 31
+      - 🇺🇸 adi|0130 - 美国 15
       - 🇺🇸 adi|0125+-+美国 32
+      - 🇺🇸 adi|0130 - 美国 16
+      - 🇺🇸 adi|0130 - 美国 17
+      - 🇺🇸 adi|0130 - 美国 18
+      - 🇺🇸 adi|0130 - 美国 19
       - 🇺🇸 adi|0125+-+美国 33
+      - adi|0130 - 89
+      - 🇺🇸 adi|0130 - 美国 20
       - 🇺🇸 adi|0125+-+美国 34
       - 🇺🇸 adi|0125+-+美国 35
+      - 🇺🇸 adi|0130 - 美国 21
+      - 🇺🇸 adi|0130 - 美国 22
+      - 🇺🇸 adi|0130 - 美国 23
+      - adi|0130 - 77
       - 🇺🇸 adi|0125+-+美国 36
-      - 🇺🇸 adi|0125 - 美国V19 2
+      - 🇺🇸 adi|0130 - 美国 24
+      - 🇺🇸 adi|0130 - 美国 25
+      - 🇺🇸 adi|0130 - 美国 26
       - 🇺🇸 adi|0125+-+美国 37
+      - adi|0130 - 84
+      - 🇺🇸 adi|0130 - 美国 27
+      - adi|0130 - 58
+      - 🇺🇸 adi|0130 - 美国 28
+      - 🇺🇸 adi|0130 - 美国 29
+      - 🇺🇸 adi|0130 - 美国 30
+      - 🇺🇸 adi|0130 - 美国-3.63MB/s
+      - 🇺🇸 adi|0130 - 美国 31
+      - adi|0130 - 53
+      - adi|0130 - 92
+      - adi|0130 - 79
+      - 🇺🇸 adi|0130 - 美国 32
       - 🇺🇸 adi|0125+-+美国 38
+      - 🇺🇸 adi|0130 - 美国 33
       - 🇺🇸 adi|0125+-+美国 39
+      - 🇺🇸 adi|0130 - 美国 34
+      - 🇪🇺 adi|0130 - 欧洲
+      - 🇺🇸 adi|0130 - 美国 35
+      - 🇺🇸 adi|0130 - 美国 36
+      - 🇺🇸 adi|0130 - 美国 37
       - 🇺🇸 adi|0125+-+美国 40
-      - 🇨🇦 adi|0125+-+加拿大
+      - adi|0130 - 39
+      - 🇺🇸 adi|0130 - 美国 38
       - 🇺🇸 adi|0125+-+美国 41
+      - adi|0130 - 49
       - 🇺🇸 adi|0125+-+美国 42
       - 🇺🇸 adi|0125+-+美国 43
-      - 🇬🇧 adi|0125+-+英国 4
       - 🇺🇸 adi|0125+-+美国 44
       - 🇺🇸 adi|0125+-+美国 45
+      - 🇺🇸 adi|0130 - 美国 39
       - 🇺🇸 adi|0125+-+美国 46
-      - adi|0125+-+9
-      - 🇨🇦 adi|0125+-+加拿大 2
+      - adi|0130 - 95
+      - 🇺🇸 adi|0130 - 美国 40
       - 🇺🇸 adi|0125+-+美国 47
-      - 🇪🇺 adi|0125+-+欧洲 6
+      - 🇺🇸 adi|0130 - 美国 41
+      - 🇺🇸 adi|0130 - 美国 42
+      - 🇨🇦 adi|0130 - 加拿大-3.51MB/s
       - 🇺🇸 adi|0125+-+美国 48
+      - 🇺🇸 adi|0130 - 美国-3.03MB/s
       - 🇺🇸 adi|0125+-+美国 49
       - 🇺🇸 adi|0125+-+美国 50
+      - 🇪🇺 adi|0130 - 欧洲 2
       - 🇺🇸 adi|0125+-+美国 51
-      - adi|0125+-+17
+      - adi|0130 - 51
+      - adi|0130 - 76
       - 🇺🇸 adi|0125+-+美国 52
       - 🇺🇸 adi|0125+-+美国 53
+      - adi|0130 - 13
+      - 🇺🇸 adi|0130 - 美国-4.44MB/s
+      - 🇪🇺 adi|0130 - 欧洲 3
+      - 🇺🇸 adi|0130 - 美国 43
       - 🇺🇸 adi|0125+-+美国 54
-      - adi|0125+-+24
-      - 🇨🇦 adi|0125+-+加拿大 3
-      - 🇨🇳 adi|0123 - 中国
+      - 🇺🇸 adi|0130 - 美国 44
+      - adi|0125+-+48
+      - 🇺🇸 adi|0130 - 美国 45
       - 🇺🇸 adi|0125+-+美国 55
-      - adi|0123+-+CA_76
+      - 🇪🇺 adi|0130 - 欧洲 4
+      - 🇪🇺 adi|0130 - 欧洲 5
+      - 🇺🇸 adi|0130 - 美国 46
+      - adi|0130 - 72
+      - adi|0130 - 112
+      - 🇨🇦 adi|0130 - 加拿大-582.4KB/s
+      - 🇺🇸 adi|0130 - 美国 47
+      - 🇪🇺 adi|0130 - 欧洲 6
+      - 🇨🇦 adi|0130 - 加拿大-3.53MB/s
+      - adi|0130 - 90
+      - 🇺🇸 adi|0130 - 美国 48
+      - adi|0130 - 132
+      - 🇨🇦 adi|0130 - 加拿大-3.58MB/s
+      - adi|0130 - 54
+      - adi|0130 - 60
+      - 🇺🇸 adi|0130 - 美国-3.65MB/s
+      - 🇨🇦 adi|0130 - 加拿大-3.08MB/s
+      - adi|0130 - 115
+      - adi|0130 - 93
+      - 🇷🇺 adi|0130 - 俄罗斯|Justhost|0.1x|流解
+      - adi|0130 - 128
+      - 🇪🇺 adi|0130 - 欧洲 7
+      - adi|0130 - 43
+      - adi|0130 - 39 2
       - 🇺🇸 adi|0125+-+美国 56
-      - adi|0125+-+20
-      - 🇷🇺 adi|0125 - 俄罗斯13
-      - adi|0125+-+51
-      - adi|0125+-+10
       - 🇺🇸 adi|0125+-+美国 57
-      - 🇺🇸 adi|0123+-+US_61
       - 🇺🇸 adi|0125+-+美国 58
+      - adi|0130 - 136
+      - adi|0130 - 30
+      - adi|0130 - 119
+      - 🇪🇺 adi|0130 - 欧洲 8
+      - adi|0130 - 82
+      - 🇺🇸 adi|0130 - 美国 49
+      - 🇪🇺 adi|0130 - 欧洲 9
+      - 🇺🇸 adi|0130 - 美国-1.66MB/s
+      - adi|0130 - 64
+      - 🇺🇸 adi|0130 - 美国-1.42MB/s
       - 🇺🇸 adi|0125+-+美国 59
-      - 🇺🇸 adi|0125 - 美国|主|03|AWSUS|0.1x|流解
+      - 🇺🇸 adi|0130 - 美国 50
+      - 🇺🇸 adi|0130 - 美国 51
+      - 🇨🇦 adi|0130 - 加拿大-3.54MB/s
+      - adi|0130 - 27
+      - 🇨🇦 adi|0130 - 加拿大
+      - adi|0125+-+55
+      - 🇪🇺 adi|0130 - 欧洲 10
+      - 🇨🇦 adi|0130 - 加拿大-3.55MB/s
+      - 🇨🇦 adi|0130 - 加拿大-2.04MB/s
+      - adi|0130 - 65
+      - 🇨🇦 adi|0125+-+加拿大
+      - 🇺🇸 adi|0130 - 美国-3.38MB/s
+      - 🇺🇸 adi|0130 - 美国 52
+      - 🇬🇧 adi|0125+-+英国-2.29MB/s
+      - adi|0130 - 106
+      - adi|0130 - 133
+      - adi|0130 - 130
+      - 🇬🇧 adi|0130 - 英国-3.09MB/s
+      - 🇪🇺 adi|0130 - 欧洲 11
+      - adi|0130 - 102
+      - adi|0130 - 73
+      - adi|0130 - 87
+      - 🇺🇸 adi|0130 - 美国5
+      - adi|0130 - 131
+      - adi|0130 - 66
+      - adi|0130 - 28
+      - adi|0130 - 88
+      - adi|0130 - 18
+      - adi|0130 - 16
       - 🇺🇸 adi|0125+-+美国 60
+      - 🇫🇷 adi|0125+-+法国
+      - 🇺🇸 adi|0130 - 美国 53
+      - adi|0130 - 97
+      - 🇬🇧 adi|0125+-+英国
       - 🇺🇸 adi|0125+-+美国 61
-      - 🇨🇦 adi|0125+-+加拿大 4
+      - adi|0130 - 87 2
+      - adi|0130 - 13 2
+      - adi|0130 - 69
+      - adi|0130 - 124
+      - 🇺🇸 adi|0130 - 美国|主|03|AWSUS|0.1x|流解
+      - 🇪🇺 adi|0130 - 欧洲 12
+      - adi|0130 - 107
+      - 🇺🇸 adi|0130 - 美国-3.34MB/s
+      - 🇬🇧 adi|0125+-+英国 2
+      - adi|0130 - 35
+      - adi|0130 - 85
+      - adi|0130 - 34
+      - adi|0130 - 74
+      - 🇺🇸 adi|0123+-+US_61
+      - 🇺🇸 adi|0130 - 美国 54
+      - adi|0130 - 127
+      - 🇪🇺 adi|0130 - 欧洲 13
+      - adi|0130 - 114
+      - 🇺🇸 adi|0130 - 美国 55
+      - 🇨🇦 adi|0130 - 加拿大-2.98MB/s
+      - adi|0130 - 122
+      - 🇬🇧 adi|0125+-+英国 3
+      - 🇬🇧 adi|0125+-+英国 4
       - 🇺🇸 adi|0125+-+美国 62
-      - 🇺🇸 adi|0125+-+美国 63
-      - 🇺🇸 adi|0125+-+美国 64
-      - 🇺🇸 adi|0125+-+美国 65
-      - 🇪🇺 adi|0125+-+欧洲 7
-      - 🇺🇸 adi|0125 - 美国V08
+      - adi|0130 - 111
+      - 🇪🇺 adi|0125+-+欧洲
+      - 🇫🇷 adi|0130 - 法国-2.90MB/s
+      - adi|0130 - 56
+      - adi|0130 - 109
+      - adi|0130 - 120
+      - adi|0130 - 拉脱维亚|01|流解|0x
+      - adi|0130 - 24
+      - adi|0130 - 50
+      - 🇨🇦 adi|0130 - 加拿大 2
       - adi|0123 -
+      - 🇬🇧 adi|0130 - 英国-3.02MB/s
+      - adi|0130 - 135
+      - adi|0130 - 91
+      - adi|0130 - V05
+      - adi|0130 - 71
+      - adi|0130 - 57
+      - 🇪🇺 adi|0130 - 欧洲 14
+      - adi|0130 - 53 2
+      - 🇺🇸 adi|0130 - 美国 56
+      - adi|0130 - 118
+      - 🇺🇸 adi|0130 - 美国 57
+      - adi|0130 - 145
+      - adi|0130 - 86
+      - adi|0130 - 110
+      - 🇺🇸 adi|0130 - 美国-829.6KB/s
+      - adi|0130 - 69 2
+      - 🇨🇦 adi|0130 - 加拿大 3
+      - 🇪🇺 adi|0130 - 欧洲 15
+      - 🇨🇦 adi|0130 - 加拿大-1.03MB/s 2
+      - adi|0130 - 11
+      - adi|0130 - 67
+      - 🇺🇸 adi|0125+-+美国 63
+      - adi|0130 - 104
+      - adi|0130 - 78
+      - adi|0130 - 141
+      - 🇺🇸 adi|0130 - 美国 58
+      - 🇺🇸 adi|0130 - 美国 59
+      - 🇺🇸 adi|0125+-+美国 64
+      - 🇫🇷 adi|0125+-+法国 2
+      - 🇰🇷 adi|0130 - 韩国 3
+      - adi|0130 - 138
+      - 🇫🇷 adi|0125+-+法国 3
+      - 🇰🇷 adi|0130 - 韩国|01|AWSKR|0.1x|移动起飞
+      - 🇯🇵 adi|0125 - 日本|03|LINODE|0.7x|流解
+      - adi|0130 - 139
+      - 🇺🇸 adi|0130 - 美国 60
+      - 🇺🇸 adi|0125+-+美国 65
       - 🇺🇸 adi|0125+-+美国 66
       - 🇺🇸 adi|0125+-+美国 67
-      - adi|0125+-+39
+      - adi|0130 - 146
+      - adi|0130 - 147
       - 🇺🇸 adi|0125+-+美国 68
       - 🇺🇸 adi|0125+-+美国 69
-      - 🇫🇷 adi|0125+-+法国 2
       - 🇺🇸 adi|0125+-+美国 70
       - 🇺🇸 adi|0125+-+美国 71
-      - 🇺🇸 adi|0125+-+美国-4.60MB/s
+      - adi|0125+-+70
+      - adi|0130 - 148
+      - adi|0130 - 150
+      - 🇨🇦 adi|0130 - 加拿大-1.25MB/s
+      - 🇬🇧 adi|0125+-+英国-1.74MB/s
+      - 🇨🇦 adi|0130 - 加拿大-1.80MB/s
+      - 🇺🇸 adi|0130 - 美国 61
+      - adi|0130 - 149
+      - 🇪🇺 adi|0130 - 欧洲 16
+      - 🇨🇦 adi|0130 - 加拿大-1.71MB/s
       - 🇺🇸 adi|0125+-+美国 72
-      - adi|0125+-+48
-      - 🇺🇸 adi|0125+-+美国 73
-      - 🇺🇸 adi|0125+-+美国 74
-      - 🇪🇺 adi|0125+-+欧洲 8
-      - 🇺🇸 adi|0125+-+美国 75
-      - 🇺🇸 adi|0125+-+美国 76
-      - 🇺🇸 adi|0125+-+美国 77
-      - 🇬🇧 adi|0125+-+英国 5
-      - 🇪🇺 adi|0125+-+欧洲 9
-      - 🇺🇸 adi|0125+-+美国-3.98MB/s
-      - 🇺🇸 adi|0125+-+美国 78
-      - 🇫🇷 adi|0125+-+法国 3
-      - 🇺🇸 adi|0125+-+美国 79
-      - 🇺🇸 adi|0125+-+美国 80
-      - adi|0125+-+30
-      - 🇬🇧 adi|0125+-+英国 6
-      - 🇺🇸 adi|0125+-+美国 81
-      - 🇫🇷 adi|0125+-+法国 4
-      - 🇺🇸 adi|0125+-+美国 82
-      - adi|0125 - V04
-      - 🇬🇧 adi|0125+-+英国 7
-      - 🇺🇸 adi|0125+-+美国 83
-      - 🇺🇸 adi|0125+-+美国 84
-      - 🇺🇸 adi|0125+-+美国 85
-      - 🇬🇧 adi|0125+-+英国 8
-      - 🇺🇸 adi|0125+-+美国 86
-      - adi|0125+-+26
-      - adi|0125+-+65
-      - adi|0125+-+55
-      - adi|0125+-+32
-      - 🇺🇸 adi|0125+-+美国 87
-      - 🇨🇦 adi|0125+-+加拿大-3.47MB/s
-      - 🇪🇺 adi|0125+-+欧洲 10
-      - 🇪🇺 adi|0125+-+欧洲 11
-      - 🇺🇸 adi|0125+-+美国 88
-      - 🇺🇸 adi|0125+-+美国 89
-      - 🇺🇸 adi|0125+-+美国 90
-      - 🇬🇧 adi|0125+-+英国 9
-      - 🇺🇸 adi|0125+-+美国 91
-      - 🇺🇸 adi|0125+-+美国 92
-      - 🇺🇸 adi|0125+-+美国 93
-      - 🇺🇸 adi|0125+-+美国 94
-      - 🇺🇸 adi|0125+-+美国 95
-      - 🇺🇸 adi|0125+-+美国 96
-      - 🇺🇸 adi|0125+-+美国 97
-      - 🇨🇦 adi|0119+-+CA_加拿大+21
-      - 🇬🇧 adi|0125+-+英国 10
-      - 🇬🇧 adi|0125+-+英国-3.10MB/s
-      - 🇺🇸 adi|0125+-+美国++24
-      - 🇺🇸 adi|0125+-+美国 98
-      - 🇬🇧 adi|0125+-+英国-2.29MB/s
-      - 🇺🇸 adi|0125+-+美国 99
-      - 🇬🇧 adi|0125+-+英国 11
-      - adi|0125+-+13
-      - 🇺🇸 adi|0125+-+美国 100
-      - 🇬🇧 adi|0125+-+英国 12
-      - 🇺🇸 adi|0125+-+美国 101
-      - adi|0125+-+28
-      - 🇺🇸 adi|0125+-+美国 102
-      - 🇺🇸 adi|0125+-+美国 103
-      - 🇺🇸 adi|0125+-+美国 104
-      - 🇺🇸 adi|0125+-+美国 105
-      - 🇺🇸 adi|0125+-+美国 106
-      - 🇺🇸 adi|0125+-+美国 107
-      - 🇺🇸 adi|0125+-+美国 108
-      - 🇺🇸 adi|0125+-+美国 109
-      - 🇺🇸 adi|0125+-+美国 110
-      - 🇺🇸 adi|0125+-+美国 111
-      - 🇺🇸 adi|0125+-+美国 112
-      - 🇺🇸 adi|0125+-+美国 113
-      - 🇺🇸 adi|0125+-+美国 114
-      - 🇺🇸 adi|0125+-+美国 115
-      - 🇺🇸 adi|0125+-+美国 116
-      - 🇺🇸 adi|0125+-+美国 117
-      - 🇺🇸 adi|0125+-+美国 118
-      - 🇺🇸 adi|0125+-+美国 119
-      - 🇺🇸 adi|0125+-+美国 120
-      - 🇺🇸 adi|0125+-+美国 121
-      - 🇺🇸 adi|0125+-+美国 122
-      - 🇺🇸 adi|0125+-+美国 123
-      - 🇺🇸 adi|0125+-+美国 124
-      - 🇺🇸 adi|0125+-+美国 125
-      - 🇺🇸 adi|0125+-+美国 126
-      - 🇺🇸 adi|0125+-+美国 127
-      - 🇺🇸 adi|0125+-+美国 128
-      - 🇺🇸 adi|0125+-+美国 129
-      - 🇺🇸 adi|0125+-+美国 130
-      - 🇺🇸 adi|0125+-+美国 131
-      - 🇺🇸 adi|0125+-+美国 132
-      - 🇺🇸 adi|0125+-+美国 133
-      - 🇺🇸 adi|0125+-+美国 134
-      - 🇺🇸 adi|0125+-+美国 135
-      - 🇺🇸 adi|0125+-+美国 136
-      - 🇺🇸 adi|0125+-+美国 137
-      - 🇺🇸 adi|0125+-+美国 138
-      - 🇺🇸 adi|0125+-+美国 139
-      - 🇺🇸 adi|0125+-+美国 140
-      - 🇺🇸 adi|0125+-+美国 141
-      - 🇺🇸 adi|0125+-+美国 142
-      - 🇺🇸 adi|0125+-+美国 143
-      - 🇺🇸 adi|0125+-+美国 144
-      - 🇺🇸 adi|0125+-+美国 145
-      - 🇺🇸 adi|0125+-+美国 146
-      - 🇺🇸 adi|0125+-+美国 147
-      - 🇺🇸 adi|0125+-+美国 148
-      - 🇺🇸 adi|0125+-+美国 149
-      - 🇺🇸 adi|0125+-+美国 150
-      - 🇺🇸 adi|0125+-+美国 151
-      - 🇺🇸 adi|0125+-+美国 152
-      - 🇺🇸 adi|0125+-+美国 153
-      - 🇺🇸 adi|0125+-+美国 154
-      - 🇺🇸 adi|0125+-+美国 155
-      - 🇺🇸 adi|0125+-+美国 156
-      - 🇺🇸 adi|0125+-+美国 157
-      - 🇺🇸 adi|0125+-+美国 158
-      - 🇺🇸 adi|0125+-+美国 159
-      - 🇺🇸 adi|0125+-+美国 160
-      - 🇺🇸 adi|0125+-+美国 161
-      - 🇺🇸 adi|0125+-+美国 162
-      - 🇺🇸 adi|0125+-+美国 163
-      - 🇺🇸 adi|0125+-+美国 164
-      - 🇺🇸 adi|0125+-+美国 165
-      - 🇺🇸 adi|0125+-+美国 166
-      - 🇺🇸 adi|0125+-+美国 167
-      - 🇯🇵 adi|0125 - 日本|03|LINODE|0.7x|流解
+      - adi|0130 - 57 2
+      - 🇷🇺 adi|0130 - 俄罗斯02b
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - adi|0125 - V41
-      - 🇯🇵 adi|0125 - JP_17
-      - 🇭🇰 adi|0123 - 香港
-      - adi|0125 - 卢森堡|01|BT|0x
+      - 🇭🇰 adi|0130 - 香港
+      - adi|0130 - 3
+      - 🇰🇷 adi|0130 - 韩国
+      - 🇰🇷 adi|0130 - 韩国 2
+      - 🇺🇸 adi|0130 - 美国V08b
+      - 🇺🇸 adi|0130 - 美国V19b
+      - 🇺🇸 adi|0130 - 美国
+      - adi|0130 - 三网15
+      - 🇺🇸 adi|0130 - 美国 2
       - 🇺🇸 adi|0125+-+美国
+      - adi|0130 - 三网19
       - 🇺🇸 adi|0125+-+美国 2
-      - 🇪🇺 adi|0125+-+欧洲
       - 🇺🇸 adi|0125+-+美国 3
-      - 🇪🇺 adi|0125+-+欧洲 2
+      - 🇺🇸 adi|0130 - 美国 3
       - 🇺🇸 adi|0125+-+美国 4
+      - 🇺🇸 adi|0130 - 美国 4
+      - 🇺🇸 adi|0130 - 美国 5
+      - 🇺🇸 adi|0130 - 美国 6
       - 🇺🇸 adi|0125+-+美国 5
       - 🇺🇸 adi|0125+-+美国 6
-      - adi|0125+-+70
-      - 🇬🇧 adi|0125+-+英国
       - 🇺🇸 adi|0125+-+美国 7
-      - 🇬🇧 adi|0125+-+英国-1.74MB/s
       - 🇺🇸 adi|0125+-+美国 8
       - 🇺🇸 adi|0125+-+美国 9
       - 🇺🇸 adi|0125+-+美国 10
       - 🇺🇸 adi|0125+-+美国 11
       - 🇺🇸 adi|0125+-+美国 12
-      - 🇺🇸 adi|0125+-+美国-1.85MB/s
+      - 🇺🇸 adi|0130 - 美国 7
       - 🇺🇸 adi|0125+-+美国 13
       - 🇺🇸 adi|0125+-+美国 14
-      - adi|0125+-+
-      - 🇫🇷 adi|0125+-+法国
-      - 🇪🇺 adi|0125+-+欧洲 3
+      - 🇺🇸 adi|0130 - 美国 8
+      - adi|0130 - 三网11
       - 🇺🇸 adi|0125+-+美国 15
       - 🇺🇸 adi|0125+-+美国 16
-      - 🇺🇸 adi|0125+-+美国Cogent9
+      - adi|0130 - 44
+      - 🇺🇸 adi|0130 - 美国-4.57MB/s
       - 🇺🇸 adi|0125+-+美国 17
       - 🇺🇸 adi|0125+-+美国 18
+      - 🇺🇸 adi|0130 - 美国 9
+      - 🇺🇸 adi|0130 - 美国 10
       - 🇺🇸 adi|0125+-+美国 19
-      - adi|0125+-+69
-      - adi|0125+-+43
       - 🇺🇸 adi|0125+-+美国 20
       - 🇺🇸 adi|0125+-+美国 21
-      - 🇬🇧 adi|0125+-+英国 2
-      - 🇪🇺 adi|0125+-+欧洲 4
+      - 🇺🇸 adi|0130 - 美国 11
       - 🇺🇸 adi|0125+-+美国 22
-      - 🇷🇺 adi|0125 - 俄罗斯02
-      - adi|0125 - 拉脱维亚|01|流解|0x
-      - 🇨🇦 adi|0119+-+加拿大-1.40MB/s
-      - 🇬🇧 adi|0125+-+英国 3
+      - 🇺🇸 adi|0130 - 美国 12
       - 🇺🇸 adi|0125+-+美国 23
       - 🇺🇸 adi|0125+-+美国 24
+      - 🇺🇸 adi|0130 - 美国 13
       - 🇺🇸 adi|0125+-+美国 25
       - 🇺🇸 adi|0125+-+美国 26
-      - adi|0125+-+8
-      - 🇫🇷 adi|0125 - 法国|02|OVH
       - 🇺🇸 adi|0125+-+美国 27
-      - 🇺🇸 adi|0125 - 美国V19
-      - 🇪🇺 adi|0125+-+欧洲 5
       - 🇺🇸 adi|0125+-+美国 28
       - 🇺🇸 adi|0125+-+美国 29
-      - adi|0125+-+14
-      - adi|0125+-+29
+      - 🇺🇸 adi|0130 - 美国 14
       - 🇺🇸 adi|0125+-+美国 30
       - 🇺🇸 adi|0125+-+美国 31
+      - 🇺🇸 adi|0130 - 美国 15
       - 🇺🇸 adi|0125+-+美国 32
+      - 🇺🇸 adi|0130 - 美国 16
+      - 🇺🇸 adi|0130 - 美国 17
+      - 🇺🇸 adi|0130 - 美国 18
+      - 🇺🇸 adi|0130 - 美国 19
       - 🇺🇸 adi|0125+-+美国 33
+      - adi|0130 - 89
+      - 🇺🇸 adi|0130 - 美国 20
       - 🇺🇸 adi|0125+-+美国 34
       - 🇺🇸 adi|0125+-+美国 35
+      - 🇺🇸 adi|0130 - 美国 21
+      - 🇺🇸 adi|0130 - 美国 22
+      - 🇺🇸 adi|0130 - 美国 23
+      - adi|0130 - 77
       - 🇺🇸 adi|0125+-+美国 36
-      - 🇺🇸 adi|0125 - 美国V19 2
+      - 🇺🇸 adi|0130 - 美国 24
+      - 🇺🇸 adi|0130 - 美国 25
+      - 🇺🇸 adi|0130 - 美国 26
       - 🇺🇸 adi|0125+-+美国 37
+      - adi|0130 - 84
+      - 🇺🇸 adi|0130 - 美国 27
+      - adi|0130 - 58
+      - 🇺🇸 adi|0130 - 美国 28
+      - 🇺🇸 adi|0130 - 美国 29
+      - 🇺🇸 adi|0130 - 美国 30
+      - 🇺🇸 adi|0130 - 美国-3.63MB/s
+      - 🇺🇸 adi|0130 - 美国 31
+      - adi|0130 - 53
+      - adi|0130 - 92
+      - adi|0130 - 79
+      - 🇺🇸 adi|0130 - 美国 32
       - 🇺🇸 adi|0125+-+美国 38
+      - 🇺🇸 adi|0130 - 美国 33
       - 🇺🇸 adi|0125+-+美国 39
+      - 🇺🇸 adi|0130 - 美国 34
+      - 🇪🇺 adi|0130 - 欧洲
+      - 🇺🇸 adi|0130 - 美国 35
+      - 🇺🇸 adi|0130 - 美国 36
+      - 🇺🇸 adi|0130 - 美国 37
       - 🇺🇸 adi|0125+-+美国 40
-      - 🇨🇦 adi|0125+-+加拿大
+      - adi|0130 - 39
+      - 🇺🇸 adi|0130 - 美国 38
       - 🇺🇸 adi|0125+-+美国 41
+      - adi|0130 - 49
       - 🇺🇸 adi|0125+-+美国 42
       - 🇺🇸 adi|0125+-+美国 43
-      - 🇬🇧 adi|0125+-+英国 4
       - 🇺🇸 adi|0125+-+美国 44
       - 🇺🇸 adi|0125+-+美国 45
+      - 🇺🇸 adi|0130 - 美国 39
       - 🇺🇸 adi|0125+-+美国 46
-      - adi|0125+-+9
-      - 🇨🇦 adi|0125+-+加拿大 2
+      - adi|0130 - 95
+      - 🇺🇸 adi|0130 - 美国 40
       - 🇺🇸 adi|0125+-+美国 47
-      - 🇪🇺 adi|0125+-+欧洲 6
+      - 🇺🇸 adi|0130 - 美国 41
+      - 🇺🇸 adi|0130 - 美国 42
+      - 🇨🇦 adi|0130 - 加拿大-3.51MB/s
       - 🇺🇸 adi|0125+-+美国 48
+      - 🇺🇸 adi|0130 - 美国-3.03MB/s
       - 🇺🇸 adi|0125+-+美国 49
       - 🇺🇸 adi|0125+-+美国 50
+      - 🇪🇺 adi|0130 - 欧洲 2
       - 🇺🇸 adi|0125+-+美国 51
-      - adi|0125+-+17
+      - adi|0130 - 51
+      - adi|0130 - 76
       - 🇺🇸 adi|0125+-+美国 52
       - 🇺🇸 adi|0125+-+美国 53
+      - adi|0130 - 13
+      - 🇺🇸 adi|0130 - 美国-4.44MB/s
+      - 🇪🇺 adi|0130 - 欧洲 3
+      - 🇺🇸 adi|0130 - 美国 43
       - 🇺🇸 adi|0125+-+美国 54
-      - adi|0125+-+24
-      - 🇨🇦 adi|0125+-+加拿大 3
-      - 🇨🇳 adi|0123 - 中国
+      - 🇺🇸 adi|0130 - 美国 44
+      - adi|0125+-+48
+      - 🇺🇸 adi|0130 - 美国 45
       - 🇺🇸 adi|0125+-+美国 55
-      - adi|0123+-+CA_76
+      - 🇪🇺 adi|0130 - 欧洲 4
+      - 🇪🇺 adi|0130 - 欧洲 5
+      - 🇺🇸 adi|0130 - 美国 46
+      - adi|0130 - 72
+      - adi|0130 - 112
+      - 🇨🇦 adi|0130 - 加拿大-582.4KB/s
+      - 🇺🇸 adi|0130 - 美国 47
+      - 🇪🇺 adi|0130 - 欧洲 6
+      - 🇨🇦 adi|0130 - 加拿大-3.53MB/s
+      - adi|0130 - 90
+      - 🇺🇸 adi|0130 - 美国 48
+      - adi|0130 - 132
+      - 🇨🇦 adi|0130 - 加拿大-3.58MB/s
+      - adi|0130 - 54
+      - adi|0130 - 60
+      - 🇺🇸 adi|0130 - 美国-3.65MB/s
+      - 🇨🇦 adi|0130 - 加拿大-3.08MB/s
+      - adi|0130 - 115
+      - adi|0130 - 93
+      - 🇷🇺 adi|0130 - 俄罗斯|Justhost|0.1x|流解
+      - adi|0130 - 128
+      - 🇪🇺 adi|0130 - 欧洲 7
+      - adi|0130 - 43
+      - adi|0130 - 39 2
       - 🇺🇸 adi|0125+-+美国 56
-      - adi|0125+-+20
-      - 🇷🇺 adi|0125 - 俄罗斯13
-      - adi|0125+-+51
-      - adi|0125+-+10
       - 🇺🇸 adi|0125+-+美国 57
-      - 🇺🇸 adi|0123+-+US_61
       - 🇺🇸 adi|0125+-+美国 58
+      - adi|0130 - 136
+      - adi|0130 - 30
+      - adi|0130 - 119
+      - 🇪🇺 adi|0130 - 欧洲 8
+      - adi|0130 - 82
+      - 🇺🇸 adi|0130 - 美国 49
+      - 🇪🇺 adi|0130 - 欧洲 9
+      - 🇺🇸 adi|0130 - 美国-1.66MB/s
+      - adi|0130 - 64
+      - 🇺🇸 adi|0130 - 美国-1.42MB/s
       - 🇺🇸 adi|0125+-+美国 59
-      - 🇺🇸 adi|0125 - 美国|主|03|AWSUS|0.1x|流解
+      - 🇺🇸 adi|0130 - 美国 50
+      - 🇺🇸 adi|0130 - 美国 51
+      - 🇨🇦 adi|0130 - 加拿大-3.54MB/s
+      - adi|0130 - 27
+      - 🇨🇦 adi|0130 - 加拿大
+      - adi|0125+-+55
+      - 🇪🇺 adi|0130 - 欧洲 10
+      - 🇨🇦 adi|0130 - 加拿大-3.55MB/s
+      - 🇨🇦 adi|0130 - 加拿大-2.04MB/s
+      - adi|0130 - 65
+      - 🇨🇦 adi|0125+-+加拿大
+      - 🇺🇸 adi|0130 - 美国-3.38MB/s
+      - 🇺🇸 adi|0130 - 美国 52
+      - 🇬🇧 adi|0125+-+英国-2.29MB/s
+      - adi|0130 - 106
+      - adi|0130 - 133
+      - adi|0130 - 130
+      - 🇬🇧 adi|0130 - 英国-3.09MB/s
+      - 🇪🇺 adi|0130 - 欧洲 11
+      - adi|0130 - 102
+      - adi|0130 - 73
+      - adi|0130 - 87
+      - 🇺🇸 adi|0130 - 美国5
+      - adi|0130 - 131
+      - adi|0130 - 66
+      - adi|0130 - 28
+      - adi|0130 - 88
+      - adi|0130 - 18
+      - adi|0130 - 16
       - 🇺🇸 adi|0125+-+美国 60
+      - 🇫🇷 adi|0125+-+法国
+      - 🇺🇸 adi|0130 - 美国 53
+      - adi|0130 - 97
+      - 🇬🇧 adi|0125+-+英国
       - 🇺🇸 adi|0125+-+美国 61
-      - 🇨🇦 adi|0125+-+加拿大 4
+      - adi|0130 - 87 2
+      - adi|0130 - 13 2
+      - adi|0130 - 69
+      - adi|0130 - 124
+      - 🇺🇸 adi|0130 - 美国|主|03|AWSUS|0.1x|流解
+      - 🇪🇺 adi|0130 - 欧洲 12
+      - adi|0130 - 107
+      - 🇺🇸 adi|0130 - 美国-3.34MB/s
+      - 🇬🇧 adi|0125+-+英国 2
+      - adi|0130 - 35
+      - adi|0130 - 85
+      - adi|0130 - 34
+      - adi|0130 - 74
+      - 🇺🇸 adi|0123+-+US_61
+      - 🇺🇸 adi|0130 - 美国 54
+      - adi|0130 - 127
+      - 🇪🇺 adi|0130 - 欧洲 13
+      - adi|0130 - 114
+      - 🇺🇸 adi|0130 - 美国 55
+      - 🇨🇦 adi|0130 - 加拿大-2.98MB/s
+      - adi|0130 - 122
+      - 🇬🇧 adi|0125+-+英国 3
+      - 🇬🇧 adi|0125+-+英国 4
       - 🇺🇸 adi|0125+-+美国 62
-      - 🇺🇸 adi|0125+-+美国 63
-      - 🇺🇸 adi|0125+-+美国 64
-      - 🇺🇸 adi|0125+-+美国 65
-      - 🇪🇺 adi|0125+-+欧洲 7
-      - 🇺🇸 adi|0125 - 美国V08
+      - adi|0130 - 111
+      - 🇪🇺 adi|0125+-+欧洲
+      - 🇫🇷 adi|0130 - 法国-2.90MB/s
+      - adi|0130 - 56
+      - adi|0130 - 109
+      - adi|0130 - 120
+      - adi|0130 - 拉脱维亚|01|流解|0x
+      - adi|0130 - 24
+      - adi|0130 - 50
+      - 🇨🇦 adi|0130 - 加拿大 2
       - adi|0123 -
+      - 🇬🇧 adi|0130 - 英国-3.02MB/s
+      - adi|0130 - 135
+      - adi|0130 - 91
+      - adi|0130 - V05
+      - adi|0130 - 71
+      - adi|0130 - 57
+      - 🇪🇺 adi|0130 - 欧洲 14
+      - adi|0130 - 53 2
+      - 🇺🇸 adi|0130 - 美国 56
+      - adi|0130 - 118
+      - 🇺🇸 adi|0130 - 美国 57
+      - adi|0130 - 145
+      - adi|0130 - 86
+      - adi|0130 - 110
+      - 🇺🇸 adi|0130 - 美国-829.6KB/s
+      - adi|0130 - 69 2
+      - 🇨🇦 adi|0130 - 加拿大 3
+      - 🇪🇺 adi|0130 - 欧洲 15
+      - 🇨🇦 adi|0130 - 加拿大-1.03MB/s 2
+      - adi|0130 - 11
+      - adi|0130 - 67
+      - 🇺🇸 adi|0125+-+美国 63
+      - adi|0130 - 104
+      - adi|0130 - 78
+      - adi|0130 - 141
+      - 🇺🇸 adi|0130 - 美国 58
+      - 🇺🇸 adi|0130 - 美国 59
+      - 🇺🇸 adi|0125+-+美国 64
+      - 🇫🇷 adi|0125+-+法国 2
+      - 🇰🇷 adi|0130 - 韩国 3
+      - adi|0130 - 138
+      - 🇫🇷 adi|0125+-+法国 3
+      - 🇰🇷 adi|0130 - 韩国|01|AWSKR|0.1x|移动起飞
+      - 🇯🇵 adi|0125 - 日本|03|LINODE|0.7x|流解
+      - adi|0130 - 139
+      - 🇺🇸 adi|0130 - 美国 60
+      - 🇺🇸 adi|0125+-+美国 65
       - 🇺🇸 adi|0125+-+美国 66
       - 🇺🇸 adi|0125+-+美国 67
-      - adi|0125+-+39
+      - adi|0130 - 146
+      - adi|0130 - 147
       - 🇺🇸 adi|0125+-+美国 68
       - 🇺🇸 adi|0125+-+美国 69
-      - 🇫🇷 adi|0125+-+法国 2
       - 🇺🇸 adi|0125+-+美国 70
       - 🇺🇸 adi|0125+-+美国 71
-      - 🇺🇸 adi|0125+-+美国-4.60MB/s
+      - adi|0125+-+70
+      - adi|0130 - 148
+      - adi|0130 - 150
+      - 🇨🇦 adi|0130 - 加拿大-1.25MB/s
+      - 🇬🇧 adi|0125+-+英国-1.74MB/s
+      - 🇨🇦 adi|0130 - 加拿大-1.80MB/s
+      - 🇺🇸 adi|0130 - 美国 61
+      - adi|0130 - 149
+      - 🇪🇺 adi|0130 - 欧洲 16
+      - 🇨🇦 adi|0130 - 加拿大-1.71MB/s
       - 🇺🇸 adi|0125+-+美国 72
-      - adi|0125+-+48
-      - 🇺🇸 adi|0125+-+美国 73
-      - 🇺🇸 adi|0125+-+美国 74
-      - 🇪🇺 adi|0125+-+欧洲 8
-      - 🇺🇸 adi|0125+-+美国 75
-      - 🇺🇸 adi|0125+-+美国 76
-      - 🇺🇸 adi|0125+-+美国 77
-      - 🇬🇧 adi|0125+-+英国 5
-      - 🇪🇺 adi|0125+-+欧洲 9
-      - 🇺🇸 adi|0125+-+美国-3.98MB/s
-      - 🇺🇸 adi|0125+-+美国 78
-      - 🇫🇷 adi|0125+-+法国 3
-      - 🇺🇸 adi|0125+-+美国 79
-      - 🇺🇸 adi|0125+-+美国 80
-      - adi|0125+-+30
-      - 🇬🇧 adi|0125+-+英国 6
-      - 🇺🇸 adi|0125+-+美国 81
-      - 🇫🇷 adi|0125+-+法国 4
-      - 🇺🇸 adi|0125+-+美国 82
-      - adi|0125 - V04
-      - 🇬🇧 adi|0125+-+英国 7
-      - 🇺🇸 adi|0125+-+美国 83
-      - 🇺🇸 adi|0125+-+美国 84
-      - 🇺🇸 adi|0125+-+美国 85
-      - 🇬🇧 adi|0125+-+英国 8
-      - 🇺🇸 adi|0125+-+美国 86
-      - adi|0125+-+26
-      - adi|0125+-+65
-      - adi|0125+-+55
-      - adi|0125+-+32
-      - 🇺🇸 adi|0125+-+美国 87
-      - 🇨🇦 adi|0125+-+加拿大-3.47MB/s
-      - 🇪🇺 adi|0125+-+欧洲 10
-      - 🇪🇺 adi|0125+-+欧洲 11
-      - 🇺🇸 adi|0125+-+美国 88
-      - 🇺🇸 adi|0125+-+美国 89
-      - 🇺🇸 adi|0125+-+美国 90
-      - 🇬🇧 adi|0125+-+英国 9
-      - 🇺🇸 adi|0125+-+美国 91
-      - 🇺🇸 adi|0125+-+美国 92
-      - 🇺🇸 adi|0125+-+美国 93
-      - 🇺🇸 adi|0125+-+美国 94
-      - 🇺🇸 adi|0125+-+美国 95
-      - 🇺🇸 adi|0125+-+美国 96
-      - 🇺🇸 adi|0125+-+美国 97
-      - 🇨🇦 adi|0119+-+CA_加拿大+21
-      - 🇬🇧 adi|0125+-+英国 10
-      - 🇬🇧 adi|0125+-+英国-3.10MB/s
-      - 🇺🇸 adi|0125+-+美国++24
-      - 🇺🇸 adi|0125+-+美国 98
-      - 🇬🇧 adi|0125+-+英国-2.29MB/s
-      - 🇺🇸 adi|0125+-+美国 99
-      - 🇬🇧 adi|0125+-+英国 11
-      - adi|0125+-+13
-      - 🇺🇸 adi|0125+-+美国 100
-      - 🇬🇧 adi|0125+-+英国 12
-      - 🇺🇸 adi|0125+-+美国 101
-      - adi|0125+-+28
-      - 🇺🇸 adi|0125+-+美国 102
-      - 🇺🇸 adi|0125+-+美国 103
-      - 🇺🇸 adi|0125+-+美国 104
-      - 🇺🇸 adi|0125+-+美国 105
-      - 🇺🇸 adi|0125+-+美国 106
-      - 🇺🇸 adi|0125+-+美国 107
-      - 🇺🇸 adi|0125+-+美国 108
-      - 🇺🇸 adi|0125+-+美国 109
-      - 🇺🇸 adi|0125+-+美国 110
-      - 🇺🇸 adi|0125+-+美国 111
-      - 🇺🇸 adi|0125+-+美国 112
-      - 🇺🇸 adi|0125+-+美国 113
-      - 🇺🇸 adi|0125+-+美国 114
-      - 🇺🇸 adi|0125+-+美国 115
-      - 🇺🇸 adi|0125+-+美国 116
-      - 🇺🇸 adi|0125+-+美国 117
-      - 🇺🇸 adi|0125+-+美国 118
-      - 🇺🇸 adi|0125+-+美国 119
-      - 🇺🇸 adi|0125+-+美国 120
-      - 🇺🇸 adi|0125+-+美国 121
-      - 🇺🇸 adi|0125+-+美国 122
-      - 🇺🇸 adi|0125+-+美国 123
-      - 🇺🇸 adi|0125+-+美国 124
-      - 🇺🇸 adi|0125+-+美国 125
-      - 🇺🇸 adi|0125+-+美国 126
-      - 🇺🇸 adi|0125+-+美国 127
-      - 🇺🇸 adi|0125+-+美国 128
-      - 🇺🇸 adi|0125+-+美国 129
-      - 🇺🇸 adi|0125+-+美国 130
-      - 🇺🇸 adi|0125+-+美国 131
-      - 🇺🇸 adi|0125+-+美国 132
-      - 🇺🇸 adi|0125+-+美国 133
-      - 🇺🇸 adi|0125+-+美国 134
-      - 🇺🇸 adi|0125+-+美国 135
-      - 🇺🇸 adi|0125+-+美国 136
-      - 🇺🇸 adi|0125+-+美国 137
-      - 🇺🇸 adi|0125+-+美国 138
-      - 🇺🇸 adi|0125+-+美国 139
-      - 🇺🇸 adi|0125+-+美国 140
-      - 🇺🇸 adi|0125+-+美国 141
-      - 🇺🇸 adi|0125+-+美国 142
-      - 🇺🇸 adi|0125+-+美国 143
-      - 🇺🇸 adi|0125+-+美国 144
-      - 🇺🇸 adi|0125+-+美国 145
-      - 🇺🇸 adi|0125+-+美国 146
-      - 🇺🇸 adi|0125+-+美国 147
-      - 🇺🇸 adi|0125+-+美国 148
-      - 🇺🇸 adi|0125+-+美国 149
-      - 🇺🇸 adi|0125+-+美国 150
-      - 🇺🇸 adi|0125+-+美国 151
-      - 🇺🇸 adi|0125+-+美国 152
-      - 🇺🇸 adi|0125+-+美国 153
-      - 🇺🇸 adi|0125+-+美国 154
-      - 🇺🇸 adi|0125+-+美国 155
-      - 🇺🇸 adi|0125+-+美国 156
-      - 🇺🇸 adi|0125+-+美国 157
-      - 🇺🇸 adi|0125+-+美国 158
-      - 🇺🇸 adi|0125+-+美国 159
-      - 🇺🇸 adi|0125+-+美国 160
-      - 🇺🇸 adi|0125+-+美国 161
-      - 🇺🇸 adi|0125+-+美国 162
-      - 🇺🇸 adi|0125+-+美国 163
-      - 🇺🇸 adi|0125+-+美国 164
-      - 🇺🇸 adi|0125+-+美国 165
-      - 🇺🇸 adi|0125+-+美国 166
-      - 🇺🇸 adi|0125+-+美国 167
-      - 🇯🇵 adi|0125 - 日本|03|LINODE|0.7x|流解
+      - adi|0130 - 57 2
+      - 🇷🇺 adi|0130 - 俄罗斯02b
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - adi|0125 - V41
-      - 🇯🇵 adi|0125 - JP_17
-      - 🇭🇰 adi|0123 - 香港
-      - adi|0125 - 卢森堡|01|BT|0x
+      - 🇭🇰 adi|0130 - 香港
+      - adi|0130 - 3
+      - 🇰🇷 adi|0130 - 韩国
+      - 🇰🇷 adi|0130 - 韩国 2
+      - 🇺🇸 adi|0130 - 美国V08b
+      - 🇺🇸 adi|0130 - 美国V19b
+      - 🇺🇸 adi|0130 - 美国
+      - adi|0130 - 三网15
+      - 🇺🇸 adi|0130 - 美国 2
       - 🇺🇸 adi|0125+-+美国
+      - adi|0130 - 三网19
       - 🇺🇸 adi|0125+-+美国 2
-      - 🇪🇺 adi|0125+-+欧洲
       - 🇺🇸 adi|0125+-+美国 3
-      - 🇪🇺 adi|0125+-+欧洲 2
+      - 🇺🇸 adi|0130 - 美国 3
       - 🇺🇸 adi|0125+-+美国 4
+      - 🇺🇸 adi|0130 - 美国 4
+      - 🇺🇸 adi|0130 - 美国 5
+      - 🇺🇸 adi|0130 - 美国 6
       - 🇺🇸 adi|0125+-+美国 5
       - 🇺🇸 adi|0125+-+美国 6
-      - adi|0125+-+70
-      - 🇬🇧 adi|0125+-+英国
       - 🇺🇸 adi|0125+-+美国 7
-      - 🇬🇧 adi|0125+-+英国-1.74MB/s
       - 🇺🇸 adi|0125+-+美国 8
       - 🇺🇸 adi|0125+-+美国 9
       - 🇺🇸 adi|0125+-+美国 10
       - 🇺🇸 adi|0125+-+美国 11
       - 🇺🇸 adi|0125+-+美国 12
-      - 🇺🇸 adi|0125+-+美国-1.85MB/s
+      - 🇺🇸 adi|0130 - 美国 7
       - 🇺🇸 adi|0125+-+美国 13
       - 🇺🇸 adi|0125+-+美国 14
-      - adi|0125+-+
-      - 🇫🇷 adi|0125+-+法国
-      - 🇪🇺 adi|0125+-+欧洲 3
+      - 🇺🇸 adi|0130 - 美国 8
+      - adi|0130 - 三网11
       - 🇺🇸 adi|0125+-+美国 15
       - 🇺🇸 adi|0125+-+美国 16
-      - 🇺🇸 adi|0125+-+美国Cogent9
+      - adi|0130 - 44
+      - 🇺🇸 adi|0130 - 美国-4.57MB/s
       - 🇺🇸 adi|0125+-+美国 17
       - 🇺🇸 adi|0125+-+美国 18
+      - 🇺🇸 adi|0130 - 美国 9
+      - 🇺🇸 adi|0130 - 美国 10
       - 🇺🇸 adi|0125+-+美国 19
-      - adi|0125+-+69
-      - adi|0125+-+43
       - 🇺🇸 adi|0125+-+美国 20
       - 🇺🇸 adi|0125+-+美国 21
-      - 🇬🇧 adi|0125+-+英国 2
-      - 🇪🇺 adi|0125+-+欧洲 4
+      - 🇺🇸 adi|0130 - 美国 11
       - 🇺🇸 adi|0125+-+美国 22
-      - 🇷🇺 adi|0125 - 俄罗斯02
-      - adi|0125 - 拉脱维亚|01|流解|0x
-      - 🇨🇦 adi|0119+-+加拿大-1.40MB/s
-      - 🇬🇧 adi|0125+-+英国 3
+      - 🇺🇸 adi|0130 - 美国 12
       - 🇺🇸 adi|0125+-+美国 23
       - 🇺🇸 adi|0125+-+美国 24
+      - 🇺🇸 adi|0130 - 美国 13
       - 🇺🇸 adi|0125+-+美国 25
       - 🇺🇸 adi|0125+-+美国 26
-      - adi|0125+-+8
-      - 🇫🇷 adi|0125 - 法国|02|OVH
       - 🇺🇸 adi|0125+-+美国 27
-      - 🇺🇸 adi|0125 - 美国V19
-      - 🇪🇺 adi|0125+-+欧洲 5
       - 🇺🇸 adi|0125+-+美国 28
       - 🇺🇸 adi|0125+-+美国 29
-      - adi|0125+-+14
-      - adi|0125+-+29
+      - 🇺🇸 adi|0130 - 美国 14
       - 🇺🇸 adi|0125+-+美国 30
       - 🇺🇸 adi|0125+-+美国 31
+      - 🇺🇸 adi|0130 - 美国 15
       - 🇺🇸 adi|0125+-+美国 32
+      - 🇺🇸 adi|0130 - 美国 16
+      - 🇺🇸 adi|0130 - 美国 17
+      - 🇺🇸 adi|0130 - 美国 18
+      - 🇺🇸 adi|0130 - 美国 19
       - 🇺🇸 adi|0125+-+美国 33
+      - adi|0130 - 89
+      - 🇺🇸 adi|0130 - 美国 20
       - 🇺🇸 adi|0125+-+美国 34
       - 🇺🇸 adi|0125+-+美国 35
+      - 🇺🇸 adi|0130 - 美国 21
+      - 🇺🇸 adi|0130 - 美国 22
+      - 🇺🇸 adi|0130 - 美国 23
+      - adi|0130 - 77
       - 🇺🇸 adi|0125+-+美国 36
-      - 🇺🇸 adi|0125 - 美国V19 2
+      - 🇺🇸 adi|0130 - 美国 24
+      - 🇺🇸 adi|0130 - 美国 25
+      - 🇺🇸 adi|0130 - 美国 26
       - 🇺🇸 adi|0125+-+美国 37
+      - adi|0130 - 84
+      - 🇺🇸 adi|0130 - 美国 27
+      - adi|0130 - 58
+      - 🇺🇸 adi|0130 - 美国 28
+      - 🇺🇸 adi|0130 - 美国 29
+      - 🇺🇸 adi|0130 - 美国 30
+      - 🇺🇸 adi|0130 - 美国-3.63MB/s
+      - 🇺🇸 adi|0130 - 美国 31
+      - adi|0130 - 53
+      - adi|0130 - 92
+      - adi|0130 - 79
+      - 🇺🇸 adi|0130 - 美国 32
       - 🇺🇸 adi|0125+-+美国 38
+      - 🇺🇸 adi|0130 - 美国 33
       - 🇺🇸 adi|0125+-+美国 39
+      - 🇺🇸 adi|0130 - 美国 34
+      - 🇪🇺 adi|0130 - 欧洲
+      - 🇺🇸 adi|0130 - 美国 35
+      - 🇺🇸 adi|0130 - 美国 36
+      - 🇺🇸 adi|0130 - 美国 37
       - 🇺🇸 adi|0125+-+美国 40
-      - 🇨🇦 adi|0125+-+加拿大
+      - adi|0130 - 39
+      - 🇺🇸 adi|0130 - 美国 38
       - 🇺🇸 adi|0125+-+美国 41
+      - adi|0130 - 49
       - 🇺🇸 adi|0125+-+美国 42
       - 🇺🇸 adi|0125+-+美国 43
-      - 🇬🇧 adi|0125+-+英国 4
       - 🇺🇸 adi|0125+-+美国 44
       - 🇺🇸 adi|0125+-+美国 45
+      - 🇺🇸 adi|0130 - 美国 39
       - 🇺🇸 adi|0125+-+美国 46
-      - adi|0125+-+9
-      - 🇨🇦 adi|0125+-+加拿大 2
+      - adi|0130 - 95
+      - 🇺🇸 adi|0130 - 美国 40
       - 🇺🇸 adi|0125+-+美国 47
-      - 🇪🇺 adi|0125+-+欧洲 6
+      - 🇺🇸 adi|0130 - 美国 41
+      - 🇺🇸 adi|0130 - 美国 42
+      - 🇨🇦 adi|0130 - 加拿大-3.51MB/s
       - 🇺🇸 adi|0125+-+美国 48
+      - 🇺🇸 adi|0130 - 美国-3.03MB/s
       - 🇺🇸 adi|0125+-+美国 49
       - 🇺🇸 adi|0125+-+美国 50
+      - 🇪🇺 adi|0130 - 欧洲 2
       - 🇺🇸 adi|0125+-+美国 51
-      - adi|0125+-+17
+      - adi|0130 - 51
+      - adi|0130 - 76
       - 🇺🇸 adi|0125+-+美国 52
       - 🇺🇸 adi|0125+-+美国 53
+      - adi|0130 - 13
+      - 🇺🇸 adi|0130 - 美国-4.44MB/s
+      - 🇪🇺 adi|0130 - 欧洲 3
+      - 🇺🇸 adi|0130 - 美国 43
       - 🇺🇸 adi|0125+-+美国 54
-      - adi|0125+-+24
-      - 🇨🇦 adi|0125+-+加拿大 3
-      - 🇨🇳 adi|0123 - 中国
+      - 🇺🇸 adi|0130 - 美国 44
+      - adi|0125+-+48
+      - 🇺🇸 adi|0130 - 美国 45
       - 🇺🇸 adi|0125+-+美国 55
-      - adi|0123+-+CA_76
+      - 🇪🇺 adi|0130 - 欧洲 4
+      - 🇪🇺 adi|0130 - 欧洲 5
+      - 🇺🇸 adi|0130 - 美国 46
+      - adi|0130 - 72
+      - adi|0130 - 112
+      - 🇨🇦 adi|0130 - 加拿大-582.4KB/s
+      - 🇺🇸 adi|0130 - 美国 47
+      - 🇪🇺 adi|0130 - 欧洲 6
+      - 🇨🇦 adi|0130 - 加拿大-3.53MB/s
+      - adi|0130 - 90
+      - 🇺🇸 adi|0130 - 美国 48
+      - adi|0130 - 132
+      - 🇨🇦 adi|0130 - 加拿大-3.58MB/s
+      - adi|0130 - 54
+      - adi|0130 - 60
+      - 🇺🇸 adi|0130 - 美国-3.65MB/s
+      - 🇨🇦 adi|0130 - 加拿大-3.08MB/s
+      - adi|0130 - 115
+      - adi|0130 - 93
+      - 🇷🇺 adi|0130 - 俄罗斯|Justhost|0.1x|流解
+      - adi|0130 - 128
+      - 🇪🇺 adi|0130 - 欧洲 7
+      - adi|0130 - 43
+      - adi|0130 - 39 2
       - 🇺🇸 adi|0125+-+美国 56
-      - adi|0125+-+20
-      - 🇷🇺 adi|0125 - 俄罗斯13
-      - adi|0125+-+51
-      - adi|0125+-+10
       - 🇺🇸 adi|0125+-+美国 57
-      - 🇺🇸 adi|0123+-+US_61
       - 🇺🇸 adi|0125+-+美国 58
+      - adi|0130 - 136
+      - adi|0130 - 30
+      - adi|0130 - 119
+      - 🇪🇺 adi|0130 - 欧洲 8
+      - adi|0130 - 82
+      - 🇺🇸 adi|0130 - 美国 49
+      - 🇪🇺 adi|0130 - 欧洲 9
+      - 🇺🇸 adi|0130 - 美国-1.66MB/s
+      - adi|0130 - 64
+      - 🇺🇸 adi|0130 - 美国-1.42MB/s
       - 🇺🇸 adi|0125+-+美国 59
-      - 🇺🇸 adi|0125 - 美国|主|03|AWSUS|0.1x|流解
+      - 🇺🇸 adi|0130 - 美国 50
+      - 🇺🇸 adi|0130 - 美国 51
+      - 🇨🇦 adi|0130 - 加拿大-3.54MB/s
+      - adi|0130 - 27
+      - 🇨🇦 adi|0130 - 加拿大
+      - adi|0125+-+55
+      - 🇪🇺 adi|0130 - 欧洲 10
+      - 🇨🇦 adi|0130 - 加拿大-3.55MB/s
+      - 🇨🇦 adi|0130 - 加拿大-2.04MB/s
+      - adi|0130 - 65
+      - 🇨🇦 adi|0125+-+加拿大
+      - 🇺🇸 adi|0130 - 美国-3.38MB/s
+      - 🇺🇸 adi|0130 - 美国 52
+      - 🇬🇧 adi|0125+-+英国-2.29MB/s
+      - adi|0130 - 106
+      - adi|0130 - 133
+      - adi|0130 - 130
+      - 🇬🇧 adi|0130 - 英国-3.09MB/s
+      - 🇪🇺 adi|0130 - 欧洲 11
+      - adi|0130 - 102
+      - adi|0130 - 73
+      - adi|0130 - 87
+      - 🇺🇸 adi|0130 - 美国5
+      - adi|0130 - 131
+      - adi|0130 - 66
+      - adi|0130 - 28
+      - adi|0130 - 88
+      - adi|0130 - 18
+      - adi|0130 - 16
       - 🇺🇸 adi|0125+-+美国 60
+      - 🇫🇷 adi|0125+-+法国
+      - 🇺🇸 adi|0130 - 美国 53
+      - adi|0130 - 97
+      - 🇬🇧 adi|0125+-+英国
       - 🇺🇸 adi|0125+-+美国 61
-      - 🇨🇦 adi|0125+-+加拿大 4
+      - adi|0130 - 87 2
+      - adi|0130 - 13 2
+      - adi|0130 - 69
+      - adi|0130 - 124
+      - 🇺🇸 adi|0130 - 美国|主|03|AWSUS|0.1x|流解
+      - 🇪🇺 adi|0130 - 欧洲 12
+      - adi|0130 - 107
+      - 🇺🇸 adi|0130 - 美国-3.34MB/s
+      - 🇬🇧 adi|0125+-+英国 2
+      - adi|0130 - 35
+      - adi|0130 - 85
+      - adi|0130 - 34
+      - adi|0130 - 74
+      - 🇺🇸 adi|0123+-+US_61
+      - 🇺🇸 adi|0130 - 美国 54
+      - adi|0130 - 127
+      - 🇪🇺 adi|0130 - 欧洲 13
+      - adi|0130 - 114
+      - 🇺🇸 adi|0130 - 美国 55
+      - 🇨🇦 adi|0130 - 加拿大-2.98MB/s
+      - adi|0130 - 122
+      - 🇬🇧 adi|0125+-+英国 3
+      - 🇬🇧 adi|0125+-+英国 4
       - 🇺🇸 adi|0125+-+美国 62
-      - 🇺🇸 adi|0125+-+美国 63
-      - 🇺🇸 adi|0125+-+美国 64
-      - 🇺🇸 adi|0125+-+美国 65
-      - 🇪🇺 adi|0125+-+欧洲 7
-      - 🇺🇸 adi|0125 - 美国V08
+      - adi|0130 - 111
+      - 🇪🇺 adi|0125+-+欧洲
+      - 🇫🇷 adi|0130 - 法国-2.90MB/s
+      - adi|0130 - 56
+      - adi|0130 - 109
+      - adi|0130 - 120
+      - adi|0130 - 拉脱维亚|01|流解|0x
+      - adi|0130 - 24
+      - adi|0130 - 50
+      - 🇨🇦 adi|0130 - 加拿大 2
       - adi|0123 -
+      - 🇬🇧 adi|0130 - 英国-3.02MB/s
+      - adi|0130 - 135
+      - adi|0130 - 91
+      - adi|0130 - V05
+      - adi|0130 - 71
+      - adi|0130 - 57
+      - 🇪🇺 adi|0130 - 欧洲 14
+      - adi|0130 - 53 2
+      - 🇺🇸 adi|0130 - 美国 56
+      - adi|0130 - 118
+      - 🇺🇸 adi|0130 - 美国 57
+      - adi|0130 - 145
+      - adi|0130 - 86
+      - adi|0130 - 110
+      - 🇺🇸 adi|0130 - 美国-829.6KB/s
+      - adi|0130 - 69 2
+      - 🇨🇦 adi|0130 - 加拿大 3
+      - 🇪🇺 adi|0130 - 欧洲 15
+      - 🇨🇦 adi|0130 - 加拿大-1.03MB/s 2
+      - adi|0130 - 11
+      - adi|0130 - 67
+      - 🇺🇸 adi|0125+-+美国 63
+      - adi|0130 - 104
+      - adi|0130 - 78
+      - adi|0130 - 141
+      - 🇺🇸 adi|0130 - 美国 58
+      - 🇺🇸 adi|0130 - 美国 59
+      - 🇺🇸 adi|0125+-+美国 64
+      - 🇫🇷 adi|0125+-+法国 2
+      - 🇰🇷 adi|0130 - 韩国 3
+      - adi|0130 - 138
+      - 🇫🇷 adi|0125+-+法国 3
+      - 🇰🇷 adi|0130 - 韩国|01|AWSKR|0.1x|移动起飞
+      - 🇯🇵 adi|0125 - 日本|03|LINODE|0.7x|流解
+      - adi|0130 - 139
+      - 🇺🇸 adi|0130 - 美国 60
+      - 🇺🇸 adi|0125+-+美国 65
       - 🇺🇸 adi|0125+-+美国 66
       - 🇺🇸 adi|0125+-+美国 67
-      - adi|0125+-+39
+      - adi|0130 - 146
+      - adi|0130 - 147
       - 🇺🇸 adi|0125+-+美国 68
       - 🇺🇸 adi|0125+-+美国 69
-      - 🇫🇷 adi|0125+-+法国 2
       - 🇺🇸 adi|0125+-+美国 70
       - 🇺🇸 adi|0125+-+美国 71
-      - 🇺🇸 adi|0125+-+美国-4.60MB/s
+      - adi|0125+-+70
+      - adi|0130 - 148
+      - adi|0130 - 150
+      - 🇨🇦 adi|0130 - 加拿大-1.25MB/s
+      - 🇬🇧 adi|0125+-+英国-1.74MB/s
+      - 🇨🇦 adi|0130 - 加拿大-1.80MB/s
+      - 🇺🇸 adi|0130 - 美国 61
+      - adi|0130 - 149
+      - 🇪🇺 adi|0130 - 欧洲 16
+      - 🇨🇦 adi|0130 - 加拿大-1.71MB/s
       - 🇺🇸 adi|0125+-+美国 72
-      - adi|0125+-+48
-      - 🇺🇸 adi|0125+-+美国 73
-      - 🇺🇸 adi|0125+-+美国 74
-      - 🇪🇺 adi|0125+-+欧洲 8
-      - 🇺🇸 adi|0125+-+美国 75
-      - 🇺🇸 adi|0125+-+美国 76
-      - 🇺🇸 adi|0125+-+美国 77
-      - 🇬🇧 adi|0125+-+英国 5
-      - 🇪🇺 adi|0125+-+欧洲 9
-      - 🇺🇸 adi|0125+-+美国-3.98MB/s
-      - 🇺🇸 adi|0125+-+美国 78
-      - 🇫🇷 adi|0125+-+法国 3
-      - 🇺🇸 adi|0125+-+美国 79
-      - 🇺🇸 adi|0125+-+美国 80
-      - adi|0125+-+30
-      - 🇬🇧 adi|0125+-+英国 6
-      - 🇺🇸 adi|0125+-+美国 81
-      - 🇫🇷 adi|0125+-+法国 4
-      - 🇺🇸 adi|0125+-+美国 82
-      - adi|0125 - V04
-      - 🇬🇧 adi|0125+-+英国 7
-      - 🇺🇸 adi|0125+-+美国 83
-      - 🇺🇸 adi|0125+-+美国 84
-      - 🇺🇸 adi|0125+-+美国 85
-      - 🇬🇧 adi|0125+-+英国 8
-      - 🇺🇸 adi|0125+-+美国 86
-      - adi|0125+-+26
-      - adi|0125+-+65
-      - adi|0125+-+55
-      - adi|0125+-+32
-      - 🇺🇸 adi|0125+-+美国 87
-      - 🇨🇦 adi|0125+-+加拿大-3.47MB/s
-      - 🇪🇺 adi|0125+-+欧洲 10
-      - 🇪🇺 adi|0125+-+欧洲 11
-      - 🇺🇸 adi|0125+-+美国 88
-      - 🇺🇸 adi|0125+-+美国 89
-      - 🇺🇸 adi|0125+-+美国 90
-      - 🇬🇧 adi|0125+-+英国 9
-      - 🇺🇸 adi|0125+-+美国 91
-      - 🇺🇸 adi|0125+-+美国 92
-      - 🇺🇸 adi|0125+-+美国 93
-      - 🇺🇸 adi|0125+-+美国 94
-      - 🇺🇸 adi|0125+-+美国 95
-      - 🇺🇸 adi|0125+-+美国 96
-      - 🇺🇸 adi|0125+-+美国 97
-      - 🇨🇦 adi|0119+-+CA_加拿大+21
-      - 🇬🇧 adi|0125+-+英国 10
-      - 🇬🇧 adi|0125+-+英国-3.10MB/s
-      - 🇺🇸 adi|0125+-+美国++24
-      - 🇺🇸 adi|0125+-+美国 98
-      - 🇬🇧 adi|0125+-+英国-2.29MB/s
-      - 🇺🇸 adi|0125+-+美国 99
-      - 🇬🇧 adi|0125+-+英国 11
-      - adi|0125+-+13
-      - 🇺🇸 adi|0125+-+美国 100
-      - 🇬🇧 adi|0125+-+英国 12
-      - 🇺🇸 adi|0125+-+美国 101
-      - adi|0125+-+28
-      - 🇺🇸 adi|0125+-+美国 102
-      - 🇺🇸 adi|0125+-+美国 103
-      - 🇺🇸 adi|0125+-+美国 104
-      - 🇺🇸 adi|0125+-+美国 105
-      - 🇺🇸 adi|0125+-+美国 106
-      - 🇺🇸 adi|0125+-+美国 107
-      - 🇺🇸 adi|0125+-+美国 108
-      - 🇺🇸 adi|0125+-+美国 109
-      - 🇺🇸 adi|0125+-+美国 110
-      - 🇺🇸 adi|0125+-+美国 111
-      - 🇺🇸 adi|0125+-+美国 112
-      - 🇺🇸 adi|0125+-+美国 113
-      - 🇺🇸 adi|0125+-+美国 114
-      - 🇺🇸 adi|0125+-+美国 115
-      - 🇺🇸 adi|0125+-+美国 116
-      - 🇺🇸 adi|0125+-+美国 117
-      - 🇺🇸 adi|0125+-+美国 118
-      - 🇺🇸 adi|0125+-+美国 119
-      - 🇺🇸 adi|0125+-+美国 120
-      - 🇺🇸 adi|0125+-+美国 121
-      - 🇺🇸 adi|0125+-+美国 122
-      - 🇺🇸 adi|0125+-+美国 123
-      - 🇺🇸 adi|0125+-+美国 124
-      - 🇺🇸 adi|0125+-+美国 125
-      - 🇺🇸 adi|0125+-+美国 126
-      - 🇺🇸 adi|0125+-+美国 127
-      - 🇺🇸 adi|0125+-+美国 128
-      - 🇺🇸 adi|0125+-+美国 129
-      - 🇺🇸 adi|0125+-+美国 130
-      - 🇺🇸 adi|0125+-+美国 131
-      - 🇺🇸 adi|0125+-+美国 132
-      - 🇺🇸 adi|0125+-+美国 133
-      - 🇺🇸 adi|0125+-+美国 134
-      - 🇺🇸 adi|0125+-+美国 135
-      - 🇺🇸 adi|0125+-+美国 136
-      - 🇺🇸 adi|0125+-+美国 137
-      - 🇺🇸 adi|0125+-+美国 138
-      - 🇺🇸 adi|0125+-+美国 139
-      - 🇺🇸 adi|0125+-+美国 140
-      - 🇺🇸 adi|0125+-+美国 141
-      - 🇺🇸 adi|0125+-+美国 142
-      - 🇺🇸 adi|0125+-+美国 143
-      - 🇺🇸 adi|0125+-+美国 144
-      - 🇺🇸 adi|0125+-+美国 145
-      - 🇺🇸 adi|0125+-+美国 146
-      - 🇺🇸 adi|0125+-+美国 147
-      - 🇺🇸 adi|0125+-+美国 148
-      - 🇺🇸 adi|0125+-+美国 149
-      - 🇺🇸 adi|0125+-+美国 150
-      - 🇺🇸 adi|0125+-+美国 151
-      - 🇺🇸 adi|0125+-+美国 152
-      - 🇺🇸 adi|0125+-+美国 153
-      - 🇺🇸 adi|0125+-+美国 154
-      - 🇺🇸 adi|0125+-+美国 155
-      - 🇺🇸 adi|0125+-+美国 156
-      - 🇺🇸 adi|0125+-+美国 157
-      - 🇺🇸 adi|0125+-+美国 158
-      - 🇺🇸 adi|0125+-+美国 159
-      - 🇺🇸 adi|0125+-+美国 160
-      - 🇺🇸 adi|0125+-+美国 161
-      - 🇺🇸 adi|0125+-+美国 162
-      - 🇺🇸 adi|0125+-+美国 163
-      - 🇺🇸 adi|0125+-+美国 164
-      - 🇺🇸 adi|0125+-+美国 165
-      - 🇺🇸 adi|0125+-+美国 166
-      - 🇺🇸 adi|0125+-+美国 167
-      - 🇯🇵 adi|0125 - 日本|03|LINODE|0.7x|流解
+      - adi|0130 - 57 2
+      - 🇷🇺 adi|0130 - 俄罗斯02b
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1294,255 +1539,304 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - adi|0125 - V41
-      - 🇯🇵 adi|0125 - JP_17
-      - 🇭🇰 adi|0123 - 香港
-      - adi|0125 - 卢森堡|01|BT|0x
+      - 🇭🇰 adi|0130 - 香港
+      - adi|0130 - 3
+      - 🇰🇷 adi|0130 - 韩国
+      - 🇰🇷 adi|0130 - 韩国 2
+      - 🇺🇸 adi|0130 - 美国V08b
+      - 🇺🇸 adi|0130 - 美国V19b
+      - 🇺🇸 adi|0130 - 美国
+      - adi|0130 - 三网15
+      - 🇺🇸 adi|0130 - 美国 2
       - 🇺🇸 adi|0125+-+美国
+      - adi|0130 - 三网19
       - 🇺🇸 adi|0125+-+美国 2
-      - 🇪🇺 adi|0125+-+欧洲
       - 🇺🇸 adi|0125+-+美国 3
-      - 🇪🇺 adi|0125+-+欧洲 2
+      - 🇺🇸 adi|0130 - 美国 3
       - 🇺🇸 adi|0125+-+美国 4
+      - 🇺🇸 adi|0130 - 美国 4
+      - 🇺🇸 adi|0130 - 美国 5
+      - 🇺🇸 adi|0130 - 美国 6
       - 🇺🇸 adi|0125+-+美国 5
       - 🇺🇸 adi|0125+-+美国 6
-      - adi|0125+-+70
-      - 🇬🇧 adi|0125+-+英国
       - 🇺🇸 adi|0125+-+美国 7
-      - 🇬🇧 adi|0125+-+英国-1.74MB/s
       - 🇺🇸 adi|0125+-+美国 8
       - 🇺🇸 adi|0125+-+美国 9
       - 🇺🇸 adi|0125+-+美国 10
       - 🇺🇸 adi|0125+-+美国 11
       - 🇺🇸 adi|0125+-+美国 12
-      - 🇺🇸 adi|0125+-+美国-1.85MB/s
+      - 🇺🇸 adi|0130 - 美国 7
       - 🇺🇸 adi|0125+-+美国 13
       - 🇺🇸 adi|0125+-+美国 14
-      - adi|0125+-+
-      - 🇫🇷 adi|0125+-+法国
-      - 🇪🇺 adi|0125+-+欧洲 3
+      - 🇺🇸 adi|0130 - 美国 8
+      - adi|0130 - 三网11
       - 🇺🇸 adi|0125+-+美国 15
       - 🇺🇸 adi|0125+-+美国 16
-      - 🇺🇸 adi|0125+-+美国Cogent9
+      - adi|0130 - 44
+      - 🇺🇸 adi|0130 - 美国-4.57MB/s
       - 🇺🇸 adi|0125+-+美国 17
       - 🇺🇸 adi|0125+-+美国 18
+      - 🇺🇸 adi|0130 - 美国 9
+      - 🇺🇸 adi|0130 - 美国 10
       - 🇺🇸 adi|0125+-+美国 19
-      - adi|0125+-+69
-      - adi|0125+-+43
       - 🇺🇸 adi|0125+-+美国 20
       - 🇺🇸 adi|0125+-+美国 21
-      - 🇬🇧 adi|0125+-+英国 2
-      - 🇪🇺 adi|0125+-+欧洲 4
+      - 🇺🇸 adi|0130 - 美国 11
       - 🇺🇸 adi|0125+-+美国 22
-      - 🇷🇺 adi|0125 - 俄罗斯02
-      - adi|0125 - 拉脱维亚|01|流解|0x
-      - 🇨🇦 adi|0119+-+加拿大-1.40MB/s
-      - 🇬🇧 adi|0125+-+英国 3
+      - 🇺🇸 adi|0130 - 美国 12
       - 🇺🇸 adi|0125+-+美国 23
       - 🇺🇸 adi|0125+-+美国 24
+      - 🇺🇸 adi|0130 - 美国 13
       - 🇺🇸 adi|0125+-+美国 25
       - 🇺🇸 adi|0125+-+美国 26
-      - adi|0125+-+8
-      - 🇫🇷 adi|0125 - 法国|02|OVH
       - 🇺🇸 adi|0125+-+美国 27
-      - 🇺🇸 adi|0125 - 美国V19
-      - 🇪🇺 adi|0125+-+欧洲 5
       - 🇺🇸 adi|0125+-+美国 28
       - 🇺🇸 adi|0125+-+美国 29
-      - adi|0125+-+14
-      - adi|0125+-+29
+      - 🇺🇸 adi|0130 - 美国 14
       - 🇺🇸 adi|0125+-+美国 30
       - 🇺🇸 adi|0125+-+美国 31
+      - 🇺🇸 adi|0130 - 美国 15
       - 🇺🇸 adi|0125+-+美国 32
+      - 🇺🇸 adi|0130 - 美国 16
+      - 🇺🇸 adi|0130 - 美国 17
+      - 🇺🇸 adi|0130 - 美国 18
+      - 🇺🇸 adi|0130 - 美国 19
       - 🇺🇸 adi|0125+-+美国 33
+      - adi|0130 - 89
+      - 🇺🇸 adi|0130 - 美国 20
       - 🇺🇸 adi|0125+-+美国 34
       - 🇺🇸 adi|0125+-+美国 35
+      - 🇺🇸 adi|0130 - 美国 21
+      - 🇺🇸 adi|0130 - 美国 22
+      - 🇺🇸 adi|0130 - 美国 23
+      - adi|0130 - 77
       - 🇺🇸 adi|0125+-+美国 36
-      - 🇺🇸 adi|0125 - 美国V19 2
+      - 🇺🇸 adi|0130 - 美国 24
+      - 🇺🇸 adi|0130 - 美国 25
+      - 🇺🇸 adi|0130 - 美国 26
       - 🇺🇸 adi|0125+-+美国 37
+      - adi|0130 - 84
+      - 🇺🇸 adi|0130 - 美国 27
+      - adi|0130 - 58
+      - 🇺🇸 adi|0130 - 美国 28
+      - 🇺🇸 adi|0130 - 美国 29
+      - 🇺🇸 adi|0130 - 美国 30
+      - 🇺🇸 adi|0130 - 美国-3.63MB/s
+      - 🇺🇸 adi|0130 - 美国 31
+      - adi|0130 - 53
+      - adi|0130 - 92
+      - adi|0130 - 79
+      - 🇺🇸 adi|0130 - 美国 32
       - 🇺🇸 adi|0125+-+美国 38
+      - 🇺🇸 adi|0130 - 美国 33
       - 🇺🇸 adi|0125+-+美国 39
+      - 🇺🇸 adi|0130 - 美国 34
+      - 🇪🇺 adi|0130 - 欧洲
+      - 🇺🇸 adi|0130 - 美国 35
+      - 🇺🇸 adi|0130 - 美国 36
+      - 🇺🇸 adi|0130 - 美国 37
       - 🇺🇸 adi|0125+-+美国 40
-      - 🇨🇦 adi|0125+-+加拿大
+      - adi|0130 - 39
+      - 🇺🇸 adi|0130 - 美国 38
       - 🇺🇸 adi|0125+-+美国 41
+      - adi|0130 - 49
       - 🇺🇸 adi|0125+-+美国 42
       - 🇺🇸 adi|0125+-+美国 43
-      - 🇬🇧 adi|0125+-+英国 4
       - 🇺🇸 adi|0125+-+美国 44
       - 🇺🇸 adi|0125+-+美国 45
+      - 🇺🇸 adi|0130 - 美国 39
       - 🇺🇸 adi|0125+-+美国 46
-      - adi|0125+-+9
-      - 🇨🇦 adi|0125+-+加拿大 2
+      - adi|0130 - 95
+      - 🇺🇸 adi|0130 - 美国 40
       - 🇺🇸 adi|0125+-+美国 47
-      - 🇪🇺 adi|0125+-+欧洲 6
+      - 🇺🇸 adi|0130 - 美国 41
+      - 🇺🇸 adi|0130 - 美国 42
+      - 🇨🇦 adi|0130 - 加拿大-3.51MB/s
       - 🇺🇸 adi|0125+-+美国 48
+      - 🇺🇸 adi|0130 - 美国-3.03MB/s
       - 🇺🇸 adi|0125+-+美国 49
       - 🇺🇸 adi|0125+-+美国 50
+      - 🇪🇺 adi|0130 - 欧洲 2
       - 🇺🇸 adi|0125+-+美国 51
-      - adi|0125+-+17
+      - adi|0130 - 51
+      - adi|0130 - 76
       - 🇺🇸 adi|0125+-+美国 52
       - 🇺🇸 adi|0125+-+美国 53
+      - adi|0130 - 13
+      - 🇺🇸 adi|0130 - 美国-4.44MB/s
+      - 🇪🇺 adi|0130 - 欧洲 3
+      - 🇺🇸 adi|0130 - 美国 43
       - 🇺🇸 adi|0125+-+美国 54
-      - adi|0125+-+24
-      - 🇨🇦 adi|0125+-+加拿大 3
-      - 🇨🇳 adi|0123 - 中国
+      - 🇺🇸 adi|0130 - 美国 44
+      - adi|0125+-+48
+      - 🇺🇸 adi|0130 - 美国 45
       - 🇺🇸 adi|0125+-+美国 55
-      - adi|0123+-+CA_76
+      - 🇪🇺 adi|0130 - 欧洲 4
+      - 🇪🇺 adi|0130 - 欧洲 5
+      - 🇺🇸 adi|0130 - 美国 46
+      - adi|0130 - 72
+      - adi|0130 - 112
+      - 🇨🇦 adi|0130 - 加拿大-582.4KB/s
+      - 🇺🇸 adi|0130 - 美国 47
+      - 🇪🇺 adi|0130 - 欧洲 6
+      - 🇨🇦 adi|0130 - 加拿大-3.53MB/s
+      - adi|0130 - 90
+      - 🇺🇸 adi|0130 - 美国 48
+      - adi|0130 - 132
+      - 🇨🇦 adi|0130 - 加拿大-3.58MB/s
+      - adi|0130 - 54
+      - adi|0130 - 60
+      - 🇺🇸 adi|0130 - 美国-3.65MB/s
+      - 🇨🇦 adi|0130 - 加拿大-3.08MB/s
+      - adi|0130 - 115
+      - adi|0130 - 93
+      - 🇷🇺 adi|0130 - 俄罗斯|Justhost|0.1x|流解
+      - adi|0130 - 128
+      - 🇪🇺 adi|0130 - 欧洲 7
+      - adi|0130 - 43
+      - adi|0130 - 39 2
       - 🇺🇸 adi|0125+-+美国 56
-      - adi|0125+-+20
-      - 🇷🇺 adi|0125 - 俄罗斯13
-      - adi|0125+-+51
-      - adi|0125+-+10
       - 🇺🇸 adi|0125+-+美国 57
-      - 🇺🇸 adi|0123+-+US_61
       - 🇺🇸 adi|0125+-+美国 58
+      - adi|0130 - 136
+      - adi|0130 - 30
+      - adi|0130 - 119
+      - 🇪🇺 adi|0130 - 欧洲 8
+      - adi|0130 - 82
+      - 🇺🇸 adi|0130 - 美国 49
+      - 🇪🇺 adi|0130 - 欧洲 9
+      - 🇺🇸 adi|0130 - 美国-1.66MB/s
+      - adi|0130 - 64
+      - 🇺🇸 adi|0130 - 美国-1.42MB/s
       - 🇺🇸 adi|0125+-+美国 59
-      - 🇺🇸 adi|0125 - 美国|主|03|AWSUS|0.1x|流解
+      - 🇺🇸 adi|0130 - 美国 50
+      - 🇺🇸 adi|0130 - 美国 51
+      - 🇨🇦 adi|0130 - 加拿大-3.54MB/s
+      - adi|0130 - 27
+      - 🇨🇦 adi|0130 - 加拿大
+      - adi|0125+-+55
+      - 🇪🇺 adi|0130 - 欧洲 10
+      - 🇨🇦 adi|0130 - 加拿大-3.55MB/s
+      - 🇨🇦 adi|0130 - 加拿大-2.04MB/s
+      - adi|0130 - 65
+      - 🇨🇦 adi|0125+-+加拿大
+      - 🇺🇸 adi|0130 - 美国-3.38MB/s
+      - 🇺🇸 adi|0130 - 美国 52
+      - 🇬🇧 adi|0125+-+英国-2.29MB/s
+      - adi|0130 - 106
+      - adi|0130 - 133
+      - adi|0130 - 130
+      - 🇬🇧 adi|0130 - 英国-3.09MB/s
+      - 🇪🇺 adi|0130 - 欧洲 11
+      - adi|0130 - 102
+      - adi|0130 - 73
+      - adi|0130 - 87
+      - 🇺🇸 adi|0130 - 美国5
+      - adi|0130 - 131
+      - adi|0130 - 66
+      - adi|0130 - 28
+      - adi|0130 - 88
+      - adi|0130 - 18
+      - adi|0130 - 16
       - 🇺🇸 adi|0125+-+美国 60
+      - 🇫🇷 adi|0125+-+法国
+      - 🇺🇸 adi|0130 - 美国 53
+      - adi|0130 - 97
+      - 🇬🇧 adi|0125+-+英国
       - 🇺🇸 adi|0125+-+美国 61
-      - 🇨🇦 adi|0125+-+加拿大 4
+      - adi|0130 - 87 2
+      - adi|0130 - 13 2
+      - adi|0130 - 69
+      - adi|0130 - 124
+      - 🇺🇸 adi|0130 - 美国|主|03|AWSUS|0.1x|流解
+      - 🇪🇺 adi|0130 - 欧洲 12
+      - adi|0130 - 107
+      - 🇺🇸 adi|0130 - 美国-3.34MB/s
+      - 🇬🇧 adi|0125+-+英国 2
+      - adi|0130 - 35
+      - adi|0130 - 85
+      - adi|0130 - 34
+      - adi|0130 - 74
+      - 🇺🇸 adi|0123+-+US_61
+      - 🇺🇸 adi|0130 - 美国 54
+      - adi|0130 - 127
+      - 🇪🇺 adi|0130 - 欧洲 13
+      - adi|0130 - 114
+      - 🇺🇸 adi|0130 - 美国 55
+      - 🇨🇦 adi|0130 - 加拿大-2.98MB/s
+      - adi|0130 - 122
+      - 🇬🇧 adi|0125+-+英国 3
+      - 🇬🇧 adi|0125+-+英国 4
       - 🇺🇸 adi|0125+-+美国 62
-      - 🇺🇸 adi|0125+-+美国 63
-      - 🇺🇸 adi|0125+-+美国 64
-      - 🇺🇸 adi|0125+-+美国 65
-      - 🇪🇺 adi|0125+-+欧洲 7
-      - 🇺🇸 adi|0125 - 美国V08
+      - adi|0130 - 111
+      - 🇪🇺 adi|0125+-+欧洲
+      - 🇫🇷 adi|0130 - 法国-2.90MB/s
+      - adi|0130 - 56
+      - adi|0130 - 109
+      - adi|0130 - 120
+      - adi|0130 - 拉脱维亚|01|流解|0x
+      - adi|0130 - 24
+      - adi|0130 - 50
+      - 🇨🇦 adi|0130 - 加拿大 2
       - adi|0123 -
+      - 🇬🇧 adi|0130 - 英国-3.02MB/s
+      - adi|0130 - 135
+      - adi|0130 - 91
+      - adi|0130 - V05
+      - adi|0130 - 71
+      - adi|0130 - 57
+      - 🇪🇺 adi|0130 - 欧洲 14
+      - adi|0130 - 53 2
+      - 🇺🇸 adi|0130 - 美国 56
+      - adi|0130 - 118
+      - 🇺🇸 adi|0130 - 美国 57
+      - adi|0130 - 145
+      - adi|0130 - 86
+      - adi|0130 - 110
+      - 🇺🇸 adi|0130 - 美国-829.6KB/s
+      - adi|0130 - 69 2
+      - 🇨🇦 adi|0130 - 加拿大 3
+      - 🇪🇺 adi|0130 - 欧洲 15
+      - 🇨🇦 adi|0130 - 加拿大-1.03MB/s 2
+      - adi|0130 - 11
+      - adi|0130 - 67
+      - 🇺🇸 adi|0125+-+美国 63
+      - adi|0130 - 104
+      - adi|0130 - 78
+      - adi|0130 - 141
+      - 🇺🇸 adi|0130 - 美国 58
+      - 🇺🇸 adi|0130 - 美国 59
+      - 🇺🇸 adi|0125+-+美国 64
+      - 🇫🇷 adi|0125+-+法国 2
+      - 🇰🇷 adi|0130 - 韩国 3
+      - adi|0130 - 138
+      - 🇫🇷 adi|0125+-+法国 3
+      - 🇰🇷 adi|0130 - 韩国|01|AWSKR|0.1x|移动起飞
+      - 🇯🇵 adi|0125 - 日本|03|LINODE|0.7x|流解
+      - adi|0130 - 139
+      - 🇺🇸 adi|0130 - 美国 60
+      - 🇺🇸 adi|0125+-+美国 65
       - 🇺🇸 adi|0125+-+美国 66
       - 🇺🇸 adi|0125+-+美国 67
-      - adi|0125+-+39
+      - adi|0130 - 146
+      - adi|0130 - 147
       - 🇺🇸 adi|0125+-+美国 68
       - 🇺🇸 adi|0125+-+美国 69
-      - 🇫🇷 adi|0125+-+法国 2
       - 🇺🇸 adi|0125+-+美国 70
       - 🇺🇸 adi|0125+-+美国 71
-      - 🇺🇸 adi|0125+-+美国-4.60MB/s
+      - adi|0125+-+70
+      - adi|0130 - 148
+      - adi|0130 - 150
+      - 🇨🇦 adi|0130 - 加拿大-1.25MB/s
+      - 🇬🇧 adi|0125+-+英国-1.74MB/s
+      - 🇨🇦 adi|0130 - 加拿大-1.80MB/s
+      - 🇺🇸 adi|0130 - 美国 61
+      - adi|0130 - 149
+      - 🇪🇺 adi|0130 - 欧洲 16
+      - 🇨🇦 adi|0130 - 加拿大-1.71MB/s
       - 🇺🇸 adi|0125+-+美国 72
-      - adi|0125+-+48
-      - 🇺🇸 adi|0125+-+美国 73
-      - 🇺🇸 adi|0125+-+美国 74
-      - 🇪🇺 adi|0125+-+欧洲 8
-      - 🇺🇸 adi|0125+-+美国 75
-      - 🇺🇸 adi|0125+-+美国 76
-      - 🇺🇸 adi|0125+-+美国 77
-      - 🇬🇧 adi|0125+-+英国 5
-      - 🇪🇺 adi|0125+-+欧洲 9
-      - 🇺🇸 adi|0125+-+美国-3.98MB/s
-      - 🇺🇸 adi|0125+-+美国 78
-      - 🇫🇷 adi|0125+-+法国 3
-      - 🇺🇸 adi|0125+-+美国 79
-      - 🇺🇸 adi|0125+-+美国 80
-      - adi|0125+-+30
-      - 🇬🇧 adi|0125+-+英国 6
-      - 🇺🇸 adi|0125+-+美国 81
-      - 🇫🇷 adi|0125+-+法国 4
-      - 🇺🇸 adi|0125+-+美国 82
-      - adi|0125 - V04
-      - 🇬🇧 adi|0125+-+英国 7
-      - 🇺🇸 adi|0125+-+美国 83
-      - 🇺🇸 adi|0125+-+美国 84
-      - 🇺🇸 adi|0125+-+美国 85
-      - 🇬🇧 adi|0125+-+英国 8
-      - 🇺🇸 adi|0125+-+美国 86
-      - adi|0125+-+26
-      - adi|0125+-+65
-      - adi|0125+-+55
-      - adi|0125+-+32
-      - 🇺🇸 adi|0125+-+美国 87
-      - 🇨🇦 adi|0125+-+加拿大-3.47MB/s
-      - 🇪🇺 adi|0125+-+欧洲 10
-      - 🇪🇺 adi|0125+-+欧洲 11
-      - 🇺🇸 adi|0125+-+美国 88
-      - 🇺🇸 adi|0125+-+美国 89
-      - 🇺🇸 adi|0125+-+美国 90
-      - 🇬🇧 adi|0125+-+英国 9
-      - 🇺🇸 adi|0125+-+美国 91
-      - 🇺🇸 adi|0125+-+美国 92
-      - 🇺🇸 adi|0125+-+美国 93
-      - 🇺🇸 adi|0125+-+美国 94
-      - 🇺🇸 adi|0125+-+美国 95
-      - 🇺🇸 adi|0125+-+美国 96
-      - 🇺🇸 adi|0125+-+美国 97
-      - 🇨🇦 adi|0119+-+CA_加拿大+21
-      - 🇬🇧 adi|0125+-+英国 10
-      - 🇬🇧 adi|0125+-+英国-3.10MB/s
-      - 🇺🇸 adi|0125+-+美国++24
-      - 🇺🇸 adi|0125+-+美国 98
-      - 🇬🇧 adi|0125+-+英国-2.29MB/s
-      - 🇺🇸 adi|0125+-+美国 99
-      - 🇬🇧 adi|0125+-+英国 11
-      - adi|0125+-+13
-      - 🇺🇸 adi|0125+-+美国 100
-      - 🇬🇧 adi|0125+-+英国 12
-      - 🇺🇸 adi|0125+-+美国 101
-      - adi|0125+-+28
-      - 🇺🇸 adi|0125+-+美国 102
-      - 🇺🇸 adi|0125+-+美国 103
-      - 🇺🇸 adi|0125+-+美国 104
-      - 🇺🇸 adi|0125+-+美国 105
-      - 🇺🇸 adi|0125+-+美国 106
-      - 🇺🇸 adi|0125+-+美国 107
-      - 🇺🇸 adi|0125+-+美国 108
-      - 🇺🇸 adi|0125+-+美国 109
-      - 🇺🇸 adi|0125+-+美国 110
-      - 🇺🇸 adi|0125+-+美国 111
-      - 🇺🇸 adi|0125+-+美国 112
-      - 🇺🇸 adi|0125+-+美国 113
-      - 🇺🇸 adi|0125+-+美国 114
-      - 🇺🇸 adi|0125+-+美国 115
-      - 🇺🇸 adi|0125+-+美国 116
-      - 🇺🇸 adi|0125+-+美国 117
-      - 🇺🇸 adi|0125+-+美国 118
-      - 🇺🇸 adi|0125+-+美国 119
-      - 🇺🇸 adi|0125+-+美国 120
-      - 🇺🇸 adi|0125+-+美国 121
-      - 🇺🇸 adi|0125+-+美国 122
-      - 🇺🇸 adi|0125+-+美国 123
-      - 🇺🇸 adi|0125+-+美国 124
-      - 🇺🇸 adi|0125+-+美国 125
-      - 🇺🇸 adi|0125+-+美国 126
-      - 🇺🇸 adi|0125+-+美国 127
-      - 🇺🇸 adi|0125+-+美国 128
-      - 🇺🇸 adi|0125+-+美国 129
-      - 🇺🇸 adi|0125+-+美国 130
-      - 🇺🇸 adi|0125+-+美国 131
-      - 🇺🇸 adi|0125+-+美国 132
-      - 🇺🇸 adi|0125+-+美国 133
-      - 🇺🇸 adi|0125+-+美国 134
-      - 🇺🇸 adi|0125+-+美国 135
-      - 🇺🇸 adi|0125+-+美国 136
-      - 🇺🇸 adi|0125+-+美国 137
-      - 🇺🇸 adi|0125+-+美国 138
-      - 🇺🇸 adi|0125+-+美国 139
-      - 🇺🇸 adi|0125+-+美国 140
-      - 🇺🇸 adi|0125+-+美国 141
-      - 🇺🇸 adi|0125+-+美国 142
-      - 🇺🇸 adi|0125+-+美国 143
-      - 🇺🇸 adi|0125+-+美国 144
-      - 🇺🇸 adi|0125+-+美国 145
-      - 🇺🇸 adi|0125+-+美国 146
-      - 🇺🇸 adi|0125+-+美国 147
-      - 🇺🇸 adi|0125+-+美国 148
-      - 🇺🇸 adi|0125+-+美国 149
-      - 🇺🇸 adi|0125+-+美国 150
-      - 🇺🇸 adi|0125+-+美国 151
-      - 🇺🇸 adi|0125+-+美国 152
-      - 🇺🇸 adi|0125+-+美国 153
-      - 🇺🇸 adi|0125+-+美国 154
-      - 🇺🇸 adi|0125+-+美国 155
-      - 🇺🇸 adi|0125+-+美国 156
-      - 🇺🇸 adi|0125+-+美国 157
-      - 🇺🇸 adi|0125+-+美国 158
-      - 🇺🇸 adi|0125+-+美国 159
-      - 🇺🇸 adi|0125+-+美国 160
-      - 🇺🇸 adi|0125+-+美国 161
-      - 🇺🇸 adi|0125+-+美国 162
-      - 🇺🇸 adi|0125+-+美国 163
-      - 🇺🇸 adi|0125+-+美国 164
-      - 🇺🇸 adi|0125+-+美国 165
-      - 🇺🇸 adi|0125+-+美国 166
-      - 🇺🇸 adi|0125+-+美国 167
-      - 🇯🇵 adi|0125 - 日本|03|LINODE|0.7x|流解
+      - adi|0130 - 57 2
+      - 🇷🇺 adi|0130 - 俄罗斯02b
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
