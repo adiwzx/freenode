@@ -5,85 +5,48 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇫🇷 adi|0219 - 法国_18, server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 🇫🇷 adi|0219 - 法国, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇫🇷 adi|0216 - 法国_165, server: 149.202.82.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇫🇷 adi|0216 - 法国-1.76MB/s, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 adi|0219 - 美国-4.62MB/s, server: 209.141.35.147, port: 48919, type: trojan, password: 52911320-db53-40ff-917a-e5de797c28e7, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 adi|0219 - 法国_185, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0219 - 美国7, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, headers: {Host: anzhuo-hezi1.herokuapp.com}}, udp: true}
-  - {name: 🇫🇷 adi|0219 - 法国_30, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 🇪🇺 adi|0219 - 欧洲, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, headers: {Host: anzhuo-hezi1.herokuapp.com}}, udp: true}
-  - {name: 🇫🇷 adi|0219 - 法国_179, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇫🇷 adi|0219 - 法国_168, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇨🇦 adi|0219 - 加拿大121, server: 134.195.196.147, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇫🇷 adi|0219 - 法国-2.75MB/s, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇺🇸 adi|0219 - 美国_47, server: fancy-wildflower-2641.2112898766397.workers.dev, port: 443, type: vmess, uuid: ed049663-25a3-4300-93e3-8d7966b2bb19, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ed049663-25a3-4300-93e3-8d7966b2bb19-vmess, headers: {Host: fancy-wildflower-2641.2112898766397.workers.dev}}, udp: true}
-  - {name: adi|0219 - 39, server: 104.16.104.126, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: sweet-salad-aa33.tianzhen19880808.workers.dev}}, udp: true}
-  - {name: 🇨🇦 adi|0219 - 加拿大_117, server: 134.195.196.147, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇺🇸 adi|0219 - 美国_38, server: 104.27.89.125, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, headers: {Host: xiaochen.chenyingjie5201314.workers.dev}}, udp: true}
-  - {name: 🇫🇷 adi|0216 - 法国_172, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国_42, server: 172.99.190.205, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇪🇺 adi|0216 - 欧洲, server: 149.202.82.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国-3.11MB/s, server: 172.99.190.188, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇨🇦 adi|0219 - 加拿大_60, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国-1.62MB/s, server: 172.99.190.205, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇫🇷 adi|0219 - 法国_62, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国-3.15MB/s, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇨🇦 adi|0219 - 加拿大-3.41MB/s, server: 134.195.196.147, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国-2.85MB/s, server: 172.99.190.205, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇺🇸 adi|0219 - 美国_53, server: us.lv.buyvm.tgproxy.wtf, port: 21888, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: us.lv.buyvm.tgproxy.wtf}}, udp: true}
-  - {name: 🇨🇦 adi|0219 - 加拿大_4, server: 134.195.196.147, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 adi|0219 - 美国_37, server: us.lv.buyvm.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: us.lv.buyvm.tgproxy.wtf}}, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国-2.67MB/s, server: 172.99.190.205, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 🇫🇷 adi|0219 - 法国 2, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇨🇳 adi|0219 - 台湾-4.09MB/s, server: tw.v2ssvps.com, port: 60763, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: microsoft.com}}, udp: true}
-  - {name: 🇨🇦 adi|0216 - 加拿大_61, server: 134.195.196.147, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国-2.76MB/s 2, server: 172.99.190.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇨🇦 adi|0219 - 加拿大_27, server: 134.195.196.200, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国_2, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇨🇦 adi|0219 - 加拿大_81, server: 134.195.196.147, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国-549.7KB/s, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国-2.86MB/s, server: 172.99.190.205, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国_14, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国_4, server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国_6, server: 172.99.190.205, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇺🇸 adi|0212 - 美国-3.42MB/s, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国_11, server: 172.99.190.87, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国_18, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国_6 2, server: 172.99.190.205, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇫🇷 adi|0216 - 法国_173, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国-3.15MB/s 2, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国_11 2, server: 172.99.190.149, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇨🇦 adi|0219 - 加拿大_55, server: 134.195.196.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国_17, server: 172.99.190.205, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇨🇦 adi|0219 - 加拿大-1.44MB/s, server: 134.195.196.200, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇨🇦 adi|0219 - 加拿大-1.26MB/s, server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国-3.08MB/s, server: 172.99.190.87, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇺🇸 adi|0220 - US_2894, server: 173.255.225.7, port: 11416, type: trojan, password: f34894e3-a601-426b-a254-0f65f0009b37, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 adi|0219 - 法国, server: 149.202.82.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 🇫🇷 adi|0219 - 法国_61, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国_6 3, server: 172.99.190.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇨🇦 adi|0219 - 加拿大_13, server: 134.195.196.147, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国_6 4, server: 172.99.190.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇬🇧 adi|0216 - 英国-2.89MB/s, server: 172.99.190.188, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国-1.07MB/s, server: 172.99.190.205, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 🇫🇷 adi|0219 - 法国_50, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 🇺🇸 adi|0220 - 美国-2.94MB, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, headers: {Host: anzhuo-hezi1.herokuapp.com}}, udp: true}
+  - {name: adi|0220 - default_name, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, headers: {Host: anzhuo-hezi1.herokuapp.com}}, udp: true}
+  - {name: 🇨🇦 adi|0219 - 加拿大_117, server: 134.195.196.147, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: adi|0220 - 21.96Mb, server: t4.ssrsub.com, port: 8443, type: trojan, password: b2015918-4a70-4250-8afa-dba8a5be97f4, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 adi|0220 - US_2784, server: zhang.miaoge110.cf, port: 443, type: vmess, uuid: f74e3a3d-41a3-4ef9-ad53-418d8547aea8, alterId: 0, cipher: auto, tls: true, network: h2, h2-opts: {path: "", host: [zhang.miaoge110.cf]}, udp: true}
+  - {name: 🇨🇦 adi|0216 - 加拿大_61, server: 134.195.196.147, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 🇨🇦 adi|0219 - 加拿大-3.42MB/s, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国_15, server: 172.99.190.39, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国_12, server: 172.99.190.205, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇨🇦 adi|0219 - 加拿大_5, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国-2.37MB/s, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇺🇸 adi|0212 - 美国-1.58MB/s, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国_12 2, server: 172.99.190.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇫🇷 adi|0219 - 法国_179, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 🇨🇳 adi|0220 - CN_23, server: hz.pbaplink.xyz, port: 47772, type: trojan, password: ad983854-167d-478f-88eb-5d494d3b2c24, sni: hz.pbaplink.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 adi|0219 - 法国_30, server: 149.202.82.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 🇨🇦 adi|0220 - 加拿大_57, server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 🇨🇦 adi|0219 - 加拿大69, server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇫🇷 adi|0216 - 法国_177, server: 149.202.82.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国-1.38MB/s, server: 172.99.190.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 🇨🇦 adi|0219 - 加拿大107, server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国_11 3, server: 172.99.190.205, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 🇬🇧 adi|0219 - 英国_2 2, server: 172.99.190.205, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 🇫🇷 adi|0219 - 法国_103, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇬🇧 adi|0216 - 英国-1.09MB/s, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 🇨🇦 adi|0219 - 加拿大_130, server: 134.195.196.200, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 🇨🇦 adi|0219 - 加拿大_144, server: 134.195.196.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇨🇦 adi|0219 - 加拿大_60, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: adi|0220 - 15.07Mb, server: t4.ssrsub.com, port: 8443, type: trojan, password: 739e53db-d41c-4bad-a61d-6cd5a173f85b, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 🇪🇺 adi|0220 - 欧洲, server: lv.tgproxy.wtf, port: 2052, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /theuploadapi, headers: {Host: lv.tgproxy.wtf}}, udp: true}
+  - {name: adi|0220 - 19.01Mb, server: 101.67.8.172, port: 38845, type: ss, cipher: chacha20-ietf-poly1305, password: 3f448e67-ad9e-4cc2-ab6b-51f69445fdd9, udp: true}
+  - {name: 🇬🇧 adi|0220 - 英国-2.43MB, server: 172.99.190.188, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇬🇧 adi|0220 - 英国-672.6KB, server: 172.99.190.205, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 🇯🇵 adi|0220 - 日本-591.7KB, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 adi|0220 - CN_24, server: hz.pbaplink.xyz, port: 47769, type: trojan, password: ad983854-167d-478f-88eb-5d494d3b2c24, sni: hz.pbaplink.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 adi|0216 - 法国_173, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 🇺🇸 adi|0220 - 美国-2.81MB, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 🇨🇦 adi|0219 - 加拿大121, server: 134.195.196.147, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇨🇦 adi|0220 - 加拿大-622.2KB, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇺🇸 adi|0212 - 美国-1.58MB/s, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇬🇧 adi|0220 - 英国-503.8KB, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇬🇧 adi|0220 - 英国-1.97MB, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇺🇸 adi|0220 - US_94, server: v11.ssrsub.com, port: 166, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v11.ssrsub.com}}, udp: true}
+  - {name: adi|0220 - 22.50Mb, server: t3.ssrsub.com, port: 8443, type: trojan, password: 739e53db-d41c-4bad-a61d-6cd5a173f85b, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: adi|0220 - 21.76Mb, server: t3.ssrsub.com, port: 8443, type: trojan, password: b2015918-4a70-4250-8afa-dba8a5be97f4, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 adi|0220 - RU, server: t7.ssrsub.com, port: 8443, type: trojan, password: b2015918-4a70-4250-8afa-dba8a5be97f4, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 adi|0220 - RU 2, server: t7.ssrsub.com, port: 8443, type: trojan, password: 739e53db-d41c-4bad-a61d-6cd5a173f85b, sni: t7.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 adi|0220 - US_31, server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 adi|0220 - US_100, server: v6.ssrsub.com, port: 166, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v6.ssrsub.com}}, udp: true}
+  - {name: 🇺🇸 adi|0220 - US_88, server: v4.ssrsub.com, port: 166, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
+  - {name: 🇺🇸 adi|0220 - US_91, server: v4.ssrsub.com, port: 166, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v4.ssrsub.com}}, udp: true}
+  - {name: adi|0220 - AU_11, server: v10.ssrsub.com, port: 166, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v10.ssrsub.com}}, udp: true}
+  - {name: adi|0220 - AU_10, server: v10.ssrsub.com, port: 166, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ssrsub, headers: {Host: v10.ssrsub.com}}, udp: true}
+  - {name: adi|0220 - GB_561, server: 109.74.194.189, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -92,339 +55,191 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇫🇷 adi|0219 - 法国_18
+      - 🇺🇸 adi|0220 - US_2894
       - 🇫🇷 adi|0219 - 法国
-      - 🇫🇷 adi|0216 - 法国_165
-      - 🇫🇷 adi|0216 - 法国-1.76MB/s
-      - 🇺🇸 adi|0219 - 美国-4.62MB/s
-      - 🇫🇷 adi|0219 - 法国_185
-      - 🇺🇸 adi|0219 - 美国7
-      - 🇫🇷 adi|0219 - 法国_30
-      - 🇪🇺 adi|0219 - 欧洲
-      - 🇫🇷 adi|0219 - 法国_179
-      - 🇫🇷 adi|0219 - 法国_168
-      - 🇨🇦 adi|0219 - 加拿大121
-      - 🇫🇷 adi|0219 - 法国-2.75MB/s
-      - 🇺🇸 adi|0219 - 美国_47
-      - adi|0219 - 39
-      - 🇨🇦 adi|0219 - 加拿大_117
-      - 🇺🇸 adi|0219 - 美国_38
-      - 🇫🇷 adi|0216 - 法国_172
-      - 🇬🇧 adi|0219 - 英国_42
-      - 🇪🇺 adi|0216 - 欧洲
-      - 🇬🇧 adi|0219 - 英国-3.11MB/s
-      - 🇨🇦 adi|0219 - 加拿大_60
-      - 🇬🇧 adi|0219 - 英国-1.62MB/s
-      - 🇫🇷 adi|0219 - 法国_62
-      - 🇬🇧 adi|0219 - 英国-3.15MB/s
-      - 🇨🇦 adi|0219 - 加拿大-3.41MB/s
-      - 🇬🇧 adi|0219 - 英国-2.85MB/s
-      - 🇺🇸 adi|0219 - 美国_53
-      - 🇨🇦 adi|0219 - 加拿大_4
-      - 🇺🇸 adi|0219 - 美国_37
-      - 🇬🇧 adi|0219 - 英国-2.67MB/s
-      - 🇫🇷 adi|0219 - 法国 2
-      - 🇨🇳 adi|0219 - 台湾-4.09MB/s
-      - 🇨🇦 adi|0216 - 加拿大_61
-      - 🇬🇧 adi|0219 - 英国-2.76MB/s 2
-      - 🇨🇦 adi|0219 - 加拿大_27
-      - 🇬🇧 adi|0219 - 英国_2
-      - 🇨🇦 adi|0219 - 加拿大_81
-      - 🇬🇧 adi|0219 - 英国-549.7KB/s
-      - 🇬🇧 adi|0219 - 英国-2.86MB/s
-      - 🇬🇧 adi|0219 - 英国_14
-      - 🇬🇧 adi|0219 - 英国_4
-      - 🇬🇧 adi|0219 - 英国_6
-      - 🇺🇸 adi|0212 - 美国-3.42MB/s
-      - 🇬🇧 adi|0219 - 英国_11
-      - 🇬🇧 adi|0219 - 英国_18
-      - 🇬🇧 adi|0219 - 英国_6 2
-      - 🇫🇷 adi|0216 - 法国_173
-      - 🇬🇧 adi|0219 - 英国-3.15MB/s 2
-      - 🇬🇧 adi|0219 - 英国_11 2
-      - 🇨🇦 adi|0219 - 加拿大_55
-      - 🇬🇧 adi|0219 - 英国_17
-      - 🇨🇦 adi|0219 - 加拿大-1.44MB/s
-      - 🇨🇦 adi|0219 - 加拿大-1.26MB/s
-      - 🇬🇧 adi|0219 - 英国-3.08MB/s
       - 🇫🇷 adi|0219 - 法国_61
-      - 🇬🇧 adi|0219 - 英国_6 3
-      - 🇨🇦 adi|0219 - 加拿大_13
-      - 🇬🇧 adi|0219 - 英国_6 4
-      - 🇬🇧 adi|0216 - 英国-2.89MB/s
-      - 🇬🇧 adi|0219 - 英国-1.07MB/s
-      - 🇫🇷 adi|0219 - 法国_50
+      - 🇺🇸 adi|0220 - 美国-2.94MB
+      - adi|0220 - default_name
+      - 🇨🇦 adi|0219 - 加拿大_117
+      - adi|0220 - 21.96Mb
+      - 🇺🇸 adi|0220 - US_2784
+      - 🇨🇦 adi|0216 - 加拿大_61
       - 🇨🇦 adi|0219 - 加拿大-3.42MB/s
-      - 🇬🇧 adi|0219 - 英国_15
-      - 🇬🇧 adi|0219 - 英国_12
-      - 🇨🇦 adi|0219 - 加拿大_5
-      - 🇬🇧 adi|0219 - 英国-2.37MB/s
-      - 🇺🇸 adi|0212 - 美国-1.58MB/s
-      - 🇬🇧 adi|0219 - 英国_12 2
+      - 🇫🇷 adi|0219 - 法国_179
+      - 🇨🇳 adi|0220 - CN_23
+      - 🇫🇷 adi|0219 - 法国_30
+      - 🇨🇦 adi|0220 - 加拿大_57
       - 🇨🇦 adi|0219 - 加拿大69
-      - 🇫🇷 adi|0216 - 法国_177
-      - 🇬🇧 adi|0219 - 英国-1.38MB/s
-      - 🇨🇦 adi|0219 - 加拿大107
-      - 🇬🇧 adi|0219 - 英国_11 3
-      - 🇬🇧 adi|0219 - 英国_2 2
-      - 🇫🇷 adi|0219 - 法国_103
-      - 🇬🇧 adi|0216 - 英国-1.09MB/s
-      - 🇨🇦 adi|0219 - 加拿大_130
-      - 🇨🇦 adi|0219 - 加拿大_144
+      - 🇨🇦 adi|0219 - 加拿大_60
+      - adi|0220 - 15.07Mb
+      - 🇪🇺 adi|0220 - 欧洲
+      - adi|0220 - 19.01Mb
+      - 🇬🇧 adi|0220 - 英国-2.43MB
+      - 🇬🇧 adi|0220 - 英国-672.6KB
+      - 🇯🇵 adi|0220 - 日本-591.7KB
+      - 🇨🇳 adi|0220 - CN_24
+      - 🇫🇷 adi|0216 - 法国_173
+      - 🇺🇸 adi|0220 - 美国-2.81MB
+      - 🇨🇦 adi|0219 - 加拿大121
+      - 🇨🇦 adi|0220 - 加拿大-622.2KB
+      - 🇺🇸 adi|0212 - 美国-1.58MB/s
+      - 🇬🇧 adi|0220 - 英国-503.8KB
+      - 🇬🇧 adi|0220 - 英国-1.97MB
+      - 🇺🇸 adi|0220 - US_94
+      - adi|0220 - 22.50Mb
+      - adi|0220 - 21.76Mb
+      - 🇷🇺 adi|0220 - RU
+      - 🇷🇺 adi|0220 - RU 2
+      - 🇺🇸 adi|0220 - US_31
+      - 🇺🇸 adi|0220 - US_100
+      - 🇺🇸 adi|0220 - US_88
+      - 🇺🇸 adi|0220 - US_91
+      - adi|0220 - AU_11
+      - adi|0220 - AU_10
+      - adi|0220 - GB_561
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇫🇷 adi|0219 - 法国_18
+      - 🇺🇸 adi|0220 - US_2894
       - 🇫🇷 adi|0219 - 法国
-      - 🇫🇷 adi|0216 - 法国_165
-      - 🇫🇷 adi|0216 - 法国-1.76MB/s
-      - 🇺🇸 adi|0219 - 美国-4.62MB/s
-      - 🇫🇷 adi|0219 - 法国_185
-      - 🇺🇸 adi|0219 - 美国7
-      - 🇫🇷 adi|0219 - 法国_30
-      - 🇪🇺 adi|0219 - 欧洲
-      - 🇫🇷 adi|0219 - 法国_179
-      - 🇫🇷 adi|0219 - 法国_168
-      - 🇨🇦 adi|0219 - 加拿大121
-      - 🇫🇷 adi|0219 - 法国-2.75MB/s
-      - 🇺🇸 adi|0219 - 美国_47
-      - adi|0219 - 39
-      - 🇨🇦 adi|0219 - 加拿大_117
-      - 🇺🇸 adi|0219 - 美国_38
-      - 🇫🇷 adi|0216 - 法国_172
-      - 🇬🇧 adi|0219 - 英国_42
-      - 🇪🇺 adi|0216 - 欧洲
-      - 🇬🇧 adi|0219 - 英国-3.11MB/s
-      - 🇨🇦 adi|0219 - 加拿大_60
-      - 🇬🇧 adi|0219 - 英国-1.62MB/s
-      - 🇫🇷 adi|0219 - 法国_62
-      - 🇬🇧 adi|0219 - 英国-3.15MB/s
-      - 🇨🇦 adi|0219 - 加拿大-3.41MB/s
-      - 🇬🇧 adi|0219 - 英国-2.85MB/s
-      - 🇺🇸 adi|0219 - 美国_53
-      - 🇨🇦 adi|0219 - 加拿大_4
-      - 🇺🇸 adi|0219 - 美国_37
-      - 🇬🇧 adi|0219 - 英国-2.67MB/s
-      - 🇫🇷 adi|0219 - 法国 2
-      - 🇨🇳 adi|0219 - 台湾-4.09MB/s
-      - 🇨🇦 adi|0216 - 加拿大_61
-      - 🇬🇧 adi|0219 - 英国-2.76MB/s 2
-      - 🇨🇦 adi|0219 - 加拿大_27
-      - 🇬🇧 adi|0219 - 英国_2
-      - 🇨🇦 adi|0219 - 加拿大_81
-      - 🇬🇧 adi|0219 - 英国-549.7KB/s
-      - 🇬🇧 adi|0219 - 英国-2.86MB/s
-      - 🇬🇧 adi|0219 - 英国_14
-      - 🇬🇧 adi|0219 - 英国_4
-      - 🇬🇧 adi|0219 - 英国_6
-      - 🇺🇸 adi|0212 - 美国-3.42MB/s
-      - 🇬🇧 adi|0219 - 英国_11
-      - 🇬🇧 adi|0219 - 英国_18
-      - 🇬🇧 adi|0219 - 英国_6 2
-      - 🇫🇷 adi|0216 - 法国_173
-      - 🇬🇧 adi|0219 - 英国-3.15MB/s 2
-      - 🇬🇧 adi|0219 - 英国_11 2
-      - 🇨🇦 adi|0219 - 加拿大_55
-      - 🇬🇧 adi|0219 - 英国_17
-      - 🇨🇦 adi|0219 - 加拿大-1.44MB/s
-      - 🇨🇦 adi|0219 - 加拿大-1.26MB/s
-      - 🇬🇧 adi|0219 - 英国-3.08MB/s
       - 🇫🇷 adi|0219 - 法国_61
-      - 🇬🇧 adi|0219 - 英国_6 3
-      - 🇨🇦 adi|0219 - 加拿大_13
-      - 🇬🇧 adi|0219 - 英国_6 4
-      - 🇬🇧 adi|0216 - 英国-2.89MB/s
-      - 🇬🇧 adi|0219 - 英国-1.07MB/s
-      - 🇫🇷 adi|0219 - 法国_50
+      - 🇺🇸 adi|0220 - 美国-2.94MB
+      - adi|0220 - default_name
+      - 🇨🇦 adi|0219 - 加拿大_117
+      - adi|0220 - 21.96Mb
+      - 🇺🇸 adi|0220 - US_2784
+      - 🇨🇦 adi|0216 - 加拿大_61
       - 🇨🇦 adi|0219 - 加拿大-3.42MB/s
-      - 🇬🇧 adi|0219 - 英国_15
-      - 🇬🇧 adi|0219 - 英国_12
-      - 🇨🇦 adi|0219 - 加拿大_5
-      - 🇬🇧 adi|0219 - 英国-2.37MB/s
-      - 🇺🇸 adi|0212 - 美国-1.58MB/s
-      - 🇬🇧 adi|0219 - 英国_12 2
+      - 🇫🇷 adi|0219 - 法国_179
+      - 🇨🇳 adi|0220 - CN_23
+      - 🇫🇷 adi|0219 - 法国_30
+      - 🇨🇦 adi|0220 - 加拿大_57
       - 🇨🇦 adi|0219 - 加拿大69
-      - 🇫🇷 adi|0216 - 法国_177
-      - 🇬🇧 adi|0219 - 英国-1.38MB/s
-      - 🇨🇦 adi|0219 - 加拿大107
-      - 🇬🇧 adi|0219 - 英国_11 3
-      - 🇬🇧 adi|0219 - 英国_2 2
-      - 🇫🇷 adi|0219 - 法国_103
-      - 🇬🇧 adi|0216 - 英国-1.09MB/s
-      - 🇨🇦 adi|0219 - 加拿大_130
-      - 🇨🇦 adi|0219 - 加拿大_144
+      - 🇨🇦 adi|0219 - 加拿大_60
+      - adi|0220 - 15.07Mb
+      - 🇪🇺 adi|0220 - 欧洲
+      - adi|0220 - 19.01Mb
+      - 🇬🇧 adi|0220 - 英国-2.43MB
+      - 🇬🇧 adi|0220 - 英国-672.6KB
+      - 🇯🇵 adi|0220 - 日本-591.7KB
+      - 🇨🇳 adi|0220 - CN_24
+      - 🇫🇷 adi|0216 - 法国_173
+      - 🇺🇸 adi|0220 - 美国-2.81MB
+      - 🇨🇦 adi|0219 - 加拿大121
+      - 🇨🇦 adi|0220 - 加拿大-622.2KB
+      - 🇺🇸 adi|0212 - 美国-1.58MB/s
+      - 🇬🇧 adi|0220 - 英国-503.8KB
+      - 🇬🇧 adi|0220 - 英国-1.97MB
+      - 🇺🇸 adi|0220 - US_94
+      - adi|0220 - 22.50Mb
+      - adi|0220 - 21.76Mb
+      - 🇷🇺 adi|0220 - RU
+      - 🇷🇺 adi|0220 - RU 2
+      - 🇺🇸 adi|0220 - US_31
+      - 🇺🇸 adi|0220 - US_100
+      - 🇺🇸 adi|0220 - US_88
+      - 🇺🇸 adi|0220 - US_91
+      - adi|0220 - AU_11
+      - adi|0220 - AU_10
+      - adi|0220 - GB_561
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇫🇷 adi|0219 - 法国_18
+      - 🇺🇸 adi|0220 - US_2894
       - 🇫🇷 adi|0219 - 法国
-      - 🇫🇷 adi|0216 - 法国_165
-      - 🇫🇷 adi|0216 - 法国-1.76MB/s
-      - 🇺🇸 adi|0219 - 美国-4.62MB/s
-      - 🇫🇷 adi|0219 - 法国_185
-      - 🇺🇸 adi|0219 - 美国7
-      - 🇫🇷 adi|0219 - 法国_30
-      - 🇪🇺 adi|0219 - 欧洲
-      - 🇫🇷 adi|0219 - 法国_179
-      - 🇫🇷 adi|0219 - 法国_168
-      - 🇨🇦 adi|0219 - 加拿大121
-      - 🇫🇷 adi|0219 - 法国-2.75MB/s
-      - 🇺🇸 adi|0219 - 美国_47
-      - adi|0219 - 39
-      - 🇨🇦 adi|0219 - 加拿大_117
-      - 🇺🇸 adi|0219 - 美国_38
-      - 🇫🇷 adi|0216 - 法国_172
-      - 🇬🇧 adi|0219 - 英国_42
-      - 🇪🇺 adi|0216 - 欧洲
-      - 🇬🇧 adi|0219 - 英国-3.11MB/s
-      - 🇨🇦 adi|0219 - 加拿大_60
-      - 🇬🇧 adi|0219 - 英国-1.62MB/s
-      - 🇫🇷 adi|0219 - 法国_62
-      - 🇬🇧 adi|0219 - 英国-3.15MB/s
-      - 🇨🇦 adi|0219 - 加拿大-3.41MB/s
-      - 🇬🇧 adi|0219 - 英国-2.85MB/s
-      - 🇺🇸 adi|0219 - 美国_53
-      - 🇨🇦 adi|0219 - 加拿大_4
-      - 🇺🇸 adi|0219 - 美国_37
-      - 🇬🇧 adi|0219 - 英国-2.67MB/s
-      - 🇫🇷 adi|0219 - 法国 2
-      - 🇨🇳 adi|0219 - 台湾-4.09MB/s
-      - 🇨🇦 adi|0216 - 加拿大_61
-      - 🇬🇧 adi|0219 - 英国-2.76MB/s 2
-      - 🇨🇦 adi|0219 - 加拿大_27
-      - 🇬🇧 adi|0219 - 英国_2
-      - 🇨🇦 adi|0219 - 加拿大_81
-      - 🇬🇧 adi|0219 - 英国-549.7KB/s
-      - 🇬🇧 adi|0219 - 英国-2.86MB/s
-      - 🇬🇧 adi|0219 - 英国_14
-      - 🇬🇧 adi|0219 - 英国_4
-      - 🇬🇧 adi|0219 - 英国_6
-      - 🇺🇸 adi|0212 - 美国-3.42MB/s
-      - 🇬🇧 adi|0219 - 英国_11
-      - 🇬🇧 adi|0219 - 英国_18
-      - 🇬🇧 adi|0219 - 英国_6 2
-      - 🇫🇷 adi|0216 - 法国_173
-      - 🇬🇧 adi|0219 - 英国-3.15MB/s 2
-      - 🇬🇧 adi|0219 - 英国_11 2
-      - 🇨🇦 adi|0219 - 加拿大_55
-      - 🇬🇧 adi|0219 - 英国_17
-      - 🇨🇦 adi|0219 - 加拿大-1.44MB/s
-      - 🇨🇦 adi|0219 - 加拿大-1.26MB/s
-      - 🇬🇧 adi|0219 - 英国-3.08MB/s
       - 🇫🇷 adi|0219 - 法国_61
-      - 🇬🇧 adi|0219 - 英国_6 3
-      - 🇨🇦 adi|0219 - 加拿大_13
-      - 🇬🇧 adi|0219 - 英国_6 4
-      - 🇬🇧 adi|0216 - 英国-2.89MB/s
-      - 🇬🇧 adi|0219 - 英国-1.07MB/s
-      - 🇫🇷 adi|0219 - 法国_50
+      - 🇺🇸 adi|0220 - 美国-2.94MB
+      - adi|0220 - default_name
+      - 🇨🇦 adi|0219 - 加拿大_117
+      - adi|0220 - 21.96Mb
+      - 🇺🇸 adi|0220 - US_2784
+      - 🇨🇦 adi|0216 - 加拿大_61
       - 🇨🇦 adi|0219 - 加拿大-3.42MB/s
-      - 🇬🇧 adi|0219 - 英国_15
-      - 🇬🇧 adi|0219 - 英国_12
-      - 🇨🇦 adi|0219 - 加拿大_5
-      - 🇬🇧 adi|0219 - 英国-2.37MB/s
-      - 🇺🇸 adi|0212 - 美国-1.58MB/s
-      - 🇬🇧 adi|0219 - 英国_12 2
+      - 🇫🇷 adi|0219 - 法国_179
+      - 🇨🇳 adi|0220 - CN_23
+      - 🇫🇷 adi|0219 - 法国_30
+      - 🇨🇦 adi|0220 - 加拿大_57
       - 🇨🇦 adi|0219 - 加拿大69
-      - 🇫🇷 adi|0216 - 法国_177
-      - 🇬🇧 adi|0219 - 英国-1.38MB/s
-      - 🇨🇦 adi|0219 - 加拿大107
-      - 🇬🇧 adi|0219 - 英国_11 3
-      - 🇬🇧 adi|0219 - 英国_2 2
-      - 🇫🇷 adi|0219 - 法国_103
-      - 🇬🇧 adi|0216 - 英国-1.09MB/s
-      - 🇨🇦 adi|0219 - 加拿大_130
-      - 🇨🇦 adi|0219 - 加拿大_144
+      - 🇨🇦 adi|0219 - 加拿大_60
+      - adi|0220 - 15.07Mb
+      - 🇪🇺 adi|0220 - 欧洲
+      - adi|0220 - 19.01Mb
+      - 🇬🇧 adi|0220 - 英国-2.43MB
+      - 🇬🇧 adi|0220 - 英国-672.6KB
+      - 🇯🇵 adi|0220 - 日本-591.7KB
+      - 🇨🇳 adi|0220 - CN_24
+      - 🇫🇷 adi|0216 - 法国_173
+      - 🇺🇸 adi|0220 - 美国-2.81MB
+      - 🇨🇦 adi|0219 - 加拿大121
+      - 🇨🇦 adi|0220 - 加拿大-622.2KB
+      - 🇺🇸 adi|0212 - 美国-1.58MB/s
+      - 🇬🇧 adi|0220 - 英国-503.8KB
+      - 🇬🇧 adi|0220 - 英国-1.97MB
+      - 🇺🇸 adi|0220 - US_94
+      - adi|0220 - 22.50Mb
+      - adi|0220 - 21.76Mb
+      - 🇷🇺 adi|0220 - RU
+      - 🇷🇺 adi|0220 - RU 2
+      - 🇺🇸 adi|0220 - US_31
+      - 🇺🇸 adi|0220 - US_100
+      - 🇺🇸 adi|0220 - US_88
+      - 🇺🇸 adi|0220 - US_91
+      - adi|0220 - AU_11
+      - adi|0220 - AU_10
+      - adi|0220 - GB_561
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇫🇷 adi|0219 - 法国_18
+      - 🇺🇸 adi|0220 - US_2894
       - 🇫🇷 adi|0219 - 法国
-      - 🇫🇷 adi|0216 - 法国_165
-      - 🇫🇷 adi|0216 - 法国-1.76MB/s
-      - 🇺🇸 adi|0219 - 美国-4.62MB/s
-      - 🇫🇷 adi|0219 - 法国_185
-      - 🇺🇸 adi|0219 - 美国7
-      - 🇫🇷 adi|0219 - 法国_30
-      - 🇪🇺 adi|0219 - 欧洲
-      - 🇫🇷 adi|0219 - 法国_179
-      - 🇫🇷 adi|0219 - 法国_168
-      - 🇨🇦 adi|0219 - 加拿大121
-      - 🇫🇷 adi|0219 - 法国-2.75MB/s
-      - 🇺🇸 adi|0219 - 美国_47
-      - adi|0219 - 39
-      - 🇨🇦 adi|0219 - 加拿大_117
-      - 🇺🇸 adi|0219 - 美国_38
-      - 🇫🇷 adi|0216 - 法国_172
-      - 🇬🇧 adi|0219 - 英国_42
-      - 🇪🇺 adi|0216 - 欧洲
-      - 🇬🇧 adi|0219 - 英国-3.11MB/s
-      - 🇨🇦 adi|0219 - 加拿大_60
-      - 🇬🇧 adi|0219 - 英国-1.62MB/s
-      - 🇫🇷 adi|0219 - 法国_62
-      - 🇬🇧 adi|0219 - 英国-3.15MB/s
-      - 🇨🇦 adi|0219 - 加拿大-3.41MB/s
-      - 🇬🇧 adi|0219 - 英国-2.85MB/s
-      - 🇺🇸 adi|0219 - 美国_53
-      - 🇨🇦 adi|0219 - 加拿大_4
-      - 🇺🇸 adi|0219 - 美国_37
-      - 🇬🇧 adi|0219 - 英国-2.67MB/s
-      - 🇫🇷 adi|0219 - 法国 2
-      - 🇨🇳 adi|0219 - 台湾-4.09MB/s
-      - 🇨🇦 adi|0216 - 加拿大_61
-      - 🇬🇧 adi|0219 - 英国-2.76MB/s 2
-      - 🇨🇦 adi|0219 - 加拿大_27
-      - 🇬🇧 adi|0219 - 英国_2
-      - 🇨🇦 adi|0219 - 加拿大_81
-      - 🇬🇧 adi|0219 - 英国-549.7KB/s
-      - 🇬🇧 adi|0219 - 英国-2.86MB/s
-      - 🇬🇧 adi|0219 - 英国_14
-      - 🇬🇧 adi|0219 - 英国_4
-      - 🇬🇧 adi|0219 - 英国_6
-      - 🇺🇸 adi|0212 - 美国-3.42MB/s
-      - 🇬🇧 adi|0219 - 英国_11
-      - 🇬🇧 adi|0219 - 英国_18
-      - 🇬🇧 adi|0219 - 英国_6 2
-      - 🇫🇷 adi|0216 - 法国_173
-      - 🇬🇧 adi|0219 - 英国-3.15MB/s 2
-      - 🇬🇧 adi|0219 - 英国_11 2
-      - 🇨🇦 adi|0219 - 加拿大_55
-      - 🇬🇧 adi|0219 - 英国_17
-      - 🇨🇦 adi|0219 - 加拿大-1.44MB/s
-      - 🇨🇦 adi|0219 - 加拿大-1.26MB/s
-      - 🇬🇧 adi|0219 - 英国-3.08MB/s
       - 🇫🇷 adi|0219 - 法国_61
-      - 🇬🇧 adi|0219 - 英国_6 3
-      - 🇨🇦 adi|0219 - 加拿大_13
-      - 🇬🇧 adi|0219 - 英国_6 4
-      - 🇬🇧 adi|0216 - 英国-2.89MB/s
-      - 🇬🇧 adi|0219 - 英国-1.07MB/s
-      - 🇫🇷 adi|0219 - 法国_50
+      - 🇺🇸 adi|0220 - 美国-2.94MB
+      - adi|0220 - default_name
+      - 🇨🇦 adi|0219 - 加拿大_117
+      - adi|0220 - 21.96Mb
+      - 🇺🇸 adi|0220 - US_2784
+      - 🇨🇦 adi|0216 - 加拿大_61
       - 🇨🇦 adi|0219 - 加拿大-3.42MB/s
-      - 🇬🇧 adi|0219 - 英国_15
-      - 🇬🇧 adi|0219 - 英国_12
-      - 🇨🇦 adi|0219 - 加拿大_5
-      - 🇬🇧 adi|0219 - 英国-2.37MB/s
-      - 🇺🇸 adi|0212 - 美国-1.58MB/s
-      - 🇬🇧 adi|0219 - 英国_12 2
+      - 🇫🇷 adi|0219 - 法国_179
+      - 🇨🇳 adi|0220 - CN_23
+      - 🇫🇷 adi|0219 - 法国_30
+      - 🇨🇦 adi|0220 - 加拿大_57
       - 🇨🇦 adi|0219 - 加拿大69
-      - 🇫🇷 adi|0216 - 法国_177
-      - 🇬🇧 adi|0219 - 英国-1.38MB/s
-      - 🇨🇦 adi|0219 - 加拿大107
-      - 🇬🇧 adi|0219 - 英国_11 3
-      - 🇬🇧 adi|0219 - 英国_2 2
-      - 🇫🇷 adi|0219 - 法国_103
-      - 🇬🇧 adi|0216 - 英国-1.09MB/s
-      - 🇨🇦 adi|0219 - 加拿大_130
-      - 🇨🇦 adi|0219 - 加拿大_144
+      - 🇨🇦 adi|0219 - 加拿大_60
+      - adi|0220 - 15.07Mb
+      - 🇪🇺 adi|0220 - 欧洲
+      - adi|0220 - 19.01Mb
+      - 🇬🇧 adi|0220 - 英国-2.43MB
+      - 🇬🇧 adi|0220 - 英国-672.6KB
+      - 🇯🇵 adi|0220 - 日本-591.7KB
+      - 🇨🇳 adi|0220 - CN_24
+      - 🇫🇷 adi|0216 - 法国_173
+      - 🇺🇸 adi|0220 - 美国-2.81MB
+      - 🇨🇦 adi|0219 - 加拿大121
+      - 🇨🇦 adi|0220 - 加拿大-622.2KB
+      - 🇺🇸 adi|0212 - 美国-1.58MB/s
+      - 🇬🇧 adi|0220 - 英国-503.8KB
+      - 🇬🇧 adi|0220 - 英国-1.97MB
+      - 🇺🇸 adi|0220 - US_94
+      - adi|0220 - 22.50Mb
+      - adi|0220 - 21.76Mb
+      - 🇷🇺 adi|0220 - RU
+      - 🇷🇺 adi|0220 - RU 2
+      - 🇺🇸 adi|0220 - US_31
+      - 🇺🇸 adi|0220 - US_100
+      - 🇺🇸 adi|0220 - US_88
+      - 🇺🇸 adi|0220 - US_91
+      - adi|0220 - AU_11
+      - adi|0220 - AU_10
+      - adi|0220 - GB_561
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -444,85 +259,48 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇫🇷 adi|0219 - 法国_18
+      - 🇺🇸 adi|0220 - US_2894
       - 🇫🇷 adi|0219 - 法国
-      - 🇫🇷 adi|0216 - 法国_165
-      - 🇫🇷 adi|0216 - 法国-1.76MB/s
-      - 🇺🇸 adi|0219 - 美国-4.62MB/s
-      - 🇫🇷 adi|0219 - 法国_185
-      - 🇺🇸 adi|0219 - 美国7
-      - 🇫🇷 adi|0219 - 法国_30
-      - 🇪🇺 adi|0219 - 欧洲
-      - 🇫🇷 adi|0219 - 法国_179
-      - 🇫🇷 adi|0219 - 法国_168
-      - 🇨🇦 adi|0219 - 加拿大121
-      - 🇫🇷 adi|0219 - 法国-2.75MB/s
-      - 🇺🇸 adi|0219 - 美国_47
-      - adi|0219 - 39
-      - 🇨🇦 adi|0219 - 加拿大_117
-      - 🇺🇸 adi|0219 - 美国_38
-      - 🇫🇷 adi|0216 - 法国_172
-      - 🇬🇧 adi|0219 - 英国_42
-      - 🇪🇺 adi|0216 - 欧洲
-      - 🇬🇧 adi|0219 - 英国-3.11MB/s
-      - 🇨🇦 adi|0219 - 加拿大_60
-      - 🇬🇧 adi|0219 - 英国-1.62MB/s
-      - 🇫🇷 adi|0219 - 法国_62
-      - 🇬🇧 adi|0219 - 英国-3.15MB/s
-      - 🇨🇦 adi|0219 - 加拿大-3.41MB/s
-      - 🇬🇧 adi|0219 - 英国-2.85MB/s
-      - 🇺🇸 adi|0219 - 美国_53
-      - 🇨🇦 adi|0219 - 加拿大_4
-      - 🇺🇸 adi|0219 - 美国_37
-      - 🇬🇧 adi|0219 - 英国-2.67MB/s
-      - 🇫🇷 adi|0219 - 法国 2
-      - 🇨🇳 adi|0219 - 台湾-4.09MB/s
-      - 🇨🇦 adi|0216 - 加拿大_61
-      - 🇬🇧 adi|0219 - 英国-2.76MB/s 2
-      - 🇨🇦 adi|0219 - 加拿大_27
-      - 🇬🇧 adi|0219 - 英国_2
-      - 🇨🇦 adi|0219 - 加拿大_81
-      - 🇬🇧 adi|0219 - 英国-549.7KB/s
-      - 🇬🇧 adi|0219 - 英国-2.86MB/s
-      - 🇬🇧 adi|0219 - 英国_14
-      - 🇬🇧 adi|0219 - 英国_4
-      - 🇬🇧 adi|0219 - 英国_6
-      - 🇺🇸 adi|0212 - 美国-3.42MB/s
-      - 🇬🇧 adi|0219 - 英国_11
-      - 🇬🇧 adi|0219 - 英国_18
-      - 🇬🇧 adi|0219 - 英国_6 2
-      - 🇫🇷 adi|0216 - 法国_173
-      - 🇬🇧 adi|0219 - 英国-3.15MB/s 2
-      - 🇬🇧 adi|0219 - 英国_11 2
-      - 🇨🇦 adi|0219 - 加拿大_55
-      - 🇬🇧 adi|0219 - 英国_17
-      - 🇨🇦 adi|0219 - 加拿大-1.44MB/s
-      - 🇨🇦 adi|0219 - 加拿大-1.26MB/s
-      - 🇬🇧 adi|0219 - 英国-3.08MB/s
       - 🇫🇷 adi|0219 - 法国_61
-      - 🇬🇧 adi|0219 - 英国_6 3
-      - 🇨🇦 adi|0219 - 加拿大_13
-      - 🇬🇧 adi|0219 - 英国_6 4
-      - 🇬🇧 adi|0216 - 英国-2.89MB/s
-      - 🇬🇧 adi|0219 - 英国-1.07MB/s
-      - 🇫🇷 adi|0219 - 法国_50
+      - 🇺🇸 adi|0220 - 美国-2.94MB
+      - adi|0220 - default_name
+      - 🇨🇦 adi|0219 - 加拿大_117
+      - adi|0220 - 21.96Mb
+      - 🇺🇸 adi|0220 - US_2784
+      - 🇨🇦 adi|0216 - 加拿大_61
       - 🇨🇦 adi|0219 - 加拿大-3.42MB/s
-      - 🇬🇧 adi|0219 - 英国_15
-      - 🇬🇧 adi|0219 - 英国_12
-      - 🇨🇦 adi|0219 - 加拿大_5
-      - 🇬🇧 adi|0219 - 英国-2.37MB/s
-      - 🇺🇸 adi|0212 - 美国-1.58MB/s
-      - 🇬🇧 adi|0219 - 英国_12 2
+      - 🇫🇷 adi|0219 - 法国_179
+      - 🇨🇳 adi|0220 - CN_23
+      - 🇫🇷 adi|0219 - 法国_30
+      - 🇨🇦 adi|0220 - 加拿大_57
       - 🇨🇦 adi|0219 - 加拿大69
-      - 🇫🇷 adi|0216 - 法国_177
-      - 🇬🇧 adi|0219 - 英国-1.38MB/s
-      - 🇨🇦 adi|0219 - 加拿大107
-      - 🇬🇧 adi|0219 - 英国_11 3
-      - 🇬🇧 adi|0219 - 英国_2 2
-      - 🇫🇷 adi|0219 - 法国_103
-      - 🇬🇧 adi|0216 - 英国-1.09MB/s
-      - 🇨🇦 adi|0219 - 加拿大_130
-      - 🇨🇦 adi|0219 - 加拿大_144
+      - 🇨🇦 adi|0219 - 加拿大_60
+      - adi|0220 - 15.07Mb
+      - 🇪🇺 adi|0220 - 欧洲
+      - adi|0220 - 19.01Mb
+      - 🇬🇧 adi|0220 - 英国-2.43MB
+      - 🇬🇧 adi|0220 - 英国-672.6KB
+      - 🇯🇵 adi|0220 - 日本-591.7KB
+      - 🇨🇳 adi|0220 - CN_24
+      - 🇫🇷 adi|0216 - 法国_173
+      - 🇺🇸 adi|0220 - 美国-2.81MB
+      - 🇨🇦 adi|0219 - 加拿大121
+      - 🇨🇦 adi|0220 - 加拿大-622.2KB
+      - 🇺🇸 adi|0212 - 美国-1.58MB/s
+      - 🇬🇧 adi|0220 - 英国-503.8KB
+      - 🇬🇧 adi|0220 - 英国-1.97MB
+      - 🇺🇸 adi|0220 - US_94
+      - adi|0220 - 22.50Mb
+      - adi|0220 - 21.76Mb
+      - 🇷🇺 adi|0220 - RU
+      - 🇷🇺 adi|0220 - RU 2
+      - 🇺🇸 adi|0220 - US_31
+      - 🇺🇸 adi|0220 - US_100
+      - 🇺🇸 adi|0220 - US_88
+      - 🇺🇸 adi|0220 - US_91
+      - adi|0220 - AU_11
+      - adi|0220 - AU_10
+      - adi|0220 - GB_561
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
