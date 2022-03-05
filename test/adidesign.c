@@ -5,89 +5,77 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇦🇺 adi|0302 - AU_1, server: sy-am2.eqsunshine.com, port: 443, type: ssr, cipher: aes-256-cfb, password: Jz8r4gLNP, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇨🇳 adi|0302 - 中国-1.67MB/s, server: gz-cm-kl.klee.store, port: 11157, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: 🇨🇳 adi|0302 - CN_367, server: gz-cm-kl.klee.store, port: 11126, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: 🇨🇳 adi|0302 - CN_373, server: gz-cm-kl.klee.store, port: 11272, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: 🇨🇳 adi|0302 - 中国-1.26MB/s, server: gz-cm-kl.klee.store, port: 11252, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: 🇨🇳 adi|0302 - 中国-1.69MB/s, server: gz-cm-kl.klee.store, port: 11129, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: 🇨🇳 adi|0302 - 中国-1.59MB/s, server: gz-cm-kl.klee.store, port: 11149, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: 🇨🇳 adi|0302 - CN_391, server: gz-cm-kl.klee.store, port: 11155, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: adi|0302+-+ZZ_3495, server: 134.195.196.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: adi|0302+-+|20.74Mb, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: adi|0302+-+ZZ_3330, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: adi|0302+-+CA_204, server: 198.57.27.172, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: adi|0302+-+CA_194, server: 198.57.27.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇳 adi|0302 - CN_379, server: gz-cm-kl.klee.store, port: 11221, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: 🇨🇳 adi|0302 - 中国-1.63MB/s, server: gz-cm-kl.klee.store, port: 11228, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: adi|0302+-+CA_3, server: 198.57.27.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇳 adi|0302 - 中国-1.63MB/s 2, server: gz-cm-kl.klee.store, port: 11260, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: adi|0302+-+ZZ_2978, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇨🇳 adi|0302 - 中国-1.23MB/s, server: gz-cm-kl.klee.store, port: 11253, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: 🇨🇳 adi|0302 - CN_387, server: gz-cm-kl.klee.store, port: 11175, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: 🇨🇳 adi|0302 - 中国-1.64MB/s, server: gz-cm-kl.klee.store, port: 11132, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: 🇨🇳 adi|0302 - CN_375, server: gz-cm-kl.klee.store, port: 11180, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: 🇨🇳 adi|0302 - CN_390, server: gz-cm-kl.klee.store, port: 11154, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: 🇨🇳 adi|0302 - 中国-1.64MB/s 2, server: gz-cm-kl.klee.store, port: 11178, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: adi|0302+-+ZZ_2982, server: 134.195.196.12, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: adi|0302+-+ZZ_3326, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇳 adi|0302 - CN_395, server: gz-cm-kl.klee.store, port: 11125, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: 🇨🇳 adi|0302 - CN_376, server: gz-cm-kl.klee.store, port: 11179, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: adi|0302+-+ZZ_2975, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇨🇳 adi|0302 - 中国-1.28MB/s, server: gz-cm-kl.klee.store, port: 11248, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: adi|0302+-+ZZ_3338, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: adi|0302+-+ZZ_3335, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇳 adi|0302 - 中国-1.42MB/s, server: gz-cm-kl.klee.store, port: 11206, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: 🇺🇲 adi|0302+-+US_2526, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇨🇳 adi|0302 - CN_371, server: gz-cm-kl.klee.store, port: 11227, type: trojan, password: 786d3383-d3a6-3533-af64-2f8c43c3495b, sni: gz-cm-kl.klee.store, skip-cert-verify: true}
-  - {name: adi|0302+-+ZZ_2939, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: adi|0302+-+CA_162, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: adi|0302+-+ZZ_3324, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: adi|0302+-+, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: adi|0302+-+ZZ_2557, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: adi|0302+-+ 2, server: 172.104.168.83, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: adi|0302+-+ZZ_3493, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: adi|0302+-+ 3, server: 172.104.168.83, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: adi|0302 - V34, server: 119.wowogg.cyou, port: 52219, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 adi|0302 - JP_28, server: 104.wowogg.cyou, port: 11222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: adi|0302 - V54, server: 104.wowogg.cyou, port: 11222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇺🇲 adi|0302+-+US_2689+|73.95Mb, server: 185.161.70.153, port: 15005, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b}
-  - {name: adi|0302+-+ZZ_3184, server: 134.195.196.12, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: adi|0302+-+ZZ_3554, server: 134.195.196.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: adi|0302+-+ZZ_3435, server: 134.195.196.12, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: adi|0302 - V43, server: 124.wowogg.cyou, port: 52224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: adi|0302 - V32, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: adi|0302 - NONE, server: 14.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 14.earths.team, skip-cert-verify: true}
-  - {name: 🇸🇬 adi|0302 - 新加坡, server: 14.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 14.earths.team, skip-cert-verify: true}
-  - {name: 🇺🇲 adi|0302 - 美国, server: 104.wowogg.cyou, port: 11222, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: adi|0302 - V53, server: 105.wowogg.cyou, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: adi|0302 - 欧洲, server: 92.wowogg.cyou, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 adi|0302 - JP_11, server: 117.wowogg.cyou, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: adi|0302 - V49, server: 92.wowogg.cyou, port: 52292, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: adi|0302 - 欧洲 2, server: 118.wowogg.cyou, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: adi|0302 - V35, server: 117.wowogg.cyou, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: adi|0302 - V08, server: 0218tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218tw02.fans8.xyz}}}
-  - {name: adi|0302+-+ZZ_2981, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: adi|0302+-+ZZ_3525+|16.44Mb, server: 134.195.196.12, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇭🇰 adi|0223 - 香港4, server: 110.wowogg.cyou, port: 52210, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: 🇯🇵 adi|0223 - JP_26, server: 115.wowogg.cyou, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
-  - {name: adi|0223+-+ZZ_225, server: 169.197.142.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: adi|0223+-+ZZ_222, server: 169.197.142.187, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: adi|0223+-+ZZ_228, server: 169.197.142.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: adi|0223+-+ZZ_219, server: 169.197.142.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: adi|0223+-+ZZ_230, server: 169.197.142.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: adi|0223+-+ZZ_210, server: 169.197.142.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: adi|0223+-+ZZ_3422, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: adi|0223+-+ZZ_3223, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: adi|0223+-+ZZ_226, server: 169.197.142.187, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: adi|0223+-+ZZ_3644, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: adi|0223+-+ZZ_194, server: 169.197.142.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇲 adi|0223 - US_2083, server: oioooo.tk, port: 443, type: trojan, password: 54ea0e82-64e4-486c-848c-8b95be9f0010, sni: oioooo.tk, skip-cert-verify: true}
-  - {name: adi|0223+-+ZZ_229, server: 169.197.142.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇨🇳 adi|0223 - CN_20, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇨🇳 adi|0223 - 中国157, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇫🇷 adi|0223+-+法国, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: adi|0223+-+ZZ_211, server: 169.197.142.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: adi|0302 - 欧洲, server: 193.108.117.75, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇨🇦 adi|0302 - 加拿大, server: 198.57.27.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: adi|0302 - 欧洲 2, server: 198.57.27.218, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: adi|0302 - CA_18 |64.68Mb, server: 198.57.27.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: adi|0302 - 欧洲 3, server: 198.57.27.218, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇫🇷 adi|0302 - FR_26, server: 51.255.66.185, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: adi|0302 - ZZ_181, server: 134.195.196.68, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇺🇲 adi|0302 - US_113, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: adi|0302 - 欧洲 4, server: 198.57.27.218, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: adi|0302 - ZZ_2557, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0302 - ZZ_188, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0302 - 欧洲 5, server: 198.57.27.218, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: adi|0302 - ZZ_3335, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0302 - ZZ_3324, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: adi|0302 - ZZ_210, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0302 - 欧洲 6, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇲 adi|0302 - 美国, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: adi|0302 - ZZ_2939, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: adi|0302 - |20.74Mb, server: 134.195.196.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: adi|0223 - ZZ_3223, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇲 adi|0302 - US_76, server: 172.99.190.92, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: adi|0302 - |19.22Mb, server: 198.57.27.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0302 - 欧洲 7, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0302 - ZZ_193, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇲 adi|0302 - 美国 2, server: 167.88.63.79, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇦 adi|0302 - 加拿大 2, server: 198.57.27.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0302 - ZZ_3525 |16.44Mb, server: 134.195.196.12, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0302 -, server: 134.195.196.12, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: adi|0302 - ZZ_17, server: 134.195.196.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: adi|0302 - 2, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: adi|0302 - 欧洲 8, server: 134.195.196.68, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: adi|0302 - ZZ_235, server: 169.197.142.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: adi|0302 - 3, server: 134.195.196.12, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0302 - 4, server: 134.195.196.12, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇨🇦 adi|0302 - 加拿大-177.2KB/s, server: 134.195.196.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: adi|0302 - ZZ_2981, server: 134.195.196.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: adi|0302 - 5, server: 134.195.196.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0302 - ZZ_3326, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0223 - ZZ_211, server: 169.197.142.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: adi|0302 - 6, server: 134.195.196.12, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: adi|0302 - 7, server: 134.195.196.12, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: adi|0302 - ZZ_3493, server: 134.195.196.3, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: adi|0302 - 欧洲 9, server: 134.195.196.68, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: adi|0302 - ZZ_3330, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: adi|0302 - ZZ_229, server: 134.195.196.68, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0302 - ZZ_188 2, server: 134.195.196.68, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0223 - ZZ_194, server: 169.197.142.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇲 adi|0302 - 北美地区5, server: 134.195.196.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: adi|0302 - ZZ_219, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇲 adi|0302 - 北美地区15, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: adi|0302 - ZZ_18, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: adi|0302 - ZZ_3338, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: adi|0302 - ZZ_3326 2, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0302 - 8, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: adi|0302 - 欧洲 10, server: 169.197.142.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: adi|0302 - ZZ_222, server: 169.197.142.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: adi|0302 - 9, server: 134.195.196.12, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: adi|0302 - 10, server: 134.195.196.12, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: adi|0302 - ZZ_2975, server: 134.195.196.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: adi|0302 - ZZ_3554, server: 134.195.196.227, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: adi|0302 - ZZ_209 |28.93Mb, server: 134.195.196.68, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: adi|0302 - ZZ_197, server: 169.197.142.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇲 adi|0302 - 洛杉矶SS, server: 23.19.10.134, port: 12345, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇭🇰 adi|0302 - 香港, server: china-f4s-az-hk.898868.xyz, port: 62315, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: china-f4s-az-hk.898868.xyz}}}
+  - {name: 🇭🇰 adi|0302 - 香港 2, server: china-f4s-az-hk.898868.xyz, port: 51645, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: china-f4s-az-hk.898868.xyz}}}
+  - {name: adi|0302 - 欧洲 11, server: 134.195.196.12, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: adi|0302 - 11, server: 134.195.196.12, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: adi|0302 - ZZ_2939 2, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: adi|0302 - 欧洲 12, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: adi|0302 - 欧洲 13, server: 169.197.142.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: adi|0302 - 欧洲 14, server: 43.131.51.120, port: 44970, type: vmess, uuid: 334181ca-0c75-4fd2-fd56-51a510c7be65, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -96,354 +84,306 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇦🇺 adi|0302 - AU_1
-      - 🇨🇳 adi|0302 - 中国-1.67MB/s
-      - 🇨🇳 adi|0302 - CN_367
-      - 🇨🇳 adi|0302 - CN_373
-      - 🇨🇳 adi|0302 - 中国-1.26MB/s
-      - 🇨🇳 adi|0302 - 中国-1.69MB/s
-      - 🇨🇳 adi|0302 - 中国-1.59MB/s
-      - 🇨🇳 adi|0302 - CN_391
-      - adi|0302+-+ZZ_3495
-      - adi|0302+-+|20.74Mb
-      - adi|0302+-+ZZ_3330
-      - adi|0302+-+CA_204
-      - adi|0302+-+CA_194
-      - 🇨🇳 adi|0302 - CN_379
-      - 🇨🇳 adi|0302 - 中国-1.63MB/s
-      - adi|0302+-+CA_3
-      - 🇨🇳 adi|0302 - 中国-1.63MB/s 2
-      - adi|0302+-+ZZ_2978
-      - 🇨🇳 adi|0302 - 中国-1.23MB/s
-      - 🇨🇳 adi|0302 - CN_387
-      - 🇨🇳 adi|0302 - 中国-1.64MB/s
-      - 🇨🇳 adi|0302 - CN_375
-      - 🇨🇳 adi|0302 - CN_390
-      - 🇨🇳 adi|0302 - 中国-1.64MB/s 2
-      - adi|0302+-+ZZ_2982
-      - adi|0302+-+ZZ_3326
-      - 🇨🇳 adi|0302 - CN_395
-      - 🇨🇳 adi|0302 - CN_376
-      - adi|0302+-+ZZ_2975
-      - 🇨🇳 adi|0302 - 中国-1.28MB/s
-      - adi|0302+-+ZZ_3338
-      - adi|0302+-+ZZ_3335
-      - 🇨🇳 adi|0302 - 中国-1.42MB/s
-      - 🇺🇲 adi|0302+-+US_2526
-      - 🇨🇳 adi|0302 - CN_371
-      - adi|0302+-+ZZ_2939
-      - adi|0302+-+CA_162
-      - adi|0302+-+ZZ_3324
-      - adi|0302+-+
-      - adi|0302+-+ZZ_2557
-      - adi|0302+-+ 2
-      - adi|0302+-+ZZ_3493
-      - adi|0302+-+ 3
-      - adi|0302 - V34
-      - 🇯🇵 adi|0302 - JP_28
-      - adi|0302 - V54
-      - 🇺🇲 adi|0302+-+US_2689+|73.95Mb
-      - adi|0302+-+ZZ_3184
-      - adi|0302+-+ZZ_3554
-      - adi|0302+-+ZZ_3435
-      - adi|0302 - V43
-      - adi|0302 - V32
-      - adi|0302 - NONE
-      - 🇸🇬 adi|0302 - 新加坡
-      - 🇺🇲 adi|0302 - 美国
-      - adi|0302 - V53
       - adi|0302 - 欧洲
-      - 🇯🇵 adi|0302 - JP_11
-      - adi|0302 - V49
+      - 🇨🇦 adi|0302 - 加拿大
       - adi|0302 - 欧洲 2
-      - adi|0302 - V35
-      - adi|0302 - V08
-      - adi|0302+-+ZZ_2981
-      - adi|0302+-+ZZ_3525+|16.44Mb
-      - 🇭🇰 adi|0223 - 香港4
-      - 🇯🇵 adi|0223 - JP_26
-      - adi|0223+-+ZZ_225
-      - adi|0223+-+ZZ_222
-      - adi|0223+-+ZZ_228
-      - adi|0223+-+ZZ_219
-      - adi|0223+-+ZZ_230
-      - adi|0223+-+ZZ_210
-      - adi|0223+-+ZZ_3422
-      - adi|0223+-+ZZ_3223
-      - adi|0223+-+ZZ_226
-      - adi|0223+-+ZZ_3644
-      - adi|0223+-+ZZ_194
-      - 🇺🇲 adi|0223 - US_2083
-      - adi|0223+-+ZZ_229
-      - 🇨🇳 adi|0223 - CN_20
-      - 🇨🇳 adi|0223 - 中国157
-      - 🇫🇷 adi|0223+-+法国
-      - adi|0223+-+ZZ_211
+      - adi|0302 - CA_18 |64.68Mb
+      - adi|0302 - 欧洲 3
+      - 🇫🇷 adi|0302 - FR_26
+      - adi|0302 - ZZ_181
+      - 🇺🇲 adi|0302 - US_113
+      - adi|0302 - 欧洲 4
+      - adi|0302 - ZZ_2557
+      - adi|0302 - ZZ_188
+      - adi|0302 - 欧洲 5
+      - adi|0302 - ZZ_3335
+      - adi|0302 - ZZ_3324
+      - adi|0302 - ZZ_210
+      - adi|0302 - 欧洲 6
+      - 🇺🇲 adi|0302 - 美国
+      - adi|0302 - ZZ_2939
+      - adi|0302 - |20.74Mb
+      - adi|0223 - ZZ_3223
+      - 🇺🇲 adi|0302 - US_76
+      - adi|0302 - |19.22Mb
+      - adi|0302 - 欧洲 7
+      - adi|0302 - ZZ_193
+      - 🇺🇲 adi|0302 - 美国 2
+      - 🇨🇦 adi|0302 - 加拿大 2
+      - adi|0302 - ZZ_3525 |16.44Mb
+      - adi|0302 -
+      - adi|0302 - ZZ_17
+      - adi|0302 - 2
+      - adi|0302 - 欧洲 8
+      - adi|0302 - ZZ_235
+      - adi|0302 - 3
+      - adi|0302 - 4
+      - 🇨🇦 adi|0302 - 加拿大-177.2KB/s
+      - adi|0302 - ZZ_2981
+      - adi|0302 - 5
+      - adi|0302 - ZZ_3326
+      - adi|0223 - ZZ_211
+      - adi|0302 - 6
+      - adi|0302 - 7
+      - adi|0302 - ZZ_3493
+      - adi|0302 - 欧洲 9
+      - adi|0302 - ZZ_3330
+      - adi|0302 - ZZ_229
+      - adi|0302 - ZZ_188 2
+      - adi|0223 - ZZ_194
+      - 🇺🇲 adi|0302 - 北美地区5
+      - adi|0302 - ZZ_219
+      - 🇺🇲 adi|0302 - 北美地区15
+      - adi|0302 - ZZ_18
+      - adi|0302 - ZZ_3338
+      - adi|0302 - ZZ_3326 2
+      - adi|0302 - 8
+      - adi|0302 - 欧洲 10
+      - adi|0302 - ZZ_222
+      - adi|0302 - 9
+      - adi|0302 - 10
+      - adi|0302 - ZZ_2975
+      - adi|0302 - ZZ_3554
+      - adi|0302 - ZZ_209 |28.93Mb
+      - adi|0302 - ZZ_197
+      - 🇺🇲 adi|0302 - 洛杉矶SS
+      - 🇭🇰 adi|0302 - 香港
+      - 🇭🇰 adi|0302 - 香港 2
+      - adi|0302 - 欧洲 11
+      - adi|0302 - 11
+      - adi|0302 - ZZ_2939 2
+      - adi|0302 - 欧洲 12
+      - adi|0302 - 欧洲 13
+      - adi|0302 - 欧洲 14
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇦🇺 adi|0302 - AU_1
-      - 🇨🇳 adi|0302 - 中国-1.67MB/s
-      - 🇨🇳 adi|0302 - CN_367
-      - 🇨🇳 adi|0302 - CN_373
-      - 🇨🇳 adi|0302 - 中国-1.26MB/s
-      - 🇨🇳 adi|0302 - 中国-1.69MB/s
-      - 🇨🇳 adi|0302 - 中国-1.59MB/s
-      - 🇨🇳 adi|0302 - CN_391
-      - adi|0302+-+ZZ_3495
-      - adi|0302+-+|20.74Mb
-      - adi|0302+-+ZZ_3330
-      - adi|0302+-+CA_204
-      - adi|0302+-+CA_194
-      - 🇨🇳 adi|0302 - CN_379
-      - 🇨🇳 adi|0302 - 中国-1.63MB/s
-      - adi|0302+-+CA_3
-      - 🇨🇳 adi|0302 - 中国-1.63MB/s 2
-      - adi|0302+-+ZZ_2978
-      - 🇨🇳 adi|0302 - 中国-1.23MB/s
-      - 🇨🇳 adi|0302 - CN_387
-      - 🇨🇳 adi|0302 - 中国-1.64MB/s
-      - 🇨🇳 adi|0302 - CN_375
-      - 🇨🇳 adi|0302 - CN_390
-      - 🇨🇳 adi|0302 - 中国-1.64MB/s 2
-      - adi|0302+-+ZZ_2982
-      - adi|0302+-+ZZ_3326
-      - 🇨🇳 adi|0302 - CN_395
-      - 🇨🇳 adi|0302 - CN_376
-      - adi|0302+-+ZZ_2975
-      - 🇨🇳 adi|0302 - 中国-1.28MB/s
-      - adi|0302+-+ZZ_3338
-      - adi|0302+-+ZZ_3335
-      - 🇨🇳 adi|0302 - 中国-1.42MB/s
-      - 🇺🇲 adi|0302+-+US_2526
-      - 🇨🇳 adi|0302 - CN_371
-      - adi|0302+-+ZZ_2939
-      - adi|0302+-+CA_162
-      - adi|0302+-+ZZ_3324
-      - adi|0302+-+
-      - adi|0302+-+ZZ_2557
-      - adi|0302+-+ 2
-      - adi|0302+-+ZZ_3493
-      - adi|0302+-+ 3
-      - adi|0302 - V34
-      - 🇯🇵 adi|0302 - JP_28
-      - adi|0302 - V54
-      - 🇺🇲 adi|0302+-+US_2689+|73.95Mb
-      - adi|0302+-+ZZ_3184
-      - adi|0302+-+ZZ_3554
-      - adi|0302+-+ZZ_3435
-      - adi|0302 - V43
-      - adi|0302 - V32
-      - adi|0302 - NONE
-      - 🇸🇬 adi|0302 - 新加坡
-      - 🇺🇲 adi|0302 - 美国
-      - adi|0302 - V53
       - adi|0302 - 欧洲
-      - 🇯🇵 adi|0302 - JP_11
-      - adi|0302 - V49
+      - 🇨🇦 adi|0302 - 加拿大
       - adi|0302 - 欧洲 2
-      - adi|0302 - V35
-      - adi|0302 - V08
-      - adi|0302+-+ZZ_2981
-      - adi|0302+-+ZZ_3525+|16.44Mb
-      - 🇭🇰 adi|0223 - 香港4
-      - 🇯🇵 adi|0223 - JP_26
-      - adi|0223+-+ZZ_225
-      - adi|0223+-+ZZ_222
-      - adi|0223+-+ZZ_228
-      - adi|0223+-+ZZ_219
-      - adi|0223+-+ZZ_230
-      - adi|0223+-+ZZ_210
-      - adi|0223+-+ZZ_3422
-      - adi|0223+-+ZZ_3223
-      - adi|0223+-+ZZ_226
-      - adi|0223+-+ZZ_3644
-      - adi|0223+-+ZZ_194
-      - 🇺🇲 adi|0223 - US_2083
-      - adi|0223+-+ZZ_229
-      - 🇨🇳 adi|0223 - CN_20
-      - 🇨🇳 adi|0223 - 中国157
-      - 🇫🇷 adi|0223+-+法国
-      - adi|0223+-+ZZ_211
+      - adi|0302 - CA_18 |64.68Mb
+      - adi|0302 - 欧洲 3
+      - 🇫🇷 adi|0302 - FR_26
+      - adi|0302 - ZZ_181
+      - 🇺🇲 adi|0302 - US_113
+      - adi|0302 - 欧洲 4
+      - adi|0302 - ZZ_2557
+      - adi|0302 - ZZ_188
+      - adi|0302 - 欧洲 5
+      - adi|0302 - ZZ_3335
+      - adi|0302 - ZZ_3324
+      - adi|0302 - ZZ_210
+      - adi|0302 - 欧洲 6
+      - 🇺🇲 adi|0302 - 美国
+      - adi|0302 - ZZ_2939
+      - adi|0302 - |20.74Mb
+      - adi|0223 - ZZ_3223
+      - 🇺🇲 adi|0302 - US_76
+      - adi|0302 - |19.22Mb
+      - adi|0302 - 欧洲 7
+      - adi|0302 - ZZ_193
+      - 🇺🇲 adi|0302 - 美国 2
+      - 🇨🇦 adi|0302 - 加拿大 2
+      - adi|0302 - ZZ_3525 |16.44Mb
+      - adi|0302 -
+      - adi|0302 - ZZ_17
+      - adi|0302 - 2
+      - adi|0302 - 欧洲 8
+      - adi|0302 - ZZ_235
+      - adi|0302 - 3
+      - adi|0302 - 4
+      - 🇨🇦 adi|0302 - 加拿大-177.2KB/s
+      - adi|0302 - ZZ_2981
+      - adi|0302 - 5
+      - adi|0302 - ZZ_3326
+      - adi|0223 - ZZ_211
+      - adi|0302 - 6
+      - adi|0302 - 7
+      - adi|0302 - ZZ_3493
+      - adi|0302 - 欧洲 9
+      - adi|0302 - ZZ_3330
+      - adi|0302 - ZZ_229
+      - adi|0302 - ZZ_188 2
+      - adi|0223 - ZZ_194
+      - 🇺🇲 adi|0302 - 北美地区5
+      - adi|0302 - ZZ_219
+      - 🇺🇲 adi|0302 - 北美地区15
+      - adi|0302 - ZZ_18
+      - adi|0302 - ZZ_3338
+      - adi|0302 - ZZ_3326 2
+      - adi|0302 - 8
+      - adi|0302 - 欧洲 10
+      - adi|0302 - ZZ_222
+      - adi|0302 - 9
+      - adi|0302 - 10
+      - adi|0302 - ZZ_2975
+      - adi|0302 - ZZ_3554
+      - adi|0302 - ZZ_209 |28.93Mb
+      - adi|0302 - ZZ_197
+      - 🇺🇲 adi|0302 - 洛杉矶SS
+      - 🇭🇰 adi|0302 - 香港
+      - 🇭🇰 adi|0302 - 香港 2
+      - adi|0302 - 欧洲 11
+      - adi|0302 - 11
+      - adi|0302 - ZZ_2939 2
+      - adi|0302 - 欧洲 12
+      - adi|0302 - 欧洲 13
+      - adi|0302 - 欧洲 14
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇦🇺 adi|0302 - AU_1
-      - 🇨🇳 adi|0302 - 中国-1.67MB/s
-      - 🇨🇳 adi|0302 - CN_367
-      - 🇨🇳 adi|0302 - CN_373
-      - 🇨🇳 adi|0302 - 中国-1.26MB/s
-      - 🇨🇳 adi|0302 - 中国-1.69MB/s
-      - 🇨🇳 adi|0302 - 中国-1.59MB/s
-      - 🇨🇳 adi|0302 - CN_391
-      - adi|0302+-+ZZ_3495
-      - adi|0302+-+|20.74Mb
-      - adi|0302+-+ZZ_3330
-      - adi|0302+-+CA_204
-      - adi|0302+-+CA_194
-      - 🇨🇳 adi|0302 - CN_379
-      - 🇨🇳 adi|0302 - 中国-1.63MB/s
-      - adi|0302+-+CA_3
-      - 🇨🇳 adi|0302 - 中国-1.63MB/s 2
-      - adi|0302+-+ZZ_2978
-      - 🇨🇳 adi|0302 - 中国-1.23MB/s
-      - 🇨🇳 adi|0302 - CN_387
-      - 🇨🇳 adi|0302 - 中国-1.64MB/s
-      - 🇨🇳 adi|0302 - CN_375
-      - 🇨🇳 adi|0302 - CN_390
-      - 🇨🇳 adi|0302 - 中国-1.64MB/s 2
-      - adi|0302+-+ZZ_2982
-      - adi|0302+-+ZZ_3326
-      - 🇨🇳 adi|0302 - CN_395
-      - 🇨🇳 adi|0302 - CN_376
-      - adi|0302+-+ZZ_2975
-      - 🇨🇳 adi|0302 - 中国-1.28MB/s
-      - adi|0302+-+ZZ_3338
-      - adi|0302+-+ZZ_3335
-      - 🇨🇳 adi|0302 - 中国-1.42MB/s
-      - 🇺🇲 adi|0302+-+US_2526
-      - 🇨🇳 adi|0302 - CN_371
-      - adi|0302+-+ZZ_2939
-      - adi|0302+-+CA_162
-      - adi|0302+-+ZZ_3324
-      - adi|0302+-+
-      - adi|0302+-+ZZ_2557
-      - adi|0302+-+ 2
-      - adi|0302+-+ZZ_3493
-      - adi|0302+-+ 3
-      - adi|0302 - V34
-      - 🇯🇵 adi|0302 - JP_28
-      - adi|0302 - V54
-      - 🇺🇲 adi|0302+-+US_2689+|73.95Mb
-      - adi|0302+-+ZZ_3184
-      - adi|0302+-+ZZ_3554
-      - adi|0302+-+ZZ_3435
-      - adi|0302 - V43
-      - adi|0302 - V32
-      - adi|0302 - NONE
-      - 🇸🇬 adi|0302 - 新加坡
-      - 🇺🇲 adi|0302 - 美国
-      - adi|0302 - V53
       - adi|0302 - 欧洲
-      - 🇯🇵 adi|0302 - JP_11
-      - adi|0302 - V49
+      - 🇨🇦 adi|0302 - 加拿大
       - adi|0302 - 欧洲 2
-      - adi|0302 - V35
-      - adi|0302 - V08
-      - adi|0302+-+ZZ_2981
-      - adi|0302+-+ZZ_3525+|16.44Mb
-      - 🇭🇰 adi|0223 - 香港4
-      - 🇯🇵 adi|0223 - JP_26
-      - adi|0223+-+ZZ_225
-      - adi|0223+-+ZZ_222
-      - adi|0223+-+ZZ_228
-      - adi|0223+-+ZZ_219
-      - adi|0223+-+ZZ_230
-      - adi|0223+-+ZZ_210
-      - adi|0223+-+ZZ_3422
-      - adi|0223+-+ZZ_3223
-      - adi|0223+-+ZZ_226
-      - adi|0223+-+ZZ_3644
-      - adi|0223+-+ZZ_194
-      - 🇺🇲 adi|0223 - US_2083
-      - adi|0223+-+ZZ_229
-      - 🇨🇳 adi|0223 - CN_20
-      - 🇨🇳 adi|0223 - 中国157
-      - 🇫🇷 adi|0223+-+法国
-      - adi|0223+-+ZZ_211
+      - adi|0302 - CA_18 |64.68Mb
+      - adi|0302 - 欧洲 3
+      - 🇫🇷 adi|0302 - FR_26
+      - adi|0302 - ZZ_181
+      - 🇺🇲 adi|0302 - US_113
+      - adi|0302 - 欧洲 4
+      - adi|0302 - ZZ_2557
+      - adi|0302 - ZZ_188
+      - adi|0302 - 欧洲 5
+      - adi|0302 - ZZ_3335
+      - adi|0302 - ZZ_3324
+      - adi|0302 - ZZ_210
+      - adi|0302 - 欧洲 6
+      - 🇺🇲 adi|0302 - 美国
+      - adi|0302 - ZZ_2939
+      - adi|0302 - |20.74Mb
+      - adi|0223 - ZZ_3223
+      - 🇺🇲 adi|0302 - US_76
+      - adi|0302 - |19.22Mb
+      - adi|0302 - 欧洲 7
+      - adi|0302 - ZZ_193
+      - 🇺🇲 adi|0302 - 美国 2
+      - 🇨🇦 adi|0302 - 加拿大 2
+      - adi|0302 - ZZ_3525 |16.44Mb
+      - adi|0302 -
+      - adi|0302 - ZZ_17
+      - adi|0302 - 2
+      - adi|0302 - 欧洲 8
+      - adi|0302 - ZZ_235
+      - adi|0302 - 3
+      - adi|0302 - 4
+      - 🇨🇦 adi|0302 - 加拿大-177.2KB/s
+      - adi|0302 - ZZ_2981
+      - adi|0302 - 5
+      - adi|0302 - ZZ_3326
+      - adi|0223 - ZZ_211
+      - adi|0302 - 6
+      - adi|0302 - 7
+      - adi|0302 - ZZ_3493
+      - adi|0302 - 欧洲 9
+      - adi|0302 - ZZ_3330
+      - adi|0302 - ZZ_229
+      - adi|0302 - ZZ_188 2
+      - adi|0223 - ZZ_194
+      - 🇺🇲 adi|0302 - 北美地区5
+      - adi|0302 - ZZ_219
+      - 🇺🇲 adi|0302 - 北美地区15
+      - adi|0302 - ZZ_18
+      - adi|0302 - ZZ_3338
+      - adi|0302 - ZZ_3326 2
+      - adi|0302 - 8
+      - adi|0302 - 欧洲 10
+      - adi|0302 - ZZ_222
+      - adi|0302 - 9
+      - adi|0302 - 10
+      - adi|0302 - ZZ_2975
+      - adi|0302 - ZZ_3554
+      - adi|0302 - ZZ_209 |28.93Mb
+      - adi|0302 - ZZ_197
+      - 🇺🇲 adi|0302 - 洛杉矶SS
+      - 🇭🇰 adi|0302 - 香港
+      - 🇭🇰 adi|0302 - 香港 2
+      - adi|0302 - 欧洲 11
+      - adi|0302 - 11
+      - adi|0302 - ZZ_2939 2
+      - adi|0302 - 欧洲 12
+      - adi|0302 - 欧洲 13
+      - adi|0302 - 欧洲 14
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇦🇺 adi|0302 - AU_1
-      - 🇨🇳 adi|0302 - 中国-1.67MB/s
-      - 🇨🇳 adi|0302 - CN_367
-      - 🇨🇳 adi|0302 - CN_373
-      - 🇨🇳 adi|0302 - 中国-1.26MB/s
-      - 🇨🇳 adi|0302 - 中国-1.69MB/s
-      - 🇨🇳 adi|0302 - 中国-1.59MB/s
-      - 🇨🇳 adi|0302 - CN_391
-      - adi|0302+-+ZZ_3495
-      - adi|0302+-+|20.74Mb
-      - adi|0302+-+ZZ_3330
-      - adi|0302+-+CA_204
-      - adi|0302+-+CA_194
-      - 🇨🇳 adi|0302 - CN_379
-      - 🇨🇳 adi|0302 - 中国-1.63MB/s
-      - adi|0302+-+CA_3
-      - 🇨🇳 adi|0302 - 中国-1.63MB/s 2
-      - adi|0302+-+ZZ_2978
-      - 🇨🇳 adi|0302 - 中国-1.23MB/s
-      - 🇨🇳 adi|0302 - CN_387
-      - 🇨🇳 adi|0302 - 中国-1.64MB/s
-      - 🇨🇳 adi|0302 - CN_375
-      - 🇨🇳 adi|0302 - CN_390
-      - 🇨🇳 adi|0302 - 中国-1.64MB/s 2
-      - adi|0302+-+ZZ_2982
-      - adi|0302+-+ZZ_3326
-      - 🇨🇳 adi|0302 - CN_395
-      - 🇨🇳 adi|0302 - CN_376
-      - adi|0302+-+ZZ_2975
-      - 🇨🇳 adi|0302 - 中国-1.28MB/s
-      - adi|0302+-+ZZ_3338
-      - adi|0302+-+ZZ_3335
-      - 🇨🇳 adi|0302 - 中国-1.42MB/s
-      - 🇺🇲 adi|0302+-+US_2526
-      - 🇨🇳 adi|0302 - CN_371
-      - adi|0302+-+ZZ_2939
-      - adi|0302+-+CA_162
-      - adi|0302+-+ZZ_3324
-      - adi|0302+-+
-      - adi|0302+-+ZZ_2557
-      - adi|0302+-+ 2
-      - adi|0302+-+ZZ_3493
-      - adi|0302+-+ 3
-      - adi|0302 - V34
-      - 🇯🇵 adi|0302 - JP_28
-      - adi|0302 - V54
-      - 🇺🇲 adi|0302+-+US_2689+|73.95Mb
-      - adi|0302+-+ZZ_3184
-      - adi|0302+-+ZZ_3554
-      - adi|0302+-+ZZ_3435
-      - adi|0302 - V43
-      - adi|0302 - V32
-      - adi|0302 - NONE
-      - 🇸🇬 adi|0302 - 新加坡
-      - 🇺🇲 adi|0302 - 美国
-      - adi|0302 - V53
       - adi|0302 - 欧洲
-      - 🇯🇵 adi|0302 - JP_11
-      - adi|0302 - V49
+      - 🇨🇦 adi|0302 - 加拿大
       - adi|0302 - 欧洲 2
-      - adi|0302 - V35
-      - adi|0302 - V08
-      - adi|0302+-+ZZ_2981
-      - adi|0302+-+ZZ_3525+|16.44Mb
-      - 🇭🇰 adi|0223 - 香港4
-      - 🇯🇵 adi|0223 - JP_26
-      - adi|0223+-+ZZ_225
-      - adi|0223+-+ZZ_222
-      - adi|0223+-+ZZ_228
-      - adi|0223+-+ZZ_219
-      - adi|0223+-+ZZ_230
-      - adi|0223+-+ZZ_210
-      - adi|0223+-+ZZ_3422
-      - adi|0223+-+ZZ_3223
-      - adi|0223+-+ZZ_226
-      - adi|0223+-+ZZ_3644
-      - adi|0223+-+ZZ_194
-      - 🇺🇲 adi|0223 - US_2083
-      - adi|0223+-+ZZ_229
-      - 🇨🇳 adi|0223 - CN_20
-      - 🇨🇳 adi|0223 - 中国157
-      - 🇫🇷 adi|0223+-+法国
-      - adi|0223+-+ZZ_211
+      - adi|0302 - CA_18 |64.68Mb
+      - adi|0302 - 欧洲 3
+      - 🇫🇷 adi|0302 - FR_26
+      - adi|0302 - ZZ_181
+      - 🇺🇲 adi|0302 - US_113
+      - adi|0302 - 欧洲 4
+      - adi|0302 - ZZ_2557
+      - adi|0302 - ZZ_188
+      - adi|0302 - 欧洲 5
+      - adi|0302 - ZZ_3335
+      - adi|0302 - ZZ_3324
+      - adi|0302 - ZZ_210
+      - adi|0302 - 欧洲 6
+      - 🇺🇲 adi|0302 - 美国
+      - adi|0302 - ZZ_2939
+      - adi|0302 - |20.74Mb
+      - adi|0223 - ZZ_3223
+      - 🇺🇲 adi|0302 - US_76
+      - adi|0302 - |19.22Mb
+      - adi|0302 - 欧洲 7
+      - adi|0302 - ZZ_193
+      - 🇺🇲 adi|0302 - 美国 2
+      - 🇨🇦 adi|0302 - 加拿大 2
+      - adi|0302 - ZZ_3525 |16.44Mb
+      - adi|0302 -
+      - adi|0302 - ZZ_17
+      - adi|0302 - 2
+      - adi|0302 - 欧洲 8
+      - adi|0302 - ZZ_235
+      - adi|0302 - 3
+      - adi|0302 - 4
+      - 🇨🇦 adi|0302 - 加拿大-177.2KB/s
+      - adi|0302 - ZZ_2981
+      - adi|0302 - 5
+      - adi|0302 - ZZ_3326
+      - adi|0223 - ZZ_211
+      - adi|0302 - 6
+      - adi|0302 - 7
+      - adi|0302 - ZZ_3493
+      - adi|0302 - 欧洲 9
+      - adi|0302 - ZZ_3330
+      - adi|0302 - ZZ_229
+      - adi|0302 - ZZ_188 2
+      - adi|0223 - ZZ_194
+      - 🇺🇲 adi|0302 - 北美地区5
+      - adi|0302 - ZZ_219
+      - 🇺🇲 adi|0302 - 北美地区15
+      - adi|0302 - ZZ_18
+      - adi|0302 - ZZ_3338
+      - adi|0302 - ZZ_3326 2
+      - adi|0302 - 8
+      - adi|0302 - 欧洲 10
+      - adi|0302 - ZZ_222
+      - adi|0302 - 9
+      - adi|0302 - 10
+      - adi|0302 - ZZ_2975
+      - adi|0302 - ZZ_3554
+      - adi|0302 - ZZ_209 |28.93Mb
+      - adi|0302 - ZZ_197
+      - 🇺🇲 adi|0302 - 洛杉矶SS
+      - 🇭🇰 adi|0302 - 香港
+      - 🇭🇰 adi|0302 - 香港 2
+      - adi|0302 - 欧洲 11
+      - adi|0302 - 11
+      - adi|0302 - ZZ_2939 2
+      - adi|0302 - 欧洲 12
+      - adi|0302 - 欧洲 13
+      - adi|0302 - 欧洲 14
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -463,89 +403,77 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇦🇺 adi|0302 - AU_1
-      - 🇨🇳 adi|0302 - 中国-1.67MB/s
-      - 🇨🇳 adi|0302 - CN_367
-      - 🇨🇳 adi|0302 - CN_373
-      - 🇨🇳 adi|0302 - 中国-1.26MB/s
-      - 🇨🇳 adi|0302 - 中国-1.69MB/s
-      - 🇨🇳 adi|0302 - 中国-1.59MB/s
-      - 🇨🇳 adi|0302 - CN_391
-      - adi|0302+-+ZZ_3495
-      - adi|0302+-+|20.74Mb
-      - adi|0302+-+ZZ_3330
-      - adi|0302+-+CA_204
-      - adi|0302+-+CA_194
-      - 🇨🇳 adi|0302 - CN_379
-      - 🇨🇳 adi|0302 - 中国-1.63MB/s
-      - adi|0302+-+CA_3
-      - 🇨🇳 adi|0302 - 中国-1.63MB/s 2
-      - adi|0302+-+ZZ_2978
-      - 🇨🇳 adi|0302 - 中国-1.23MB/s
-      - 🇨🇳 adi|0302 - CN_387
-      - 🇨🇳 adi|0302 - 中国-1.64MB/s
-      - 🇨🇳 adi|0302 - CN_375
-      - 🇨🇳 adi|0302 - CN_390
-      - 🇨🇳 adi|0302 - 中国-1.64MB/s 2
-      - adi|0302+-+ZZ_2982
-      - adi|0302+-+ZZ_3326
-      - 🇨🇳 adi|0302 - CN_395
-      - 🇨🇳 adi|0302 - CN_376
-      - adi|0302+-+ZZ_2975
-      - 🇨🇳 adi|0302 - 中国-1.28MB/s
-      - adi|0302+-+ZZ_3338
-      - adi|0302+-+ZZ_3335
-      - 🇨🇳 adi|0302 - 中国-1.42MB/s
-      - 🇺🇲 adi|0302+-+US_2526
-      - 🇨🇳 adi|0302 - CN_371
-      - adi|0302+-+ZZ_2939
-      - adi|0302+-+CA_162
-      - adi|0302+-+ZZ_3324
-      - adi|0302+-+
-      - adi|0302+-+ZZ_2557
-      - adi|0302+-+ 2
-      - adi|0302+-+ZZ_3493
-      - adi|0302+-+ 3
-      - adi|0302 - V34
-      - 🇯🇵 adi|0302 - JP_28
-      - adi|0302 - V54
-      - 🇺🇲 adi|0302+-+US_2689+|73.95Mb
-      - adi|0302+-+ZZ_3184
-      - adi|0302+-+ZZ_3554
-      - adi|0302+-+ZZ_3435
-      - adi|0302 - V43
-      - adi|0302 - V32
-      - adi|0302 - NONE
-      - 🇸🇬 adi|0302 - 新加坡
-      - 🇺🇲 adi|0302 - 美国
-      - adi|0302 - V53
       - adi|0302 - 欧洲
-      - 🇯🇵 adi|0302 - JP_11
-      - adi|0302 - V49
+      - 🇨🇦 adi|0302 - 加拿大
       - adi|0302 - 欧洲 2
-      - adi|0302 - V35
-      - adi|0302 - V08
-      - adi|0302+-+ZZ_2981
-      - adi|0302+-+ZZ_3525+|16.44Mb
-      - 🇭🇰 adi|0223 - 香港4
-      - 🇯🇵 adi|0223 - JP_26
-      - adi|0223+-+ZZ_225
-      - adi|0223+-+ZZ_222
-      - adi|0223+-+ZZ_228
-      - adi|0223+-+ZZ_219
-      - adi|0223+-+ZZ_230
-      - adi|0223+-+ZZ_210
-      - adi|0223+-+ZZ_3422
-      - adi|0223+-+ZZ_3223
-      - adi|0223+-+ZZ_226
-      - adi|0223+-+ZZ_3644
-      - adi|0223+-+ZZ_194
-      - 🇺🇲 adi|0223 - US_2083
-      - adi|0223+-+ZZ_229
-      - 🇨🇳 adi|0223 - CN_20
-      - 🇨🇳 adi|0223 - 中国157
-      - 🇫🇷 adi|0223+-+法国
-      - adi|0223+-+ZZ_211
+      - adi|0302 - CA_18 |64.68Mb
+      - adi|0302 - 欧洲 3
+      - 🇫🇷 adi|0302 - FR_26
+      - adi|0302 - ZZ_181
+      - 🇺🇲 adi|0302 - US_113
+      - adi|0302 - 欧洲 4
+      - adi|0302 - ZZ_2557
+      - adi|0302 - ZZ_188
+      - adi|0302 - 欧洲 5
+      - adi|0302 - ZZ_3335
+      - adi|0302 - ZZ_3324
+      - adi|0302 - ZZ_210
+      - adi|0302 - 欧洲 6
+      - 🇺🇲 adi|0302 - 美国
+      - adi|0302 - ZZ_2939
+      - adi|0302 - |20.74Mb
+      - adi|0223 - ZZ_3223
+      - 🇺🇲 adi|0302 - US_76
+      - adi|0302 - |19.22Mb
+      - adi|0302 - 欧洲 7
+      - adi|0302 - ZZ_193
+      - 🇺🇲 adi|0302 - 美国 2
+      - 🇨🇦 adi|0302 - 加拿大 2
+      - adi|0302 - ZZ_3525 |16.44Mb
+      - adi|0302 -
+      - adi|0302 - ZZ_17
+      - adi|0302 - 2
+      - adi|0302 - 欧洲 8
+      - adi|0302 - ZZ_235
+      - adi|0302 - 3
+      - adi|0302 - 4
+      - 🇨🇦 adi|0302 - 加拿大-177.2KB/s
+      - adi|0302 - ZZ_2981
+      - adi|0302 - 5
+      - adi|0302 - ZZ_3326
+      - adi|0223 - ZZ_211
+      - adi|0302 - 6
+      - adi|0302 - 7
+      - adi|0302 - ZZ_3493
+      - adi|0302 - 欧洲 9
+      - adi|0302 - ZZ_3330
+      - adi|0302 - ZZ_229
+      - adi|0302 - ZZ_188 2
+      - adi|0223 - ZZ_194
+      - 🇺🇲 adi|0302 - 北美地区5
+      - adi|0302 - ZZ_219
+      - 🇺🇲 adi|0302 - 北美地区15
+      - adi|0302 - ZZ_18
+      - adi|0302 - ZZ_3338
+      - adi|0302 - ZZ_3326 2
+      - adi|0302 - 8
+      - adi|0302 - 欧洲 10
+      - adi|0302 - ZZ_222
+      - adi|0302 - 9
+      - adi|0302 - 10
+      - adi|0302 - ZZ_2975
+      - adi|0302 - ZZ_3554
+      - adi|0302 - ZZ_209 |28.93Mb
+      - adi|0302 - ZZ_197
+      - 🇺🇲 adi|0302 - 洛杉矶SS
+      - 🇭🇰 adi|0302 - 香港
+      - 🇭🇰 adi|0302 - 香港 2
+      - adi|0302 - 欧洲 11
+      - adi|0302 - 11
+      - adi|0302 - ZZ_2939 2
+      - adi|0302 - 欧洲 12
+      - adi|0302 - 欧洲 13
+      - adi|0302 - 欧洲 14
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -573,6 +501,7 @@ rules:
  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
+ - DOMAIN-SUFFIX,router.ctc,🎯 全球直连
  - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
  - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
  - DOMAIN,dl.google.com,🎯 全球直连
@@ -2328,6 +2257,7 @@ rules:
  - DOMAIN-SUFFIX,bbci.co,🚀 节点选择
  - DOMAIN-SUFFIX,bbci.co.uk,🚀 节点选择
  - DOMAIN-SUFFIX,bidi.net.uk,🚀 节点选择
+ - DOMAIN,bahamut.akamaized.net,🚀 节点选择
  - DOMAIN,gamer-cds.cdn.hinet.net,🚀 节点选择
  - DOMAIN,gamer2-cds.cdn.hinet.net,🚀 节点选择
  - DOMAIN-SUFFIX,bahamut.com.tw,🚀 节点选择
@@ -2449,8 +2379,9 @@ rules:
  - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🚀 节点选择
  - DOMAIN-SUFFIX,mytvsuper.com,🚀 节点选择
  - DOMAIN-SUFFIX,tvb.com,🚀 节点选择
+ - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🚀 节点选择
  - DOMAIN-KEYWORD,dualstack.apiproxy-,🚀 节点选择
- - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🚀 节点选择
+ - DOMAIN-KEYWORD,netflixdnstest,🚀 节点选择
  - DOMAIN,netflix.com.edgesuite.net,🚀 节点选择
  - DOMAIN-SUFFIX,fast.com,🚀 节点选择
  - DOMAIN-SUFFIX,netflix.com,🚀 节点选择
@@ -2472,12 +2403,9 @@ rules:
  - DOMAIN-SUFFIX,nflxvideo.net,🚀 节点选择
  - IP-CIDR,8.41.4.0/24,🚀 节点选择,no-resolve
  - IP-CIDR,23.246.0.0/18,🚀 节点选择,no-resolve
- - IP-CIDR,34.210.42.111/32,🚀 节点选择,no-resolve
  - IP-CIDR,37.77.184.0/21,🚀 节点选择,no-resolve
  - IP-CIDR,38.72.126.0/24,🚀 节点选择,no-resolve
  - IP-CIDR,45.57.0.0/17,🚀 节点选择,no-resolve
- - IP-CIDR,52.89.124.203/32,🚀 节点选择,no-resolve
- - IP-CIDR,54.148.37.5/32,🚀 节点选择,no-resolve
  - IP-CIDR,64.120.128.0/17,🚀 节点选择,no-resolve
  - IP-CIDR,66.197.128.0/17,🚀 节点选择,no-resolve
  - IP-CIDR,69.53.224.0/19,🚀 节点选择,no-resolve
@@ -2516,7 +2444,7 @@ rules:
  - DOMAIN-SUFFIX,tidalhifi.com,🚀 节点选择
  - DOMAIN,hamifans.emome.net,🚀 节点选择
  - DOMAIN-SUFFIX,skyking.com.tw,🚀 节点选择
- - DOMAIN-KEYWORD,-tiktokcdn-com,🚀 节点选择
+ - DOMAIN-KEYWORD,tiktokcdn-,🚀 节点选择
  - DOMAIN-SUFFIX,byteoversea.com,🚀 节点选择
  - DOMAIN-SUFFIX,ibytedtos.com,🚀 节点选择
  - DOMAIN-SUFFIX,ipstatp.com,🚀 节点选择
@@ -3111,6 +3039,7 @@ rules:
  - DOMAIN-SUFFIX,toutiaoimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,toutiaopage.com,🎯 全球直连
  - DOMAIN-SUFFIX,wukong.com,🎯 全球直连
+ - DOMAIN-SUFFIX,zijieapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zijieimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,zjbyte.com,🎯 全球直连
  - DOMAIN-SUFFIX,zjcdn.com,🎯 全球直连
@@ -3456,7 +3385,6 @@ rules:
  - DOMAIN-SUFFIX,lizhi.fm,🎯 全球直连
  - DOMAIN-SUFFIX,lizhi.io,🎯 全球直连
  - DOMAIN-SUFFIX,lizhifm.com,🎯 全球直连
- - DOMAIN-SUFFIX,loli.net,🎯 全球直连
  - DOMAIN-SUFFIX,luoo.net,🎯 全球直连
  - DOMAIN-SUFFIX,lvmama.com,🎯 全球直连
  - DOMAIN-SUFFIX,lxdns.com,🎯 全球直连
@@ -3510,7 +3438,6 @@ rules:
  - DOMAIN-SUFFIX,sf-express.com,🎯 全球直连
  - DOMAIN-SUFFIX,shumilou.net,🎯 全球直连
  - DOMAIN-SUFFIX,simplecd.me,🎯 全球直连
- - DOMAIN-SUFFIX,sm.ms,🎯 全球直连
  - DOMAIN-SUFFIX,smzdm.com,🎯 全球直连
  - DOMAIN-SUFFIX,snwx.com,🎯 全球直连
  - DOMAIN-SUFFIX,soufunimg.com,🎯 全球直连
