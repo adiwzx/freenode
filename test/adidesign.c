@@ -3,140 +3,139 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇨🇳 adi|0327 - CN39, server: 52.131.222.178, port: 31125, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN35, server: 52.131.222.178, port: 31417, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN40, server: 52.131.222.178, port: 31126, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN37, server: 52.131.222.178, port: 31313, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN14, server: 183.232.56.161, port: 1052, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN38, server: 52.131.222.178, port: 31416, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN3, server: 101.230.149.1, port: 1022, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 101.230.149.1}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN24, server: 183.232.56.161, port: 5018, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇺🇸 adi|0327 - US5, server: 154.17.25.49, port: 2089, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 154.17.25.49}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN18, server: 183.232.56.161, port: 1303, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇺🇸 adi|0327 - US4, server: 154.17.19.224, port: 6086, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 154.17.19.224}, udp: true}
-  - {name: 🇺🇸 adi|0327 - US3, server: 154.17.18.191, port: 1095, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 154.17.18.191}, udp: true}
-  - {name: 🇺🇸 adi|0327 - US7, server: 185.217.108.182, port: 2086, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 185.217.108.182}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN22, server: 183.232.56.161, port: 1703, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN21, server: 183.232.56.161, port: 1603, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN12, server: 183.232.56.161, port: 1601, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN11, server: 183.232.56.161, port: 1952, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN15, server: 183.232.56.161, port: 1202, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN16, server: 183.232.56.161, port: 1051, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN27, server: 183.232.56.161, port: 1122, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN44, server: 52.131.222.178, port: 51012, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 52.131.222.178}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN34, server: 183.232.56.161, port: 5019, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN20, server: 183.232.56.161, port: 1123, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN31, server: 183.232.56.161, port: 1605, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN28, server: 183.232.56.161, port: 1602, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN29, server: 183.232.56.161, port: 1101, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN4, server: 101.230.149.1, port: 1001, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 101.230.149.1}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN45, server: dns-02-838711.zhcn.one, port: 65017, type: vmess, uuid: 07eb058a-9eef-343f-83fc-f387c0ab684b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: dns-02-838711.zhcn.one}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN25, server: 183.232.56.161, port: 6112, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN32, server: 183.232.56.161, port: 3002, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN17, server: 183.232.56.161, port: 9112, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇨🇦 adi|0327 - 加拿大-271.4KB/s, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 🇨🇳 adi|0327 - CN19, server: 183.232.56.161, port: 1201, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 🇺🇸 adi|0327 - US2, server: 167.88.63.108, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: adi|0327 - CN39, server: 52.131.222.178, port: 31125, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}, udp: true}
+  - {name: adi|0327 - CN35, server: 52.131.222.178, port: 31417, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}, udp: true}
+  - {name: adi|0327 - CN40, server: 52.131.222.178, port: 31126, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}, udp: true}
+  - {name: adi|0327 - CN37, server: 52.131.222.178, port: 31313, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}, udp: true}
+  - {name: adi|0327 - CN14, server: 183.232.56.161, port: 1052, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - CN38, server: 52.131.222.178, port: 31416, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}, udp: true}
+  - {name: adi|0327 - CN3, server: 101.230.149.1, port: 1022, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 101.230.149.1}}, udp: true}
+  - {name: adi|0327 - CN24, server: 183.232.56.161, port: 5018, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - US5, server: 154.17.25.49, port: 2089, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 154.17.25.49}}, udp: true}
+  - {name: adi|0327 - CN18, server: 183.232.56.161, port: 1303, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - US4, server: 154.17.19.224, port: 6086, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 154.17.19.224}}, udp: true}
+  - {name: adi|0327 - US3, server: 154.17.18.191, port: 1095, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 154.17.18.191}}, udp: true}
+  - {name: adi|0327 - US7, server: 185.217.108.182, port: 2086, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 185.217.108.182}}, udp: true}
+  - {name: adi|0327 - CN22, server: 183.232.56.161, port: 1703, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - CN21, server: 183.232.56.161, port: 1603, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - CN12, server: 183.232.56.161, port: 1601, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - CN11, server: 183.232.56.161, port: 1952, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - CN15, server: 183.232.56.161, port: 1202, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - CN16, server: 183.232.56.161, port: 1051, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - CN27, server: 183.232.56.161, port: 1122, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - CN44, server: 52.131.222.178, port: 51012, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 52.131.222.178}}, udp: true}
+  - {name: adi|0327 - CN34, server: 183.232.56.161, port: 5019, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - CN20, server: 183.232.56.161, port: 1123, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - CN31, server: 183.232.56.161, port: 1605, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - CN28, server: 183.232.56.161, port: 1602, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - CN29, server: 183.232.56.161, port: 1101, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - CN4, server: 101.230.149.1, port: 1001, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 101.230.149.1}}, udp: true}
+  - {name: adi|0327 - CN45, server: dns-02-838711.zhcn.one, port: 65017, type: vmess, uuid: 07eb058a-9eef-343f-83fc-f387c0ab684b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: dns-02-838711.zhcn.one}}, udp: true}
+  - {name: adi|0327 - CN25, server: 183.232.56.161, port: 6112, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - CN32, server: 183.232.56.161, port: 3002, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - CN17, server: 183.232.56.161, port: 9112, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - 加拿大-271.4KB/s, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: adi|0327 - CN19, server: 183.232.56.161, port: 1201, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 183.232.56.161}}, udp: true}
+  - {name: adi|0327 - US2, server: 167.88.63.108, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: adi|0327 - ZZ_112, server: 134.195.196.51, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇪🇺 adi|0327 - 欧洲, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇨🇦 adi|0327 - 加拿大-513.6KB/s, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: adi|0327 - 欧洲, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: adi|0327 - 加拿大-513.6KB/s, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: adi|0309+-+ZZ_250, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: adi|0309+-+ZZ_2938, server: 134.195.196.68, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇪🇺 adi|0302+-+欧洲, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: adi|0302+-+欧洲, server: 134.195.196.68, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 adi|0327 - CN39
-      - 🇨🇳 adi|0327 - CN35
-      - 🇨🇳 adi|0327 - CN40
-      - 🇨🇳 adi|0327 - CN37
-      - 🇨🇳 adi|0327 - CN14
-      - 🇨🇳 adi|0327 - CN38
-      - 🇨🇳 adi|0327 - CN3
-      - 🇨🇳 adi|0327 - CN24
-      - 🇺🇸 adi|0327 - US5
-      - 🇨🇳 adi|0327 - CN18
-      - 🇺🇸 adi|0327 - US4
-      - 🇺🇸 adi|0327 - US3
-      - 🇺🇸 adi|0327 - US7
-      - 🇨🇳 adi|0327 - CN22
-      - 🇨🇳 adi|0327 - CN21
-      - 🇨🇳 adi|0327 - CN12
-      - 🇨🇳 adi|0327 - CN11
-      - 🇨🇳 adi|0327 - CN15
-      - 🇨🇳 adi|0327 - CN16
-      - 🇨🇳 adi|0327 - CN27
-      - 🇨🇳 adi|0327 - CN44
-      - 🇨🇳 adi|0327 - CN34
-      - 🇨🇳 adi|0327 - CN20
-      - 🇨🇳 adi|0327 - CN31
-      - 🇨🇳 adi|0327 - CN28
-      - 🇨🇳 adi|0327 - CN29
-      - 🇨🇳 adi|0327 - CN4
-      - 🇨🇳 adi|0327 - CN45
-      - 🇨🇳 adi|0327 - CN25
-      - 🇨🇳 adi|0327 - CN32
-      - 🇨🇳 adi|0327 - CN17
-      - 🇨🇦 adi|0327 - 加拿大-271.4KB/s
-      - 🇨🇳 adi|0327 - CN19
-      - 🇺🇸 adi|0327 - US2
+      - adi|0327 - CN39
+      - adi|0327 - CN35
+      - adi|0327 - CN40
+      - adi|0327 - CN37
+      - adi|0327 - CN14
+      - adi|0327 - CN38
+      - adi|0327 - CN3
+      - adi|0327 - CN24
+      - adi|0327 - US5
+      - adi|0327 - CN18
+      - adi|0327 - US4
+      - adi|0327 - US3
+      - adi|0327 - US7
+      - adi|0327 - CN22
+      - adi|0327 - CN21
+      - adi|0327 - CN12
+      - adi|0327 - CN11
+      - adi|0327 - CN15
+      - adi|0327 - CN16
+      - adi|0327 - CN27
+      - adi|0327 - CN44
+      - adi|0327 - CN34
+      - adi|0327 - CN20
+      - adi|0327 - CN31
+      - adi|0327 - CN28
+      - adi|0327 - CN29
+      - adi|0327 - CN4
+      - adi|0327 - CN45
+      - adi|0327 - CN25
+      - adi|0327 - CN32
+      - adi|0327 - CN17
+      - adi|0327 - 加拿大-271.4KB/s
+      - adi|0327 - CN19
+      - adi|0327 - US2
       - adi|0327 - ZZ_112
-      - 🇪🇺 adi|0327 - 欧洲
-      - 🇨🇦 adi|0327 - 加拿大-513.6KB/s
+      - adi|0327 - 欧洲
+      - adi|0327 - 加拿大-513.6KB/s
       - adi|0309+-+ZZ_250
       - adi|0309+-+ZZ_2938
-      - 🇪🇺 adi|0302+-+欧洲
+      - adi|0302+-+欧洲
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
-      - 🇨🇳 adi|0327 - CN39
-      - 🇨🇳 adi|0327 - CN35
-      - 🇨🇳 adi|0327 - CN40
-      - 🇨🇳 adi|0327 - CN37
-      - 🇨🇳 adi|0327 - CN14
-      - 🇨🇳 adi|0327 - CN38
-      - 🇨🇳 adi|0327 - CN3
-      - 🇨🇳 adi|0327 - CN24
-      - 🇺🇸 adi|0327 - US5
-      - 🇨🇳 adi|0327 - CN18
-      - 🇺🇸 adi|0327 - US4
-      - 🇺🇸 adi|0327 - US3
-      - 🇺🇸 adi|0327 - US7
-      - 🇨🇳 adi|0327 - CN22
-      - 🇨🇳 adi|0327 - CN21
-      - 🇨🇳 adi|0327 - CN12
-      - 🇨🇳 adi|0327 - CN11
-      - 🇨🇳 adi|0327 - CN15
-      - 🇨🇳 adi|0327 - CN16
-      - 🇨🇳 adi|0327 - CN27
-      - 🇨🇳 adi|0327 - CN44
-      - 🇨🇳 adi|0327 - CN34
-      - 🇨🇳 adi|0327 - CN20
-      - 🇨🇳 adi|0327 - CN31
-      - 🇨🇳 adi|0327 - CN28
-      - 🇨🇳 adi|0327 - CN29
-      - 🇨🇳 adi|0327 - CN4
-      - 🇨🇳 adi|0327 - CN45
-      - 🇨🇳 adi|0327 - CN25
-      - 🇨🇳 adi|0327 - CN32
-      - 🇨🇳 adi|0327 - CN17
-      - 🇨🇦 adi|0327 - 加拿大-271.4KB/s
-      - 🇨🇳 adi|0327 - CN19
-      - 🇺🇸 adi|0327 - US2
+      - adi|0327 - CN39
+      - adi|0327 - CN35
+      - adi|0327 - CN40
+      - adi|0327 - CN37
+      - adi|0327 - CN14
+      - adi|0327 - CN38
+      - adi|0327 - CN3
+      - adi|0327 - CN24
+      - adi|0327 - US5
+      - adi|0327 - CN18
+      - adi|0327 - US4
+      - adi|0327 - US3
+      - adi|0327 - US7
+      - adi|0327 - CN22
+      - adi|0327 - CN21
+      - adi|0327 - CN12
+      - adi|0327 - CN11
+      - adi|0327 - CN15
+      - adi|0327 - CN16
+      - adi|0327 - CN27
+      - adi|0327 - CN44
+      - adi|0327 - CN34
+      - adi|0327 - CN20
+      - adi|0327 - CN31
+      - adi|0327 - CN28
+      - adi|0327 - CN29
+      - adi|0327 - CN4
+      - adi|0327 - CN45
+      - adi|0327 - CN25
+      - adi|0327 - CN32
+      - adi|0327 - CN17
+      - adi|0327 - 加拿大-271.4KB/s
+      - adi|0327 - CN19
+      - adi|0327 - US2
       - adi|0327 - ZZ_112
-      - 🇪🇺 adi|0327 - 欧洲
-      - 🇨🇦 adi|0327 - 加拿大-513.6KB/s
+      - adi|0327 - 欧洲
+      - adi|0327 - 加拿大-513.6KB/s
       - adi|0309+-+ZZ_250
       - adi|0309+-+ZZ_2938
-      - 🇪🇺 adi|0302+-+欧洲
+      - adi|0302+-+欧洲
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -154,46 +153,46 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 adi|0327 - CN39
-      - 🇨🇳 adi|0327 - CN35
-      - 🇨🇳 adi|0327 - CN40
-      - 🇨🇳 adi|0327 - CN37
-      - 🇨🇳 adi|0327 - CN14
-      - 🇨🇳 adi|0327 - CN38
-      - 🇨🇳 adi|0327 - CN3
-      - 🇨🇳 adi|0327 - CN24
-      - 🇺🇸 adi|0327 - US5
-      - 🇨🇳 adi|0327 - CN18
-      - 🇺🇸 adi|0327 - US4
-      - 🇺🇸 adi|0327 - US3
-      - 🇺🇸 adi|0327 - US7
-      - 🇨🇳 adi|0327 - CN22
-      - 🇨🇳 adi|0327 - CN21
-      - 🇨🇳 adi|0327 - CN12
-      - 🇨🇳 adi|0327 - CN11
-      - 🇨🇳 adi|0327 - CN15
-      - 🇨🇳 adi|0327 - CN16
-      - 🇨🇳 adi|0327 - CN27
-      - 🇨🇳 adi|0327 - CN44
-      - 🇨🇳 adi|0327 - CN34
-      - 🇨🇳 adi|0327 - CN20
-      - 🇨🇳 adi|0327 - CN31
-      - 🇨🇳 adi|0327 - CN28
-      - 🇨🇳 adi|0327 - CN29
-      - 🇨🇳 adi|0327 - CN4
-      - 🇨🇳 adi|0327 - CN45
-      - 🇨🇳 adi|0327 - CN25
-      - 🇨🇳 adi|0327 - CN32
-      - 🇨🇳 adi|0327 - CN17
-      - 🇨🇦 adi|0327 - 加拿大-271.4KB/s
-      - 🇨🇳 adi|0327 - CN19
-      - 🇺🇸 adi|0327 - US2
+      - adi|0327 - CN39
+      - adi|0327 - CN35
+      - adi|0327 - CN40
+      - adi|0327 - CN37
+      - adi|0327 - CN14
+      - adi|0327 - CN38
+      - adi|0327 - CN3
+      - adi|0327 - CN24
+      - adi|0327 - US5
+      - adi|0327 - CN18
+      - adi|0327 - US4
+      - adi|0327 - US3
+      - adi|0327 - US7
+      - adi|0327 - CN22
+      - adi|0327 - CN21
+      - adi|0327 - CN12
+      - adi|0327 - CN11
+      - adi|0327 - CN15
+      - adi|0327 - CN16
+      - adi|0327 - CN27
+      - adi|0327 - CN44
+      - adi|0327 - CN34
+      - adi|0327 - CN20
+      - adi|0327 - CN31
+      - adi|0327 - CN28
+      - adi|0327 - CN29
+      - adi|0327 - CN4
+      - adi|0327 - CN45
+      - adi|0327 - CN25
+      - adi|0327 - CN32
+      - adi|0327 - CN17
+      - adi|0327 - 加拿大-271.4KB/s
+      - adi|0327 - CN19
+      - adi|0327 - US2
       - adi|0327 - ZZ_112
-      - 🇪🇺 adi|0327 - 欧洲
-      - 🇨🇦 adi|0327 - 加拿大-513.6KB/s
+      - adi|0327 - 欧洲
+      - adi|0327 - 加拿大-513.6KB/s
       - adi|0309+-+ZZ_250
       - adi|0309+-+ZZ_2938
-      - 🇪🇺 adi|0302+-+欧洲
+      - adi|0302+-+欧洲
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -9425,6 +9424,21 @@ rules:
  - DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
  - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
  - DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
+ - DOMAIN,csgo.wmsj.cn,🎯 全球直连
+ - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
+ - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
+ - DOMAIN,dota2.wmsj.cn,🎯 全球直连
+ - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
+ - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
+ - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
+ - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
+ - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
+ - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
+ - DOMAIN,wmsjsteam.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
  - DOMAIN-SUFFIX,t.me,🚀 节点选择
  - DOMAIN-SUFFIX,tdesktop.com,🚀 节点选择
  - DOMAIN-SUFFIX,telegra.ph,🚀 节点选择
