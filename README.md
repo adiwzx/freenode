@@ -26,6 +26,9 @@
 ### Qv2ray Windows/MacOS客户端
 https://github.com/Qv2ray/Qv2ray/releases
 
+#
+### Matsuri Android 客户端
+https://github.com/MatsuriDayo/Matsuri/releases
 
 
 ####  
