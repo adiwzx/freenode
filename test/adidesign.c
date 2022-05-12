@@ -5,99 +5,117 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: adi|0512 - 「🇸🇬」崆峒印「直连」✡, server: qt6.shenseven.xyz, port: 8443, type: trojan, password: ca9cdbfc-d3bf-4752-822a-fac1daab9880, sni: qt6.shenseven.xyz, skip-cert-verify: true}
-  - {name: adi|0512 - 「🇯🇵」鬼雕刀「直连」✡, server: qt24.shenseven.xyz, port: 2083, type: trojan, password: ca9cdbfc-d3bf-4752-822a-fac1daab9880, sni: qt24.shenseven.xyz, skip-cert-verify: true}
-  - {name: adi|0512 - 「🇯🇵」木马牛「直连」✡, server: qt28.shenseven.xyz, port: 1314, type: trojan, password: ca9cdbfc-d3bf-4752-822a-fac1daab9880, sni: qt28.shenseven.xyz, skip-cert-verify: true}
-  - {name: adi|0512 - 「🇸🇬」素王剑「直连」✡, server: qt29.shenseven.xyz, port: 2022, type: trojan, password: ca9cdbfc-d3bf-4752-822a-fac1daab9880, sni: qt29.shenseven.xyz, skip-cert-verify: true}
-  - {name: 🇨🇳 adi|0512 - 「🇯🇵」过河卒「解锁」✡, server: qt35.shenseven.xyz, port: 2053, type: trojan, password: ca9cdbfc-d3bf-4752-822a-fac1daab9880, sni: qt35.shenseven.xyz, skip-cert-verify: true}
-  - {name: adi|0512 - 「🇺🇸」专属七「直连」✡, server: qt57.shenseven.xyz, port: 443, type: trojan, password: ca9cdbfc-d3bf-4752-822a-fac1daab9880, sni: qt57.shenseven.xyz, skip-cert-verify: true}
-  - {name: adi|0512 - 「🇯🇵」专属九「直连」✡, server: qt59.shenseven.xyz, port: 443, type: trojan, password: ca9cdbfc-d3bf-4752-822a-fac1daab9880, sni: qt59.shenseven.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 adi|0512 - 【直连】HKG/香港 - 80端口 - 1, server: 001a.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 193bc91e-12c5-4d13-a7ec-1df67dafd559, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 001a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: 🇭🇰 adi|0512 - 【直连】HKG/香港 - 443端口 - 2, server: 002a.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 193bc91e-12c5-4d13-a7ec-1df67dafd559, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 002a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: adi|0512 - 【直连】随机节点 - 随机端口 - 6, server: 016a.AP.POP.BIGAIRPORT.NET, port: 51200, type: vmess, uuid: 193bc91e-12c5-4d13-a7ec-1df67dafd559, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 016a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: adi|0512 - 【直连】随机节点 - 随机端口 - 7, server: 017a.AP.POP.BIGAIRPORT.NET, port: 51200, type: vmess, uuid: 193bc91e-12c5-4d13-a7ec-1df67dafd559, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 017a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: adi|0512 - 【直连】随机节点 - 随机端口 - 8, server: 018a.AP.POP.BIGAIRPORT.NET, port: 51200, type: vmess, uuid: 193bc91e-12c5-4d13-a7ec-1df67dafd559, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 018a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: adi|0512 - 【直连】随机节点 - 随机端口 - 9, server: 019a.AP.POP.BIGAIRPORT.NET, port: 51200, type: vmess, uuid: 193bc91e-12c5-4d13-a7ec-1df67dafd559, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 019a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: adi|0512 - 【直连】随机节点 - 随机端口 - 10, server: 020a.AP.POP.BIGAIRPORT.NET, port: 51200, type: vmess, uuid: 193bc91e-12c5-4d13-a7ec-1df67dafd559, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 020a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: 🇭🇰 adi|0512 - 【直连】HKG/香港 - 1, server: 021.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: 193bc91e-12c5-4d13-a7ec-1df67dafd559, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.baidu.com}}}
-  - {name: 🇭🇰 adi|0512 - 【直连】HKG/香港 - 2, server: 022.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: 193bc91e-12c5-4d13-a7ec-1df67dafd559, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.baidu.com}}}
-  - {name: 🇭🇰 adi|0512 - 🇭🇰 香港HK 2022 *hi-moon.pw, server: 94.103.5.6, port: 15575, type: vmess, uuid: 8c226d2a-e526-48ed-d28a-be2190d92e55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%2294.103.5.6%22%7D"}}}
-  - {name: "🇭🇰 adi|0512 - 公益 | 香港 A [2]", server: gz.ct.hk.fenglingcloud.com, port: 27801, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
-  - {name: "🇭🇰 adi|0512 - 公益 | 香港 B [3]", server: gz.ct.hk.fenglingcloud.com, port: 27802, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
-  - {name: "🇸🇬 adi|0512 - 公益 | 新加坡 [2]", server: gz.ct.hk.fenglingcloud.com, port: 27803, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
-  - {name: "🇯🇵 adi|0512 - 公益 | 日本 A [2]", server: sh.cu.jp.fenglingcloud.com, port: 27801, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
-  - {name: "🇯🇵 adi|0512 - 公益 | 日本 B [5]", server: sh.cu.jp.fenglingcloud.com, port: 27802, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
-  - {name: "🇺🇲 adi|0512 - 公益 | 美国 A [2]", server: sh.cu.jp.fenglingcloud.com, port: 27803, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
-  - {name: "🇺🇲 adi|0512 - 公益 | 美国 B [2]", server: sh.cu.jp.fenglingcloud.com, port: 27804, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
-  - {name: "🇭🇰 adi|0512 - 公益 | 香港 IPLC [50]", server: iplc.fenglingcloud.com, port: 31111, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
-  - {name: 🇭🇰 adi|0512 - 混淆免流 | 香港 A, server: hkml00.fenglingcloud.com, port: 80, type: vmess, uuid: bd5614e7-0c4c-4d41-b691-b4f73c3536bd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /linggg, headers: {Host: hkml00.fenglingcloud.com}}}
-  - {name: 🇭🇰 adi|0512 - 混淆免流 | 香港 B, server: hkml01.fenglingcloud.com, port: 80, type: vmess, uuid: bd5614e7-0c4c-4d41-b691-b4f73c3536bd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkml01.fenglingcloud.com}}}
+  - {name: adi|0512 - V01, server: 101.230.149.29, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: 101.230.149.29}}}
+  - {name: adi|0512 - V10, server: in-v1.sdgdn.com, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.p2psharing}}}
+  - {name: adi|0512 - V12, server: in-v1.sdgdn.com, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: telegram.channel.ripaojiedian}}}
+  - {name: adi|0512 - V13, server: in-v1.sdgdn.com, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-v1.sdgdn.com}}}
+  - {name: adi|0512 - V14, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}}
+  - {name: adi|0512 - CA-v2cross.com, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇦🇺 adi|0512 - 澳大利亚  17, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, skip-cert-verify: true}
+  - {name: 🇺🇲 adi|0512 - 北美地区  25, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇷🇺 adi|0512 - 俄罗斯 18, server: 92.38.184.228, port: 55231, type: ss, cipher: chacha20-ietf-poly1305, password: zidKl2rcLVBm}
+  - {name: adi|0512 - IDC 4, server: ingress-i2.onebox6.org, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}}
+  - {name: 🇨🇦 adi|0512 - 加拿大 14, server: 72.140.224.197, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇨🇦 adi|0512 - 加拿大 28, server: 72.140.224.197, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇲 adi|0512 - 美国 43, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, skip-cert-verify: true}
+  - {name: 🇺🇲 adi|0512 - 美国 41, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, skip-cert-verify: true}
+  - {name: 🇺🇲 adi|0512 - 美国 47, server: 1.v2tk.tk, port: 443, type: vmess, uuid: f0e10fe1-b01d-4ecc-9fcc-550badc7d1f8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /upload, headers: {Host: 1.v2tk.tk}}}
+  - {name: 🇺🇲 adi|0512 - 美国 5, server: 20.24.77.204, port: 60031, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇲 adi|0512 - 美国 10, server: 93.179.112.142, port: 54317, type: vmess, uuid: faeb79e5-6549-4b08-8e87-3d7c5457930d, alterId: 0, cipher: auto, tls: false}
+  - {name: adi|0512 - 希腊 19, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: true}
+  - {name: 🇸🇬 adi|0512 - 新加坡 13, server: 172.104.35.84, port: 2771, type: vmess, uuid: f06560c3-e6e8-4ed5-fb6c-67068dfa9c78, alterId: 0, cipher: auto, tls: false}
+  - {name: adi|0512 - 伊朗 23, server: asr-farda.ir, port: 49110, type: vmess, uuid: 47bce6b8-c260-11ec-b514-000c297a3bfd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /pdOa1847/, headers: {Host: asr-farda.ir}}}
+  - {name: 🇺🇲 adi|0512 - 洛杉矶, server: 45.32.70.29, port: 28147, type: vmess, uuid: 3dc5b9c9-4637-45a3-afd6-70657f37e88a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /BbxWiX0O/}}
+  - {name: 🇺🇲 adi|0512 - US_1161, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true}
+  - {name: 🇷🇴 adi|0512 - RO_1353, server: 185.225.19.64, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130}
+  - {name: adi|0512 - F1, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}}
+  - {name: adi|0512 - F2, server: 198.57.27.225, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: "🇺🇲 adi|0512 - 美国 A [2]", server: sh.cu.jp.fenglingcloud.com, port: 27803, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
+  - {name: "🇺🇲 adi|0512 - 美国 B [2]", server: sh.cu.jp.fenglingcloud.com, port: 27804, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
+  - {name: "🇯🇵 adi|0512 - 日本 A [2]", server: sh.cu.jp.fenglingcloud.com, port: 27801, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
+  - {name: "🇯🇵 adi|0512 - 日本 B [5]", server: sh.cu.jp.fenglingcloud.com, port: 27802, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
+  - {name: "🇭🇰 adi|0512 - 香港 A [2]", server: gz.ct.hk.fenglingcloud.com, port: 27801, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
+  - {name: "🇭🇰 adi|0512 - 香港 B [3]", server: gz.ct.hk.fenglingcloud.com, port: 27802, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
+  - {name: "🇭🇰 adi|0512 - 香港 IPLC [50]", server: iplc.fenglingcloud.com, port: 31111, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
+  - {name: "🇸🇬 adi|0512 - 新加坡 [2]", server: gz.ct.hk.fenglingcloud.com, port: 27803, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - adi|0512 - 「🇸🇬」崆峒印「直连」✡
-      - adi|0512 - 「🇯🇵」鬼雕刀「直连」✡
-      - adi|0512 - 「🇯🇵」木马牛「直连」✡
-      - adi|0512 - 「🇸🇬」素王剑「直连」✡
-      - 🇨🇳 adi|0512 - 「🇯🇵」过河卒「解锁」✡
-      - adi|0512 - 「🇺🇸」专属七「直连」✡
-      - adi|0512 - 「🇯🇵」专属九「直连」✡
-      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 80端口 - 1
-      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 443端口 - 2
-      - adi|0512 - 【直连】随机节点 - 随机端口 - 6
-      - adi|0512 - 【直连】随机节点 - 随机端口 - 7
-      - adi|0512 - 【直连】随机节点 - 随机端口 - 8
-      - adi|0512 - 【直连】随机节点 - 随机端口 - 9
-      - adi|0512 - 【直连】随机节点 - 随机端口 - 10
-      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 1
-      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 2
-      - 🇭🇰 adi|0512 - 🇭🇰 香港HK 2022 *hi-moon.pw
-      - 🇭🇰 adi|0512 - 公益 | 香港 A [2]
-      - 🇭🇰 adi|0512 - 公益 | 香港 B [3]
-      - 🇸🇬 adi|0512 - 公益 | 新加坡 [2]
-      - 🇯🇵 adi|0512 - 公益 | 日本 A [2]
-      - 🇯🇵 adi|0512 - 公益 | 日本 B [5]
-      - 🇺🇲 adi|0512 - 公益 | 美国 A [2]
-      - 🇺🇲 adi|0512 - 公益 | 美国 B [2]
-      - 🇭🇰 adi|0512 - 公益 | 香港 IPLC [50]
-      - 🇭🇰 adi|0512 - 混淆免流 | 香港 A
-      - 🇭🇰 adi|0512 - 混淆免流 | 香港 B
+      - adi|0512 - V01
+      - adi|0512 - V10
+      - adi|0512 - V12
+      - adi|0512 - V13
+      - adi|0512 - V14
+      - adi|0512 - CA-v2cross.com
+      - 🇦🇺 adi|0512 - 澳大利亚  17
+      - 🇺🇲 adi|0512 - 北美地区  25
+      - 🇷🇺 adi|0512 - 俄罗斯 18
+      - adi|0512 - IDC 4
+      - 🇨🇦 adi|0512 - 加拿大 14
+      - 🇨🇦 adi|0512 - 加拿大 28
+      - 🇺🇲 adi|0512 - 美国 43
+      - 🇺🇲 adi|0512 - 美国 41
+      - 🇺🇲 adi|0512 - 美国 47
+      - 🇺🇲 adi|0512 - 美国 5
+      - 🇺🇲 adi|0512 - 美国 10
+      - adi|0512 - 希腊 19
+      - 🇸🇬 adi|0512 - 新加坡 13
+      - adi|0512 - 伊朗 23
+      - 🇺🇲 adi|0512 - 洛杉矶
+      - 🇺🇲 adi|0512 - US_1161
+      - 🇷🇴 adi|0512 - RO_1353
+      - adi|0512 - F1
+      - adi|0512 - F2
+      - 🇺🇲 adi|0512 - 美国 A [2]
+      - 🇺🇲 adi|0512 - 美国 B [2]
+      - 🇯🇵 adi|0512 - 日本 A [2]
+      - 🇯🇵 adi|0512 - 日本 B [5]
+      - 🇭🇰 adi|0512 - 香港 A [2]
+      - 🇭🇰 adi|0512 - 香港 B [3]
+      - 🇭🇰 adi|0512 - 香港 IPLC [50]
+      - 🇸🇬 adi|0512 - 新加坡 [2]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - adi|0512 - 「🇸🇬」崆峒印「直连」✡
-      - adi|0512 - 「🇯🇵」鬼雕刀「直连」✡
-      - adi|0512 - 「🇯🇵」木马牛「直连」✡
-      - adi|0512 - 「🇸🇬」素王剑「直连」✡
-      - 🇨🇳 adi|0512 - 「🇯🇵」过河卒「解锁」✡
-      - adi|0512 - 「🇺🇸」专属七「直连」✡
-      - adi|0512 - 「🇯🇵」专属九「直连」✡
-      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 80端口 - 1
-      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 443端口 - 2
-      - adi|0512 - 【直连】随机节点 - 随机端口 - 6
-      - adi|0512 - 【直连】随机节点 - 随机端口 - 7
-      - adi|0512 - 【直连】随机节点 - 随机端口 - 8
-      - adi|0512 - 【直连】随机节点 - 随机端口 - 9
-      - adi|0512 - 【直连】随机节点 - 随机端口 - 10
-      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 1
-      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 2
-      - 🇭🇰 adi|0512 - 🇭🇰 香港HK 2022 *hi-moon.pw
-      - 🇭🇰 adi|0512 - 公益 | 香港 A [2]
-      - 🇭🇰 adi|0512 - 公益 | 香港 B [3]
-      - 🇸🇬 adi|0512 - 公益 | 新加坡 [2]
-      - 🇯🇵 adi|0512 - 公益 | 日本 A [2]
-      - 🇯🇵 adi|0512 - 公益 | 日本 B [5]
-      - 🇺🇲 adi|0512 - 公益 | 美国 A [2]
-      - 🇺🇲 adi|0512 - 公益 | 美国 B [2]
-      - 🇭🇰 adi|0512 - 公益 | 香港 IPLC [50]
-      - 🇭🇰 adi|0512 - 混淆免流 | 香港 A
-      - 🇭🇰 adi|0512 - 混淆免流 | 香港 B
+      - adi|0512 - V01
+      - adi|0512 - V10
+      - adi|0512 - V12
+      - adi|0512 - V13
+      - adi|0512 - V14
+      - adi|0512 - CA-v2cross.com
+      - 🇦🇺 adi|0512 - 澳大利亚  17
+      - 🇺🇲 adi|0512 - 北美地区  25
+      - 🇷🇺 adi|0512 - 俄罗斯 18
+      - adi|0512 - IDC 4
+      - 🇨🇦 adi|0512 - 加拿大 14
+      - 🇨🇦 adi|0512 - 加拿大 28
+      - 🇺🇲 adi|0512 - 美国 43
+      - 🇺🇲 adi|0512 - 美国 41
+      - 🇺🇲 adi|0512 - 美国 47
+      - 🇺🇲 adi|0512 - 美国 5
+      - 🇺🇲 adi|0512 - 美国 10
+      - adi|0512 - 希腊 19
+      - 🇸🇬 adi|0512 - 新加坡 13
+      - adi|0512 - 伊朗 23
+      - 🇺🇲 adi|0512 - 洛杉矶
+      - 🇺🇲 adi|0512 - US_1161
+      - 🇷🇴 adi|0512 - RO_1353
+      - adi|0512 - F1
+      - adi|0512 - F2
+      - 🇺🇲 adi|0512 - 美国 A [2]
+      - 🇺🇲 adi|0512 - 美国 B [2]
+      - 🇯🇵 adi|0512 - 日本 A [2]
+      - 🇯🇵 adi|0512 - 日本 B [5]
+      - 🇭🇰 adi|0512 - 香港 A [2]
+      - 🇭🇰 adi|0512 - 香港 B [3]
+      - 🇭🇰 adi|0512 - 香港 IPLC [50]
+      - 🇸🇬 adi|0512 - 新加坡 [2]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -115,33 +133,39 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - adi|0512 - 「🇸🇬」崆峒印「直连」✡
-      - adi|0512 - 「🇯🇵」鬼雕刀「直连」✡
-      - adi|0512 - 「🇯🇵」木马牛「直连」✡
-      - adi|0512 - 「🇸🇬」素王剑「直连」✡
-      - 🇨🇳 adi|0512 - 「🇯🇵」过河卒「解锁」✡
-      - adi|0512 - 「🇺🇸」专属七「直连」✡
-      - adi|0512 - 「🇯🇵」专属九「直连」✡
-      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 80端口 - 1
-      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 443端口 - 2
-      - adi|0512 - 【直连】随机节点 - 随机端口 - 6
-      - adi|0512 - 【直连】随机节点 - 随机端口 - 7
-      - adi|0512 - 【直连】随机节点 - 随机端口 - 8
-      - adi|0512 - 【直连】随机节点 - 随机端口 - 9
-      - adi|0512 - 【直连】随机节点 - 随机端口 - 10
-      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 1
-      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 2
-      - 🇭🇰 adi|0512 - 🇭🇰 香港HK 2022 *hi-moon.pw
-      - 🇭🇰 adi|0512 - 公益 | 香港 A [2]
-      - 🇭🇰 adi|0512 - 公益 | 香港 B [3]
-      - 🇸🇬 adi|0512 - 公益 | 新加坡 [2]
-      - 🇯🇵 adi|0512 - 公益 | 日本 A [2]
-      - 🇯🇵 adi|0512 - 公益 | 日本 B [5]
-      - 🇺🇲 adi|0512 - 公益 | 美国 A [2]
-      - 🇺🇲 adi|0512 - 公益 | 美国 B [2]
-      - 🇭🇰 adi|0512 - 公益 | 香港 IPLC [50]
-      - 🇭🇰 adi|0512 - 混淆免流 | 香港 A
-      - 🇭🇰 adi|0512 - 混淆免流 | 香港 B
+      - adi|0512 - V01
+      - adi|0512 - V10
+      - adi|0512 - V12
+      - adi|0512 - V13
+      - adi|0512 - V14
+      - adi|0512 - CA-v2cross.com
+      - 🇦🇺 adi|0512 - 澳大利亚  17
+      - 🇺🇲 adi|0512 - 北美地区  25
+      - 🇷🇺 adi|0512 - 俄罗斯 18
+      - adi|0512 - IDC 4
+      - 🇨🇦 adi|0512 - 加拿大 14
+      - 🇨🇦 adi|0512 - 加拿大 28
+      - 🇺🇲 adi|0512 - 美国 43
+      - 🇺🇲 adi|0512 - 美国 41
+      - 🇺🇲 adi|0512 - 美国 47
+      - 🇺🇲 adi|0512 - 美国 5
+      - 🇺🇲 adi|0512 - 美国 10
+      - adi|0512 - 希腊 19
+      - 🇸🇬 adi|0512 - 新加坡 13
+      - adi|0512 - 伊朗 23
+      - 🇺🇲 adi|0512 - 洛杉矶
+      - 🇺🇲 adi|0512 - US_1161
+      - 🇷🇴 adi|0512 - RO_1353
+      - adi|0512 - F1
+      - adi|0512 - F2
+      - 🇺🇲 adi|0512 - 美国 A [2]
+      - 🇺🇲 adi|0512 - 美国 B [2]
+      - 🇯🇵 adi|0512 - 日本 A [2]
+      - 🇯🇵 adi|0512 - 日本 B [5]
+      - 🇭🇰 adi|0512 - 香港 A [2]
+      - 🇭🇰 adi|0512 - 香港 B [3]
+      - 🇭🇰 adi|0512 - 香港 IPLC [50]
+      - 🇸🇬 adi|0512 - 新加坡 [2]
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
