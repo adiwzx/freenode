@@ -5,138 +5,99 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "adi|0505 - California, Tj", server: tj-node-5.gfwairport.net, port: 50001, type: trojan, password: 05e3cab8-28ad-4477-b5b6-5ff8c44689f0}
-  - {name: "🇭🇰 adi|0505 - Hongkong, Tj", server: tj-node-4.gfwairport.net, port: 50001, type: trojan, password: 05e3cab8-28ad-4477-b5b6-5ff8c44689f0}
-  - {name: "🇸🇬 adi|0505 - Singapore, Tj", server: tj-node-3.gfwairport.net, port: 50001, type: trojan, password: 05e3cab8-28ad-4477-b5b6-5ff8c44689f0}
-  - {name: "adi|0505 - Tokyo, Tj", server: tj-node-1.gfwairport.net, port: 50001, type: trojan, password: 05e3cab8-28ad-4477-b5b6-5ff8c44689f0}
-  - {name: "adi|0505 - California, SS", server: ss-node-5.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 05e3cab8-28ad-4477-b5b6-5ff8c44689f0}
-  - {name: "🇭🇰 adi|0505 - Hongkong, SS", server: ss-node-4.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 05e3cab8-28ad-4477-b5b6-5ff8c44689f0}
-  - {name: "adi|0505 - Incheon, SS", server: ss-node-2.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 05e3cab8-28ad-4477-b5b6-5ff8c44689f0}
-  - {name: "🇸🇬 adi|0505 - Singapore, SS", server: ss-node-3.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 05e3cab8-28ad-4477-b5b6-5ff8c44689f0}
-  - {name: "adi|0505 - Tokyo, SS", server: ss-node-1.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 05e3cab8-28ad-4477-b5b6-5ff8c44689f0}
-  - {name: "adi|0505 - California, V2", server: V2-NODE-5.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 05e3cab8-28ad-4477-b5b6-5ff8c44689f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: V2-NODE-5.GFWAIRPORT.NET}}}
-  - {name: 🇮🇪 adi|0505 - DUB/爱尔兰, server: 015a.AP.POP.BIGAIRPORT.NET, port: 15092, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 015a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: 🇩🇪 adi|0505 - FRA/法兰克福, server: 011a.AP.POP.BIGAIRPORT.NET, port: 26901, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 011a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: 🇭🇰 adi|0505 - HKG/香港 - 1, server: 021.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.baidu.com}}}
-  - {name: 🇭🇰 adi|0505 - HKG/香港 - 2, server: 022.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.baidu.com}}}
-  - {name: 🇭🇰 adi|0505 - HKG/香港 - 443, server: 002a.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 002a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: 🇭🇰 adi|0505 - HKG/香港 - 80, server: 001a.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 001a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: "🇭🇰 adi|0505 - Hongkong, V2", server: V2-NODE-4.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 05e3cab8-28ad-4477-b5b6-5ff8c44689f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: V2-NODE-4.GFWAIRPORT.NET}}}
-  - {name: 🇰🇷 adi|0505 - ICN/首尔 - 1, server: 027.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 027.AP.POP.BIGAIRPORT.NET}}}
-  - {name: 🇰🇷 adi|0505 - ICN/首尔 - 2, server: 028.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 028.AP.POP.BIGAIRPORT.NET}}}
-  - {name: 🇰🇷 adi|0505 - ICN/首尔 - 443, server: 008a.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 008a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: 🇰🇷 adi|0505 - ICN/首尔 - 80, server: 007a.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 007a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: 🇬🇧 adi|0505 - LCY/伦敦, server: 013a.AP.POP.BIGAIRPORT.NET, port: 43566, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 013a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: 🇦🇷 adi|0505 - PAR/巴黎, server: 014a.AP.POP.BIGAIRPORT.NET, port: 12659, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 014a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: 🇺🇲 adi|0505 - PDX/波特兰, server: 012a.AP.POP.BIGAIRPORT.NET, port: 10392, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 012a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: 🇸🇬 adi|0505 - SIN/狮城 - 1, server: 025.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 025.AP.POP.BIGAIRPORT.NET}}}
-  - {name: 🇸🇬 adi|0505 - SIN/狮城 - 2, server: 026.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 026.AP.POP.BIGAIRPORT.NET}}}
-  - {name: 🇸🇬 adi|0505 - SIN/狮城 - 443, server: 006a.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 006a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: 🇸🇬 adi|0505 - SIN/狮城 - 80, server: 005a.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 005a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: "🇸🇬 adi|0505 - Singapore, V2", server: V2-NODE-3.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 05e3cab8-28ad-4477-b5b6-5ff8c44689f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: V2-NODE-3.GFWAIRPORT.NET}}}
-  - {name: adi|0505 - SJC/圣荷西 - 1, server: 029.NA.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 029.NA.POP.BIGAIRPORT.NET}}}
-  - {name: adi|0505 - SJC/圣荷西 - 2, server: 030.NA.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 030.NA.POP.BIGAIRPORT.NET}}}
-  - {name: adi|0505 - SJC/圣荷西 - 443, server: 010a.NA.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 010a.NA.POP.BIGAIRPORT.NET}}}
-  - {name: adi|0505 - SJC/圣荷西 - 80, server: 009a.NA.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 009a.NA.POP.BIGAIRPORT.NET}}}
-  - {name: "adi|0505 - Tokyo, V2", server: V2-NODE-1.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 05e3cab8-28ad-4477-b5b6-5ff8c44689f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: V2-NODE-1.GFWAIRPORT.NET}}}
-  - {name: adi|0505 - TYO/东京 - 1, server: 023.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 023.AP.POP.BIGAIRPORT.NET}}}
-  - {name: adi|0505 - TYO/东京 - 2, server: 024.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 024.AP.POP.BIGAIRPORT.NET}}}
-  - {name: adi|0505 - TYO/东京 - 443, server: 004a.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 004a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: adi|0505 - TYO/东京 - 80, server: 003a.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 003a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: adi|0505 - 随机节点, server: 016a.AP.POP.BIGAIRPORT.NET, port: 51200, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 016a.AP.POP.BIGAIRPORT.NET}}}
-  - {name: adi|0505 - 随机节点 2, server: 017a.AP.POP.BIGAIRPORT.NET, port: 51200, type: vmess, uuid: a24915c7-6869-4e46-a3fa-614a503d5856, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 017a.AP.POP.BIGAIRPORT.NET}}}
+  - {name: adi|0512 - 「🇸🇬」崆峒印「直连」✡, server: qt6.shenseven.xyz, port: 8443, type: trojan, password: ca9cdbfc-d3bf-4752-822a-fac1daab9880, sni: qt6.shenseven.xyz, skip-cert-verify: true}
+  - {name: adi|0512 - 「🇯🇵」鬼雕刀「直连」✡, server: qt24.shenseven.xyz, port: 2083, type: trojan, password: ca9cdbfc-d3bf-4752-822a-fac1daab9880, sni: qt24.shenseven.xyz, skip-cert-verify: true}
+  - {name: adi|0512 - 「🇯🇵」木马牛「直连」✡, server: qt28.shenseven.xyz, port: 1314, type: trojan, password: ca9cdbfc-d3bf-4752-822a-fac1daab9880, sni: qt28.shenseven.xyz, skip-cert-verify: true}
+  - {name: adi|0512 - 「🇸🇬」素王剑「直连」✡, server: qt29.shenseven.xyz, port: 2022, type: trojan, password: ca9cdbfc-d3bf-4752-822a-fac1daab9880, sni: qt29.shenseven.xyz, skip-cert-verify: true}
+  - {name: 🇨🇳 adi|0512 - 「🇯🇵」过河卒「解锁」✡, server: qt35.shenseven.xyz, port: 2053, type: trojan, password: ca9cdbfc-d3bf-4752-822a-fac1daab9880, sni: qt35.shenseven.xyz, skip-cert-verify: true}
+  - {name: adi|0512 - 「🇺🇸」专属七「直连」✡, server: qt57.shenseven.xyz, port: 443, type: trojan, password: ca9cdbfc-d3bf-4752-822a-fac1daab9880, sni: qt57.shenseven.xyz, skip-cert-verify: true}
+  - {name: adi|0512 - 「🇯🇵」专属九「直连」✡, server: qt59.shenseven.xyz, port: 443, type: trojan, password: ca9cdbfc-d3bf-4752-822a-fac1daab9880, sni: qt59.shenseven.xyz, skip-cert-verify: true}
+  - {name: 🇭🇰 adi|0512 - 【直连】HKG/香港 - 80端口 - 1, server: 001a.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 193bc91e-12c5-4d13-a7ec-1df67dafd559, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 001a.AP.POP.BIGAIRPORT.NET}}}
+  - {name: 🇭🇰 adi|0512 - 【直连】HKG/香港 - 443端口 - 2, server: 002a.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 193bc91e-12c5-4d13-a7ec-1df67dafd559, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 002a.AP.POP.BIGAIRPORT.NET}}}
+  - {name: adi|0512 - 【直连】随机节点 - 随机端口 - 6, server: 016a.AP.POP.BIGAIRPORT.NET, port: 51200, type: vmess, uuid: 193bc91e-12c5-4d13-a7ec-1df67dafd559, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 016a.AP.POP.BIGAIRPORT.NET}}}
+  - {name: adi|0512 - 【直连】随机节点 - 随机端口 - 7, server: 017a.AP.POP.BIGAIRPORT.NET, port: 51200, type: vmess, uuid: 193bc91e-12c5-4d13-a7ec-1df67dafd559, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 017a.AP.POP.BIGAIRPORT.NET}}}
+  - {name: adi|0512 - 【直连】随机节点 - 随机端口 - 8, server: 018a.AP.POP.BIGAIRPORT.NET, port: 51200, type: vmess, uuid: 193bc91e-12c5-4d13-a7ec-1df67dafd559, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 018a.AP.POP.BIGAIRPORT.NET}}}
+  - {name: adi|0512 - 【直连】随机节点 - 随机端口 - 9, server: 019a.AP.POP.BIGAIRPORT.NET, port: 51200, type: vmess, uuid: 193bc91e-12c5-4d13-a7ec-1df67dafd559, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 019a.AP.POP.BIGAIRPORT.NET}}}
+  - {name: adi|0512 - 【直连】随机节点 - 随机端口 - 10, server: 020a.AP.POP.BIGAIRPORT.NET, port: 51200, type: vmess, uuid: 193bc91e-12c5-4d13-a7ec-1df67dafd559, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 020a.AP.POP.BIGAIRPORT.NET}}}
+  - {name: 🇭🇰 adi|0512 - 【直连】HKG/香港 - 1, server: 021.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: 193bc91e-12c5-4d13-a7ec-1df67dafd559, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.baidu.com}}}
+  - {name: 🇭🇰 adi|0512 - 【直连】HKG/香港 - 2, server: 022.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: 193bc91e-12c5-4d13-a7ec-1df67dafd559, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.baidu.com}}}
+  - {name: 🇭🇰 adi|0512 - 🇭🇰 香港HK 2022 *hi-moon.pw, server: 94.103.5.6, port: 15575, type: vmess, uuid: 8c226d2a-e526-48ed-d28a-be2190d92e55, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%2294.103.5.6%22%7D"}}}
+  - {name: "🇭🇰 adi|0512 - 公益 | 香港 A [2]", server: gz.ct.hk.fenglingcloud.com, port: 27801, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
+  - {name: "🇭🇰 adi|0512 - 公益 | 香港 B [3]", server: gz.ct.hk.fenglingcloud.com, port: 27802, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
+  - {name: "🇸🇬 adi|0512 - 公益 | 新加坡 [2]", server: gz.ct.hk.fenglingcloud.com, port: 27803, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
+  - {name: "🇯🇵 adi|0512 - 公益 | 日本 A [2]", server: sh.cu.jp.fenglingcloud.com, port: 27801, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
+  - {name: "🇯🇵 adi|0512 - 公益 | 日本 B [5]", server: sh.cu.jp.fenglingcloud.com, port: 27802, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
+  - {name: "🇺🇲 adi|0512 - 公益 | 美国 A [2]", server: sh.cu.jp.fenglingcloud.com, port: 27803, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
+  - {name: "🇺🇲 adi|0512 - 公益 | 美国 B [2]", server: sh.cu.jp.fenglingcloud.com, port: 27804, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
+  - {name: "🇭🇰 adi|0512 - 公益 | 香港 IPLC [50]", server: iplc.fenglingcloud.com, port: 31111, type: ss, cipher: chacha20-ietf-poly1305, password: bd5614e7-0c4c-4d41-b691-b4f73c3536bd}
+  - {name: 🇭🇰 adi|0512 - 混淆免流 | 香港 A, server: hkml00.fenglingcloud.com, port: 80, type: vmess, uuid: bd5614e7-0c4c-4d41-b691-b4f73c3536bd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /linggg, headers: {Host: hkml00.fenglingcloud.com}}}
+  - {name: 🇭🇰 adi|0512 - 混淆免流 | 香港 B, server: hkml01.fenglingcloud.com, port: 80, type: vmess, uuid: bd5614e7-0c4c-4d41-b691-b4f73c3536bd, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hkml01.fenglingcloud.com}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - adi|0505 - California, Tj
-      - 🇭🇰 adi|0505 - Hongkong, Tj
-      - 🇸🇬 adi|0505 - Singapore, Tj
-      - adi|0505 - Tokyo, Tj
-      - adi|0505 - California, SS
-      - 🇭🇰 adi|0505 - Hongkong, SS
-      - adi|0505 - Incheon, SS
-      - 🇸🇬 adi|0505 - Singapore, SS
-      - adi|0505 - Tokyo, SS
-      - adi|0505 - California, V2
-      - 🇮🇪 adi|0505 - DUB/爱尔兰
-      - 🇩🇪 adi|0505 - FRA/法兰克福
-      - 🇭🇰 adi|0505 - HKG/香港 - 1
-      - 🇭🇰 adi|0505 - HKG/香港 - 2
-      - 🇭🇰 adi|0505 - HKG/香港 - 443
-      - 🇭🇰 adi|0505 - HKG/香港 - 80
-      - 🇭🇰 adi|0505 - Hongkong, V2
-      - 🇰🇷 adi|0505 - ICN/首尔 - 1
-      - 🇰🇷 adi|0505 - ICN/首尔 - 2
-      - 🇰🇷 adi|0505 - ICN/首尔 - 443
-      - 🇰🇷 adi|0505 - ICN/首尔 - 80
-      - 🇬🇧 adi|0505 - LCY/伦敦
-      - 🇦🇷 adi|0505 - PAR/巴黎
-      - 🇺🇲 adi|0505 - PDX/波特兰
-      - 🇸🇬 adi|0505 - SIN/狮城 - 1
-      - 🇸🇬 adi|0505 - SIN/狮城 - 2
-      - 🇸🇬 adi|0505 - SIN/狮城 - 443
-      - 🇸🇬 adi|0505 - SIN/狮城 - 80
-      - 🇸🇬 adi|0505 - Singapore, V2
-      - adi|0505 - SJC/圣荷西 - 1
-      - adi|0505 - SJC/圣荷西 - 2
-      - adi|0505 - SJC/圣荷西 - 443
-      - adi|0505 - SJC/圣荷西 - 80
-      - adi|0505 - Tokyo, V2
-      - adi|0505 - TYO/东京 - 1
-      - adi|0505 - TYO/东京 - 2
-      - adi|0505 - TYO/东京 - 443
-      - adi|0505 - TYO/东京 - 80
-      - adi|0505 - 随机节点
-      - adi|0505 - 随机节点 2
+      - adi|0512 - 「🇸🇬」崆峒印「直连」✡
+      - adi|0512 - 「🇯🇵」鬼雕刀「直连」✡
+      - adi|0512 - 「🇯🇵」木马牛「直连」✡
+      - adi|0512 - 「🇸🇬」素王剑「直连」✡
+      - 🇨🇳 adi|0512 - 「🇯🇵」过河卒「解锁」✡
+      - adi|0512 - 「🇺🇸」专属七「直连」✡
+      - adi|0512 - 「🇯🇵」专属九「直连」✡
+      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 80端口 - 1
+      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 443端口 - 2
+      - adi|0512 - 【直连】随机节点 - 随机端口 - 6
+      - adi|0512 - 【直连】随机节点 - 随机端口 - 7
+      - adi|0512 - 【直连】随机节点 - 随机端口 - 8
+      - adi|0512 - 【直连】随机节点 - 随机端口 - 9
+      - adi|0512 - 【直连】随机节点 - 随机端口 - 10
+      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 1
+      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 2
+      - 🇭🇰 adi|0512 - 🇭🇰 香港HK 2022 *hi-moon.pw
+      - 🇭🇰 adi|0512 - 公益 | 香港 A [2]
+      - 🇭🇰 adi|0512 - 公益 | 香港 B [3]
+      - 🇸🇬 adi|0512 - 公益 | 新加坡 [2]
+      - 🇯🇵 adi|0512 - 公益 | 日本 A [2]
+      - 🇯🇵 adi|0512 - 公益 | 日本 B [5]
+      - 🇺🇲 adi|0512 - 公益 | 美国 A [2]
+      - 🇺🇲 adi|0512 - 公益 | 美国 B [2]
+      - 🇭🇰 adi|0512 - 公益 | 香港 IPLC [50]
+      - 🇭🇰 adi|0512 - 混淆免流 | 香港 A
+      - 🇭🇰 adi|0512 - 混淆免流 | 香港 B
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - adi|0505 - California, Tj
-      - 🇭🇰 adi|0505 - Hongkong, Tj
-      - 🇸🇬 adi|0505 - Singapore, Tj
-      - adi|0505 - Tokyo, Tj
-      - adi|0505 - California, SS
-      - 🇭🇰 adi|0505 - Hongkong, SS
-      - adi|0505 - Incheon, SS
-      - 🇸🇬 adi|0505 - Singapore, SS
-      - adi|0505 - Tokyo, SS
-      - adi|0505 - California, V2
-      - 🇮🇪 adi|0505 - DUB/爱尔兰
-      - 🇩🇪 adi|0505 - FRA/法兰克福
-      - 🇭🇰 adi|0505 - HKG/香港 - 1
-      - 🇭🇰 adi|0505 - HKG/香港 - 2
-      - 🇭🇰 adi|0505 - HKG/香港 - 443
-      - 🇭🇰 adi|0505 - HKG/香港 - 80
-      - 🇭🇰 adi|0505 - Hongkong, V2
-      - 🇰🇷 adi|0505 - ICN/首尔 - 1
-      - 🇰🇷 adi|0505 - ICN/首尔 - 2
-      - 🇰🇷 adi|0505 - ICN/首尔 - 443
-      - 🇰🇷 adi|0505 - ICN/首尔 - 80
-      - 🇬🇧 adi|0505 - LCY/伦敦
-      - 🇦🇷 adi|0505 - PAR/巴黎
-      - 🇺🇲 adi|0505 - PDX/波特兰
-      - 🇸🇬 adi|0505 - SIN/狮城 - 1
-      - 🇸🇬 adi|0505 - SIN/狮城 - 2
-      - 🇸🇬 adi|0505 - SIN/狮城 - 443
-      - 🇸🇬 adi|0505 - SIN/狮城 - 80
-      - 🇸🇬 adi|0505 - Singapore, V2
-      - adi|0505 - SJC/圣荷西 - 1
-      - adi|0505 - SJC/圣荷西 - 2
-      - adi|0505 - SJC/圣荷西 - 443
-      - adi|0505 - SJC/圣荷西 - 80
-      - adi|0505 - Tokyo, V2
-      - adi|0505 - TYO/东京 - 1
-      - adi|0505 - TYO/东京 - 2
-      - adi|0505 - TYO/东京 - 443
-      - adi|0505 - TYO/东京 - 80
-      - adi|0505 - 随机节点
-      - adi|0505 - 随机节点 2
+      - adi|0512 - 「🇸🇬」崆峒印「直连」✡
+      - adi|0512 - 「🇯🇵」鬼雕刀「直连」✡
+      - adi|0512 - 「🇯🇵」木马牛「直连」✡
+      - adi|0512 - 「🇸🇬」素王剑「直连」✡
+      - 🇨🇳 adi|0512 - 「🇯🇵」过河卒「解锁」✡
+      - adi|0512 - 「🇺🇸」专属七「直连」✡
+      - adi|0512 - 「🇯🇵」专属九「直连」✡
+      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 80端口 - 1
+      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 443端口 - 2
+      - adi|0512 - 【直连】随机节点 - 随机端口 - 6
+      - adi|0512 - 【直连】随机节点 - 随机端口 - 7
+      - adi|0512 - 【直连】随机节点 - 随机端口 - 8
+      - adi|0512 - 【直连】随机节点 - 随机端口 - 9
+      - adi|0512 - 【直连】随机节点 - 随机端口 - 10
+      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 1
+      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 2
+      - 🇭🇰 adi|0512 - 🇭🇰 香港HK 2022 *hi-moon.pw
+      - 🇭🇰 adi|0512 - 公益 | 香港 A [2]
+      - 🇭🇰 adi|0512 - 公益 | 香港 B [3]
+      - 🇸🇬 adi|0512 - 公益 | 新加坡 [2]
+      - 🇯🇵 adi|0512 - 公益 | 日本 A [2]
+      - 🇯🇵 adi|0512 - 公益 | 日本 B [5]
+      - 🇺🇲 adi|0512 - 公益 | 美国 A [2]
+      - 🇺🇲 adi|0512 - 公益 | 美国 B [2]
+      - 🇭🇰 adi|0512 - 公益 | 香港 IPLC [50]
+      - 🇭🇰 adi|0512 - 混淆免流 | 香港 A
+      - 🇭🇰 adi|0512 - 混淆免流 | 香港 B
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -154,46 +115,33 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - adi|0505 - California, Tj
-      - 🇭🇰 adi|0505 - Hongkong, Tj
-      - 🇸🇬 adi|0505 - Singapore, Tj
-      - adi|0505 - Tokyo, Tj
-      - adi|0505 - California, SS
-      - 🇭🇰 adi|0505 - Hongkong, SS
-      - adi|0505 - Incheon, SS
-      - 🇸🇬 adi|0505 - Singapore, SS
-      - adi|0505 - Tokyo, SS
-      - adi|0505 - California, V2
-      - 🇮🇪 adi|0505 - DUB/爱尔兰
-      - 🇩🇪 adi|0505 - FRA/法兰克福
-      - 🇭🇰 adi|0505 - HKG/香港 - 1
-      - 🇭🇰 adi|0505 - HKG/香港 - 2
-      - 🇭🇰 adi|0505 - HKG/香港 - 443
-      - 🇭🇰 adi|0505 - HKG/香港 - 80
-      - 🇭🇰 adi|0505 - Hongkong, V2
-      - 🇰🇷 adi|0505 - ICN/首尔 - 1
-      - 🇰🇷 adi|0505 - ICN/首尔 - 2
-      - 🇰🇷 adi|0505 - ICN/首尔 - 443
-      - 🇰🇷 adi|0505 - ICN/首尔 - 80
-      - 🇬🇧 adi|0505 - LCY/伦敦
-      - 🇦🇷 adi|0505 - PAR/巴黎
-      - 🇺🇲 adi|0505 - PDX/波特兰
-      - 🇸🇬 adi|0505 - SIN/狮城 - 1
-      - 🇸🇬 adi|0505 - SIN/狮城 - 2
-      - 🇸🇬 adi|0505 - SIN/狮城 - 443
-      - 🇸🇬 adi|0505 - SIN/狮城 - 80
-      - 🇸🇬 adi|0505 - Singapore, V2
-      - adi|0505 - SJC/圣荷西 - 1
-      - adi|0505 - SJC/圣荷西 - 2
-      - adi|0505 - SJC/圣荷西 - 443
-      - adi|0505 - SJC/圣荷西 - 80
-      - adi|0505 - Tokyo, V2
-      - adi|0505 - TYO/东京 - 1
-      - adi|0505 - TYO/东京 - 2
-      - adi|0505 - TYO/东京 - 443
-      - adi|0505 - TYO/东京 - 80
-      - adi|0505 - 随机节点
-      - adi|0505 - 随机节点 2
+      - adi|0512 - 「🇸🇬」崆峒印「直连」✡
+      - adi|0512 - 「🇯🇵」鬼雕刀「直连」✡
+      - adi|0512 - 「🇯🇵」木马牛「直连」✡
+      - adi|0512 - 「🇸🇬」素王剑「直连」✡
+      - 🇨🇳 adi|0512 - 「🇯🇵」过河卒「解锁」✡
+      - adi|0512 - 「🇺🇸」专属七「直连」✡
+      - adi|0512 - 「🇯🇵」专属九「直连」✡
+      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 80端口 - 1
+      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 443端口 - 2
+      - adi|0512 - 【直连】随机节点 - 随机端口 - 6
+      - adi|0512 - 【直连】随机节点 - 随机端口 - 7
+      - adi|0512 - 【直连】随机节点 - 随机端口 - 8
+      - adi|0512 - 【直连】随机节点 - 随机端口 - 9
+      - adi|0512 - 【直连】随机节点 - 随机端口 - 10
+      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 1
+      - 🇭🇰 adi|0512 - 【直连】HKG/香港 - 2
+      - 🇭🇰 adi|0512 - 🇭🇰 香港HK 2022 *hi-moon.pw
+      - 🇭🇰 adi|0512 - 公益 | 香港 A [2]
+      - 🇭🇰 adi|0512 - 公益 | 香港 B [3]
+      - 🇸🇬 adi|0512 - 公益 | 新加坡 [2]
+      - 🇯🇵 adi|0512 - 公益 | 日本 A [2]
+      - 🇯🇵 adi|0512 - 公益 | 日本 B [5]
+      - 🇺🇲 adi|0512 - 公益 | 美国 A [2]
+      - 🇺🇲 adi|0512 - 公益 | 美国 B [2]
+      - 🇭🇰 adi|0512 - 公益 | 香港 IPLC [50]
+      - 🇭🇰 adi|0512 - 混淆免流 | 香港 A
+      - 🇭🇰 adi|0512 - 混淆免流 | 香港 B
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
