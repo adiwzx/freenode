@@ -35,6 +35,48 @@ const REGIONS = [
 
 const isOurs = (name) => String(name).startsWith(PREFIX) || name === "负载均衡";
 
+// ============ 防污染 DNS ============
+// 原理：DNS 污染只发生在明文 UDP 53。这里全部使用 IP 直连形式的加密 DoH
+// （https://1.1.1.1/... 无需域名引导、内容加密不可污染）；
+// 国内域名走国内 DoH 保速度，国外域名走海外 DoH 且 respect-rules 下经代理解析。
+// 设为 false 可整体停用（保留订阅自带 DNS）。
+const DNS_OVERWRITE = true;
+const DNS_CONFIG = {
+  enable: true,
+  ipv6: false,
+  "enhanced-mode": "fake-ip",
+  "fake-ip-range": "198.18.0.1/16",
+  // 这些域名返回真实 IP，避免 NTP/局域网发现/游戏平台被假 IP 弄坏
+  "fake-ip-filter": [
+    "*.lan", "*.local", "*.arpa",
+    "time.*.com", "ntp.*.com", "+.pool.ntp.org", "time.*.apple.com",
+    "+.msftconnecttest.com", "+.msftncsi.com",
+    "localhost.ptlogin2.qq.com", "+.market.xiaomi.com",
+    "+.stun.*.*", "+.stun.*.*.*", "+.stun.*.*.*.*",
+    "WORKGROUP",
+  ],
+  "use-hosts": true,
+  "respect-rules": true,   // 对 DNS 服务器自身的查询也按分流规则走（1.1.1.1 自动经代理）
+  // 引导用：明文国内 IP，仅解析 DoH 域名时兜底（本配置 DoH 均为 IP 直连形式，几乎用不到）
+  "default-nameserver": ["223.5.5.5", "119.29.29.29"],
+  // 解析订阅节点域名：必须国内直连可达
+  "proxy-server-nameserver": ["https://223.5.5.5/dns-query", "https://doh.pub/dns-query"],
+  // 国外域名：IP 直连式加密 DoH，防污染
+  nameserver: ["https://1.1.1.1/dns-query", "https://8.8.8.8/dns-query"],
+  // 国内域名：国内 DoH，快且结果准确
+  "nameserver-policy": {
+    "geosite:private": ["223.5.5.5", "119.29.29.29"],
+    "geosite:cn": ["https://223.5.5.5/dns-query", "https://doh.pub/dns-query"],
+  },
+};
+
+function applyDNS(config) {
+  if (!DNS_OVERWRITE) return;
+  // 与订阅自带 dns 逐键合并：脚本配置优先，订阅多余的键保留
+  config.dns = Object.assign({}, config.dns || {}, DNS_CONFIG);
+}
+// ====== 防污染 DNS 结束 ======
+
 function mkLB(name, strategy, nodes) {
   return {
     name: PREFIX + name,
@@ -111,5 +153,7 @@ function main(config, profileName) {
     }
     firstSelect.proxies.splice(pos, 0, PREFIX + "负载均衡");
   }
+
+  applyDNS(config);   // 防污染 DNS（含 fake-ip 白名单、加密 DoH、国内外分流）
   return config;
 }
